@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Disclosure Notification</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="title-block">
+          <p class="eyebrow">Asia/Seoul</p>
+          <h1>Disclosure Notification</h1>
+          <p class="subtitle">관심 기업 실적 및 공시 모니터링</p>
+        </div>
+        <div class="update-box" aria-live="polite">
+          <span>마지막 데이터 업데이트</span>
+          <strong id="lastUpdated">불러오는 중</strong>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="대시보드 탭">
+        <button class="tab-button active" type="button" data-tab="watchlist">관심 종목</button>
+        <button class="tab-button" type="button" data-tab="earnings">실적</button>
+        <button class="tab-button" type="button" data-tab="disclosures">공시</button>
+      </nav>
+
+      <main>
+        <section class="tab-panel active" id="panel-watchlist" aria-label="관심 종목">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Watchlist</p>
+              <h2>관심 종목 실적 현황</h2>
+            </div>
+            <p class="section-note">기업을 선택하면 실적 상세로 이동</p>
+          </div>
+
+          <div class="watchlist-summary" id="watchlistSummary"></div>
+        </section>
+
+        <section class="tab-panel" id="panel-earnings" aria-label="실적">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Earnings Detail</p>
+              <h2>선택 기업 실적 상세</h2>
+            </div>
+            <p class="section-note">최근 8개 분기 기준, 금액 단위는 억원</p>
+          </div>
+
+          <div class="detail-layout">
+            <section class="detail-primary" aria-label="선택 기업 실적 상세">
+              <div class="detail-head">
+                <div>
+                  <p class="section-kicker">Selected Company</p>
+                  <h3 id="selectedCompanyName">-</h3>
+                  <p id="selectedCompanyMeta" class="muted">-</p>
+                </div>
+                <div id="selectedStatus" class="status-pill">N/A</div>
+              </div>
+
+              <div class="metric-row" id="metricRow"></div>
+
+              <div class="chart-toolbar">
+                <div class="legend">
+                  <span><i class="legend-dot revenue"></i>매출액</span>
+                  <span><i class="legend-dot operating"></i>영업이익</span>
+                  <span><i class="legend-dot net"></i>순이익</span>
+                  <span><i class="legend-line"></i>예상치</span>
+                </div>
+                <span id="estimateNotice" class="muted">예상치 N/A</span>
+              </div>
+
+              <div class="chart-wrap" id="mainChart" aria-label="최근 8개 분기 막대그래프"></div>
+
+              <div class="table-wrap">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th>분기</th>
+                      <th>매출액</th>
+                      <th>YoY</th>
+                      <th>QoQ</th>
+                      <th>영업이익</th>
+                      <th>YoY</th>
+                      <th>QoQ</th>
+                      <th>순이익</th>
+                      <th>YoY</th>
+                      <th>QoQ</th>
+                      <th>예상치 대비</th>
+                    </tr>
+                  </thead>
+                  <tbody id="quarterTable"></tbody>
+                </table>
+              </div>
+            </section>
+
+            <aside class="detail-secondary" aria-label="선택 기업 정보">
+              <section class="side-section">
+                <div class="side-head">
+                  <h3>최근 공시</h3>
+                  <span id="disclosureCount">0건</span>
+                </div>
+                <div id="recentDisclosures" class="compact-list"></div>
+              </section>
+
+              <section class="side-section">
+                <div class="side-head">
+                  <h3>최근 뉴스</h3>
+                  <span>정적 시제품</span>
+                </div>
+                <div id="recentNews" class="compact-list"></div>
+              </section>
+            </aside>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-disclosures" aria-label="공시">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Disclosure Feed</p>
+              <h2>관심 기업 공시</h2>
+            </div>
+            <p class="section-note">최신 공시 시각순</p>
+          </div>
+
+          <div class="filter-bar">
+            <label>
+              기업
+              <select id="companyFilter"></select>
+            </label>
+            <label>
+              공시 유형
+              <select id="typeFilter"></select>
+            </label>
+          </div>
+
+          <div class="disclosure-list" id="disclosureList"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
