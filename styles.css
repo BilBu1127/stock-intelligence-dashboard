@@ -217,6 +217,18 @@ select:focus-visible {
   gap: 6px;
 }
 
+.quarter-badge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  color: var(--accent-dark);
+  font-size: 10px;
+  font-weight: 800;
+  vertical-align: 1px;
+}
+
 .watchlist-company .chip {
   justify-self: start;
 }
@@ -873,21 +885,24 @@ select {
 }
 
 .watchlist-tools {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) repeat(2, minmax(150px, 210px));
+  justify-content: end;
+  gap: 10px;
   margin-bottom: 14px;
 }
 
 .watchlist-tools label {
   display: grid;
   gap: 6px;
-  width: min(100%, 320px);
+  width: 100%;
   color: var(--muted);
   font-size: 12px;
   font-weight: 700;
 }
 
-.watchlist-tools input {
+.watchlist-tools input,
+.watchlist-tools select {
   min-height: 42px;
   width: 100%;
   border: 1px solid var(--line-strong);
@@ -898,7 +913,8 @@ select {
   font: inherit;
 }
 
-.watchlist-tools input:focus {
+.watchlist-tools input:focus,
+.watchlist-tools select:focus {
   border-color: var(--accent-dark);
   outline: 2px solid rgba(0, 100, 92, 0.14);
 }
@@ -989,6 +1005,10 @@ select {
     grid-template-columns: 1fr;
     gap: 14px;
     padding: 16px;
+  }
+
+  .watchlist-tools {
+    grid-template-columns: 1fr;
   }
 
   .watchlist-metrics {

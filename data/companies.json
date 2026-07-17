@@ -1,79 +1,13 @@
 {
-  "version": "2.0.0",
+  "version": "3.0.0",
   "companies": [
     {
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "status": "active",
-      "monitoring_tier": "core",
-      "news_enabled": true,
-      "disclosure_enabled": true,
-      "earnings_enabled": true,
-      "naver_query_budget": 3,
-      "gdelt_query_budget": 1,
-      "aliases": [
-        "SK하이닉스"
-      ],
-      "english_aliases": [
-        "SK hynix",
-        "SK Hynix Inc"
-      ],
-      "sector": "반도체·메모리",
-      "important_keywords": [
-        "HBM",
-        "고대역폭메모리",
-        "DRAM",
-        "NAND",
-        "AI memory",
-        "earnings",
-        "실적",
-        "투자",
-        "fab",
-        "공급",
-        "수출 규제",
-        "인수"
-      ],
-      "excluded_keywords": [
-        "주가 전망",
-        "목표주가",
-        "종목 추천",
-        "급등주",
-        "stocks to buy",
-        "stock picks",
-        "price target"
-      ],
-      "official_sources": [
-        "news.skhynix.com",
-        "skhynix.com"
-      ],
-      "major_source_domains": [
-        "reuters.com",
-        "bloomberg.com",
-        "wsj.com",
-        "ft.com",
-        "cnbc.com",
-        "digitimes.com",
-        "nikkei.com",
-        "yna.co.kr",
-        "yonhapnews.co.kr",
-        "koreaherald.com",
-        "koreatimes.co.kr",
-        "mk.co.kr",
-        "hankyung.com",
-        "etnews.com",
-        "zdnet.co.kr"
-      ]
-    },
-    {
       "company_name": "삼성전자",
+      "input_company_name": "삼성전자",
       "stock_code": "005930",
-      "status": "active",
+      "category": "반도체",
+      "sector": "유가",
       "monitoring_tier": "core",
-      "news_enabled": true,
-      "disclosure_enabled": true,
-      "earnings_enabled": true,
-      "naver_query_budget": 3,
-      "gdelt_query_budget": 1,
       "aliases": [
         "삼성전자"
       ],
@@ -81,24 +15,37 @@
         "Samsung Electronics",
         "Samsung Electronics Co"
       ],
-      "sector": "반도체·전자",
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
       "important_keywords": [
-        "반도체",
         "HBM",
-        "foundry",
-        "파운드리",
-        "실적",
-        "투자",
-        "공급",
-        "인수"
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
       ],
       "excluded_keywords": [
         "주가 전망",
         "목표주가",
         "종목 추천",
+        "급등주",
+        "stock picks",
         "stocks to buy",
-        "stock picks"
+        "price target"
       ],
+      "previous_names": [],
       "official_sources": [
         "news.samsung.com",
         "samsung.com"
@@ -106,57 +53,3762 @@
       "major_source_domains": [
         "reuters.com",
         "bloomberg.com",
-        "wsj.com",
-        "ft.com",
-        "cnbc.com",
-        "nikkei.com",
         "yna.co.kr",
+        "yonhapnews.co.kr",
         "mk.co.kr",
-        "hankyung.com"
-      ]
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
     },
     {
-      "company_name": "동원금속",
-      "stock_code": "018500",
+      "company_name": "SK하이닉스",
+      "input_company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "category": "반도체",
+      "sector": "유가",
+      "monitoring_tier": "core",
+      "aliases": [
+        "SK하이닉스"
+      ],
+      "english_aliases": [
+        "SK hynix",
+        "SK Hynix Inc"
+      ],
       "status": "active",
-      "monitoring_tier": "watch",
       "news_enabled": true,
       "disclosure_enabled": true,
       "earnings_enabled": true,
       "naver_query_budget": 3,
       "gdelt_query_budget": 1,
-      "aliases": [
-        "동원금속"
-      ],
-      "english_aliases": [
-        "Dongwon Metal",
-        "Dongwon Metal Co"
-      ],
-      "sector": "자동차 부품",
       "important_keywords": [
-        "자동차 부품",
-        "공급계약",
-        "시설투자",
-        "실적",
-        "배당",
-        "인수"
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
       ],
       "excluded_keywords": [
         "주가 전망",
         "목표주가",
         "종목 추천",
         "급등주",
-        "stock picks"
+        "stock picks",
+        "stocks to buy",
+        "price target"
       ],
+      "previous_names": [],
       "official_sources": [
-        "dongwonmetal.co.kr"
+        "news.skhynix.com",
+        "skhynix.com"
       ],
       "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
         "yna.co.kr",
+        "yonhapnews.co.kr",
         "mk.co.kr",
         "hankyung.com",
-        "etnews.com"
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "한미반도체",
+      "input_company_name": "한미반도체",
+      "stock_code": "042700",
+      "category": "반도체",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "한미반도체"
+      ],
+      "english_aliases": [
+        "Hanmi Semiconductor"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "피에스케이홀딩스",
+      "input_company_name": "피에스케이홀딩스",
+      "stock_code": "031980",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "피에스케이홀딩스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "테크윙",
+      "input_company_name": "테크윙",
+      "stock_code": "089030",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "테크윙"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "테스",
+      "input_company_name": "테스",
+      "stock_code": "095610",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "테스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": true,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "원익IPS",
+      "input_company_name": "원익IPS",
+      "stock_code": "240810",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "원익IPS"
+      ],
+      "english_aliases": [
+        "Wonik IPS"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "유진테크",
+      "input_company_name": "유진테크",
+      "stock_code": "084370",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "유진테크"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "피에스케이",
+      "input_company_name": "피에스케이",
+      "stock_code": "319660",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "피에스케이"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": [
+        "피에스케이홀딩스"
       ]
+    },
+    {
+      "company_name": "케이씨텍",
+      "input_company_name": "케이씨텍",
+      "stock_code": "281820",
+      "category": "반도체",
+      "sector": "유가",
+      "monitoring_tier": "core",
+      "aliases": [
+        "케이씨텍"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "HPSP",
+      "input_company_name": "HPSP",
+      "stock_code": "403870",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "HPSP"
+      ],
+      "english_aliases": [
+        "HPSP"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "엘티씨",
+      "input_company_name": "엘티씨",
+      "stock_code": "170920",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "엘티씨"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "솔브레인",
+      "input_company_name": "솔브레인",
+      "stock_code": "357780",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "솔브레인"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "동진쎄미켐",
+      "input_company_name": "동진쎄미켐",
+      "stock_code": "005290",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "동진쎄미켐"
+      ],
+      "english_aliases": [
+        "Dongjin Semichem"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "리노공업",
+      "input_company_name": "리노공업",
+      "stock_code": "058470",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "리노공업"
+      ],
+      "english_aliases": [
+        "Leeno Industrial"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "티에스이",
+      "input_company_name": "티에스이",
+      "stock_code": "131290",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "티에스이"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "샘씨엔에스",
+      "input_company_name": "샘씨엔에스",
+      "stock_code": "252990",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "샘씨엔에스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "코미코",
+      "input_company_name": "코미코",
+      "stock_code": "183300",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "코미코"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "한솔아이원스",
+      "input_company_name": "한솔아이원스",
+      "stock_code": "114810",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "한솔아이원스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "하나머티리얼즈",
+      "input_company_name": "하나머티리얼즈",
+      "stock_code": "166090",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "하나머티리얼즈"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "월덱스",
+      "input_company_name": "월덱스",
+      "stock_code": "101160",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "월덱스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "케이엔제이",
+      "input_company_name": "케이엔제이",
+      "stock_code": "272110",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "케이엔제이"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "이수페타시스",
+      "input_company_name": "이수페타시스",
+      "stock_code": "007660",
+      "category": "반도체",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "이수페타시스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "대덕전자",
+      "input_company_name": "대덕전자",
+      "stock_code": "353200",
+      "category": "반도체",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "대덕전자"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "티엘비",
+      "input_company_name": "티엘비",
+      "stock_code": "356860",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "티엘비"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "GST",
+      "input_company_name": "GST",
+      "stock_code": "083450",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "GST"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": true,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에스티아이",
+      "input_company_name": "에스티아이",
+      "stock_code": "039440",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "에스티아이"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "하나마이크론",
+      "input_company_name": "하나마이크론",
+      "stock_code": "067310",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "하나마이크론"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에스앤에스텍",
+      "input_company_name": "에스앤에스텍",
+      "stock_code": "101490",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "에스앤에스텍"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에프에스티",
+      "input_company_name": "에프에스티",
+      "stock_code": "036810",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "에프에스티"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "제주반도체",
+      "input_company_name": "제주반도체",
+      "stock_code": "080220",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "제주반도체"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에이디테크놀로지",
+      "input_company_name": "에이디테크놀로지",
+      "stock_code": "200710",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "에이디테크놀로지"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "RF머트리얼즈",
+      "input_company_name": "RF머트리얼즈",
+      "stock_code": "327260",
+      "category": "반도체",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "RF머트리얼즈"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "wafer",
+        "fab",
+        "packaging",
+        "test",
+        "probe",
+        "EUV",
+        "CAPEX",
+        "고객 인증",
+        "장비 공급",
+        "소재 공급"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "삼성에스디에스",
+      "input_company_name": "삼성에스디에스",
+      "stock_code": "018260",
+      "category": "AI DC",
+      "sector": "유가",
+      "monitoring_tier": "core",
+      "aliases": [
+        "삼성에스디에스"
+      ],
+      "english_aliases": [
+        "Samsung SDS"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "AI data center",
+        "데이터센터",
+        "cloud",
+        "GPU",
+        "server",
+        "전력",
+        "냉각",
+        "수주",
+        "CAPEX"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "NAVER",
+      "input_company_name": "NAVER",
+      "stock_code": "035420",
+      "category": "AI DC",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "NAVER",
+        "네이버"
+      ],
+      "english_aliases": [
+        "NAVER",
+        "Naver Corp"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "AI data center",
+        "데이터센터",
+        "cloud",
+        "GPU",
+        "server",
+        "전력",
+        "냉각",
+        "수주",
+        "CAPEX"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "navercorp.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "지엔씨에너지",
+      "input_company_name": "지엔씨에너지",
+      "stock_code": "119850",
+      "category": "AI DC",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "지엔씨에너지"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "AI data center",
+        "데이터센터",
+        "cloud",
+        "GPU",
+        "server",
+        "전력",
+        "냉각",
+        "수주",
+        "CAPEX"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "엘에스일렉트릭",
+      "input_company_name": "LS ELECTRIC",
+      "stock_code": "010120",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "엘에스일렉트릭",
+        "LS ELECTRIC"
+      ],
+      "english_aliases": [
+        "LS ELECTRIC",
+        "LS Electric"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [
+        "LS산전"
+      ],
+      "official_sources": [
+        "ls-electric.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "corrected",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "산일전기",
+      "input_company_name": "산일전기",
+      "stock_code": "062040",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "core",
+      "aliases": [
+        "산일전기"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "효성중공업",
+      "input_company_name": "효성중공업",
+      "stock_code": "298040",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "효성중공업"
+      ],
+      "english_aliases": [
+        "Hyosung Heavy Industries"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "포스코인터내셔널",
+      "input_company_name": "포스코인터내셔널",
+      "stock_code": "047050",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "포스코인터내셔널"
+      ],
+      "english_aliases": [
+        "POSCO International"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "미코",
+      "input_company_name": "미코",
+      "stock_code": "059090",
+      "category": "에너지",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "미코"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": true,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": [
+        "코미코"
+      ]
+    },
+    {
+      "company_name": "두산에너빌리티",
+      "input_company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "두산에너빌리티"
+      ],
+      "english_aliases": [
+        "Doosan Enerbility"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "doosanenerbility.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "DL이앤씨",
+      "input_company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "DL이앤씨"
+      ],
+      "english_aliases": [
+        "DL E&C"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "현대건설",
+      "input_company_name": "현대건설",
+      "stock_code": "000720",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "현대건설"
+      ],
+      "english_aliases": [
+        "Hyundai Engineering & Construction",
+        "Hyundai E&C"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "POSCO홀딩스",
+      "input_company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "category": "에너지",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "POSCO홀딩스",
+        "포스코홀딩스"
+      ],
+      "english_aliases": [
+        "POSCO Holdings"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "posco-inc.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "비나텍",
+      "input_company_name": "비나텍",
+      "stock_code": "126340",
+      "category": "에너지",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "비나텍"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "변압기",
+        "전력기기",
+        "원전",
+        "가스터빈",
+        "ESS",
+        "수주",
+        "EPC",
+        "송배전",
+        "전력망"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "HD현대중공업",
+      "input_company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "category": "조선",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "HD현대중공업"
+      ],
+      "english_aliases": [
+        "HD Hyundai Heavy Industries"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "수주",
+        "선박",
+        "LNG",
+        "해양플랜트",
+        "선가",
+        "인도",
+        "조선소"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "hd-hhi.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "삼성중공업",
+      "input_company_name": "삼성중공업",
+      "stock_code": "010140",
+      "category": "조선",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "삼성중공업"
+      ],
+      "english_aliases": [
+        "Samsung Heavy Industries"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "수주",
+        "선박",
+        "LNG",
+        "해양플랜트",
+        "선가",
+        "인도",
+        "조선소"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에스엔시스",
+      "input_company_name": "에스엔시스",
+      "stock_code": "0008Z0",
+      "category": "조선",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "에스엔시스"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "수주",
+        "선박",
+        "LNG",
+        "해양플랜트",
+        "선가",
+        "인도",
+        "조선소"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "대한조선",
+      "input_company_name": "대한조선",
+      "stock_code": "439260",
+      "category": "조선",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "대한조선"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "수주",
+        "선박",
+        "LNG",
+        "해양플랜트",
+        "선가",
+        "인도",
+        "조선소"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "로보티즈",
+      "input_company_name": "로보티즈",
+      "stock_code": "108490",
+      "category": "로봇",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "로보티즈"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "humanoid",
+        "actuator",
+        "감속기",
+        "자율주행",
+        "로봇",
+        "양산",
+        "공급계약"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "현대모비스",
+      "input_company_name": "현대모비스",
+      "stock_code": "012330",
+      "category": "로봇",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "현대모비스"
+      ],
+      "english_aliases": [
+        "Hyundai Mobis"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "humanoid",
+        "actuator",
+        "감속기",
+        "자율주행",
+        "로봇",
+        "양산",
+        "공급계약"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "현대자동차",
+      "input_company_name": "현대차",
+      "stock_code": "005380",
+      "category": "로봇",
+      "sector": "유가",
+      "monitoring_tier": "core",
+      "aliases": [
+        "현대자동차",
+        "현대차"
+      ],
+      "english_aliases": [
+        "Hyundai Motor",
+        "Hyundai Motor Company"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "humanoid",
+        "actuator",
+        "감속기",
+        "자율주행",
+        "로봇",
+        "양산",
+        "공급계약"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "hyundai.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "corrected",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "에이피알",
+      "input_company_name": "에이피알",
+      "stock_code": "278470",
+      "category": "인바운드",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "에이피알"
+      ],
+      "english_aliases": [
+        "APR Corp"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "외국인 관광객",
+        "면세",
+        "화장품",
+        "의료관광",
+        "수출",
+        "중국",
+        "일본",
+        "미국"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "파마리서치",
+      "input_company_name": "파마리서치",
+      "stock_code": "214450",
+      "category": "인바운드",
+      "sector": "코스닥",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "파마리서치"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "외국인 관광객",
+        "면세",
+        "화장품",
+        "의료관광",
+        "수출",
+        "중국",
+        "일본",
+        "미국"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "글로벌텍스프리",
+      "input_company_name": "글로벌텍스프리",
+      "stock_code": "204620",
+      "category": "인바운드",
+      "sector": "코스닥",
+      "monitoring_tier": "core",
+      "aliases": [
+        "글로벌텍스프리"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 3,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "외국인 관광객",
+        "면세",
+        "화장품",
+        "의료관광",
+        "수출",
+        "중국",
+        "일본",
+        "미국"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "input_company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "category": "방산",
+      "sector": "유가",
+      "monitoring_tier": "watch",
+      "aliases": [
+        "LIG디펜스앤에어로스페이스",
+        "LIG넥스원"
+      ],
+      "english_aliases": [
+        "LIG Nex1",
+        "LIG Defense & Aerospace",
+        "LIG D&A"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 2,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "방산 수출",
+        "수주",
+        "미사일",
+        "항공기",
+        "전차",
+        "레이더",
+        "무기체계",
+        "국방",
+        "생산능력"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [
+        "LIG넥스원"
+      ],
+      "official_sources": [
+        "lignda.com",
+        "lignex1.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "RF시스템즈",
+      "input_company_name": "RF시스템즈",
+      "stock_code": "474610",
+      "category": "방산",
+      "sector": "코스닥",
+      "monitoring_tier": "background",
+      "aliases": [
+        "RF시스템즈"
+      ],
+      "english_aliases": [],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "방산 수출",
+        "수주",
+        "미사일",
+        "항공기",
+        "전차",
+        "레이더",
+        "무기체계",
+        "국방",
+        "생산능력"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "현대로템",
+      "input_company_name": "현대로템",
+      "stock_code": "064350",
+      "category": "방산",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "현대로템"
+      ],
+      "english_aliases": [
+        "Hyundai Rotem"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "방산 수출",
+        "수주",
+        "미사일",
+        "항공기",
+        "전차",
+        "레이더",
+        "무기체계",
+        "국방",
+        "생산능력"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "한국항공우주",
+      "input_company_name": "한국항공우주",
+      "stock_code": "047810",
+      "category": "방산",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "한국항공우주"
+      ],
+      "english_aliases": [
+        "Korea Aerospace Industries",
+        "KAI"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "방산 수출",
+        "수주",
+        "미사일",
+        "항공기",
+        "전차",
+        "레이더",
+        "무기체계",
+        "국방",
+        "생산능력"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
+    },
+    {
+      "company_name": "한화에어로스페이스",
+      "input_company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "category": "방산",
+      "sector": "유가",
+      "monitoring_tier": "background",
+      "aliases": [
+        "한화에어로스페이스"
+      ],
+      "english_aliases": [
+        "Hanwha Aerospace"
+      ],
+      "status": "active",
+      "news_enabled": true,
+      "disclosure_enabled": true,
+      "earnings_enabled": true,
+      "naver_query_budget": 1,
+      "gdelt_query_budget": 1,
+      "important_keywords": [
+        "방산 수출",
+        "수주",
+        "미사일",
+        "항공기",
+        "전차",
+        "레이더",
+        "무기체계",
+        "국방",
+        "생산능력"
+      ],
+      "excluded_keywords": [
+        "주가 전망",
+        "목표주가",
+        "종목 추천",
+        "급등주",
+        "stock picks",
+        "stocks to buy",
+        "price target"
+      ],
+      "previous_names": [],
+      "official_sources": [
+        "hanwhaaerospace.com"
+      ],
+      "major_source_domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "yna.co.kr",
+        "yonhapnews.co.kr",
+        "mk.co.kr",
+        "hankyung.com",
+        "etnews.com",
+        "zdnet.co.kr",
+        "thebell.co.kr"
+      ],
+      "validation_status": "verified",
+      "ambiguous_search": false,
+      "official_validation": {
+        "source_type": "KRX KIND 상장법인 목록",
+        "source_url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+        "checked_at": "2026-07-17T23:04:27.170760+09:00"
+      },
+      "cross_company_excluded_terms": []
     }
   ]
 }

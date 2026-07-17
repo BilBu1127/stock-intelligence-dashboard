@@ -5,11 +5,13 @@ from decimal import Decimal, InvalidOperation
 
 PARSER_VERSION = "1.0.0"
 MONEY_TOKEN_RE = re.compile(
-    r"N\s*/?\s*A|[+-]?\s*\d[\d,]*(?:\.\d+)?\s*(?:조|억)\s*원?|(?<![\w\d])-(?=\s|[),/]|$)",
+    r"N\s*/?\s*A|\(\s*\d[\d,]*(?:\.\d+)?\s*(?:조|억|백만|천)\s*원?\s*\)|"
+    r"[+-]?\s*\d[\d,]*(?:\.\d+)?\s*(?:조|억|백만|천)\s*원?|(?<![\w\d])-(?=\s|[),/]|$)",
     re.IGNORECASE,
 )
 QUARTER_RE = re.compile(
-    r"(?P<year>20\d{2})\s*[.\-/ ]?\s*(?:Q\s*(?P<q1>[1-4])|(?P<q2>[1-4])\s*Q)",
+    r"(?:(?P<year>20\d{2})\s*[.\-/ ]?\s*(?:Q\s*(?P<q1>[1-4])|(?P<q2>[1-4])\s*Q)|"
+    r"(?P<q3>[1-4])\s*Q\s*(?P<short_year>\d{2}))",
     re.IGNORECASE,
 )
 DART_URL_RE = re.compile(r"https://dart\.fss\.or\.kr/[^\s<>)]+", re.IGNORECASE)
@@ -29,7 +31,10 @@ def parse_amount(raw_value):
     if compact in {"-", "N/A", "NA", ""}:
         return {"raw": raw, "value_won": None}
 
-    match = re.fullmatch(r"([+-]?[\d,]+(?:\.\d+)?)(조|억)원?", compact)
+    parenthesized = compact.startswith("(") and compact.endswith(")")
+    if parenthesized:
+        compact = compact[1:-1]
+    match = re.fullmatch(r"([+-]?[\d,]+(?:\.\d+)?)(조|억|백만|천)원?", compact)
     if not match:
         return {"raw": raw, "value_won": None}
 
@@ -38,8 +43,15 @@ def parse_amount(raw_value):
     except InvalidOperation:
         return {"raw": raw, "value_won": None}
 
-    multiplier = Decimal("1000000000000") if match.group(2) == "조" else Decimal("100000000")
-    return {"raw": raw, "value_won": int(number * multiplier)}
+    multipliers = {
+        "조": Decimal("1000000000000"),
+        "억": Decimal("100000000"),
+        "백만": Decimal("1000000"),
+        "천": Decimal("1000"),
+    }
+    if parenthesized:
+        number = -abs(number)
+    return {"raw": raw, "value_won": int(number * multipliers[match.group(2)])}
 
 
 def find_amounts(text):
@@ -50,8 +62,9 @@ def normalize_quarter(value):
     match = QUARTER_RE.search(value or "")
     if not match:
         return None
-    quarter = match.group("q1") or match.group("q2")
-    return f"{match.group('year')} Q{quarter}"
+    quarter = match.group("q1") or match.group("q2") or match.group("q3")
+    year = match.group("year") or f"20{match.group('short_year')}"
+    return f"{year} Q{quarter}"
 
 
 def quarter_index(quarter):

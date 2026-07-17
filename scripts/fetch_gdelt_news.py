@@ -84,7 +84,21 @@ def build_query(company):
     aliases = valid_aliases(company)
     if not aliases:
         raise ValueError("No unambiguous company aliases are configured")
-    return "(" + " OR ".join(f'\"{alias}\"' for alias in aliases) + ")"
+    alias_query = "(" + " OR ".join(f'\"{alias}\"' for alias in aliases) + ")"
+    if not company.get("ambiguous_search"):
+        return alias_query
+    category_terms = {
+        "반도체": ["semiconductor", "반도체"],
+        "AI DC": ["data center", "데이터센터"],
+        "에너지": ["energy", "전력"],
+        "조선": ["shipbuilding", "조선"],
+        "로봇": ["robot", "로봇"],
+        "인바운드": ["tourism", "관광"],
+        "방산": ["defense", "방산"],
+    }
+    context = [str(company.get("stock_code") or "").strip(), *category_terms.get(company.get("category"), [])]
+    context = [term for term in context if term]
+    return f"{alias_query} AND (" + " OR ".join(f'\"{term}\"' for term in context) + ")"
 
 
 def build_gdelt_url(company, start_at, end_at):

@@ -188,12 +188,13 @@ class MockNewsProvider:
 
 
 class BatchNewsPipeline:
-    def __init__(self, data_root, config, providers, cursor_path=None, report_path=None):
+    def __init__(self, data_root, config, providers, cursor_path=None, report_path=None, progress_callback=None):
         self.data_root = Path(data_root)
         self.config = config
         self.providers = providers
         self.cursor_path = Path(cursor_path or self.data_root / "state" / "news-cursors.json")
         self.report_path = Path(report_path or self.data_root / "news-run-report.json")
+        self.progress_callback = progress_callback
 
     def _provider_budget(self, company, provider_name):
         return int(company.get(f"{provider_name}_query_budget", self.config["budgets"][provider_name]["default_company_requests"]))
@@ -218,12 +219,22 @@ class BatchNewsPipeline:
             state["api_usage"] = {"date": usage_day, "naver": 0, "gdelt": 0}
 
         configured = [company_defaults(item) for item in companies]
-        active = [item for item in configured if item["status"] == "active" and item["news_enabled"]]
+        validation_excluded = [
+            item["stock_code"] for item in configured
+            if item.get("validation_status", "verified") not in {"verified", "corrected"}
+        ]
+        active = [
+            item for item in configured
+            if item["status"] == "active"
+            and item["news_enabled"]
+            and item.get("validation_status", "verified") in {"verified", "corrected"}
+        ]
         active.sort(key=lambda item: self._priority(item, state))
         batch_size = int(self.config["batch"]["batch_size"])
         provider_calls = Counter()
         provider_errors = {name: Counter() for name in self.providers}
         per_company_calls = {}
+        per_company_quality = {}
         company_durations = {}
         batch_durations = []
         successful, failed, skipped = [], [], []
@@ -238,6 +249,10 @@ class BatchNewsPipeline:
                 company_started = time.perf_counter()
                 code = company["stock_code"]
                 per_company_calls[code] = {name: 0 for name in self.providers}
+                per_company_quality[code] = {
+                    "raw_articles": 0, "relevant_articles": 0, "duplicate_articles": 0,
+                    "event_clusters": 0, "importance_counts": {}, "exclusion_reasons": {},
+                }
                 collected = []
                 provider_successes = 0
                 company_errors = []
@@ -257,6 +272,11 @@ class BatchNewsPipeline:
                         state["api_usage"][provider_name] = state["api_usage"].get(provider_name, 0) + calls
                         per_company_calls[code][provider_name] += calls
                         raw_count += int(meta.get("raw_count", len(articles)))
+                        per_company_quality[code]["raw_articles"] += int(meta.get("raw_count", len(articles)))
+                        per_company_quality[code]["relevant_articles"] += int(meta.get("relevant_count", len(articles)))
+                        for reason, count in meta.get("rejected", {}).items():
+                            exclusions = per_company_quality[code]["exclusion_reasons"]
+                            exclusions[reason] = exclusions.get(reason, 0) + int(count)
                         collected.extend(articles)
                         provider_successes += 1
                         latest = max((parse_datetime(item.get("published_at")) for item in articles), default=None)
@@ -286,10 +306,15 @@ class BatchNewsPipeline:
                 if provider_successes:
                     deduplicated, dedupe_meta = deduplicate_standard_articles(collected)
                     duplicate_count += dedupe_meta["removed_count"]
+                    per_company_quality[code]["duplicate_articles"] = dedupe_meta["removed_count"]
                     clusters = cluster_event_articles(deduplicated)
                     new_events = [build_public_event(cluster, company, now=now) for cluster in clusters]
                     new_count += len(deduplicated)
                     new_cluster_count += len(new_events)
+                    per_company_quality[code]["event_clusters"] = len(new_events)
+                    per_company_quality[code]["importance_counts"] = dict(Counter(
+                        item.get("importance_level", "low") for item in new_events
+                    ))
                     merged = new_events + existing_payload.get("news", [])
                     retained = retain_public_events(merged, now, self.config["retention"])
                     fingerprint_cutoff = now - timedelta(days=self.config["collection"]["fingerprint_retention_days"])
@@ -349,6 +374,13 @@ class BatchNewsPipeline:
                 "duration_seconds": round(time.perf_counter() - batch_started, 6),
                 "checkpoint_written": True,
             })
+            if self.progress_callback:
+                self.progress_callback({
+                    "batch": batch_number,
+                    "company_count": len(batch),
+                    "processed_total": min(offset + len(batch), len(active)),
+                    "active_total": len(active),
+                })
 
         _, peak_memory = tracemalloc.get_traced_memory()
         tracemalloc.stop()
@@ -357,6 +389,17 @@ class BatchNewsPipeline:
             path = self.data_root / "news" / "by-company" / f"{company['stock_code']}.json"
             by_company_sizes[company["stock_code"]] = path.stat().st_size if path.is_file() else 0
         tier_counts = Counter(item["monitoring_tier"] for item in active)
+        url_assignments = {}
+        for company in active:
+            payload = read_json(self.data_root / "news" / "by-company" / f"{company['stock_code']}.json", {}) or {}
+            for event in payload.get("news", []):
+                url = event.get("representative_url")
+                if url:
+                    url_assignments.setdefault(url, set()).add(company["stock_code"])
+        cross_company_duplicates = [
+            {"url": url, "stock_codes": sorted(codes)}
+            for url, codes in url_assignments.items() if len(codes) > 1
+        ]
         report = {
             "executed_at": now.isoformat().replace("+00:00", "Z"),
             "mode": "backfill" if backfill else "incremental",
@@ -366,9 +409,12 @@ class BatchNewsPipeline:
             "successful_companies": successful,
             "failed_companies": failed,
             "skipped_companies": skipped,
+            "validation_excluded_companies": validation_excluded,
             "monitoring_tier_counts": dict(tier_counts),
             "provider_api_calls": dict(provider_calls),
             "company_api_calls": per_company_calls,
+            "company_quality": per_company_quality,
+            "cross_company_duplicate_assignments": cross_company_duplicates,
             "provider_error_counts": {name: dict(counts) for name, counts in provider_errors.items()},
             "provider_transient_error_counts": {
                 name: {

@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -21,16 +22,38 @@ def company_match_terms(company):
         company.get("company_name", ""),
         *company.get("aliases", []),
         *company.get("english_aliases", []),
+        *company.get("previous_names", []),
     ]
+
+
+def term_in_text(text, term):
+    if not term:
+        return False
+    if re.search(r"[A-Za-z]", term):
+        return bool(re.search(rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])", text, re.IGNORECASE))
+    return term.casefold() in text.casefold()
+
+
+def message_matches_company(message_text, company):
+    terms = [term for term in company_match_terms(company) if term]
+    matched = any(term_in_text(message_text, term) for term in terms)
+    if not matched:
+        return False
+    if not company.get("ambiguous_search"):
+        return True
+    code = str(company.get("stock_code") or "")
+    if code and code in message_text:
+        return True
+    context = [company.get("category", ""), *company.get("important_keywords", [])]
+    return any(term_in_text(message_text, term) for term in context if term)
 
 
 def distribute_messages(messages, companies):
     distribution = {company["stock_code"]: [] for company in companies}
     for message in messages:
-        text = (message.get("text") or "").casefold()
+        text = message.get("text") or ""
         for company in companies:
-            terms = [term.casefold() for term in company_match_terms(company) if term]
-            if any(term in text for term in terms):
+            if message_matches_company(text, company):
                 distribution[company["stock_code"]].append(message)
     return distribution
 

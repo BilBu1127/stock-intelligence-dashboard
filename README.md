@@ -85,14 +85,17 @@ YoY와 QoQ는 `app.js`가 화면에서 자동 계산합니다. JSON 파일에는
 
 ## 로컬 Telegram 백필
 
-Telegram 인증정보와 세션은 Git에서 제외된 `.secrets/`에만 저장합니다. 원문 검증 샘플은 Git에서 제외된 `private_samples/`에만 저장하며 `data/`에는 기업명, 종목코드, 공시 정보, 실적 숫자, DART URL, Telegram message ID 같은 사실 데이터만 기록합니다.
+Telegram 인증정보와 세션은 Git에서 제외된 `.secrets/`에만 저장합니다. 과거 실적 원문은 Git에서 제외된 `private_samples/{종목코드}/` 또는 `private_samples/earnings_backfill/{종목코드}/`에만 둡니다. 이번 실적 백필은 Telegram 채널을 다시 검색하지 않고 이 로컬 TXT 파일만 사용합니다.
 
 ```powershell
-.\.venv\Scripts\python.exe -m unittest tests\test_awake_parser.py -v
-.\.venv\Scripts\python.exe scripts\backfill_company.py --stock-code 018500 --company-name 동원금속
+.\.venv\Scripts\python.exe scripts\backfill_local_earnings.py --dry-run
+.\.venv\Scripts\python.exe scripts\backfill_local_earnings.py
+.\.venv\Scripts\python.exe -m unittest discover -s tests -q
 ```
 
-백필은 `darthacking` 채널의 최신 메시지 최대 5,000개까지만 검색합니다. 메시지 본문이나 인증정보는 콘솔에 출력하지 않습니다. 결과 요약과 충돌·파싱 실패 message ID는 `data/parse-report.json`에서 확인합니다.
+공개 실적 파일에는 구조화된 금액, 분기, 잠정·정정 상태, 기준, DART URL만 저장합니다. 원문 파일명·해시는 `private_samples/earnings_backfill_report.json`에만 저장하고, `review/earnings-backfill-review.html`은 로컬 검토용으로 Git에서 제외합니다.
+
+현재 로컬 백필 결과는 61개 기업 모두 최근 8개 분기를 확보했습니다. 빈 분기를 임의의 숫자로 채우지 않으며, 누적 실적·연결/별도 혼용·충돌이 발견되면 공개 반영 전에 검토 상태로 남깁니다.
 
 ## 로컬 GDELT 뉴스 수집
 

@@ -3,9 +3,11 @@ import time
 try:
     from .build_news_dashboard import collect_gdelt
     from .fetch_naver_news import NaverRequestError, collect_naver_articles
+    from .score_news import assess_relevance
 except ImportError:
     from build_news_dashboard import collect_gdelt
     from fetch_naver_news import NaverRequestError, collect_naver_articles
+    from score_news import assess_relevance
 
 
 class NaverIncrementalProvider:
@@ -20,9 +22,20 @@ class NaverIncrementalProvider:
         if meta.get("errors") and not articles:
             error_type = meta["errors"][0].get("type", "NaverProviderError")
             raise NaverRequestError(error_type, meta.get("request_count", 0))
-        return articles, {
+        relevant = []
+        rejected = {}
+        for article in articles:
+            accepted, reason, _ = assess_relevance(article, company)
+            if accepted and article.get("relevance_score", 0) >= 60:
+                relevant.append(article)
+            else:
+                key = reason or "relevance_score_below_threshold"
+                rejected[key] = rejected.get(key, 0) + 1
+        return relevant, {
             "request_count": meta.get("request_count", 0),
             "raw_count": meta.get("raw_count", len(articles)),
+            "relevant_count": len(relevant),
+            "rejected": rejected,
             "continuation": None,
         }
 
@@ -46,5 +59,7 @@ class GdeltIncrementalProvider:
         return articles, {
             "request_count": meta.get("request_count", 0),
             "raw_count": meta.get("raw_count", len(articles)),
+            "relevant_count": len(articles),
+            "rejected": dict(meta.get("rejected", {})),
             "continuation": None,
         }

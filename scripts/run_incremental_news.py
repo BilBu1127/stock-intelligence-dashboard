@@ -23,7 +23,14 @@ def main():
         "naver": NaverIncrementalProvider(),
         "gdelt": GdeltIncrementalProvider(config["budgets"]["gdelt"]["request_delay_seconds"]),
     }
-    report = BatchNewsPipeline(ROOT / "data", config, providers).run(
+    def show_progress(item):
+        print(
+            f"Batch {item['batch']} complete: "
+            f"{item['processed_total']}/{item['active_total']} companies",
+            flush=True,
+        )
+
+    report = BatchNewsPipeline(ROOT / "data", config, providers, progress_callback=show_progress).run(
         companies, now=datetime.now(timezone.utc), backfill=args.backfill,
     )
     print(f"Processed companies: {report['processed_companies']}")

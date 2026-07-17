@@ -33,6 +33,12 @@ MARKET_ROUNDUP_TERMS = {
     "market roundup",
     "price target",
     "목표주가",
+    "레버리지 상품",
+    "외국인 순매수",
+    "외국인 순매도",
+    "거래소 외국인",
+    "관련주 상승",
+    "테마주",
 }
 STOCK_NOISE_TERMS = {
     "주가",
@@ -169,9 +175,25 @@ def assess_relevance(article, company):
         return False, "missing_title", None
     if not normalize_url(article.get("url")):
         return False, "invalid_url", None
-    alias = match_company_alias(title, company)
+    title_for_matching = title
+    for excluded_term in company.get("cross_company_excluded_terms", []):
+        flexible_term = r"\s*".join(re.escape(character) for character in excluded_term)
+        title_for_matching = re.sub(flexible_term, " ", title_for_matching, flags=re.IGNORECASE)
+    alias = match_company_alias(title_for_matching, company)
     if not alias:
-        return False, "company_alias_not_in_title", None
+        reason = "other_portfolio_company_in_title" if title_for_matching != title else "company_alias_not_in_title"
+        return False, reason, None
+    if company.get("ambiguous_search"):
+        normalized_title = normalize_title(title)
+        stock_code = normalize_title(str(company.get("stock_code") or ""))
+        keyword_match = any(
+            normalize_title(keyword) and normalize_title(keyword) in normalized_title
+            for keyword in company.get("important_keywords", [])
+        )
+        domain = canonical_domain(article.get("source_domain") or "")
+        official_match = source_type(domain, company) == "official" if domain else False
+        if not ((stock_code and stock_code in normalized_title) or keyword_match or official_match):
+            return False, "ambiguous_company_without_context", alias
     if is_market_roundup(title):
         return False, "market_roundup_or_stock_list", alias
     normalized = normalize_title(title)

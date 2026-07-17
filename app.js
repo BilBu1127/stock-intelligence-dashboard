@@ -99,6 +99,8 @@ const state = {
   newsPeriodFilter: "7",
   newsVisibleLimit: 40,
   watchlistSearch: "",
+  watchlistCategoryFilter: "all",
+  watchlistTierFilter: "all",
   watchlistVisibleLimit: 50,
   loadedCompanyDetails: new Set()
 };
@@ -109,6 +111,8 @@ const els = {
   panels: document.querySelectorAll(".tab-panel"),
   watchlistSummary: document.querySelector("#watchlistSummary"),
   watchlistSearch: document.querySelector("#watchlistSearch"),
+  watchlistCategoryFilter: document.querySelector("#watchlistCategoryFilter"),
+  watchlistTierFilter: document.querySelector("#watchlistTierFilter"),
   watchlistLoadMore: document.querySelector("#watchlistLoadMore"),
   selectedCompanyName: document.querySelector("#selectedCompanyName"),
   selectedCompanyMeta: document.querySelector("#selectedCompanyMeta"),
@@ -155,7 +159,26 @@ async function init() {
 }
 
 async function loadJsonCandidates(paths, fallback) {
-  if (window.location.protocol === "file:") return fallback;
+  if (window.location.protocol === "file:") {
+    if (fallback === FALLBACK_EARNINGS && Array.isArray(window.PORTFOLIO_INDEX)) {
+      const examples = new Map(FALLBACK_EARNINGS.companies.map((company) => [company.code, company]));
+      return {
+        ...FALLBACK_EARNINGS,
+        watchlist: window.PORTFOLIO_INDEX,
+        companies: window.PORTFOLIO_INDEX.map((item) => ({
+          ...item,
+          ...(examples.get(item.code) || {}),
+          name: item.name,
+          code: item.code,
+          market: item.market,
+          category: item.category,
+          monitoringTier: item.monitoringTier,
+          earnings: examples.get(item.code)?.earnings || []
+        }))
+      };
+    }
+    return fallback;
+  }
   for (const path of paths) {
     try {
       const response = await fetch(path, { cache: "no-store" });
@@ -265,6 +288,18 @@ function bindEvents() {
     renderWatchlist();
   });
 
+  els.watchlistCategoryFilter.addEventListener("change", (event) => {
+    state.watchlistCategoryFilter = event.target.value;
+    state.watchlistVisibleLimit = 50;
+    renderWatchlist();
+  });
+
+  els.watchlistTierFilter.addEventListener("change", (event) => {
+    state.watchlistTierFilter = event.target.value;
+    state.watchlistVisibleLimit = 50;
+    renderWatchlist();
+  });
+
   els.watchlistLoadMore.addEventListener("click", () => {
     state.watchlistVisibleLimit += 50;
     renderWatchlist();
@@ -279,12 +314,22 @@ function bindEvents() {
 function renderAll() {
   renderTabs();
   renderLastUpdated();
+  renderWatchlistFilters();
   renderWatchlist();
   renderSelectedCompany();
   renderFilters();
   renderDisclosureList();
   renderNewsFilters();
   renderNews();
+}
+
+function renderWatchlistFilters() {
+  const categories = [...new Set(state.earningsData.watchlist.map((item) => item.category).filter(Boolean))];
+  els.watchlistCategoryFilter.innerHTML = [
+    `<option value="all">전체 카테고리</option>`,
+    ...categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`)
+  ].join("");
+  els.watchlistCategoryFilter.value = state.watchlistCategoryFilter;
 }
 
 function renderTabs() {
@@ -314,8 +359,11 @@ function renderLastUpdated() {
 
 function renderWatchlist() {
   const companies = getCompaniesWithWatchlist().filter((company) => {
-    if (!state.watchlistSearch) return true;
-    return `${company.name} ${company.code}`.toLocaleLowerCase("ko-KR").includes(state.watchlistSearch);
+    const searchMatch = !state.watchlistSearch
+      || `${company.name} ${company.code}`.toLocaleLowerCase("ko-KR").includes(state.watchlistSearch);
+    const categoryMatch = state.watchlistCategoryFilter === "all" || company.category === state.watchlistCategoryFilter;
+    const tierMatch = state.watchlistTierFilter === "all" || company.monitoringTier === state.watchlistTierFilter;
+    return searchMatch && categoryMatch && tierMatch;
   });
   const visibleCompanies = companies.slice(0, state.watchlistVisibleLimit);
   els.watchlistSummary.innerHTML = visibleCompanies.map((company) => {
@@ -332,7 +380,7 @@ function renderWatchlist() {
         <span class="watchlist-company">
           <span class="chip ${status.tone}">${status.label}</span>
           <strong>${escapeHtml(company.name)}</strong>
-          <span>${escapeHtml(company.code)} · ${escapeHtml(company.market || "N/A")}</span>
+          <span>${escapeHtml(company.code)} · ${escapeHtml(company.category || "N/A")} · ${escapeHtml(tierLabel(company.monitoringTier))}</span>
         </span>
         <span class="watchlist-metrics">
           <span class="watchlist-metric">
@@ -362,6 +410,10 @@ function renderWatchlist() {
       openCompanyDetail(card.dataset.code);
     });
   });
+}
+
+function tierLabel(tier) {
+  return { core: "Core", watch: "Watch", background: "Background" }[tier] || "N/A";
 }
 
 async function openCompanyDetail(code) {
@@ -410,7 +462,11 @@ function renderSelectedCompany() {
   const status = getCompanyStatus(company, recentDisclosures);
 
   els.selectedCompanyName.textContent = company.name;
-  els.selectedCompanyMeta.textContent = `${company.code} · ${company.market || "N/A"}`;
+  const completion = completionLabel(company.completionStatus);
+  const missing = Array.isArray(company.missingQuarters) && company.missingQuarters.length
+    ? ` · 누락 ${company.missingQuarters.join(", ")}`
+    : "";
+  els.selectedCompanyMeta.textContent = `${company.code} · ${company.category || company.market || "N/A"} · ${completion} · 기준 ${company.currentBasis || "N/A"}${missing}`;
   els.selectedStatus.textContent = status.label;
   els.selectedStatus.className = `status-pill ${status.tone}`;
 
@@ -670,6 +726,9 @@ function getDisclosuresForCompany(code) {
 }
 
 function getCompanyStatus(company, disclosures) {
+  if (company.completionStatus === "complete_8q" && disclosures.length) return { label: "8분기·공시", tone: "" };
+  if (company.completionStatus === "complete_8q") return { label: "8분기 확보", tone: "" };
+  if (company.completionStatus === "needs_review" || company.completionStatus === "conflicting_data") return { label: "검토 필요", tone: "warn" };
   const latest = getLatestQuarter(company);
   if (!latest && !disclosures.length) return { label: "N/A", tone: "neutral" };
   if (disclosures.length) return { label: "공시 확인", tone: "" };
@@ -677,11 +736,25 @@ function getCompanyStatus(company, disclosures) {
 }
 
 function getWatchlistStatus(company, disclosureCount) {
+  if (company.completionStatus === "complete_8q" && disclosureCount > 0) return { label: "8분기·공시", tone: "" };
+  if (company.completionStatus === "complete_8q") return { label: "8분기", tone: "" };
+  if (company.completionStatus === "needs_review" || company.completionStatus === "conflicting_data") return { label: "검토 필요", tone: "warn" };
   const hasEarnings = Boolean(getLatestQuarter(company));
   if (hasEarnings && disclosureCount > 0) return { label: "실적·공시", tone: "" };
   if (hasEarnings) return { label: "실적", tone: "" };
   if (disclosureCount > 0) return { label: "공시", tone: "warn" };
   return { label: "N/A", tone: "neutral" };
+}
+
+function completionLabel(status) {
+  return {
+    complete_8q: "최근 8개 분기",
+    partial_5_to_7q: "5~7개 분기",
+    partial_1_to_4q: "1~4개 분기",
+    no_valid_quarter: "실적 N/A",
+    needs_review: "검토 필요",
+    conflicting_data: "충돌 검토"
+  }[status] || "분기 상태 N/A";
 }
 
 function metricBox(label, value, period, changeText) {
@@ -711,9 +784,13 @@ function findLatestIndex(quarters, key) {
 }
 
 function quarterRow(quarter, quarters) {
+  const badges = [
+    quarter.provisional === true ? "잠정" : "",
+    quarter.corrected ? "정정" : ""
+  ].filter(Boolean);
   return `
     <tr>
-      <td>${escapeHtml(quarter.period)}</td>
+      <td>${escapeHtml(quarter.period)} ${badges.map((badge) => `<span class="quarter-badge">${badge}</span>`).join(" ")}</td>
       <td>${formatMoney(quarter.revenue)}</td>
       <td class="${getTextTone(getYoY(quarter, quarters, "revenue"))}">${getYoY(quarter, quarters, "revenue")}</td>
       <td class="${getTextTone(getQoQ(quarter, quarters, "revenue"))}">${getQoQ(quarter, quarters, "revenue")}</td>

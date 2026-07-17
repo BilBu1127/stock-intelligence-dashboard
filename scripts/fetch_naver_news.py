@@ -28,7 +28,16 @@ NAVER_QUERIES = [
 def build_company_queries(company, query_budget=None):
     budget = max(1, int(query_budget or company.get("naver_query_budget", 3)))
     name = company["company_name"]
-    queries = [name]
+    if company.get("ambiguous_search"):
+        category = str(company.get("category") or company.get("sector") or "").strip()
+        code = str(company.get("stock_code") or "").strip()
+        queries = []
+        if category:
+            queries.append(f'"{name}" {category}')
+        if code:
+            queries.append(f'"{name}" {code}')
+    else:
+        queries = [name]
     for keyword in company.get("important_keywords", []):
         clean = str(keyword).strip()
         if not clean or clean.casefold() in {"earnings", "profit", "revenue"}:

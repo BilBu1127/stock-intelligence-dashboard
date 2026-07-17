@@ -43,6 +43,21 @@
               관심 기업 검색
               <input id="watchlistSearch" type="search" placeholder="기업명 또는 종목코드" autocomplete="off">
             </label>
+            <label>
+              카테고리
+              <select id="watchlistCategoryFilter">
+                <option value="all">전체 카테고리</option>
+              </select>
+            </label>
+            <label>
+              중요도
+              <select id="watchlistTierFilter">
+                <option value="all">전체 중요도</option>
+                <option value="core">Core</option>
+                <option value="watch">Watch</option>
+                <option value="background">Background</option>
+              </select>
+            </label>
           </div>
 
           <div class="watchlist-summary" id="watchlistSummary"></div>
@@ -227,6 +242,7 @@
       </main>
     </div>
 
+    <script src="./data/portfolio.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
