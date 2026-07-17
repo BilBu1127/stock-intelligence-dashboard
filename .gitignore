@@ -4,6 +4,13 @@ desktop.ini
 *.log
 .env
 .env.*
+.secrets/
+*.session
+*.session-journal
+**pycache**/
+.venv/
+private_samples/
+preview/
 node_modules/
 dist/
 build/
