@@ -59,6 +59,11 @@ def run_javascript_check():
     return {"passed": result.returncode == 0}
 
 
+def data_change_summary():
+    result = subprocess.run(["git", "diff", "--stat", "--", "data"], cwd=ROOT, text=True, capture_output=True, check=False)
+    return result.stdout.strip() or "no working-tree data changes"
+
+
 def main():
     parser = argparse.ArgumentParser(description="Read-only manual portfolio validation.")
     parser.add_argument("--validation-only", action="store_true", required=True)
@@ -108,6 +113,7 @@ def main():
     report["passed"] = tests["passed"] and javascript["passed"] and not public_json["findings"] and external_passed
     (args.output_dir / "validation-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     (args.output_dir / "test-summary.txt").write_text(f"tests_passed={tests['passed']}\ntests_count={tests['count']}\n", encoding="utf-8")
+    (args.output_dir / "data-change-summary.txt").write_text(data_change_summary() + "\n", encoding="utf-8")
     print("Validation completed" if report["passed"] else "Validation failed")
     raise SystemExit(0 if report["passed"] else 1)
 

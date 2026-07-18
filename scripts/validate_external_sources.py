@@ -60,6 +60,11 @@ def main():
         news = BatchNewsPipeline(temp_data, config, providers).run(active, now=datetime.now(timezone.utc))
         telegram = asyncio.run(validate_telegram(active))
         public_files = len(list(temp_data.rglob("*.json")))
+        public_output = args.output.parent / "public-json"
+        for name in ("news", "earnings", "disclosures"):
+            source = temp_data / name
+            if source.exists():
+                shutil.copytree(source, public_output / name, dirs_exist_ok=True)
     report = {
         "mode": "temporary_validation_only", "news": {
             "provider_api_calls": news.get("provider_api_calls", {}),
@@ -69,6 +74,7 @@ def main():
             "new_event_clusters": news.get("new_event_cluster_count", 0),
         },
         "telegram": telegram, "temporary_public_json_files": public_files,
+        "public_json_artifact": "public-json",
         "cursor_updated": False, "repository_writes": False,
     }
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
