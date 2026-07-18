@@ -1,0 +1,171 @@
+name: Manual Portfolio Production Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: Branch to update
+        required: true
+        default: automation-staging
+        type: string
+      apply_changes:
+        description: Apply validated data and cursor changes, commit, and push
+        required: true
+        default: false
+        type: boolean
+      force_full_refresh:
+        description: Manually request the configured seven-day refresh
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-production-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Check out requested branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target_ref }}
+          fetch-depth: 0
+
+      - name: Verify protected update target
+        env:
+          TARGET_REF: ${{ inputs.target_ref }}
+        run: |
+          set -euo pipefail
+          test -n "$TARGET_REF"
+          test "$TARGET_REF" != "main"
+          test "$TARGET_REF" = "automation-staging"
+          test "$(git branch --show-current)" = "$TARGET_REF"
+          git rev-parse HEAD > /tmp/portfolio-update-start-sha
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Verify required secrets exist
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          missing=0
+          for name in TELEGRAM_API_ID TELEGRAM_API_HASH TELEGRAM_SESSION NAVER_CLIENT_ID NAVER_CLIENT_SECRET; do
+            if [ -z "${!name:-}" ]; then
+              echo "Missing required secret name: $name"
+              missing=1
+            fi
+          done
+          test "$missing" -eq 0
+
+      - name: Run fail-fast local validation
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: >-
+          python scripts/manual_validation.py --validation-only
+          --output-dir production-artifacts/preflight
+
+      - name: Generate and validate incremental update
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          APPLY_CHANGES: ${{ inputs.apply_changes }}
+          FORCE_FULL_REFRESH: ${{ inputs.force_full_refresh }}
+        run: |
+          set -euo pipefail
+          arguments=(--output-dir production-artifacts)
+          if [ "$APPLY_CHANGES" = "true" ]; then
+            arguments+=(--apply-changes)
+          fi
+          if [ "$FORCE_FULL_REFRESH" = "true" ]; then
+            arguments+=(--force-full-refresh)
+          fi
+          python scripts/manual_production_update.py "${arguments[@]}"
+
+      - name: Verify repository diff allowlist
+        if: ${{ inputs.apply_changes }}
+        run: |
+          set -euo pipefail
+          git diff --check
+          mapfile -t changed < <(git diff --name-only)
+          for path in "${changed[@]}"; do
+            case "$path" in
+              data/news/index.json|data/news/by-company/*.json|data/earnings/index.json|data/earnings/by-company/*.json|data/disclosures/index.json|data/disclosures/by-company/*.json|data/state/*.json) ;;
+              *) echo "Disallowed repository change: $path"; exit 1 ;;
+            esac
+          done
+          if git status --porcelain --untracked-files=all | grep -Eq '(^|/)(\.secrets|private_samples|\.env)|\.session|production\.tmp'; then
+            echo "Sensitive or temporary path detected in the working tree"
+            exit 1
+          fi
+
+      - name: Commit and push eligible changes
+        if: ${{ inputs.apply_changes }}
+        env:
+          TARGET_REF: ${{ inputs.target_ref }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain --untracked-files=all -- data/news data/earnings data/disclosures data/state)" ]; then
+            echo "No data changes; no commit created"
+            exit 0
+          fi
+          start_sha=$(cat /tmp/portfolio-update-start-sha)
+          git fetch origin "$TARGET_REF"
+          test "$(git rev-parse "origin/$TARGET_REF")" = "$start_sha"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/news/index.json data/news/by-company data/earnings/index.json data/earnings/by-company data/disclosures/index.json data/disclosures/by-company data/state
+          mapfile -t staged < <(git diff --cached --name-only)
+          for path in "${staged[@]}"; do
+            case "$path" in
+              data/news/index.json|data/news/by-company/*.json|data/earnings/index.json|data/earnings/by-company/*.json|data/disclosures/index.json|data/disclosures/by-company/*.json|data/state/*.json) ;;
+              *) echo "Disallowed staged path: $path"; exit 1 ;;
+            esac
+          done
+          test "${#staged[@]}" -gt 0
+          git commit -m "Update portfolio data [automated]"
+          git push origin "HEAD:$TARGET_REF"
+
+      - name: Record sanitized completion summary
+        if: always()
+        run: |
+          mkdir -p production-artifacts
+          git rev-parse HEAD > production-artifacts/commit-hash.txt
+          git diff --stat > production-artifacts/repository-diff-summary.txt
+
+      - name: Upload sanitized production artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-production-update-result
+          path: production-artifacts/
+          retention-days: 3
+          if-no-files-found: warn
