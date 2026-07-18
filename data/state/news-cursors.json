@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-07-17T13:18:11.215753Z",
+  "updated_at": "2026-07-18T06:08:17.049284Z",
   "companies": {
     "000660": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T12:52:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T04:12:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -17,8 +17,8 @@
           "last_article_published_at": "2026-07-17T07:00:00Z",
           "last_collected_at": "2026-07-17T13:18:11.215753Z",
           "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
+          "last_error": "HTTP429",
+          "consecutive_failures": 1
         }
       },
       "event_fingerprints": [
@@ -35,44 +35,44 @@
           "last_seen_at": "2026-07-16T21:03:00Z"
         },
         {
+          "cluster_id": "3460324be264ce0b",
+          "last_seen_at": "2026-07-18T04:12:00Z"
+        },
+        {
+          "cluster_id": "914cd141c0c16236",
+          "last_seen_at": "2026-07-18T04:01:00Z"
+        },
+        {
+          "cluster_id": "66d00f71e316ad69",
+          "last_seen_at": "2026-07-18T02:56:00Z"
+        },
+        {
+          "cluster_id": "bc2a71873fae0a5b",
+          "last_seen_at": "2026-07-18T01:32:00Z"
+        },
+        {
+          "cluster_id": "8ebea35822db91d3",
+          "last_seen_at": "2026-07-18T00:10:00Z"
+        },
+        {
+          "cluster_id": "179f632344ad4876",
+          "last_seen_at": "2026-07-18T00:04:00Z"
+        },
+        {
+          "cluster_id": "44c664043f9181c6",
+          "last_seen_at": "2026-07-18T00:00:00Z"
+        },
+        {
+          "cluster_id": "da475a417b38db40",
+          "last_seen_at": "2026-07-17T22:00:00Z"
+        },
+        {
+          "cluster_id": "c20414bf518a6c27",
+          "last_seen_at": "2026-07-17T20:00:00Z"
+        },
+        {
           "cluster_id": "c74a807f424bedd9",
           "last_seen_at": "2026-07-17T12:52:00Z"
-        },
-        {
-          "cluster_id": "d0c9cd830109c051",
-          "last_seen_at": "2026-07-17T10:40:00Z"
-        },
-        {
-          "cluster_id": "51743374ecc0c8f6",
-          "last_seen_at": "2026-07-17T10:28:00Z"
-        },
-        {
-          "cluster_id": "da13764419bcfc92",
-          "last_seen_at": "2026-07-17T07:50:00Z"
-        },
-        {
-          "cluster_id": "b82a2f5b7eb642d1",
-          "last_seen_at": "2026-07-17T07:46:00Z"
-        },
-        {
-          "cluster_id": "be0ddb6e43fc0ade",
-          "last_seen_at": "2026-07-17T07:34:00Z"
-        },
-        {
-          "cluster_id": "5d94baa88307566b",
-          "last_seen_at": "2026-07-17T07:04:00Z"
-        },
-        {
-          "cluster_id": "049e7bfaa5835799",
-          "last_seen_at": "2026-07-17T07:00:00Z"
-        },
-        {
-          "cluster_id": "fa69bd5d6435d5ed",
-          "last_seen_at": "2026-07-17T06:52:00Z"
-        },
-        {
-          "cluster_id": "1ef58b85957a6e53",
-          "last_seen_at": "2026-07-17T06:46:00Z"
         }
       ],
       "article_hashes": [
@@ -341,53 +341,61 @@
           "published_at": "2026-07-17T06:03:00+09:00"
         },
         {
+          "hash": "2d50aeccf3bd1682e4710db8",
+          "published_at": "2026-07-18T13:12:00+09:00"
+        },
+        {
+          "hash": "83420224178d198a01367c67",
+          "published_at": "2026-07-18T11:00:00+09:00"
+        },
+        {
+          "hash": "d9551590451be4cbbe3c5b75",
+          "published_at": "2026-07-18T09:44:00+09:00"
+        },
+        {
+          "hash": "b84eec0fcd4b4ebd4da29522",
+          "published_at": "2026-07-18T13:01:00+09:00"
+        },
+        {
+          "hash": "352f0b52116477a7b44efd5f",
+          "published_at": "2026-07-18T11:56:00+09:00"
+        },
+        {
+          "hash": "f9a9c04898f57af091e07d0c",
+          "published_at": "2026-07-18T10:32:00+09:00"
+        },
+        {
+          "hash": "0b75af8d3f7e8916249613f3",
+          "published_at": "2026-07-18T09:10:00+09:00"
+        },
+        {
+          "hash": "6aac4eb4760dd8e8e21214d5",
+          "published_at": "2026-07-18T09:04:00+09:00"
+        },
+        {
+          "hash": "eca56c46befa932a9f60be22",
+          "published_at": "2026-07-18T09:00:00+09:00"
+        },
+        {
+          "hash": "e75bfb8d8252c8fc88a353e6",
+          "published_at": "2026-07-18T07:00:00+09:00"
+        },
+        {
+          "hash": "7b09543b4f8bdb0e1157dbac",
+          "published_at": "2026-07-18T05:00:00+09:00"
+        },
+        {
           "hash": "525797e1d9da6b85402df434",
           "published_at": "2026-07-17T21:52:00+09:00"
-        },
-        {
-          "hash": "7a237073685802f62a361ed5",
-          "published_at": "2026-07-17T19:40:00+09:00"
-        },
-        {
-          "hash": "b69ac9ce8fe5591d5da5a45f",
-          "published_at": "2026-07-17T19:28:00+09:00"
-        },
-        {
-          "hash": "84940797481757a45d7ebc26",
-          "published_at": "2026-07-17T16:50:00+09:00"
-        },
-        {
-          "hash": "9434e66ccf498cb59c724ef2",
-          "published_at": "2026-07-17T16:46:00+09:00"
-        },
-        {
-          "hash": "6c33ad683dd67da263502da3",
-          "published_at": "2026-07-17T16:34:00+09:00"
-        },
-        {
-          "hash": "ee7f10cde602fdc90788c6b3",
-          "published_at": "2026-07-17T16:04:00+09:00"
-        },
-        {
-          "hash": "e70754039e4499df5f840a0d",
-          "published_at": "2026-07-17T16:00:00+09:00"
-        },
-        {
-          "hash": "4eb976be6488b21727129ce3",
-          "published_at": "2026-07-17T15:52:00+09:00"
-        },
-        {
-          "hash": "e3fa209d590ea03ec5bc2588",
-          "published_at": "2026-07-17T15:46:00+09:00"
         }
       ]
     },
     "005380": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T09:10:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T01:16:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -397,17 +405,25 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "6334e0c4dddeea1a",
+          "last_seen_at": "2026-07-18T01:16:00Z"
+        },
         {
           "cluster_id": "ab1e3e0971a25882",
           "last_seen_at": "2026-07-16T09:10:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "ac0879b52e8d09a03f93fcf7",
+          "published_at": "2026-07-18T10:16:00+09:00"
+        },
         {
           "hash": "79147cf0665311348e31531d",
           "published_at": "2026-07-16T18:10:00+09:00"
@@ -417,9 +433,9 @@
     "005930": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T13:02:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T03:56:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -430,7 +446,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -439,44 +455,44 @@
           "last_seen_at": "2026-07-17T08:45:00Z"
         },
         {
+          "cluster_id": "1db75c9b4cacca50",
+          "last_seen_at": "2026-07-18T03:56:00Z"
+        },
+        {
+          "cluster_id": "84445408ff488988",
+          "last_seen_at": "2026-07-18T03:56:00Z"
+        },
+        {
+          "cluster_id": "2c58602a07a06f43",
+          "last_seen_at": "2026-07-18T03:00:00Z"
+        },
+        {
+          "cluster_id": "ffb76eab2318a3f6",
+          "last_seen_at": "2026-07-18T02:38:00Z"
+        },
+        {
+          "cluster_id": "5dc52e798f8bac69",
+          "last_seen_at": "2026-07-18T01:40:00Z"
+        },
+        {
+          "cluster_id": "ed01d8ff931318ed",
+          "last_seen_at": "2026-07-18T01:32:00Z"
+        },
+        {
+          "cluster_id": "ad06b04dabab9570",
+          "last_seen_at": "2026-07-18T01:18:00Z"
+        },
+        {
+          "cluster_id": "ffeeaff7629bc8ab",
+          "last_seen_at": "2026-07-18T00:48:00Z"
+        },
+        {
+          "cluster_id": "9fda2acf17378e6d",
+          "last_seen_at": "2026-07-18T00:34:00Z"
+        },
+        {
           "cluster_id": "2a54a66ef9b3ff23",
           "last_seen_at": "2026-07-17T13:02:00Z"
-        },
-        {
-          "cluster_id": "518c28d5598a6c5f",
-          "last_seen_at": "2026-07-17T12:14:00Z"
-        },
-        {
-          "cluster_id": "b9c79cd0643b1f51",
-          "last_seen_at": "2026-07-17T09:50:00Z"
-        },
-        {
-          "cluster_id": "209ea444e50beb05",
-          "last_seen_at": "2026-07-17T09:22:00Z"
-        },
-        {
-          "cluster_id": "e3a50eda52e77ad1",
-          "last_seen_at": "2026-07-17T08:40:00Z"
-        },
-        {
-          "cluster_id": "c2818e1cadb2ceb3",
-          "last_seen_at": "2026-07-17T08:06:00Z"
-        },
-        {
-          "cluster_id": "18a0d59844f0ed3e",
-          "last_seen_at": "2026-07-17T08:00:00Z"
-        },
-        {
-          "cluster_id": "54b2045844a542b3",
-          "last_seen_at": "2026-07-17T07:48:00Z"
-        },
-        {
-          "cluster_id": "89fd078b31f7017d",
-          "last_seen_at": "2026-07-17T07:12:00Z"
-        },
-        {
-          "cluster_id": "e9c5de4b952fc2a8",
-          "last_seen_at": "2026-07-17T07:00:00Z"
         }
       ],
       "article_hashes": [
@@ -485,64 +501,64 @@
           "published_at": "2026-07-17T17:45:00+09:00"
         },
         {
+          "hash": "5401fe1eb83cdce386080c20",
+          "published_at": "2026-07-18T12:56:00+09:00"
+        },
+        {
+          "hash": "2a20a018f7cbde0ad963f5ef",
+          "published_at": "2026-07-18T12:56:00+09:00"
+        },
+        {
+          "hash": "966a32f99378032874184607",
+          "published_at": "2026-07-18T12:00:00+09:00"
+        },
+        {
+          "hash": "eb8491f22b609b3c1e81a37e",
+          "published_at": "2026-07-18T11:38:00+09:00"
+        },
+        {
+          "hash": "0105a14746853bc34a2d2830",
+          "published_at": "2026-07-18T10:40:00+09:00"
+        },
+        {
+          "hash": "f9a9c04898f57af091e07d0c",
+          "published_at": "2026-07-18T10:32:00+09:00"
+        },
+        {
+          "hash": "9d69c918b258cc1a18af7a73",
+          "published_at": "2026-07-18T10:18:00+09:00"
+        },
+        {
+          "hash": "0da31bcfc2a0f05d5ccc0c25",
+          "published_at": "2026-07-18T09:48:00+09:00"
+        },
+        {
+          "hash": "a4aa2c43d765cddc50559ea7",
+          "published_at": "2026-07-18T09:34:00+09:00"
+        },
+        {
           "hash": "877f367656b7153316f6758a",
           "published_at": "2026-07-17T22:02:00+09:00"
-        },
-        {
-          "hash": "960c05aa4f367c64ab9898c3",
-          "published_at": "2026-07-17T21:14:00+09:00"
-        },
-        {
-          "hash": "533fb109a9076abfe76fdd30",
-          "published_at": "2026-07-17T18:50:00+09:00"
-        },
-        {
-          "hash": "8318df6dd9aa6ca64194caa9",
-          "published_at": "2026-07-17T18:22:00+09:00"
-        },
-        {
-          "hash": "8d6715a9f7079ebf9213b658",
-          "published_at": "2026-07-17T17:40:00+09:00"
-        },
-        {
-          "hash": "8c63761ac67262b3eb12805c",
-          "published_at": "2026-07-17T17:06:00+09:00"
-        },
-        {
-          "hash": "7062a5722257288e11283191",
-          "published_at": "2026-07-17T17:00:00+09:00"
-        },
-        {
-          "hash": "9fe1a513fdfb1d56ca389c2a",
-          "published_at": "2026-07-17T16:48:00+09:00"
-        },
-        {
-          "hash": "6c8eced007d76da018fc545f",
-          "published_at": "2026-07-17T16:12:00+09:00"
-        },
-        {
-          "hash": "e70754039e4499df5f840a0d",
-          "published_at": "2026-07-17T16:00:00+09:00"
         }
       ]
     },
     "018260": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-11T02:10:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
@@ -561,9 +577,9 @@
     "031980": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-14T08:26:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -573,8 +589,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -593,9 +609,9 @@
     "062040": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-16T23:06:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -605,8 +621,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -649,9 +665,9 @@
     "067310": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -661,8 +677,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -671,9 +687,9 @@
     "101160": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-13T09:52:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -683,8 +699,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -719,9 +735,9 @@
     "108490": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-15T04:18:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T01:00:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -732,10 +748,14 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "c55b4adff7680054",
+          "last_seen_at": "2026-07-18T01:00:00Z"
+        },
         {
           "cluster_id": "2dcb91efd5875a02",
           "last_seen_at": "2026-07-15T04:18:00Z"
@@ -762,6 +782,10 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "2bf6da5e28bd983e833f2a2e",
+          "published_at": "2026-07-18T10:00:00+09:00"
+        },
         {
           "hash": "c9a23dd55b2d8ddeba9dc3f5",
           "published_at": "2026-07-15T13:18:00+09:00"
@@ -791,9 +815,9 @@
     "114810": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -804,7 +828,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -813,9 +837,9 @@
     "119850": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T02:23:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -825,8 +849,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -865,31 +889,9 @@
     "166090": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
-          "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
-        },
-        "gdelt": {
-          "last_successful_run": null,
-          "last_article_published_at": null,
-          "last_collected_at": null,
-          "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
-        }
-      },
-      "event_fingerprints": [],
-      "article_hashes": []
-    },
-    "200710": {
-      "providers": {
-        "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -900,7 +902,29 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
+        }
+      },
+      "event_fingerprints": [],
+      "article_hashes": []
+    },
+    "200710": {
+      "providers": {
+        "naver": {
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
+          "continuation": null,
+          "last_error": null,
+          "consecutive_failures": 0
+        },
+        "gdelt": {
+          "last_successful_run": null,
+          "last_article_published_at": null,
+          "last_collected_at": null,
+          "continuation": null,
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -909,9 +933,9 @@
     "204620": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T01:40:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -922,7 +946,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -961,17 +985,17 @@
     "240810": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T08:56:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1013,9 +1037,9 @@
     "252990": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T11:18:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1025,8 +1049,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -1045,9 +1069,9 @@
     "272110": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1057,8 +1081,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -1067,9 +1091,9 @@
     "281820": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-11T01:50:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1080,7 +1104,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -1099,9 +1123,9 @@
     "327260": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T00:42:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1112,18 +1136,28 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
-      "event_fingerprints": [],
-      "article_hashes": []
+      "event_fingerprints": [
+        {
+          "cluster_id": "d507ab46ad1ebd98",
+          "last_seen_at": "2026-07-18T00:42:00Z"
+        }
+      ],
+      "article_hashes": [
+        {
+          "hash": "c9c483b87d3457324c9a4910",
+          "published_at": "2026-07-18T09:42:00+09:00"
+        }
+      ]
     },
     "0008Z0": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1134,7 +1168,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -1143,17 +1177,17 @@
     "010120": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-14T19:15:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1179,9 +1213,9 @@
     "010140": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T08:24:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T01:08:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1191,11 +1225,15 @@
           "last_article_published_at": null,
           "last_collected_at": "2026-07-17T13:18:11.215753Z",
           "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
+          "last_error": "HTTP429",
+          "consecutive_failures": 1
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "34874ca894966d90",
+          "last_seen_at": "2026-07-18T01:08:00Z"
+        },
         {
           "cluster_id": "1d2be76a13e52908",
           "last_seen_at": "2026-07-16T08:24:00Z"
@@ -1231,13 +1269,13 @@
         {
           "cluster_id": "9588e0bd77bec280",
           "last_seen_at": "2026-07-15T23:55:00Z"
-        },
-        {
-          "cluster_id": "724ce40212666ac9",
-          "last_seen_at": "2026-07-15T22:26:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "d1f327c0e3e46e8586881d51",
+          "published_at": "2026-07-18T10:08:00+09:00"
+        },
         {
           "hash": "ae77b9c6350099172a1749e4",
           "published_at": "2026-07-16T17:24:00+09:00"
@@ -1277,30 +1315,26 @@
         {
           "hash": "fb733ac91d0315279bcb9331",
           "published_at": "2026-07-16T08:55:00+09:00"
-        },
-        {
-          "hash": "0bdba4aed1882db0a6d6931f",
-          "published_at": "2026-07-16T07:26:00+09:00"
         }
       ]
     },
     "012330": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T12:42:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T03:10:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
-          "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-17T02:45:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
@@ -1313,6 +1347,30 @@
           "last_seen_at": "2026-07-16T22:46:00Z"
         },
         {
+          "cluster_id": "f59e4e4c487a470d",
+          "last_seen_at": "2026-07-18T03:10:00Z"
+        },
+        {
+          "cluster_id": "edb2454479ac5f32",
+          "last_seen_at": "2026-07-18T02:56:00Z"
+        },
+        {
+          "cluster_id": "95d934e927ae7bfb",
+          "last_seen_at": "2026-07-18T02:54:00Z"
+        },
+        {
+          "cluster_id": "22345eabe27bc6b4",
+          "last_seen_at": "2026-07-17T23:40:00Z"
+        },
+        {
+          "cluster_id": "d06b0f250ba942d7",
+          "last_seen_at": "2026-07-17T22:50:00Z"
+        },
+        {
+          "cluster_id": "10c87e8567d229b6",
+          "last_seen_at": "2026-07-17T20:00:00Z"
+        },
+        {
           "cluster_id": "4fed8c0d475ec5ac",
           "last_seen_at": "2026-07-17T12:42:00Z"
         },
@@ -1321,32 +1379,12 @@
           "last_seen_at": "2026-07-17T03:24:00Z"
         },
         {
+          "cluster_id": "84dd6b5a4b4d3ce9",
+          "last_seen_at": "2026-07-17T02:45:00Z"
+        },
+        {
           "cluster_id": "ef86ef53681ad97c",
           "last_seen_at": "2026-07-17T00:09:00Z"
-        },
-        {
-          "cluster_id": "f7dcadf211aa8c15",
-          "last_seen_at": "2026-07-17T00:00:00Z"
-        },
-        {
-          "cluster_id": "90cb9afbef027eac",
-          "last_seen_at": "2026-07-16T23:00:00Z"
-        },
-        {
-          "cluster_id": "2547b782011c1f9a",
-          "last_seen_at": "2026-07-16T22:42:00Z"
-        },
-        {
-          "cluster_id": "adab02d1c72ee746",
-          "last_seen_at": "2026-07-16T19:27:00Z"
-        },
-        {
-          "cluster_id": "1e80b0604b4e8bfd",
-          "last_seen_at": "2026-07-16T08:47:00Z"
-        },
-        {
-          "cluster_id": "bcb5c961dcfafdbd",
-          "last_seen_at": "2026-07-16T06:53:00Z"
         }
       ],
       "article_hashes": [
@@ -1387,6 +1425,30 @@
           "published_at": "2026-07-17T07:46:00+09:00"
         },
         {
+          "hash": "859f128be55bbef98d94e0f5",
+          "published_at": "2026-07-18T12:10:00+09:00"
+        },
+        {
+          "hash": "0392a285123ae6f541845e95",
+          "published_at": "2026-07-18T11:56:00+09:00"
+        },
+        {
+          "hash": "229a68261ba9b07f03c6d266",
+          "published_at": "2026-07-18T11:54:00+09:00"
+        },
+        {
+          "hash": "0674f460671a07bb855fe312",
+          "published_at": "2026-07-18T08:40:00+09:00"
+        },
+        {
+          "hash": "dd45c3a929184f5d59817445",
+          "published_at": "2026-07-18T07:50:00+09:00"
+        },
+        {
+          "hash": "e9bfc61b430e9ca2cdbd7c00",
+          "published_at": "2026-07-18T05:00:00+09:00"
+        },
+        {
           "hash": "818d293bc9086a75bbcaf786",
           "published_at": "2026-07-17T21:42:00+09:00"
         },
@@ -1395,62 +1457,46 @@
           "published_at": "2026-07-17T12:24:00+09:00"
         },
         {
+          "hash": "7e23eb49efc111fc5bffe8bc",
+          "published_at": "2026-07-17T02:45:00Z"
+        },
+        {
           "hash": "b1eb2e4386313204fe6e3ce5",
           "published_at": "2026-07-17T09:09:00+09:00"
-        },
-        {
-          "hash": "56de9c558240bb44989781f7",
-          "published_at": "2026-07-17T09:00:00+09:00"
-        },
-        {
-          "hash": "ba81dd85fa8014fd3ffc0318",
-          "published_at": "2026-07-17T08:00:00+09:00"
-        },
-        {
-          "hash": "2db73d3b6a5ab1bfbbd0e179",
-          "published_at": "2026-07-17T07:42:00+09:00"
-        },
-        {
-          "hash": "cf8228d3079c12d4c37a1cf7",
-          "published_at": "2026-07-17T04:27:00+09:00"
-        },
-        {
-          "hash": "01735ed5fe7252330828819c",
-          "published_at": "2026-07-16T17:47:00+09:00"
-        },
-        {
-          "hash": "b67ce81b83b790fd632c1cab",
-          "published_at": "2026-07-16T15:53:00+09:00"
         }
       ]
     },
     "034020": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T23:02:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T00:52:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
         {
-          "cluster_id": "8afa0a1fb7f7bb88",
-          "last_seen_at": "2026-07-16T23:02:00Z"
+          "cluster_id": "98f271579c45d5dd",
+          "last_seen_at": "2026-07-18T00:52:00Z"
         },
         {
-          "cluster_id": "39c5487e87f77fc2",
-          "last_seen_at": "2026-07-16T22:46:00Z"
+          "cluster_id": "304fea3fea2877f7",
+          "last_seen_at": "2026-07-17T15:10:00Z"
+        },
+        {
+          "cluster_id": "8afa0a1fb7f7bb88",
+          "last_seen_at": "2026-07-16T23:02:00Z"
         },
         {
           "cluster_id": "e8dd5221dfe21205",
@@ -1479,20 +1525,20 @@
         {
           "cluster_id": "d03f1c13830a93fd",
           "last_seen_at": "2026-07-15T21:00:00Z"
-        },
-        {
-          "cluster_id": "0c197929293e7b23",
-          "last_seen_at": "2026-07-15T07:06:00Z"
         }
       ],
       "article_hashes": [
         {
-          "hash": "55b777ba9e3fb0a01cf692b8",
-          "published_at": "2026-07-17T08:02:00+09:00"
+          "hash": "6daaa83d02f1df92c487b809",
+          "published_at": "2026-07-18T09:52:00+09:00"
         },
         {
-          "hash": "cbd3a789e4ce1283db3374b2",
-          "published_at": "2026-07-17T07:46:00+09:00"
+          "hash": "2dc859569c6dce8495785b90",
+          "published_at": "2026-07-18T00:10:00+09:00"
+        },
+        {
+          "hash": "55b777ba9e3fb0a01cf692b8",
+          "published_at": "2026-07-17T08:02:00+09:00"
         },
         {
           "hash": "9f41cdf9586e41ad18623185",
@@ -1521,19 +1567,15 @@
         {
           "hash": "0dc9cd7a69378be529e6f425",
           "published_at": "2026-07-16T06:00:00+09:00"
-        },
-        {
-          "hash": "5f8b0afb37e5c9f8bff88733",
-          "published_at": "2026-07-15T16:06:00+09:00"
         }
       ]
     },
     "035420": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T09:42:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T01:18:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1543,11 +1585,19 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "9501712274a5aed1",
+          "last_seen_at": "2026-07-18T01:18:00Z"
+        },
+        {
+          "cluster_id": "722a09c830b2b38a",
+          "last_seen_at": "2026-07-18T01:06:00Z"
+        },
         {
           "cluster_id": "99abbbb25c56f1e9",
           "last_seen_at": "2026-07-16T09:42:00Z"
@@ -1574,6 +1624,14 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "f837ac071349cf291f739d2c",
+          "published_at": "2026-07-18T10:18:00+09:00"
+        },
+        {
+          "hash": "d4f7c8f964b57423d34c8641",
+          "published_at": "2026-07-18T10:06:00+09:00"
+        },
         {
           "hash": "634c36a3f60f0f0f48a0b529",
           "published_at": "2026-07-16T18:42:00+09:00"
@@ -1603,9 +1661,9 @@
     "042700": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T22:56:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T01:06:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1616,10 +1674,14 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "325cf4673f348ce4",
+          "last_seen_at": "2026-07-17T22:00:00Z"
+        },
         {
           "cluster_id": "3416074133db27d7",
           "last_seen_at": "2026-07-15T22:02:00Z"
@@ -1639,6 +1701,14 @@
         {
           "cluster_id": "d304839acfb9b478",
           "last_seen_at": "2026-07-15T00:46:00Z"
+        },
+        {
+          "cluster_id": "8b54942cd472bb04",
+          "last_seen_at": "2026-07-18T01:06:00Z"
+        },
+        {
+          "cluster_id": "2e8f12ac5000edc2",
+          "last_seen_at": "2026-07-18T00:40:00Z"
         },
         {
           "cluster_id": "582d9593808ab6b5",
@@ -1671,17 +1741,13 @@
         {
           "cluster_id": "d8699aca59bac29c",
           "last_seen_at": "2026-07-15T08:28:00Z"
-        },
-        {
-          "cluster_id": "ed4b5af193daef91",
-          "last_seen_at": "2026-07-15T08:26:00Z"
-        },
-        {
-          "cluster_id": "2c78e02b45b45ec5",
-          "last_seen_at": "2026-07-15T05:12:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "464b24cb960fadb3a1bc167f",
+          "published_at": "2026-07-18T07:00:00+09:00"
+        },
         {
           "hash": "f2c565d32fe3f29d22579b1d",
           "published_at": "2026-07-16T07:02:00+09:00"
@@ -1799,6 +1865,14 @@
           "published_at": "2026-07-15T09:46:00+09:00"
         },
         {
+          "hash": "f409a41db200d2e922f30bca",
+          "published_at": "2026-07-18T10:06:00+09:00"
+        },
+        {
+          "hash": "809558667f1b498a48ceacba",
+          "published_at": "2026-07-18T09:40:00+09:00"
+        },
+        {
           "hash": "c4591620920beba515a12320",
           "published_at": "2026-07-17T07:56:00+09:00"
         },
@@ -1829,23 +1903,15 @@
         {
           "hash": "e14ba6faa248844143e17d5c",
           "published_at": "2026-07-15T17:28:00+09:00"
-        },
-        {
-          "hash": "930e7fa0b9f7c3cc158956e1",
-          "published_at": "2026-07-15T17:26:00+09:00"
-        },
-        {
-          "hash": "743fccd523cf9352676c6a62",
-          "published_at": "2026-07-15T14:12:00+09:00"
         }
       ]
     },
     "047050": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-17T01:36:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1856,7 +1922,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -1891,31 +1957,9 @@
     "059090": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
-          "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
-        },
-        "gdelt": {
-          "last_successful_run": null,
-          "last_article_published_at": null,
-          "last_collected_at": null,
-          "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
-        }
-      },
-      "event_fingerprints": [],
-      "article_hashes": []
-    },
-    "079550": {
-      "providers": {
-        "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T05:52:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -1926,7 +1970,29 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
+        }
+      },
+      "event_fingerprints": [],
+      "article_hashes": []
+    },
+    "079550": {
+      "providers": {
+        "naver": {
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-17T05:52:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
+          "continuation": null,
+          "last_error": null,
+          "consecutive_failures": 0
+        },
+        "gdelt": {
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
+          "continuation": null,
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
@@ -2021,9 +2087,9 @@
     "083450": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2034,7 +2100,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -2043,9 +2109,9 @@
     "084370": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T05:43:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2055,8 +2121,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -2075,9 +2141,9 @@
     "089030": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-14T05:20:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2088,7 +2154,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -2171,31 +2237,9 @@
     "095610": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
-          "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
-        },
-        "gdelt": {
-          "last_successful_run": null,
-          "last_article_published_at": null,
-          "last_collected_at": null,
-          "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
-        }
-      },
-      "event_fingerprints": [],
-      "article_hashes": []
-    },
-    "101490": {
-      "providers": {
-        "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2206,7 +2250,29 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
+        }
+      },
+      "event_fingerprints": [],
+      "article_hashes": []
+    },
+    "101490": {
+      "providers": {
+        "naver": {
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
+          "continuation": null,
+          "last_error": null,
+          "consecutive_failures": 0
+        },
+        "gdelt": {
+          "last_successful_run": null,
+          "last_article_published_at": null,
+          "last_collected_at": null,
+          "continuation": null,
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -2215,9 +2281,9 @@
     "131290": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T08:05:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2228,7 +2294,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -2255,9 +2321,9 @@
     "183300": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-13T11:56:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2268,7 +2334,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -2295,9 +2361,9 @@
     "214450": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T01:04:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-17T15:20:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2308,13 +2374,17 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
         {
           "cluster_id": "898ce54d5e5a4101",
           "last_seen_at": "2026-07-16T00:45:00Z"
+        },
+        {
+          "cluster_id": "09a0bfc8aa552622",
+          "last_seen_at": "2026-07-17T15:20:00Z"
         },
         {
           "cluster_id": "f93a81f189e09df9",
@@ -2351,16 +2421,16 @@
         {
           "cluster_id": "35db0047f5b70f6a",
           "last_seen_at": "2026-07-15T23:53:00Z"
-        },
-        {
-          "cluster_id": "3b42402526dfeb20",
-          "last_seen_at": "2026-07-15T23:53:00Z"
         }
       ],
       "article_hashes": [
         {
           "hash": "7bc9852c5aa9387cc2fd95c1",
           "published_at": "2026-07-16T09:45:00+09:00"
+        },
+        {
+          "hash": "7b572016309479824eea53a8",
+          "published_at": "2026-07-18T00:20:00+09:00"
         },
         {
           "hash": "d56b7fd0cac85b318112e09c",
@@ -2397,19 +2467,15 @@
         {
           "hash": "bb01735ab0073d832d3cbea5",
           "published_at": "2026-07-16T08:53:00+09:00"
-        },
-        {
-          "hash": "e2bdbe20482a069e5b2d334f",
-          "published_at": "2026-07-16T08:53:00+09:00"
         }
       ]
     },
     "278470": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T09:08:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T02:38:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2419,11 +2485,15 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "4ffa6a70835e494e",
+          "last_seen_at": "2026-07-18T02:38:00Z"
+        },
         {
           "cluster_id": "5054943e3cec9fe6",
           "last_seen_at": "2026-07-16T09:08:00Z"
@@ -2459,13 +2529,13 @@
         {
           "cluster_id": "37904e1566b0cba4",
           "last_seen_at": "2026-07-16T07:34:00Z"
-        },
-        {
-          "cluster_id": "8aae6cbfd165dd0d",
-          "last_seen_at": "2026-07-16T07:26:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "45547c0e176f1fd205a762e4",
+          "published_at": "2026-07-18T11:38:00+09:00"
+        },
         {
           "hash": "36790052ec7737ee6df8bb6d",
           "published_at": "2026-07-16T18:08:00+09:00"
@@ -2589,33 +2659,33 @@
         {
           "hash": "fdf2f57a26839468e7b0ab9b",
           "published_at": "2026-07-16T16:34:00+09:00"
-        },
-        {
-          "hash": "a398cb4009105ef7bdad52dd",
-          "published_at": "2026-07-16T16:26:00+09:00"
         }
       ]
     },
     "298040": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T02:50:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T03:16:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "bf657fe70b115eac",
+          "last_seen_at": "2026-07-18T03:16:00Z"
+        },
         {
           "cluster_id": "8eb6ced0c644a7e0",
           "last_seen_at": "2026-07-17T02:50:00Z"
@@ -2651,13 +2721,13 @@
         {
           "cluster_id": "04bfc3025263728b",
           "last_seen_at": "2026-07-16T03:56:00Z"
-        },
-        {
-          "cluster_id": "98778b9537ed8998",
-          "last_seen_at": "2026-07-16T00:59:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "9d27bdb92952f7a2d1315325",
+          "published_at": "2026-07-18T12:16:00+09:00"
+        },
         {
           "hash": "9b2d0d62d7aea77ee7f42fba",
           "published_at": "2026-07-17T11:50:00+09:00"
@@ -2721,27 +2791,15 @@
         {
           "hash": "d5190382c0159e69a46f877f",
           "published_at": "2026-07-16T12:56:00+09:00"
-        },
-        {
-          "hash": "260efad474a49464a4192100",
-          "published_at": "2026-07-16T09:59:00+09:00"
-        },
-        {
-          "hash": "152bae93db8304b408729ec5",
-          "published_at": "2026-07-16T09:43:00+09:00"
-        },
-        {
-          "hash": "6d4120f959c39bb5122ff764",
-          "published_at": "2026-07-16T09:18:00+09:00"
         }
       ]
     },
     "319660": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T22:02:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2752,50 +2810,54 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
         {
           "cluster_id": "a1711efa16567883",
           "last_seen_at": "2026-07-15T22:02:00Z"
-        },
-        {
-          "cluster_id": "901fe5f1dd26c69e",
-          "last_seen_at": "2026-07-14T08:26:00Z"
         }
       ],
       "article_hashes": [
         {
           "hash": "65e52eb3a75cb931f4d480c2",
           "published_at": "2026-07-16T07:02:00+09:00"
-        },
-        {
-          "hash": "359eefdb45223c903b87aecc",
-          "published_at": "2026-07-14T17:26:00+09:00"
         }
       ]
     },
     "329180": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T07:46:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T00:00:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
-          "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-17T12:15:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "4302526a6ee6b274",
+          "last_seen_at": "2026-07-18T00:00:00Z"
+        },
+        {
+          "cluster_id": "b7a6ded7ec70fcb2",
+          "last_seen_at": "2026-07-17T23:48:00Z"
+        },
+        {
+          "cluster_id": "9a4707572cae813e",
+          "last_seen_at": "2026-07-17T12:15:00Z"
+        },
         {
           "cluster_id": "aa9eb884cb00fcfa",
           "last_seen_at": "2026-07-16T07:46:00Z"
@@ -2823,21 +2885,21 @@
         {
           "cluster_id": "027cf9bcb7a7b639",
           "last_seen_at": "2026-07-15T06:06:00Z"
-        },
-        {
-          "cluster_id": "81e1a61607bb4e21",
-          "last_seen_at": "2026-07-15T02:28:00Z"
-        },
-        {
-          "cluster_id": "5690d7634823c583",
-          "last_seen_at": "2026-07-14T23:14:00Z"
-        },
-        {
-          "cluster_id": "527a7c178901f2f8",
-          "last_seen_at": "2026-07-14T10:54:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "a792d09c83087ab55099fc97",
+          "published_at": "2026-07-18T09:00:00+09:00"
+        },
+        {
+          "hash": "27f9b8ab3c6ebdf12a280044",
+          "published_at": "2026-07-18T08:48:00+09:00"
+        },
+        {
+          "hash": "02fa5fbe68fd5200452b6cfb",
+          "published_at": "2026-07-17T12:15:00Z"
+        },
         {
           "hash": "262d0d15114d3814aa4179b1",
           "published_at": "2026-07-16T16:46:00+09:00"
@@ -2865,27 +2927,15 @@
         {
           "hash": "eff43a454b68c94155a329e2",
           "published_at": "2026-07-15T15:06:00+09:00"
-        },
-        {
-          "hash": "951b2ebbc672b435c43285ba",
-          "published_at": "2026-07-15T11:28:00+09:00"
-        },
-        {
-          "hash": "c2018a28b3c32dca683782f3",
-          "published_at": "2026-07-15T08:14:00+09:00"
-        },
-        {
-          "hash": "ecc9c41c3252417a51759fb4",
-          "published_at": "2026-07-14T19:54:00+09:00"
         }
       ]
     },
     "353200": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-16T22:50:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2895,8 +2945,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -2905,24 +2955,12 @@
           "last_seen_at": "2026-07-16T22:50:00Z"
         },
         {
-          "cluster_id": "667b46f92fd02b5f",
-          "last_seen_at": "2026-07-16T22:46:00Z"
-        },
-        {
           "cluster_id": "34a12d6f7bde4d27",
           "last_seen_at": "2026-07-15T07:18:00Z"
         },
         {
-          "cluster_id": "943118f3ca71f50e",
-          "last_seen_at": "2026-07-15T07:14:00Z"
-        },
-        {
           "cluster_id": "3c15bc35b454d2b1",
           "last_seen_at": "2026-07-15T01:42:00Z"
-        },
-        {
-          "cluster_id": "297a02260053256b",
-          "last_seen_at": "2026-07-15T00:42:00Z"
         },
         {
           "cluster_id": "864579e13eed9084",
@@ -2943,24 +2981,12 @@
           "published_at": "2026-07-17T07:50:00+09:00"
         },
         {
-          "hash": "cbd3a789e4ce1283db3374b2",
-          "published_at": "2026-07-17T07:46:00+09:00"
-        },
-        {
           "hash": "b3be060dcbfefa5b70b8521f",
           "published_at": "2026-07-15T16:18:00+09:00"
         },
         {
-          "hash": "2e7581e5499a8fd904c3bd8d",
-          "published_at": "2026-07-15T16:14:00+09:00"
-        },
-        {
           "hash": "4591d988c1d5e9408e070611",
           "published_at": "2026-07-15T10:42:00+09:00"
-        },
-        {
-          "hash": "e28560b07b55879dcad313d7",
-          "published_at": "2026-07-15T09:42:00+09:00"
         },
         {
           "hash": "d023815729139dc600cd0854",
@@ -2979,9 +3005,9 @@
     "356860": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T09:04:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -2991,8 +3017,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -3007,10 +3033,6 @@
         {
           "cluster_id": "21150e85482ccdb5",
           "last_seen_at": "2026-07-15T01:38:00Z"
-        },
-        {
-          "cluster_id": "224b15263807b2fa",
-          "last_seen_at": "2026-07-15T00:42:00Z"
         },
         {
           "cluster_id": "e5285dd6cda90ba0",
@@ -3039,10 +3061,6 @@
           "published_at": "2026-07-15T10:38:00+09:00"
         },
         {
-          "hash": "e28560b07b55879dcad313d7",
-          "published_at": "2026-07-15T09:42:00+09:00"
-        },
-        {
           "hash": "ec396bc059c5ab9c10b51e28",
           "published_at": "2026-07-12T16:50:00+09:00"
         },
@@ -3055,9 +3073,9 @@
     "357780": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-14T22:02:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3068,7 +3086,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -3087,9 +3105,9 @@
     "439260": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3100,7 +3118,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -3109,9 +3127,9 @@
     "000720": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T09:28:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-17T15:40:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3122,10 +3140,18 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "a8e82b51fa9039ba",
+          "last_seen_at": "2026-07-17T15:40:00Z"
+        },
+        {
+          "cluster_id": "19024fa90e929848",
+          "last_seen_at": "2026-07-17T15:02:00Z"
+        },
         {
           "cluster_id": "330db901638f5203",
           "last_seen_at": "2026-07-17T09:28:00Z"
@@ -3148,6 +3174,14 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "c42d81f1f49233ea5a09b3c7",
+          "published_at": "2026-07-18T00:40:00+09:00"
+        },
+        {
+          "hash": "e98eaffbfcd58c318471e152",
+          "published_at": "2026-07-18T00:02:00+09:00"
+        },
         {
           "hash": "2c008b22f341fb0146986637",
           "published_at": "2026-07-17T18:28:00+09:00"
@@ -3173,9 +3207,9 @@
     "005290": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3186,7 +3220,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -3195,23 +3229,27 @@
     "005490": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-13T10:42:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T02:48:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": null,
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": null,
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": null,
+          "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "cec87fb28bdc7940",
+          "last_seen_at": "2026-07-18T02:48:00Z"
+        },
         {
           "cluster_id": "54ce48ed8ac5afc6",
           "last_seen_at": "2026-07-13T10:42:00Z"
@@ -3234,6 +3272,10 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "5d3693adc038082bb8c6107e",
+          "published_at": "2026-07-18T11:48:00+09:00"
+        },
         {
           "hash": "64a64f84e1cef46eaeb99710",
           "published_at": "2026-07-13T19:42:00+09:00"
@@ -3259,9 +3301,9 @@
     "007660": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T10:20:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3271,8 +3313,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -3307,23 +3349,27 @@
     "012450": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-16T20:04:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T02:24:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         },
         "gdelt": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "6a81191809fe2596",
+          "last_seen_at": "2026-07-18T02:24:00Z"
+        },
         {
           "cluster_id": "e93f1401bcb0df98",
           "last_seen_at": "2026-07-16T20:04:00Z"
@@ -3354,6 +3400,10 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "9852bee5dc8354d96abaafab",
+          "published_at": "2026-07-18T11:24:00+09:00"
+        },
         {
           "hash": "37f0d60f5f591b0a6c5297bc",
           "published_at": "2026-07-17T05:04:00+09:00"
@@ -3415,9 +3465,9 @@
     "036810": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3428,7 +3478,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -3437,9 +3487,9 @@
     "039440": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3450,7 +3500,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -3459,9 +3509,9 @@
     "047810": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T12:16:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T03:40:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3472,13 +3522,21 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
         {
           "cluster_id": "84d28f77bdf7c582",
           "last_seen_at": "2026-07-17T05:36:00Z"
+        },
+        {
+          "cluster_id": "ac197c8914851e3a",
+          "last_seen_at": "2026-07-18T03:40:00Z"
+        },
+        {
+          "cluster_id": "3ee302511b784384",
+          "last_seen_at": "2026-07-17T21:12:00Z"
         },
         {
           "cluster_id": "df339f15e2a4632d",
@@ -3511,14 +3569,6 @@
         {
           "cluster_id": "34d670e7296f25cc",
           "last_seen_at": "2026-07-16T07:36:00Z"
-        },
-        {
-          "cluster_id": "716476d2e05de848",
-          "last_seen_at": "2026-07-16T07:16:00Z"
-        },
-        {
-          "cluster_id": "70152f7f31bc3b45",
-          "last_seen_at": "2026-07-16T07:13:00Z"
         }
       ],
       "article_hashes": [
@@ -3623,6 +3673,14 @@
           "published_at": "2026-07-16T15:10:00+09:00"
         },
         {
+          "hash": "74bbd76ff0ca011d74db4417",
+          "published_at": "2026-07-18T12:40:00+09:00"
+        },
+        {
+          "hash": "37e4f1ecc90dd8e7bc706e91",
+          "published_at": "2026-07-18T06:12:00+09:00"
+        },
+        {
           "hash": "134dafa10d7872da42225794",
           "published_at": "2026-07-17T21:16:00+09:00"
         },
@@ -3657,23 +3715,15 @@
         {
           "hash": "a65f529fa884498210cb0e06",
           "published_at": "2026-07-16T16:36:00+09:00"
-        },
-        {
-          "hash": "9e1b95255fe1665ad9b75529",
-          "published_at": "2026-07-16T16:16:00+09:00"
-        },
-        {
-          "hash": "0e9ed34368540d3c6da74ce6",
-          "published_at": "2026-07-16T16:13:00+09:00"
         }
       ]
     },
     "058470": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T00:18:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T02:30:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3684,10 +3734,14 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "b4e46f15e7fb6262",
+          "last_seen_at": "2026-07-18T02:30:00Z"
+        },
         {
           "cluster_id": "ef16cbfcfefed7ab",
           "last_seen_at": "2026-07-17T00:18:00Z"
@@ -3698,6 +3752,10 @@
         }
       ],
       "article_hashes": [
+        {
+          "hash": "fd4cee6f484857ce0b8b1594",
+          "published_at": "2026-07-18T11:30:00+09:00"
+        },
         {
           "hash": "c5226c3fe22b01d05e08e9f8",
           "published_at": "2026-07-17T09:18:00+09:00"
@@ -3715,9 +3773,9 @@
     "064350": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T05:52:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T00:00:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3728,10 +3786,22 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "406837e178f1dc5e",
+          "last_seen_at": "2026-07-18T00:00:00Z"
+        },
+        {
+          "cluster_id": "fcc4c151360a9fc1",
+          "last_seen_at": "2026-07-17T23:26:00Z"
+        },
+        {
+          "cluster_id": "382c9427d835d87b",
+          "last_seen_at": "2026-07-17T21:06:00Z"
+        },
         {
           "cluster_id": "b49457a3116a61b8",
           "last_seen_at": "2026-07-17T05:52:00Z"
@@ -3759,21 +3829,21 @@
         {
           "cluster_id": "bc1e551eab7762ec",
           "last_seen_at": "2026-07-16T08:20:00Z"
-        },
-        {
-          "cluster_id": "d26c7d5559ef29e0",
-          "last_seen_at": "2026-07-16T07:54:00Z"
-        },
-        {
-          "cluster_id": "2becbed358785802",
-          "last_seen_at": "2026-07-16T07:51:00Z"
-        },
-        {
-          "cluster_id": "034cfe2c6722932c",
-          "last_seen_at": "2026-07-16T07:40:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "6b77b19d673afb49485b32db",
+          "published_at": "2026-07-18T09:00:00+09:00"
+        },
+        {
+          "hash": "92e26e33c1a097b4ea7e3411",
+          "published_at": "2026-07-18T08:26:00+09:00"
+        },
+        {
+          "hash": "8aae09ebb002c7b25d5d1153",
+          "published_at": "2026-07-18T06:06:00+09:00"
+        },
         {
           "hash": "d37ab6854b520868f75c639c",
           "published_at": "2026-07-17T14:52:00+09:00"
@@ -3833,27 +3903,15 @@
         {
           "hash": "32911a588f37c50c19bc9518",
           "published_at": "2026-07-16T17:20:00+09:00"
-        },
-        {
-          "hash": "2b6318dd310d18e792f648dc",
-          "published_at": "2026-07-16T16:54:00+09:00"
-        },
-        {
-          "hash": "48b2077d1ddfd46f15cfa9a8",
-          "published_at": "2026-07-16T16:51:00+09:00"
-        },
-        {
-          "hash": "75867e81950950ea981bbb4f",
-          "published_at": "2026-07-16T16:40:00+09:00"
         }
       ]
     },
     "080220": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T02:58:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3863,19 +3921,29 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "last_error": "HTTP429",
+          "consecutive_failures": 2
         }
       },
-      "event_fingerprints": [],
-      "article_hashes": []
+      "event_fingerprints": [
+        {
+          "cluster_id": "6a0043d4b5e6ae21",
+          "last_seen_at": "2026-07-18T02:58:00Z"
+        }
+      ],
+      "article_hashes": [
+        {
+          "hash": "91c56b3594d64425461bd7eb",
+          "published_at": "2026-07-18T11:58:00+09:00"
+        }
+      ]
     },
     "126340": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T23:56:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3886,7 +3954,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -3929,9 +3997,9 @@
     "170920": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3942,7 +4010,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -3951,9 +4019,9 @@
     "375500": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
-          "last_article_published_at": "2026-07-17T06:36:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
+          "last_article_published_at": "2026-07-18T05:10:00Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -3963,11 +4031,15 @@
           "last_article_published_at": null,
           "last_collected_at": "2026-07-17T13:18:11.215753Z",
           "continuation": null,
-          "last_error": null,
-          "consecutive_failures": 0
+          "last_error": "HTTP429",
+          "consecutive_failures": 1
         }
       },
       "event_fingerprints": [
+        {
+          "cluster_id": "a5554eb7e0a7cec0",
+          "last_seen_at": "2026-07-18T05:10:00Z"
+        },
         {
           "cluster_id": "35d8f0d9f2b53365",
           "last_seen_at": "2026-07-17T06:36:00Z"
@@ -4003,13 +4075,13 @@
         {
           "cluster_id": "5070641d6ed61396",
           "last_seen_at": "2026-07-16T00:02:00Z"
-        },
-        {
-          "cluster_id": "53ce55f584e3f1fd",
-          "last_seen_at": "2026-07-15T10:52:00Z"
         }
       ],
       "article_hashes": [
+        {
+          "hash": "48e9e51c158fc9abefcdf5b5",
+          "published_at": "2026-07-18T14:10:00+09:00"
+        },
         {
           "hash": "6d9ff43adf22f3f9bba1f32b",
           "published_at": "2026-07-17T15:36:00+09:00"
@@ -4045,19 +4117,15 @@
         {
           "hash": "f35c08f63546a7f4ac4c07d8",
           "published_at": "2026-07-16T09:02:00+09:00"
-        },
-        {
-          "hash": "9ad5c12cf517d60f5214d93a",
-          "published_at": "2026-07-15T19:52:00+09:00"
         }
       ]
     },
     "403870": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": "2026-07-15T04:12:00Z",
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -4067,8 +4135,8 @@
           "last_article_published_at": null,
           "last_collected_at": null,
           "continuation": null,
-          "last_error": "HTTP429",
-          "consecutive_failures": 1
+          "last_error": "JSONDecodeError",
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [
@@ -4087,9 +4155,9 @@
     "474610": {
       "providers": {
         "naver": {
-          "last_successful_run": "2026-07-17T13:18:11.215753Z",
+          "last_successful_run": "2026-07-18T06:08:17.049284Z",
           "last_article_published_at": null,
-          "last_collected_at": "2026-07-17T13:18:11.215753Z",
+          "last_collected_at": "2026-07-18T06:08:17.049284Z",
           "continuation": null,
           "last_error": null,
           "consecutive_failures": 0
@@ -4100,7 +4168,7 @@
           "last_collected_at": null,
           "continuation": null,
           "last_error": "JSONDecodeError",
-          "consecutive_failures": 1
+          "consecutive_failures": 2
         }
       },
       "event_fingerprints": [],
@@ -4108,8 +4176,8 @@
     }
   },
   "api_usage": {
-    "date": "2026-07-17",
+    "date": "2026-07-18",
     "naver": 125,
-    "gdelt": 148
+    "gdelt": 135
   }
 }
