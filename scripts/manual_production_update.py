@@ -23,6 +23,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_GROUPS = ("news", "earnings", "disclosures")
+EXPECTED_LEGACY_PUBLIC_CODES = {"018500"}
 FORBIDDEN_KEYS = {
     "body", "content", "html", "description", "client_secret", "api_hash",
     "session", "session_string", "phone", "phone_number", "telegram_message",
@@ -74,6 +75,102 @@ def find_non_string_stock_codes(value):
     return findings
 
 
+def iter_key_values(value, wanted_keys):
+    if isinstance(value, dict):
+        for key, child in value.items():
+            if key in wanted_keys:
+                yield key, child
+            yield from iter_key_values(child, wanted_keys)
+    elif isinstance(value, list):
+        for child in value:
+            yield from iter_key_values(child, wanted_keys)
+
+
+def _index_company_codes(group, payload):
+    if group == "news":
+        return {item.get("stock_code") for item in payload.get("companies", [])}
+    if group == "earnings":
+        company_codes = {item.get("code") for item in payload.get("companies", [])}
+        watchlist_codes = {item.get("code") for item in payload.get("watchlist", [])}
+        return company_codes, watchlist_codes
+    return {item.get("stockCode") for item in payload.get("companies", [])}
+
+
+def portfolio_integrity_checks(data_root):
+    data_root = Path(data_root)
+    findings = []
+    companies_payload = read_json(data_root / "companies.json", {"companies": []}) or {"companies": []}
+    active_codes = {
+        str(item["stock_code"])
+        for item in companies_payload.get("companies", [])
+        if item.get("status") == "active"
+    }
+    allowed_detail_codes = active_codes | EXPECTED_LEGACY_PUBLIC_CODES
+    message_owners = {}
+
+    for group in PUBLIC_GROUPS:
+        detail_dir = data_root / group / "by-company"
+        actual_codes = {path.stem for path in detail_dir.glob("*.json")}
+        for code in sorted(active_codes - actual_codes):
+            findings.append({"file": f"data/{group}/by-company/{code}.json", "type": "missing_company_detail"})
+        for code in sorted(actual_codes - allowed_detail_codes):
+            findings.append({"file": f"data/{group}/by-company/{code}.json", "type": "unexpected_company_detail"})
+
+        index_path = data_root / group / "index.json"
+        index_payload = read_json(index_path, {}) or {}
+        index_codes = _index_company_codes(group, index_payload)
+        code_sets = index_codes if isinstance(index_codes, tuple) else (index_codes,)
+        for position, codes in enumerate(code_sets):
+            if codes != active_codes:
+                findings.append({
+                    "file": f"data/{group}/index.json",
+                    "type": "index_company_set_mismatch",
+                    "section": position,
+                    "missing_count": len(active_codes - codes),
+                    "unexpected_count": len(codes - active_codes),
+                })
+
+        for path in sorted(detail_dir.glob("*.json")):
+            code = path.stem
+            payload = read_json(path, {}) or {}
+            if group == "news":
+                top_code = payload.get("stock_code")
+                records = payload.get("news", [])
+                record_code_key = "stock_code"
+            elif group == "earnings":
+                top_code = (payload.get("company") or {}).get("code") or payload.get("stock_code")
+                records = (payload.get("company") or {}).get("earnings", [])
+                record_code_key = None
+            else:
+                top_code = payload.get("stockCode")
+                records = payload.get("disclosures", [])
+                record_code_key = "code"
+            if str(top_code or "") != code:
+                findings.append({"file": path.relative_to(data_root.parent).as_posix(), "type": "detail_company_code_mismatch"})
+            if record_code_key:
+                for item in records:
+                    if str(item.get(record_code_key) or "") != code:
+                        findings.append({"file": path.relative_to(data_root.parent).as_posix(), "type": "record_company_code_mismatch"})
+            for key, parsed_code in iter_key_values(payload, {"parsedCompanyCode", "parsed_company_code"}):
+                if parsed_code is not None and str(parsed_code) != code:
+                    findings.append({"file": path.relative_to(data_root.parent).as_posix(), "type": "parsed_company_code_mismatch", "field": key})
+            if group == "disclosures":
+                for item in records:
+                    message_id = item.get("telegramMessageId")
+                    if message_id is not None:
+                        message_owners.setdefault(str(message_id), set()).add(code)
+
+    for message_id, owners in sorted(message_owners.items()):
+        if len(owners) > 1:
+            findings.append({
+                "file": "data/disclosures/by-company",
+                "type": "cross_company_telegram_message_duplicate",
+                "telegramMessageId": message_id,
+                "company_count": len(owners),
+            })
+    return {"active_company_count": len(active_codes), "findings": findings}
+
+
 def public_json_checks(data_root):
     data_root = Path(data_root)
     findings = []
@@ -106,7 +203,15 @@ def public_json_checks(data_root):
             findings.append({"file": relative, "type": "forbidden_key", "keys": forbidden})
         if find_non_string_stock_codes(payload):
             findings.append({"file": relative, "type": "non_string_stock_code"})
-    return {"files_checked": len(files), "findings": findings}
+    integrity = portfolio_integrity_checks(data_root) if (data_root / "companies.json").is_file() else {
+        "active_company_count": 0, "findings": [],
+    }
+    findings.extend(integrity["findings"])
+    return {
+        "files_checked": len(files),
+        "active_company_count": integrity["active_company_count"],
+        "findings": findings,
+    }
 
 
 def changed_allowed_files(source_data, target_data):
@@ -178,6 +283,7 @@ def sanitized_telegram_report(report):
         "new_quarters": report.get("new_quarters", 0),
         "new_disclosures": report.get("new_disclosures", 0),
         "parse_failure_count": report.get("parse_failure_count", 0),
+        "quarantine_count": report.get("quarantine_count", 0),
         "company_results": report.get("company_results", {}),
         "error_types": [item.get("type", "UnknownError") for item in report.get("errors", [])],
         "cursor_updated": report.get("cursor_updated", False),

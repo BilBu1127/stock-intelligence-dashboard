@@ -137,6 +137,9 @@ def public_quarter(record):
         "estimateOperatingIncome": won_to_eok(operating_consensus),
         "estimateNetIncome": won_to_eok(net_consensus),
         "sourceStatus": record.get("status"),
+        "parsedCompanyCode": record.get("parsed_company_code") or record.get("stock_code"),
+        "companyCodeSource": record.get("company_code_source"),
+        "explicitCodeFound": record.get("explicit_code_found"),
         "telegramMessageId": record.get("telegram_message_id"),
         "disclosureDatetime": record.get("disclosure_datetime"),
         "provisional": record.get("provisional"),
@@ -181,7 +184,10 @@ def build_disclosure(parsed):
     return {
         "disclosedAt": parsed["disclosure_datetime"],
         "companyName": parsed.get("company_name") or "동원금속",
-        "code": parsed.get("stock_code") or "018500",
+        "code": parsed.get("stock_code"),
+        "parsedCompanyCode": parsed.get("parsed_company_code") or parsed.get("stock_code"),
+        "companyCodeSource": parsed.get("company_code_source"),
+        "explicitCodeFound": parsed.get("explicit_code_found"),
         "reportName": report_name,
         "category": disclosure_category(report_name),
         "provisionalEarnings": False,
@@ -197,6 +203,7 @@ def update_earnings_file(company_name, stock_code, quarters, generated_at):
     company = next((item for item in data.get("companies", []) if item.get("code") == stock_code), None)
     if company is None:
         raise KeyError("Target company is not present in earnings.json")
+    quarters = [item for item in quarters if item.get("stock_code") == stock_code and item.get("explicit_code_found")]
     if quarters:
         company["name"] = company_name
         company["earnings"] = [public_quarter(item) for item in quarters[-8:]]
@@ -216,6 +223,8 @@ def update_disclosures_file(stock_code, parsed_messages, generated_at):
     data = read_json(DISCLOSURES_PATH)
     parsed_general = []
     for parsed in parsed_messages:
+        if parsed.get("stock_code") != stock_code or not parsed.get("explicit_code_found"):
+            continue
         if parsed.get("has_earnings_data") or parsed.get("classification") == "unknown":
             continue
         item = build_disclosure(parsed)
@@ -330,8 +339,11 @@ async def run(args):
             telegram_message_id=message["message_id"],
             message_datetime=message["datetime"],
             default_company_name=args.company_name,
-            default_stock_code=args.stock_code,
+            default_stock_code=None,
         )
+        if parsed.get("stock_code") != args.stock_code or not parsed.get("explicit_code_found"):
+            failed_ids.append(message["message_id"])
+            continue
         parsed_messages.append(parsed)
         if parsed["classification"] == "unknown" or (
             parsed["classification"] == "earnings" and not parsed["has_earnings_data"]

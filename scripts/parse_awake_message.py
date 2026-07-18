@@ -16,6 +16,10 @@ QUARTER_RE = re.compile(
 )
 DART_URL_RE = re.compile(r"https://dart\.fss\.or\.kr/[^\s<>)]+", re.IGNORECASE)
 RECEIPT_RE = re.compile(r"(?:rcpNo=|접수번호\s*[:：]?\s*)(\d{14})", re.IGNORECASE)
+STOCK_CODE_RE = re.compile(
+    r"(?<![A-Z0-9])A?((?=[A-Z0-9]{0,5}\d)[A-Z0-9]{6})(?![A-Z0-9])",
+    re.IGNORECASE,
+)
 
 
 def normalize_text(text):
@@ -230,13 +234,36 @@ def parse_awake_message(text, telegram_message_id=None, message_datetime=None, d
     if default_company_name and company_name and default_company_name in company_name:
         company_name = default_company_name
 
-    stock_code = extract_labeled_value(normalized, ["종목코드", "종목 코드"])
-    if stock_code:
-        code_match = re.search(r"(?:A)?(\d{6})", stock_code, re.IGNORECASE)
-        stock_code = code_match.group(1) if code_match else None
+    labeled_code = extract_labeled_value(normalized, ["종목코드", "종목 코드"])
+    code_match = STOCK_CODE_RE.search(labeled_code or "")
+    stock_code = code_match.group(1).upper() if code_match else None
+    company_code_source = "labeled_stock_code" if stock_code else None
+    explicit_code_found = bool(stock_code)
     if not stock_code:
-        code_match = re.search(r"(?<!\d)(?:A)?(\d{6})(?!\d)", normalized, re.IGNORECASE)
-        stock_code = code_match.group(1) if code_match else default_stock_code
+        company_field = extract_labeled_value(normalized, ["기업명", "회사명", "종목명"])
+        code_match = STOCK_CODE_RE.search(company_field or "")
+        if code_match:
+            stock_code = code_match.group(1).upper()
+            company_code_source = "company_name_field"
+            explicit_code_found = True
+    if not stock_code:
+        code_match = re.search(
+            r"(?i)(?:[?&](?:code|stock_code|stockcode)=)A?((?=[A-Z0-9]{0,5}\d)[A-Z0-9]{6})(?![A-Z0-9])",
+            normalized,
+        )
+        if code_match:
+            stock_code = code_match.group(1).upper()
+            company_code_source = "url_query_code"
+            explicit_code_found = True
+    if not stock_code:
+        code_match = STOCK_CODE_RE.search(normalized)
+        if code_match:
+            stock_code = code_match.group(1).upper()
+            company_code_source = "standalone_code"
+            explicit_code_found = True
+    if not stock_code and default_stock_code:
+        stock_code = str(default_stock_code).upper()
+        company_code_source = "target_default"
 
     report_name = extract_report_name(normalized, company_name)
     report_period = infer_report_period(
@@ -257,6 +284,12 @@ def parse_awake_message(text, telegram_message_id=None, message_datetime=None, d
         "classification": classify_message(normalized),
         "company_name": company_name,
         "stock_code": stock_code,
+        "parsed_company_code": stock_code,
+        "parsedCompanyCode": stock_code,
+        "company_code_source": company_code_source,
+        "companyCodeSource": company_code_source,
+        "explicit_code_found": explicit_code_found,
+        "explicitCodeFound": explicit_code_found,
         "market_cap_text": extract_labeled_value(normalized, ["시가총액", "시총"]),
         "report_name": report_name,
         "report_period": report_period,

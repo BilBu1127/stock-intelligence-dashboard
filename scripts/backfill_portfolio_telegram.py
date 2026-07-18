@@ -17,13 +17,13 @@ try:
     from .news_batch_pipeline import read_json, write_json_atomic
     from .onboard_portfolio import build_public_indexes
     from .parse_awake_message import merge_quarter_records, parse_awake_message
-    from .telegram_incremental import distribute_messages
+    from .telegram_incremental import distribute_messages_with_quarantine, quarantine_record
 except ImportError:
     from backfill_company import build_disclosure, disclosure_identity, load_credentials, public_quarter, to_seoul_iso
     from news_batch_pipeline import read_json, write_json_atomic
     from onboard_portfolio import build_public_indexes
     from parse_awake_message import merge_quarter_records, parse_awake_message
-    from telegram_incremental import distribute_messages
+    from telegram_incremental import distribute_messages_with_quarantine, quarantine_record
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -70,14 +70,26 @@ def process_company(company, messages, generated_at, data_root=None):
     data_root = Path(data_root or ROOT / "data")
     parsed = []
     parse_failures = []
+    quarantine = []
     for message in messages:
         result = parse_awake_message(
             message["text"], telegram_message_id=message["id"], message_datetime=message["date"],
-            default_company_name=company["company_name"], default_stock_code=company["stock_code"],
+            default_company_name=company["company_name"], default_stock_code=None,
         )
-        parsed.append(result)
         if result.get("classification") == "unknown":
             parse_failures.append(message["id"])
+        parsed_code = result.get("stock_code")
+        if not result.get("explicit_code_found") or not parsed_code:
+            quarantine.append(quarantine_record(
+                message, parsed_code, company["stock_code"], "parsed_code_missing", "pre_merge_validation",
+            ))
+            continue
+        if parsed_code != company["stock_code"]:
+            quarantine.append(quarantine_record(
+                message, parsed_code, company["stock_code"], "parsed_code_target_mismatch", "pre_merge_validation",
+            ))
+            continue
+        parsed.append(result)
 
     quarters, warnings = merge_quarter_records(parsed)
     new_quarters = [public_quarter(item) for item in quarters]
@@ -123,10 +135,11 @@ def process_company(company, messages, generated_at, data_root=None):
         "new_quarters": len(new_quarters),
         "new_disclosures": len(new_disclosures),
         "warning_count": len(warnings),
+        "quarantine": quarantine,
     }
 
 
-async def run(data_root=None, force_full_refresh=False, progress_callback=None, raise_on_error=True):
+async def run(data_root=None, force_full_refresh=False, progress_callback=None, raise_on_error=True, quarantine_path=None):
     data_root = Path(data_root or ROOT / "data")
     cursor_path = data_root / "state" / "telegram-cursor.json"
     report_path = data_root / "telegram-portfolio-report.json"
@@ -147,7 +160,11 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
         channel_title, messages = None, []
         errors.append({"type": type(error).__name__})
 
-    distribution = distribute_messages(messages, active) if not errors else {item["stock_code"]: [] for item in active}
+    if errors:
+        distribution = {item["stock_code"]: [] for item in active}
+        quarantine = []
+    else:
+        distribution, quarantine = distribute_messages_with_quarantine(messages, active)
     generated_at = datetime.now(SEOUL).isoformat()
     company_results = {}
     if not errors:
@@ -156,6 +173,7 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
                 company_results[company["stock_code"]] = process_company(
                     company, distribution.get(company["stock_code"], []), generated_at, data_root=data_root,
                 )
+                quarantine.extend(company_results[company["stock_code"]].pop("quarantine", []))
             except Exception as error:
                 errors.append({"stock_code": company["stock_code"], "type": type(error).__name__})
 
@@ -176,6 +194,22 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
         write_json_atomic(cursor_path, cursor)
 
     matched_ids = {message["id"] for items in distribution.values() for message in items}
+    quarantine_path = Path(quarantine_path or data_root.parent / "review" / "telegram-quarantine.json")
+    existing_quarantine = read_json(quarantine_path, {"quarantine": []}) or {"quarantine": []}
+    quarantine_by_key = {
+        (item.get("telegramMessageId"), item.get("attemptedTargetCode"), item.get("reason")): item
+        for item in existing_quarantine.get("quarantine", [])
+    }
+    for item in quarantine:
+        quarantine_by_key[(item.get("telegramMessageId"), item.get("attemptedTargetCode"), item.get("reason"))] = item
+    write_json_atomic(quarantine_path, {
+        "generatedAt": generated_at,
+        "rawMessagesStored": False,
+        "quarantine": sorted(
+            quarantine_by_key.values(),
+            key=lambda item: (item.get("telegramMessageId") or 0, item.get("attemptedTargetCode") or ""),
+        ),
+    })
     report = {
         "executed_at": generated_at,
         "channel_title": channel_title,
@@ -190,6 +224,7 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
         "company_results": company_results,
         "errors": errors,
         "cursor_updated": cursor_updated,
+        "quarantine_count": len(quarantine),
         "duration_seconds": round((datetime.now(SEOUL) - started).total_seconds(), 3),
     }
     write_json_atomic(report_path, report)

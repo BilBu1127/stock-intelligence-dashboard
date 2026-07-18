@@ -33,8 +33,16 @@ async def validate_telegram(companies):
     parsed = 0
     for company in companies:
         for message in distribution[company["stock_code"]]:
-            result = parse_awake_message(message.get("text") or "", default_company_name=company["company_name"], default_stock_code=company["stock_code"])
-            parsed += int(result.get("classification") != "unknown")
+            result = parse_awake_message(
+                message.get("text") or "",
+                default_company_name=company["company_name"],
+                default_stock_code=None,
+            )
+            parsed += int(
+                result.get("classification") != "unknown"
+                and result.get("explicit_code_found")
+                and result.get("stock_code") == company["stock_code"]
+            )
     return {
         "status": "ok", "channel_title": title, "messages_fetched": len(messages),
         "matched_messages": len({item["id"] for rows in distribution.values() for item in rows}),
