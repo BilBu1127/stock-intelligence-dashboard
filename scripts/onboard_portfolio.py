@@ -293,7 +293,8 @@ def ensure_detail_files(companies, generated_at):
     return created
 
 
-def build_public_indexes(companies, generated_at):
+def build_public_indexes(companies, generated_at, data_root=None):
+    data_root = Path(data_root or ROOT / "data")
     watchlist = []
     earnings_companies = []
     disclosure_companies = []
@@ -308,13 +309,13 @@ def build_public_indexes(companies, generated_at):
             "validationStatus": company["validation_status"],
         }
         watchlist.append({"name": company["company_name"], "code": code, "market": company.get("sector"), **common})
-        earnings_payload = read_json(ROOT / "data" / "earnings" / "by-company" / f"{code}.json", {}) or {}
+        earnings_payload = read_json(data_root / "earnings" / "by-company" / f"{code}.json", {}) or {}
         detail_company = earnings_payload.get("company", earnings_payload)
         earnings_companies.append({
             "name": company["company_name"], "code": code, "market": company.get("sector"),
             "hasDetails": bool(detail_company.get("earnings")), "earnings": detail_company.get("earnings", []), **common,
         })
-        disclosure_payload = read_json(ROOT / "data" / "disclosures" / "by-company" / f"{code}.json", {}) or {}
+        disclosure_payload = read_json(data_root / "disclosures" / "by-company" / f"{code}.json", {}) or {}
         company_disclosures = disclosure_payload.get("disclosures", [])
         disclosures.extend(company_disclosures)
         disclosure_companies.append({
@@ -323,7 +324,7 @@ def build_public_indexes(companies, generated_at):
             "latestDisclosureAt": company_disclosures[0].get("disclosedAt") if company_disclosures else None,
             "category": company["category"], "monitoringTier": company["monitoring_tier"],
         })
-        news_payload = read_json(ROOT / "data" / "news" / "by-company" / f"{code}.json", {}) or {}
+        news_payload = read_json(data_root / "news" / "by-company" / f"{code}.json", {}) or {}
         company_news = news_payload.get("news", [])
         news.extend(company_news[:3])
         news_companies.append({
@@ -336,15 +337,15 @@ def build_public_indexes(companies, generated_at):
         })
     disclosures.sort(key=lambda item: item.get("disclosedAt") or "", reverse=True)
     news.sort(key=lambda item: item.get("last_published_at") or item.get("published_at") or "", reverse=True)
-    write_json_atomic(ROOT / "data" / "earnings" / "index.json", {
+    write_json_atomic(data_root / "earnings" / "index.json", {
         "generatedAt": generated_at, "currencyUnit": "억원", "watchlist": watchlist, "companies": earnings_companies,
     })
-    write_json_atomic(ROOT / "data" / "disclosures" / "index.json", {
+    write_json_atomic(data_root / "disclosures" / "index.json", {
         "generatedAt": generated_at,
         "categories": ["실적", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
         "companies": disclosure_companies, "disclosures": disclosures,
     })
-    write_json_atomic(ROOT / "data" / "news" / "index.json", {
+    write_json_atomic(data_root / "news" / "index.json", {
         "generated_at": generated_at, "companies": news_companies, "news": news,
     })
     compact_roster = [
@@ -356,7 +357,7 @@ def build_public_indexes(companies, generated_at):
         for company in companies
     ]
     write_text_atomic(
-        ROOT / "data" / "portfolio.js",
+        data_root / "portfolio.js",
         "window.PORTFOLIO_INDEX = " + json.dumps(compact_roster, ensure_ascii=False, separators=(",", ":")) + ";\n",
     )
 

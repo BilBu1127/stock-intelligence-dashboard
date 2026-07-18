@@ -10,16 +10,22 @@ from telethon.sessions import StringSession
 
 try:
     from .credentials import load_values, missing_names
+    from .parse_awake_message import (
+        PARSER_VERSION,
+        comparison_result,
+        is_company_message,
+        merge_quarter_records,
+        parse_awake_message,
+    )
 except ImportError:
     from credentials import load_values, missing_names
-
-from parse_awake_message import (
-    PARSER_VERSION,
-    comparison_result,
-    is_company_message,
-    merge_quarter_records,
-    parse_awake_message,
-)
+    from parse_awake_message import (
+        PARSER_VERSION,
+        comparison_result,
+        is_company_message,
+        merge_quarter_records,
+        parse_awake_message,
+    )
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]

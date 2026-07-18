@@ -66,7 +66,8 @@ def merge_public_quarters(existing, new_records):
     return sorted(by_period.values(), key=lambda item: item.get("period") or "")[-8:]
 
 
-def process_company(company, messages, generated_at):
+def process_company(company, messages, generated_at, data_root=None):
+    data_root = Path(data_root or ROOT / "data")
     parsed = []
     parse_failures = []
     for message in messages:
@@ -80,7 +81,7 @@ def process_company(company, messages, generated_at):
 
     quarters, warnings = merge_quarter_records(parsed)
     new_quarters = [public_quarter(item) for item in quarters]
-    earnings_path = ROOT / "data" / "earnings" / "by-company" / f"{company['stock_code']}.json"
+    earnings_path = data_root / "earnings" / "by-company" / f"{company['stock_code']}.json"
     earnings_payload = read_json(earnings_path, {}) or {}
     detail = earnings_payload.get("company", {})
     merged_quarters = merge_public_quarters(detail.get("earnings", []), new_quarters)
@@ -92,7 +93,7 @@ def process_company(company, messages, generated_at):
         }
         write_json_atomic(earnings_path, earnings_payload)
 
-    disclosure_path = ROOT / "data" / "disclosures" / "by-company" / f"{company['stock_code']}.json"
+    disclosure_path = data_root / "disclosures" / "by-company" / f"{company['stock_code']}.json"
     disclosure_payload = read_json(disclosure_path, {}) or {}
     existing = list(disclosure_payload.get("disclosures", []))
     positions = {disclosure_identity(item): index for index, item in enumerate(existing)}
@@ -125,10 +126,13 @@ def process_company(company, messages, generated_at):
     }
 
 
-async def run():
+async def run(data_root=None, force_full_refresh=False, progress_callback=None, raise_on_error=True):
+    data_root = Path(data_root or ROOT / "data")
+    cursor_path = data_root / "state" / "telegram-cursor.json"
+    report_path = data_root / "telegram-portfolio-report.json"
     started = datetime.now(SEOUL)
-    cursor = read_json(CURSOR_PATH, {}) or {}
-    companies = read_json(ROOT / "data" / "companies.json", {"companies": []}).get("companies", [])
+    cursor = read_json(cursor_path, {}) or {}
+    companies = read_json(data_root / "companies.json", {"companies": []}).get("companies", [])
     active = [
         item for item in companies
         if item.get("status") == "active"
@@ -137,7 +141,8 @@ async def run():
     ]
     errors = []
     try:
-        channel_title, messages = await fetch_messages_once(cursor.get("last_processed_message_id"))
+        last_message_id = None if force_full_refresh else cursor.get("last_processed_message_id")
+        channel_title, messages = await fetch_messages_once(last_message_id)
     except Exception as error:
         channel_title, messages = None, []
         errors.append({"type": type(error).__name__})
@@ -149,7 +154,7 @@ async def run():
         for company in active:
             try:
                 company_results[company["stock_code"]] = process_company(
-                    company, distribution.get(company["stock_code"], []), generated_at,
+                    company, distribution.get(company["stock_code"], []), generated_at, data_root=data_root,
                 )
             except Exception as error:
                 errors.append({"stock_code": company["stock_code"], "type": type(error).__name__})
@@ -163,12 +168,12 @@ async def run():
             "version": "1.0.0", "channel_username": CHANNEL_USERNAME,
             "last_successful_run": generated_at, "last_error": None, "consecutive_failures": 0,
         })
-        write_json_atomic(CURSOR_PATH, cursor)
-        build_public_indexes(active, generated_at)
+        write_json_atomic(cursor_path, cursor)
+        build_public_indexes(active, generated_at, data_root=data_root)
     else:
         cursor["last_error"] = errors[0]["type"]
         cursor["consecutive_failures"] = cursor.get("consecutive_failures", 0) + 1
-        write_json_atomic(CURSOR_PATH, cursor)
+        write_json_atomic(cursor_path, cursor)
 
     matched_ids = {message["id"] for items in distribution.values() for message in items}
     report = {
@@ -187,13 +192,16 @@ async def run():
         "cursor_updated": cursor_updated,
         "duration_seconds": round((datetime.now(SEOUL) - started).total_seconds(), 3),
     }
-    write_json_atomic(REPORT_PATH, report)
+    write_json_atomic(report_path, report)
+    if progress_callback:
+        progress_callback(report)
     print(f"Messages fetched: {report['messages_fetched']}")
     print(f"Unique matched messages: {report['unique_matched_messages']}")
     print(f"Companies with matches: {report['companies_with_matches']}")
     print(f"Errors: {len(errors)}")
-    if errors:
+    if errors and raise_on_error:
         raise SystemExit(1)
+    return report
 
 
 if __name__ == "__main__":

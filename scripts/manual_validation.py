@@ -138,9 +138,13 @@ def main():
     # Naver uses a separate local fallback file.
     naver = load_values(("NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"), fallback_path=ROOT / ".secrets" / "naver.env")
     values.update(naver)
+    print("Python tests started", flush=True)
     tests = run_tests()
+    print("Python tests complete", flush=True)
     javascript = run_javascript_check()
+    print("JavaScript check complete", flush=True)
     public_json = public_json_checks()
+    print("Public JSON and sensitive-data checks complete", flush=True)
     external = "not_run"
     external_passed = True
     if args.run_external:
