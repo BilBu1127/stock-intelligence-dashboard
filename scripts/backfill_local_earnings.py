@@ -243,7 +243,7 @@ def build_candidates(message):
             "current_or_historical": "current" if is_current else "historical",
             "provisional": message["provisional"] if is_current else None,
             "corrected": message["corrected"] if is_current else False,
-            "source_status": "provisional" if is_current and message["provisional"] is True else "final" if is_current and message["provisional"] is False else "historical_reference",
+            "source_status": "corrected" if is_current and message["corrected"] else "provisional" if is_current and message["provisional"] is True else "final" if is_current and message["provisional"] is False else "historical_reference",
             **{key: message.get(key) for key in (
                 "consolidated_or_separate", "accounting_standard", "metric_basis", "disclosure_datetime",
                 "dart_url", "dart_receipt_number", "telegram_message_id", "private_source_filename",
@@ -270,15 +270,35 @@ def build_candidates(message):
 
 
 def selection_rank(candidate):
+    """Stable tie-break only; status never outranks a newer disclosure."""
     basis_rank = {"consolidated": 3, "unspecified": 2, "separate": 1, "mixed": 0}
     return (
-        int(bool(candidate.get("corrected"))),
-        int(candidate.get("provisional") is False),
-        int(candidate.get("provisional") is None),
+        int(candidate.get("current_or_historical") == "current"),
         basis_rank.get(candidate.get("consolidated_or_separate"), 0),
-        candidate.get("disclosure_datetime") or "",
         candidate.get("split_index") or 0,
     )
+
+
+def public_source_history(candidates):
+    """Keep structured value history without private filenames, hashes, or message text."""
+    history = []
+    seen = set()
+    for item in candidates:
+        entry = {
+            "source_status": item.get("source_status"),
+            "provisional": item.get("provisional"),
+            "corrected": bool(item.get("corrected")),
+            "disclosure_datetime": item.get("disclosure_datetime"),
+            "revenue": amount_value(item.get("revenue")),
+            "operating_profit": amount_value(item.get("operating_profit")),
+            "net_income": amount_value(item.get("net_income")),
+            "dart_url": item.get("dart_url"),
+        }
+        signature = tuple(entry.items())
+        if signature not in seen:
+            seen.add(signature)
+            history.append(entry)
+    return history
 
 
 def select_quarters(messages):
@@ -291,24 +311,44 @@ def select_quarters(messages):
     conflicts = []
     selection_history = []
     for key, candidates in grouped.items():
-        candidates.sort(key=selection_rank, reverse=True)
-        choice = candidates[0]
-        signatures = {candidate_signature(item) for item in candidates}
-        if len(signatures) > 1:
+        corrected_candidates = [item for item in candidates if item.get("corrected")]
+        eligible = corrected_candidates or candidates
+        signatures = {candidate_signature(item) for item in eligible}
+        timestamps = [item.get("disclosure_datetime") for item in eligible]
+        all_timestamps_known = all(timestamps)
+        if all_timestamps_known:
+            latest_timestamp = max(timestamps)
+            top_ranked = [item for item in eligible if item.get("disclosure_datetime") == latest_timestamp]
+        else:
+            latest_timestamp = None
+            top_ranked = list(eligible)
+        top_signatures = {candidate_signature(item) for item in top_ranked}
+        conflict_reason = None
+        if len(signatures) > 1 and not all_timestamps_known:
+            conflict_reason = "conflicting_values_without_comparable_disclosure_datetime"
+        elif len(top_signatures) > 1:
+            conflict_reason = "conflicting_values_at_same_disclosure_datetime"
+        if conflict_reason:
             conflicts.append({
                 "fiscal_quarter": key[0],
                 "basis": sorted({item.get("consolidated_or_separate") for item in candidates}),
                 "metric_basis": key[1],
                 "candidate_count": len(candidates),
                 "source_files": sorted({item["private_source_filename"] for item in candidates}),
+                "reason": conflict_reason,
             })
+        top_ranked.sort(key=selection_rank, reverse=True)
+        selected_original = top_ranked[0]
+        choice = dict(selected_original)
+        choice["source_history"] = public_source_history(candidates)
         selected.append(choice)
         selection_history.append({
             "fiscal_quarter": key[0],
             "selected_source": choice["private_source_filename"],
             "selected_hash": choice["private_source_hash"],
             "selected_status": choice["source_status"],
-            "selection_reason": "corrected > final > latest provisional; consolidated preferred",
+            "selected_disclosure_datetime": choice.get("disclosure_datetime"),
+            "selection_reason": "corrected > latest disclosure_datetime; status is informational only",
             "candidate_count": len(candidates),
             "rejected_candidates": [
                 {
@@ -317,7 +357,8 @@ def select_quarters(messages):
                     "status": item["source_status"],
                     "disclosure_datetime": item["disclosure_datetime"],
                 }
-                for item in candidates[1:]
+                for item in sorted(candidates, key=selection_rank, reverse=True)
+                if item is not selected_original
             ],
         })
     selected.sort(key=lambda item: quarter_index(item["fiscal_quarter"]))
@@ -344,7 +385,7 @@ def completion_status(quarters, missing, conflicts, needs_review=False):
     if needs_review:
         return "needs_review"
     if conflicts:
-        return "conflicting_data"
+        return "needs_review"
     if len(quarters) >= 8 and not missing:
         return "complete_8q"
     if len(quarters) >= 5:
@@ -400,6 +441,7 @@ def public_quarter(candidate):
         "metric_basis": candidate.get("metric_basis"),
         "disclosure_datetime": candidate.get("disclosure_datetime"),
         "dart_url": candidate.get("dart_url"),
+        "source_history": candidate.get("source_history", []),
     }
 
 

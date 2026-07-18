@@ -8,8 +8,10 @@ from urllib.request import Request, urlopen
 
 try:
     from .normalize_news import normalize_naver_item
+    from .credentials import load_values
 except ImportError:
     from normalize_news import normalize_naver_item
+    from credentials import load_values
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -58,15 +60,7 @@ class NaverRequestError(Exception):
 
 
 def load_naver_credentials(path=NAVER_ENV_PATH):
-    if not Path(path).is_file():
-        return None
-    values = {}
-    for line in Path(path).read_text(encoding="utf-8").splitlines():
-        clean = line.strip()
-        if not clean or clean.startswith("#") or "=" not in clean:
-            continue
-        key, value = clean.split("=", 1)
-        values[key.strip()] = value.strip()
+    values = load_values(("NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"), fallback_path=path)
     client_id = values.get("NAVER_CLIENT_ID", "")
     client_secret = values.get("NAVER_CLIENT_SECRET", "")
     return (client_id, client_secret) if client_id and client_secret else None

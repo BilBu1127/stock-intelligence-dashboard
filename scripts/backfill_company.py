@@ -8,6 +8,11 @@ from pathlib import Path
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
+try:
+    from .credentials import load_values, missing_names
+except ImportError:
+    from credentials import load_values, missing_names
+
 from parse_awake_message import (
     PARSER_VERSION,
     comparison_result,
@@ -39,14 +44,16 @@ def load_environment(path):
 
 
 def load_credentials():
-    if not SECRETS_ENV_PATH.is_file() or not SESSION_PATH.is_file():
-        raise FileNotFoundError("Local Telegram credential files are missing")
-    values = load_environment(SECRETS_ENV_PATH)
+    values = load_values(
+        ("TELEGRAM_API_ID", "TELEGRAM_API_HASH", "TELEGRAM_SESSION"),
+        fallback_path=SECRETS_ENV_PATH, session_path=SESSION_PATH,
+    )
+    missing = missing_names(values)
+    if missing:
+        raise FileNotFoundError("MissingCredentialVariables:" + ",".join(missing))
     api_id = int(values["TELEGRAM_API_ID"])
     api_hash = values["TELEGRAM_API_HASH"]
-    session_string = SESSION_PATH.read_text(encoding="utf-8").strip()
-    if not api_hash or not session_string:
-        raise ValueError("Local Telegram credential files are incomplete")
+    session_string = values["TELEGRAM_SESSION"]
     return api_id, api_hash, session_string
 
 

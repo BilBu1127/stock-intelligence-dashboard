@@ -49,6 +49,30 @@ https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260718000001
 """
 
 
+def merge_message(quarter, value, provisional, disclosure_datetime=None, corrected=False, source="fixture"):
+    amount = {"raw": f"{value}억", "value_won": value * 100_000_000}
+    return {
+        "current_quarter": quarter,
+        "recent_earnings": [],
+        "provisional": provisional,
+        "corrected": corrected,
+        "consolidated_or_separate": "consolidated",
+        "accounting_standard": None,
+        "metric_basis": "reported_net_income",
+        "disclosure_datetime": disclosure_datetime,
+        "dart_url": None,
+        "dart_receipt_number": None,
+        "telegram_message_id": None,
+        "private_source_filename": source,
+        "private_source_hash": source,
+        "split_index": 0,
+        "current_values": {
+            "revenue": amount, "operating_profit": amount, "net_income": amount,
+            "revenue_consensus": None, "operating_profit_consensus": None, "net_income_consensus": None,
+        },
+    }
+
+
 class LocalEarningsBackfillTests(unittest.TestCase):
     def test_folder_stock_code_matches_company(self):
         status, mismatches = company_match_status("005930", synthetic_message(), COMPANIES)
@@ -105,12 +129,34 @@ class LocalEarningsBackfillTests(unittest.TestCase):
         self.assertEqual(metric_basis("당기순이익 10억"), "net_income")
 
     def test_final_result_beats_provisional(self):
-        provisional = message_record(synthetic_message(provisional="Y"), COMPANIES["005930"], "p.txt", "p", 0)
-        final = message_record(synthetic_message(provisional="N"), COMPANIES["005930"], "f.txt", "f", 1)
+        provisional = merge_message("2026 Q2", 100, True, "2026-07-01T09:00:00", source="p")
+        final = merge_message("2026 Q2", 100, False, "2026-07-02T09:00:00", source="f")
         selected, _, history = select_quarters([provisional, final])
-        current = next(item for item in selected if item["fiscal_quarter"] == "2026 Q1")
+        current = next(item for item in selected if item["fiscal_quarter"] == "2026 Q2")
         self.assertFalse(current["provisional"])
-        self.assertGreaterEqual(next(item for item in history if item["fiscal_quarter"] == "2026 Q1")["candidate_count"], 2)
+        self.assertGreaterEqual(next(item for item in history if item["fiscal_quarter"] == "2026 Q2")["candidate_count"], 2)
+
+    def test_provisional_only_is_displayed_immediately(self):
+        selected, conflicts, _ = select_quarters([merge_message("2026 Q2", 100, True, "2026-07-01T09:00:00")])
+        self.assertFalse(conflicts)
+        self.assertEqual(selected[0]["source_status"], "provisional")
+
+    def test_newer_final_replaces_provisional_by_disclosure_time(self):
+        provisional = merge_message("2026 Q2", 100, True, "2026-07-01T09:00:00", source="p")
+        final = merge_message("2026 Q2", 110, False, "2026-07-02T09:00:00", source="f")
+        selected, conflicts, _ = select_quarters([provisional, final])
+        self.assertFalse(conflicts)
+        self.assertEqual(selected[0]["revenue"]["value_won"], 11_000_000_000)
+        self.assertEqual(selected[0]["source_status"], "final")
+        self.assertEqual(len(selected[0]["source_history"]), 2)
+
+    def test_newer_provisional_replaces_older_final_by_disclosure_time(self):
+        final = merge_message("2026 Q2", 100, False, "2026-07-01T09:00:00")
+        provisional = merge_message("2026 Q2", 110, True, "2026-07-02T09:00:00")
+        selected, conflicts, _ = select_quarters([final, provisional])
+        self.assertFalse(conflicts)
+        self.assertEqual(selected[0]["source_status"], "provisional")
+        self.assertEqual(selected[0]["revenue"]["value_won"], 11_000_000_000)
 
     def test_correction_beats_non_correction(self):
         normal = message_record(synthetic_message(), COMPANIES["005930"], "normal.txt", "a", 0)
@@ -119,12 +165,31 @@ class LocalEarningsBackfillTests(unittest.TestCase):
         current = next(item for item in selected if item["fiscal_quarter"] == "2026 Q1")
         self.assertTrue(current["corrected"])
 
+    def test_correction_beats_newer_non_correction(self):
+        final = merge_message("2026 Q2", 100, False, "2026-07-03T09:00:00")
+        corrected = merge_message("2026 Q2", 110, False, "2026-07-02T09:00:00", corrected=True)
+        selected, conflicts, _ = select_quarters([final, corrected])
+        self.assertFalse(conflicts)
+        self.assertTrue(selected[0]["corrected"])
+        self.assertEqual(selected[0]["revenue"]["value_won"], 11_000_000_000)
+
     def test_conflicting_values_create_warning(self):
         first = message_record(synthetic_message(), COMPANIES["005930"], "a.txt", "a", 0)
         second_text = synthetic_message().replace("2026 Q1 800억 80억 40억", "2026 Q1 900억 90억 45억")
         second = message_record(second_text, COMPANIES["005930"], "b.txt", "b", 1)
         _, conflicts, _ = select_quarters([first, second])
         self.assertTrue(any(item["fiscal_quarter"] == "2026 Q1" for item in conflicts))
+
+    def test_unknown_time_conflict_requires_review(self):
+        first = merge_message("2026 Q2", 100, True, None)
+        second = merge_message("2026 Q2", 110, False, None)
+        _, conflicts, _ = select_quarters([first, second])
+        self.assertTrue(conflicts)
+        self.assertEqual(completion_status([], [], conflicts), "needs_review")
+
+    def test_historical_status_does_not_block_complete_data(self):
+        quarters = [{"fiscal_quarter": quarter} for quarter in ("2024 Q2", "2024 Q3", "2024 Q4", "2025 Q1", "2025 Q2", "2025 Q3", "2025 Q4", "2026 Q1")]
+        self.assertEqual(completion_status(quarters, [], [], False), "complete_8q")
 
     def test_recent_eight_quarters_are_sorted(self):
         record = message_record(synthetic_message(), COMPANIES["005930"], "a.txt", "a", 0)
