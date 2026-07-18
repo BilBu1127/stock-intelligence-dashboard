@@ -144,7 +144,11 @@ def main():
     external = "not_run"
     external_passed = True
     if args.run_external:
-        if missing_names(values):
+        preflight_passed = tests["passed"] and javascript["passed"] and not public_json["findings"]
+        if not preflight_passed:
+            external = "skipped_preflight_failure"
+            external_passed = False
+        elif missing_names(values):
             external = "missing_required_secrets"
             external_passed = False
         else:

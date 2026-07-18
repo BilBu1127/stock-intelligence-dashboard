@@ -2,6 +2,8 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
+import os
 
 from scripts.fetch_naver_news import build_company_queries, collect_naver_articles, load_naver_credentials
 from scripts.normalize_news import clean_markup, normalize_naver_item, parse_naver_pubdate
@@ -56,13 +58,15 @@ class NaverNewsTests(unittest.TestCase):
     def test_missing_credentials_safely_skips(self):
         with tempfile.TemporaryDirectory() as directory:
             missing = Path(directory) / "missing.env"
-            self.assertIsNone(load_naver_credentials(missing))
-            articles, report = collect_naver_articles(
-                COMPANY,
-                datetime(2026, 7, 10, tzinfo=timezone.utc),
-                datetime(2026, 7, 17, tzinfo=timezone.utc),
-                credentials_path=missing,
-            )
+            # Keep this missing-credential contract independent of CI secrets and local files.
+            with patch.dict(os.environ, {"NAVER_CLIENT_ID": "", "NAVER_CLIENT_SECRET": ""}, clear=False):
+                self.assertIsNone(load_naver_credentials(missing))
+                articles, report = collect_naver_articles(
+                    COMPANY,
+                    datetime(2026, 7, 10, tzinfo=timezone.utc),
+                    datetime(2026, 7, 17, tzinfo=timezone.utc),
+                    credentials_path=missing,
+                )
             self.assertEqual(articles, [])
             self.assertEqual(report["credentials_status"], "naver_credentials_missing")
 
