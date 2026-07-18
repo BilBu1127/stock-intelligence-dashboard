@@ -1,0 +1,71 @@
+name: Manual Portfolio Validation
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: Branch or commit to validate
+        required: false
+        default: automation-staging
+        type: string
+      run_external:
+        description: Validate Telegram, NAVER, and GDELT in a temporary workspace
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: manual-portfolio-validation-${{ inputs.target_ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out requested revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target_ref }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Run read-only validation
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: >-
+          python scripts/manual_validation.py --validation-only
+          --output-dir validation-artifacts
+          ${{ inputs.run_external && '--run-external' || '' }}
+
+      - name: Summarize validation result
+        if: always()
+        run: test -f validation-artifacts/validation-report.json && cat validation-artifacts/validation-report.json || true
+
+      - name: Upload sanitized validation artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-validation-result
+          path: validation-artifacts/
+          retention-days: 3
+          if-no-files-found: warn
