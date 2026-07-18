@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-18T06:08:17.049284Z",
+  "generated_at": "2026-07-18T23:03:17.465259Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-07-18T06:08:17.049284Z",
+  "last_successful_update": "2026-07-18T23:03:17.465259Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -53,6 +53,50 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-16T09:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca376aeb09ed1de0",
+      "company_name": "파마리서치",
+      "stock_code": "214450",
+      "representative_title": "‘리쥬란’ 뜨는데 내수는 둔화… 파마리서치 목표가 상향·하향 엇갈려...",
+      "representative_url": "https://biz.heraldcorp.com/article/10811522",
+      "representative_source": "biz.heraldcorp.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-18T08:31:00Z",
+      "last_published_at": "2026-07-18T08:31:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "categories": [
+        "인사·M&A",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "‘리쥬란’ 뜨는데 내수는 둔화… 파마리서치 목표가 상향·하향 엇갈려...",
+          "url": "https://biz.heraldcorp.com/article/10811522",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-07-18T17:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -467,51 +511,6 @@
           "source": "theviewers.co.kr",
           "source_domain": "theviewers.co.kr",
           "published_at": "2026-07-16T09:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "35db0047f5b70f6a",
-      "company_name": "파마리서치",
-      "stock_code": "214450",
-      "representative_title": "한투증권 \" 파마리서치 , 의료기기·화장품 성장세…목표가↑\"",
-      "representative_url": "https://yna.co.kr/view/AKR20260716031400008?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-15T23:53:00Z",
-      "last_published_at": "2026-07-15T23:53:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한투증권 \" 파마리서치 , 의료기기·화장품 성장세…목표가↑\"",
-          "url": "https://yna.co.kr/view/AKR20260716031400008?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-07-16T08:53:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
