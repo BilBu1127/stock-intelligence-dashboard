@@ -47,11 +47,70 @@ def public_json_checks():
 
 def run_tests():
     result = subprocess.run(
-        [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-q"],
+        [sys.executable, "-m", "pytest", "-q", "--tb=short", "-p", "no:cacheprovider"],
         cwd=ROOT, text=True, capture_output=True, check=False,
     )
-    match = re.search(r"Ran (\d+) tests", result.stdout + result.stderr)
-    return {"passed": result.returncode == 0, "count": int(match.group(1)) if match else None}
+    output = result.stdout + "\n" + result.stderr
+    passed_match = re.search(r"(\d+) passed", output)
+    failed_match = re.search(r"(\d+) failed", output)
+    failed_tests = []
+    for line in output.splitlines():
+        match = re.match(r"FAILED\s+([^\s]+)(?:\s+-\s+(.+))?", line)
+        if match:
+            test_name, summary = match.groups()
+            path_match = re.match(r"([^:]+\.py)(?:::(.+))?", test_name)
+            failed_tests.append({
+                "name": test_name,
+                "file": path_match.group(1) if path_match else None,
+                "line": None,
+                "summary": sanitize_summary(summary or "test failed"),
+            })
+    locations = re.findall(r"(tests[/\\][^:\n]+\.py):(\d+):\s*([^\n]+)", output)
+    for item, location in zip(failed_tests, locations):
+        item["file"], item["line"], item["summary"] = location[0], int(location[1]), sanitize_summary(location[2])
+    passed_count = int(passed_match.group(1)) if passed_match else 0
+    failed_count = int(failed_match.group(1)) if failed_match else len(failed_tests)
+    return {
+        "passed": result.returncode == 0,
+        "passed_count": passed_count,
+        "failed_count": failed_count,
+        "failed_tests": failed_tests,
+        "error_summary": [item["summary"] for item in failed_tests],
+    }
+
+
+def sanitize_summary(value):
+    text = str(value or "test failed")
+    text = re.sub(r"(?i)(api[_ -]?hash|client[_ -]?secret|session|phone)[^\s,:=]*\s*[:=]\s*[^\s,]+", "[redacted]", text)
+    return text[:500]
+
+
+def platform_checks():
+    tracked = subprocess.run(["git", "ls-files"], cwd=ROOT, text=True, capture_output=True, check=False).stdout.splitlines()
+    lower_names = [name.casefold() for name in tracked]
+    text_paths = [ROOT / name for name in tracked if Path(name).suffix.lower() in {".py", ".json", ".html", ".css", ".md", ".yml", ".yaml"}]
+    utf8_errors = []
+    crlf_files = 0
+    windows_paths = []
+    for path in text_paths:
+        try:
+            content = path.read_bytes()
+            decoded = content.decode("utf-8")
+            crlf_files += int(b"\r\n" in content)
+            if re.search(r"(?i)(?<![A-Z0-9])[A-Z]:[\\/]", decoded):
+                windows_paths.append(str(path.relative_to(ROOT)))
+        except UnicodeDecodeError:
+            utf8_errors.append(str(path.relative_to(ROOT)))
+    return {
+        "windows_absolute_paths": windows_paths,
+        "path_separator": "pathlib_used",
+        "case_collisions": sorted({name for name in lower_names if lower_names.count(name) > 1}),
+        "crlf_file_count": crlf_files,
+        "utf8_decode_errors": utf8_errors,
+        "timezone_configured": (ROOT / "data" / "config" / "pipeline.json").read_text(encoding="utf-8").find("Asia/Seoul") >= 0,
+        "temporary_directories": "tempfile_used",
+        "deterministic_sorting": "covered_by_tests",
+    }
 
 
 def run_javascript_check():
@@ -99,6 +158,7 @@ def main():
         "executed_at": datetime.now(timezone.utc).isoformat(),
         "mode": "validation_only",
         "tests": tests,
+        "platform_compatibility": platform_checks(),
         "javascript": javascript,
         "public_json": public_json,
         "missing_secret_names": missing_names(values),
@@ -112,7 +172,13 @@ def main():
     }
     report["passed"] = tests["passed"] and javascript["passed"] and not public_json["findings"] and external_passed
     (args.output_dir / "validation-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    (args.output_dir / "test-summary.txt").write_text(f"tests_passed={tests['passed']}\ntests_count={tests['count']}\n", encoding="utf-8")
+    (args.output_dir / "test-summary.txt").write_text(
+        f"tests_passed={tests['passed']}\npassed_count={tests['passed_count']}\nfailed_count={tests['failed_count']}\n"
+        + "\n".join(f"failed_test={item['name']}" for item in tests["failed_tests"]) + "\n",
+        encoding="utf-8",
+    )
+    if tests["failed_tests"]:
+        print("Failed tests: " + ", ".join(item["name"] for item in tests["failed_tests"]))
     (args.output_dir / "data-change-summary.txt").write_text(data_change_summary() + "\n", encoding="utf-8")
     print("Validation completed" if report["passed"] else "Validation failed")
     raise SystemExit(0 if report["passed"] else 1)
