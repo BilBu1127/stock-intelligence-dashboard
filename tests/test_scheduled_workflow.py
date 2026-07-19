@@ -73,6 +73,12 @@ class ScheduledWorkflowPolicyTests(unittest.TestCase):
         self.assertNotIn("git push --force", lowered)
         self.assertNotIn("git push -f", lowered)
 
+    def test_runner_temp_is_created_inside_a_step(self):
+        self.assertNotIn("ARTIFACT_DIR: ${{ runner.temp }}", self.scheduled_text)
+        self.assertIn("- name: Prepare temporary directory", self.scheduled_text)
+        self.assertIn('TEMP_RESULT_DIR="${RUNNER_TEMP}/scheduled-portfolio-update"', self.scheduled_text)
+        self.assertIn('echo "ARTIFACT_DIR=$TEMP_RESULT_DIR" >> "$GITHUB_ENV"', self.scheduled_text)
+
 
 if __name__ == "__main__":
     unittest.main()
