@@ -7,6 +7,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,6 +33,7 @@ FORBIDDEN_KEYS = {
 FORBIDDEN_TEXT = ("private_samples", ".secrets", "telegram_session", "naver_client_secret")
 WINDOWS_ABSOLUTE_PATH = re.compile(r"(?i)(?<![A-Z0-9])[A-Z]:[\\/]")
 PHONE_NUMBER = re.compile(r"(?<!\d)(?:\+82[- ]?10|010)[- ]\d{3,4}[- ]\d{4}(?!\d)")
+SCHEDULED_EVENTS = {"schedule", "workflow_dispatch"}
 
 
 def is_allowed_repository_path(relative_path):
@@ -302,18 +304,45 @@ def write_report(output_dir, report):
     )
 
 
+def validate_execution_target(target_branch=None, scheduled_production=False, environment=None, current_branch=None):
+    environment = os.environ if environment is None else environment
+    if target_branch == "main" and not scheduled_production:
+        raise PermissionError("MainRequiresScheduledProductionMode")
+    if not scheduled_production:
+        return {"target_branch": target_branch, "scheduled_production": False}
+    if target_branch != "main":
+        raise PermissionError("ScheduledProductionRequiresMain")
+    if str(environment.get("GITHUB_ACTIONS", "")).casefold() != "true":
+        raise PermissionError("ScheduledProductionRequiresGitHubActions")
+    if environment.get("GITHUB_EVENT_NAME") not in SCHEDULED_EVENTS:
+        raise PermissionError("ScheduledProductionEventNotAllowed")
+    branch = current_branch or environment.get("GITHUB_REF_NAME")
+    if not branch:
+        result = subprocess.run(
+            ["git", "branch", "--show-current"], cwd=ROOT, text=True, capture_output=True, check=False,
+        )
+        branch = result.stdout.strip()
+    if branch != "main":
+        raise PermissionError("ScheduledProductionBranchNotMain")
+    return {"target_branch": target_branch, "scheduled_production": True}
+
+
 def main():
     parser = argparse.ArgumentParser(description="Safely prepare a manual incremental production update.")
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--apply-changes", action="store_true")
     parser.add_argument("--force-full-refresh", action="store_true")
+    parser.add_argument("--target-branch")
+    parser.add_argument("--scheduled-production", action="store_true")
     args = parser.parse_args()
+    execution_target = validate_execution_target(args.target_branch, args.scheduled_production)
     started = datetime.now(timezone.utc)
     report = {
         "executed_at": started.isoformat(),
         "mode": "apply" if args.apply_changes else "dry_run",
         "apply_changes": args.apply_changes,
         "force_full_refresh": args.force_full_refresh,
+        **execution_target,
         "repository_writes": False,
         "commit_eligible": False,
         "data_changed": False,
@@ -339,10 +368,6 @@ def main():
                 print(f"NAVER batch {item['batch']}/{batch_total} complete", flush=True)
                 print(f"GDELT batch {item['batch']}/{batch_total} complete", flush=True)
 
-            print("External incremental collection started", flush=True)
-            news = BatchNewsPipeline(temp_data, config, providers, progress_callback=show_news_progress).run(
-                companies, now=datetime.now(timezone.utc), backfill=args.force_full_refresh,
-            )
             print("Telegram stage started", flush=True)
             telegram = asyncio.run(run_telegram(
                 data_root=temp_data,
@@ -350,6 +375,11 @@ def main():
                 raise_on_error=False,
             ))
             print("Telegram stage complete", flush=True)
+            print("NAVER and GDELT incremental collection started", flush=True)
+            news = BatchNewsPipeline(temp_data, config, providers, progress_callback=show_news_progress).run(
+                companies, now=datetime.now(timezone.utc), backfill=args.force_full_refresh,
+            )
+            print("NAVER and GDELT incremental collection complete", flush=True)
             checks = public_json_checks(temp_data)
             changed = changed_allowed_files(temp_data, ROOT / "data")
             disallowed = [path for path in changed if not is_allowed_repository_path(path)]

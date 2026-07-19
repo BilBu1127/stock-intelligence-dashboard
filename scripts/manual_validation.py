@@ -123,13 +123,62 @@ def data_change_summary():
     return result.stdout.strip() or "no working-tree data changes"
 
 
+def repository_data_checks():
+    try:
+        from .manual_production_update import public_json_checks as production_public_json_checks
+    except ImportError:
+        from manual_production_update import public_json_checks as production_public_json_checks
+    broad = public_json_checks()
+    production = production_public_json_checks(ROOT / "data")
+    platform = platform_checks()
+    passed = (
+        not broad["findings"]
+        and not production["findings"]
+        and not platform["windows_absolute_paths"]
+        and not platform["utf8_decode_errors"]
+        and not platform["case_collisions"]
+    )
+    return {
+        "passed": passed,
+        "public_json": broad,
+        "production_json": production,
+        "platform_compatibility": platform,
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description="Read-only manual portfolio validation.")
-    parser.add_argument("--validation-only", action="store_true", required=True)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--validation-only", action="store_true")
+    mode.add_argument("--data-only", action="store_true")
     parser.add_argument("--run-external", action="store_true")
     parser.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    if args.data_only:
+        if args.run_external:
+            parser.error("--data-only cannot be combined with --run-external")
+        checks = repository_data_checks()
+        report = {
+            "executed_at": datetime.now(timezone.utc).isoformat(),
+            "mode": "data_only",
+            **checks,
+            "repository_writes": False,
+            "cursor_updates": False,
+            "commit": False,
+            "push": False,
+            "deploy": False,
+        }
+        (args.output_dir / "data-validation-report.json").write_text(
+            json.dumps(report, indent=2) + "\n", encoding="utf-8",
+        )
+        print(
+            "Public JSON validation complete: "
+            f"{checks['production_json']['files_checked']} production files, "
+            f"{len(checks['production_json']['findings'])} findings",
+            flush=True,
+        )
+        raise SystemExit(0 if checks["passed"] else 1)
     values = load_values(
         REQUIRED_SECRETS,
         fallback_path=ROOT / ".secrets" / "telegram.env",
