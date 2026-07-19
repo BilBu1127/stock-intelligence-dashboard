@@ -25,6 +25,7 @@
         <button class="tab-button active" type="button" data-tab="watchlist">관심 종목</button>
         <button class="tab-button" type="button" data-tab="earnings">실적</button>
         <button class="tab-button" type="button" data-tab="disclosures">공시</button>
+        <button class="tab-button" type="button" data-tab="news">뉴스</button>
       </nav>
 
       <main>
@@ -37,7 +38,30 @@
             <p class="section-note">기업을 선택하면 실적 상세로 이동</p>
           </div>
 
+          <div class="watchlist-tools">
+            <label>
+              관심 기업 검색
+              <input id="watchlistSearch" type="search" placeholder="기업명 또는 종목코드" autocomplete="off">
+            </label>
+            <label>
+              카테고리
+              <select id="watchlistCategoryFilter">
+                <option value="all">전체 카테고리</option>
+              </select>
+            </label>
+            <label>
+              중요도
+              <select id="watchlistTierFilter">
+                <option value="all">전체 중요도</option>
+                <option value="core">Core</option>
+                <option value="watch">Watch</option>
+                <option value="background">Background</option>
+              </select>
+            </label>
+          </div>
+
           <div class="watchlist-summary" id="watchlistSummary"></div>
+          <button class="load-more-button" id="watchlistLoadMore" type="button" hidden>관심 기업 더 보기</button>
         </section>
 
         <section class="tab-panel" id="panel-earnings" aria-label="실적">
@@ -108,7 +132,7 @@
               <section class="side-section">
                 <div class="side-head">
                   <h3>최근 뉴스</h3>
-                  <span>정적 시제품</span>
+                  <span>통합 뉴스 7일</span>
                 </div>
                 <div id="recentNews" class="compact-list"></div>
               </section>
@@ -138,9 +162,87 @@
 
           <div class="disclosure-list" id="disclosureList"></div>
         </section>
+
+        <section class="tab-panel" id="panel-news" aria-label="뉴스">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">News Intelligence</p>
+              <h2>관심 기업 뉴스</h2>
+            </div>
+            <p class="section-note">GDELT·NAVER 사건 단위 뉴스, 기사 본문 미수집</p>
+          </div>
+
+          <div class="filter-bar news-filter-bar">
+            <label>
+              기업
+              <select id="newsCompanyFilter"></select>
+            </label>
+            <label>
+              지역
+              <select id="newsRegionFilter">
+                <option value="all">국내·해외</option>
+                <option value="domestic">국내</option>
+                <option value="international">해외</option>
+                <option value="both">국내·해외 동시 보도</option>
+              </select>
+            </label>
+            <label>
+              제공자
+              <select id="newsProviderFilter">
+                <option value="all">전체 제공자</option>
+                <option value="gdelt">GDELT</option>
+                <option value="naver">NAVER</option>
+                <option value="both">BOTH</option>
+              </select>
+            </label>
+            <label>
+              중요도
+              <select id="newsImportanceFilter">
+                <option value="all">전체 중요도</option>
+                <option value="critical">Critical</option>
+                <option value="important">Important</option>
+                <option value="watch">Watch</option>
+                <option value="low">Low</option>
+              </select>
+            </label>
+            <label>
+              정렬
+              <select id="newsSortFilter">
+                <option value="latest">최신순</option>
+                <option value="importance">중요도순</option>
+              </select>
+            </label>
+            <label>
+              기간
+              <select id="newsPeriodFilter">
+                <option value="1">24시간</option>
+                <option value="7" selected>7일</option>
+                <option value="30">30일</option>
+              </select>
+            </label>
+          </div>
+
+          <section class="news-section" aria-labelledby="coreNewsTitle">
+            <div class="news-section-head">
+              <h3 id="coreNewsTitle">핵심 뉴스</h3>
+              <span id="coreNewsCount">0건</span>
+            </div>
+            <div class="news-grid core-news-grid" id="coreNewsList"></div>
+          </section>
+
+          <section class="news-section" aria-labelledby="allNewsTitle">
+            <div class="news-section-head">
+              <h3 id="allNewsTitle">모든 뉴스</h3>
+              <span id="allNewsCount">0건</span>
+            </div>
+            <div class="news-grid" id="allNewsList"></div>
+            <button class="load-more-button" id="newsLoadMore" type="button" hidden>뉴스 더 보기</button>
+          </section>
+        </section>
       </main>
     </div>
 
+    <script src="./data/portfolio.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

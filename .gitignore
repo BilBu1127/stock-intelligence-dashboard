@@ -4,6 +4,16 @@ desktop.ini
 *.log
 .env
 .env.*
+.secrets/
+*.session
+*.session-journal
+**pycache**/
+.venv/
+private_samples/
+review/
+preview/
+validation-artifacts/
+production-artifacts/
 node_modules/
 dist/
 build/

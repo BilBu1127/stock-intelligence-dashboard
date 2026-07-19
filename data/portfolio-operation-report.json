@@ -1,0 +1,4098 @@
+{
+  "generated_at": "2026-07-18T01:29:40.201481+09:00",
+  "registration": {
+    "input_companies": 61,
+    "registered_companies": 61,
+    "validation_counts": {
+      "verified": 59,
+      "corrected": 2
+    },
+    "tier_counts": {
+      "core": 19,
+      "watch": 26,
+      "background": 16
+    },
+    "category_counts": {
+      "반도체": 33,
+      "AI DC": 3,
+      "에너지": 10,
+      "조선": 4,
+      "로봇": 3,
+      "인바운드": 3,
+      "방산": 5
+    }
+  },
+  "news": {
+    "provider_calls": {
+      "naver": 125,
+      "gdelt": 148
+    },
+    "provider_errors": {
+      "naver": {},
+      "gdelt": {
+        "JSONDecodeError": 28,
+        "HTTP429": 27
+      }
+    },
+    "raw_articles": 4891,
+    "relevant_articles": 595,
+    "duplicates_removed": 94,
+    "clusters_before_quality_audit": 449,
+    "quality_exclusions": 9,
+    "quality_exclusion_reasons": {
+      "market_roundup_or_stock_list": 8,
+      "other_portfolio_company_in_title": 1
+    },
+    "remaining_cross_company_duplicates": 0,
+    "importance_counts": {
+      "critical": 1,
+      "important": 1,
+      "watch": 14,
+      "low": 220
+    },
+    "zero_news_companies": [
+      "095610",
+      "170920",
+      "005290",
+      "114810",
+      "166090",
+      "272110",
+      "083450",
+      "039440",
+      "067310",
+      "101490",
+      "036810",
+      "080220",
+      "200710",
+      "327260",
+      "059090",
+      "0008Z0",
+      "439260",
+      "474610"
+    ],
+    "total_duration_seconds": 2300.217456,
+    "public_json_total_bytes": 3280613
+  },
+  "telegram": {
+    "status": "not_run",
+    "messages_fetched": 0,
+    "unique_matched_messages": 0,
+    "companies_with_matches": 0,
+    "errors": [],
+    "cursor_updated": false
+  },
+  "disclosures": {
+    "zero_disclosure_companies": [
+      "005930",
+      "000660",
+      "042700",
+      "031980",
+      "089030",
+      "095610",
+      "240810",
+      "084370",
+      "319660",
+      "281820",
+      "403870",
+      "170920",
+      "357780",
+      "005290",
+      "058470",
+      "131290",
+      "252990",
+      "183300",
+      "114810",
+      "166090",
+      "101160",
+      "272110",
+      "007660",
+      "353200",
+      "356860",
+      "083450",
+      "039440",
+      "067310",
+      "101490",
+      "036810",
+      "080220",
+      "200710",
+      "327260",
+      "018260",
+      "035420",
+      "119850",
+      "010120",
+      "062040",
+      "298040",
+      "047050",
+      "059090",
+      "034020",
+      "375500",
+      "000720",
+      "005490",
+      "126340",
+      "329180",
+      "010140",
+      "0008Z0",
+      "439260",
+      "108490",
+      "012330",
+      "005380",
+      "278470",
+      "214450",
+      "204620",
+      "079550",
+      "474610",
+      "064350",
+      "047810",
+      "012450"
+    ],
+    "total_disclosures": 0
+  },
+  "companies": [
+    {
+      "company_name": "삼성전자",
+      "input_company_name": "삼성전자",
+      "stock_code": "005930",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 278,
+      "relevant_articles": 32,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 1,
+        "low": 9
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 49.817799,
+      "json_bytes": 17492,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[단독] LGD 듀얼모드 OLED 패널 … 삼성전자 ·美 델에 공급시작",
+          "url": "https://mk.co.kr/article/12101098",
+          "source": "mk.co.kr",
+          "score": 50,
+          "level": "watch",
+          "published_at": "2026-07-17T08:45:00Z"
+        },
+        {
+          "title": "\"40조원 성과급 잔치 못 참아\"… 삼성전자 개미들 행동 나섰다",
+          "url": "https://hankyung.com/article/2026071710937",
+          "source": "hankyung.com",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-17T07:12:00Z"
+        },
+        {
+          "title": "삼성E&A, 삼성전자 반도체 투자 확대 수혜…\"중장기 성장 기반 마련\"",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469320",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T09:50:00Z"
+        },
+        {
+          "title": "삼성전자 차기 폴더블폰 300만원 넘을 듯…부품값 급증 영향",
+          "url": "https://segye.com/newsView/20260717512890?OutUrl=naver",
+          "source": "segye.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T13:02:00Z"
+        },
+        {
+          "title": "\"수십조 성과급, 주주 승인 없인 안 된다\"… 삼성전자 소액주주 424명 국...",
+          "url": "https://imaeil.com/page/view/2026071721132397547",
+          "source": "imaeil.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T12:14:00Z"
+        },
+        {
+          "title": "[Biz&Law] 삼성전자 , 와이파이 6세대 특허 美 소송 종결…상호합의 취하",
+          "url": "https://the-biz.co.kr/news/articleView.html?idxno=724601",
+          "source": "the-biz.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T08:40:00Z"
+        },
+        {
+          "title": "40조원 성과급 그냥 못 넘긴다 … 삼성전자 개미들 뭉쳤다",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/07/17/2026071700039.html",
+          "source": "biz.newdaily.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T08:06:00Z"
+        },
+        {
+          "title": "[A 주간 서머리] 경제·산업계 \"한은 금리인상 단행... 삼성전자 , 수리 자...",
+          "url": "https://asiaa.co.kr/news/articleView.html?idxno=255400",
+          "source": "asiaa.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T08:00:00Z"
+        },
+        {
+          "title": "삼성전자 감사페스티벌 '역대급 흥행'…배송 지연 우려 확산",
+          "url": "https://industrynews.co.kr/news/articleView.html?idxno=83432",
+          "source": "industrynews.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T07:48:00Z"
+        },
+        {
+          "title": "\"주가 떨어지는데 40조 성과급? 못 참아\"…분노한 삼성전자 소액주주들",
+          "url": "https://view.asiae.co.kr/article/2026071718114182653",
+          "source": "view.asiae.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-17T09:22:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "SK하이닉스",
+      "input_company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 12,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 550,
+      "relevant_articles": 90,
+      "duplicate_articles": 8,
+      "importance_counts": {
+        "critical": 1,
+        "important": 0,
+        "watch": 2,
+        "low": 9
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 71.824739,
+      "json_bytes": 51014,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "최태원, \" SK하이닉스 주식, 샀다 팔았다 말고 갖고 있으면 돼\"",
+          "url": "https://yna.co.kr/view/AKR20260717026000003?input=1195m",
+          "source": "yna.co.kr",
+          "score": 85,
+          "level": "critical",
+          "published_at": "2026-07-17T08:58:00Z"
+        },
+        {
+          "title": "최태원 \" SK하이닉스 주식, 사고팔지 말고 갖고 있어라\"",
+          "url": "https://econonews.co.kr/news/articleView.html?idxno=441363",
+          "source": "econonews.co.kr",
+          "score": 40,
+          "level": "watch",
+          "published_at": "2026-07-17T10:42:00Z"
+        },
+        {
+          "title": "TSMC 호실적에도 반도체 AI 투자 회의론... SK하이닉스 ADR 13% 급락[뉴욕...",
+          "url": "https://mt.co.kr/world/2026/07/17/2026071706002989696",
+          "source": "mt.co.kr",
+          "score": 40,
+          "level": "watch",
+          "published_at": "2026-07-16T21:03:00Z"
+        },
+        {
+          "title": "\"월요일 국장 비상\"?...삼성· SK하이닉스 해외지표 보니",
+          "url": "https://ajunews.com/view/20260717192739771",
+          "source": "ajunews.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T10:40:00Z"
+        },
+        {
+          "title": "최태원 회장 \" SK하이닉스 결국 우상향…상품 아닌 지능 수출해야\"",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=207749",
+          "source": "srtimes.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T10:28:00Z"
+        },
+        {
+          "title": "미 의회, 중국산 메모리 구매 금지 촉구…삼성· SK하이닉스 '반사이익'",
+          "url": "https://industrynews.co.kr/news/articleView.html?idxno=83431",
+          "source": "industrynews.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T07:46:00Z"
+        },
+        {
+          "title": "“ SK하이닉스 주식 우상향할 것” 최태원, AI 산업 전략 제시",
+          "url": "https://kpenews.com/View.aspx?No=4152698",
+          "source": "kpenews.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T06:52:00Z"
+        },
+        {
+          "title": "최태원, \" SK하이닉스 주식, 샀다 팔았다 말고 가만히 갖고 계세요\"",
+          "url": "https://public25.com/news/articleView.html?idxno=50888",
+          "source": "public25.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T06:46:00Z"
+        },
+        {
+          "title": "[아주경제 오늘의 뉴스 종합] 최태원 \" SK하이닉스 주가 우상향…메모리...",
+          "url": "https://ajunews.com/view/20260717213147817",
+          "source": "ajunews.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-17T12:52:00Z"
+        },
+        {
+          "title": "최태원 \" SK하이닉스 주가, 시간 두면 오른다\"…\"韓, 지능 수출로 전략 바...",
+          "url": "https://newsworks.co.kr/news/articleView.html?idxno=847515",
+          "source": "newsworks.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-17T07:50:00Z"
+        },
+        {
+          "title": "최태원, SK하이닉스 급등락에 “시간 두면 우상향”",
+          "url": "https://vegannews.co.kr/news/article.html?no=384103",
+          "source": "vegannews.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-17T07:34:00Z"
+        },
+        {
+          "title": "“메모리 계속 필요” 최태원 회장이 내놓은 SK하이닉스 주가 전망",
+          "url": "https://dailian.co.kr/news/view/1668245?sc=Naver",
+          "source": "dailian.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-17T07:04:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "한미반도체",
+      "input_company_name": "한미반도체",
+      "stock_code": "042700",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 14,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 200,
+      "relevant_articles": 80,
+      "duplicate_articles": 9,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 5,
+        "low": 9
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 56.309062,
+      "json_bytes": 35546,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "한미반도체 , 2분기 매출 2511억원…최대 분기 실적 경신",
+          "url": "https://etnews.com/20260714000274",
+          "source": "etnews.com",
+          "score": 50,
+          "level": "watch",
+          "published_at": "2026-07-15T03:24:00Z"
+        },
+        {
+          "title": "[단독] 한미반도체 회장 “ HBM 장비 생산 더 속도낼것…올해 美법인 설립...",
+          "url": "https://mk.co.kr/article/12098918",
+          "source": "mk.co.kr",
+          "score": 50,
+          "level": "watch",
+          "published_at": "2026-07-15T00:46:00Z"
+        },
+        {
+          "title": "[더벨][Company Watch] '영업이익률 52%' 한미반도체 , 어닝 서프라이즈",
+          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202607141458308880103865",
+          "source": "thebell.co.kr",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-15T22:02:00Z"
+        },
+        {
+          "title": "\"반도체장비도 공급 부족… 한미반도체 , 8공장 추진\"",
+          "url": "https://mk.co.kr/article/12099492",
+          "source": "mk.co.kr",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-15T08:49:00Z"
+        },
+        {
+          "title": "[ET특징주] 한미반도체 , 2분기 호실적에 상승세",
+          "url": "https://etnews.com/20260715000141",
+          "source": "etnews.com",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-15T01:17:00Z"
+        },
+        {
+          "title": "[기업이슈] 한미반도체 2분기 역대 최대 실적…반도체 업황 우려 완화",
+          "url": "https://biz.sbs.co.kr/article_hub/20000322848?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T23:37:00Z"
+        },
+        {
+          "title": "한미반도체 , 인천 주안에 신규 8공장 건설 검토…\"글로벌 쇼티지 대응\"",
+          "url": "https://news1.kr/industry/general-industry/6229557",
+          "source": "news1.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T10:00:00Z"
+        },
+        {
+          "title": "HBM 훈풍 타고 '상한가' 직행한 한미반도체 , '높은 밸류에이션'과 '소송...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269856",
+          "source": "newsquest.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T08:28:00Z"
+        },
+        {
+          "title": "[1% 초고수의 선택] ' 한미반도체 ' 사고 'LG이노텍' 팔았다",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1716738",
+          "source": "ebn.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:28:00Z"
+        },
+        {
+          "title": "한미반도체 , 하루 만에 8%대 급락…상한가 이후 차익실현 매물 출회",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=221400",
+          "source": "job-post.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T05:14:00Z"
+        },
+        {
+          "title": "[오늘의 IR] 에코프로비엠ㆍ 한미반도체 ㆍ세나테크놀로지 등",
+          "url": "https://etoday.co.kr/news/view/2604265",
+          "source": "etoday.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T22:26:00Z"
+        },
+        {
+          "title": "한미반도체 주가 주루룩, 24만원선 초반으로 밀려…제헌절 휴장 이후 반...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589823",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T22:56:00Z"
+        },
+        {
+          "title": "[애프터마켓 리뷰] 한미반도체 , 2분기 사상 최대 실적에 급등",
+          "url": "https://biz.sbs.co.kr/article_hub/20000322839?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T22:55:00Z"
+        },
+        {
+          "title": "[특징주] 한미반도체 , 2분기 '어닝 서프라이즈'에 27% 급등",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1716489",
+          "source": "ebn.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T05:12:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "피에스케이홀딩스",
+      "input_company_name": "피에스케이홀딩스",
+      "stock_code": "031980",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 107,
+      "relevant_articles": 2,
+      "duplicate_articles": 1,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 44.488601,
+      "json_bytes": 1808,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "피에스케이홀딩스 , 리플로우 장비 300대 수주",
+          "url": "https://thelec.kr/news/articleView.html?idxno=59547",
+          "source": "thelec.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-14T08:26:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "테크윙",
+      "input_company_name": "테크윙",
+      "stock_code": "089030",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 7,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 79,
+      "relevant_articles": 15,
+      "duplicate_articles": 4,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 2,
+        "low": 5
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 42.200571,
+      "json_bytes": 13046,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[ET특징주] 테크윙 , 2분기 호실적에 상승세",
+          "url": "https://etnews.com/20260714000283",
+          "source": "etnews.com",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-14T04:34:00Z"
+        },
+        {
+          "title": "테크윙 2분기 영업이익 125억원…작년 동기 대비 96.6%↑",
+          "url": "https://yna.co.kr/view/AKR20260713106100527?input=1195m",
+          "source": "yna.co.kr",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-13T06:26:00Z"
+        },
+        {
+          "title": "AI 반도체 수율의 해결사… 테크윙 , 독보적 검사장비로 판 키운다",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468252",
+          "source": "pinpointnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-14T01:56:00Z"
+        },
+        {
+          "title": "[특징주] 테크윙 , 2분기 호실적+SK하닉 투자 수혜 기대 '급등'",
+          "url": "https://g-enews.com/view.php?ud=20260714100127855244093b5d4e_1",
+          "source": "g-enews.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-14T05:20:00Z"
+        },
+        {
+          "title": "[특징주] 테크윙 , 2분기 실적 훈풍에 주가 13% 급등",
+          "url": "https://newsdream.kr/news/articleView.html?idxno=114418",
+          "source": "newsdream.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-14T01:26:00Z"
+        },
+        {
+          "title": "테크윙 , 2분기 호실적에 16% 급등[특징주]",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=03171766645514520",
+          "source": "edaily.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-14T00:33:00Z"
+        },
+        {
+          "title": "테크윙 주가, 급등세... 왜?",
+          "url": "https://ggilbo.com/news/articleView.html?idxno=1169145",
+          "source": "ggilbo.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-14T00:20:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "테스",
+      "input_company_name": "테스",
+      "stock_code": "095610",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 109,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 47.103803,
+      "json_bytes": 306,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "원익IPS",
+      "input_company_name": "원익IPS",
+      "stock_code": "240810",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 1
+      },
+      "raw_articles": 183,
+      "relevant_articles": 5,
+      "duplicate_articles": 1,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 30.02647,
+      "json_bytes": 5422,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "HBM 훈풍에 반도체 장비주 파죽지세…한미반도체· 원익IPS 동반 신바람",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468586",
+          "source": "pinpointnews.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T01:34:00Z"
+        },
+        {
+          "title": "'최애' 반도체 ETF … 원익IPS 담고, LG이노텍 빼고",
+          "url": "https://mk.co.kr/article/12099520",
+          "source": "mk.co.kr",
+          "score": 5,
+          "level": "low",
+          "published_at": "2026-07-15T08:56:00Z"
+        },
+        {
+          "title": "'SOL AI반도체TOP2플러스' ETF, 정기 리밸런싱… 원익IPS 등 편입",
+          "url": "https://view.asiae.co.kr/article/2026071509065954352",
+          "source": "view.asiae.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T02:16:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "유진테크",
+      "input_company_name": "유진테크",
+      "stock_code": "084370",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 63,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 27.455598,
+      "json_bytes": 1822,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "유진테크 , 코쿠사이 반도체 ALD장비 특허 추가 무효화...특허법원서 뒤...",
+          "url": "https://zdnet.co.kr/view?no=20260715144232",
+          "source": "zdnet.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T05:43:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "피에스케이",
+      "input_company_name": "피에스케이",
+      "stock_code": "319660",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 185,
+      "relevant_articles": 2,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {
+        "other_portfolio_company_in_title": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 46.002094,
+      "json_bytes": 3384,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[더벨][현장 스토리] 피에스케이 “슈퍼 사이클 수혜, 컨센서스 충족 자...",
+          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202607141730559560105086",
+          "source": "thebell.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T22:02:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "케이씨텍",
+      "input_company_name": "케이씨텍",
+      "stock_code": "281820",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 1
+      },
+      "raw_articles": 51,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 23.563705,
+      "json_bytes": 1846,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "7월 2주차 케이씨텍 주가 변동성 속 9만원대 회복",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=532189",
+          "source": "joongangenews.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-11T01:50:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "HPSP",
+      "input_company_name": "HPSP",
+      "stock_code": "403870",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 50,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 39.633682,
+      "json_bytes": 1726,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "HPSP 주가, 급등세... 이유는?",
+          "url": "https://ggilbo.com/news/articleView.html?idxno=1169553",
+          "source": "ggilbo.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T04:12:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "엘티씨",
+      "input_company_name": "엘티씨",
+      "stock_code": "170920",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 11,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 42.125159,
+      "json_bytes": 301,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "솔브레인",
+      "input_company_name": "솔브레인",
+      "stock_code": "357780",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 1
+      },
+      "raw_articles": 34,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 19.499746,
+      "json_bytes": 1893,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[더벨] 솔브레인 2세 정문주, '100억' 들여 지주사 지분 확대",
+          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202607130940497640107483",
+          "source": "thebell.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-14T22:02:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "동진쎄미켐",
+      "input_company_name": "동진쎄미켐",
+      "stock_code": "005290",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 15,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 44.38625,
+      "json_bytes": 307,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "리노공업",
+      "input_company_name": "리노공업",
+      "stock_code": "058470",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 2,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 100,
+      "relevant_articles": 3,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 2
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 13.808748,
+      "json_bytes": 3823,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "부산 시총 1위 리노공업 노사 성과급 갈등…노조 파업 할까",
+          "url": "https://yna.co.kr/view/AKR20260716079100051?input=1195m",
+          "source": "yna.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-16T23:25:00Z"
+        },
+        {
+          "title": "리노공업 , 시초가 회복 못하고 7%대 하락…양대지수도 털썩",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589923",
+          "source": "cbci.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T00:18:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "티에스이",
+      "input_company_name": "티에스이",
+      "stock_code": "131290",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 2,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 39,
+      "relevant_articles": 3,
+      "duplicate_articles": 1,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 2
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 42.667432,
+      "json_bytes": 3466,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[메자닌 투자파일] 티에스이 , 1000억 선투자…HBM 수요 잡을까",
+          "url": "https://bloter.net/news/articleView.html?idxno=668171",
+          "source": "bloter.net",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T08:05:00Z"
+        },
+        {
+          "title": "[주요공시] 파두, 한화엔진, 남광토건, 티에스이 , 대웅제약, 앤로보틱스...",
+          "url": "https://kdpress.co.kr/news/articleView.html?idxno=206826",
+          "source": "kdpress.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-10T14:42:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "샘씨엔에스",
+      "input_company_name": "샘씨엔에스",
+      "stock_code": "252990",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 26,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 42.685363,
+      "json_bytes": 1952,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "샘씨엔에스 , 투자경고종목 지정예고→주가 급등 경계령",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16135704",
+          "source": "topstarnews.net",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T11:18:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "코미코",
+      "input_company_name": "코미코",
+      "stock_code": "183300",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 2,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 74,
+      "relevant_articles": 2,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 2
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 28.718384,
+      "json_bytes": 3308,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "코미코 , 체코 공장 건설 본격화…680억원 차입 보증",
+          "url": "https://thelec.kr/news/articleView.html?idxno=59525",
+          "source": "thelec.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-13T11:56:00Z"
+        },
+        {
+          "title": "코미코 , 계열사에 813.8억 규모 채무보증 결정",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=04496886645514192",
+          "source": "edaily.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T09:05:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "한솔아이원스",
+      "input_company_name": "한솔아이원스",
+      "stock_code": "114810",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 5,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 45.83178,
+      "json_bytes": 318,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "하나머티리얼즈",
+      "input_company_name": "하나머티리얼즈",
+      "stock_code": "166090",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 49,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 46.605831,
+      "json_bytes": 321,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "월덱스",
+      "input_company_name": "월덱스",
+      "stock_code": "101160",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 16,
+      "relevant_articles": 3,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 44.0855,
+      "json_bytes": 4874,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "월덱스 , 2030년까지 2600억 투자·올 하반기 200억 자사주 매입",
+          "url": "https://bloter.net/news/articleView.html?idxno=668009",
+          "source": "bloter.net",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-13T09:52:00Z"
+        },
+        {
+          "title": "월덱스 , 200억 자사주 매입·소각 계획 발표…“환골탈태하겠다”",
+          "url": "https://ekn.kr/web/view.php?key=20260713024311998",
+          "source": "ekn.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T08:36:00Z"
+        },
+        {
+          "title": "월덱스 , 200억 자사주 매입·소각 결정…주주 요구 반영",
+          "url": "https://news.bizwatch.co.kr/article/market/2026/07/13/0036",
+          "source": "news.bizwatch.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T08:31:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "케이엔제이",
+      "input_company_name": "케이엔제이",
+      "stock_code": "272110",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 2,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 54.991487,
+      "json_bytes": 315,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "이수페타시스",
+      "input_company_name": "이수페타시스",
+      "stock_code": "007660",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 70,
+      "relevant_articles": 3,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 44.264573,
+      "json_bytes": 5103,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "AI 서버 기판 질주… 이수페타시스 실적 또 시장 예상 웃돈다",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=467712",
+          "source": "pinpointnews.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-12T08:10:00Z"
+        },
+        {
+          "title": "[주요공시] 서진시스템, 한화오션, 남양유업, 신성이엔지, 이수페타시스 ...",
+          "url": "https://kdpress.co.kr/news/articleView.html?idxno=206962",
+          "source": "kdpress.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T10:20:00Z"
+        },
+        {
+          "title": "메리츠證 “ 이수페타시스 , 어느 때보다 편안해진 주가⋯안정적 실적 우...",
+          "url": "https://etoday.co.kr/news/view/2602866",
+          "source": "etoday.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-12T23:10:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "대덕전자",
+      "input_company_name": "대덕전자",
+      "stock_code": "353200",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 6,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 149,
+      "relevant_articles": 14,
+      "duplicate_articles": 5,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 6
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 3
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 28.353731,
+      "json_bytes": 14625,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "독보적 수주 랠리 예고... 대덕전자 , 고부가 반도체 기판 생산능력 '점프...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468545",
+          "source": "pinpointnews.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T00:34:00Z"
+        },
+        {
+          "title": "다올투자증권 \" 대덕전자 , 펀더멘털 대비 낙폭 과대\"",
+          "url": "https://financialpost.co.kr/news/articleView.html?idxno=266589",
+          "source": "financialpost.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-14T23:44:00Z"
+        },
+        {
+          "title": "[주간 거래소 기관] 대덕전자 SK이노베이션 삼성전자우 삼성SDI KB금융 '...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469219",
+          "source": "pinpointnews.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T22:50:00Z"
+        },
+        {
+          "title": "[특징주] 대덕전자 , AI 서버와 고성능 컴퓨팅 확대, HBM 및 첨단 패키징...",
+          "url": "https://widedaily.com/news/articleView.html?idxno=297614",
+          "source": "widedaily.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T01:42:00Z"
+        },
+        {
+          "title": "[거래소 기관] SK하이닉스 대덕전자 삼성SDI SK 담고 삼성전자 HD현대중...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468769",
+          "source": "pinpointnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T07:18:00Z"
+        },
+        {
+          "title": "[키-리포트] 다올 \" 대덕전자 , 펀더멘털 대비 주가 낙폭 과대\"",
+          "url": "https://newsdream.kr/news/articleView.html?idxno=114456",
+          "source": "newsdream.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-14T23:16:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "티엘비",
+      "input_company_name": "티엘비",
+      "stock_code": "356860",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 5,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 54,
+      "relevant_articles": 11,
+      "duplicate_articles": 4,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 5
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.101059,
+      "json_bytes": 10224,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "차세대 메모리 혈관 뚫어라… 티엘비 , DDR5·HBM 기판 공급 확대",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468571",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T02:28:00Z"
+        },
+        {
+          "title": "티엘비 , 베트남 박닌에 2000억 원 규모 ‘PCB 제2공장’ 건설",
+          "url": "https://g-enews.com/view.php?ud=2026071108143683010c8c1c064d_1",
+          "source": "g-enews.com",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-10T23:18:00Z"
+        },
+        {
+          "title": "티엘비 , 16일 무상증자 권리락…기준가 4만4000원",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=05349686645514848",
+          "source": "edaily.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T09:04:00Z"
+        },
+        {
+          "title": "CXL 테마 휘파람… 차세대 메모리 기대에 엑시콘 티엘비 코리아써키트 ...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468588",
+          "source": "pinpointnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T01:38:00Z"
+        },
+        {
+          "title": "티엘비 , AI 메모리 기판 수요 확대…신제품 효과에 성장 궤도 가팔라진...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=467710",
+          "source": "pinpointnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-12T07:50:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "GST",
+      "input_company_name": "GST",
+      "stock_code": "083450",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 20,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 38.792357,
+      "json_bytes": 303,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에스티아이",
+      "input_company_name": "에스티아이",
+      "stock_code": "039440",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 8,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 41.199959,
+      "json_bytes": 307,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "하나마이크론",
+      "input_company_name": "하나마이크론",
+      "stock_code": "067310",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 49,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 46.466073,
+      "json_bytes": 310,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에스앤에스텍",
+      "input_company_name": "에스앤에스텍",
+      "stock_code": "101490",
+      "category": "반도체",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 10,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.564665,
+      "json_bytes": 310,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에프에스티",
+      "input_company_name": "에프에스티",
+      "stock_code": "036810",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 5,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 15.134008,
+      "json_bytes": 315,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "제주반도체",
+      "input_company_name": "제주반도체",
+      "stock_code": "080220",
+      "category": "반도체",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 2
+      },
+      "raw_articles": 98,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 29.661472,
+      "json_bytes": 315,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에이디테크놀로지",
+      "input_company_name": "에이디테크놀로지",
+      "stock_code": "200710",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 14,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.701647,
+      "json_bytes": 316,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "RF머트리얼즈",
+      "input_company_name": "RF머트리얼즈",
+      "stock_code": "327260",
+      "category": "반도체",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 1
+      },
+      "raw_articles": 15,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 18.360603,
+      "json_bytes": 317,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "삼성에스디에스",
+      "input_company_name": "삼성에스디에스",
+      "stock_code": "018260",
+      "category": "AI DC",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 17,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 51.154253,
+      "json_bytes": 1860,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "삼성에스디에스 주가 최근 5거래일간 변동성 확대",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=532201",
+          "source": "joongangenews.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-11T02:10:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "NAVER",
+      "input_company_name": "NAVER",
+      "stock_code": "035420",
+      "category": "AI DC",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 6,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 117,
+      "relevant_articles": 6,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 6
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 46.160623,
+      "json_bytes": 9048,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[네이버 종합] '2026 네이버 그로쓰 써밋 개최' 소식 외",
+          "url": "https://gamevu.co.kr/news/articleView.html?idxno=59389",
+          "source": "gamevu.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T09:42:00Z"
+        },
+        {
+          "title": "네이버 N배송 확대…새벽·일요일에도 배달 온다",
+          "url": "https://fnnews.com/news/202607161814286986",
+          "source": "fnnews.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T09:15:00Z"
+        },
+        {
+          "title": "네이버쇼핑에서 새벽·일요일에 받는' N배송 상품' 늘어난다",
+          "url": "https://nocutnews.co.kr/news/6549412",
+          "source": "nocutnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:38:00Z"
+        },
+        {
+          "title": "AI 검색부터 새벽배송까지…네이버, '구매 전 과정' 잇는다",
+          "url": "https://itdaily.kr/news/articleView.html?idxno=240451",
+          "source": "itdaily.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:32:00Z"
+        },
+        {
+          "title": "네이버 커넥트재단, 고등학생 '로봇 대회' 연다…엔비디아·교육부 후원",
+          "url": "https://mt.co.kr/tech/2026/07/16/2026071615333117958",
+          "source": "mt.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:25:00Z"
+        },
+        {
+          "title": "네이버, 운영·관리 부담은 줄이고 새벽·일요배송하는 ‘N배송FBN’ 오...",
+          "url": "https://inthenews.co.kr/news/article.html?no=89442",
+          "source": "inthenews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:20:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "지엔씨에너지",
+      "input_company_name": "지엔씨에너지",
+      "stock_code": "119850",
+      "category": "AI DC",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 27,
+      "relevant_articles": 8,
+      "duplicate_articles": 4,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 44.936568,
+      "json_bytes": 5790,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "지엔씨에너지 , AI 데이터센터 투자 붐 올라탔다…발전기 공급 연쇄 계약",
+          "url": "https://bloter.net/news/articleView.html?idxno=668131",
+          "source": "bloter.net",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T02:23:00Z"
+        },
+        {
+          "title": "지엔씨에너지 , 332억 규모 AI데이터센터 발전기 공급계약",
+          "url": "https://biz.heraldcorp.com/article/10809227",
+          "source": "biz.heraldcorp.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T01:22:00Z"
+        },
+        {
+          "title": "지엔씨에너지 , 331억 7천만 원 용인덕성AI데이터센터 공급→매출 확대 ...",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16135040",
+          "source": "topstarnews.net",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T00:22:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "엘에스일렉트릭",
+      "input_company_name": "LS ELECTRIC",
+      "stock_code": "010120",
+      "category": "에너지",
+      "monitoring_tier": "watch",
+      "validation_status": "corrected",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 11,
+      "relevant_articles": 3,
+      "duplicate_articles": 1,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 33.05953,
+      "json_bytes": 2741,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "Infineon and LS ELECTRIC Collaborate to Advance High - efficiency Direct Current Power Solutions for AI Data Centers - Electronics / Instrumentation / RFID - Infineon Technologies AG",
+          "url": "https://newswiretoday.com/news/186534/Infineon-and-LS-ELECTRIC-Collaborate-to-Advance-High-efficiency-Direct-Current-Power-Solutions-for-AI-Data-Centers",
+          "source": "newswiretoday.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-14T19:15:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "산일전기",
+      "input_company_name": "산일전기",
+      "stock_code": "062040",
+      "category": "에너지",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 4,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 2
+      },
+      "raw_articles": 34,
+      "relevant_articles": 10,
+      "duplicate_articles": 6,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 4
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 34.369475,
+      "json_bytes": 6649,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "산일전기 , 초고압 변압기 경쟁력 입증…온사이트 발전도 새 성장축",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469220",
+          "source": "pinpointnews.co.kr",
+          "score": 20,
+          "level": "low",
+          "published_at": "2026-07-16T23:06:00Z"
+        },
+        {
+          "title": "산일전기 , 2027년 이후 '신규수주 1조원대' 진입 가능성",
+          "url": "https://newsfc.co.kr/news/articleView.html?idxno=79896",
+          "source": "newsfc.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T23:02:00Z"
+        },
+        {
+          "title": "산일전기 , 美 AI 데이터센터 전력 인프라 '핵심 기업' 주목…\"경쟁사 대...",
+          "url": "https://newsprime.co.kr/news/article.html?no=740517",
+          "source": "newsprime.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T22:36:00Z"
+        },
+        {
+          "title": "산일전기 , 신규수주 1조원대 진입 '임박'…\"낮아진 주가에도 여전한 성...",
+          "url": "https://newsprime.co.kr/news/article.html?no=740167",
+          "source": "newsprime.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-13T23:28:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "효성중공업",
+      "input_company_name": "효성중공업",
+      "stock_code": "298040",
+      "category": "에너지",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 161,
+      "relevant_articles": 52,
+      "duplicate_articles": 15,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 2,
+      "telegram_matches": 0,
+      "duration_seconds": 45.854336,
+      "json_bytes": 20135,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "효성중공업 , 미국 생산 확대 승부수…미래에셋 \"전력기기 최선호주\"",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469224",
+          "source": "pinpointnews.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-17T01:00:00Z"
+        },
+        {
+          "title": "시스코· 효성중공업 , 디지털 변전소 기술 협력 강화",
+          "url": "https://etnews.com/20260716000042",
+          "source": "etnews.com",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-16T05:54:00Z"
+        },
+        {
+          "title": "효성중공업 , 중동 변수 넘는다…美 현지 생산 경쟁력 부각",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469245",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T02:50:00Z"
+        },
+        {
+          "title": "시스코- 효성중공업 , 전력 설비 디지털화…글로벌 사업 확대",
+          "url": "https://zdnet.co.kr/view?no=20260716140500",
+          "source": "zdnet.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T05:06:00Z"
+        },
+        {
+          "title": "에스넷시스템, 효성중공업 ·시스코와 '차세대 디지털 변전소 기술' 검증",
+          "url": "https://etnews.com/20260716000092",
+          "source": "etnews.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T00:59:00Z"
+        },
+        {
+          "title": "[#통신 풍향계] SKB 'B tv+ 맥스' 확대·시스코- 효성중공업 '디지털 변전...",
+          "url": "https://newsworks.co.kr/news/articleView.html?idxno=847490",
+          "source": "newsworks.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T15:12:00Z"
+        },
+        {
+          "title": "\"美 전력망 큰 손 '콴타'가 콕 찍었다… 효성중공업 , 북미 송전망 시장 싹...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269993",
+          "source": "newsquest.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T08:28:00Z"
+        },
+        {
+          "title": "미래에셋이 찍은 전력기기 최선호주는 효성중공업",
+          "url": "https://dealsite.co.kr/articles/165463",
+          "source": "dealsite.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T05:44:00Z"
+        },
+        {
+          "title": "시스코· 효성중공업 , 변전소 디지털 전환에서 답 맞췄다",
+          "url": "https://econovill.com/news/articleView.html?idxno=745402",
+          "source": "econovill.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T04:20:00Z"
+        },
+        {
+          "title": "[특징주] 효성중공업 , 목표가 하향에 주가 약세",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=356030",
+          "source": "biztribune.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T03:56:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "포스코인터내셔널",
+      "input_company_name": "포스코인터내셔널",
+      "stock_code": "047050",
+      "category": "에너지",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 101,
+      "relevant_articles": 3,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 41.188964,
+      "json_bytes": 5225,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "에너지가 이끌고 팜이 밀었다… 포스코인터내셔널 실적 모멘텀 강화",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469231",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T01:36:00Z"
+        },
+        {
+          "title": "포스코인터내셔널 , 2분기 또 ‘깜짝 실적’ 전망…“PER 8배는 과도한 할...",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=02509206645515176",
+          "source": "edaily.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T22:38:00Z"
+        },
+        {
+          "title": "\"인니 팜·호주 가스(SENEX)가 효자 노릇 톡톡… 포스코인터내셔널 2분기...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269994",
+          "source": "newsquest.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:44:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "미코",
+      "input_company_name": "미코",
+      "stock_code": "059090",
+      "category": "에너지",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 34,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 28.578755,
+      "json_bytes": 306,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "두산에너빌리티",
+      "input_company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "category": "에너지",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 9,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 107,
+      "relevant_articles": 14,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 9
+      },
+      "quality_exclusions": {
+        "market_roundup_or_stock_list": 1
+      },
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 45.529583,
+      "json_bytes": 15921,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "두산에너빌리티 , 대형원전·SMR·유지보수 '3개의 날개'… 세계 원전 공...",
+          "url": "https://mk.co.kr/article/12099311",
+          "source": "mk.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-15T07:06:00Z"
+        },
+        {
+          "title": "팬트리·알파룸 골라 쓴다… 두산에너빌리티 '트리븐 김해' 27일 정당계약",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269947",
+          "source": "newsquest.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T02:32:00Z"
+        },
+        {
+          "title": "[영상] 체코가 선택한 SMR… 두산에너빌리티 에 기회",
+          "url": "https://theguru.co.kr/news/article.html?no=104568",
+          "source": "theguru.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T23:02:00Z"
+        },
+        {
+          "title": "두산에너빌리티 , 4%대 하락…차익실현에 7만원선 아래로",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=221403",
+          "source": "job-post.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T05:16:00Z"
+        },
+        {
+          "title": "[이넷뉴스 브랜드평판] 두산에너빌리티 , 원자력발전 상장기업 7월 1위·...",
+          "url": "https://enetnews.co.kr/news/articleView.html?idxno=52442",
+          "source": "enetnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T21:18:00Z"
+        },
+        {
+          "title": "두산에너빌리티 주가 다시 '7만빌리티' 아래로…주말 이후 흐름, 글로벌...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589814",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T15:06:00Z"
+        },
+        {
+          "title": "[속보] 두산에너빌리티 , 주가 7만빌리티 다시 붕괴…양대지수 급락 속 ...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589643",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T02:08:00Z"
+        },
+        {
+          "title": "[속보] 두산에너빌리티 ·우리기술 등 주가 동반 약세…원전주 전반 하락...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589605",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T00:56:00Z"
+        },
+        {
+          "title": "두산에너빌리티 우리기술 등 원전주 대부분 주가 강세…미국 물가 둔화...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589486",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T21:00:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "DL이앤씨",
+      "input_company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "category": "에너지",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 100,
+      "relevant_articles": 25,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 17.255189,
+      "json_bytes": 15699,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "DL이앤씨 , 실적 회복 넘어 SMR 시대 연다…미래 성장동력 부각",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469304",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T06:36:00Z"
+        },
+        {
+          "title": "DL이앤씨 , 2분기 이익 개선 이어가나…매출 목표 달성 시험대",
+          "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065590904085653",
+          "source": "megaeconomy.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T06:16:00Z"
+        },
+        {
+          "title": "[DQN] DL이앤씨 , 주택이 이끈 수익성…다음 과제는 플랜트 수주?",
+          "url": "https://fntimes.com/html/view.php?ud=202607161657514730048b718333_18",
+          "source": "fntimes.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T08:20:00Z"
+        },
+        {
+          "title": "GS건설, 대우건설, DL이앤씨 , 한신공영 16일 나란히 아파트 시공 수주",
+          "url": "https://moneystorm.kr/news/articleView.html?idxno=5115",
+          "source": "moneystorm.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T06:40:00Z"
+        },
+        {
+          "title": "\"전쟁 끝나면 주인공은 나… DL이앤씨 가 쥔 '53억 달러' 이란 치트키\"",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269997",
+          "source": "newsquest.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T09:54:00Z"
+        },
+        {
+          "title": "내실 다진 DL이앤씨 , SMR·데이터센터로 외형 확장 시동",
+          "url": "https://opinionnews.co.kr/news/articleView.html?idxno=141646",
+          "source": "opinionnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T06:28:00Z"
+        },
+        {
+          "title": "DL이앤씨 , 평택고덕 2169억 민참사업 우선협상자 선정",
+          "url": "https://4th.kr/news/articleView.html?idxno=2114845",
+          "source": "4th.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T02:30:00Z"
+        },
+        {
+          "title": "DL이앤씨 ·한신공영, 평택고덕 공공주택사업 우선협상자 선정",
+          "url": "https://newswatch.kr/news/articleView.html?idxno=80443",
+          "source": "newswatch.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:04:00Z"
+        },
+        {
+          "title": "[공매로 번진 회수전] [ DL이앤씨 ] 오데뜨오드 도곡, 공사비 회수 '첩첩산...",
+          "url": "https://dealsite.co.kr/articles/165319",
+          "source": "dealsite.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T00:02:00Z"
+        },
+        {
+          "title": "\"실적은 서프라이즈, 주가는 반토막?… DL이앤씨 를 둘러싼 시장의 딜레마...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269872",
+          "source": "newsquest.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T10:52:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "현대건설",
+      "input_company_name": "현대건설",
+      "stock_code": "000720",
+      "category": "에너지",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 5,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 100,
+      "relevant_articles": 5,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 5
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 39.542309,
+      "json_bytes": 8147,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "\"매출 줄어도 이익은 껑충…'기초체력' 증명한 현대건설 , 2026년 영업이익...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269996",
+          "source": "newsquest.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T09:42:00Z"
+        },
+        {
+          "title": "현대건설 에 무슨 일이…조사4국 특별세무조사, 결국 ‘형사 절차’로",
+          "url": "https://wemakenews.co.kr/news/view.php?no=25833",
+          "source": "wemakenews.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T09:28:00Z"
+        },
+        {
+          "title": "[데이터 뉴스룸] 건설사 임원 연봉 3위는 현대건설 , 그럼 1~2위는 어디?…...",
+          "url": "https://greened.kr/news/articleView.html?idxno=345313",
+          "source": "greened.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T09:45:00Z"
+        },
+        {
+          "title": "또 현대건설 …현장서 5년 새 22명 사망, 노동부 특별 감독 주시",
+          "url": "https://realty.chosun.com/site/data/html_dir/2026/07/16/2026071602987.html",
+          "source": "realty.chosun.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:30:00Z"
+        },
+        {
+          "title": "현대건설 , 원전 모멘텀 살아난다…4분기 주가 반등 기대",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469209",
+          "source": "pinpointnews.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T22:06:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "POSCO홀딩스",
+      "input_company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "category": "에너지",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 5,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 39,
+      "relevant_articles": 5,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 5
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.807569,
+      "json_bytes": 7942,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "[특징주] POSCO홀딩스 , 2분기 실적 기대에도 약세…증권가 전망 엇갈려",
+          "url": "https://tokenpost.kr/news/economy/377096",
+          "source": "tokenpost.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-13T05:06:00Z"
+        },
+        {
+          "title": "\"본업(철강) 부진 빈자리, 부업(인프라·리튬)이 채웠다… POSCO홀딩스 2분...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269671",
+          "source": "newsquest.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T10:42:00Z"
+        },
+        {
+          "title": "[특징주] POSCO홀딩스 , 2Q 영업익 7570억 전망",
+          "url": "https://newstnt.com/news/articleView.html?idxno=709960",
+          "source": "newstnt.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T04:38:00Z"
+        },
+        {
+          "title": "KB증권, 7월 둘째주 POSCO홀딩스 등 17종목 매추 추천",
+          "url": "https://bigtanews.co.kr/article/view/big202607100016",
+          "source": "bigtanews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-10T22:12:00Z"
+        },
+        {
+          "title": "7월 2주차 POSCO홀딩스 주가 31만원대 회복",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=532205",
+          "source": "joongangenews.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-11T02:12:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "비나텍",
+      "input_company_name": "비나텍",
+      "stock_code": "126340",
+      "category": "에너지",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 11,
+      "relevant_articles": 5,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 3
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 13.502041,
+      "json_bytes": 5949,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "비나텍 , 데이터센터용 슈퍼커패시터 공급계약 383억 6천만 원→해외 매...",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16132831",
+          "source": "topstarnews.net",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-13T04:12:00Z"
+        },
+        {
+          "title": "비나텍 , '블룸에너지 파트너'로 전력 수요와 함께 성장…'시스템 전체 ...",
+          "url": "https://newsprime.co.kr/news/article.html?no=740541",
+          "source": "newsprime.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T23:56:00Z"
+        },
+        {
+          "title": "[주요공시] 코세스, 비나텍 , HD한국조선해양, 자람테크놀로지, 삼성전자...",
+          "url": "https://kdpress.co.kr/news/articleView.html?idxno=206876",
+          "source": "kdpress.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-13T14:26:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "HD현대중공업",
+      "input_company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "category": "조선",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 200,
+      "relevant_articles": 14,
+      "duplicate_articles": 3,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 45.824186,
+      "json_bytes": 15688,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "“ HD현대중공업 , 캐나다 수주 실패에 목표가 내지리만…상승 동력 여전...",
+          "url": "https://mk.co.kr/article/12098854",
+          "source": "mk.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-14T23:14:00Z"
+        },
+        {
+          "title": "HD현대중공업 , 美 방산 AI기업과 무인잠수정 개발 … K함정, 환태평양 벨...",
+          "url": "https://mk.co.kr/article/12099312",
+          "source": "mk.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T07:06:00Z"
+        },
+        {
+          "title": "HD현대중공업 , 상반기 수주 148억 달러…조선 전년比 122% 성장",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1716742",
+          "source": "ebn.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T07:46:00Z"
+        },
+        {
+          "title": "HD현대중공업 , 카타르에너지 LNG운반선 '할완' 명명…12척 중 9번째",
+          "url": "https://press9.kr/news/articleView.html?idxno=79581",
+          "source": "press9.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T07:14:00Z"
+        },
+        {
+          "title": "\"조선 수주 호황에 데이터센터 호재까지…거침없는 HD현대중공업 의 질주...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269847",
+          "source": "newsquest.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T06:06:00Z"
+        },
+        {
+          "title": "KR· HD현대중공업 , 국내 첫 암모니아 추진선 운항기준 마련 나선다",
+          "url": "https://asiatoday.co.kr/kn/view.php?key=20260716010006257",
+          "source": "asiatoday.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:30:00Z"
+        },
+        {
+          "title": "\"상선·군함·AI 엔진까지 '풀가동'… HD현대중공업 , 하반기 적수 없는 독...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269975",
+          "source": "newsquest.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T06:56:00Z"
+        },
+        {
+          "title": "트럼프 \"한국 조선기업 검토\"…한화오션· HD현대중공업 주목",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16136105",
+          "source": "topstarnews.net",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T22:24:00Z"
+        },
+        {
+          "title": "[창간21주년 특집] 이상균의 HD현대중공업 , '5000척의 역사'로 그리는 그...",
+          "url": "https://ftoday.co.kr/news/articleView.html?idxno=362094",
+          "source": "ftoday.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T02:28:00Z"
+        },
+        {
+          "title": "\"태국·필리핀 이어 美 해군까지… HD현대중공업 , 글로벌 '탑티어 방산주...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269769",
+          "source": "newsquest.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-14T10:54:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "삼성중공업",
+      "input_company_name": "삼성중공업",
+      "stock_code": "010140",
+      "category": "조선",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 216,
+      "relevant_articles": 19,
+      "duplicate_articles": 3,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 49.942964,
+      "json_bytes": 15992,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "\" 삼성중공업 , 저평가된 조선사…부유식 데이터센터 경쟁력\"-DS",
+          "url": "https://hankyung.com/article/2026071683726",
+          "source": "hankyung.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T23:55:00Z"
+        },
+        {
+          "title": "\"LNG·FLNG에 FDC까지 장착… 삼성중공업 , '고마진' 포트폴리오 완성\"",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269973",
+          "source": "newsquest.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T06:44:00Z"
+        },
+        {
+          "title": "삼성중공업 , FLNG 이어 '차세대 성장동력' FDC까지…\"새로운 성장 축으로...",
+          "url": "https://newsprime.co.kr/news/article.html?no=740488",
+          "source": "newsprime.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-15T22:26:00Z"
+        },
+        {
+          "title": "삼성E&A·삼성물산· 삼성중공업 , '콘테크 공모전'으로 EPC 혁신기술 발굴...",
+          "url": "https://updownnews.co.kr/news/articleView.html?idxno=318000",
+          "source": "updownnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:24:00Z"
+        },
+        {
+          "title": "삼성E&A·삼성물산· 삼성중공업 , 혁신기술 발굴 위해 공동으로 '2026 콘테...",
+          "url": "https://bizwnews.com/news/articleView.html?idxno=140887",
+          "source": "bizwnews.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:42:00Z"
+        },
+        {
+          "title": "삼성중공업 초기 비용 큰 '해외 건조' 드라이브 걸며 수익성 주춤, 최성...",
+          "url": "https://huffingtonpost.kr/article/258793",
+          "source": "huffingtonpost.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:06:00Z"
+        },
+        {
+          "title": "K-방산 훈풍인데… 삼성중공업 만 '특수선 공백', 왜?",
+          "url": "https://news.tf.co.kr/read/economy/2344140.htm",
+          "source": "news.tf.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T05:20:00Z"
+        },
+        {
+          "title": "[특징주] 외국인 삼성전자 '사고' 기관 '팔고'… 삼성중공업 ·한화오션은...",
+          "url": "https://newstnt.com/news/articleView.html?idxno=710516",
+          "source": "newstnt.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T03:24:00Z"
+        },
+        {
+          "title": "삼성물산·삼성E&A· 삼성중공업 , '2026 콘테크 공모전' 개최…미래 건설...",
+          "url": "https://newsdream.kr/news/articleView.html?idxno=114602",
+          "source": "newsdream.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:40:00Z"
+        },
+        {
+          "title": "원자력硏·KRISO· 삼성중공업 , MSR 추진 1.5만 TEU 컨테이너선 개념설계...",
+          "url": "https://mtnews.net/news/articleView.html?idxno=25338",
+          "source": "mtnews.net",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T00:48:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에스엔시스",
+      "input_company_name": "에스엔시스",
+      "stock_code": "0008Z0",
+      "category": "조선",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 5,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 33.374711,
+      "json_bytes": 315,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "대한조선",
+      "input_company_name": "대한조선",
+      "stock_code": "439260",
+      "category": "조선",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 1
+      },
+      "raw_articles": 24,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 17.799639,
+      "json_bytes": 312,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "로보티즈",
+      "input_company_name": "로보티즈",
+      "stock_code": "108490",
+      "category": "로봇",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 6,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 44,
+      "relevant_articles": 6,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 6
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.261611,
+      "json_bytes": 9713,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "로보티즈 , 액추에이터 자동화 181억 출자…양산 전환점 마련",
+          "url": "https://bloter.net/news/articleView.html?idxno=667790",
+          "source": "bloter.net",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-13T07:39:00Z"
+        },
+        {
+          "title": "로봇주 동반 약세…클로봇·휴림에이텍 급락, 로보티즈 ·로보스타도 주...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=588760",
+          "source": "cbci.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-13T04:40:00Z"
+        },
+        {
+          "title": "[특징주] 신성이엔지· 로보티즈 등 정부 하반기 성장전략 수혜주 '주목...",
+          "url": "https://newstnt.com/news/articleView.html?idxno=710316",
+          "source": "newstnt.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T02:08:00Z"
+        },
+        {
+          "title": "\"제조+데이터 한 번에\"… 로보티즈 , 우즈벡서 'K-액추에이터' 시동",
+          "url": "https://news1.kr/industry/sb-founded/6228173",
+          "source": "news1.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-14T21:25:00Z"
+        },
+        {
+          "title": "[속보] 로보티즈 VI 발동, 주가 급등 흐름...양대지수 훈풍에 투자심리...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=589348",
+          "source": "cbci.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T04:18:00Z"
+        },
+        {
+          "title": "로보티즈 ·두산로보틱스 주가 파죽지세… 로봇 생태계 전방위 매수세 유...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468627",
+          "source": "pinpointnews.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-15T03:52:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "현대모비스",
+      "input_company_name": "현대모비스",
+      "stock_code": "012330",
+      "category": "로봇",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 11,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 101,
+      "relevant_articles": 20,
+      "duplicate_articles": 2,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 2,
+        "low": 9
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 44.353472,
+      "json_bytes": 20794,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "마이크론, 퀄컴· 현대모비스 와 차량용 메모리 공급 장기계약",
+          "url": "https://yna.co.kr/view/AKR20260717003700091?input=1195m",
+          "source": "yna.co.kr",
+          "score": 50,
+          "level": "watch",
+          "published_at": "2026-07-17T08:45:00Z"
+        },
+        {
+          "title": "마이크론· 현대모비스 ·퀄컴 '부품 동맹' 맺었다…장기 계약 체결",
+          "url": "https://hankyung.com/article/2026071706567",
+          "source": "hankyung.com",
+          "score": 50,
+          "level": "watch",
+          "published_at": "2026-07-16T22:46:00Z"
+        },
+        {
+          "title": "마이크론, 현대모비스 ·하만 등 ‘부품 동맹’…차량용 메모리 공급 계...",
+          "url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1307452",
+          "source": "newstomato.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T03:24:00Z"
+        },
+        {
+          "title": "현대모비스 , 마이크론과 차량용 메모리 공급 장기계약",
+          "url": "https://greened.kr/news/articleView.html?idxno=345319",
+          "source": "greened.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T00:09:00Z"
+        },
+        {
+          "title": "마이크론, 현대모비스 ·퀄컴과 차량용 AI 반도체 장기 공급망 구축-하만...",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=83758",
+          "source": "mediafine.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T22:42:00Z"
+        },
+        {
+          "title": "마이크론, 현대모비스 등에 차량용 메모리 장기 공급",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613269",
+          "source": "news.kbs.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T19:27:00Z"
+        },
+        {
+          "title": "현대모비스 , 유럽 벤츠·폭스바겐서 수주…\"휴머노이드 로봇 부품으로 ...",
+          "url": "https://newsis.com/view/NISX20260716_0003712746",
+          "source": "newsis.com",
+          "score": 20,
+          "level": "low",
+          "published_at": "2026-07-17T00:00:00Z"
+        },
+        {
+          "title": "3인 1개 조 이룬 현대모비스 , 연습경기 후 추가 훈련을 보면 부족한 점...",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000299792",
+          "source": "m.sports.naver.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T12:42:00Z"
+        },
+        {
+          "title": "현대모비스 , 협력사 우수 SW 인재 직접 키운다…\"미래 모빌리티 경쟁력...",
+          "url": "https://newsis.com/view/NISX20260716_0003712842",
+          "source": "newsis.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T23:00:00Z"
+        },
+        {
+          "title": "현대모비스 , 유럽 전동화 거점 확대…글로벌 수주 기반 넓힌다",
+          "url": "https://newspim.com/news/view/20260716001167",
+          "source": "newspim.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:47:00Z"
+        },
+        {
+          "title": "현대모비스 , 협력사와 SW 인재 육성…미래 모빌리티 생태계 구축",
+          "url": "https://news1.kr/industry/general-industry/6230641",
+          "source": "news1.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T06:53:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "현대자동차",
+      "input_company_name": "현대차",
+      "stock_code": "005380",
+      "category": "로봇",
+      "monitoring_tier": "core",
+      "validation_status": "corrected",
+      "news_events": 1,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 1
+      },
+      "raw_articles": 101,
+      "relevant_articles": 1,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 1
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 19.02418,
+      "json_bytes": 1868,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "현대자동차 그룹, 보스턴다이나믹스 지분 100% 인수 검토",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=207741",
+          "source": "srtimes.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T09:10:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "에이피알",
+      "input_company_name": "에이피알",
+      "stock_code": "278470",
+      "category": "인바운드",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 100,
+      "relevant_articles": 54,
+      "duplicate_articles": 5,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 2,
+      "telegram_matches": 0,
+      "duration_seconds": 49.561642,
+      "json_bytes": 25632,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "에이피알 , 2년 연속 중간배당…936억원 규모 주주환원",
+          "url": "https://zdnet.co.kr/view?no=20260716141733",
+          "source": "zdnet.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T07:54:00Z"
+        },
+        {
+          "title": "에이피알 , 2년 연속 중간 배당…“주주환원 정책 지속”",
+          "url": "https://biz.heraldcorp.com/article/10811326",
+          "source": "biz.heraldcorp.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T09:08:00Z"
+        },
+        {
+          "title": "주주환원 진심인 에이피알 ...2년 연속 중간배당",
+          "url": "https://newstopkorea.com/news/articleView.html?idxno=46332",
+          "source": "newstopkorea.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:58:00Z"
+        },
+        {
+          "title": "에이피알 , 2년 연속 중간배당 실시...누적 주주환원 4000억 돌파",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=126848",
+          "source": "popcornnews.net",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:50:00Z"
+        },
+        {
+          "title": "[오늘의 주요공시] 에이피알 ㆍ알테오젠ㆍGS건설 등",
+          "url": "https://etoday.co.kr/news/view/2604660",
+          "source": "etoday.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:16:00Z"
+        },
+        {
+          "title": "[오늘의 뷰티] 유한킴벌리·아모레퍼시픽· 에이피알",
+          "url": "https://financialreview.co.kr/news/articleView.html?idxno=43627",
+          "source": "financialreview.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:58:00Z"
+        },
+        {
+          "title": "에이피알 , LG생건·아모레와 달랐던 ESG…'환경' 대신 '인재'",
+          "url": "https://bloter.net/news/articleView.html?idxno=668280",
+          "source": "bloter.net",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:34:00Z"
+        },
+        {
+          "title": "온·오프라인 유통망 속도전… 에이피알 , 美 이어 유럽 탄력 [줌인e종목...",
+          "url": "https://news1.kr/industry/general-industry/6230051",
+          "source": "news1.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:26:00Z"
+        },
+        {
+          "title": "에이피알 , 936억원 현금배당 결정… 주주가치 제고 나선다",
+          "url": "https://tokenpost.kr/news/market/378455",
+          "source": "tokenpost.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T08:34:00Z"
+        },
+        {
+          "title": "에이피알 , 936억 규모 중간배당 결정... 2년 연속 주주가치 제고 행보",
+          "url": "https://insight.co.kr/news/563451",
+          "source": "insight.co.kr",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T07:38:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "파마리서치",
+      "input_company_name": "파마리서치",
+      "stock_code": "214450",
+      "category": "인바운드",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 11,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 2
+      },
+      "raw_articles": 100,
+      "relevant_articles": 24,
+      "duplicate_articles": 6,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 1,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 30.548493,
+      "json_bytes": 18011,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "리쥬란 잭팟 파마리서치 , 2분기도 호실적 기대감",
+          "url": "https://mk.co.kr/article/12100005",
+          "source": "mk.co.kr",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-16T00:45:00Z"
+        },
+        {
+          "title": "파마리서치 , 화장품이 의료기기 넘었다…2분기 '깜짝 실적' 예고",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469226",
+          "source": "pinpointnews.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-17T01:04:00Z"
+        },
+        {
+          "title": "파마리서치 , 화장품 고성장에 2Q 실적 확대…수출 회복 가세",
+          "url": "https://medipana.com/news/articleView.html?idxno=414669",
+          "source": "medipana.com",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-16T01:50:00Z"
+        },
+        {
+          "title": "한투증권 \" 파마리서치 , 의료기기·화장품 성장세…목표가↑\"",
+          "url": "https://yna.co.kr/view/AKR20260716031400008?input=1195m",
+          "source": "yna.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-15T23:53:00Z"
+        },
+        {
+          "title": "美 CG USA 장착한 파마리서치 , 美 진출 가속화...매출 1조 전략은",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=02400966645515504",
+          "source": "edaily.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T23:37:00Z"
+        },
+        {
+          "title": "파마리서치 , 2분기 '깜짝 실적' 전망…화장품이 새 성장축-교보증권",
+          "url": "https://press9.kr/news/articleView.html?idxno=79553",
+          "source": "press9.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T00:44:00Z"
+        },
+        {
+          "title": "한국투자證 “ 파마리서치 , 의료기기·화장품 동반 성장…목표가 47만원...",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/07/16/RHDZK75H2VEUPDSC4VBB752KDE",
+          "source": "biz.chosun.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-15T23:53:00Z"
+        },
+        {
+          "title": "\" 파마리서치 , 美 화장품 제조사 'CG USA' 꿀꺽…미국 진출 고속도로 뚫렸...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269968",
+          "source": "newsquest.co.kr",
+          "score": 20,
+          "level": "low",
+          "published_at": "2026-07-16T06:06:00Z"
+        },
+        {
+          "title": "[애널픽] 파마리서치 , 의료기기·화장품 고성장…\"현저한 저평가 상태\"",
+          "url": "https://theviewers.co.kr/View.aspx?No=4151012",
+          "source": "theviewers.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T00:08:00Z"
+        },
+        {
+          "title": "사점사의원, 파마리서치 지정 '2026 리쥬란 VVIP 병원' 선정",
+          "url": "https://hemophilia.co.kr/news/articleView.html?idxno=43248",
+          "source": "hemophilia.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:02:00Z"
+        },
+        {
+          "title": "파마리서치 , 인바운드보다 수출?…증권가, 목표가 전망 갈려 [주가동향...",
+          "url": "https://joseilbo.com/news/news_read.php?class=53&grp=&uid=572036",
+          "source": "joseilbo.com",
+          "score": 0,
+          "level": "low",
+          "published_at": "2026-07-16T01:35:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "글로벌텍스프리",
+      "input_company_name": "글로벌텍스프리",
+      "stock_code": "204620",
+      "category": "인바운드",
+      "monitoring_tier": "core",
+      "validation_status": "verified",
+      "news_events": 3,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 3,
+        "gdelt": 3
+      },
+      "raw_articles": 15,
+      "relevant_articles": 12,
+      "duplicate_articles": 8,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 1,
+        "low": 2
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 43.359954,
+      "json_bytes": 5476,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "글로벌텍스프리 , 6월 택스리펀드 매출 140억…사상 최대",
+          "url": "https://hankyung.com/article/2026071563816",
+          "source": "hankyung.com",
+          "score": 45,
+          "level": "watch",
+          "published_at": "2026-07-15T01:39:00Z"
+        },
+        {
+          "title": "글로벌텍스프리 , 6월 최대 매출 달성…실적 기대감↑",
+          "url": "https://news.dealsitetv.com/articles/173331",
+          "source": "news.dealsitetv.com",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T01:40:00Z"
+        },
+        {
+          "title": "글로벌텍스프리 , ‘K-관광’ 훈풍에 6월 사상 최대 매출…하반기 ‘실적...",
+          "url": "https://etoday.co.kr/news/view/2603893",
+          "source": "etoday.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-15T00:28:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "input_company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "category": "방산",
+      "monitoring_tier": "watch",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 2,
+        "gdelt": 3
+      },
+      "raw_articles": 92,
+      "relevant_articles": 19,
+      "duplicate_articles": 3,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 1,
+      "telegram_matches": 0,
+      "duration_seconds": 43.248552,
+      "json_bytes": 16097,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "이철훈 대구세관장, K-방산 주역 ' LIG디펜스앤에어로스페이스 ' 방문",
+          "url": "https://joseilbo.com/news/news_read.php?class=8&grp=&uid=572091",
+          "source": "joseilbo.com",
+          "score": 20,
+          "level": "low",
+          "published_at": "2026-07-17T05:52:00Z"
+        },
+        {
+          "title": "LIG D&A, 'K-방산 마지막 퍼즐' 장거리 공대공 유도탄 개발 총력전",
+          "url": "https://finomy.com/news/articleView.html?idxno=257521",
+          "source": "finomy.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:52:00Z"
+        },
+        {
+          "title": "사고는 늘었지만 중상은 줄었다… LIG D&A 근로손실일 79% 감소",
+          "url": "https://straightnews.co.kr/news/articleView.html?idxno=307158",
+          "source": "straightnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T02:26:00Z"
+        },
+        {
+          "title": "신익현 LIG D&A 대표 \"공군 핵심 항공유도무기 조기 전력화 위해 최선 다...",
+          "url": "https://thebigdata.co.kr/view.php?ud=20260716105921413570d99e4c8_23",
+          "source": "thebigdata.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T02:06:00Z"
+        },
+        {
+          "title": "LIG D&A, 유도무기·항공전자 세미나…\"공대공유도탄 개발 전략\" 논의",
+          "url": "https://news1.kr/industry/general-industry/6230111",
+          "source": "news1.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:59:00Z"
+        },
+        {
+          "title": "LIG D&A, 장거리 공대공 유도탄 개발 전략 숙의",
+          "url": "https://sidae.com/article/2026071609094243157",
+          "source": "sidae.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:20:00Z"
+        },
+        {
+          "title": "LIG D&A, 항공유도무기·항공전자 발전 세미나 개최…민관군 협력 강화",
+          "url": "https://joseilbo.com/news/news_read.php?class=17&grp=&uid=572034",
+          "source": "joseilbo.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:18:00Z"
+        },
+        {
+          "title": "LIG D&A, 항공무장 세미나…K-방산 '마지막 퍼즐' 정조준",
+          "url": "https://newsworks.co.kr/news/articleView.html?idxno=847374",
+          "source": "newsworks.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T01:12:00Z"
+        },
+        {
+          "title": "위성 기술 확보 총력… LIG디펜스앤에어로스페이스 , 우주 영토 확장 시...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=468633",
+          "source": "pinpointnews.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T04:12:00Z"
+        },
+        {
+          "title": "‘4억 뇌물’ 방사청 직원 구속… LIG디펜스앤에어로스페이스 임직원 수...",
+          "url": "https://naeil.com/news/read/595447",
+          "source": "naeil.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-15T04:06:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "RF시스템즈",
+      "input_company_name": "RF시스템즈",
+      "stock_code": "474610",
+      "category": "방산",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 0,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 2,
+      "relevant_articles": 0,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 0
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 0,
+      "telegram_matches": 0,
+      "duration_seconds": 14.074522,
+      "json_bytes": 314,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "현대로템",
+      "input_company_name": "현대로템",
+      "stock_code": "064350",
+      "category": "방산",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 10,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 100,
+      "relevant_articles": 49,
+      "duplicate_articles": 2,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 4,
+      "telegram_matches": 0,
+      "duration_seconds": 20.77228,
+      "json_bytes": 19449,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "현대로템 , 미래 열차 자율주행 핵심 기술 개발",
+          "url": "https://mk.co.kr/article/12100072",
+          "source": "mk.co.kr",
+          "score": 35,
+          "level": "low",
+          "published_at": "2026-07-17T00:36:00Z"
+        },
+        {
+          "title": "현대로템 , 폴란드 생산 확대…하반기 방산 성장 이어진다",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=469243",
+          "source": "pinpointnews.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T02:34:00Z"
+        },
+        {
+          "title": "현대로템 , AI 기반 철도차량용 ADAS 개발…\"트램 완전자율주행 성큼\"",
+          "url": "https://widedaily.com/news/articleView.html?idxno=297728",
+          "source": "widedaily.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T05:52:00Z"
+        },
+        {
+          "title": "[Biz&Law] 현대로템 , 호주 엔지니어 해고 분쟁 승소",
+          "url": "https://the-biz.co.kr/news/articleView.html?idxno=724599",
+          "source": "the-biz.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T05:16:00Z"
+        },
+        {
+          "title": "현대로템 , 철도 차량 자동운전보조시스템 개발 완료",
+          "url": "https://biz.chosun.com/industry/company/2026/07/16/2PCZ7N535FETNJPFIDJJKJO2HU",
+          "source": "biz.chosun.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T00:20:00Z"
+        },
+        {
+          "title": "한화에어로, 다목적 무인차량 사업 수주… 현대로템 제쳤다",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1386834",
+          "source": "daily.hankooki.com",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T08:20:00Z"
+        },
+        {
+          "title": "\"수주잔고 10조인데 대기 물량만 30조… 현대로템 , 역대급 업사이드 뚫리...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269990",
+          "source": "newsquest.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T07:54:00Z"
+        },
+        {
+          "title": "한화에어로, 현대로템 제치고 '다목적무인차량 사업자'로 선정 … 글로...",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/07/16/2026071600279.html",
+          "source": "biz.newdaily.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T08:38:00Z"
+        },
+        {
+          "title": "육군 '아미 타이거 4.0' 핵심 무인차, 한화에어로 낙점… 현대로템 '셰르...",
+          "url": "https://newspim.com/news/view/20260716001094",
+          "source": "newspim.com",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:51:00Z"
+        },
+        {
+          "title": "현대로템 , 철도차량용 AI 자율주행 개발 완료…글로벌 시장 공략",
+          "url": "https://ppss.kr/news/articleView.html?idxno=302406",
+          "source": "ppss.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:40:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "한국항공우주",
+      "input_company_name": "한국항공우주",
+      "stock_code": "047810",
+      "category": "방산",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 11,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 1
+      },
+      "raw_articles": 100,
+      "relevant_articles": 50,
+      "duplicate_articles": 3,
+      "importance_counts": {
+        "critical": 0,
+        "important": 1,
+        "watch": 0,
+        "low": 10
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 2,
+      "telegram_matches": 0,
+      "duration_seconds": 18.276488,
+      "json_bytes": 29133,
+      "provider_consecutive_failures": {
+        "gdelt": 1
+      },
+      "top_news": [
+        {
+          "title": "KAI, 인도네시아에 T-50i 고등훈련기 6대 납품 완료",
+          "url": "https://mk.co.kr/article/12100376",
+          "source": "mk.co.kr",
+          "score": 60,
+          "level": "important",
+          "published_at": "2026-07-17T05:36:00Z"
+        },
+        {
+          "title": "한화가 불 지핀 KAI 인수전… ' 한국 판 스페이스X' 탄생 촉각[다시 나는 ...",
+          "url": "https://newsis.com/view/NISX20260715_0003711061",
+          "source": "newsis.com",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-17T08:00:00Z"
+        },
+        {
+          "title": "KAI, 인니 T-50i 추가 인도 완료… 동남아 방산시장 공략 속도",
+          "url": "https://koreaittimes.com/news/articleView.html?idxno=155285",
+          "source": "koreaittimes.com",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T10:26:00Z"
+        },
+        {
+          "title": "KAI, 인도네시아 고등훈련기 인도 완료…총 22대 납품",
+          "url": "https://ajunews.com/view/20260716175747313",
+          "source": "ajunews.com",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T09:04:00Z"
+        },
+        {
+          "title": "KAI, 인니에 T-50i 고등훈련기 6대 납품 완료…동남아 방산 영토 확장",
+          "url": "https://g-enews.com/view.php?ud=20260716160019391ea14faf6f5_1",
+          "source": "g-enews.com",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T08:36:00Z"
+        },
+        {
+          "title": "KAI, 인도네시아에 'T-50i' 고등훈련기 6대 납품 … KF-21 최종계약도 추...",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/07/16/2026071600292.html",
+          "source": "biz.newdaily.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T08:14:00Z"
+        },
+        {
+          "title": "\"단순 투자가 아니다…한화의 15.64% 참전, KAI 경영권 분쟁 불씨 당겼다...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269991",
+          "source": "newsquest.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T08:06:00Z"
+        },
+        {
+          "title": "KAI 소형무장헬기 미르온 납품 지연에 실적 목표달성 불투명, 김종출 KF...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=442530",
+          "source": "businesspost.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T07:36:00Z"
+        },
+        {
+          "title": "KAI, 인도네시아에 'T-50i' 6대 최종 납품...동남아 주도권 쥔다",
+          "url": "https://financialreview.co.kr/news/articleView.html?idxno=43618",
+          "source": "financialreview.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T07:16:00Z"
+        },
+        {
+          "title": "기가레인, 한국항공우주 연구원과 27억 규모 시제품 개발 계약",
+          "url": "https://edaily.co.kr/news/newspath.asp?newsid=04769126645515176",
+          "source": "edaily.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T07:13:00Z"
+        },
+        {
+          "title": "[뉴스 속 무기] KAI, 인도네시아에 ‘T-50i’ 운용체계 완성…KF-21 수출...",
+          "url": "https://news2day.co.kr/article/20260717500063",
+          "source": "news2day.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-17T12:16:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    },
+    {
+      "company_name": "한화에어로스페이스",
+      "input_company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "category": "방산",
+      "monitoring_tier": "background",
+      "validation_status": "verified",
+      "news_events": 7,
+      "disclosures": 0,
+      "provider_calls": {
+        "naver": 1,
+        "gdelt": 3
+      },
+      "raw_articles": 114,
+      "relevant_articles": 14,
+      "duplicate_articles": 0,
+      "importance_counts": {
+        "critical": 0,
+        "important": 0,
+        "watch": 0,
+        "low": 7
+      },
+      "quality_exclusions": {},
+      "needs_review_clusters": 2,
+      "telegram_matches": 0,
+      "duration_seconds": 41.251176,
+      "json_bytes": 14271,
+      "provider_consecutive_failures": {},
+      "top_news": [
+        {
+          "title": "軍 다목적 무인차량 사업에 한화에어로스페이스 최종 선정",
+          "url": "https://yna.co.kr/view/AKR20260716171700504?input=1195m",
+          "source": "yna.co.kr",
+          "score": 30,
+          "level": "low",
+          "published_at": "2026-07-16T10:05:00Z"
+        },
+        {
+          "title": "한화에어로스페이스 , 육군 '다목적 무인차량' 양산 사업자로 뽑혀",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=442554",
+          "source": "businesspost.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T08:52:00Z"
+        },
+        {
+          "title": "軍 '다목적무인차량' 한화에어로스페이스 선정…3분기 내 계약체결",
+          "url": "https://mt.co.kr/politics/2026/07/16/2026071616441712541",
+          "source": "mt.co.kr",
+          "score": 25,
+          "level": "low",
+          "published_at": "2026-07-16T08:05:00Z"
+        },
+        {
+          "title": "한화에어로스페이스 ‘군 다목적 무인차 사업’ 따냈다",
+          "url": "https://seoul.co.kr/news/economy/industry/2026/07/17/20260717031005?wlog_tag3=naver",
+          "source": "seoul.co.kr",
+          "score": 15,
+          "level": "low",
+          "published_at": "2026-07-16T20:04:00Z"
+        },
+        {
+          "title": "한화에어로스페이스 , 군 '다목적 무인차량' 최종 선정…5천억 시장 열린...",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=207744",
+          "source": "srtimes.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T11:32:00Z"
+        },
+        {
+          "title": "[속보] 한화에어로스페이스 , 군 다목적 무인차량 최종 낙찰",
+          "url": "https://news.mtn.co.kr/news-detail/2026071616284071248",
+          "source": "news.mtn.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:30:00Z"
+        },
+        {
+          "title": "[속보]방사청 \"다목적무인차량 국내사업, 한화에어로스페이스 결정\"",
+          "url": "https://mt.co.kr/politics/2026/07/16/2026071616253785962",
+          "source": "mt.co.kr",
+          "score": 10,
+          "level": "low",
+          "published_at": "2026-07-16T07:29:00Z"
+        }
+      ],
+      "recent_disclosures": []
+    }
+  ]
+}

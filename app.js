@@ -1,5 +1,5 @@
 const FALLBACK_EARNINGS = {
-  generatedAt: "2026-07-16T09:00:00+09:00",
+  generatedAt: "2026-07-17T11:06:36+09:00",
   currencyUnit: "억원",
   watchlist: [
     { name: "SK하이닉스", code: "000660", market: "KOSPI" },
@@ -26,9 +26,6 @@ const FALLBACK_EARNINGS = {
       code: "018500",
       market: "KOSPI",
       earnings: [
-        { period: "2024 Q2", revenue: null, operatingIncome: null, netIncome: null, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
-        { period: "2024 Q3", revenue: null, operatingIncome: null, netIncome: null, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
-        { period: "2024 Q4", revenue: null, operatingIncome: null, netIncome: null, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
         { period: "2025 Q1", revenue: 1632, operatingIncome: 154, netIncome: 132, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
         { period: "2025 Q2", revenue: 1680, operatingIncome: 131, netIncome: 55, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
         { period: "2025 Q3", revenue: 1556, operatingIncome: 85, netIncome: 99, estimateRevenue: null, estimateOperatingIncome: null, estimateNetIncome: null },
@@ -41,9 +38,21 @@ const FALLBACK_EARNINGS = {
 };
 
 const FALLBACK_DISCLOSURES = {
-  generatedAt: "2026-07-16T09:00:00+09:00",
+  generatedAt: "2026-07-17T11:06:36+09:00",
   categories: ["실적", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
   disclosures: [
+    {
+      disclosedAt: "2026-06-24T07:30:03+09:00",
+      companyName: "동원금속",
+      code: "018500",
+      reportName: "주식등의대량보유상황보고서(일반)",
+      category: "지분",
+      provisionalEarnings: false,
+      summary: "주식등의대량보유상황보고서(일반) 관련 공시.",
+      dartUrl: "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000428",
+      dartReceiptNumber: "20260623000428",
+      telegramMessageId: 145480
+    },
     {
       disclosedAt: "2026-06-19T17:55:54+09:00",
       companyName: "동원금속",
@@ -53,17 +62,47 @@ const FALLBACK_DISCLOSURES = {
       provisionalEarnings: false,
       summary: "2026.03 사업보고서 제출. 연결 기준 2026 Q1 매출 1,788억원, 영업이익 60억원, 순이익 130억원 확인.",
       dartUrl: "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000676"
+    },
+    {
+      disclosedAt: "2026-06-12T15:34:58+09:00",
+      companyName: "동원금속",
+      code: "018500",
+      reportName: "현금ㆍ현물배당결정",
+      category: "자사주·배당",
+      provisionalEarnings: false,
+      summary: "현금ㆍ현물배당결정 관련 공시.",
+      dartUrl: "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612800660",
+      dartReceiptNumber: "20260612800660",
+      telegramMessageId: 144869
     }
   ]
+};
+
+const FALLBACK_NEWS = {
+  generated_at: null,
+  news: []
 };
 
 const state = {
   earningsData: FALLBACK_EARNINGS,
   disclosureData: FALLBACK_DISCLOSURES,
+  newsData: FALLBACK_NEWS,
   selectedCompanyCode: "018500",
   activeTab: "watchlist",
   companyFilter: "all",
-  typeFilter: "all"
+  typeFilter: "all",
+  newsCompanyFilter: "all",
+  newsRegionFilter: "all",
+  newsProviderFilter: "all",
+  newsImportanceFilter: "all",
+  newsSortFilter: "latest",
+  newsPeriodFilter: "7",
+  newsVisibleLimit: 40,
+  watchlistSearch: "",
+  watchlistCategoryFilter: "all",
+  watchlistTierFilter: "all",
+  watchlistVisibleLimit: 50,
+  loadedCompanyDetails: new Set()
 };
 
 const els = {
@@ -71,6 +110,10 @@ const els = {
   tabButtons: document.querySelectorAll(".tab-button"),
   panels: document.querySelectorAll(".tab-panel"),
   watchlistSummary: document.querySelector("#watchlistSummary"),
+  watchlistSearch: document.querySelector("#watchlistSearch"),
+  watchlistCategoryFilter: document.querySelector("#watchlistCategoryFilter"),
+  watchlistTierFilter: document.querySelector("#watchlistTierFilter"),
+  watchlistLoadMore: document.querySelector("#watchlistLoadMore"),
   selectedCompanyName: document.querySelector("#selectedCompanyName"),
   selectedCompanyMeta: document.querySelector("#selectedCompanyMeta"),
   selectedStatus: document.querySelector("#selectedStatus"),
@@ -83,23 +126,79 @@ const els = {
   estimateNotice: document.querySelector("#estimateNotice"),
   companyFilter: document.querySelector("#companyFilter"),
   typeFilter: document.querySelector("#typeFilter"),
-  disclosureList: document.querySelector("#disclosureList")
+  disclosureList: document.querySelector("#disclosureList"),
+  newsCompanyFilter: document.querySelector("#newsCompanyFilter"),
+  newsRegionFilter: document.querySelector("#newsRegionFilter"),
+  newsProviderFilter: document.querySelector("#newsProviderFilter"),
+  newsImportanceFilter: document.querySelector("#newsImportanceFilter"),
+  newsSortFilter: document.querySelector("#newsSortFilter"),
+  newsPeriodFilter: document.querySelector("#newsPeriodFilter"),
+  coreNewsList: document.querySelector("#coreNewsList"),
+  allNewsList: document.querySelector("#allNewsList"),
+  coreNewsCount: document.querySelector("#coreNewsCount"),
+  allNewsCount: document.querySelector("#allNewsCount"),
+  newsLoadMore: document.querySelector("#newsLoadMore")
 };
 
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
-  const [earningsData, disclosureData] = await Promise.all([
-    loadJson("./data/earnings.json", FALLBACK_EARNINGS),
-    loadJson("./data/disclosures.json", FALLBACK_DISCLOSURES)
+  const [earningsData, disclosureData, newsData] = await Promise.all([
+    loadJsonCandidates(["./data/earnings/index.json", "./data/earnings.json"], FALLBACK_EARNINGS),
+    loadJsonCandidates(["./data/disclosures/index.json", "./data/disclosures.json"], FALLBACK_DISCLOSURES),
+    loadJsonCandidates(["./data/news/index.json", "./data/news.json"], FALLBACK_NEWS)
   ]);
 
   state.earningsData = normalizeEarningsData(earningsData);
   state.disclosureData = normalizeDisclosureData(disclosureData);
+  state.newsData = normalizeNewsData(newsData);
   state.selectedCompanyCode = pickInitialCompany();
 
   bindEvents();
   renderAll();
+}
+
+async function loadJsonCandidates(paths, fallback) {
+  if (window.location.protocol === "file:") {
+    if (fallback === FALLBACK_EARNINGS && Array.isArray(window.PORTFOLIO_INDEX)) {
+      const examples = new Map(FALLBACK_EARNINGS.companies.map((company) => [company.code, company]));
+      return {
+        ...FALLBACK_EARNINGS,
+        watchlist: window.PORTFOLIO_INDEX,
+        companies: window.PORTFOLIO_INDEX.map((item) => ({
+          ...item,
+          ...(examples.get(item.code) || {}),
+          name: item.name,
+          code: item.code,
+          market: item.market,
+          category: item.category,
+          monitoringTier: item.monitoringTier,
+          earnings: examples.get(item.code)?.earnings || []
+        }))
+      };
+    }
+    return fallback;
+  }
+  for (const path of paths) {
+    try {
+      const response = await fetch(path, { cache: "no-store" });
+      if (response.ok) return await response.json();
+    } catch (error) {
+      console.warn(`${path} 파일을 불러오지 못했습니다.`, error);
+    }
+  }
+  return fallback;
+}
+
+async function loadOptionalJson(path) {
+  if (window.location.protocol === "file:") return null;
+  try {
+    const response = await fetch(path, { cache: "no-store" });
+    return response.ok ? await response.json() : null;
+  } catch (error) {
+    console.warn(`${path} 상세 파일을 불러오지 못했습니다.`, error);
+    return null;
+  }
 }
 
 async function loadJson(path, fallback) {
@@ -134,6 +233,13 @@ function normalizeDisclosureData(data) {
   };
 }
 
+function normalizeNewsData(data) {
+  return {
+    generatedAt: data.generated_at || data.generatedAt || null,
+    news: Array.isArray(data.news) ? data.news : []
+  };
+}
+
 function bindEvents() {
   els.tabButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -142,14 +248,61 @@ function bindEvents() {
     });
   });
 
-  els.companyFilter.addEventListener("change", (event) => {
+  els.companyFilter.addEventListener("change", async (event) => {
     state.companyFilter = event.target.value;
+    if (state.companyFilter !== "all") await loadCompanyDetails(state.companyFilter);
     renderDisclosureList();
   });
 
   els.typeFilter.addEventListener("change", (event) => {
     state.typeFilter = event.target.value;
     renderDisclosureList();
+  });
+
+  [
+    [els.newsCompanyFilter, "newsCompanyFilter"],
+    [els.newsRegionFilter, "newsRegionFilter"],
+    [els.newsProviderFilter, "newsProviderFilter"],
+    [els.newsImportanceFilter, "newsImportanceFilter"],
+    [els.newsSortFilter, "newsSortFilter"],
+    [els.newsPeriodFilter, "newsPeriodFilter"]
+  ].forEach(([element, stateKey]) => {
+    element.addEventListener("change", async (event) => {
+      state[stateKey] = event.target.value;
+      state.newsVisibleLimit = 40;
+      if (stateKey === "newsCompanyFilter" && event.target.value !== "all") {
+        await loadCompanyDetails(event.target.value);
+      }
+      renderNews();
+    });
+  });
+
+  els.newsLoadMore.addEventListener("click", () => {
+    state.newsVisibleLimit += 40;
+    renderNews();
+  });
+
+  els.watchlistSearch.addEventListener("input", (event) => {
+    state.watchlistSearch = event.target.value.trim().toLocaleLowerCase("ko-KR");
+    state.watchlistVisibleLimit = 50;
+    renderWatchlist();
+  });
+
+  els.watchlistCategoryFilter.addEventListener("change", (event) => {
+    state.watchlistCategoryFilter = event.target.value;
+    state.watchlistVisibleLimit = 50;
+    renderWatchlist();
+  });
+
+  els.watchlistTierFilter.addEventListener("change", (event) => {
+    state.watchlistTierFilter = event.target.value;
+    state.watchlistVisibleLimit = 50;
+    renderWatchlist();
+  });
+
+  els.watchlistLoadMore.addEventListener("click", () => {
+    state.watchlistVisibleLimit += 50;
+    renderWatchlist();
   });
 
   window.addEventListener("resize", debounce(() => {
@@ -161,10 +314,22 @@ function bindEvents() {
 function renderAll() {
   renderTabs();
   renderLastUpdated();
+  renderWatchlistFilters();
   renderWatchlist();
   renderSelectedCompany();
   renderFilters();
   renderDisclosureList();
+  renderNewsFilters();
+  renderNews();
+}
+
+function renderWatchlistFilters() {
+  const categories = [...new Set(state.earningsData.watchlist.map((item) => item.category).filter(Boolean))];
+  els.watchlistCategoryFilter.innerHTML = [
+    `<option value="all">전체 카테고리</option>`,
+    ...categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`)
+  ].join("");
+  els.watchlistCategoryFilter.value = state.watchlistCategoryFilter;
 }
 
 function renderTabs() {
@@ -178,7 +343,7 @@ function renderTabs() {
 }
 
 function renderLastUpdated() {
-  const dates = [state.earningsData.generatedAt, state.disclosureData.generatedAt]
+  const dates = [state.earningsData.generatedAt, state.disclosureData.generatedAt, state.newsData.generatedAt]
     .filter(Boolean)
     .map((value) => new Date(value))
     .filter((date) => !Number.isNaN(date.getTime()));
@@ -193,8 +358,15 @@ function renderLastUpdated() {
 }
 
 function renderWatchlist() {
-  const companies = getCompaniesWithWatchlist();
-  els.watchlistSummary.innerHTML = companies.map((company) => {
+  const companies = getCompaniesWithWatchlist().filter((company) => {
+    const searchMatch = !state.watchlistSearch
+      || `${company.name} ${company.code}`.toLocaleLowerCase("ko-KR").includes(state.watchlistSearch);
+    const categoryMatch = state.watchlistCategoryFilter === "all" || company.category === state.watchlistCategoryFilter;
+    const tierMatch = state.watchlistTierFilter === "all" || company.monitoringTier === state.watchlistTierFilter;
+    return searchMatch && categoryMatch && tierMatch;
+  });
+  const visibleCompanies = companies.slice(0, state.watchlistVisibleLimit);
+  els.watchlistSummary.innerHTML = visibleCompanies.map((company) => {
     const latest = getLatestQuarter(company);
     const isActive = company.code === state.selectedCompanyCode;
     const quarters = getEightQuarters(company);
@@ -208,7 +380,7 @@ function renderWatchlist() {
         <span class="watchlist-company">
           <span class="chip ${status.tone}">${status.label}</span>
           <strong>${escapeHtml(company.name)}</strong>
-          <span>${escapeHtml(company.code)} · ${escapeHtml(company.market || "N/A")}</span>
+          <span>${escapeHtml(company.code)} · ${escapeHtml(company.category || "N/A")} · ${escapeHtml(tierLabel(company.monitoringTier))}</span>
         </span>
         <span class="watchlist-metrics">
           <span class="watchlist-metric">
@@ -227,6 +399,11 @@ function renderWatchlist() {
       </button>
     `;
   }).join("");
+  if (!visibleCompanies.length) {
+    els.watchlistSummary.innerHTML = `<div class="empty-state">검색 결과가 없습니다.</div>`;
+  }
+  els.watchlistLoadMore.hidden = visibleCompanies.length >= companies.length;
+  els.watchlistLoadMore.textContent = `관심 기업 더 보기 (${visibleCompanies.length}/${companies.length})`;
 
   els.watchlistSummary.querySelectorAll(".watchlist-item").forEach((card) => {
     card.addEventListener("click", () => {
@@ -235,13 +412,44 @@ function renderWatchlist() {
   });
 }
 
-function openCompanyDetail(code) {
+function tierLabel(tier) {
+  return { core: "Core", watch: "Watch", background: "Background" }[tier] || "N/A";
+}
+
+async function openCompanyDetail(code) {
   state.selectedCompanyCode = code;
   state.activeTab = "earnings";
   renderTabs();
   renderWatchlist();
+  await loadCompanyDetails(code);
   renderSelectedCompany();
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+async function loadCompanyDetails(code) {
+  if (!code || state.loadedCompanyDetails.has(code) || window.location.protocol === "file:") return;
+  const [earnings, disclosures, news] = await Promise.all([
+    loadOptionalJson(`./data/earnings/by-company/${encodeURIComponent(code)}.json`),
+    loadOptionalJson(`./data/disclosures/by-company/${encodeURIComponent(code)}.json`),
+    loadOptionalJson(`./data/news/by-company/${encodeURIComponent(code)}.json`)
+  ]);
+
+  if (earnings?.company) {
+    state.earningsData.companies = state.earningsData.companies
+      .filter((item) => item.code !== code)
+      .concat(earnings.company);
+  }
+  if (Array.isArray(disclosures?.disclosures)) {
+    state.disclosureData.disclosures = state.disclosureData.disclosures
+      .filter((item) => item.code !== code)
+      .concat(disclosures.disclosures);
+  }
+  if (Array.isArray(news?.news)) {
+    state.newsData.news = state.newsData.news
+      .filter((item) => item.stock_code !== code)
+      .concat(news.news);
+  }
+  state.loadedCompanyDetails.add(code);
 }
 
 function renderSelectedCompany() {
@@ -254,7 +462,11 @@ function renderSelectedCompany() {
   const status = getCompanyStatus(company, recentDisclosures);
 
   els.selectedCompanyName.textContent = company.name;
-  els.selectedCompanyMeta.textContent = `${company.code} · ${company.market || "N/A"}`;
+  const completion = completionLabel(company.completionStatus);
+  const missing = Array.isArray(company.missingQuarters) && company.missingQuarters.length
+    ? ` · 누락 ${company.missingQuarters.join(", ")}`
+    : "";
+  els.selectedCompanyMeta.textContent = `${company.code} · ${company.category || company.market || "N/A"} · ${completion} · 기준 ${company.currentBasis || "N/A"}${missing}`;
   els.selectedStatus.textContent = status.label;
   els.selectedStatus.className = `status-pill ${status.tone}`;
 
@@ -298,7 +510,10 @@ function renderRecentDisclosures(items) {
 }
 
 function renderRecentNews(company) {
-  const news = Array.isArray(company.news) ? company.news.slice(0, 5) : [];
+  const news = state.newsData.news
+    .filter((item) => item.stock_code === company.code)
+    .sort((a, b) => newsTimestamp(b) - newsTimestamp(a))
+    .slice(0, 5);
   if (!news.length) {
     els.recentNews.innerHTML = `<div class="empty-state">최근 뉴스 N/A</div>`;
     return;
@@ -306,12 +521,13 @@ function renderRecentNews(company) {
 
   els.recentNews.innerHTML = news.map((item) => `
     <article class="compact-item">
-      <strong>${escapeHtml(item.title || "제목 N/A")}</strong>
+      <strong>${escapeHtml(item.representative_title || "제목 N/A")}</strong>
       <span class="compact-meta">
-        <span>${escapeHtml(item.source || "출처 N/A")}</span>
-        <span>${item.publishedAt ? formatDateTime(new Date(item.publishedAt)) : "시각 N/A"}</span>
+        <span>${escapeHtml(item.representative_source || "출처 N/A")}</span>
+        <span>${item.last_published_at || item.published_at ? formatDateTime(new Date(item.last_published_at || item.published_at)) : "시각 N/A"}</span>
+        <span>${escapeHtml(importanceLabel(item.importance_level))}</span>
       </span>
-      ${item.url ? `<p><a href="${escapeAttribute(item.url)}" target="_blank" rel="noopener">뉴스 원문</a></p>` : ""}
+      ${item.representative_url ? `<p><a href="${escapeAttribute(item.representative_url)}" target="_blank" rel="noopener">뉴스 원문</a></p>` : ""}
     </article>
   `).join("");
 }
@@ -358,6 +574,117 @@ function renderDisclosureList() {
   `).join("");
 }
 
+function renderNewsFilters() {
+  const companies = getCompaniesWithWatchlist();
+  els.newsCompanyFilter.innerHTML = [
+    `<option value="all">전체 기업</option>`,
+    ...companies.map((company) => `<option value="${escapeAttribute(company.code)}">${escapeHtml(company.name)} ${escapeHtml(company.code)}</option>`)
+  ].join("");
+  els.newsCompanyFilter.value = state.newsCompanyFilter;
+}
+
+function renderNews() {
+  const items = getFilteredNews();
+  const coreItems = items.filter((item) => item.importance_score >= 40);
+  const visibleItems = items.slice(0, state.newsVisibleLimit);
+  els.coreNewsCount.textContent = `${coreItems.length}건`;
+  els.allNewsCount.textContent = `${items.length}건`;
+  els.coreNewsList.innerHTML = coreItems.length
+    ? coreItems.map(newsCard).join("")
+    : `<div class="empty-state">조건에 맞는 핵심 뉴스가 없습니다.</div>`;
+  els.allNewsList.innerHTML = visibleItems.length
+    ? visibleItems.map(newsCard).join("")
+    : `<div class="empty-state">조건에 맞는 뉴스가 없습니다.</div>`;
+  els.newsLoadMore.hidden = visibleItems.length >= items.length;
+  els.newsLoadMore.textContent = `뉴스 더 보기 (${visibleItems.length}/${items.length})`;
+}
+
+function getFilteredNews() {
+  const periodDays = Number(state.newsPeriodFilter) || 7;
+  const cutoff = Date.now() - periodDays * 24 * 60 * 60 * 1000;
+  const items = state.newsData.news
+    .filter((item) => state.newsCompanyFilter === "all" || item.stock_code === state.newsCompanyFilter)
+    .filter((item) => state.newsRegionFilter === "all" || newsRegions(item).includes(state.newsRegionFilter))
+    .filter((item) => state.newsProviderFilter === "all" || newsProviders(item).includes(state.newsProviderFilter))
+    .filter((item) => state.newsImportanceFilter === "all" || item.importance_level === state.newsImportanceFilter)
+    .filter((item) => {
+      const timestamp = newsTimestamp(item);
+      return Number.isFinite(timestamp) && timestamp >= cutoff;
+    });
+
+  return items.sort((a, b) => {
+    if (state.newsSortFilter === "importance") {
+      return b.importance_score - a.importance_score || newsTimestamp(b) - newsTimestamp(a);
+    }
+    return newsTimestamp(b) - newsTimestamp(a) || b.importance_score - a.importance_score;
+  });
+}
+
+function newsTimestamp(item) {
+  return new Date(item.last_published_at || item.published_at).getTime();
+}
+
+function newsRegions(item) {
+  const domestic = Number(item.domestic_article_count) || 0;
+  const international = Number(item.international_article_count) || 0;
+  if (domestic && international) return ["domestic", "international", "both"];
+  if (domestic) return ["domestic"];
+  if (international) return ["international"];
+  const language = String(item.language || item.representative_language || "").toLowerCase();
+  return language.includes("korean") ? ["domestic"] : ["international"];
+}
+
+function newsProviders(item) {
+  const providers = Array.isArray(item.providers)
+    ? item.providers.map((value) => String(value).toLowerCase())
+    : ["gdelt"];
+  return providers.includes("gdelt") && providers.includes("naver") ? [...providers, "both"] : providers;
+}
+
+function newsCard(item) {
+  const categories = Array.isArray(item.categories) && item.categories.length ? item.categories : ["기타"];
+  const level = item.importance_level || "low";
+  const providers = newsProviders(item).filter((provider) => provider !== "both");
+  const providerLabel = providers.includes("gdelt") && providers.includes("naver") ? "BOTH" : (providers[0] || "gdelt").toUpperCase();
+  const articles = Array.isArray(item.articles) ? item.articles : [];
+  const relatedArticles = articles.map((article) => `
+    <li>
+      <a href="${escapeAttribute(article.url)}" target="_blank" rel="noopener">${escapeHtml(article.title || "제목 N/A")}</a>
+      <span>${escapeHtml(article.source || "출처 N/A")} · ${formatDateTime(new Date(article.published_at))} · ${escapeHtml(article.provider || "")}</span>
+    </li>
+  `).join("");
+  return `
+    <article class="news-card ${escapeAttribute(level)}">
+      <div class="news-card-head">
+        <span class="importance-badge ${escapeAttribute(level)}">${escapeHtml(importanceLabel(level))} ${Number(item.importance_score) || 0}</span>
+        <span class="provider-badge">${escapeHtml(providerLabel)}</span>
+        <span>${escapeHtml(item.company_name || "기업 N/A")} · ${escapeHtml(item.stock_code || "N/A")}</span>
+      </div>
+      <h3>${escapeHtml(item.representative_title || "제목 N/A")}</h3>
+      <div class="news-meta">
+        <span>${escapeHtml(item.representative_source || "출처 N/A")}</span>
+        <span>최초 ${formatDateTime(new Date(item.first_published_at || item.published_at))}</span>
+        <span>최신 ${formatDateTime(new Date(item.last_published_at || item.published_at))}</span>
+        <span>국내 ${Number(item.domestic_article_count) || 0} · 해외 ${Number(item.international_article_count) || 0} · 총 ${Number(item.article_count || item.source_count) || 0}</span>
+      </div>
+      <div class="news-categories">
+        ${categories.map((category) => `<span class="chip neutral">${escapeHtml(category)}</span>`).join("")}
+      </div>
+      <a class="news-link" href="${escapeAttribute(item.representative_url)}" target="_blank" rel="noopener">원문 보기</a>
+      ${relatedArticles ? `<details class="related-news"><summary>관련 기사 ${articles.length}건</summary><ul>${relatedArticles}</ul></details>` : ""}
+    </article>
+  `;
+}
+
+function importanceLabel(level) {
+  return {
+    critical: "Critical",
+    important: "Important",
+    watch: "Watch",
+    low: "Low"
+  }[level] || "Low";
+}
+
 function getCompaniesWithWatchlist() {
   return state.earningsData.watchlist.map((watch) => {
     const company = getCompanyByCode(watch.code);
@@ -399,6 +726,9 @@ function getDisclosuresForCompany(code) {
 }
 
 function getCompanyStatus(company, disclosures) {
+  if (company.completionStatus === "complete_8q" && disclosures.length) return { label: "8분기·공시", tone: "" };
+  if (company.completionStatus === "complete_8q") return { label: "8분기 확보", tone: "" };
+  if (company.completionStatus === "needs_review" || company.completionStatus === "conflicting_data") return { label: "검토 필요", tone: "warn" };
   const latest = getLatestQuarter(company);
   if (!latest && !disclosures.length) return { label: "N/A", tone: "neutral" };
   if (disclosures.length) return { label: "공시 확인", tone: "" };
@@ -406,11 +736,25 @@ function getCompanyStatus(company, disclosures) {
 }
 
 function getWatchlistStatus(company, disclosureCount) {
+  if (company.completionStatus === "complete_8q" && disclosureCount > 0) return { label: "8분기·공시", tone: "" };
+  if (company.completionStatus === "complete_8q") return { label: "8분기", tone: "" };
+  if (company.completionStatus === "needs_review" || company.completionStatus === "conflicting_data") return { label: "검토 필요", tone: "warn" };
   const hasEarnings = Boolean(getLatestQuarter(company));
   if (hasEarnings && disclosureCount > 0) return { label: "실적·공시", tone: "" };
   if (hasEarnings) return { label: "실적", tone: "" };
   if (disclosureCount > 0) return { label: "공시", tone: "warn" };
   return { label: "N/A", tone: "neutral" };
+}
+
+function completionLabel(status) {
+  return {
+    complete_8q: "최근 8개 분기",
+    partial_5_to_7q: "5~7개 분기",
+    partial_1_to_4q: "1~4개 분기",
+    no_valid_quarter: "실적 N/A",
+    needs_review: "검토 필요",
+    conflicting_data: "충돌 검토"
+  }[status] || "분기 상태 N/A";
 }
 
 function metricBox(label, value, period, changeText) {
@@ -426,8 +770,10 @@ function metricBox(label, value, period, changeText) {
 
 function getQoQText(quarters, key) {
   const latestIndex = findLatestIndex(quarters, key);
-  if (latestIndex < 1) return "QoQ N/A";
-  return `QoQ ${formatChange(quarters[latestIndex][key], quarters[latestIndex - 1][key])}`;
+  if (latestIndex < 0) return "QoQ N/A";
+  const current = quarters[latestIndex];
+  const previous = findQuarter(quarters, shiftQuarter(current.period, -1));
+  return `QoQ ${formatChange(current[key], previous?.[key])}`;
 }
 
 function findLatestIndex(quarters, key) {
@@ -438,9 +784,13 @@ function findLatestIndex(quarters, key) {
 }
 
 function quarterRow(quarter, quarters) {
+  const badges = [
+    quarter.provisional === true ? "잠정" : "",
+    quarter.corrected ? "정정" : ""
+  ].filter(Boolean);
   return `
     <tr>
-      <td>${escapeHtml(quarter.period)}</td>
+      <td>${escapeHtml(quarter.period)} ${badges.map((badge) => `<span class="quarter-badge">${badge}</span>`).join(" ")}</td>
       <td>${formatMoney(quarter.revenue)}</td>
       <td class="${getTextTone(getYoY(quarter, quarters, "revenue"))}">${getYoY(quarter, quarters, "revenue")}</td>
       <td class="${getTextTone(getQoQ(quarter, quarters, "revenue"))}">${getQoQ(quarter, quarters, "revenue")}</td>
@@ -456,17 +806,27 @@ function quarterRow(quarter, quarters) {
 }
 
 function getYoY(quarter, quarters, key) {
-  const currentIndex = quarters.findIndex((item) => item.period === quarter.period);
-  const previous = quarters[currentIndex - 4];
-  if (!previous) return "N/A";
-  return formatChange(quarter[key], previous[key]);
+  const previous = findQuarter(quarters, shiftQuarter(quarter.period, -4));
+  return formatChange(quarter[key], previous?.[key]);
 }
 
 function getQoQ(quarter, quarters, key) {
-  const currentIndex = quarters.findIndex((item) => item.period === quarter.period);
-  const previous = quarters[currentIndex - 1];
-  if (!previous) return "N/A";
-  return formatChange(quarter[key], previous[key]);
+  const previous = findQuarter(quarters, shiftQuarter(quarter.period, -1));
+  return formatChange(quarter[key], previous?.[key]);
+}
+
+function findQuarter(quarters, period) {
+  if (!period) return null;
+  return quarters.find((item) => item.period === period) || null;
+}
+
+function shiftQuarter(period, offset) {
+  const match = /^(\d{4}) Q([1-4])$/.exec(period || "");
+  if (!match) return null;
+  const absoluteQuarter = Number(match[1]) * 4 + Number(match[2]) - 1 + offset;
+  const year = Math.floor(absoluteQuarter / 4);
+  const quarter = (absoluteQuarter % 4) + 1;
+  return `${year} Q${quarter}`;
 }
 
 function formatChange(current, previous) {

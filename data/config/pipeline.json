@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "timezone": "Asia/Seoul",
+  "schedule": {
+    "local_times": [
+      "08:15",
+      "20:15"
+    ],
+    "utc_cron": "15 11,23 * * *",
+    "alternative_reference": {
+      "local_times": [
+        "02:17",
+        "14:17"
+      ],
+      "utc_cron": "17 5,17 * * *"
+    },
+    "workflow_concurrency_group": "stock-intelligence-data-update",
+    "cancel_in_progress": false
+  },
+  "collection": {
+    "incremental_window_hours": 16,
+    "overlap_hours": 3,
+    "initial_backfill_days": 7,
+    "retention_days": 90,
+    "fingerprint_retention_days": 90
+  },
+  "batch": {
+    "batch_size": 25,
+    "max_concurrency": 1,
+    "default_mode": "sequential"
+  },
+  "budgets": {
+    "naver": {
+      "default_company_requests": 3,
+      "target_company_requests": 2,
+      "per_run_hard_limit": 500,
+      "daily_hard_limit": 20000
+    },
+    "gdelt": {
+      "default_company_requests": 1,
+      "per_run_hard_limit": 220,
+      "request_delay_seconds": 1,
+      "max_retries": 3
+    }
+  },
+  "retention": {
+    "critical_important_watch": {
+      "days": 90,
+      "max_events": 100
+    },
+    "contextual": {
+      "days": 30,
+      "max_events": 30
+    },
+    "low_market_noise": {
+      "days": 30,
+      "max_review_samples": 10
+    }
+  },
+  "dashboard": {
+    "index_event_limit_per_company": 3,
+    "page_size": 40
+  }
+}

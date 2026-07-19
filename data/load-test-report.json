@@ -1,0 +1,106 @@
+{
+  "executed_at": "2026-07-17T09:50:50.656834Z",
+  "provider_mode": "mock_only",
+  "actual_api_requests": 0,
+  "scenarios": [
+    {
+      "company_count": 10,
+      "processed_companies": 10,
+      "successful_company_count": 9,
+      "failed_company_count": 1,
+      "batch_count": 1,
+      "provider_api_calls": {
+        "naver": 18,
+        "gdelt": 9
+      },
+      "average_api_calls_per_company": 2.7,
+      "average_company_duration_seconds": 0.042354,
+      "total_duration_seconds": 0.633932,
+      "public_json_total_bytes": 32587,
+      "average_company_json_bytes": 1943.1,
+      "peak_memory_bytes": 2140522,
+      "company_file_count": 9,
+      "index_company_count": 10,
+      "index_event_count": 9,
+      "index_contains_article_details": false,
+      "failed_company_preserved_pipeline": true,
+      "budget_respected": true
+    },
+    {
+      "company_count": 50,
+      "processed_companies": 50,
+      "successful_company_count": 49,
+      "failed_company_count": 1,
+      "batch_count": 2,
+      "provider_api_calls": {
+        "naver": 98,
+        "gdelt": 49
+      },
+      "average_api_calls_per_company": 2.94,
+      "average_company_duration_seconds": 0.028334,
+      "total_duration_seconds": 3.048067,
+      "public_json_total_bytes": 176203,
+      "average_company_json_bytes": 2119.82,
+      "peak_memory_bytes": 972119,
+      "company_file_count": 49,
+      "index_company_count": 50,
+      "index_event_count": 49,
+      "index_contains_article_details": false,
+      "failed_company_preserved_pipeline": true,
+      "budget_respected": true
+    },
+    {
+      "company_count": 100,
+      "processed_companies": 100,
+      "successful_company_count": 99,
+      "failed_company_count": 1,
+      "batch_count": 4,
+      "provider_api_calls": {
+        "naver": 198,
+        "gdelt": 99
+      },
+      "average_api_calls_per_company": 2.97,
+      "average_company_duration_seconds": 0.02619,
+      "total_duration_seconds": 5.888007,
+      "public_json_total_bytes": 355724,
+      "average_company_json_bytes": 2141.91,
+      "peak_memory_bytes": 1763153,
+      "company_file_count": 99,
+      "index_company_count": 100,
+      "index_event_count": 99,
+      "index_contains_article_details": false,
+      "failed_company_preserved_pipeline": true,
+      "budget_respected": true
+    },
+    {
+      "company_count": 200,
+      "processed_companies": 200,
+      "successful_company_count": 199,
+      "failed_company_count": 1,
+      "batch_count": 8,
+      "provider_api_calls": {
+        "naver": 398,
+        "gdelt": 199
+      },
+      "average_api_calls_per_company": 2.985,
+      "average_company_duration_seconds": 0.031962,
+      "total_duration_seconds": 15.615181,
+      "public_json_total_bytes": 715564,
+      "average_company_json_bytes": 2155.45,
+      "peak_memory_bytes": 3336511,
+      "company_file_count": 199,
+      "index_company_count": 200,
+      "index_event_count": 199,
+      "index_contains_article_details": false,
+      "failed_company_preserved_pipeline": true,
+      "budget_respected": true
+    }
+  ],
+  "performance_targets": {
+    "one_hundred_companies_completed": true,
+    "two_hundred_companies_completed": true,
+    "index_excludes_article_details": true,
+    "budgets_respected": true,
+    "partial_failures_isolated": true
+  }
+}
