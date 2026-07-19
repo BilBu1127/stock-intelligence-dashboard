@@ -18,14 +18,19 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 75
-    env:
-      ARTIFACT_DIR: ${{ runner.temp }}/scheduled-portfolio-update
     steps:
       - name: Check out main
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+
+      - name: Prepare temporary directory
+        shell: bash
+        run: |
+          TEMP_RESULT_DIR="${RUNNER_TEMP}/scheduled-portfolio-update"
+          mkdir -p "$TEMP_RESULT_DIR"
+          echo "ARTIFACT_DIR=$TEMP_RESULT_DIR" >> "$GITHUB_ENV"
 
       - name: Verify scheduled main target
         env:
