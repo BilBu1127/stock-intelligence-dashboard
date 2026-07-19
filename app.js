@@ -39,7 +39,7 @@ const FALLBACK_EARNINGS = {
 
 const FALLBACK_DISCLOSURES = {
   generatedAt: "2026-07-17T11:06:36+09:00",
-  categories: ["실적", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
+  categories: ["earnings", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
   disclosures: [
     {
       disclosedAt: "2026-06-24T07:30:03+09:00",
@@ -58,7 +58,7 @@ const FALLBACK_DISCLOSURES = {
       companyName: "동원금속",
       code: "018500",
       reportName: "사업보고서 (2026.03)",
-      category: "실적",
+      category: "earnings",
       provisionalEarnings: false,
       summary: "2026.03 사업보고서 제출. 연결 기준 2026 Q1 매출 1,788억원, 영업이익 60억원, 순이익 130억원 확인.",
       dartUrl: "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619000676"
@@ -235,11 +235,17 @@ function normalizeEarningsData(data) {
 }
 
 function normalizeDisclosureData(data) {
+  const disclosures = Array.isArray(data.disclosures)
+    ? data.disclosures.map((item) => ({ ...item, category: window.DisclosureCategory.normalize(item.category) }))
+    : [];
+  const categories = Array.isArray(data.categories)
+    ? data.categories.map((category) => window.DisclosureCategory.normalize(category))
+    : FALLBACK_DISCLOSURES.categories;
   return {
     generatedAt: data.generatedAt || FALLBACK_DISCLOSURES.generatedAt,
-    categories: Array.isArray(data.categories) ? data.categories : FALLBACK_DISCLOSURES.categories,
+    categories: [...new Set(categories)],
     companies: Array.isArray(data.companies) ? data.companies : [],
-    disclosures: Array.isArray(data.disclosures) ? data.disclosures : []
+    disclosures
   };
 }
 
@@ -534,7 +540,7 @@ function renderRecentDisclosures(items) {
       <strong>${escapeHtml(item.reportName)}</strong>
       <span class="compact-meta">
         <span>${formatDateTime(new Date(item.disclosedAt))}</span>
-        <span>${escapeHtml(item.category)}</span>
+        <span>${escapeHtml(window.DisclosureCategory.label(item.category))}</span>
         <span>잠정실적 ${item.provisionalEarnings ? "Y" : "N"}</span>
       </span>
       <p>${escapeHtml(item.summary || "요약 N/A")}</p>
@@ -575,14 +581,14 @@ function renderFilters() {
 
   els.typeFilter.innerHTML = [
     `<option value="all">전체 유형</option>`,
-    ...state.disclosureData.categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(category)}</option>`)
+    ...state.disclosureData.categories.map((category) => `<option value="${escapeAttribute(category)}">${escapeHtml(window.DisclosureCategory.label(category))}</option>`)
   ].join("");
 }
 
 function renderDisclosureList() {
   const items = state.disclosureData.disclosures
     .filter((item) => state.companyFilter === "all" || item.code === state.companyFilter)
-    .filter((item) => state.typeFilter === "all" || item.category === state.typeFilter)
+    .filter((item) => window.DisclosureCategory.matches(item, state.typeFilter))
     .sort((a, b) => new Date(b.disclosedAt) - new Date(a.disclosedAt));
 
   if (!items.length) {
@@ -599,7 +605,7 @@ function renderDisclosureList() {
       </div>
       <div class="disclosure-report">
         <strong>${escapeHtml(item.reportName)}</strong>
-        <span class="chip">${escapeHtml(item.category)}</span>
+        <span class="chip">${escapeHtml(window.DisclosureCategory.label(item.category))}</span>
         <span class="chip neutral">잠정실적 ${item.provisionalEarnings ? "Y" : "N"}</span>
       </div>
       <div class="disclosure-summary">${escapeHtml(item.summary || "요약 N/A")}</div>
