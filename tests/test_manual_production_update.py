@@ -9,10 +9,59 @@ from scripts.manual_production_update import (
     is_allowed_repository_path,
     portfolio_integrity_checks,
     public_json_checks,
+    validate_execution_target,
+    write_report,
 )
 
 
 class ManualProductionUpdateTests(unittest.TestCase):
+    def test_report_writer_preserves_file_change_summary(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            write_report(output, {"changed_files": ["data/news/index.json"]})
+            summary = json.loads((output / "file-change-summary.json").read_text(encoding="utf-8"))
+            self.assertEqual(summary["changed_files"], ["data/news/index.json"])
+
+    def test_scheduled_main_requires_github_actions_schedule(self):
+        result = validate_execution_target(
+            "main",
+            True,
+            {
+                "GITHUB_ACTIONS": "true",
+                "GITHUB_EVENT_NAME": "schedule",
+                "GITHUB_REF_NAME": "main",
+            },
+        )
+        self.assertTrue(result["scheduled_production"])
+
+    def test_main_is_rejected_without_scheduled_mode(self):
+        with self.assertRaises(PermissionError):
+            validate_execution_target("main", False, {})
+
+    def test_scheduled_mode_rejects_non_main_branch(self):
+        with self.assertRaises(PermissionError):
+            validate_execution_target(
+                "automation-staging",
+                True,
+                {
+                    "GITHUB_ACTIONS": "true",
+                    "GITHUB_EVENT_NAME": "schedule",
+                    "GITHUB_REF_NAME": "automation-staging",
+                },
+            )
+
+    def test_scheduled_mode_rejects_unapproved_event(self):
+        with self.assertRaises(PermissionError):
+            validate_execution_target(
+                "main",
+                True,
+                {
+                    "GITHUB_ACTIONS": "true",
+                    "GITHUB_EVENT_NAME": "push",
+                    "GITHUB_REF_NAME": "main",
+                },
+            )
+
     def test_repository_allowlist_accepts_only_public_data_and_cursors(self):
         self.assertTrue(is_allowed_repository_path("data/news/index.json"))
         self.assertTrue(is_allowed_repository_path("data/earnings/by-company/000660.json"))

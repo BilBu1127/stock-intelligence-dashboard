@@ -1,0 +1,187 @@
+name: Scheduled Portfolio Update
+
+on:
+  schedule:
+    - cron: "15 8,20 * * *"
+      timezone: "Asia/Seoul"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-production-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    env:
+      ARTIFACT_DIR: ${{ runner.temp }}/scheduled-portfolio-update
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Verify scheduled main target
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          test "$EVENT_NAME" = "schedule" -o "$EVENT_NAME" = "workflow_dispatch"
+          test "$(git branch --show-current)" = "main"
+          test "${GITHUB_REF_NAME:-}" = "main"
+          mkdir -p "$ARTIFACT_DIR"
+          git rev-parse HEAD > "$ARTIFACT_DIR/start-sha.txt"
+          git branch --show-current > "$ARTIFACT_DIR/start-branch.txt"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Verify required secrets exist
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          missing=0
+          for name in TELEGRAM_API_ID TELEGRAM_API_HASH TELEGRAM_SESSION NAVER_CLIENT_ID NAVER_CLIENT_SECRET; do
+            if [ -z "${!name:-}" ]; then
+              echo "Missing required secret name: $name"
+              missing=1
+            fi
+          done
+          test "$missing" -eq 0
+
+      - name: Run Python tests
+        run: python -m pytest -q --tb=short -p no:cacheprovider
+
+      - name: Check JavaScript syntax
+        run: node --check app.js
+
+      - name: Validate existing public data
+        run: >-
+          python scripts/manual_validation.py --data-only
+          --output-dir "$ARTIFACT_DIR/preflight-data"
+
+      - name: Generate and apply validated incremental update
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: >-
+          python scripts/manual_production_update.py
+          --output-dir "$ARTIFACT_DIR/update"
+          --apply-changes
+          --target-branch main
+          --scheduled-production
+
+      - name: Validate generated public data
+        run: >-
+          python scripts/manual_validation.py --data-only
+          --output-dir "$ARTIFACT_DIR/post-update-data"
+
+      - name: Print sanitized update summary
+        shell: python
+        run: |
+          import json
+          import os
+          from pathlib import Path
+
+          report = json.loads((Path(os.environ["ARTIFACT_DIR"]) / "update" / "production-update-report.json").read_text(encoding="utf-8"))
+          news = report.get("news", {})
+          telegram = report.get("telegram", {})
+          print(f"Telegram messages fetched: {telegram.get('messages_fetched', 0)}")
+          print(f"Telegram companies matched: {telegram.get('companies_with_matches', 0)}")
+          print(f"Telegram error count: {len(telegram.get('error_types', []))}")
+          print(f"Code/integrity finding count: {len(report.get('generated_public_json', {}).get('findings', []))}")
+          print(f"NAVER/GDELT API calls: {news.get('provider_api_calls', {})}")
+          print(f"Changed allowlisted files: {len(report.get('changed_files', []))}")
+          print(f"Commit eligible: {str(report.get('commit_eligible', False)).lower()}")
+
+      - name: Verify repository diff allowlist
+        run: |
+          set -euo pipefail
+          git diff --check
+          python -c 'import json, os, pathlib, sys; report=json.loads((pathlib.Path(os.environ["ARTIFACT_DIR"])/"update"/"production-update-report.json").read_text(encoding="utf-8")); sys.exit(0 if report.get("commit_eligible") else 1)'
+          mapfile -t changed < <(git diff --name-only)
+          for path in "${changed[@]}"; do
+            case "$path" in
+              data/news/index.json|data/news/by-company/*.json|data/earnings/index.json|data/earnings/by-company/*.json|data/disclosures/index.json|data/disclosures/by-company/*.json|data/state/*.json) ;;
+              *) echo "Disallowed repository change: $path"; exit 1 ;;
+            esac
+          done
+          mapfile -t working_paths < <(git status --porcelain --untracked-files=all | cut -c4-)
+          for path in "${working_paths[@]}"; do
+            case "$path" in
+              data/news/index.json|data/news/by-company/*.json|data/earnings/index.json|data/earnings/by-company/*.json|data/disclosures/index.json|data/disclosures/by-company/*.json|data/state/*.json) ;;
+              *) echo "Disallowed working-tree path: $path"; exit 1 ;;
+            esac
+          done
+          if git status --porcelain --untracked-files=all | grep -Eq '(^|/)(\.secrets|private_samples|review|\.env)|\.session|production\.tmp|__pycache__|\.pytest_cache'; then
+            echo "Sensitive or temporary path detected in the working tree"
+            exit 1
+          fi
+
+      - name: Commit and push eligible changes
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = "main"
+          if [ -z "$(git status --porcelain --untracked-files=all -- data/news data/earnings data/disclosures data/state)" ]; then
+            echo "No data changes; no commit created"
+            printf '{"committed":false,"pushed":false,"reason":"no_changes"}\n' > "$ARTIFACT_DIR/commit-result.json"
+            exit 0
+          fi
+          start_sha=$(cat "$ARTIFACT_DIR/start-sha.txt")
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$start_sha"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/news/index.json data/news/by-company data/earnings/index.json data/earnings/by-company data/disclosures/index.json data/disclosures/by-company data/state
+          mapfile -t staged < <(git diff --cached --name-only)
+          for path in "${staged[@]}"; do
+            case "$path" in
+              data/news/index.json|data/news/by-company/*.json|data/earnings/index.json|data/earnings/by-company/*.json|data/disclosures/index.json|data/disclosures/by-company/*.json|data/state/*.json) ;;
+              *) echo "Disallowed staged path: $path"; exit 1 ;;
+            esac
+          done
+          test "${#staged[@]}" -gt 0
+          git commit -m "Update portfolio data [scheduled]"
+          git push origin HEAD:main
+          printf '{"committed":true,"pushed":true,"reason":"validated_changes"}\n' > "$ARTIFACT_DIR/commit-result.json"
+
+      - name: Record sanitized completion summary
+        if: always()
+        run: |
+          mkdir -p "$ARTIFACT_DIR"
+          git rev-parse HEAD > "$ARTIFACT_DIR/final-sha.txt"
+          git status --short > "$ARTIFACT_DIR/repository-status.txt"
+          git diff --stat > "$ARTIFACT_DIR/repository-diff-summary.txt"
+
+      - name: Upload sanitized scheduled artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scheduled-portfolio-update-result
+          path: ${{ runner.temp }}/scheduled-portfolio-update/
+          retention-days: 3
+          if-no-files-found: warn

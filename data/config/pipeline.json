@@ -6,7 +6,9 @@
       "08:15",
       "20:15"
     ],
-    "utc_cron": "15 11,23 * * *",
+    "cron": "15 8,20 * * *",
+    "timezone": "Asia/Seoul",
+    "utc_cron_fallback": "15 11,23 * * *",
     "alternative_reference": {
       "local_times": [
         "02:17",
@@ -14,7 +16,7 @@
       ],
       "utc_cron": "17 5,17 * * *"
     },
-    "workflow_concurrency_group": "stock-intelligence-data-update",
+    "workflow_concurrency_group": "portfolio-production-update",
     "cancel_in_progress": false
   },
   "collection": {
