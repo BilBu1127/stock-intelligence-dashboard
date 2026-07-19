@@ -346,7 +346,7 @@ def build_public_indexes(companies, generated_at, data_root=None):
     })
     write_json_atomic(data_root / "disclosures" / "index.json", {
         "generatedAt": generated_at,
-        "categories": ["실적", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
+        "categories": ["earnings", "시설투자", "공급계약", "자사주·배당", "증자·사채", "지분", "기타"],
         "companies": disclosure_companies, "disclosures": disclosures,
     })
     write_json_atomic(data_root / "news" / "index.json", {

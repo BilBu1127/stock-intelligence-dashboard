@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -162,8 +163,31 @@ def public_quarter(record):
     }
 
 
-def disclosure_category(report_name):
+EARNINGS_CATEGORY = "earnings"
+EARNINGS_REPORT_PATTERNS = (
+    "연결재무제표기준영업(잠정)실적",
+    "영업(잠정)실적",
+    "연결재무제표기준영업실적",
+    "매출액또는손익구조30%",
+    "잠정실적",
+    "실적공시",
+    "분기실적",
+    "연간실적",
+)
+FINANCIAL_REPORT_NAMES = ("사업보고서", "분기보고서", "반기보고서")
+
+
+def is_earnings_report_name(report_name, has_earnings_data=False):
+    value = re.sub(r"\s+", "", report_name or "")
+    if any(pattern in value for pattern in EARNINGS_REPORT_PATTERNS):
+        return True
+    return bool(has_earnings_data and any(name in value for name in FINANCIAL_REPORT_NAMES))
+
+
+def disclosure_category(report_name, has_earnings_data=False):
     value = report_name or ""
+    if is_earnings_report_name(value, has_earnings_data):
+        return EARNINGS_CATEGORY
     if "시설" in value or "투자" in value:
         return "시설투자"
     if "공급" in value or "계약" in value:
@@ -189,7 +213,7 @@ def build_disclosure(parsed):
         "companyCodeSource": parsed.get("company_code_source"),
         "explicitCodeFound": parsed.get("explicit_code_found"),
         "reportName": report_name,
-        "category": disclosure_category(report_name),
+        "category": disclosure_category(report_name, parsed.get("has_earnings_data", False)),
         "provisionalEarnings": False,
         "summary": f"{report_name} 관련 공시.",
         "dartUrl": parsed.get("dart_url"),
