@@ -101,6 +101,7 @@ const state = {
   watchlistSearch: "",
   watchlistCategoryFilter: "all",
   watchlistTierFilter: "all",
+  watchlistSortMode: "default",
   watchlistVisibleLimit: 50,
   loadedCompanyDetails: new Set()
 };
@@ -113,6 +114,7 @@ const els = {
   watchlistSearch: document.querySelector("#watchlistSearch"),
   watchlistCategoryFilter: document.querySelector("#watchlistCategoryFilter"),
   watchlistTierFilter: document.querySelector("#watchlistTierFilter"),
+  watchlistSortButtons: document.querySelectorAll("[data-sort-mode]"),
   watchlistLoadMore: document.querySelector("#watchlistLoadMore"),
   selectedCompanyName: document.querySelector("#selectedCompanyName"),
   selectedCompanyMeta: document.querySelector("#selectedCompanyMeta"),
@@ -152,6 +154,7 @@ async function init() {
   state.earningsData = normalizeEarningsData(earningsData);
   state.disclosureData = normalizeDisclosureData(disclosureData);
   state.newsData = normalizeNewsData(newsData);
+  state.watchlistSortMode = window.WatchlistSort.restoreSortMode(window.localStorage);
   state.selectedCompanyCode = pickInitialCompany();
 
   bindEvents();
@@ -175,6 +178,12 @@ async function loadJsonCandidates(paths, fallback) {
           monitoringTier: item.monitoringTier,
           earnings: examples.get(item.code)?.earnings || []
         }))
+      };
+    }
+    if (fallback === FALLBACK_DISCLOSURES && Array.isArray(window.DISCLOSURE_COMPANY_INDEX)) {
+      return {
+        ...FALLBACK_DISCLOSURES,
+        companies: window.DISCLOSURE_COMPANY_INDEX
       };
     }
     return fallback;
@@ -229,6 +238,7 @@ function normalizeDisclosureData(data) {
   return {
     generatedAt: data.generatedAt || FALLBACK_DISCLOSURES.generatedAt,
     categories: Array.isArray(data.categories) ? data.categories : FALLBACK_DISCLOSURES.categories,
+    companies: Array.isArray(data.companies) ? data.companies : [],
     disclosures: Array.isArray(data.disclosures) ? data.disclosures : []
   };
 }
@@ -300,6 +310,14 @@ function bindEvents() {
     renderWatchlist();
   });
 
+  els.watchlistSortButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.watchlistSortMode = window.WatchlistSort.saveSortMode(window.localStorage, button.dataset.sortMode);
+      state.watchlistVisibleLimit = 50;
+      renderWatchlist();
+    });
+  });
+
   els.watchlistLoadMore.addEventListener("click", () => {
     state.watchlistVisibleLimit += 50;
     renderWatchlist();
@@ -358,19 +376,34 @@ function renderLastUpdated() {
 }
 
 function renderWatchlist() {
-  const companies = getCompaniesWithWatchlist().filter((company) => {
+  const filteredCompanies = getCompaniesWithWatchlist().filter((company) => {
     const searchMatch = !state.watchlistSearch
       || `${company.name} ${company.code}`.toLocaleLowerCase("ko-KR").includes(state.watchlistSearch);
     const categoryMatch = state.watchlistCategoryFilter === "all" || company.category === state.watchlistCategoryFilter;
     const tierMatch = state.watchlistTierFilter === "all" || company.monitoringTier === state.watchlistTierFilter;
     return searchMatch && categoryMatch && tierMatch;
   });
+  const latestDisclosureByCode = Object.fromEntries(
+    state.disclosureData.companies.map((company) => [company.stockCode, company.latestDisclosureAt])
+  );
+  const companies = window.WatchlistSort.sortCompanies(
+    filteredCompanies,
+    state.watchlistSortMode,
+    latestDisclosureByCode
+  );
+  els.watchlistSortButtons.forEach((button) => {
+    const isSelected = button.dataset.sortMode === state.watchlistSortMode;
+    button.setAttribute("aria-pressed", String(isSelected));
+    button.classList.toggle("active", isSelected);
+  });
   const visibleCompanies = companies.slice(0, state.watchlistVisibleLimit);
   els.watchlistSummary.innerHTML = visibleCompanies.map((company) => {
     const latest = getLatestQuarter(company);
     const isActive = company.code === state.selectedCompanyCode;
     const quarters = getEightQuarters(company);
-    const disclosureCount = getDisclosuresForCompany(company.code).length;
+    const disclosureSummary = getDisclosureSummary(company.code);
+    const disclosureCount = disclosureSummary?.disclosureCount ?? getDisclosuresForCompany(company.code).length;
+    const latestDisclosureDate = window.WatchlistSort.formatDisclosureDate(disclosureSummary?.latestDisclosureAt);
     const status = getWatchlistStatus(company, disclosureCount);
     const revenueQoq = getQoQText(quarters, "revenue").replace("QoQ ", "");
     const operatingQoq = getQoQText(quarters, "operatingIncome").replace("QoQ ", "");
@@ -381,6 +414,7 @@ function renderWatchlist() {
           <span class="chip ${status.tone}">${status.label}</span>
           <strong>${escapeHtml(company.name)}</strong>
           <span>${escapeHtml(company.code)} · ${escapeHtml(company.category || "N/A")} · ${escapeHtml(tierLabel(company.monitoringTier))}</span>
+          <span class="watchlist-disclosure-date">최근 공시 ${latestDisclosureDate || "없음"}</span>
         </span>
         <span class="watchlist-metrics">
           <span class="watchlist-metric">
@@ -723,6 +757,10 @@ function getDisclosuresForCompany(code) {
   return state.disclosureData.disclosures
     .filter((item) => item.code === code)
     .sort((a, b) => new Date(b.disclosedAt) - new Date(a.disclosedAt));
+}
+
+function getDisclosureSummary(code) {
+  return state.disclosureData.companies.find((company) => company.stockCode === code);
 }
 
 function getCompanyStatus(company, disclosures) {

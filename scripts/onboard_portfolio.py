@@ -318,10 +318,14 @@ def build_public_indexes(companies, generated_at, data_root=None):
         disclosure_payload = read_json(data_root / "disclosures" / "by-company" / f"{code}.json", {}) or {}
         company_disclosures = disclosure_payload.get("disclosures", [])
         disclosures.extend(company_disclosures)
+        latest_disclosure_at = max(
+            (item.get("disclosedAt") for item in company_disclosures if item.get("disclosedAt")),
+            default=None,
+        )
         disclosure_companies.append({
             "companyName": company["company_name"], "stockCode": code,
             "disclosureCount": len(company_disclosures),
-            "latestDisclosureAt": company_disclosures[0].get("disclosedAt") if company_disclosures else None,
+            "latestDisclosureAt": latest_disclosure_at,
             "category": company["category"], "monitoringTier": company["monitoring_tier"],
         })
         news_payload = read_json(data_root / "news" / "by-company" / f"{code}.json", {}) or {}
@@ -358,7 +362,10 @@ def build_public_indexes(companies, generated_at, data_root=None):
     ]
     write_text_atomic(
         data_root / "portfolio.js",
-        "window.PORTFOLIO_INDEX = " + json.dumps(compact_roster, ensure_ascii=False, separators=(",", ":")) + ";\n",
+        "window.PORTFOLIO_INDEX = " + json.dumps(compact_roster, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        + "window.DISCLOSURE_COMPANY_INDEX = "
+        + json.dumps(disclosure_companies, ensure_ascii=False, separators=(",", ":"))
+        + ";\n",
     )
 
 
