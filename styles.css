@@ -136,6 +136,7 @@ a:hover {
 
 .tab-button:focus-visible,
 .watchlist-item:focus-visible,
+.segmented-control button:focus-visible,
 select:focus-visible {
   outline: 3px solid rgba(18, 116, 102, 0.24);
   outline-offset: 2px;
@@ -242,6 +243,13 @@ select:focus-visible {
 .watchlist-company > span:not(.chip) {
   color: var(--muted);
   font-size: 13px;
+}
+
+.watchlist-company .watchlist-disclosure-date {
+  margin-top: 7px;
+  color: #6f766f;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .watchlist-metrics {
@@ -886,7 +894,7 @@ select {
 
 .watchlist-tools {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) repeat(2, minmax(150px, 210px));
+  grid-template-columns: minmax(220px, 1fr) repeat(2, minmax(140px, 190px)) minmax(210px, auto);
   justify-content: end;
   gap: 10px;
   margin-bottom: 14px;
@@ -899,6 +907,47 @@ select {
   color: var(--muted);
   font-size: 12px;
   font-weight: 700;
+}
+
+.watchlist-sort {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-height: 42px;
+  padding: 3px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  background: var(--panel-soft);
+}
+
+.segmented-control button {
+  min-width: 0;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 3px;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.segmented-control button:hover {
+  color: var(--ink);
+}
+
+.segmented-control button.active {
+  color: #fff;
+  background: var(--ink);
 }
 
 .watchlist-tools input,
@@ -920,6 +969,10 @@ select {
 }
 
 @media (max-width: 1120px) {
+  .watchlist-tools {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .watchlist-item {
     grid-template-columns: minmax(180px, 0.75fr) minmax(260px, 1fr);
   }
@@ -1009,6 +1062,11 @@ select {
 
   .watchlist-tools {
     grid-template-columns: 1fr;
+  }
+
+  .watchlist-sort,
+  .segmented-control {
+    width: 100%;
   }
 
   .watchlist-metrics {
