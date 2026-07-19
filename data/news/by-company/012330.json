@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-07-18T23:03:17.465259Z",
+  "generated_at": "2026-07-19T03:27:55.573048Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-07-18T23:03:17.465259Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-07-19T03:27:55.573048Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "131cb97c57cf49ad",
@@ -172,6 +177,49 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-07-17T07:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5b06730748a27e89",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "이규석의 현대모비스 , 사업 전환 속에서 지켜낸 지속가능경영 지표",
+      "representative_url": "https://ftoday.co.kr/news/articleView.html?idxno=362229",
+      "representative_source": "ftoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-19T00:10:00Z",
+      "last_published_at": "2026-07-19T00:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ftoday.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "이규석의 현대모비스 , 사업 전환 속에서 지켜낸 지속가능경영 지표",
+          "url": "https://ftoday.co.kr/news/articleView.html?idxno=362229",
+          "source": "ftoday.co.kr",
+          "source_domain": "ftoday.co.kr",
+          "published_at": "2026-07-19T09:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -569,53 +617,6 @@
           "source": "m.sports.naver.com",
           "source_domain": "m.sports.naver.com",
           "published_at": "2026-07-17T21:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "de69890e6eb71b70",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "마이크론, 현대모비스 ·하만 등 ‘부품 동맹’…차량용 메모리 공급 계...",
-      "representative_url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1307452",
-      "representative_source": "newstomato.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-17T03:24:00Z",
-      "last_published_at": "2026-07-17T03:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newstomato.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "마이크론, 현대모비스 ·하만 등 ‘부품 동맹’…차량용 메모리 공급 계...",
-          "url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1307452",
-          "source": "newstomato.com",
-          "source_domain": "newstomato.com",
-          "published_at": "2026-07-17T12:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
