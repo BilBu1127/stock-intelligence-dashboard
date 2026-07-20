@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-20T10:26:36.348833Z",
+  "generated_at": "2026-07-20T16:45:28.317373Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-07-20T10:26:36.348833Z",
+  "last_successful_update": "2026-07-20T16:45:28.317373Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -131,6 +131,68 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-07-13T14:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d2dd9100799a08f9",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "[특징주] 테크윙 , 마이크론에 106억 반도체 장비 공급",
+      "representative_url": "https://newstnt.com/news/articleView.html?idxno=710898",
+      "representative_source": "newstnt.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-20T11:00:00Z",
+      "last_published_at": "2026-07-20T11:26:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newstnt.com",
+        "tokenpost.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 106억",
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 테크윙 , 마이크론 말레이시아와 106억 공급계약…수주 확대에...",
+          "url": "https://tokenpost.kr/news/economy/379513",
+          "source": "tokenpost.kr",
+          "source_domain": "tokenpost.kr",
+          "published_at": "2026-07-20T20:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[특징주] 테크윙 , 마이크론에 106억 반도체 장비 공급",
+          "url": "https://newstnt.com/news/articleView.html?idxno=710898",
+          "source": "newstnt.com",
+          "source_domain": "newstnt.com",
+          "published_at": "2026-07-20T20:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

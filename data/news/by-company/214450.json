@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-20T10:26:36.348833Z",
+  "generated_at": "2026-07-20T16:45:28.317373Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-07-20T10:26:36.348833Z",
+  "last_successful_update": "2026-07-20T16:45:28.317373Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-16T09:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "39814e5d355ae18a",
+      "company_name": "파마리서치",
+      "stock_code": "214450",
+      "representative_title": "태국서 현대미술로 만난 '강릉과 방콕', 파마리서치 의 '경계에서 함께 ...",
+      "representative_url": "https://newspim.com/news/view/20260713001177",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-20T13:03:00Z",
+      "last_published_at": "2026-07-20T13:03:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "태국서 현대미술로 만난 '강릉과 방콕', 파마리서치 의 '경계에서 함께 ...",
+          "url": "https://newspim.com/news/view/20260713001177",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-07-20T22:03:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -467,53 +510,6 @@
           "source": "joseilbo.com",
           "source_domain": "joseilbo.com",
           "published_at": "2026-07-16T10:35:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a02399728342b64e",
-      "company_name": "파마리서치",
-      "stock_code": "214450",
-      "representative_title": "파마리서치 , 2분기 '깜짝 실적' 전망…화장품이 새 성장축-교보증권",
-      "representative_url": "https://press9.kr/news/articleView.html?idxno=79553",
-      "representative_source": "press9.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-16T00:44:00Z",
-      "last_published_at": "2026-07-16T00:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "press9.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "파마리서치 , 2분기 '깜짝 실적' 전망…화장품이 새 성장축-교보증권",
-          "url": "https://press9.kr/news/articleView.html?idxno=79553",
-          "source": "press9.kr",
-          "source_domain": "press9.kr",
-          "published_at": "2026-07-16T09:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
