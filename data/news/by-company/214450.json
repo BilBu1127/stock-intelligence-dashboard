@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-21T07:58:05.123661Z",
+  "generated_at": "2026-07-21T16:08:24.060465Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-07-21T07:58:05.123661Z",
+  "last_successful_update": "2026-07-21T16:08:24.060465Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,63 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-16T09:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce9a6944e09dd4e4",
+      "company_name": "파마리서치",
+      "stock_code": "214450",
+      "representative_title": "파마리서치 , 부산서 ‘2026 아트 심포지엄’ 성료",
+      "representative_url": "https://busan.com/view/busan/view.php?code=2026072116260244590",
+      "representative_source": "busan.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-21T07:27:00Z",
+      "last_published_at": "2026-07-21T07:48:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "asiatime.co.kr",
+        "busan.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "기타"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "파마리서치 , 부산서 세번째 '2026 아트 심포지엄' 개최",
+          "url": "https://asiatime.co.kr/article/20260721500332",
+          "source": "asiatime.co.kr",
+          "source_domain": "asiatime.co.kr",
+          "published_at": "2026-07-21T16:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "파마리서치 , 부산서 ‘2026 아트 심포지엄’ 성료",
+          "url": "https://busan.com/view/busan/view.php?code=2026072116260244590",
+          "source": "busan.com",
+          "source_domain": "busan.com",
+          "published_at": "2026-07-21T16:27:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -480,53 +537,6 @@
           "source": "newspim.com",
           "source_domain": "newspim.com",
           "published_at": "2026-07-20T22:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "fa6f07214e0f18cc",
-      "company_name": "파마리서치",
-      "stock_code": "214450",
-      "representative_title": "[진단_피부미용업계 ⑧ 파마리서치 ] 손지훈 대표의 파마리서치 , 영업이익...",
-      "representative_url": "https://newsworker.co.kr/news/articleView.html?idxno=437138",
-      "representative_source": "newsworker.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-20T04:36:00Z",
-      "last_published_at": "2026-07-20T04:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsworker.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[진단_피부미용업계 ⑧ 파마리서치 ] 손지훈 대표의 파마리서치 , 영업이익...",
-          "url": "https://newsworker.co.kr/news/articleView.html?idxno=437138",
-          "source": "newsworker.co.kr",
-          "source_domain": "newsworker.co.kr",
-          "published_at": "2026-07-20T13:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
