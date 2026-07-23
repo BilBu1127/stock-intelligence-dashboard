@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-22T16:09:28.285597Z",
+  "generated_at": "2026-07-23T08:01:55.750946Z",
   "company_name": "하나머티리얼즈",
   "stock_code": "166090",
   "status": "partial",
-  "last_successful_update": "2026-07-22T16:09:28.285597Z",
+  "last_successful_update": "2026-07-23T08:01:55.750946Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -54,6 +54,53 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-07-22T07:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6e6c3d772209e464",
+      "company_name": "하나머티리얼즈",
+      "stock_code": "166090",
+      "representative_title": "하나머티리얼즈 , 하반기 가동률 85~90%...연간 영업이익률 25%",
+      "representative_url": "https://newsfc.co.kr/news/articleView.html?idxno=80054",
+      "representative_source": "newsfc.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-23T00:42:00Z",
+      "last_published_at": "2026-07-23T00:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsfc.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "하나머티리얼즈 , 하반기 가동률 85~90%...연간 영업이익률 25%",
+          "url": "https://newsfc.co.kr/news/articleView.html?idxno=80054",
+          "source": "newsfc.co.kr",
+          "source_domain": "newsfc.co.kr",
+          "published_at": "2026-07-23T09:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
