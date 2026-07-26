@@ -55,11 +55,46 @@
     };
   }
 
+  function buildChartSeries(quarters) {
+    const actualBars = METRICS.map((metric) => ({
+      ...metric,
+      type: "bar",
+      data: quarters.map((quarter) => isNumber(quarter[metric.key]) ? quarter[metric.key] : null)
+    }));
+    const forecastLines = METRICS.map((metric) => {
+      const points = forecastPoints(quarters, metric);
+      if (!points.some(Boolean)) return null;
+      return {
+        ...metric,
+        type: "line",
+        data: points.map((point) => point ? point.estimate : null),
+        points,
+        segments: contiguousSegments(points)
+      };
+    }).filter(Boolean);
+
+    return { actualBars, forecastLines };
+  }
+
+  function tooltipData(period, metric, actual, estimate) {
+    const comparison = forecastComparison(actual, estimate);
+    return {
+      period: period || "N/A",
+      label: metric.label,
+      actual: isNumber(actual) ? actual : null,
+      estimate: isNumber(estimate) ? estimate : null,
+      difference: comparison ? comparison.difference : null,
+      percentage: comparison ? comparison.percentage : null
+    };
+  }
+
   return {
     METRICS,
     isNumber,
     forecastPoints,
     contiguousSegments,
-    forecastComparison
+    forecastComparison,
+    buildChartSeries,
+    tooltipData
   };
 });

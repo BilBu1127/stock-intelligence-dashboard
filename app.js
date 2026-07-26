@@ -126,6 +126,7 @@ const els = {
   recentNews: document.querySelector("#recentNews"),
   disclosureCount: document.querySelector("#disclosureCount"),
   estimateNotice: document.querySelector("#estimateNotice"),
+  estimateLegend: document.querySelector("#estimateLegend"),
   companyFilter: document.querySelector("#companyFilter"),
   typeFilter: document.querySelector("#typeFilter"),
   disclosureList: document.querySelector("#disclosureList"),
@@ -520,6 +521,7 @@ function renderSelectedCompany() {
     return isNumber(quarter.estimateRevenue) || isNumber(quarter.estimateOperatingIncome) || isNumber(quarter.estimateNetIncome);
   });
   els.estimateNotice.textContent = hasEstimate ? "예상치 점선 표시" : "예상치 N/A";
+  els.estimateLegend.hidden = !hasEstimate;
 
   els.mainChart.innerHTML = createMainChart(quarters);
   bindChartTooltips();
@@ -951,8 +953,12 @@ function createMainChart(quarters) {
     return `<div class="empty-state">최근 8개 분기 실적 N/A</div>`;
   }
 
-  const metrics = window.EarningsChart.METRICS;
-  const allValues = quarters.flatMap((quarter) => metrics.flatMap((metric) => [quarter[metric.key], quarter[metric.estimateKey]])).filter(isNumber);
+  const chartSeries = window.EarningsChart.buildChartSeries(quarters);
+  const metrics = chartSeries.actualBars;
+  const allValues = [
+    ...chartSeries.actualBars.flatMap((metric) => metric.data),
+    ...chartSeries.forecastLines.flatMap((metric) => metric.data)
+  ].filter(isNumber);
   const min = allValues.length ? Math.min(0, ...allValues) : 0;
   const max = allValues.length ? Math.max(0, ...allValues) : 1;
   const range = max - min || 1;
@@ -984,7 +990,7 @@ function createMainChart(quarters) {
 
     const metricBars = metrics.map((metric, metricIndex) => {
       const x = barStart + metricIndex * (barWidth + 5);
-      const value = quarter[metric.key];
+      const value = metric.data[quarterIndex];
       if (!isNumber(value)) {
         return `<path class="na-slot" d="M${x},${baseline} L${x + barWidth},${baseline} L${x + barWidth},${slotTop} L${x},${slotTop} Z"></path>`;
       }
@@ -1003,9 +1009,9 @@ function createMainChart(quarters) {
     `;
   }).join("");
 
-  const estimates = metrics.map((metric) => {
-    const points = window.EarningsChart.forecastPoints(quarters, metric);
-    const segments = window.EarningsChart.contiguousSegments(points);
+  const estimates = chartSeries.forecastLines.map((metric) => {
+    const points = metric.points;
+    const segments = metric.segments;
     const lines = segments.filter((segment) => segment.length > 1).map((segment) => {
       const linePoints = segment.map((point) => {
         const center = padding.left + point.index * groupWidth + groupWidth / 2;
@@ -1034,18 +1040,21 @@ function createMainChart(quarters) {
 }
 
 function chartTooltip(period, metric, actual, estimate) {
-  const lines = [`${period || "N/A"} ${metric.label}`, `실제: ${formatMoney(actual)}`];
-  if (!isNumber(estimate)) return lines.join("\n");
+  const data = window.EarningsChart.tooltipData(period, metric, actual, estimate);
+  const lines = [`${data.period} ${data.label}`, `실제: ${formatMoney(data.actual)}`];
+  if (!isNumber(data.estimate)) {
+    lines.push("예상치: N/A");
+    return lines.join("\n");
+  }
 
-  lines.push(`예상치: ${formatMoney(estimate)}`);
-  const comparison = window.EarningsChart.forecastComparison(actual, estimate);
-  if (!comparison) return lines.join("\n");
+  lines.push(`예상치: ${formatMoney(data.estimate)}`);
+  if (!isNumber(data.difference)) return lines.join("\n");
 
-  const sign = comparison.difference > 0 ? "+" : "";
-  let comparisonText = `예상치 대비: ${sign}${formatMoney(comparison.difference)}`;
-  if (isNumber(comparison.percentage)) {
-    const percentageSign = comparison.percentage > 0 ? "+" : "";
-    comparisonText += ` (${percentageSign}${comparison.percentage.toFixed(1)}%)`;
+  const sign = data.difference > 0 ? "+" : "";
+  let comparisonText = `예상치 대비: ${sign}${formatMoney(data.difference)}`;
+  if (isNumber(data.percentage)) {
+    const percentageSign = data.percentage > 0 ? "+" : "";
+    comparisonText += ` (${percentageSign}${data.percentage.toFixed(1)}%)`;
   }
   lines.push(comparisonText);
   return lines.join("\n");
