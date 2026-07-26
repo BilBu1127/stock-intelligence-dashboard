@@ -2,8 +2,7 @@ name: Scheduled Portfolio Update
 
 on:
   schedule:
-    - cron: "15 8,20 * * *"
-      timezone: "Asia/Seoul"
+    - cron: "15 23,11 * * *"
   workflow_dispatch:
 
 permissions:

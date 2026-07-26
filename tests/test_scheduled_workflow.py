@@ -16,10 +16,12 @@ class ScheduledWorkflowPolicyTests(unittest.TestCase):
         cls.manual_text = MANUAL_PATH.read_text(encoding="utf-8")
         cls.workflow = yaml.load(cls.scheduled_text, Loader=yaml.BaseLoader)
 
-    def test_schedule_uses_seoul_0815_and_2015(self):
+    def test_schedule_uses_utc_for_kst_0815_and_2015(self):
         triggers = self.workflow["on"]
         self.assertIn("workflow_dispatch", triggers)
-        self.assertEqual(triggers["schedule"], [{"cron": "15 8,20 * * *", "timezone": "Asia/Seoul"}])
+        self.assertEqual(triggers["schedule"], [{"cron": "15 23,11 * * *"}])
+        self.assertNotIn("timezone", triggers["schedule"][0])
+        self.assertEqual(self.scheduled_text.count("cron:"), 1)
         self.assertNotIn("push", triggers)
         self.assertNotIn("pull_request", triggers)
 

@@ -126,6 +126,7 @@ const els = {
   recentNews: document.querySelector("#recentNews"),
   disclosureCount: document.querySelector("#disclosureCount"),
   estimateNotice: document.querySelector("#estimateNotice"),
+  estimateLegend: document.querySelector("#estimateLegend"),
   companyFilter: document.querySelector("#companyFilter"),
   typeFilter: document.querySelector("#typeFilter"),
   disclosureList: document.querySelector("#disclosureList"),
@@ -519,9 +520,11 @@ function renderSelectedCompany() {
   const hasEstimate = quarters.some((quarter) => {
     return isNumber(quarter.estimateRevenue) || isNumber(quarter.estimateOperatingIncome) || isNumber(quarter.estimateNetIncome);
   });
-  els.estimateNotice.textContent = hasEstimate ? "예상치 선 표시" : "예상치 N/A";
+  els.estimateNotice.textContent = hasEstimate ? "예상치 점선 표시" : "예상치 N/A";
+  els.estimateLegend.hidden = !hasEstimate;
 
   els.mainChart.innerHTML = createMainChart(quarters);
+  bindChartTooltips();
   els.quarterTable.innerHTML = quarters.map((quarter) => quarterRow(quarter, quarters)).join("");
   renderRecentDisclosures(recentDisclosures);
   renderRecentNews(company);
@@ -844,7 +847,6 @@ function quarterRow(quarter, quarters) {
       <td>${formatMoney(quarter.netIncome)}</td>
       <td class="${getTextTone(getYoY(quarter, quarters, "netIncome"))}">${getYoY(quarter, quarters, "netIncome")}</td>
       <td class="${getTextTone(getQoQ(quarter, quarters, "netIncome"))}">${getQoQ(quarter, quarters, "netIncome")}</td>
-      <td>${formatEstimateGap(quarter)}</td>
     </tr>
   `;
 }
@@ -891,23 +893,6 @@ function formatChange(current, previous) {
   const percentage = ((current - previous) / Math.abs(previous)) * 100;
   const sign = percentage > 0 ? "+" : "";
   return `${sign}${percentage.toFixed(1)}%`;
-}
-
-function formatEstimateGap(quarter) {
-  const pairs = [
-    ["revenue", "estimateRevenue"],
-    ["operatingIncome", "estimateOperatingIncome"],
-    ["netIncome", "estimateNetIncome"]
-  ];
-
-  const available = pairs
-    .map(([actualKey, estimateKey]) => {
-      if (!isNumber(quarter[actualKey]) || !isNumber(quarter[estimateKey])) return null;
-      return formatChange(quarter[actualKey], quarter[estimateKey]);
-    })
-    .filter(Boolean);
-
-  return available.length ? available.join(" / ") : "N/A";
 }
 
 function createWatchlistChart(company) {
@@ -968,14 +953,15 @@ function createMainChart(quarters) {
     return `<div class="empty-state">최근 8개 분기 실적 N/A</div>`;
   }
 
-  const metrics = [
-    { key: "revenue", estimateKey: "estimateRevenue", className: "bar-revenue" },
-    { key: "operatingIncome", estimateKey: "estimateOperatingIncome", className: "bar-operating" },
-    { key: "netIncome", estimateKey: "estimateNetIncome", className: "bar-net" }
-  ];
-
-  const allValues = quarters.flatMap((quarter) => metrics.flatMap((metric) => [quarter[metric.key], quarter[metric.estimateKey]])).filter(isNumber);
-  const max = allValues.length ? Math.max(...allValues, 1) : 1;
+  const chartSeries = window.EarningsChart.buildChartSeries(quarters);
+  const metrics = chartSeries.actualBars;
+  const allValues = [
+    ...chartSeries.actualBars.flatMap((metric) => metric.data),
+    ...chartSeries.forecastLines.flatMap((metric) => metric.data)
+  ].filter(isNumber);
+  const min = allValues.length ? Math.min(0, ...allValues) : 0;
+  const max = allValues.length ? Math.max(0, ...allValues) : 1;
+  const range = max - min || 1;
   const width = 980;
   const height = 340;
   const padding = { top: 30, right: 26, bottom: 58, left: 58 };
@@ -983,12 +969,13 @@ function createMainChart(quarters) {
   const chartHeight = height - padding.top - padding.bottom;
   const groupWidth = chartWidth / quarters.length;
   const barWidth = Math.min(22, groupWidth / 5);
-  const baseline = padding.top + chartHeight;
+  const y = (value) => padding.top + ((max - value) / range) * chartHeight;
+  const baseline = y(0);
 
-  const y = (value) => baseline - (value / max) * chartHeight;
   const gridLines = [0, 0.25, 0.5, 0.75, 1].map((ratio) => {
-    const lineY = baseline - ratio * chartHeight;
-    const label = Math.round(max * ratio).toLocaleString("ko-KR");
+    const value = min + range * ratio;
+    const lineY = y(value);
+    const label = Math.round(value).toLocaleString("ko-KR");
     return `
       <line x1="${padding.left}" y1="${lineY}" x2="${width - padding.right}" y2="${lineY}" class="axis-line"></line>
       <text x="${padding.left - 10}" y="${lineY + 4}" text-anchor="end" class="axis-label">${label}</text>
@@ -1003,13 +990,15 @@ function createMainChart(quarters) {
 
     const metricBars = metrics.map((metric, metricIndex) => {
       const x = barStart + metricIndex * (barWidth + 5);
-      const value = quarter[metric.key];
+      const value = metric.data[quarterIndex];
       if (!isNumber(value)) {
         return `<path class="na-slot" d="M${x},${baseline} L${x + barWidth},${baseline} L${x + barWidth},${slotTop} L${x},${slotTop} Z"></path>`;
       }
       const barY = y(value);
-      const barHeight = Math.max(baseline - barY, 3);
-      return `<rect x="${x}" y="${barY}" width="${barWidth}" height="${barHeight}" rx="3" class="${metric.className}"></rect>`;
+      const barHeight = Math.max(Math.abs(baseline - barY), 3);
+      const rectY = value >= 0 ? baseline - barHeight : baseline;
+      const tooltip = chartTooltip(quarter.period, metric, value, null);
+      return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><rect x="${x}" y="${rectY}" width="${barWidth}" height="${barHeight}" rx="3" class="${metric.className}"></rect></g>`;
     }).join("");
 
     return `
@@ -1020,15 +1009,22 @@ function createMainChart(quarters) {
     `;
   }).join("");
 
-  const estimateLines = metrics.map((metric) => {
-    const points = quarters.map((quarter, index) => {
-      if (!isNumber(quarter[metric.estimateKey])) return null;
-      const center = padding.left + index * groupWidth + groupWidth / 2;
-      return `${center},${y(quarter[metric.estimateKey])}`;
-    }).filter(Boolean);
-
-    if (points.length < 2) return "";
-    return `<polyline points="${points.join(" ")}" class="estimate-line"></polyline>`;
+  const estimates = chartSeries.forecastLines.map((metric) => {
+    const points = metric.points;
+    const segments = metric.segments;
+    const lines = segments.filter((segment) => segment.length > 1).map((segment) => {
+      const linePoints = segment.map((point) => {
+        const center = padding.left + point.index * groupWidth + groupWidth / 2;
+        return `${center},${y(point.estimate)}`;
+      });
+      return `<polyline points="${linePoints.join(" ")}" class="estimate-line ${metric.className}"></polyline>`;
+    }).join("");
+    const markers = points.filter(Boolean).map((point) => {
+      const center = padding.left + point.index * groupWidth + groupWidth / 2;
+      const tooltip = chartTooltip(point.period, metric, point.actual, point.estimate);
+      return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><circle cx="${center}" cy="${y(point.estimate)}" r="4" class="estimate-marker ${metric.className}"></circle></g>`;
+    }).join("");
+    return `${lines}${markers}`;
   }).join("");
 
   return `
@@ -1037,9 +1033,59 @@ function createMainChart(quarters) {
       ${gridLines}
       <line x1="${padding.left}" y1="${baseline}" x2="${width - padding.right}" y2="${baseline}" class="axis-line"></line>
       ${bars}
-      ${estimateLines}
+      ${estimates}
     </svg>
+    <div class="chart-tooltip" hidden></div>
   `;
+}
+
+function chartTooltip(period, metric, actual, estimate) {
+  const data = window.EarningsChart.tooltipData(period, metric, actual, estimate);
+  const lines = [`${data.period} ${data.label}`, `실제: ${formatMoney(data.actual)}`];
+  if (!isNumber(data.estimate)) {
+    lines.push("예상치: N/A");
+    return lines.join("\n");
+  }
+
+  lines.push(`예상치: ${formatMoney(data.estimate)}`);
+  if (!isNumber(data.difference)) return lines.join("\n");
+
+  const sign = data.difference > 0 ? "+" : "";
+  let comparisonText = `예상치 대비: ${sign}${formatMoney(data.difference)}`;
+  if (isNumber(data.percentage)) {
+    const percentageSign = data.percentage > 0 ? "+" : "";
+    comparisonText += ` (${percentageSign}${data.percentage.toFixed(1)}%)`;
+  }
+  lines.push(comparisonText);
+  return lines.join("\n");
+}
+
+function bindChartTooltips() {
+  const tooltip = els.mainChart.querySelector(".chart-tooltip");
+  if (!tooltip) return;
+
+  const hideTooltip = () => {
+    tooltip.hidden = true;
+  };
+  const showTooltip = (point) => {
+    tooltip.textContent = point.dataset.chartTooltip || "";
+    tooltip.hidden = false;
+    const container = els.mainChart.getBoundingClientRect();
+    const target = point.getBoundingClientRect();
+    const left = Math.max(10, Math.min(target.left - container.left, container.width - 260));
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${Math.max(10, target.top - container.top + 14)}px`;
+  };
+
+  els.mainChart.querySelectorAll("[data-chart-tooltip]").forEach((point) => {
+    point.addEventListener("pointerenter", () => showTooltip(point));
+    point.addEventListener("pointerleave", (event) => {
+      if (event.pointerType === "mouse") hideTooltip();
+    });
+    point.addEventListener("focus", () => showTooltip(point));
+    point.addEventListener("blur", hideTooltip);
+    point.addEventListener("click", () => showTooltip(point));
+  });
 }
 
 function formatMoney(value) {
