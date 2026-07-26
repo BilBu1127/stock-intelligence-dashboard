@@ -73,10 +73,24 @@ class EarningsDisclosureReclassificationTests(unittest.TestCase):
     def test_public_index_uses_canonical_earnings_and_ui_filter_value(self):
         index = json.loads((ROOT / "data" / "disclosures" / "index.json").read_text(encoding="utf-8"))
         earnings = [item for item in index["disclosures"] if item["category"] == "earnings"]
+        required_regressions = {
+            ("089030", 146750): "연결재무제표기준영업(잠정)실적(공정공시)",
+            ("042700", 146821): "연결재무제표기준영업(잠정)실적(공정공시)",
+        }
+        earnings_by_identity = {
+            (item.get("code"), item.get("telegramMessageId")): item
+            for item in earnings
+        }
+
         self.assertIn("earnings", index["categories"])
         self.assertNotIn("실적", index["categories"])
-        self.assertEqual(len(earnings), 2)
-        self.assertTrue(all(item["category"] == "earnings" for item in earnings))
+        self.assertGreaterEqual(len(earnings), len(required_regressions))
+        for identity, report_name in required_regressions.items():
+            record = earnings_by_identity.get(identity)
+            self.assertIsNotNone(record, identity)
+            self.assertEqual(record["reportName"], report_name)
+            self.assertEqual(record["category"], "earnings")
+            self.assertNotIn(record["category"], {"실적", "기타"})
         legacy = json.loads((ROOT / "data" / "disclosures" / "by-company" / "018500.json").read_text(encoding="utf-8"))
         self.assertEqual(
             next(item for item in legacy["disclosures"] if item["reportName"].startswith("사업보고서"))["category"],
