@@ -16,10 +16,12 @@ try:
     from .backfill_portfolio_telegram import run as run_telegram
     from .incremental_provider_adapters import GdeltIncrementalProvider, NaverIncrementalProvider
     from .news_batch_pipeline import BatchNewsPipeline, load_pipeline_config, read_json
+    from .refresh_status import update_refresh_status
 except ImportError:
     from backfill_portfolio_telegram import run as run_telegram
     from incremental_provider_adapters import GdeltIncrementalProvider, NaverIncrementalProvider
     from news_batch_pipeline import BatchNewsPipeline, load_pipeline_config, read_json
+    from refresh_status import update_refresh_status
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -265,6 +267,7 @@ def sanitized_news_report(report):
         "successful_company_codes": report.get("successful_companies", []),
         "failed_company_codes": report.get("failed_companies", []),
         "provider_error_counts": report.get("provider_error_counts", {}),
+        "provider_collection": report.get("provider_collection", {}),
         "raw_article_count": report.get("raw_article_count", 0),
         "new_article_count": report.get("new_article_count", 0),
         "duplicate_article_count": report.get("duplicate_article_count", 0),
@@ -286,6 +289,7 @@ def sanitized_telegram_report(report):
         "new_disclosures": report.get("new_disclosures", 0),
         "parse_failure_count": report.get("parse_failure_count", 0),
         "quarantine_count": report.get("quarantine_count", 0),
+        "unmatched_messages": max(0, report.get("messages_fetched", 0) - report.get("unique_matched_messages", 0)),
         "company_results": report.get("company_results", {}),
         "error_types": [item.get("type", "UnknownError") for item in report.get("errors", [])],
         "cursor_updated": report.get("cursor_updated", False),
@@ -381,15 +385,30 @@ def main():
             )
             print("NAVER and GDELT incremental collection complete", flush=True)
             checks = public_json_checks(temp_data)
+            external_ok = not news.get("severe_failure") and not telegram.get("errors")
+            content_changed = bool(
+                news.get("new_article_count", 0)
+                or news.get("new_event_cluster_count", 0)
+                or telegram.get("new_quarters", 0)
+                or telegram.get("new_disclosures", 0)
+            )
+            refresh_status = None
+            if external_ok and not checks["findings"]:
+                refresh_status = update_refresh_status(
+                    temp_data,
+                    completed_at=datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                    content_changed=content_changed,
+                )
             changed = changed_allowed_files(temp_data, ROOT / "data")
             disallowed = [path for path in changed if not is_allowed_repository_path(path)]
-            external_ok = not news.get("severe_failure") and not telegram.get("errors")
             report.update({
                 "news": sanitized_news_report(news),
                 "telegram": sanitized_telegram_report(telegram),
                 "generated_public_json": checks,
                 "changed_files": changed,
                 "data_changed": bool(changed),
+                "content_changed": content_changed,
+                "refresh_status": refresh_status,
                 "disallowed_changes": disallowed,
                 "commit_eligible": external_ok and not checks["findings"] and not disallowed,
             })

@@ -30,22 +30,6 @@
     });
   }
 
-  function contiguousSegments(points) {
-    const segments = [];
-    let current = [];
-
-    points.forEach((point) => {
-      if (point) {
-        current.push(point);
-        return;
-      }
-      if (current.length) segments.push(current);
-      current = [];
-    });
-    if (current.length) segments.push(current);
-    return segments;
-  }
-
   function forecastComparison(actual, estimate) {
     if (!isNumber(actual) || !isNumber(estimate)) return null;
     const difference = actual - estimate;
@@ -61,19 +45,18 @@
       type: "bar",
       data: quarters.map((quarter) => isNumber(quarter[metric.key]) ? quarter[metric.key] : null)
     }));
-    const forecastLines = METRICS.map((metric) => {
+    const forecastMarkers = METRICS.map((metric) => {
       const points = forecastPoints(quarters, metric);
       if (!points.some(Boolean)) return null;
       return {
         ...metric,
-        type: "line",
+        type: "marker",
         data: points.map((point) => point ? point.estimate : null),
-        points,
-        segments: contiguousSegments(points)
+        points
       };
     }).filter(Boolean);
 
-    return { actualBars, forecastLines };
+    return { actualBars, forecastMarkers };
   }
 
   function tooltipData(period, metric, actual, estimate) {
@@ -92,7 +75,6 @@
     METRICS,
     isNumber,
     forecastPoints,
-    contiguousSegments,
     forecastComparison,
     buildChartSeries,
     tooltipData

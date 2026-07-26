@@ -81,6 +81,13 @@ class ScheduledWorkflowPolicyTests(unittest.TestCase):
         self.assertIn('TEMP_RESULT_DIR="${RUNNER_TEMP}/scheduled-portfolio-update"', self.scheduled_text)
         self.assertIn('echo "ARTIFACT_DIR=$TEMP_RESULT_DIR" >> "$GITHUB_ENV"', self.scheduled_text)
 
+    def test_sanitized_summary_reports_collection_and_refresh_status(self):
+        self.assertIn("NAVER/GDELT calls", self.scheduled_text)
+        self.assertIn("Telegram fetched/matched/unmatched", self.scheduled_text)
+        self.assertIn("New news/disclosures/earnings", self.scheduled_text)
+        self.assertIn("Last successful refresh", self.scheduled_text)
+        self.assertIn("GITHUB_STEP_SUMMARY", self.scheduled_text)
+
 
 if __name__ == "__main__":
     unittest.main()

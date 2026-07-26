@@ -1,4 +1,5 @@
 import hashlib
+from collections import Counter
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
@@ -32,6 +33,7 @@ def deduplicate_standard_articles(articles):
     by_url = {}
     by_title = {}
     cross_provider_url_duplicates = 0
+    removed_by_provider = Counter()
     for incoming in sorted(articles, key=lambda item: item.get("published_at") or ""):
         url_key = normalize_url(incoming.get("canonical_url") or incoming.get("url"))
         title_key = incoming.get("normalized_title") or normalize_title(incoming.get("title"))
@@ -39,6 +41,7 @@ def deduplicate_standard_articles(articles):
         if index is None and title_key:
             index = by_title.get(title_key)
         if index is not None:
+            removed_by_provider[incoming.get("provider") or "unknown"] += 1
             before = set(unique[index].get("providers", []))
             after = set(incoming.get("providers", [incoming.get("provider")]))
             if url_key and before != after and before.isdisjoint(after):
@@ -51,7 +54,11 @@ def deduplicate_standard_articles(articles):
             by_url[url_key] = index
         if title_key:
             by_title[title_key] = index
-    return unique, {"removed_count": len(articles) - len(unique), "cross_provider_url_duplicates": cross_provider_url_duplicates}
+    return unique, {
+        "removed_count": len(articles) - len(unique),
+        "removed_by_provider": dict(removed_by_provider),
+        "cross_provider_url_duplicates": cross_provider_url_duplicates,
+    }
 
 
 def _same_event(first, second):

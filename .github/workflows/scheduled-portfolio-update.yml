@@ -114,13 +114,34 @@ jobs:
           report = json.loads((Path(os.environ["ARTIFACT_DIR"]) / "update" / "production-update-report.json").read_text(encoding="utf-8"))
           news = report.get("news", {})
           telegram = report.get("telegram", {})
+          refresh = report.get("refresh_status") or {}
           print(f"Telegram messages fetched: {telegram.get('messages_fetched', 0)}")
           print(f"Telegram companies matched: {telegram.get('companies_with_matches', 0)}")
+          print(f"Telegram unmatched messages: {telegram.get('unmatched_messages', 0)}")
+          print(f"Telegram parse failures: {telegram.get('parse_failure_count', 0)}")
+          print(f"Telegram quarantine count: {telegram.get('quarantine_count', 0)}")
           print(f"Telegram error count: {len(telegram.get('error_types', []))}")
           print(f"Code/integrity finding count: {len(report.get('generated_public_json', {}).get('findings', []))}")
-          print(f"NAVER/GDELT API calls: {news.get('provider_api_calls', {})}")
+          for provider, values in sorted(news.get('provider_collection', {}).items()):
+              print(f"{provider.upper()} raw/accepted/deduplicated/excluded: {values.get('raw_articles', 0)}/{values.get('accepted_articles', 0)}/{values.get('duplicate_articles', 0)}/{values.get('excluded_articles', 0)}")
+              print(f"{provider.upper()} exclusion reasons: {values.get('exclusion_reasons', {})}")
+          print(f"News duplicate articles: {news.get('duplicate_article_count', 0)}")
+          print(f"New news/disclosures/earnings: {news.get('new_event_cluster_count', 0)}/{telegram.get('new_disclosures', 0)}/{telegram.get('new_quarters', 0)}")
           print(f"Changed allowlisted files: {len(report.get('changed_files', []))}")
+          print(f"Content changed: {str(report.get('content_changed', False)).lower()}")
+          print(f"Last successful refresh: {refresh.get('lastSuccessfulRefreshAt', 'N/A')}")
           print(f"Commit eligible: {str(report.get('commit_eligible', False)).lower()}")
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary_path:
+              Path(summary_path).write_text(
+                  "## Scheduled update summary\n"
+                  f"- NAVER/GDELT calls: {news.get('provider_api_calls', {})}\n"
+                  f"- Telegram fetched/matched/unmatched: {telegram.get('messages_fetched', 0)}/{telegram.get('unique_matched_messages', 0)}/{telegram.get('unmatched_messages', 0)}\n"
+                  f"- New news/disclosures/earnings: {news.get('new_event_cluster_count', 0)}/{telegram.get('new_disclosures', 0)}/{telegram.get('new_quarters', 0)}\n"
+                  f"- Content changed: {str(report.get('content_changed', False)).lower()}\n"
+                  f"- Last successful refresh: {refresh.get('lastSuccessfulRefreshAt', 'N/A')}\n",
+                  encoding="utf-8",
+              )
 
       - name: Verify repository diff allowlist
         run: |
