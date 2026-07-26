@@ -483,7 +483,7 @@ select:focus-visible {
 .legend-line {
   width: 18px;
   height: 2px;
-  border-top: 2px dashed #20262b;
+  border-top: 3px solid #20262b;
   display: inline-block;
 }
 
@@ -532,30 +532,21 @@ select:focus-visible {
   fill: var(--net);
 }
 
-.estimate-line {
-  stroke-width: 2;
-  stroke-dasharray: 5 4;
-  fill: none;
-}
-
-.estimate-line.bar-revenue,
 .estimate-marker.bar-revenue {
   stroke: var(--revenue);
 }
 
-.estimate-line.bar-operating,
 .estimate-marker.bar-operating {
   stroke: var(--operating);
 }
 
-.estimate-line.bar-net,
 .estimate-marker.bar-net {
   stroke: var(--net);
 }
 
 .estimate-marker {
-  fill: #fcfcfa;
-  stroke-width: 2;
+  stroke-width: 3;
+  stroke-linecap: round;
   cursor: help;
 }
 

@@ -18,11 +18,10 @@ def run_chart_utility(payload):
             const input = JSON.parse(fs.readFileSync(0, 'utf8'));
             const metric = chart.METRICS.find((item) => item.key === input.metric);
             const points = chart.forecastPoints(input.quarters, metric);
-            const segments = chart.contiguousSegments(points);
             const comparison = chart.forecastComparison(input.actual, input.estimate);
             const series = chart.buildChartSeries(input.quarters);
             const tooltip = chart.tooltipData('2026 Q3', metric, input.actual, input.estimate);
-            process.stdout.write(JSON.stringify({points, segments, comparison, series, tooltip}));
+            process.stdout.write(JSON.stringify({points, comparison, series, tooltip}));
             """,
         ],
         cwd=ROOT,
@@ -48,7 +47,7 @@ class EarningsForecastChartTests(unittest.TestCase):
         self.assertEqual(result["points"][0]["actual"], 100)
         self.assertEqual(result["points"][0]["estimate"], 120)
 
-    def test_case_a_continuous_forecasts_keep_metric_datasets_and_tooltip_values(self):
+    def test_case_a_three_quarters_use_independent_markers_and_correct_tooltip_values(self):
         quarters = [
             {"period": "2026 Q1", "revenue": 100, "operatingIncome": -10, "netIncome": -8,
              "estimateRevenue": 90, "estimateOperatingIncome": -12, "estimateNetIncome": -10},
@@ -59,14 +58,15 @@ class EarningsForecastChartTests(unittest.TestCase):
         ]
         result = run_chart_utility({"metric": "revenue", "quarters": quarters, "actual": 140, "estimate": 130})
         actual = {item["key"]: item["data"] for item in result["series"]["actualBars"]}
-        forecast = {item["key"]: item for item in result["series"]["forecastLines"]}
+        forecast = {item["key"]: item for item in result["series"]["forecastMarkers"]}
         self.assertEqual(actual["revenue"], [100, 120, 140])
         self.assertEqual(actual["operatingIncome"], [-10, 15, 18])
         self.assertEqual(actual["netIncome"], [-8, 9, 12])
         self.assertEqual(forecast["revenue"]["data"], [90, 110, 130])
         self.assertEqual(forecast["operatingIncome"]["data"], [-12, 10, 16])
         self.assertEqual(forecast["netIncome"]["data"], [-10, 8, 10])
-        self.assertEqual([point["index"] for point in forecast["revenue"]["segments"][0]], [0, 1, 2])
+        self.assertEqual(forecast["revenue"]["type"], "marker")
+        self.assertEqual([point["index"] for point in forecast["revenue"]["points"] if point], [0, 1, 2])
         self.assertEqual(result["tooltip"], {
             "period": "2026 Q3", "label": "매출액", "actual": 140, "estimate": 130,
             "difference": 10, "percentage": 100 / 13,
@@ -80,21 +80,6 @@ class EarningsForecastChartTests(unittest.TestCase):
             "estimate": None,
         })
         self.assertEqual(result["points"], [None])
-        self.assertEqual(result["segments"], [])
-
-    def test_forecast_lines_do_not_bridge_missing_quarters(self):
-        result = run_chart_utility({
-            "metric": "operatingIncome",
-            "quarters": [
-                {"period": "2025 Q4", "operatingIncome": 10, "estimateOperatingIncome": 11},
-                {"period": "2026 Q1", "operatingIncome": 12, "estimateOperatingIncome": None},
-                {"period": "2026 Q2", "operatingIncome": 13, "estimateOperatingIncome": 14},
-                {"period": "2026 Q3", "operatingIncome": 15, "estimateOperatingIncome": 16},
-            ],
-            "actual": 15,
-            "estimate": 16,
-        })
-        self.assertEqual([[point["index"] for point in segment] for segment in result["segments"]], [[0], [2, 3]])
 
     def test_case_b_partial_forecasts_keep_nulls_and_only_valid_markers(self):
         quarters = [
@@ -103,23 +88,23 @@ class EarningsForecastChartTests(unittest.TestCase):
             {"period": "2026 Q3", "revenue": 120, "estimateRevenue": 115},
         ]
         result = run_chart_utility({"metric": "revenue", "quarters": quarters, "actual": 110, "estimate": None})
-        revenue = next(item for item in result["series"]["forecastLines"] if item["key"] == "revenue")
+        revenue = next(item for item in result["series"]["forecastMarkers"] if item["key"] == "revenue")
         self.assertEqual(revenue["data"], [90, None, 115])
-        self.assertEqual([[point["index"] for point in segment] for segment in revenue["segments"]], [[0], [2]])
         self.assertEqual([point["index"] for point in revenue["points"] if point], [0, 2])
         self.assertEqual(result["tooltip"]["estimate"], None)
         self.assertEqual(result["tooltip"]["difference"], None)
         self.assertEqual(result["tooltip"]["percentage"], None)
 
-    def test_single_forecast_point_is_retained_for_a_marker(self):
+    def test_case_c_single_forecast_point_creates_one_marker_without_a_line(self):
         result = run_chart_utility({
             "metric": "netIncome",
             "quarters": [{"period": "2026 Q1", "netIncome": 9, "estimateNetIncome": 8}],
             "actual": 9,
             "estimate": 8,
         })
-        self.assertEqual(len(result["segments"]), 1)
-        self.assertEqual(len(result["segments"][0]), 1)
+        markers = result["series"]["forecastMarkers"]
+        self.assertEqual(len(markers), 1)
+        self.assertEqual([point["index"] for point in markers[0]["points"] if point], [0])
 
     def test_zero_forecast_has_no_percentage_comparison(self):
         result = run_chart_utility({
@@ -131,14 +116,26 @@ class EarningsForecastChartTests(unittest.TestCase):
         self.assertEqual(result["comparison"]["difference"], 10)
         self.assertIsNone(result["comparison"]["percentage"])
 
-    def test_case_c_no_forecast_creates_no_line_series(self):
+    def test_case_d_no_forecast_creates_no_marker_series(self):
         quarters = [
             {"period": "2026 Q1", "revenue": 100, "operatingIncome": 10, "netIncome": 8},
             {"period": "2026 Q2", "revenue": 110, "operatingIncome": 12, "netIncome": 9},
         ]
         result = run_chart_utility({"metric": "revenue", "quarters": quarters, "actual": 100, "estimate": None})
         self.assertEqual(len(result["series"]["actualBars"]), 3)
-        self.assertEqual(result["series"]["forecastLines"], [])
+        self.assertEqual(result["series"]["forecastMarkers"], [])
+
+    def test_case_e_negative_forecast_keeps_value_and_comparison(self):
+        result = run_chart_utility({
+            "metric": "operatingIncome",
+            "quarters": [{"period": "2026 Q3", "operatingIncome": -20, "estimateOperatingIncome": -25}],
+            "actual": -20,
+            "estimate": -25,
+        })
+        marker = result["series"]["forecastMarkers"][0]
+        self.assertEqual(marker["data"], [-25])
+        self.assertEqual(result["tooltip"]["difference"], 5)
+        self.assertEqual(result["tooltip"]["percentage"], 20)
 
 
 class EarningsForecastChartIntegrationTests(unittest.TestCase):
@@ -159,7 +156,9 @@ class EarningsForecastChartIntegrationTests(unittest.TestCase):
 
     def test_chart_uses_only_forecast_fields_for_forecast_points(self):
         self.assertIn("window.EarningsChart.buildChartSeries(quarters)", self.app_source)
-        self.assertIn("chartSeries.forecastLines", self.app_source)
+        self.assertIn("chartSeries.forecastMarkers", self.app_source)
+        self.assertNotIn("forecastLines", self.app_source)
+        self.assertNotIn("<polyline", self.app_source)
 
     def test_empty_forecast_hides_the_forecast_legend(self):
         self.assertIn('id="estimateLegend"', self.html_source)
@@ -169,8 +168,11 @@ class EarningsForecastChartIntegrationTests(unittest.TestCase):
         self.assertIn('lines.push("예상치: N/A")', self.app_source)
         self.assertIn("tooltipData", self.app_source)
 
-    def test_last_updated_label_matches_generated_timestamp_semantics(self):
-        self.assertIn("마지막 데이터 생성", self.html_source)
+    def test_refresh_labels_keep_confirmation_and_content_times_distinct(self):
+        self.assertIn("마지막 확인 완료", self.html_source)
+        self.assertIn("마지막 신규 데이터 반영", self.html_source)
+        self.assertIn("lastSuccessfulRefresh", self.app_source)
+        self.assertIn("lastContentChanged", self.app_source)
         self.assertIn("자동 업데이트: 매일 08:15 · 20:15 KST", self.html_source)
 
 

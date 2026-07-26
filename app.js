@@ -83,10 +83,16 @@ const FALLBACK_NEWS = {
   news: []
 };
 
+const FALLBACK_REFRESH_STATUS = {
+  lastSuccessfulRefreshAt: null,
+  lastContentChangedAt: null
+};
+
 const state = {
   earningsData: FALLBACK_EARNINGS,
   disclosureData: FALLBACK_DISCLOSURES,
   newsData: FALLBACK_NEWS,
+  refreshStatus: FALLBACK_REFRESH_STATUS,
   selectedCompanyCode: "018500",
   activeTab: "watchlist",
   companyFilter: "all",
@@ -107,7 +113,8 @@ const state = {
 };
 
 const els = {
-  lastUpdated: document.querySelector("#lastUpdated"),
+  lastSuccessfulRefresh: document.querySelector("#lastSuccessfulRefresh"),
+  lastContentChanged: document.querySelector("#lastContentChanged"),
   tabButtons: document.querySelectorAll(".tab-button"),
   panels: document.querySelectorAll(".tab-panel"),
   watchlistSummary: document.querySelector("#watchlistSummary"),
@@ -146,15 +153,17 @@ const els = {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
-  const [earningsData, disclosureData, newsData] = await Promise.all([
+  const [earningsData, disclosureData, newsData, refreshStatus] = await Promise.all([
     loadJsonCandidates(["./data/earnings/index.json", "./data/earnings.json"], FALLBACK_EARNINGS),
     loadJsonCandidates(["./data/disclosures/index.json", "./data/disclosures.json"], FALLBACK_DISCLOSURES),
-    loadJsonCandidates(["./data/news/index.json", "./data/news.json"], FALLBACK_NEWS)
+    loadJsonCandidates(["./data/news/index.json", "./data/news.json"], FALLBACK_NEWS),
+    loadOptionalJson("./data/state/refresh-status.json").then((data) => data || FALLBACK_REFRESH_STATUS)
   ]);
 
   state.earningsData = normalizeEarningsData(earningsData);
   state.disclosureData = normalizeDisclosureData(disclosureData);
   state.newsData = normalizeNewsData(newsData);
+  state.refreshStatus = normalizeRefreshStatus(refreshStatus);
   state.watchlistSortMode = window.WatchlistSort.restoreSortMode(window.localStorage);
   state.selectedCompanyCode = pickInitialCompany();
 
@@ -254,6 +263,13 @@ function normalizeNewsData(data) {
   return {
     generatedAt: data.generated_at || data.generatedAt || null,
     news: Array.isArray(data.news) ? data.news : []
+  };
+}
+
+function normalizeRefreshStatus(data) {
+  return {
+    lastSuccessfulRefreshAt: data?.lastSuccessfulRefreshAt || null,
+    lastContentChangedAt: data?.lastContentChangedAt || null
   };
 }
 
@@ -373,13 +389,16 @@ function renderLastUpdated() {
     .map((value) => new Date(value))
     .filter((date) => !Number.isNaN(date.getTime()));
 
-  if (!dates.length) {
-    els.lastUpdated.textContent = "N/A";
-    return;
-  }
+  const legacyContentChangedAt = dates.length ? new Date(Math.max(...dates.map((date) => date.getTime()))).toISOString() : null;
+  els.lastSuccessfulRefresh.textContent = formatRefreshTimestamp(state.refreshStatus.lastSuccessfulRefreshAt);
+  els.lastContentChanged.textContent = formatRefreshTimestamp(
+    state.refreshStatus.lastContentChangedAt || legacyContentChangedAt
+  );
+}
 
-  const latest = new Date(Math.max(...dates.map((date) => date.getTime())));
-  els.lastUpdated.textContent = `${formatDateTime(latest)} KST`;
+function formatRefreshTimestamp(value) {
+  const date = new Date(value || "");
+  return Number.isNaN(date.getTime()) ? "N/A" : `${formatDateTime(date)} KST`;
 }
 
 function renderWatchlist() {
@@ -957,7 +976,7 @@ function createMainChart(quarters) {
   const metrics = chartSeries.actualBars;
   const allValues = [
     ...chartSeries.actualBars.flatMap((metric) => metric.data),
-    ...chartSeries.forecastLines.flatMap((metric) => metric.data)
+    ...chartSeries.forecastMarkers.flatMap((metric) => metric.data)
   ].filter(isNumber);
   const min = allValues.length ? Math.min(0, ...allValues) : 0;
   const max = allValues.length ? Math.max(0, ...allValues) : 1;
@@ -1009,22 +1028,19 @@ function createMainChart(quarters) {
     `;
   }).join("");
 
-  const estimates = chartSeries.forecastLines.map((metric) => {
+  const estimates = chartSeries.forecastMarkers.map((metric) => {
     const points = metric.points;
-    const segments = metric.segments;
-    const lines = segments.filter((segment) => segment.length > 1).map((segment) => {
-      const linePoints = segment.map((point) => {
-        const center = padding.left + point.index * groupWidth + groupWidth / 2;
-        return `${center},${y(point.estimate)}`;
-      });
-      return `<polyline points="${linePoints.join(" ")}" class="estimate-line ${metric.className}"></polyline>`;
-    }).join("");
     const markers = points.filter(Boolean).map((point) => {
-      const center = padding.left + point.index * groupWidth + groupWidth / 2;
+      const groupX = padding.left + point.index * groupWidth;
+      const center = groupX + groupWidth / 2;
+      const barStart = center - (barWidth * metrics.length + 5 * 2) / 2;
+      const metricIndex = metrics.findIndex((item) => item.key === metric.key);
+      const markerCenter = barStart + metricIndex * (barWidth + 5) + barWidth / 2;
+      const markerHalfWidth = Math.max(5, barWidth * 0.7);
       const tooltip = chartTooltip(point.period, metric, point.actual, point.estimate);
-      return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><circle cx="${center}" cy="${y(point.estimate)}" r="4" class="estimate-marker ${metric.className}"></circle></g>`;
+      return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><line x1="${markerCenter - markerHalfWidth}" y1="${y(point.estimate)}" x2="${markerCenter + markerHalfWidth}" y2="${y(point.estimate)}" class="estimate-marker ${metric.className}"></line></g>`;
     }).join("");
-    return `${lines}${markers}`;
+    return markers;
   }).join("");
 
   return `

@@ -14,7 +14,16 @@ from scripts.manual_production_update import (
 )
 
 
+ROOT = Path(__file__).resolve().parents[1]
+
+
 class ManualProductionUpdateTests(unittest.TestCase):
+    def test_successful_update_records_refresh_status_after_validation(self):
+        source = (ROOT / "scripts" / "manual_production_update.py").read_text(encoding="utf-8")
+        self.assertIn("if external_ok and not checks[\"findings\"]", source)
+        self.assertIn("update_refresh_status(", source)
+        self.assertIn('"content_changed": content_changed', source)
+
     def test_report_writer_preserves_file_change_summary(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)

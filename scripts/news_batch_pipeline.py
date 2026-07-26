@@ -232,6 +232,10 @@ class BatchNewsPipeline:
         active.sort(key=lambda item: self._priority(item, state))
         batch_size = int(self.config["batch"]["batch_size"])
         provider_calls = Counter()
+        provider_collection = {
+            name: {"raw_articles": 0, "accepted_articles": 0, "duplicate_articles": 0, "exclusion_reasons": Counter()}
+            for name in self.providers
+        }
         provider_errors = {name: Counter() for name in self.providers}
         per_company_calls = {}
         per_company_quality = {}
@@ -272,9 +276,12 @@ class BatchNewsPipeline:
                         state["api_usage"][provider_name] = state["api_usage"].get(provider_name, 0) + calls
                         per_company_calls[code][provider_name] += calls
                         raw_count += int(meta.get("raw_count", len(articles)))
+                        provider_collection[provider_name]["raw_articles"] += int(meta.get("raw_count", len(articles)))
+                        provider_collection[provider_name]["accepted_articles"] += len(articles)
                         per_company_quality[code]["raw_articles"] += int(meta.get("raw_count", len(articles)))
                         per_company_quality[code]["relevant_articles"] += int(meta.get("relevant_count", len(articles)))
                         for reason, count in meta.get("rejected", {}).items():
+                            provider_collection[provider_name]["exclusion_reasons"][reason] += int(count)
                             exclusions = per_company_quality[code]["exclusion_reasons"]
                             exclusions[reason] = exclusions.get(reason, 0) + int(count)
                         collected.extend(articles)
@@ -306,6 +313,9 @@ class BatchNewsPipeline:
                 if provider_successes:
                     deduplicated, dedupe_meta = deduplicate_standard_articles(collected)
                     duplicate_count += dedupe_meta["removed_count"]
+                    for provider, count in dedupe_meta.get("removed_by_provider", {}).items():
+                        if provider in provider_collection:
+                            provider_collection[provider]["duplicate_articles"] += count
                     per_company_quality[code]["duplicate_articles"] = dedupe_meta["removed_count"]
                     clusters = cluster_event_articles(deduplicated)
                     new_events = [build_public_event(cluster, company, now=now) for cluster in clusters]
@@ -416,6 +426,16 @@ class BatchNewsPipeline:
             "company_quality": per_company_quality,
             "cross_company_duplicate_assignments": cross_company_duplicates,
             "provider_error_counts": {name: dict(counts) for name, counts in provider_errors.items()},
+            "provider_collection": {
+                name: {
+                    "raw_articles": values["raw_articles"],
+                    "accepted_articles": values["accepted_articles"],
+                    "duplicate_articles": values["duplicate_articles"],
+                    "excluded_articles": max(0, values["raw_articles"] - values["accepted_articles"]),
+                    "exclusion_reasons": dict(values["exclusion_reasons"]),
+                }
+                for name, values in provider_collection.items()
+            },
             "provider_transient_error_counts": {
                 name: {
                     "http_429": sum(count for error, count in counts.items() if "429" in error),
