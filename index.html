@@ -16,8 +16,9 @@
           <p class="subtitle">관심 기업 실적 및 공시 모니터링</p>
         </div>
         <div class="update-box" aria-live="polite">
-          <span>마지막 데이터 업데이트</span>
+          <span>마지막 데이터 생성</span>
           <strong id="lastUpdated">불러오는 중</strong>
+          <small>자동 업데이트: 매일 08:15 · 20:15 KST</small>
         </div>
       </header>
 
@@ -98,7 +99,7 @@
                   <span><i class="legend-dot revenue"></i>매출액</span>
                   <span><i class="legend-dot operating"></i>영업이익</span>
                   <span><i class="legend-dot net"></i>순이익</span>
-                  <span><i class="legend-line"></i>예상치</span>
+                  <span><i class="legend-line"></i>예상치 (점선)</span>
                 </div>
                 <span id="estimateNotice" class="muted">예상치 N/A</span>
               </div>
@@ -119,7 +120,6 @@
                       <th>순이익</th>
                       <th>YoY</th>
                       <th>QoQ</th>
-                      <th>예상치 대비</th>
                     </tr>
                   </thead>
                   <tbody id="quarterTable"></tbody>
@@ -252,6 +252,7 @@
     <script src="./data/portfolio.js"></script>
     <script src="./watchlist-sort.js"></script>
     <script src="./disclosure-category.js"></script>
+    <script src="./earnings-chart.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

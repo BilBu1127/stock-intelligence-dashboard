@@ -106,6 +106,13 @@ a:hover {
   font-size: 16px;
 }
 
+.update-box small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .tabs {
   display: flex;
   gap: 8px;
@@ -481,6 +488,7 @@ select:focus-visible {
 }
 
 .chart-wrap {
+  position: relative;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fcfcfa;
@@ -525,10 +533,56 @@ select:focus-visible {
 }
 
 .estimate-line {
-  stroke: #20262b;
   stroke-width: 2;
   stroke-dasharray: 5 4;
   fill: none;
+}
+
+.estimate-line.bar-revenue,
+.estimate-marker.bar-revenue {
+  stroke: var(--revenue);
+}
+
+.estimate-line.bar-operating,
+.estimate-marker.bar-operating {
+  stroke: var(--operating);
+}
+
+.estimate-line.bar-net,
+.estimate-marker.bar-net {
+  stroke: var(--net);
+}
+
+.estimate-marker {
+  fill: #fcfcfa;
+  stroke-width: 2;
+  cursor: help;
+}
+
+.chart-data-point:focus-visible {
+  outline: none;
+}
+
+.chart-data-point:focus-visible .estimate-marker,
+.chart-data-point:focus-visible rect {
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+
+.chart-tooltip {
+  position: absolute;
+  z-index: 2;
+  max-width: min(280px, calc(100% - 24px));
+  padding: 9px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 8px 20px rgba(24, 31, 37, 0.14);
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.5;
+  pointer-events: none;
+  white-space: pre-line;
 }
 
 .table-wrap,
@@ -541,7 +595,7 @@ select:focus-visible {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  min-width: 860px;
+  min-width: 780px;
 }
 
 .data-table th,
@@ -1105,6 +1159,29 @@ select {
 
   .chart-wrap svg {
     min-width: 100%;
+  }
+
+  .data-table {
+    min-width: 740px;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 10px 7px;
+    font-size: 13px;
+  }
+
+  .data-table th:first-child,
+  .data-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--panel);
+    box-shadow: 8px 0 12px -12px rgba(24, 31, 37, 0.55);
+  }
+
+  .data-table th:first-child {
+    background: #f2f4f1;
   }
 
   .disclosure-row {
