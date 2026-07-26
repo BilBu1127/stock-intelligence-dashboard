@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-23T08:01:55.750946Z",
+  "generated_at": "2026-07-26T03:53:16.401779Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-07-23T08:01:55.750946Z",
+  "last_successful_update": "2026-07-26T03:53:16.401779Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -53,6 +53,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-16T09:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "455bd0a0d80e2f0e",
+      "company_name": "파마리서치",
+      "stock_code": "214450",
+      "representative_title": "기관 ' 파마리서치 '·외인 '알테오젠'·개인 '레인보우로보틱스' 1위 [주...",
+      "representative_url": "https://fntimes.com/html/view.php?ud=202607242048104281179ad43907_18",
+      "representative_source": "fntimes.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-07-26T03:02:00Z",
+      "last_published_at": "2026-07-26T03:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fntimes.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "기관 ' 파마리서치 '·외인 '알테오젠'·개인 '레인보우로보틱스' 1위 [주...",
+          "url": "https://fntimes.com/html/view.php?ud=202607242048104281179ad43907_18",
+          "source": "fntimes.com",
+          "source_domain": "fntimes.com",
+          "published_at": "2026-07-26T12:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -479,49 +522,6 @@
           "source": "lawissue.co.kr",
           "source_domain": "lawissue.co.kr",
           "published_at": "2026-07-22T14:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1eea7ff4bcebfaa4",
-      "company_name": "파마리서치",
-      "stock_code": "214450",
-      "representative_title": "파마리서치 리쥬란코스메틱, 해운대 관광객 겨냥 체험 캠페인 전개",
-      "representative_url": "https://press9.kr/news/articleView.html?idxno=79805",
-      "representative_source": "press9.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-22T01:40:00Z",
-      "last_published_at": "2026-07-22T01:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "press9.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "파마리서치 리쥬란코스메틱, 해운대 관광객 겨냥 체험 캠페인 전개",
-          "url": "https://press9.kr/news/articleView.html?idxno=79805",
-          "source": "press9.kr",
-          "source_domain": "press9.kr",
-          "published_at": "2026-07-22T10:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
