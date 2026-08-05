@@ -3,7 +3,7 @@ from datetime import datetime
 from decimal import Decimal, InvalidOperation
 
 
-PARSER_VERSION = "1.0.0"
+PARSER_VERSION = "1.1.0"
 MONEY_TOKEN_RE = re.compile(
     r"N\s*/?\s*A|\(\s*\d[\d,]*(?:\.\d+)?\s*(?:조|억|백만|천)\s*원?\s*\)|"
     r"[+-]?\s*\d[\d,]*(?:\.\d+)?\s*(?:조|억|백만|천)\s*원?|(?<![\w\d])-(?=\s|[),/]|$)",
@@ -20,6 +20,8 @@ STOCK_CODE_RE = re.compile(
     r"(?<![A-Z0-9])A?((?=[A-Z0-9]{0,5}\d)[A-Z0-9]{6})(?![A-Z0-9])",
     re.IGNORECASE,
 )
+FORECAST_LABEL_RE = re.compile(r"(?:시장\s*)?(?:예상(?:치)?|컨센서스)", re.IGNORECASE)
+ACTUAL_LABEL_RE = re.compile(r"(?:실제(?:치)?|잠정(?:실적)?|확정(?:실적)?)", re.IGNORECASE)
 
 
 def normalize_text(text):
@@ -60,6 +62,14 @@ def parse_amount(raw_value):
 
 def find_amounts(text):
     return [parse_amount(match.group(0)) for match in MONEY_TOKEN_RE.finditer(text or "")]
+
+
+def parse_forecast_amount(raw_value):
+    """Keep parenthesized forecast values positive unless their own sign is negative."""
+    raw = str(raw_value or "").strip()
+    if raw.startswith("(") and raw.endswith(")"):
+        raw = raw[1:-1].strip()
+    return parse_amount(raw)
 
 
 def normalize_quarter(value):
@@ -132,13 +142,65 @@ def extract_metric_values(text):
     }
     values = {}
     for key, pattern in metric_patterns.items():
-        match = re.search(
-            rf"(?im)^\s*{pattern}\s*[:：]?\s*(.*?)\s*$",
-            normalize_text(text),
+        actual = None
+        consensus = None
+        line_pattern = re.compile(
+            rf"^\s*(?P<prefix>(?:(?:시장\s*)?(?:예상(?:치)?|컨센서스)|실제(?:치)?|잠정(?:실적)?|확정(?:실적)?)\s*)?"
+            rf"{pattern}(?P<content>.*)$",
+            re.IGNORECASE,
         )
-        amounts = find_amounts(match.group(1)) if match else []
-        values[f"{key}_actual"] = amounts[0] if amounts else None
-        values[f"{key}_consensus"] = amounts[1] if len(amounts) > 1 else None
+        for line in normalize_text(text).splitlines():
+            match = line_pattern.match(line)
+            if not match:
+                continue
+
+            prefix = match.group("prefix") or ""
+            content = match.group("content") or ""
+            # Cumulative rows must not replace the single-quarter headline values.
+            if re.match(r"^\s*(?:[(:：\[]\s*)?누적", content):
+                continue
+
+            forecast_match = FORECAST_LABEL_RE.search(content)
+            actual_match = ACTUAL_LABEL_RE.search(content)
+            prefix_is_forecast = bool(FORECAST_LABEL_RE.search(prefix))
+
+            if prefix_is_forecast and consensus is None:
+                amounts = find_amounts(content)
+                consensus = parse_forecast_amount(amounts[0]["raw"]) if amounts else None
+
+            if forecast_match:
+                before_forecast = content[:forecast_match.start()]
+                after_forecast = content[forecast_match.end():]
+                if consensus is None:
+                    amounts = find_amounts(after_forecast)
+                    consensus = parse_forecast_amount(amounts[0]["raw"]) if amounts else None
+
+                if actual is None:
+                    if actual_match:
+                        actual_segment = content[actual_match.end():]
+                        if actual_match.start() < forecast_match.start():
+                            actual_segment = content[actual_match.end():forecast_match.start()]
+                        amounts = find_amounts(actual_segment)
+                    else:
+                        amounts = find_amounts(before_forecast)
+                    actual = amounts[0] if amounts else None
+                continue
+
+            if actual_match and actual is None:
+                amounts = find_amounts(content[actual_match.end():])
+                actual = amounts[0] if amounts else None
+                continue
+
+            amounts = find_amounts(content)
+            if actual is None and amounts:
+                actual = amounts[0]
+            # Preserve the existing compact "actual (forecast)" form without
+            # turning a parenthesized positive forecast into an accounting loss.
+            if consensus is None and len(amounts) > 1:
+                consensus = parse_forecast_amount(amounts[1]["raw"])
+
+        values[f"{key}_actual"] = actual
+        values[f"{key}_consensus"] = consensus
     return values
 
 
