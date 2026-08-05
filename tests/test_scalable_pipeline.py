@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 from scripts.news_batch_pipeline import (
     BatchNewsPipeline,
@@ -13,7 +14,8 @@ from scripts.news_batch_pipeline import (
     retain_public_events,
 )
 from scripts.run_load_test import synthetic_companies
-from scripts.telegram_incremental import distribute_messages, run_incremental
+from scripts.backfill_portfolio_telegram import process_company
+from scripts.telegram_incremental import DEFAULT_TELEGRAM_BATCH_SIZE, distribute_messages, run_incremental
 
 
 NOW = datetime(2026, 7, 17, 9, 0, tzinfo=timezone.utc)
@@ -114,6 +116,97 @@ class ScalablePipelineTests(unittest.TestCase):
             self.assertFalse(success)
             self.assertIsNone(json.loads(cursor.read_text(encoding="utf-8"))["last_processed_message_id"])
             self.assertFalse(report["cursor_updated"])
+
+    def test_telegram_500_message_batch_is_ordered_and_cursor_safe(self):
+        companies = synthetic_companies(1)
+        messages = [{"id": index, "text": "000001"} for index in range(1, 501)]
+        processed = []
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            success, report = run_incremental(lambda _last_id: messages, lambda _company, rows: processed.extend(rows), companies, cursor)
+            self.assertTrue(success)
+            self.assertEqual([item["id"] for item in processed], list(range(1, 501)))
+            self.assertEqual(json.loads(cursor.read_text(encoding="utf-8"))["last_processed_message_id"], 500)
+            self.assertTrue(report["batch_limit_reached"])
+            self.assertTrue(report["backlog_may_remain"])
+
+    def test_telegram_backlog_continues_from_next_oldest_message(self):
+        companies = synthetic_companies(1)
+        messages = [{"id": index, "text": "000001"} for index in range(1, 701)]
+        processed = []
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            fetch = lambda last_id: [item for item in messages if item["id"] > (last_id or 0)]
+            run_incremental(fetch, lambda _company, rows: processed.extend(rows), companies, cursor)
+            run_incremental(fetch, lambda _company, rows: processed.extend(rows), companies, cursor)
+            self.assertEqual([item["id"] for item in processed], list(range(1, 701)))
+            self.assertEqual(json.loads(cursor.read_text(encoding="utf-8"))["last_processed_message_id"], 700)
+
+    def test_telegram_processing_failure_keeps_the_full_batch_for_retry(self):
+        companies = synthetic_companies(1)
+        messages = [{"id": index, "text": "000001"} for index in range(1, 4)]
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            success, report = run_incremental(
+                lambda _last_id: messages,
+                lambda _company, _rows: (_ for _ in ()).throw(ValueError("ParseFailure")),
+                companies,
+                cursor,
+            )
+            self.assertFalse(success)
+            self.assertFalse(report["cursor_updated"])
+            self.assertEqual(report["start_cursor"], report["end_cursor"])
+            self.assertIsNone(json.loads(cursor.read_text(encoding="utf-8"))["last_processed_message_id"])
+
+    def test_unknown_parsing_is_quarantined_without_cursor_skip(self):
+        company = {"company_name": "NAVER", "stock_code": "035420"}
+        message = {"id": 77, "date": "2026-07-27T00:00:00+09:00", "text": "not stored"}
+        with tempfile.TemporaryDirectory() as directory:
+            with patch("scripts.backfill_portfolio_telegram.parse_awake_message", return_value={"classification": "unknown"}):
+                report = process_company(company, [message], "2026-07-27T00:00:00+09:00", data_root=Path(directory) / "data")
+        self.assertEqual(report["parse_failure_count"], 1)
+        self.assertEqual(report["quarantine"][0]["reason"], "parse_unknown")
+
+    def test_telegram_cursor_waits_for_commit_eligibility(self):
+        companies = synthetic_companies(1)
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            success, report = run_incremental(
+                lambda _last_id: [{"id": 1, "text": "000001"}],
+                lambda _company, _rows: None,
+                companies,
+                cursor,
+                commit_ready=False,
+            )
+            self.assertTrue(success)
+            self.assertTrue(report["cursor_pending_commit"])
+            self.assertFalse(cursor.exists())
+
+    def test_telegram_duplicate_refetch_is_idempotent(self):
+        companies = synthetic_companies(1)
+        processed = []
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            def fetch(last_id):
+                return [{"id": 1, "text": "000001"}, {"id": 1, "text": "000001"}, {"id": 2, "text": "000001"}, {"id": 3, "text": "000001"}]
+            run_incremental(fetch, lambda _company, rows: processed.extend(rows), companies, cursor)
+            run_incremental(fetch, lambda _company, rows: processed.extend(rows), companies, cursor)
+            self.assertEqual([item["id"] for item in processed], [1, 2, 3])
+
+    def test_telegram_5000_message_backlog_is_bounded_across_runs(self):
+        companies = synthetic_companies(1)
+        messages = [{"id": index, "text": "000001"} for index in range(1, 5001)]
+        processed = []
+        with tempfile.TemporaryDirectory() as directory:
+            cursor = Path(directory) / "telegram.json"
+            def fetch(last_id):
+                return [item for item in messages if item["id"] > (last_id or 0)]
+            for _ in range(10):
+                success, report = run_incremental(fetch, lambda _company, rows: processed.extend(rows), companies, cursor)
+                self.assertTrue(success)
+                self.assertLessEqual(report["processed_count"], DEFAULT_TELEGRAM_BATCH_SIZE)
+            self.assertEqual([item["id"] for item in processed], list(range(1, 5001)))
+            self.assertEqual(json.loads(cursor.read_text(encoding="utf-8"))["last_processed_message_id"], 5000)
 
 
 if __name__ == "__main__":
