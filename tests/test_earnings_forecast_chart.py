@@ -4,6 +4,8 @@ import subprocess
 import unittest
 from pathlib import Path
 
+from scripts.backfill_company import public_quarter
+from scripts.parse_awake_message import merge_quarter_records, parse_awake_message
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -118,6 +120,34 @@ def marker_bounds_are_safe(svg, grouped=False):
 
 
 class EarningsForecastChartTests(unittest.TestCase):
+    def test_canonical_public_forecasts_create_marker_model(self):
+        parsed = parse_awake_message(
+            "\n".join((
+                "기업명: 가상테스트",
+                "종목코드: 000001",
+                "보고서명: 연결재무제표기준영업(잠정)실적 (2026.06)",
+                "보고기간: 2026.06",
+                "매출액: 1,200억원 (예상 1,100억원)",
+                "영업이익: 150억원 (예상 140억원)",
+                "순이익: 90억원 (예상 80억원)",
+            )),
+            telegram_message_id=9001,
+        )
+        records, warnings = merge_quarter_records([parsed])
+        self.assertEqual(warnings, [])
+        public = public_quarter(records[0])
+        result = run_chart_utility({
+            "metric": "revenue",
+            "quarters": [public],
+            "actual": public["revenue"],
+            "estimate": public["estimateRevenue"],
+        })
+        marker_series = result["series"]["forecastMarkers"]
+        self.assertEqual([item["key"] for item in marker_series], ["revenue", "operatingIncome", "netIncome"])
+        self.assertEqual(marker_series[0]["data"], [1100])
+        self.assertEqual(marker_series[1]["data"], [140])
+        self.assertEqual(marker_series[2]["data"], [80])
+
     def test_actual_and_forecast_are_kept_as_separate_series(self):
         result = run_chart_utility({
             "metric": "revenue",
