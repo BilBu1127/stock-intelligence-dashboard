@@ -92,6 +92,43 @@ class AwakeParserTests(unittest.TestCase):
         self.assertEqual(q1["telegram_message_id"], 201)
         self.assertEqual(len(warnings), 1)
 
+    def test_current_quarter_forecast_wins_same_message_tie(self):
+        actual = {"value_won": 100}
+        parsed = {
+            "recent_earnings": [{
+                "fiscal_quarter": "2026 Q2", "revenue": actual,
+                "operating_profit": actual, "net_income": actual,
+            }],
+            "report_period": "2026.06", "has_earnings_data": True,
+            "revenue_actual": actual, "operating_profit_actual": actual, "net_income_actual": actual,
+            "revenue_consensus": {"value_won": 90},
+            "operating_profit_consensus": {"value_won": 9},
+            "net_income_consensus": {"value_won": 7},
+            "provisional": True, "classification": "earnings",
+            "disclosure_datetime": "2026-07-27T09:00:00+09:00", "telegram_message_id": 100,
+        }
+        quarters, _ = merge_quarter_records([parsed])
+        self.assertEqual(quarters[0]["revenue_consensus"]["value_won"], 90)
+        self.assertEqual(quarters[0]["operating_profit_consensus"]["value_won"], 9)
+        self.assertEqual(quarters[0]["net_income_consensus"]["value_won"], 7)
+
+    def test_forecast_maps_to_unique_matching_row_without_report_period(self):
+        parsed = {
+            "recent_earnings": [
+                {"fiscal_quarter": "2026 Q1", "revenue": {"value_won": 100}, "operating_profit": {"value_won": 10}, "net_income": {"value_won": 8}},
+                {"fiscal_quarter": "2025 Q4", "revenue": {"value_won": 90}, "operating_profit": {"value_won": 9}, "net_income": {"value_won": 7}},
+            ],
+            "report_period": None, "has_earnings_data": True,
+            "revenue_actual": {"value_won": 100}, "operating_profit_actual": {"value_won": 10}, "net_income_actual": {"value_won": 8},
+            "revenue_consensus": {"value_won": 95}, "operating_profit_consensus": {"value_won": 11}, "net_income_consensus": {"value_won": 9},
+            "provisional": True, "classification": "earnings", "disclosure_datetime": "2026-07-27T09:00:00+09:00", "telegram_message_id": 101,
+        }
+        quarters, _ = merge_quarter_records([parsed])
+        current = next(item for item in quarters if item["fiscal_quarter"] == "2026 Q1")
+        prior = next(item for item in quarters if item["fiscal_quarter"] == "2025 Q4")
+        self.assertEqual(current["revenue_consensus"]["value_won"], 95)
+        self.assertIsNone(prior["revenue_consensus"])
+
     def test_preserves_correction_in_history(self):
         correction_text = "정정공시\n" + BASE_MESSAGE
         parsed = parse_awake_message(correction_text, telegram_message_id=301)
