@@ -4,6 +4,7 @@ import subprocess
 import unittest
 from pathlib import Path
 
+from scripts.onboard_portfolio import disclosure_summary
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -120,13 +121,23 @@ class WatchlistSortIntegrationTests(unittest.TestCase):
         for summary in self.disclosure_index["companies"]:
             code = summary["stockCode"]
             detail = json.loads((ROOT / "data" / "disclosures" / "by-company" / f"{code}.json").read_text(encoding="utf-8"))
-            dates = [item.get("disclosedAt") for item in detail.get("disclosures", []) if item.get("disclosedAt")]
-            self.assertEqual(summary["latestDisclosureAt"], max(dates, default=None), code)
+            expected = disclosure_summary(code, detail.get("disclosures", []))
+            self.assertEqual(summary["latestDisclosureAt"], expected["latestDisclosureAt"], code)
+            self.assertEqual(summary["disclosureCount"], expected["disclosureCount"], code)
 
-    def test_naver_summary_uses_its_single_valid_disclosure(self):
-        summary = next(item for item in self.disclosure_index["companies"] if item["stockCode"] == "035420")
-        self.assertEqual(summary["disclosureCount"], 1)
-        self.assertEqual(summary["latestDisclosureAt"], "2026-07-16T11:33:29+09:00")
+    def test_naver_summary_counts_only_unique_valid_fixture_disclosures(self):
+        disclosures = [
+            {"code": "035420", "category": "earnings", "telegramMessageId": 501, "disclosedAt": "2026-07-16T11:33:29+09:00"},
+            {"code": "035420", "category": "earnings", "telegramMessageId": 501, "disclosedAt": "2026-07-16T11:33:29+09:00"},
+            {"code": "035420", "category": "\uae30\ud0c0", "dartReceiptNumber": "R-502", "disclosedAt": "2026-07-17T11:33:29+09:00"},
+            {"code": "005930", "category": "earnings", "telegramMessageId": 503, "disclosedAt": "2026-07-18T11:33:29+09:00"},
+            {"code": "035420", "category": "legacy", "telegramMessageId": 504, "disclosedAt": "2026-07-19T11:33:29+09:00"},
+        ]
+        summary = disclosure_summary("035420", disclosures)
+        self.assertEqual(summary["disclosureCount"], 2)
+        self.assertEqual(summary["latestDisclosureAt"], "2026-07-17T11:33:29+09:00")
+        self.assertEqual([item["code"] for item in summary["disclosures"]], ["035420", "035420"])
+        self.assertTrue(all(item["category"] in {"earnings", "\uae30\ud0c0"} for item in summary["disclosures"]))
 
 
 if __name__ == "__main__":

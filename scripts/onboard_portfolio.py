@@ -25,6 +25,10 @@ MAJOR_SOURCE_DOMAINS = [
     "reuters.com", "bloomberg.com", "yna.co.kr", "yonhapnews.co.kr", "mk.co.kr",
     "hankyung.com", "etnews.com", "zdnet.co.kr", "thebell.co.kr",
 ]
+CANONICAL_DISCLOSURE_CATEGORIES = {
+    "earnings", "\uc2dc\uc124\ud22c\uc790", "\uacf5\uae09\uacc4\uc57d", "\uc790\uc0ac\uc8fc\u00b7\ubc30\ub2f9",
+    "\uc99d\uc790\u00b7\uc0ac\ucc44", "\uc9c0\ubd84", "\uae30\ud0c0",
+}
 
 ENGLISH_ALIASES = {
     "005930": ["Samsung Electronics", "Samsung Electronics Co"],
@@ -293,6 +297,35 @@ def ensure_detail_files(companies, generated_at):
     return created
 
 
+def disclosure_summary(stock_code, disclosures):
+    """Build a company summary from valid, unique public disclosure records."""
+    seen = set()
+    valid = []
+    for item in disclosures:
+        if str(item.get("code") or "") != str(stock_code):
+            continue
+        if item.get("category") not in CANONICAL_DISCLOSURE_CATEGORIES:
+            continue
+        source_id = (
+            item.get("dartReceiptNumber")
+            or item.get("telegramMessageId")
+            or item.get("sourceId")
+            or (item.get("disclosedAt"), item.get("reportName"))
+        )
+        if source_id in seen:
+            continue
+        seen.add(source_id)
+        valid.append(item)
+    return {
+        "disclosures": valid,
+        "disclosureCount": len(valid),
+        "latestDisclosureAt": max(
+            (item.get("disclosedAt") for item in valid if item.get("disclosedAt")),
+            default=None,
+        ),
+    }
+
+
 def build_public_indexes(companies, generated_at, data_root=None):
     data_root = Path(data_root or ROOT / "data")
     watchlist = []
@@ -316,16 +349,13 @@ def build_public_indexes(companies, generated_at, data_root=None):
             "hasDetails": bool(detail_company.get("earnings")), "earnings": detail_company.get("earnings", []), **common,
         })
         disclosure_payload = read_json(data_root / "disclosures" / "by-company" / f"{code}.json", {}) or {}
-        company_disclosures = disclosure_payload.get("disclosures", [])
+        company_summary = disclosure_summary(code, disclosure_payload.get("disclosures", []))
+        company_disclosures = company_summary["disclosures"]
         disclosures.extend(company_disclosures)
-        latest_disclosure_at = max(
-            (item.get("disclosedAt") for item in company_disclosures if item.get("disclosedAt")),
-            default=None,
-        )
         disclosure_companies.append({
             "companyName": company["company_name"], "stockCode": code,
-            "disclosureCount": len(company_disclosures),
-            "latestDisclosureAt": latest_disclosure_at,
+            "disclosureCount": company_summary["disclosureCount"],
+            "latestDisclosureAt": company_summary["latestDisclosureAt"],
             "category": company["category"], "monitoringTier": company["monitoring_tier"],
         })
         news_payload = read_json(data_root / "news" / "by-company" / f"{code}.json", {}) or {}

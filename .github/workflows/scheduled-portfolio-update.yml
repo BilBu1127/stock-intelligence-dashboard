@@ -116,10 +116,14 @@ jobs:
           telegram = report.get("telegram", {})
           refresh = report.get("refresh_status") or {}
           print(f"Telegram messages fetched: {telegram.get('messages_fetched', 0)}")
+          print(f"Telegram messages processed: {telegram.get('messages_processed', 0)}")
           print(f"Telegram companies matched: {telegram.get('companies_with_matches', 0)}")
           print(f"Telegram unmatched messages: {telegram.get('unmatched_messages', 0)}")
           print(f"Telegram parse failures: {telegram.get('parse_failure_count', 0)}")
           print(f"Telegram quarantine count: {telegram.get('quarantine_count', 0)}")
+          print(f"Telegram duplicate count: {telegram.get('duplicate_count', 0)}")
+          print(f"Telegram cursor start/end: {telegram.get('start_cursor', 'N/A')}/{telegram.get('end_cursor', 'N/A')}")
+          print(f"Telegram batch size/limit reached/backlog may remain: {telegram.get('batch_size', 0)}/{str(telegram.get('batch_limit_reached', False)).lower()}/{str(telegram.get('backlog_may_remain', False)).lower()}")
           print(f"Telegram error count: {len(telegram.get('error_types', []))}")
           print(f"Code/integrity finding count: {len(report.get('generated_public_json', {}).get('findings', []))}")
           for provider, values in sorted(news.get('provider_collection', {}).items()):
@@ -137,6 +141,8 @@ jobs:
                   "## Scheduled update summary\n"
                   f"- NAVER/GDELT calls: {news.get('provider_api_calls', {})}\n"
                   f"- Telegram fetched/matched/unmatched: {telegram.get('messages_fetched', 0)}/{telegram.get('unique_matched_messages', 0)}/{telegram.get('unmatched_messages', 0)}\n"
+                  f"- Telegram processed/parse failures/quarantine/duplicates: {telegram.get('messages_processed', 0)}/{telegram.get('parse_failure_count', 0)}/{telegram.get('quarantine_count', 0)}/{telegram.get('duplicate_count', 0)}\n"
+                  f"- Telegram cursor start/end; batch; backlog may remain: {telegram.get('start_cursor', 'N/A')}/{telegram.get('end_cursor', 'N/A')}; {telegram.get('batch_size', 0)}; {str(telegram.get('backlog_may_remain', False)).lower()}\n"
                   f"- New news/disclosures/earnings: {news.get('new_event_cluster_count', 0)}/{telegram.get('new_disclosures', 0)}/{telegram.get('new_quarters', 0)}\n"
                   f"- Content changed: {str(report.get('content_changed', False)).lower()}\n"
                   f"- Last successful refresh: {refresh.get('lastSuccessfulRefreshAt', 'N/A')}\n",

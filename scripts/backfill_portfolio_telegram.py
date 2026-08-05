@@ -17,13 +17,25 @@ try:
     from .news_batch_pipeline import read_json, write_json_atomic
     from .onboard_portfolio import build_public_indexes
     from .parse_awake_message import merge_quarter_records, parse_awake_message
-    from .telegram_incremental import distribute_messages_with_quarantine, quarantine_record
+    from .telegram_incremental import (
+        DEFAULT_TELEGRAM_BATCH_SIZE,
+        distribute_messages_with_quarantine,
+        quarantine_record,
+        select_message_batch,
+        telegram_batch_metrics,
+    )
 except ImportError:
     from backfill_company import build_disclosure, disclosure_identity, load_credentials, public_quarter, to_seoul_iso
     from news_batch_pipeline import read_json, write_json_atomic
     from onboard_portfolio import build_public_indexes
     from parse_awake_message import merge_quarter_records, parse_awake_message
-    from telegram_incremental import distribute_messages_with_quarantine, quarantine_record
+    from telegram_incremental import (
+        DEFAULT_TELEGRAM_BATCH_SIZE,
+        distribute_messages_with_quarantine,
+        quarantine_record,
+        select_message_batch,
+        telegram_batch_metrics,
+    )
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,7 +45,7 @@ CHANNEL_USERNAME = "darthacking"
 SEOUL = timezone(timedelta(hours=9), "Asia/Seoul")
 
 
-async def fetch_messages_once(last_message_id, days=7, max_messages=5000):
+async def fetch_messages_once(last_message_id, days=7, max_messages=DEFAULT_TELEGRAM_BATCH_SIZE):
     api_id, api_hash, session_string = load_credentials()
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
@@ -45,7 +57,8 @@ async def fetch_messages_once(last_message_id, days=7, max_messages=5000):
             raise PermissionError("TelegramSessionUnauthorized")
         channel = await client.get_entity(CHANNEL_USERNAME)
         channel_title = getattr(channel, "title", None)
-        kwargs = {"limit": max_messages}
+        # Reverse iteration asks Telegram for the oldest pending messages first.
+        kwargs = {"limit": min(int(max_messages), DEFAULT_TELEGRAM_BATCH_SIZE), "reverse": True}
         if last_message_id:
             kwargs["min_id"] = int(last_message_id)
         async for message in client.iter_messages(channel, **kwargs):
@@ -78,6 +91,10 @@ def process_company(company, messages, generated_at, data_root=None):
         )
         if result.get("classification") == "unknown":
             parse_failures.append(message["id"])
+            quarantine.append(quarantine_record(
+                message, result.get("stock_code"), company["stock_code"], "parse_unknown", "parsing",
+            ))
+            continue
         parsed_code = result.get("stock_code")
         if not result.get("explicit_code_found") or not parsed_code:
             quarantine.append(quarantine_record(
@@ -155,10 +172,13 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
     errors = []
     try:
         last_message_id = None if force_full_refresh else cursor.get("last_processed_message_id")
-        channel_title, messages = await fetch_messages_once(last_message_id)
+        channel_title, fetched_messages = await fetch_messages_once(last_message_id)
+        messages = select_message_batch(fetched_messages, last_message_id)
     except Exception as error:
-        channel_title, messages = None, []
+        channel_title, fetched_messages, messages = None, [], []
         errors.append({"type": type(error).__name__})
+
+    batch_metrics = telegram_batch_metrics(fetched_messages, messages, last_message_id)
 
     if errors:
         distribution = {item["stock_code"]: [] for item in active}
@@ -179,15 +199,16 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
 
     cursor_updated = False
     if not errors:
+        build_public_indexes(active, generated_at, data_root=data_root)
         if messages:
             cursor["last_processed_message_id"] = max(item["id"] for item in messages)
             cursor_updated = True
+            batch_metrics["end_cursor"] = cursor["last_processed_message_id"]
         cursor.update({
             "version": "1.0.0", "channel_username": CHANNEL_USERNAME,
             "last_successful_run": generated_at, "last_error": None, "consecutive_failures": 0,
         })
         write_json_atomic(cursor_path, cursor)
-        build_public_indexes(active, generated_at, data_root=data_root)
     else:
         cursor["last_error"] = errors[0]["type"]
         cursor["consecutive_failures"] = cursor.get("consecutive_failures", 0) + 1
@@ -214,7 +235,8 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
         "executed_at": generated_at,
         "channel_title": channel_title,
         "companies_considered": len(active),
-        "messages_fetched": len(messages),
+        "messages_fetched": len(fetched_messages),
+        "messages_processed": len(messages),
         "unique_matched_messages": len(matched_ids),
         "total_company_assignments": sum(item["matched_messages"] for item in company_results.values()),
         "companies_with_matches": sum(item["matched_messages"] > 0 for item in company_results.values()),
@@ -225,6 +247,7 @@ async def run(data_root=None, force_full_refresh=False, progress_callback=None, 
         "errors": errors,
         "cursor_updated": cursor_updated,
         "quarantine_count": len(quarantine),
+        **batch_metrics,
         "duration_seconds": round((datetime.now(SEOUL) - started).total_seconds(), 3),
     }
     write_json_atomic(report_path, report)

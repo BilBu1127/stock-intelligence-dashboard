@@ -7,6 +7,7 @@ from urllib.parse import parse_qs, urlsplit
 
 
 SEOUL = timezone(timedelta(hours=9), "Asia/Seoul")
+DEFAULT_TELEGRAM_BATCH_SIZE = 500
 URL_RE = re.compile(r"https?://[^\s<>()]+", re.IGNORECASE)
 EMAIL_RE = re.compile(r"(?i)[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}")
 PHONE_RE = re.compile(r"(?<!\d)(?:\+82[- ]?10|010)[- ]\d{3,4}[- ]\d{4}(?!\d)")
@@ -182,7 +183,43 @@ def distribute_messages(messages, companies):
     return distribution
 
 
-def run_incremental(fetch_messages, process_company_messages, companies, cursor_path):
+def select_message_batch(messages, last_message_id, batch_size=DEFAULT_TELEGRAM_BATCH_SIZE):
+    """Return the next contiguous, de-duplicated message batch in ID order."""
+    if batch_size < 1:
+        raise ValueError("TelegramBatchSizeMustBePositive")
+    start = int(last_message_id or 0)
+    unique = {}
+    for message in messages:
+        message_id = message.get("id")
+        if isinstance(message_id, int) and message_id > start:
+            unique.setdefault(message_id, message)
+    return [unique[message_id] for message_id in sorted(unique)[:batch_size]]
+
+
+def telegram_batch_metrics(fetched_messages, batch, start_cursor, batch_size=DEFAULT_TELEGRAM_BATCH_SIZE):
+    fetched_ids = [item.get("id") for item in fetched_messages if isinstance(item.get("id"), int)]
+    return {
+        "start_cursor": start_cursor,
+        "end_cursor": start_cursor,
+        "candidate_end_cursor": batch[-1]["id"] if batch else start_cursor,
+        "batch_size": batch_size,
+        "fetched_count": len(fetched_messages),
+        "processed_count": len(batch),
+        "duplicate_count": max(0, len(fetched_ids) - len(set(fetched_ids))),
+        "batch_limit_reached": len(batch) >= batch_size,
+        # The API exposes only one bounded page, so an exact remainder is not known here.
+        "backlog_may_remain": len(batch) >= batch_size or len(fetched_messages) > len(batch),
+    }
+
+
+def run_incremental(
+    fetch_messages,
+    process_company_messages,
+    companies,
+    cursor_path,
+    batch_size=DEFAULT_TELEGRAM_BATCH_SIZE,
+    commit_ready=True,
+):
     cursor_path = Path(cursor_path)
     if cursor_path.is_file():
         cursor = json.loads(cursor_path.read_text(encoding="utf-8"))
@@ -193,8 +230,9 @@ def run_incremental(fetch_messages, process_company_messages, companies, cursor_
             "last_error": None, "consecutive_failures": 0,
         }
     last_id = cursor.get("last_processed_message_id")
-    messages = list(fetch_messages(last_id))
-    messages.sort(key=lambda item: item.get("id", 0))
+    fetched_messages = list(fetch_messages(last_id))
+    messages = select_message_batch(fetched_messages, last_id, batch_size)
+    batch_metrics = telegram_batch_metrics(fetched_messages, messages, last_id, batch_size)
     distribution, quarantine = distribute_messages_with_quarantine(messages, companies)
     failures = []
     for company in companies:
@@ -209,11 +247,19 @@ def run_incremental(fetch_messages, process_company_messages, companies, cursor_
         cursor["last_error"] = "PartialCompanyFailure"
         cursor["consecutive_failures"] = cursor.get("consecutive_failures", 0) + 1
         write_json_atomic(cursor_path, cursor)
-        return False, {"messages_fetched": len(messages), "failures": failures, "cursor_updated": False, "quarantine": quarantine}
-    if messages:
+        return False, {
+            "messages_fetched": len(fetched_messages), "failures": failures,
+            "cursor_updated": False, "quarantine": quarantine, **batch_metrics,
+        }
+    if messages and commit_ready:
         cursor["last_processed_message_id"] = max(item["id"] for item in messages)
-    cursor["last_successful_run"] = datetime.now(SEOUL).isoformat()
-    cursor["last_error"] = None
-    cursor["consecutive_failures"] = 0
-    write_json_atomic(cursor_path, cursor)
-    return True, {"messages_fetched": len(messages), "failures": [], "cursor_updated": bool(messages), "quarantine": quarantine}
+        batch_metrics["end_cursor"] = cursor["last_processed_message_id"]
+        cursor["last_successful_run"] = datetime.now(SEOUL).isoformat()
+        cursor["last_error"] = None
+        cursor["consecutive_failures"] = 0
+        write_json_atomic(cursor_path, cursor)
+    return True, {
+        "messages_fetched": len(fetched_messages), "failures": [],
+        "cursor_updated": bool(messages) and commit_ready, "quarantine": quarantine,
+        "cursor_pending_commit": bool(messages) and not commit_ready, **batch_metrics,
+    }

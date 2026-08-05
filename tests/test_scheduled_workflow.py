@@ -87,6 +87,8 @@ class ScheduledWorkflowPolicyTests(unittest.TestCase):
         self.assertIn("New news/disclosures/earnings", self.scheduled_text)
         self.assertIn("Last successful refresh", self.scheduled_text)
         self.assertIn("GITHUB_STEP_SUMMARY", self.scheduled_text)
+        self.assertIn("Telegram cursor start/end", self.scheduled_text)
+        self.assertIn("backlog may remain", self.scheduled_text)
 
 
 if __name__ == "__main__":
