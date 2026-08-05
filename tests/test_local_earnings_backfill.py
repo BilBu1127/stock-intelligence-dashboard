@@ -198,6 +198,27 @@ class LocalEarningsBackfillTests(unittest.TestCase):
         self.assertEqual(selected[0]["fiscal_quarter"], "2024 Q2")
         self.assertEqual(selected[-1]["fiscal_quarter"], "2026 Q1")
 
+    def test_current_candidate_forecasts_win_same_message_tie(self):
+        record = merge_message("2026 Q2", 100, True, "2026-07-27T09:00:00")
+        record["recent_earnings"] = [{
+            "fiscal_quarter": "2026 Q2",
+            "revenue": record["current_values"]["revenue"],
+            "operating_profit": record["current_values"]["operating_profit"],
+            "net_income": record["current_values"]["net_income"],
+        }]
+        record["current_values"].update({
+            "revenue_consensus": {"value_won": 9_000_000_000},
+            "operating_profit_consensus": {"value_won": 900_000_000},
+            "net_income_consensus": {"value_won": 700_000_000},
+        })
+        selected, conflicts, _ = select_quarters([record])
+        self.assertFalse(conflicts)
+        self.assertEqual(selected[0]["revenue_consensus"]["value_won"], 9_000_000_000)
+        public = legacy_quarter(with_comparisons([public_quarter(selected[0])])[0])
+        self.assertEqual(public["estimateRevenue"], 90)
+        self.assertEqual(public["estimateOperatingIncome"], 9)
+        self.assertEqual(public["estimateNetIncome"], 7)
+
     def test_missing_middle_quarter_is_detected(self):
         quarters = [{"fiscal_quarter": quarter} for quarter in ("2024 Q2", "2024 Q3", "2024 Q4", "2025 Q1", "2025 Q3", "2025 Q4", "2026 Q1")]
         self.assertIn("2025 Q2", missing_quarters(quarters))

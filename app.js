@@ -539,7 +539,7 @@ function renderSelectedCompany() {
   const hasEstimate = quarters.some((quarter) => {
     return isNumber(quarter.estimateRevenue) || isNumber(quarter.estimateOperatingIncome) || isNumber(quarter.estimateNetIncome);
   });
-  els.estimateNotice.textContent = hasEstimate ? "예상치 점선 표시" : "예상치 N/A";
+  els.estimateNotice.textContent = hasEstimate ? "예상치 가로선 표시" : "예상치 N/A";
   els.estimateLegend.hidden = !hasEstimate;
 
   els.mainChart.innerHTML = createMainChart(quarters);
@@ -927,8 +927,8 @@ function createWatchlistChart(company) {
   }
 
   const lanes = [
-    { label: "매출", key: "revenue", values: revenueValues, className: "bar-revenue", baseline: 50 },
-    { label: "영업익", key: "operatingIncome", values: operatingValues, className: "bar-operating", baseline: 98 }
+    { label: "매출", key: "revenue", estimateKey: "estimateRevenue", values: revenueValues, className: "bar-revenue", baseline: 50 },
+    { label: "영업익", key: "operatingIncome", estimateKey: "estimateOperatingIncome", values: operatingValues, className: "bar-operating", baseline: 98 }
   ];
   const startX = 78;
   const barWidth = 24;
@@ -936,21 +936,33 @@ function createWatchlistChart(company) {
   const maxHeight = 34;
 
   const rows = lanes.map((lane) => {
-    const max = lane.values.length ? Math.max(...lane.values, 1) : 1;
+    const laneValues = quarters.flatMap((quarter) => [quarter[lane.key], quarter[lane.estimateKey]]).filter(isNumber);
+    const min = laneValues.length ? Math.min(0, ...laneValues) : 0;
+    const max = laneValues.length ? Math.max(0, ...laneValues, 1) : 1;
+    const range = max - min || 1;
+    const valueY = (value) => lane.baseline - ((value - min) / range) * maxHeight;
+    const zeroY = valueY(0);
     const bars = quarters.map((quarter, index) => {
       const x = startX + index * (barWidth + gap);
       if (!isNumber(quarter[lane.key])) {
-        return `<path class="na-slot" d="M${x},${lane.baseline} L${x + barWidth},${lane.baseline} L${x + barWidth},${lane.baseline - maxHeight} L${x},${lane.baseline - maxHeight} Z"></path>`;
+        return `<path class="na-slot" d="M${x},${zeroY} L${x + barWidth},${zeroY} L${x + barWidth},${lane.baseline - maxHeight} L${x},${lane.baseline - maxHeight} Z"></path>`;
       }
-      const height = Math.max((quarter[lane.key] / max) * maxHeight, 3);
-      const y = lane.baseline - height;
-      return `<rect x="${x}" y="${y}" width="${barWidth}" height="${height}" rx="3" class="${lane.className}"></rect>`;
+      const actualY = valueY(quarter[lane.key]);
+      const rectY = Math.min(actualY, zeroY);
+      const height = Math.max(Math.abs(zeroY - actualY), 3);
+      const estimate = quarter[lane.estimateKey];
+      const barCenterX = x + barWidth / 2;
+      const markerHalfWidth = barWidth * 0.3;
+      const marker = isNumber(estimate)
+        ? `<line x1="${barCenterX - markerHalfWidth}" y1="${valueY(estimate)}" x2="${barCenterX + markerHalfWidth}" y2="${valueY(estimate)}" class="estimate-marker ${lane.className}"><title>${escapeHtml(`${quarter.period || "N/A"} ${lane.label} 예상치 ${formatMoney(estimate)}`)}</title></line>`
+        : "";
+      return `<rect x="${x}" y="${rectY}" width="${barWidth}" height="${height}" rx="3" class="${lane.className}"></rect>${marker}`;
     }).join("");
 
     return `
       <g>
         <text x="16" y="${lane.baseline - 10}" class="axis-label">${lane.label}</text>
-        <line x1="${startX - 6}" y1="${lane.baseline}" x2="392" y2="${lane.baseline}" class="axis-line"></line>
+        <line x1="${startX - 6}" y1="${zeroY}" x2="392" y2="${zeroY}" class="axis-line"></line>
         ${bars}
       </g>
     `;
@@ -1016,7 +1028,7 @@ function createMainChart(quarters) {
       const barY = y(value);
       const barHeight = Math.max(Math.abs(baseline - barY), 3);
       const rectY = value >= 0 ? baseline - barHeight : baseline;
-      const tooltip = chartTooltip(quarter.period, metric, value, null);
+      const tooltip = chartTooltip(quarter.period, metric, value, quarter[metric.estimateKey]);
       return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><rect x="${x}" y="${rectY}" width="${barWidth}" height="${barHeight}" rx="3" class="${metric.className}"></rect></g>`;
     }).join("");
 
@@ -1036,7 +1048,7 @@ function createMainChart(quarters) {
       const barStart = center - (barWidth * metrics.length + 5 * 2) / 2;
       const metricIndex = metrics.findIndex((item) => item.key === metric.key);
       const markerCenter = barStart + metricIndex * (barWidth + 5) + barWidth / 2;
-      const markerHalfWidth = Math.max(5, barWidth * 0.7);
+      const markerHalfWidth = barWidth * 0.3;
       const tooltip = chartTooltip(point.period, metric, point.actual, point.estimate);
       return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><line x1="${markerCenter - markerHalfWidth}" y1="${y(point.estimate)}" x2="${markerCenter + markerHalfWidth}" y2="${y(point.estimate)}" class="estimate-marker ${metric.className}"></line></g>`;
     }).join("");

@@ -533,20 +533,20 @@ select:focus-visible {
 }
 
 .estimate-marker.bar-revenue {
-  stroke: var(--revenue);
+  stroke: #20262b;
 }
 
 .estimate-marker.bar-operating {
-  stroke: var(--operating);
+  stroke: #20262b;
 }
 
 .estimate-marker.bar-net {
-  stroke: var(--net);
+  stroke: #20262b;
 }
 
 .estimate-marker {
   stroke-width: 3;
-  stroke-linecap: round;
+  stroke-linecap: butt;
   cursor: help;
 }
 

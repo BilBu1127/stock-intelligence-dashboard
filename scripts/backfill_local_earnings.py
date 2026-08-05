@@ -14,6 +14,7 @@ try:
         normalize_quarter,
         parse_amount,
         parse_awake_message,
+        forecast_target_quarter,
         QUARTER_RE,
         quarter_index,
         report_period_to_quarter,
@@ -24,6 +25,7 @@ except ImportError:
         normalize_quarter,
         parse_amount,
         parse_awake_message,
+        forecast_target_quarter,
         QUARTER_RE,
         quarter_index,
         report_period_to_quarter,
@@ -230,6 +232,13 @@ def candidate_signature(candidate):
 
 def build_candidates(message):
     candidates = []
+    forecast_quarter = forecast_target_quarter({
+        "report_period": message.get("report_period"),
+        "recent_earnings": message.get("recent_earnings", []),
+        "revenue_actual": message.get("current_values", {}).get("revenue"),
+        "operating_profit_actual": message.get("current_values", {}).get("operating_profit"),
+        "net_income_actual": message.get("current_values", {}).get("net_income"),
+    })
     for row in message["recent_earnings"]:
         is_current = row["fiscal_quarter"] == message.get("current_quarter")
         candidates.append({
@@ -237,9 +246,9 @@ def build_candidates(message):
             "revenue": row.get("revenue"),
             "operating_profit": row.get("operating_profit"),
             "net_income": row.get("net_income"),
-            "revenue_consensus": None,
-            "operating_profit_consensus": None,
-            "net_income_consensus": None,
+            "revenue_consensus": message["current_values"].get("revenue_consensus") if row["fiscal_quarter"] == forecast_quarter else None,
+            "operating_profit_consensus": message["current_values"].get("operating_profit_consensus") if row["fiscal_quarter"] == forecast_quarter else None,
+            "net_income_consensus": message["current_values"].get("net_income_consensus") if row["fiscal_quarter"] == forecast_quarter else None,
             "current_or_historical": "current" if is_current else "historical",
             "provisional": message["provisional"] if is_current else None,
             "corrected": message["corrected"] if is_current else False,
@@ -272,8 +281,13 @@ def build_candidates(message):
 def selection_rank(candidate):
     """Stable tie-break only; status never outranks a newer disclosure."""
     basis_rank = {"consolidated": 3, "unspecified": 2, "separate": 1, "mixed": 0}
+    forecast_value_count = sum(
+        amount_value(candidate.get(key)) is not None
+        for key in ("revenue_consensus", "operating_profit_consensus", "net_income_consensus")
+    )
     return (
         int(candidate.get("current_or_historical") == "current"),
+        forecast_value_count,
         basis_rank.get(candidate.get("consolidated_or_separate"), 0),
         candidate.get("split_index") or 0,
     )

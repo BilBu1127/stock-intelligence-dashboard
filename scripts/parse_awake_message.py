@@ -330,15 +330,36 @@ def amount_value(amount):
     return amount.get("value_won") if isinstance(amount, dict) else None
 
 
-def _candidate_from_row(parsed, row):
+def forecast_target_quarter(parsed):
+    """Safely associate consensus values when the report period is unavailable."""
+    if report_period_to_quarter(parsed.get("report_period")):
+        return None
+    actuals = {
+        "revenue": amount_value(parsed.get("revenue_actual")),
+        "operating_profit": amount_value(parsed.get("operating_profit_actual")),
+        "net_income": amount_value(parsed.get("net_income_actual")),
+    }
+    known_actuals = {key: value for key, value in actuals.items() if value is not None}
+    if len(known_actuals) < 2:
+        return None
+    matching = [
+        row.get("fiscal_quarter")
+        for row in parsed.get("recent_earnings", [])
+        if all(amount_value(row.get(key)) == value for key, value in known_actuals.items())
+    ]
+    return matching[0] if len(matching) == 1 else None
+
+
+def _candidate_from_row(parsed, row, forecast_quarter=None):
+    use_forecast = row.get("fiscal_quarter") == forecast_quarter
     return {
         "fiscal_quarter": row["fiscal_quarter"],
         "revenue": row.get("revenue"),
         "operating_profit": row.get("operating_profit"),
         "net_income": row.get("net_income"),
-        "revenue_consensus": None,
-        "operating_profit_consensus": None,
-        "net_income_consensus": None,
+        "revenue_consensus": parsed.get("revenue_consensus") if use_forecast else None,
+        "operating_profit_consensus": parsed.get("operating_profit_consensus") if use_forecast else None,
+        "net_income_consensus": parsed.get("net_income_consensus") if use_forecast else None,
         "provisional": parsed.get("provisional"),
         "correction": parsed.get("classification") == "correction",
         "disclosure_datetime": parsed.get("disclosure_datetime"),
@@ -385,10 +406,18 @@ def _candidate_values(candidate):
     )
 
 
+def _forecast_value_count(candidate):
+    return sum(
+        amount_value(candidate.get(key)) is not None
+        for key in ("revenue_consensus", "operating_profit_consensus", "net_income_consensus")
+    )
+
+
 def merge_quarter_records(parsed_messages):
     grouped = {}
     for parsed in parsed_messages:
-        candidates = [_candidate_from_row(parsed, row) for row in parsed.get("recent_earnings", [])]
+        forecast_quarter = forecast_target_quarter(parsed)
+        candidates = [_candidate_from_row(parsed, row, forecast_quarter) for row in parsed.get("recent_earnings", [])]
         current = _current_candidate(parsed)
         if current:
             candidates.append(current)
@@ -402,6 +431,7 @@ def merge_quarter_records(parsed_messages):
             key=lambda item: (
                 item.get("disclosure_datetime") or "",
                 item.get("telegram_message_id") or 0,
+                _forecast_value_count(item),
             ),
             reverse=True,
         )
