@@ -279,6 +279,22 @@ function bindEvents() {
       state.activeTab = button.dataset.tab;
       renderTabs();
     });
+    button.addEventListener("keydown", (event) => {
+      const navigationKeys = ["ArrowLeft", "ArrowRight", "Home", "End"];
+      if (!navigationKeys.includes(event.key)) return;
+
+      event.preventDefault();
+      const currentIndex = [...els.tabButtons].indexOf(button);
+      const nextIndex = event.key === "Home"
+        ? 0
+        : event.key === "End"
+          ? els.tabButtons.length - 1
+          : (currentIndex + (event.key === "ArrowRight" ? 1 : -1) + els.tabButtons.length) % els.tabButtons.length;
+      const nextButton = els.tabButtons[nextIndex];
+      state.activeTab = nextButton.dataset.tab;
+      renderTabs();
+      nextButton.focus();
+    });
   });
 
   els.companyFilter.addEventListener("change", async (event) => {
@@ -375,11 +391,16 @@ function renderWatchlistFilters() {
 
 function renderTabs() {
   els.tabButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.tab === state.activeTab);
+    const isActive = button.dataset.tab === state.activeTab;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+    button.tabIndex = isActive ? 0 : -1;
   });
 
   els.panels.forEach((panel) => {
-    panel.classList.toggle("active", panel.id === `panel-${state.activeTab}`);
+    const isActive = panel.id === `panel-${state.activeTab}`;
+    panel.classList.toggle("active", isActive);
+    panel.hidden = !isActive;
   });
 }
 

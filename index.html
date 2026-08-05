@@ -15,7 +15,7 @@
           <h1>Disclosure Notification</h1>
           <p class="subtitle">관심 기업 실적 및 공시 모니터링</p>
         </div>
-        <div class="update-box" aria-live="polite">
+        <div class="update-box" aria-live="polite" aria-atomic="true">
           <span>마지막 확인 완료</span>
           <strong id="lastSuccessfulRefresh">불러오는 중</strong>
           <span>마지막 신규 데이터 반영</span>
@@ -24,15 +24,15 @@
         </div>
       </header>
 
-      <nav class="tabs" aria-label="대시보드 탭">
-        <button class="tab-button active" type="button" data-tab="watchlist">관심 종목</button>
-        <button class="tab-button" type="button" data-tab="earnings">실적</button>
-        <button class="tab-button" type="button" data-tab="disclosures">공시</button>
-        <button class="tab-button" type="button" data-tab="news">뉴스</button>
+      <nav class="tabs" aria-label="대시보드 탭" role="tablist">
+        <button class="tab-button active" id="tab-watchlist" type="button" role="tab" data-tab="watchlist" aria-controls="panel-watchlist" aria-selected="true">관심 종목</button>
+        <button class="tab-button" id="tab-earnings" type="button" role="tab" data-tab="earnings" aria-controls="panel-earnings" aria-selected="false" tabindex="-1">실적</button>
+        <button class="tab-button" id="tab-disclosures" type="button" role="tab" data-tab="disclosures" aria-controls="panel-disclosures" aria-selected="false" tabindex="-1">공시</button>
+        <button class="tab-button" id="tab-news" type="button" role="tab" data-tab="news" aria-controls="panel-news" aria-selected="false" tabindex="-1">뉴스</button>
       </nav>
 
       <main>
-        <section class="tab-panel active" id="panel-watchlist" aria-label="관심 종목">
+        <section class="tab-panel active" id="panel-watchlist" role="tabpanel" aria-labelledby="tab-watchlist">
           <div class="section-heading">
             <div>
               <p class="section-kicker">Watchlist</p>
@@ -74,7 +74,7 @@
           <button class="load-more-button" id="watchlistLoadMore" type="button" hidden>관심 기업 더 보기</button>
         </section>
 
-        <section class="tab-panel" id="panel-earnings" aria-label="실적">
+        <section class="tab-panel" id="panel-earnings" role="tabpanel" aria-labelledby="tab-earnings" hidden>
           <div class="section-heading">
             <div>
               <p class="section-kicker">Earnings Detail</p>
@@ -112,16 +112,16 @@
                 <table class="data-table">
                   <thead>
                     <tr>
-                      <th>분기</th>
-                      <th>매출액</th>
-                      <th>YoY</th>
-                      <th>QoQ</th>
-                      <th>영업이익</th>
-                      <th>YoY</th>
-                      <th>QoQ</th>
-                      <th>순이익</th>
-                      <th>YoY</th>
-                      <th>QoQ</th>
+                      <th scope="col">분기</th>
+                      <th scope="col">매출액</th>
+                      <th scope="col">YoY</th>
+                      <th scope="col">QoQ</th>
+                      <th scope="col">영업이익</th>
+                      <th scope="col">YoY</th>
+                      <th scope="col">QoQ</th>
+                      <th scope="col">순이익</th>
+                      <th scope="col">YoY</th>
+                      <th scope="col">QoQ</th>
                     </tr>
                   </thead>
                   <tbody id="quarterTable"></tbody>
@@ -149,7 +149,7 @@
           </div>
         </section>
 
-        <section class="tab-panel" id="panel-disclosures" aria-label="공시">
+        <section class="tab-panel" id="panel-disclosures" role="tabpanel" aria-labelledby="tab-disclosures" hidden>
           <div class="section-heading">
             <div>
               <p class="section-kicker">Disclosure Feed</p>
@@ -172,7 +172,7 @@
           <div class="disclosure-list" id="disclosureList"></div>
         </section>
 
-        <section class="tab-panel" id="panel-news" aria-label="뉴스">
+        <section class="tab-panel" id="panel-news" role="tabpanel" aria-labelledby="tab-news" hidden>
           <div class="section-heading">
             <div>
               <p class="section-kicker">News Intelligence</p>
