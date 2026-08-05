@@ -951,8 +951,10 @@ function createWatchlistChart(company) {
       const rectY = Math.min(actualY, zeroY);
       const height = Math.max(Math.abs(zeroY - actualY), 3);
       const estimate = quarter[lane.estimateKey];
+      const barCenterX = x + barWidth / 2;
+      const markerHalfWidth = barWidth * 0.3;
       const marker = isNumber(estimate)
-        ? `<line x1="${x + 3}" y1="${valueY(estimate)}" x2="${x + barWidth - 3}" y2="${valueY(estimate)}" class="estimate-marker ${lane.className}"><title>${escapeHtml(`${quarter.period || "N/A"} ${lane.label} 예상치 ${formatMoney(estimate)}`)}</title></line>`
+        ? `<line x1="${barCenterX - markerHalfWidth}" y1="${valueY(estimate)}" x2="${barCenterX + markerHalfWidth}" y2="${valueY(estimate)}" class="estimate-marker ${lane.className}"><title>${escapeHtml(`${quarter.period || "N/A"} ${lane.label} 예상치 ${formatMoney(estimate)}`)}</title></line>`
         : "";
       return `<rect x="${x}" y="${rectY}" width="${barWidth}" height="${height}" rx="3" class="${lane.className}"></rect>${marker}`;
     }).join("");
@@ -1046,7 +1048,7 @@ function createMainChart(quarters) {
       const barStart = center - (barWidth * metrics.length + 5 * 2) / 2;
       const metricIndex = metrics.findIndex((item) => item.key === metric.key);
       const markerCenter = barStart + metricIndex * (barWidth + 5) + barWidth / 2;
-      const markerHalfWidth = Math.max(5, barWidth * 0.7);
+      const markerHalfWidth = barWidth * 0.3;
       const tooltip = chartTooltip(point.period, metric, point.actual, point.estimate);
       return `<g class="chart-data-point" tabindex="0" data-chart-tooltip="${escapeAttribute(tooltip)}" aria-label="${escapeAttribute(tooltip)}"><title>${escapeHtml(tooltip)}</title><line x1="${markerCenter - markerHalfWidth}" y1="${y(point.estimate)}" x2="${markerCenter + markerHalfWidth}" y2="${y(point.estimate)}" class="estimate-marker ${metric.className}"></line></g>`;
     }).join("");

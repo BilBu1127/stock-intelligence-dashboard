@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import unittest
 from pathlib import Path
@@ -73,6 +74,47 @@ def render_chart(function_name, quarters):
     if result.returncode:
         raise AssertionError(result.stderr)
     return result.stdout
+
+
+def svg_elements(svg, tag, class_name):
+    return [
+        dict(re.findall(r'([a-zA-Z][\w-]*)="([^"]*)"', match.group(1)))
+        for match in re.finditer(rf"<{tag}\s+([^>]*\bclass=\"[^\"]*\b{re.escape(class_name)}\b[^\"]*\"[^>]*)>", svg)
+    ]
+
+
+def marker_bounds_are_safe(svg, grouped=False):
+    bars = svg_elements(svg, "rect", "bar-")
+    markers = svg_elements(svg, "line", "estimate-marker")
+    assert bars and markers
+
+    marker_intervals = {}
+    for marker in markers:
+        marker_class = next(item for item in marker["class"].split() if item.startswith("bar-"))
+        x1, x2 = float(marker["x1"]), float(marker["x2"])
+        matching_bars = [
+            bar for bar in bars
+            if marker_class in bar.get("class", "").split()
+            and float(bar["x"]) <= (x1 + x2) / 2 <= float(bar["x"]) + float(bar["width"])
+        ]
+        assert len(matching_bars) == 1
+        bar = matching_bars[0]
+        bar_x, bar_width = float(bar["x"]), float(bar["width"])
+        assert bar_x <= x1 < x2 <= bar_x + bar_width
+        assert (x2 - x1) < bar_width
+        assert abs((x2 - x1) / bar_width - 0.6) < 0.0001
+
+        if grouped:
+            for other_bar in bars:
+                if other_bar is bar or marker_class in other_bar.get("class", "").split():
+                    continue
+                other_x, other_width = float(other_bar["x"]), float(other_bar["width"])
+                assert x2 <= other_x or x1 >= other_x + other_width
+        marker_intervals.setdefault(marker_class, []).append((x1, x2))
+
+    for intervals in marker_intervals.values():
+        for previous, current in zip(sorted(intervals), sorted(intervals)[1:]):
+            assert previous[1] < current[0]
 
 
 class EarningsForecastChartTests(unittest.TestCase):
@@ -188,6 +230,17 @@ class EarningsForecastChartTests(unittest.TestCase):
         self.assertNotIn("type=\"bar\"", svg)
         self.assertIn('class="bar-revenue"', svg)
 
+    def test_main_chart_markers_stay_inside_their_grouped_bars(self):
+        svg = render_chart("createMainChart", [
+            {"period": "2026 Q1", "revenue": 100, "operatingIncome": -10, "netIncome": 8,
+             "estimateRevenue": 90, "estimateOperatingIncome": -12, "estimateNetIncome": 7},
+            {"period": "2026 Q2", "revenue": 120, "operatingIncome": 12, "netIncome": 9,
+             "estimateRevenue": 110, "estimateOperatingIncome": 10, "estimateNetIncome": 8},
+        ])
+        marker_bounds_are_safe(svg, grouped=True)
+        self.assertNotIn("polyline", svg)
+        self.assertNotIn("<path class=\"estimate-marker", svg)
+
     def test_rendered_watchlist_chart_marks_only_forecast_quarters(self):
         svg = render_chart("createWatchlistChart", [
             {"period": "2026 Q1", "revenue": 100, "operatingIncome": -10,
@@ -197,8 +250,17 @@ class EarningsForecastChartTests(unittest.TestCase):
         ])
         self.assertEqual(svg.count('class="estimate-marker'), 2)
         self.assertIn('<rect x="78"', svg)
-        self.assertIn('<line x1="81"', svg)
         self.assertNotIn("polyline", svg)
+
+    def test_watchlist_markers_stay_inside_their_bars_and_do_not_touch(self):
+        svg = render_chart("createWatchlistChart", [
+            {"period": "2026 Q1", "revenue": 100, "operatingIncome": -10,
+             "estimateRevenue": 90, "estimateOperatingIncome": -12},
+            {"period": "2026 Q2", "revenue": 120, "operatingIncome": 12,
+             "estimateRevenue": 110, "estimateOperatingIncome": 10},
+        ])
+        marker_bounds_are_safe(svg)
+        self.assertNotIn("<path class=\"estimate-marker", svg)
 
     def test_rendered_charts_without_forecasts_keep_existing_bar_only_view(self):
         quarters = [{"period": "2026 Q1", "revenue": 100, "operatingIncome": 10, "netIncome": 8}]
