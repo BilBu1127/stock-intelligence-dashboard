@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-05T15:47:47.826098Z",
+  "generated_at": "2026-08-05T16:32:27.010308Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-08-05T15:47:47.826098Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-05T16:32:27.010308Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "5f37f873c7c9b5e5",
@@ -50,6 +55,49 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-07-27T08:33:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d321ea5c952af192",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "[부고] 김부경(전 삼성중공업 커뮤니케이션팀장)씨 장인상",
+      "representative_url": "https://ngetnews.com/news/articleView.html?idxno=552170",
+      "representative_source": "ngetnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-05T13:12:00Z",
+      "last_published_at": "2026-08-05T13:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ngetnews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[부고] 김부경(전 삼성중공업 커뮤니케이션팀장)씨 장인상",
+          "url": "https://ngetnews.com/news/articleView.html?idxno=552170",
+          "source": "ngetnews.com",
+          "source_domain": "ngetnews.com",
+          "published_at": "2026-08-05T22:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -515,50 +563,6 @@
           "source": "newsquest.co.kr",
           "source_domain": "newsquest.co.kr",
           "published_at": "2026-07-27T14:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c25f1d9a456eecaf",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "'배' 아닌 '기술'… 삼성중공업 , 美 방산 새 길",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026072713250561885",
-      "representative_source": "newsway.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-27T04:40:00Z",
-      "last_published_at": "2026-07-27T04:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'배' 아닌 '기술'… 삼성중공업 , 美 방산 새 길",
-          "url": "https://newsway.co.kr/news/view?ud=2026072713250561885",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-07-27T13:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
