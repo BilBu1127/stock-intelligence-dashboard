@@ -134,11 +134,19 @@ def extract_labeled_value(text, labels):
     return match.group(1).strip() if match else None
 
 
+def normalize_company_name(value):
+    """Remove common Telegram metadata without relying on a portfolio company name."""
+    cleaned = str(value or "")
+    cleaned = re.sub(r"\(\s*(?:시가총액|시총)\s*[:：][^)]*\)", " ", cleaned)
+    cleaned = STOCK_CODE_RE.sub(" ", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip(" ·-\t") or None
+
+
 def extract_metric_values(text):
     metric_patterns = {
         "revenue": r"매출\s*액?",
         "operating_profit": r"영업\s*(?:익|이익)",
-        "net_income": r"순\s*(?:익|이익)",
+        "net_income": r"(?:당기\s*)?순\s*(?:익|이익)",
     }
     values = {}
     for key, pattern in metric_patterns.items():
@@ -289,7 +297,7 @@ def extract_report_name(text, company_name):
 
 def parse_awake_message(text, telegram_message_id=None, message_datetime=None, default_company_name=None, default_stock_code=None):
     normalized = normalize_text(text)
-    company_name = extract_labeled_value(normalized, ["기업명", "회사명", "종목명"])
+    company_name = normalize_company_name(extract_labeled_value(normalized, ["기업명", "회사명", "종목명"]))
     if not company_name:
         bracketed = re.search(r"^\s*\[([^\]]+)]", normalized)
         company_name = bracketed.group(1).strip() if bracketed else default_company_name
