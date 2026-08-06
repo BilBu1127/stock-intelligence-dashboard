@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-05T17:07:27.510434Z",
+  "generated_at": "2026-08-06T08:08:11.061695Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-08-05T17:07:27.510434Z",
+  "last_successful_update": "2026-08-06T08:08:11.061695Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -53,6 +53,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-16T09:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a04d2e36f73cd4e7",
+      "company_name": "파마리서치",
+      "stock_code": "214450",
+      "representative_title": "[의료산업 이모저모] 파마리서치 , 대한여성성의학회에서 산부인과 창상...",
+      "representative_url": "https://health.chosun.com/site/data/html_dir/2026/08/06/2026080602074.html",
+      "representative_source": "health.chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-06T05:58:00Z",
+      "last_published_at": "2026-08-06T05:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "health.chosun.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[의료산업 이모저모] 파마리서치 , 대한여성성의학회에서 산부인과 창상...",
+          "url": "https://health.chosun.com/site/data/html_dir/2026/08/06/2026080602074.html",
+          "source": "health.chosun.com",
+          "source_domain": "health.chosun.com",
+          "published_at": "2026-08-06T14:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -460,68 +503,6 @@
           "source": "newsis.com",
           "source_domain": "newsis.com",
           "published_at": "2026-07-23T08:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "555a966f11429b54",
-      "company_name": "파마리서치",
-      "stock_code": "214450",
-      "representative_title": "파마리서치 , 내수 의료기기 역대 최대 실적 전망-IBK투자증권",
-      "representative_url": "https://mt.co.kr/stock/2026/07/23/2026072308230867869",
-      "representative_source": "mt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-22T23:27:00Z",
-      "last_published_at": "2026-07-22T23:36:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "financialpost.co.kr",
-        "mt.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "IBK투자증권 \" 파마리서치 , 내수 의료기기 역대 최고 실적 전망\"",
-          "url": "https://financialpost.co.kr/news/articleView.html?idxno=267551",
-          "source": "financialpost.co.kr",
-          "source_domain": "financialpost.co.kr",
-          "published_at": "2026-07-23T08:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "파마리서치 , 내수 의료기기 역대 최대 실적 전망-IBK투자증권",
-          "url": "https://mt.co.kr/stock/2026/07/23/2026072308230867869",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-07-23T08:27:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

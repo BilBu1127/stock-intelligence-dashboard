@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-05T17:07:27.510434Z",
+  "generated_at": "2026-08-06T08:08:11.061695Z",
   "company_name": "하나머티리얼즈",
   "stock_code": "166090",
   "status": "partial",
-  "last_successful_update": "2026-08-05T17:07:27.510434Z",
+  "last_successful_update": "2026-08-06T08:08:11.061695Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -54,6 +54,54 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-07-22T07:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8933c22d34cb8c84",
+      "company_name": "하나머티리얼즈",
+      "stock_code": "166090",
+      "representative_title": "하나머티리얼즈 , 선단 메모리 확대 수혜…10세대 낸드 극저온 장비 '주...",
+      "representative_url": "https://newsprime.co.kr/news/article.html?no=742858",
+      "representative_source": "newsprime.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-05T22:36:00Z",
+      "last_published_at": "2026-08-05T22:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsprime.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "nand"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "하나머티리얼즈 , 선단 메모리 확대 수혜…10세대 낸드 극저온 장비 '주...",
+          "url": "https://newsprime.co.kr/news/article.html?no=742858",
+          "source": "newsprime.co.kr",
+          "source_domain": "newsprime.co.kr",
+          "published_at": "2026-08-06T07:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -470,53 +518,6 @@
           "source": "ajunews.com",
           "source_domain": "ajunews.com",
           "published_at": "2026-07-22T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf69af88c26bd62f",
-      "company_name": "하나머티리얼즈",
-      "stock_code": "166090",
-      "representative_title": "신한투자증권 \" 하나머티리얼즈 , 가동률 상승에 계단식 성장…목표가 43...",
-      "representative_url": "https://etoday.co.kr/news/view/2605952",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-21T23:46:00Z",
-      "last_published_at": "2026-07-21T23:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "신한투자증권 \" 하나머티리얼즈 , 가동률 상승에 계단식 성장…목표가 43...",
-          "url": "https://etoday.co.kr/news/view/2605952",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-07-22T08:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
