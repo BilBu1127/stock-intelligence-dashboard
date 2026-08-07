@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-08-06T08:08:11.061695Z",
+  "generated_at": "2026-08-07T05:25:12.965849Z",
   "company_name": "포스코인터내셔널",
   "stock_code": "047050",
-  "status": "ok",
-  "last_successful_update": "2026-08-06T08:08:11.061695Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-07T05:25:12.965849Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "6ca9620082661970",
+      "company_name": "포스코인터내셔널",
+      "stock_code": "047050",
+      "representative_title": "크래블, 인도네시아 팜 무인화 사업 계약 체결… 포스코인터내셔널 계열...",
+      "representative_url": "https://youngnong.co.kr/news/articleView.html?idxno=61406",
+      "representative_source": "youngnong.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-07T02:34:00Z",
+      "last_published_at": "2026-08-07T02:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "youngnong.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "크래블, 인도네시아 팜 무인화 사업 계약 체결… 포스코인터내셔널 계열...",
+          "url": "https://youngnong.co.kr/news/articleView.html?idxno=61406",
+          "source": "youngnong.co.kr",
+          "source_domain": "youngnong.co.kr",
+          "published_at": "2026-08-07T11:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "f4525603ed98b49a",
       "company_name": "포스코인터내셔널",
@@ -459,54 +511,6 @@
           "source": "gukjenews.com",
           "source_domain": "gukjenews.com",
           "published_at": "2026-07-23T12:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b87030ca17e1ec54",
-      "company_name": "포스코인터내셔널",
-      "stock_code": "047050",
-      "representative_title": "포스코인터내셔널 , 2분기 영업실적 시장 예상 초과... 주가 반등 기대",
-      "representative_url": "https://gokorea.kr/news/articleView.html?idxno=872860",
-      "representative_source": "gokorea.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-23T00:54:00Z",
-      "last_published_at": "2026-07-23T00:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gokorea.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 5,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "포스코인터내셔널 , 2분기 영업실적 시장 예상 초과... 주가 반등 기대",
-          "url": "https://gokorea.kr/news/articleView.html?idxno=872860",
-          "source": "gokorea.kr",
-          "source_domain": "gokorea.kr",
-          "published_at": "2026-07-23T09:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
