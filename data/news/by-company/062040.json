@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-07T05:25:12.965849Z",
+  "generated_at": "2026-08-07T14:39:36.036989Z",
   "company_name": "산일전기",
   "stock_code": "062040",
   "status": "partial",
-  "last_successful_update": "2026-08-07T05:25:12.965849Z",
+  "last_successful_update": "2026-08-07T14:39:36.036989Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -67,18 +67,20 @@
       "representative_source": "cbci.co.kr",
       "representative_language": "Korean",
       "first_published_at": "2026-08-07T02:50:00Z",
-      "last_published_at": "2026-08-07T05:25:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
+      "last_published_at": "2026-08-07T12:48:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "cbci.co.kr",
+        "electimes.com",
         "wowtv.co.kr"
       ],
       "categories": [
+        "공급·규제",
         "실적"
       ],
       "event_keywords": [
@@ -94,6 +96,16 @@
       ],
       "needs_review": false,
       "articles": [
+        {
+          "title": "산일전기 , 2분기 영업이익 620억…영업이익률 37.8%",
+          "url": "https://electimes.com/news/articleView.html?idxno=371120",
+          "source": "electimes.com",
+          "source_domain": "electimes.com",
+          "published_at": "2026-08-07T21:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "산일전기 , 2분기 영업익 620억...전년비 34.3%↑",
           "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608070390&t=NN",
