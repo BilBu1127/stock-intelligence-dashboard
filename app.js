@@ -451,6 +451,8 @@ function renderWatchlist() {
     const disclosureSummary = getDisclosureSummary(company.code);
     const disclosureCount = disclosureSummary?.disclosureCount ?? getDisclosuresForCompany(company.code).length;
     const latestDisclosureDate = window.WatchlistSort.formatDisclosureDate(disclosureSummary?.latestDisclosureAt);
+    const latestDisclosure = getDisclosuresForCompany(company.code)[0];
+    const latestDisclosureType = window.DisclosureCategory.latestType(latestDisclosure?.reportName);
     const status = getWatchlistStatus(company, disclosureCount);
     const revenueQoq = getQoQText(quarters, "revenue").replace("QoQ ", "");
     const operatingQoq = getQoQText(quarters, "operatingIncome").replace("QoQ ", "");
@@ -461,7 +463,7 @@ function renderWatchlist() {
           <span class="chip ${status.tone}">${status.label}</span>
           <strong>${escapeHtml(company.name)}</strong>
           <span>${escapeHtml(company.code)} · ${escapeHtml(company.category || "N/A")} · ${escapeHtml(tierLabel(company.monitoringTier))}</span>
-          <span class="watchlist-disclosure-date">최근 공시 ${latestDisclosureDate || "없음"}</span>
+          <span class="watchlist-disclosure-date">최근 공시 ${latestDisclosureDate || "없음"}${latestDisclosureType ? `<span class="watchlist-disclosure-type">${escapeHtml(latestDisclosureType)}</span>` : ""}</span>
         </span>
         <span class="watchlist-metrics">
           <span class="watchlist-metric">
