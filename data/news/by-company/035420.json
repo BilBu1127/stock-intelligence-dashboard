@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-07T14:39:36.036989Z",
+  "generated_at": "2026-08-08T03:57:13.962797Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-08-07T14:39:36.036989Z",
+  "last_successful_update": "2026-08-08T03:57:13.962797Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -54,6 +54,96 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5da908f495d6aecf",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "\"GPU 빨리 바뀌는데\"…눈가린 네이버, 감가상각 '5년→6년'",
+      "representative_url": "https://mt.co.kr/tech/2026/08/08/2026080710413460885",
+      "representative_source": "mt.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-08T01:00:00Z",
+      "last_published_at": "2026-08-08T01:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mt.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"GPU 빨리 바뀌는데\"…눈가린 네이버, 감가상각 '5년→6년'",
+          "url": "https://mt.co.kr/tech/2026/08/08/2026080710413460885",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-08-08T10:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6abe9be5854457fb",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "NAVER (네이버) 주가 주루룩...새주 추가 조정이냐 VS 반등이냐",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=595849",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-08T00:10:00Z",
+      "last_published_at": "2026-08-08T00:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "NAVER (네이버) 주가 주루룩...새주 추가 조정이냐 VS 반등이냐",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=595849",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-08-08T09:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -452,96 +542,6 @@
           "source": "sedaily.com",
           "source_domain": "sedaily.com",
           "published_at": "2026-08-07T08:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "56a46e62f689e398",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "네이버, 2Q 영업익 감소에도 AI 투자 더 늘린다…\"2027년부터는 본격 수...",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=129012",
-      "representative_source": "popcornnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-07T04:52:00Z",
-      "last_published_at": "2026-08-07T04:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "popcornnews.net"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버, 2Q 영업익 감소에도 AI 투자 더 늘린다…\"2027년부터는 본격 수...",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=129012",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-08-07T13:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b5d32598f0e16617",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "네이버, AI 브리핑 이후 블로그 창작자 지원 2배 확대…”수익도 함께 ...",
-      "representative_url": "https://venturesquare.net/1104447",
-      "representative_source": "venturesquare.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-07T04:03:00Z",
-      "last_published_at": "2026-08-07T04:03:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "venturesquare.net"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버, AI 브리핑 이후 블로그 창작자 지원 2배 확대…”수익도 함께 ...",
-          "url": "https://venturesquare.net/1104447",
-          "source": "venturesquare.net",
-          "source_domain": "venturesquare.net",
-          "published_at": "2026-08-07T13:03:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
