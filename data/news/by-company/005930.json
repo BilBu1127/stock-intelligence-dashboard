@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T00:04:01.768103Z",
+  "generated_at": "2026-08-09T13:56:29.370043Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-08-09T00:04:01.768103Z",
+  "last_successful_update": "2026-08-09T13:56:29.370043Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -219,15 +219,15 @@
       ]
     },
     {
-      "cluster_id": "47802d274b2ae363",
+      "cluster_id": "b08438b5c502b326",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 '접는 폰' 역대급 대박에 애플도 '긴장'",
-      "representative_url": "https://sisajournal-e.com/news/articleView.html?idxno=422934",
-      "representative_source": "sisajournal-e.com",
+      "representative_title": "[마켓인사이드] 삼성전자 ·SK하이닉스·마이크론, 메모리 ‘3강 방어전’...",
+      "representative_url": "https://news2day.co.kr/article/20260809500048",
+      "representative_source": "news2day.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-09T00:00:00Z",
-      "last_published_at": "2026-08-09T00:00:00Z",
+      "first_published_at": "2026-08-09T13:30:00Z",
+      "last_published_at": "2026-08-09T13:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -235,100 +235,60 @@
         "naver"
       ],
       "source_domains": [
-        "sisajournal-e.com"
+        "news2day.co.kr"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 '접는 폰' 역대급 대박에 애플도 '긴장'",
-          "url": "https://sisajournal-e.com/news/articleView.html?idxno=422934",
-          "source": "sisajournal-e.com",
-          "source_domain": "sisajournal-e.com",
-          "published_at": "2026-08-09T09:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "16da1c96756ae916",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 美 테일러팹 첫 인턴 뽑는다…TSMC와 현지 인재 확보 경쟁",
-      "representative_url": "https://dt.co.kr/article/12077172",
-      "representative_source": "dt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T23:56:00Z",
-      "last_published_at": "2026-08-08T23:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dt.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 美 테일러팹 첫 인턴 뽑는다…TSMC와 현지 인재 확보 경쟁",
-          "url": "https://dt.co.kr/article/12077172",
-          "source": "dt.co.kr",
-          "source_domain": "dt.co.kr",
-          "published_at": "2026-08-09T08:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1c9760bfd955a22b",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "3445억 자사주 지급 마쳤는데... 삼성전자 DX노조, 뒤늦은 '떼쓰기 집회'",
-      "representative_url": "https://etoday.co.kr/news/view/2612372",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T23:00:00Z",
-      "last_published_at": "2026-08-08T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기타"
+        "기술·제품",
+        "실적",
+        "인사·M&A"
       ],
       "event_keywords": [
-        "3445억"
+        "personnel"
       ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[마켓인사이드] 삼성전자 ·SK하이닉스·마이크론, 메모리 ‘3강 방어전’...",
+          "url": "https://news2day.co.kr/article/20260809500048",
+          "source": "news2day.co.kr",
+          "source_domain": "news2day.co.kr",
+          "published_at": "2026-08-09T22:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "baa563e1f6b41738",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·SK하이닉스 등 수원 집결…차세대 반도체 패키징 산업전 열린...",
+      "representative_url": "https://newstown.co.kr/news/articleView.html?idxno=711799",
+      "representative_source": "newstown.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T13:15:00Z",
+      "last_published_at": "2026-08-09T13:15:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newstown.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -338,11 +298,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "3445억 자사주 지급 마쳤는데... 삼성전자 DX노조, 뒤늦은 '떼쓰기 집회'",
-          "url": "https://etoday.co.kr/news/view/2612372",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-09T08:00:00+09:00",
+          "title": "삼성전자 ·SK하이닉스 등 수원 집결…차세대 반도체 패키징 산업전 열린...",
+          "url": "https://newstown.co.kr/news/articleView.html?idxno=711799",
+          "source": "newstown.co.kr",
+          "source_domain": "newstown.co.kr",
+          "published_at": "2026-08-09T22:15:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -350,15 +310,15 @@
       ]
     },
     {
-      "cluster_id": "effd5468be6abe42",
+      "cluster_id": "4ec41d94de661a5d",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 미국 테일러팹 첫 인턴십 모집…파운드리 증설 속도전",
-      "representative_url": "https://yna.co.kr/view/AKR20260806144200003?input=1195m",
-      "representative_source": "yna.co.kr",
+      "representative_title": "삼성전자 , 영하 30도 '난방 한계' 넘는다…美 국립연구소와 히트펌프 개...",
+      "representative_url": "https://biztribune.co.kr/news/articleView.html?idxno=357181",
+      "representative_source": "biztribune.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-08T21:05:00Z",
-      "last_published_at": "2026-08-08T21:05:00Z",
+      "first_published_at": "2026-08-09T12:02:00Z",
+      "last_published_at": "2026-08-09T12:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -366,7 +326,50 @@
         "naver"
       ],
       "source_domains": [
-        "yna.co.kr"
+        "biztribune.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 영하 30도 '난방 한계' 넘는다…美 국립연구소와 히트펌프 개...",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=357181",
+          "source": "biztribune.co.kr",
+          "source_domain": "biztribune.co.kr",
+          "published_at": "2026-08-09T21:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b1b46e5da0b32339",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "\" 삼성전자 , 올해 BOE의 TV LCD 구매량 2배로 늘린다\"",
+      "representative_url": "https://zdnet.co.kr/view?no=20260809202550",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T11:26:00Z",
+      "last_published_at": "2026-08-09T11:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
       ],
       "categories": [
         "기타"
@@ -382,11 +385,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 미국 테일러팹 첫 인턴십 모집…파운드리 증설 속도전",
-          "url": "https://yna.co.kr/view/AKR20260806144200003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-09T06:05:00+09:00",
+          "title": "\" 삼성전자 , 올해 BOE의 TV LCD 구매량 2배로 늘린다\"",
+          "url": "https://zdnet.co.kr/view?no=20260809202550",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-08-09T20:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -394,15 +397,15 @@
       ]
     },
     {
-      "cluster_id": "60a31161cf84a453",
+      "cluster_id": "3fccb3729495c2f0",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "\"AI 시대 특허가 경쟁력\"… 삼성전자 , 올해 30만건 특허 시대 연다",
-      "representative_url": "https://ajunews.com/view/20260807152333285",
-      "representative_source": "ajunews.com",
+      "representative_title": "삼성전자 , 美 오크리지국립연구소와 한랭지 히트펌프 기술 개발",
+      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=206235",
+      "representative_source": "lcnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-08T09:00:00Z",
-      "last_published_at": "2026-08-08T09:00:00Z",
+      "first_published_at": "2026-08-09T10:38:00Z",
+      "last_published_at": "2026-08-09T10:38:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -410,247 +413,250 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com"
+        "lcnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 美 오크리지국립연구소와 한랭지 히트펌프 기술 개발",
+          "url": "https://lcnews.co.kr/news/articleView.html?idxno=206235",
+          "source": "lcnews.co.kr",
+          "source_domain": "lcnews.co.kr",
+          "published_at": "2026-08-09T19:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e4072156da27160d",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 영하 30도 버티는 난방 도전",
+      "representative_url": "https://fnnews.com/news/202608091828424341",
+      "representative_source": "fnnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T09:30:00Z",
+      "last_published_at": "2026-08-09T09:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fnnews.com"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 영하 30도 버티는 난방 도전",
+          "url": "https://fnnews.com/news/202608091828424341",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-08-09T18:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "df15e0294cefac64",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 美 국립연구소와 '차세대 난방 기술' 협력",
+      "representative_url": "https://hankyung.com/article/2026080927961",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T09:08:00Z",
+      "last_published_at": "2026-08-09T09:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 美 국립연구소와 '차세대 난방 기술' 협력",
+          "url": "https://hankyung.com/article/2026080927961",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-08-09T18:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "bd12031b3a9289a8",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 美 국립연구소와 영하 30도 차세대 난방 기술 개발",
+      "representative_url": "https://lkp.news/news/articleView.html?idxno=82763",
+      "representative_source": "lkp.news",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T08:58:00Z",
+      "last_published_at": "2026-08-09T08:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "lkp.news"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 美 국립연구소와 영하 30도 차세대 난방 기술 개발",
+          "url": "https://lkp.news/news/articleView.html?idxno=82763",
+          "source": "lkp.news",
+          "source_domain": "lkp.news",
+          "published_at": "2026-08-09T17:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3b00851d739ae65a",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "\"의미 있는 수준으로\"… 삼성전자 ·SK하이닉스 주주환원 확대 예고",
+      "representative_url": "https://ggilbo.com/news/articleView.html?idxno=1173726",
+      "representative_source": "ggilbo.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T07:26:00Z",
+      "last_published_at": "2026-08-09T07:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ggilbo.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"의미 있는 수준으로\"… 삼성전자 ·SK하이닉스 주주환원 확대 예고",
+          "url": "https://ggilbo.com/news/articleView.html?idxno=1173726",
+          "source": "ggilbo.com",
+          "source_domain": "ggilbo.com",
+          "published_at": "2026-08-09T16:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8a6251ed7232a696",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·하이닉스, 3분기 영업이익 200조원 간다",
+      "representative_url": "https://m.skyedaily.com/news_view.html?ID=309434",
+      "representative_source": "m.skyedaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-09T05:14:00Z",
+      "last_published_at": "2026-08-09T05:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "m.skyedaily.com"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"AI 시대 특허가 경쟁력\"… 삼성전자 , 올해 30만건 특허 시대 연다",
-          "url": "https://ajunews.com/view/20260807152333285",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-08T18:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e3d6cf89f26e1a4c",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "\"생체정보 수집 증거 없다\"… 삼성전자 , 美집단소송 최종 승소",
-      "representative_url": "https://kpinews.kr/newsView/1065599147938874",
-      "representative_source": "kpinews.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T07:50:00Z",
-      "last_published_at": "2026-08-08T07:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kpinews.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"생체정보 수집 증거 없다\"… 삼성전자 , 美집단소송 최종 승소",
-          "url": "https://kpinews.kr/newsView/1065599147938874",
-          "source": "kpinews.kr",
-          "source_domain": "kpinews.kr",
-          "published_at": "2026-08-08T16:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b4af6e6de93b4c5b",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 FMS서 2관왕… 'LPDDR5X-PIM'으로 차세대 메모리상",
-      "representative_url": "https://econovill.com/news/articleView.html?idxno=747479",
-      "representative_source": "econovill.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T05:40:00Z",
-      "last_published_at": "2026-08-08T05:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "econovill.com"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 FMS서 2관왕… 'LPDDR5X-PIM'으로 차세대 메모리상",
-          "url": "https://econovill.com/news/articleView.html?idxno=747479",
-          "source": "econovill.com",
-          "source_domain": "econovill.com",
-          "published_at": "2026-08-08T14:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3de4101aabea6d88",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "[Biz&Law] 삼성전자 , 美서 QR코드 특허소송 피소",
-      "representative_url": "https://the-biz.co.kr/news/articleView.html?idxno=725903",
-      "representative_source": "the-biz.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T05:00:00Z",
-      "last_published_at": "2026-08-08T05:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "the-biz.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[Biz&Law] 삼성전자 , 美서 QR코드 특허소송 피소",
-          "url": "https://the-biz.co.kr/news/articleView.html?idxno=725903",
-          "source": "the-biz.co.kr",
-          "source_domain": "the-biz.co.kr",
-          "published_at": "2026-08-08T14:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "44b02538137aa091",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "포스텍· 삼성전자 , 3D 낸드 한계 넘는 방향 제어형 결정화 기술 개발",
-      "representative_url": "https://hidomin.com/news/articleView.html?idxno=716416",
-      "representative_source": "hidomin.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T04:06:00Z",
-      "last_published_at": "2026-08-08T04:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hidomin.com"
-      ],
-      "categories": [
-        "기술·제품"
+        "실적",
+        "투자·생산"
       ],
       "event_keywords": [
-        "nand"
+        " 200조",
+        "earnings"
       ],
-      "importance_score": 15,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "포스텍· 삼성전자 , 3D 낸드 한계 넘는 방향 제어형 결정화 기술 개발",
-          "url": "https://hidomin.com/news/articleView.html?idxno=716416",
-          "source": "hidomin.com",
-          "source_domain": "hidomin.com",
-          "published_at": "2026-08-08T13:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "75ef9097ab1006ef",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 69조 거래…거래대금 압도",
-      "representative_url": "https://kjdaily.com/article.php?aid=1786159526684069227",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-08T03:30:00Z",
-      "last_published_at": "2026-08-08T03:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 69조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스 69조 거래…거래대금 압도",
-          "url": "https://kjdaily.com/article.php?aid=1786159526684069227",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-08-08T12:30:00+09:00",
+          "title": "삼성전자 ·하이닉스, 3분기 영업이익 200조원 간다",
+          "url": "https://m.skyedaily.com/news_view.html?ID=309434",
+          "source": "m.skyedaily.com",
+          "source_domain": "m.skyedaily.com",
+          "published_at": "2026-08-09T14:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
