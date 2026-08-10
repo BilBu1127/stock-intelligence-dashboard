@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-10T05:07:51.332308Z",
+  "generated_at": "2026-08-10T14:44:58.962050Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-08-10T05:07:51.332308Z",
+  "last_successful_update": "2026-08-10T14:44:58.962050Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -131,6 +131,54 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-07-13T14:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "51cc4aab92799c44",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "[속보] 테크윙 , 마이크론 인도법인과 91억원 규모 반도체 검사장비 공급...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=596721",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-10T05:54:00Z",
+      "last_published_at": "2026-08-10T05:54:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        " 91억",
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[속보] 테크윙 , 마이크론 인도법인과 91억원 규모 반도체 검사장비 공급...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=596721",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-08-10T14:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -581,66 +629,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-07-20T10:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e54e89d6350e7615",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "[특징주] 테크윙 , 2분기 호실적+SK하닉 투자 수혜 기대 '급등'",
-      "representative_url": "https://g-enews.com/view.php?ud=20260714100127855244093b5d4e_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-14T01:12:00Z",
-      "last_published_at": "2026-07-14T05:20:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com",
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings",
-        "investment"
-      ],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테크윙 , 2분기 실적 호조·SK 美 투자 기대감에 10%대 강세[특징주]",
-          "url": "https://newsway.co.kr/news/view?ud=2026071413560080624",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-07-14T14:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[특징주] 테크윙 , 2분기 호실적+SK하닉 투자 수혜 기대 '급등'",
-          "url": "https://g-enews.com/view.php?ud=20260714100127855244093b5d4e_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-07-14T10:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
