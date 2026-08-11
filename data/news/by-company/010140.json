@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-11T04:06:28.600749Z",
+  "generated_at": "2026-08-11T14:45:12.149413Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-08-11T04:06:28.600749Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-11T14:45:12.149413Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "5f37f873c7c9b5e5",
@@ -50,6 +55,54 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-07-27T08:33:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "be16e4f1deb1cb1a",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "한국주강, 삼성중공업 과 대형 주강품 계약…수주잔고 30% 증가",
+      "representative_url": "https://view.asiae.co.kr/article/2026081113565895747",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-11T04:56:00Z",
+      "last_published_at": "2026-08-11T04:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한국주강, 삼성중공업 과 대형 주강품 계약…수주잔고 30% 증가",
+          "url": "https://view.asiae.co.kr/article/2026081113565895747",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-08-11T13:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -488,49 +541,6 @@
           "source": "newswatch.kr",
           "source_domain": "newswatch.kr",
           "published_at": "2026-08-06T09:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d321ea5c952af192",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "[부고] 김부경(전 삼성중공업 커뮤니케이션팀장)씨 장인상",
-      "representative_url": "https://ngetnews.com/news/articleView.html?idxno=552170",
-      "representative_source": "ngetnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-05T13:12:00Z",
-      "last_published_at": "2026-08-05T13:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ngetnews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[부고] 김부경(전 삼성중공업 커뮤니케이션팀장)씨 장인상",
-          "url": "https://ngetnews.com/news/articleView.html?idxno=552170",
-          "source": "ngetnews.com",
-          "source_domain": "ngetnews.com",
-          "published_at": "2026-08-05T22:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
