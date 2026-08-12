@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-11T14:45:12.149413Z",
+  "generated_at": "2026-08-12T05:18:22.161470Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-08-11T14:45:12.149413Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-12T05:18:22.161470Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8d04d8687c818fb5",
@@ -47,6 +52,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-07T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "969a080e076283ad",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "[특징주] 한화에어로스페이스 , 'KAI 2대주주' 굳히기에 6% 강세…2분기 영...",
+      "representative_url": "https://namdonews.com/news/articleView.html?idxno=919822",
+      "representative_source": "namdonews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-12T04:34:00Z",
+      "last_published_at": "2026-08-12T04:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "namdonews.com"
+      ],
+      "categories": [
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 한화에어로스페이스 , 'KAI 2대주주' 굳히기에 6% 강세…2분기 영...",
+          "url": "https://namdonews.com/news/articleView.html?idxno=919822",
+          "source": "namdonews.com",
+          "source_domain": "namdonews.com",
+          "published_at": "2026-08-12T13:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -466,50 +515,6 @@
           "source": "pinpointnews.co.kr",
           "source_domain": "pinpointnews.co.kr",
           "published_at": "2026-08-05T06:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "826e274c2844fb5a",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "[브랜드평판] 한화에어로스페이스 , 우주항공국방 상장기업 8월 1위···...",
-      "representative_url": "https://enetnews.co.kr/news/articleView.html?idxno=53079",
-      "representative_source": "enetnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-04T21:38:00Z",
-      "last_published_at": "2026-08-04T21:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "enetnews.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[브랜드평판] 한화에어로스페이스 , 우주항공국방 상장기업 8월 1위···...",
-          "url": "https://enetnews.co.kr/news/articleView.html?idxno=53079",
-          "source": "enetnews.co.kr",
-          "source_domain": "enetnews.co.kr",
-          "published_at": "2026-08-05T06:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
