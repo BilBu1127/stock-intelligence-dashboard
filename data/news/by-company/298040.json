@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-12T14:45:12.572148Z",
+  "generated_at": "2026-08-13T05:23:23.372280Z",
   "company_name": "효성중공업",
   "stock_code": "298040",
-  "status": "ok",
-  "last_successful_update": "2026-08-12T14:45:12.572148Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-13T05:23:23.372280Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "3c74df1bd4c52445",
@@ -145,6 +150,52 @@
           "source": "impacton.net",
           "source_domain": "impacton.net",
           "published_at": "2026-07-20T11:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cdbff654b6ff5ef8",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "美, 변압기 '메이드 인 USA' 확대 … 효성중공업 등 'K-전력기기' 현지화...",
+      "representative_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/13/2026081300091.html",
+      "representative_source": "biz.newdaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-13T02:06:00Z",
+      "last_published_at": "2026-08-13T02:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.newdaily.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 25,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "美, 변압기 '메이드 인 USA' 확대 … 효성중공업 등 'K-전력기기' 현지화...",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/13/2026081300091.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-08-13T11:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -559,50 +610,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-08-08T12:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2e815e0deb2f2849",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "AI 전력 시대 연 조현준… 효성중공업 초고압 승부수 결실",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026080710542962692",
-      "representative_source": "newsway.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-07T04:50:00Z",
-      "last_published_at": "2026-08-07T04:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "AI 전력 시대 연 조현준… 효성중공업 초고압 승부수 결실",
-          "url": "https://newsway.co.kr/news/view?ud=2026080710542962692",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-08-07T13:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
