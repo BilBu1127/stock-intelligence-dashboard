@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T05:23:23.372280Z",
+  "generated_at": "2026-08-13T14:46:48.923548Z",
   "company_name": "산일전기",
   "stock_code": "062040",
   "status": "partial",
-  "last_successful_update": "2026-08-13T05:23:23.372280Z",
+  "last_successful_update": "2026-08-13T14:46:48.923548Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -341,6 +341,51 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-07-27T08:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9be026d9affb0b25",
+      "company_name": "산일전기",
+      "stock_code": "062040",
+      "representative_title": "산일전기 8월 32% 상승, 전력기기주 동반 반등",
+      "representative_url": "https://tokenpost.kr/news/market/389879",
+      "representative_source": "tokenpost.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-13T06:14:00Z",
+      "last_published_at": "2026-08-13T06:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "tokenpost.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "산일전기 8월 32% 상승, 전력기기주 동반 반등",
+          "url": "https://tokenpost.kr/news/market/389879",
+          "source": "tokenpost.kr",
+          "source_domain": "tokenpost.kr",
+          "published_at": "2026-08-13T15:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -757,52 +802,6 @@
           "source": "greened.kr",
           "source_domain": "greened.kr",
           "published_at": "2026-08-10T10:49:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c16497d88de01826",
-      "company_name": "산일전기",
-      "stock_code": "062040",
-      "representative_title": "\"변압기 수주 기대\" 산일전기 주가 15%대 급등",
-      "representative_url": "https://gukjenews.com/news/articleView.html?idxno=3660116",
-      "representative_source": "gukjenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-10T01:46:00Z",
-      "last_published_at": "2026-08-10T01:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gukjenews.com"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"변압기 수주 기대\" 산일전기 주가 15%대 급등",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3660116",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-08-10T10:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-13T05:23:23.372280Z",
+  "generated_at": "2026-08-13T14:46:48.923548Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-08-13T05:23:23.372280Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-13T14:46:48.923548Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "e7725e271975cd24",
@@ -222,50 +227,6 @@
           "source": "g-enews.com",
           "source_domain": "g-enews.com",
           "published_at": "2026-07-18T11:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "54ce48ed8ac5afc6",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "\"본업(철강) 부진 빈자리, 부업(인프라·리튬)이 채웠다… POSCO홀딩스 2분...",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=269671",
-      "representative_source": "newsquest.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-13T10:42:00Z",
-      "last_published_at": "2026-07-13T10:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsquest.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 10,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"본업(철강) 부진 빈자리, 부업(인프라·리튬)이 채웠다… POSCO홀딩스 2분...",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=269671",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-07-13T19:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
