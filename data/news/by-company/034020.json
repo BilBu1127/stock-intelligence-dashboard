@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-14T14:37:35.788381Z",
+  "generated_at": "2026-08-14T23:59:13.224938Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-08-14T14:37:35.788381Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-14T23:59:13.224938Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "62a5d824bf0ebedf",
@@ -1242,6 +1247,50 @@
       ]
     },
     {
+      "cluster_id": "190794dae65f3c33",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "두산에너빌리티 주가 강세…빌 게이츠가 띄운 'SMR 훈풍', 다음장서 이어...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=598382",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-14T15:16:00Z",
+      "last_published_at": "2026-08-14T15:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "두산에너빌리티 주가 강세…빌 게이츠가 띄운 'SMR 훈풍', 다음장서 이어...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=598382",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-08-15T00:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "b596c6a1810ff4d4",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -1639,49 +1688,6 @@
           "source": "news.mtn.co.kr",
           "source_domain": "news.mtn.co.kr",
           "published_at": "2026-08-14T14:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "794f34a5c3245b81",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 테라파워 SMR 제작 본격화",
-      "representative_url": "https://m-i.kr/news/articleView.html?idxno=1402568",
-      "representative_source": "m-i.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T05:00:00Z",
-      "last_published_at": "2026-08-14T05:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m-i.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 , 테라파워 SMR 제작 본격화",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1402568",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-08-14T14:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
