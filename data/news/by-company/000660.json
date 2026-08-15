@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-14T23:59:13.224938Z",
+  "generated_at": "2026-08-15T11:51:34.126068Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-08-14T23:59:13.224938Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-15T11:51:34.126068Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "90c524b7bb3fe92e",
@@ -3615,62 +3620,15 @@
       ]
     },
     {
-      "cluster_id": "c634899462059c18",
+      "cluster_id": "8c0c691a2df5e566",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "메모리 투톱 삼성 · SK하이닉스 소액주주 1143만명 … 반년 새 604만명↑",
-      "representative_url": "https://inews24.com/view/1995282",
-      "representative_source": "inews24.com",
+      "representative_title": "삼성전자· SK하이닉스 투자에 웃었다…테스, 신규 수주 급증",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477714",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T23:15:00Z",
-      "last_published_at": "2026-08-14T23:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt",
-        "naver"
-      ],
-      "source_domains": [
-        "inews24.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "메모리 투톱 삼성 · SK하이닉스 소액주주 1143만명 … 반년 새 604만명↑",
-          "url": "https://inews24.com/view/1995282",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-08-14T23:15:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8670646ff28bf5b1",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "“내년 물량 2배 달라, 전쟁 중”…‘반토막’ 났던 SK하이닉스 160만원...",
-      "representative_url": "https://segye.com/newsView/20260815503937?OutUrl=naver",
-      "representative_source": "segye.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T23:02:00Z",
-      "last_published_at": "2026-08-14T23:02:00Z",
+      "first_published_at": "2026-08-15T05:24:00Z",
+      "last_published_at": "2026-08-15T05:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3678,7 +3636,7 @@
         "naver"
       ],
       "source_domains": [
-        "segye.com"
+        "pinpointnews.co.kr"
       ],
       "categories": [
         "공급·규제",
@@ -3687,21 +3645,24 @@
         "주가·투자의견",
         "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "“내년 물량 2배 달라, 전쟁 중”…‘반토막’ 났던 SK하이닉스 160만원...",
-          "url": "https://segye.com/newsView/20260815503937?OutUrl=naver",
-          "source": "segye.com",
-          "source_domain": "segye.com",
-          "published_at": "2026-08-15T08:02:00+09:00",
+          "title": "삼성전자· SK하이닉스 투자에 웃었다…테스, 신규 수주 급증",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477714",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-08-15T14:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3709,15 +3670,15 @@
       ]
     },
     {
-      "cluster_id": "6a619d60f466da0a",
+      "cluster_id": "cc3f6279cbf2e377",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[류소현의 주주톡] \"이렇게 벌었는데 얼마 줄 건가요?\"… SK하이닉스 주주...",
-      "representative_url": "https://ajunews.com/view/20260814175643948",
-      "representative_source": "ajunews.com",
+      "representative_title": "'최태원의 전략통'… SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경...",
+      "representative_url": "https://hankyung.com/article/2026081425646",
+      "representative_source": "hankyung.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T23:02:00Z",
-      "last_published_at": "2026-08-14T23:02:00Z",
+      "first_published_at": "2026-08-15T05:01:00Z",
+      "last_published_at": "2026-08-15T05:01:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3725,59 +3686,63 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com"
+        "hankyung.com"
       ],
       "categories": [
-        "실적",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[류소현의 주주톡] \"이렇게 벌었는데 얼마 줄 건가요?\"… SK하이닉스 주주...",
-          "url": "https://ajunews.com/view/20260814175643948",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-15T08:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "be5abc15b6559f89",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[ 단독 ] 최태원 회장 결단 없으면 투쟁 … SK하이닉스 노조마저 거리로 나서나",
-      "representative_url": "https://biz.heraldcorp.com/article/10842046",
-      "representative_source": "biz.heraldcorp.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T23:00:00Z",
-      "last_published_at": "2026-08-14T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt",
-        "naver"
-      ],
-      "source_domains": [
-        "biz.heraldcorp.com"
-      ],
-      "categories": [
-        "기타"
+        "기술·제품",
+        "인사·M&A"
       ],
       "event_keywords": [
         "executive"
       ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'최태원의 전략통'… SK하이닉스 AI 신사업 발굴 맡은 기타리스트 [강경...",
+          "url": "https://hankyung.com/article/2026081425646",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-08-15T14:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "84c1aa7c04f24311",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 곽노정 261억, 마이크론과 비교하면 달라진다",
+      "representative_url": "https://sateconomy.co.kr/news/view/1065584771546269",
+      "representative_source": "sateconomy.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-15T03:52:00Z",
+      "last_published_at": "2026-08-15T03:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sateconomy.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "인사·M&A",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        " 261억"
+      ],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -3787,27 +3752,27 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[ 단독 ] 최태원 회장 결단 없으면 투쟁 … SK하이닉스 노조마저 거리로 나서나",
-          "url": "https://biz.heraldcorp.com/article/10842046",
-          "source": "biz.heraldcorp.com",
-          "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-08-14T23:00:00Z",
+          "title": "SK하이닉스 곽노정 261억, 마이크론과 비교하면 달라진다",
+          "url": "https://sateconomy.co.kr/news/view/1065584771546269",
+          "source": "sateconomy.co.kr",
+          "source_domain": "sateconomy.co.kr",
+          "published_at": "2026-08-15T12:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
-          "provider": "BOTH"
+          "provider": "NAVER"
         }
       ]
     },
     {
-      "cluster_id": "8a33bc9961584bab",
+      "cluster_id": "092129e41fbb9ea1",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 상반기 매출 64% 미국서-빅테크 2곳서 34조원",
-      "representative_url": "https://mediafine.co.kr/news/articleView.html?idxno=86739",
-      "representative_source": "mediafine.co.kr",
+      "representative_title": "SK하이닉스 , AI 호황에 실적 또 뛴다…\"지금이 비중 확대 기회\"",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477689",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T22:52:00Z",
-      "last_published_at": "2026-08-14T22:52:00Z",
+      "first_published_at": "2026-08-15T02:36:00Z",
+      "last_published_at": "2026-08-15T02:36:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3815,15 +3780,13 @@
         "naver"
       ],
       "source_domains": [
-        "mediafine.co.kr"
+        "pinpointnews.co.kr"
       ],
       "categories": [
-        "공급·규제",
         "기술·제품",
         "실적"
       ],
       "event_keywords": [
-        " 34조",
         "earnings"
       ],
       "importance_score": 30,
@@ -3836,11 +3799,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 상반기 매출 64% 미국서-빅테크 2곳서 34조원",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=86739",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-08-15T07:52:00+09:00",
+          "title": "SK하이닉스 , AI 호황에 실적 또 뛴다…\"지금이 비중 확대 기회\"",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477689",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-08-15T11:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3848,15 +3811,15 @@
       ]
     },
     {
-      "cluster_id": "8d0100465cbc4709",
+      "cluster_id": "4bca56f84b0898d1",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 美 전공정 메모리 팹 부지 검토…공급망 현지화 대응",
-      "representative_url": "https://g-enews.com/view.php?ud=20260815065030954fbbec65dfb_1",
-      "representative_source": "g-enews.com",
+      "representative_title": "8월 2주차 SK하이닉스 주가 견조한 상승세",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16164313",
+      "representative_source": "topstarnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T21:54:00Z",
-      "last_published_at": "2026-08-14T21:54:00Z",
+      "first_published_at": "2026-08-15T02:24:00Z",
+      "last_published_at": "2026-08-15T02:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3864,30 +3827,27 @@
         "naver"
       ],
       "source_domains": [
-        "g-enews.com"
+        "topstarnews.net"
       ],
       "categories": [
-        "공급·규제",
-        "기술·제품"
+        "주가·투자의견"
       ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 0,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "단순 주가·종목 추천 -25"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 美 전공정 메모리 팹 부지 검토…공급망 현지화 대응",
-          "url": "https://g-enews.com/view.php?ud=20260815065030954fbbec65dfb_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-08-15T06:54:00+09:00",
+          "title": "8월 2주차 SK하이닉스 주가 견조한 상승세",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16164313",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-08-15T11:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3895,15 +3855,15 @@
       ]
     },
     {
-      "cluster_id": "a98c5e4765ce0a6f",
+      "cluster_id": "6668ec44330d8b7f",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "박정호 전 SK하이닉스 부회장, 퇴임 2년차에 169억...남은 청구서는 2881...",
-      "representative_url": "https://digitaltoday.co.kr/news/articleView.html?idxno=693304",
-      "representative_source": "digitaltoday.co.kr",
+      "representative_title": "‘반도체 대장주’에 개미 몰렸다…삼성전자· SK하이닉스 소액주주 1143...",
+      "representative_url": "https://mediapen.com/news/view/1116706",
+      "representative_source": "mediapen.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T21:42:00Z",
-      "last_published_at": "2026-08-14T21:42:00Z",
+      "first_published_at": "2026-08-15T01:06:00Z",
+      "last_published_at": "2026-08-15T01:06:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3911,102 +3871,13 @@
         "naver"
       ],
       "source_domains": [
-        "digitaltoday.co.kr"
+        "mediapen.com"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 169억",
-        "executive"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "박정호 전 SK하이닉스 부회장, 퇴임 2년차에 169억...남은 청구서는 2881...",
-          "url": "https://digitaltoday.co.kr/news/articleView.html?idxno=693304",
-          "source": "digitaltoday.co.kr",
-          "source_domain": "digitaltoday.co.kr",
-          "published_at": "2026-08-15T06:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "62380eddcccc8ff9",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "곽노정 260억·전영현 24억… SK하이닉스 ·삼성전자 리더, 보수 차이 10.9...",
-      "representative_url": "https://digitaltoday.co.kr/news/articleView.html?idxno=693303",
-      "representative_source": "digitaltoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T21:40:00Z",
-      "last_published_at": "2026-08-14T21:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "digitaltoday.co.kr"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        " 24억",
-        " 260억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "곽노정 260억·전영현 24억… SK하이닉스 ·삼성전자 리더, 보수 차이 10.9...",
-          "url": "https://digitaltoday.co.kr/news/articleView.html?idxno=693303",
-          "source": "digitaltoday.co.kr",
-          "source_domain": "digitaltoday.co.kr",
-          "published_at": "2026-08-15T06:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6ef2717973fd5775",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "외국인 ' SK하이닉스 ·삼성전자' 던졌다…개미는 SK하닉 집중매수",
-      "representative_url": "https://news2day.co.kr/article/20260815500003",
-      "representative_source": "news2day.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T21:38:00Z",
-      "last_published_at": "2026-08-14T21:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news2day.co.kr"
-      ],
-      "categories": [
-        "기타"
+        "기술·제품",
+        "실적",
+        "인사·M&A",
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -4018,11 +3889,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "외국인 ' SK하이닉스 ·삼성전자' 던졌다…개미는 SK하닉 집중매수",
-          "url": "https://news2day.co.kr/article/20260815500003",
-          "source": "news2day.co.kr",
-          "source_domain": "news2day.co.kr",
-          "published_at": "2026-08-15T06:38:00+09:00",
+          "title": "‘반도체 대장주’에 개미 몰렸다…삼성전자· SK하이닉스 소액주주 1143...",
+          "url": "https://mediapen.com/news/view/1116706",
+          "source": "mediapen.com",
+          "source_domain": "mediapen.com",
+          "published_at": "2026-08-15T10:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4030,15 +3901,15 @@
       ]
     },
     {
-      "cluster_id": "f33cd1a11e5843e8",
+      "cluster_id": "c58c4fecaf01cddf",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[주간 거래소 기관] 삼성전자· SK하이닉스 사고 한국전력·삼양식품 팔았...",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477647",
-      "representative_source": "pinpointnews.co.kr",
+      "representative_title": "SK하이닉스 , 상반기 약 4조원 파생상품 거래 손실 기록",
+      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=546664",
+      "representative_source": "autodaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T21:32:00Z",
-      "last_published_at": "2026-08-14T21:32:00Z",
+      "first_published_at": "2026-08-15T00:56:00Z",
+      "last_published_at": "2026-08-15T00:56:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4046,10 +3917,57 @@
         "naver"
       ],
       "source_domains": [
-        "pinpointnews.co.kr"
+        "autodaily.co.kr"
       ],
       "categories": [
         "기타"
+      ],
+      "event_keywords": [
+        " 4조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 상반기 약 4조원 파생상품 거래 손실 기록",
+          "url": "https://autodaily.co.kr/news/articleView.html?idxno=546664",
+          "source": "autodaily.co.kr",
+          "source_domain": "autodaily.co.kr",
+          "published_at": "2026-08-15T09:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "846b8c0bd10abaa1",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "1143만명 된 삼성전자· SK하이닉스 소액주주",
+      "representative_url": "https://tokenpost.kr/news/market/391274",
+      "representative_source": "tokenpost.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-15T00:48:00Z",
+      "last_published_at": "2026-08-15T00:48:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "tokenpost.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -4061,11 +3979,98 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[주간 거래소 기관] 삼성전자· SK하이닉스 사고 한국전력·삼양식품 팔았...",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=477647",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-08-15T06:32:00+09:00",
+          "title": "1143만명 된 삼성전자· SK하이닉스 소액주주",
+          "url": "https://tokenpost.kr/news/market/391274",
+          "source": "tokenpost.kr",
+          "source_domain": "tokenpost.kr",
+          "published_at": "2026-08-15T09:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ddc8109d61fb949b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[위클리 PICK 3] SK하이닉스 '통합노조' 출범부터 빌 게이츠 이사장 방...",
+      "representative_url": "https://opinionnews.co.kr/news/articleView.html?idxno=143086",
+      "representative_source": "opinionnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-15T00:30:00Z",
+      "last_published_at": "2026-08-15T00:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "opinionnews.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[위클리 PICK 3] SK하이닉스 '통합노조' 출범부터 빌 게이츠 이사장 방...",
+          "url": "https://opinionnews.co.kr/news/articleView.html?idxno=143086",
+          "source": "opinionnews.co.kr",
+          "source_domain": "opinionnews.co.kr",
+          "published_at": "2026-08-15T09:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0db2a6b5a916314b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "'국민주' 반열에 오른 SK하이닉스 …소액주주 68만→346만 명 돌파",
+      "representative_url": "https://fnnews.com/news/202608150818564539",
+      "representative_source": "fnnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-15T00:30:00Z",
+      "last_published_at": "2026-08-15T00:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fnnews.com"
+      ],
+      "categories": [
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'국민주' 반열에 오른 SK하이닉스 …소액주주 68만→346만 명 돌파",
+          "url": "https://fnnews.com/news/202608150818564539",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-08-15T09:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
