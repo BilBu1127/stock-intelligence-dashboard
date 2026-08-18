@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-17T11:39:26.781571Z",
+  "generated_at": "2026-08-17T23:35:12.222980Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-08-17T11:39:26.781571Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-17T23:35:12.222980Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "4c89bf34badbe437",
@@ -92,6 +97,49 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-07T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8ded89dd52f0c4e6",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "한화에어로스페이스 , 방사청과 ‘탄도수정신관’ 개발…K9 정밀도 6배 높...",
+      "representative_url": "https://kukinews.com/article/view/kuk202608170042",
+      "representative_source": "kukinews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-17T14:44:00Z",
+      "last_published_at": "2026-08-17T14:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kukinews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한화에어로스페이스 , 방사청과 ‘탄도수정신관’ 개발…K9 정밀도 6배 높...",
+          "url": "https://kukinews.com/article/view/kuk202608170042",
+          "source": "kukinews.com",
+          "source_domain": "kukinews.com",
+          "published_at": "2026-08-17T23:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -484,49 +532,6 @@
           "source": "iminju.net",
           "source_domain": "iminju.net",
           "published_at": "2026-08-14T17:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e32f39f1fd49ab63",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 , 방사청과 첨단 탄약기술 개발나서",
-      "representative_url": "https://nocutnews.co.kr/news/6563303",
-      "representative_source": "nocutnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-14T08:05:00Z",
-      "last_published_at": "2026-08-14T08:05:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "nocutnews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로스페이스 , 방사청과 첨단 탄약기술 개발나서",
-          "url": "https://nocutnews.co.kr/news/6563303",
-          "source": "nocutnews.co.kr",
-          "source_domain": "nocutnews.co.kr",
-          "published_at": "2026-08-14T17:05:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
