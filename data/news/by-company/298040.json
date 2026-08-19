@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-18T23:35:26.800196Z",
+  "generated_at": "2026-08-19T11:38:51.518253Z",
   "company_name": "효성중공업",
   "stock_code": "298040",
-  "status": "ok",
-  "last_successful_update": "2026-08-18T23:35:26.800196Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-19T11:38:51.518253Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a7d7cd63a89f7939",
@@ -194,6 +199,51 @@
           "source": "impacton.net",
           "source_domain": "impacton.net",
           "published_at": "2026-07-20T11:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4324c69c0f7d7600",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "효성중공업 의 '초격차'…美 관세 악재도 '이상 무'",
+      "representative_url": "https://newsworks.co.kr/news/articleView.html?idxno=850748",
+      "representative_source": "newsworks.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T01:52:00Z",
+      "last_published_at": "2026-08-19T01:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsworks.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "효성중공업 의 '초격차'…美 관세 악재도 '이상 무'",
+          "url": "https://newsworks.co.kr/news/articleView.html?idxno=850748",
+          "source": "newsworks.co.kr",
+          "source_domain": "newsworks.co.kr",
+          "published_at": "2026-08-19T10:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -612,52 +662,6 @@
           "source": "economist.co.kr",
           "source_domain": "economist.co.kr",
           "published_at": "2026-08-13T18:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "39d6d7ed06bb98b3",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "조현준, ㈜효성· 효성중공업 ·효성티앤씨서 상반기 보수 66억 받아",
-      "representative_url": "https://magazine.hankyung.com/business/article/202608130135b",
-      "representative_source": "magazine.hankyung.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-13T08:40:00Z",
-      "last_published_at": "2026-08-13T08:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "magazine.hankyung.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 66억"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "조현준, ㈜효성· 효성중공업 ·효성티앤씨서 상반기 보수 66억 받아",
-          "url": "https://magazine.hankyung.com/business/article/202608130135b",
-          "source": "magazine.hankyung.com",
-          "source_domain": "magazine.hankyung.com",
-          "published_at": "2026-08-13T17:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
