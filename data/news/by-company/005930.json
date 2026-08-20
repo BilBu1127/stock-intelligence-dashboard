@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T11:38:51.518253Z",
+  "generated_at": "2026-08-19T23:35:28.841146Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-08-19T11:38:51.518253Z",
+  "last_successful_update": "2026-08-19T23:35:28.841146Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -21,27 +21,24 @@
       "representative_language": "Korean",
       "first_published_at": "2026-08-19T10:17:00Z",
       "last_published_at": "2026-08-19T11:29:00Z",
-      "article_count": 10,
-      "domestic_article_count": 10,
+      "article_count": 7,
+      "domestic_article_count": 7,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "fnnews.com",
-        "kookje.co.kr",
         "munhwa.com",
-        "news.tvchosun.com",
         "newspim.com",
         "sedaily.com",
-        "view.asiae.co.kr",
-        "wowtv.co.kr",
+        "segyebiz.com",
         "yna.co.kr",
         "yonhapnewstv.co.kr"
       ],
       "categories": [
+        "공급·규제",
         "기술·제품",
-        "기타",
         "실적",
         "투자·생산"
       ],
@@ -79,31 +76,11 @@
           "provider": "NAVER"
         },
         {
-          "title": "\" 삼성전자 , 수요 폭증에 파운드리 가격 최대 15% 인상\"",
-          "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/19/2026081990310.html",
-          "source": "news.tvchosun.com",
-          "source_domain": "news.tvchosun.com",
-          "published_at": "2026-08-19T20:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[속보] 로이터 “ 삼성전자 , 파운드리 가격 최대 15% 인상”",
-          "url": "https://kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260819.99099005475",
-          "source": "kookje.co.kr",
-          "source_domain": "kookje.co.kr",
-          "published_at": "2026-08-19T20:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
           "title": "로이터 \" 삼성전자 , 파운드리 가격 최대 15% 인상\"",
-          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608190857&t=NN",
-          "source": "wowtv.co.kr",
-          "source_domain": "wowtv.co.kr",
-          "published_at": "2026-08-19T19:47:00+09:00",
+          "url": "https://segyebiz.com/newsView/20260819523668?OutUrl=naver",
+          "source": "segyebiz.com",
+          "source_domain": "segyebiz.com",
+          "published_at": "2026-08-19T20:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -119,11 +96,11 @@
           "provider": "NAVER"
         },
         {
-          "title": "\" 삼성전자 , 일부 파운드리 가격 최대 15% 인상\"",
-          "url": "https://view.asiae.co.kr/article/2026081919343727466",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-08-19T19:34:00+09:00",
+          "title": "로이터 \" 삼성전자 , 수요 폭증에 파운드리 가격 최대 15% 인상\"",
+          "url": "https://yonhapnewstv.co.kr/news/AKR20260819193051dCC",
+          "source": "yonhapnewstv.co.kr",
+          "source_domain": "yonhapnewstv.co.kr",
+          "published_at": "2026-08-19T19:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -133,16 +110,6 @@
           "url": "https://munhwa.com/article/11610523",
           "source": "munhwa.com",
           "source_domain": "munhwa.com",
-          "published_at": "2026-08-19T19:31:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "로이터 \" 삼성전자 , 수요 폭증에 파운드리 가격 최대 15% 인상\"",
-          "url": "https://yonhapnewstv.co.kr/news/AKR20260819193051dCC",
-          "source": "yonhapnewstv.co.kr",
-          "source_domain": "yonhapnewstv.co.kr",
           "published_at": "2026-08-19T19:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
@@ -651,15 +618,69 @@
       ]
     },
     {
-      "cluster_id": "9ffc073dc538173a",
+      "cluster_id": "d3da7063af6e43e4",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 사내 커뮤니티 '나우톡' 전면 실명제 전환... 언제부터?",
-      "representative_url": "https://ggilbo.com/news/articleView.html?idxno=1175887",
-      "representative_source": "ggilbo.com",
+      "representative_title": "삼성전자 , 27일 '갤럭시 이벤트' 개최…갤럭시 S26 새 모델 공개",
+      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1720963",
+      "representative_source": "ebn.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-19T11:26:00Z",
-      "last_published_at": "2026-08-19T11:26:00Z",
+      "first_published_at": "2026-08-19T23:28:00Z",
+      "last_published_at": "2026-08-19T23:34:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ebn.co.kr",
+        "popcornnews.net"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자 , 27일 갤럭시 이벤트…S26 새 모델 공개",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=130197",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-08-20T08:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 27일 '갤럭시 이벤트' 개최…갤럭시 S26 새 모델 공개",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1720963",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-08-20T08:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "abefec6573ac1a2f",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 갤럭시 이벤트 27일 걔최...갤S26 새 모델 출시",
+      "representative_url": "https://thetracker.co.kr/View.aspx?No=4192229",
+      "representative_source": "thetracker.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T23:30:00Z",
+      "last_published_at": "2026-08-19T23:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -667,10 +688,10 @@
         "naver"
       ],
       "source_domains": [
-        "ggilbo.com"
+        "thetracker.co.kr"
       ],
       "categories": [
-        "인사·M&A"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -682,11 +703,142 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 사내 커뮤니티 '나우톡' 전면 실명제 전환... 언제부터?",
-          "url": "https://ggilbo.com/news/articleView.html?idxno=1175887",
-          "source": "ggilbo.com",
-          "source_domain": "ggilbo.com",
-          "published_at": "2026-08-19T20:26:00+09:00",
+          "title": "삼성전자 , 갤럭시 이벤트 27일 걔최...갤S26 새 모델 출시",
+          "url": "https://thetracker.co.kr/View.aspx?No=4192229",
+          "source": "thetracker.co.kr",
+          "source_domain": "thetracker.co.kr",
+          "published_at": "2026-08-20T08:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "148cf7983680a179",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·HD현대가 말한다, 현장의 AI… 마키나락스 '어텐션 2026'",
+      "representative_url": "https://platum.kr/archives/292840",
+      "representative_source": "platum.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T23:30:00Z",
+      "last_published_at": "2026-08-19T23:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "platum.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 ·HD현대가 말한다, 현장의 AI… 마키나락스 '어텐션 2026'",
+          "url": "https://platum.kr/archives/292840",
+          "source": "platum.kr",
+          "source_domain": "platum.kr",
+          "published_at": "2026-08-20T08:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "852192b357822dec",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "'칩플레이션' 맞은 삼성전자 DX, 점유율 확대 승부…·성과주의 재확인",
+      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=210409",
+      "representative_source": "srtimes.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T23:28:00Z",
+      "last_published_at": "2026-08-19T23:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "srtimes.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'칩플레이션' 맞은 삼성전자 DX, 점유율 확대 승부…·성과주의 재확인",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=210409",
+          "source": "srtimes.kr",
+          "source_domain": "srtimes.kr",
+          "published_at": "2026-08-20T08:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f5fa4429b11bbc90",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "갤럭시 S26 새 라인업 나오나.. 삼성전자 , 갤럭시 이벤트 27일 개최",
+      "representative_url": "https://kpenews.com/View.aspx?No=4192220",
+      "representative_source": "kpenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T23:22:00Z",
+      "last_published_at": "2026-08-19T23:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kpenews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "갤럭시 S26 새 라인업 나오나.. 삼성전자 , 갤럭시 이벤트 27일 개최",
+          "url": "https://kpenews.com/View.aspx?No=4192220",
+          "source": "kpenews.com",
+          "source_domain": "kpenews.com",
+          "published_at": "2026-08-20T08:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -702,20 +854,20 @@
       "representative_source": "biz.heraldcorp.com",
       "representative_language": "Korean",
       "first_published_at": "2026-08-19T11:15:00Z",
-      "last_published_at": "2026-08-19T11:24:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
+      "last_published_at": "2026-08-19T23:14:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "biz.heraldcorp.com",
-        "joongangenews.com"
+        "joongangenews.com",
+        "mediafine.co.kr"
       ],
       "categories": [
         "기술·제품",
-        "기타",
         "실적",
         "투자·생산"
       ],
@@ -728,6 +880,16 @@
       ],
       "needs_review": true,
       "articles": [
+        {
+          "title": "삼성전자 , 첨단 파운드리 가격 최대 15% 인상-4나노 평택 라인 '풀가동'",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=87282",
+          "source": "mediafine.co.kr",
+          "source_domain": "mediafine.co.kr",
+          "published_at": "2026-08-20T08:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "로이터 \" 삼성전자 , 주문 몰려 파운드리 가격 최대 15% 인상\"…4나노 '풀...",
           "url": "https://joongangenews.com/news/articleView.html?idxno=541203",
@@ -751,15 +913,15 @@
       ]
     },
     {
-      "cluster_id": "513ca23c7539eebb",
+      "cluster_id": "1143ae698ef409ef",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "“치킨게임 감행” 삼성전자 DX, 적자 정면돌파 택해",
-      "representative_url": "https://hani.co.kr/arti/economy/marketing/1273683.html",
-      "representative_source": "hani.co.kr",
+      "representative_title": "삼성전자 \"DX, 수익성 악화 점유율로 뚫는다\"…부문 완전 분리 선긋기",
+      "representative_url": "https://sentv.co.kr/article/view/sentv202608200002",
+      "representative_source": "sentv.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-19T11:14:00Z",
-      "last_published_at": "2026-08-19T11:14:00Z",
+      "first_published_at": "2026-08-19T23:10:00Z",
+      "last_published_at": "2026-08-19T23:10:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -767,7 +929,7 @@
         "naver"
       ],
       "source_domains": [
-        "hani.co.kr"
+        "sentv.co.kr"
       ],
       "categories": [
         "기술·제품"
@@ -782,11 +944,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "“치킨게임 감행” 삼성전자 DX, 적자 정면돌파 택해",
-          "url": "https://hani.co.kr/arti/economy/marketing/1273683.html",
-          "source": "hani.co.kr",
-          "source_domain": "hani.co.kr",
-          "published_at": "2026-08-19T20:14:00+09:00",
+          "title": "삼성전자 \"DX, 수익성 악화 점유율로 뚫는다\"…부문 완전 분리 선긋기",
+          "url": "https://sentv.co.kr/article/view/sentv202608200002",
+          "source": "sentv.co.kr",
+          "source_domain": "sentv.co.kr",
+          "published_at": "2026-08-20T08:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -794,15 +956,15 @@
       ]
     },
     {
-      "cluster_id": "5828e4a0bf69a731",
+      "cluster_id": "7db6f937f8fce5f1",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "\"적자불가피…점유율 늘려 승부\"…정면돌파 선언한 삼성전자 DX",
-      "representative_url": "https://mk.co.kr/article/12131586",
-      "representative_source": "mk.co.kr",
+      "representative_title": "“왠만한 M&A 하나 값” 삼성전자 , 대법 판결 후 퇴직비용 크게 늘어…...",
+      "representative_url": "https://biz.heraldcorp.com/article/10846063",
+      "representative_source": "biz.heraldcorp.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:54:00Z",
-      "last_published_at": "2026-08-19T10:54:00Z",
+      "first_published_at": "2026-08-19T23:06:00Z",
+      "last_published_at": "2026-08-19T23:06:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -810,28 +972,29 @@
         "naver"
       ],
       "source_domains": [
-        "mk.co.kr"
+        "biz.heraldcorp.com"
       ],
       "categories": [
-        "기술·제품",
-        "투자·생산"
+        "기타"
       ],
-      "event_keywords": [],
-      "importance_score": 35,
+      "event_keywords": [
+        "m_and_a"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "\"적자불가피…점유율 늘려 승부\"…정면돌파 선언한 삼성전자 DX",
-          "url": "https://mk.co.kr/article/12131586",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-19T19:54:00+09:00",
+          "title": "“왠만한 M&A 하나 값” 삼성전자 , 대법 판결 후 퇴직비용 크게 늘어…...",
+          "url": "https://biz.heraldcorp.com/article/10846063",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-08-20T08:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -839,15 +1002,15 @@
       ]
     },
     {
-      "cluster_id": "89a59b0bd6006d0f",
+      "cluster_id": "8a46fff44a163c7e",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "\" 삼성전자 , 파운드리 단가 최대 15% 인상…내년 흑자 전환 가능성\"",
-      "representative_url": "https://news1.kr/world/northeast-asia/6263608",
-      "representative_source": "news1.kr",
+      "representative_title": "\" 삼성전자 , AI 조기 수익화 시간 도래⋯주주환원 재평가 촉매\"-KB",
+      "representative_url": "https://hankyung.com/article/2026082009396",
+      "representative_source": "hankyung.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:19:00Z",
-      "last_published_at": "2026-08-19T10:50:00Z",
+      "first_published_at": "2026-08-19T22:42:00Z",
+      "last_published_at": "2026-08-19T23:01:00Z",
       "article_count": 2,
       "domestic_article_count": 2,
       "international_article_count": 0,
@@ -855,112 +1018,11 @@
         "naver"
       ],
       "source_domains": [
-        "m-i.kr",
-        "news1.kr"
+        "etoday.co.kr",
+        "hankyung.com"
       ],
       "categories": [
-        "공급·규제",
-        "기술·제품",
-        "기타",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "로이터 \" 삼성전자 , 파운드리 가격 최대 15% 인상…내년 흑자 전환 가능...",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1403896",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-08-19T19:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "\" 삼성전자 , 파운드리 단가 최대 15% 인상…내년 흑자 전환 가능성\"",
-          "url": "https://news1.kr/world/northeast-asia/6263608",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-08-19T19:19:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5f2f35270846a0da",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , \"DX·DS, 완전 분리된 '한 지붕 두 회사'\"...성과주의 원칙 재...",
-      "representative_url": "https://livebiz.today/news/articleView.html?idxno=204253",
-      "representative_source": "livebiz.today",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:50:00Z",
-      "last_published_at": "2026-08-19T10:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "livebiz.today"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , \"DX·DS, 완전 분리된 '한 지붕 두 회사'\"...성과주의 원칙 재...",
-          "url": "https://livebiz.today/news/articleView.html?idxno=204253",
-          "source": "livebiz.today",
-          "source_domain": "livebiz.today",
-          "published_at": "2026-08-19T19:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cea0927fc391d59a",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "“주문 다 못 받을 정도다”… 삼성전자 , 파운드리 가격 최대 15% 인상",
-      "representative_url": "https://mk.co.kr/article/12131583",
-      "representative_source": "mk.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:46:00Z",
-      "last_published_at": "2026-08-19T10:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mk.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
+        "주가·투자의견",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -971,14 +1033,24 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "“주문 다 못 받을 정도다”… 삼성전자 , 파운드리 가격 최대 15% 인상",
-          "url": "https://mk.co.kr/article/12131583",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-19T19:46:00+09:00",
+          "title": "\" 삼성전자 , AI 조기 수익화 시간 도래⋯주주환원 재평가 촉매\"-KB",
+          "url": "https://hankyung.com/article/2026082009396",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-08-20T08:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KB證 “ 삼성전자 , AI 조기 수익화 시간 도래⋯주주환원 재평가 촉매”",
+          "url": "https://etoday.co.kr/news/view/2616148",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-08-20T07:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -986,15 +1058,15 @@
       ]
     },
     {
-      "cluster_id": "4d0fe17516070c84",
+      "cluster_id": "45cad2417c2617e3",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 파운드리 가격 최대 15% 인상…수요 회복 영향",
-      "representative_url": "https://ajunews.com/view/20260819193907517",
-      "representative_source": "ajunews.com",
+      "representative_title": "삼성전자 , 광주에 2400억 투입…37년 만에 대규모 공조 생산라인 구축",
+      "representative_url": "https://breaknews.com/1230098",
+      "representative_source": "breaknews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:44:00Z",
-      "last_published_at": "2026-08-19T10:44:00Z",
+      "first_published_at": "2026-08-19T23:00:00Z",
+      "last_published_at": "2026-08-19T23:00:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1002,116 +1074,30 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com"
+        "breaknews.com"
       ],
       "categories": [
-        "기술·제품",
-        "실적",
         "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        " 2400억",
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 파운드리 가격 최대 15% 인상…수요 회복 영향",
-          "url": "https://ajunews.com/view/20260819193907517",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-19T19:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ba5061da246c3fd9",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 DX 노태문 내부 경영 설명회, 메모리 가격 상승 점유율 확대로...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=445131",
-      "representative_source": "businesspost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:44:00Z",
-      "last_published_at": "2026-08-19T10:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 DX 노태문 내부 경영 설명회, 메모리 가격 상승 점유율 확대로...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=445131",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-08-19T19:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "47d8c68911e4cce7",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 DX, 칩플레이션에도 ‘점유율 확대’ 승부수…노태문, 정면 돌...",
-      "representative_url": "https://seoul.co.kr/news/economy/industry/2026/08/19/20260819500236?wlog_tag3=naver",
-      "representative_source": "seoul.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T10:33:00Z",
-      "last_published_at": "2026-08-19T10:33:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "seoul.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 DX, 칩플레이션에도 ‘점유율 확대’ 승부수…노태문, 정면 돌...",
-          "url": "https://seoul.co.kr/news/economy/industry/2026/08/19/20260819500236?wlog_tag3=naver",
-          "source": "seoul.co.kr",
-          "source_domain": "seoul.co.kr",
-          "published_at": "2026-08-19T19:33:00+09:00",
+          "title": "삼성전자 , 광주에 2400억 투입…37년 만에 대규모 공조 생산라인 구축",
+          "url": "https://breaknews.com/1230098",
+          "source": "breaknews.com",
+          "source_domain": "breaknews.com",
+          "published_at": "2026-08-20T08:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

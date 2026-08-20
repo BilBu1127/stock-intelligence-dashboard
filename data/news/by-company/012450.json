@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-19T11:38:51.518253Z",
+  "generated_at": "2026-08-19T23:35:28.841146Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-08-19T11:38:51.518253Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-19T23:35:28.841146Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "4c89bf34badbe437",
@@ -92,6 +97,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-07T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "13bb237381b99ed0",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "강기윤 시장, 한화에어로스페이스 방문···미래 성장동력 확인",
+      "representative_url": "https://enewstoday.co.kr/news/articleView.html?idxno=2460945",
+      "representative_source": "enewstoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-19T23:10:00Z",
+      "last_published_at": "2026-08-19T23:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "enewstoday.co.kr"
+      ],
+      "categories": [
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "강기윤 시장, 한화에어로스페이스 방문···미래 성장동력 확인",
+          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2460945",
+          "source": "enewstoday.co.kr",
+          "source_domain": "enewstoday.co.kr",
+          "published_at": "2026-08-20T08:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -494,49 +543,6 @@
           "source": "kukinews.com",
           "source_domain": "kukinews.com",
           "published_at": "2026-08-17T23:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a4123586179e5de5",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 보은사업장서 트럭 운전자 외부 배관 '쾅'⋯경상",
-      "representative_url": "https://cctimes.kr/news/articleView.html?idxno=922105",
-      "representative_source": "cctimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-17T09:52:00Z",
-      "last_published_at": "2026-08-17T09:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cctimes.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로스페이스 보은사업장서 트럭 운전자 외부 배관 '쾅'⋯경상",
-          "url": "https://cctimes.kr/news/articleView.html?idxno=922105",
-          "source": "cctimes.kr",
-          "source_domain": "cctimes.kr",
-          "published_at": "2026-08-17T18:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
