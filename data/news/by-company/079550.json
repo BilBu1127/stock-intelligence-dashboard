@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-20T11:41:35.252860Z",
+  "generated_at": "2026-08-20T23:39:23.546501Z",
   "company_name": "LIG디펜스앤에어로스페이스",
   "stock_code": "079550",
-  "status": "ok",
-  "last_successful_update": "2026-08-20T11:41:35.252860Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-20T23:39:23.546501Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8b2184d1bc06c268",
@@ -94,6 +99,51 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-21T08:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "141c4570a7ff1219",
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "representative_title": "LIG D&A, '4억대 뇌물' 악재…구본상 '창립50년'에 준법경영 도마",
+      "representative_url": "https://shinailbo.co.kr/news/articleView.html?idxno=5049260",
+      "representative_source": "shinailbo.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-20T22:10:00Z",
+      "last_published_at": "2026-08-20T22:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "shinailbo.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 4억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "LIG D&A, '4억대 뇌물' 악재…구본상 '창립50년'에 준법경영 도마",
+          "url": "https://shinailbo.co.kr/news/articleView.html?idxno=5049260",
+          "source": "shinailbo.co.kr",
+          "source_domain": "shinailbo.co.kr",
+          "published_at": "2026-08-21T07:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -491,54 +541,6 @@
           "source": "kookbang.dema.mil.kr",
           "source_domain": "kookbang.dema.mil.kr",
           "published_at": "2026-08-18T16:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1a2fc8c7e25eb7fc",
-      "company_name": "LIG디펜스앤에어로스페이스",
-      "stock_code": "079550",
-      "representative_title": "수출 양산 앞두고 국내 생산설비 확충…한화에어로· LIG D&A 투자 더 늘려",
-      "representative_url": "https://g-enews.com/view.php?ud=202608181505484652ea14faf6f5_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-18T07:52:00Z",
-      "last_published_at": "2026-08-18T07:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "수출 양산 앞두고 국내 생산설비 확충…한화에어로· LIG D&A 투자 더 늘려",
-          "url": "https://g-enews.com/view.php?ud=202608181505484652ea14faf6f5_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-08-18T16:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
