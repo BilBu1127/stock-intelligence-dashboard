@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-23T11:33:48.654112Z",
+  "generated_at": "2026-08-23T23:34:43.534520Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-08-23T11:33:48.654112Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-23T23:34:43.534520Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "75136efc998b2a55",
@@ -468,6 +473,49 @@
       ]
     },
     {
+      "cluster_id": "c1c06fa204fda5fe",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "[노조 해도, 집회해도 징계] 삼성중공업 초법적 이주노동자 취업규칙",
+      "representative_url": "https://labortoday.co.kr/news/articleView.html?idxno=236370",
+      "representative_source": "labortoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-23T21:32:00Z",
+      "last_published_at": "2026-08-23T21:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "labortoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[노조 해도, 집회해도 징계] 삼성중공업 초법적 이주노동자 취업규칙",
+          "url": "https://labortoday.co.kr/news/articleView.html?idxno=236370",
+          "source": "labortoday.co.kr",
+          "source_domain": "labortoday.co.kr",
+          "published_at": "2026-08-24T06:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "a79352053e2dae69",
       "company_name": "삼성중공업",
       "stock_code": "010140",
@@ -855,49 +903,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-08-18T16:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8e19ef7faf97e7be",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "한화오션· 삼성중공업 , 기록적 폭우 속 침수 피해 복구 총력",
-      "representative_url": "https://sentv.co.kr/article/view/sentv202608180173",
-      "representative_source": "sentv.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-18T07:06:00Z",
-      "last_published_at": "2026-08-18T07:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sentv.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화오션· 삼성중공업 , 기록적 폭우 속 침수 피해 복구 총력",
-          "url": "https://sentv.co.kr/article/view/sentv202608180173",
-          "source": "sentv.co.kr",
-          "source_domain": "sentv.co.kr",
-          "published_at": "2026-08-18T16:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
