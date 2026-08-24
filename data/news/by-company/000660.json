@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-23T23:34:43.534520Z",
+  "generated_at": "2026-08-24T11:43:10.042346Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-08-23T23:34:43.534520Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-24T11:43:10.042346Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "168a2eb42aa047a2",
@@ -3763,15 +3768,15 @@
       ]
     },
     {
-      "cluster_id": "2fe5cc051daee133",
+      "cluster_id": "8cfd02da9cd14916",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[투자자 순매수 TOP5] 외국인, 삼성전자 집중매수…삼성전기· SK하이닉스 ...",
-      "representative_url": "https://biz.sbs.co.kr/article_hub/20000330269?division=NAVER",
-      "representative_source": "biz.sbs.co.kr",
+      "representative_title": "SK하이닉스 , 광주서 채용설명회.. 경영진들 사업지 시찰도",
+      "representative_url": "https://kjmbc.co.kr/NewsArticle/1533679",
+      "representative_source": "kjmbc.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-23T23:32:00Z",
-      "last_published_at": "2026-08-23T23:32:00Z",
+      "first_published_at": "2026-08-24T11:40:00Z",
+      "last_published_at": "2026-08-24T11:40:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3779,7 +3784,227 @@
         "naver"
       ],
       "source_domains": [
-        "biz.sbs.co.kr"
+        "kjmbc.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 광주서 채용설명회.. 경영진들 사업지 시찰도",
+          "url": "https://kjmbc.co.kr/NewsArticle/1533679",
+          "source": "kjmbc.co.kr",
+          "source_domain": "kjmbc.co.kr",
+          "published_at": "2026-08-24T20:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "861e01c062f09a0f",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼성전자 110조 vs SK하이닉스 40조...주주환원 '금액보다 DNA가 달랐다'",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=480174",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T11:02:00Z",
+      "last_published_at": "2026-08-24T11:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "기타"
+      ],
+      "event_keywords": [
+        " 110조",
+        " 40조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 110조 vs SK하이닉스 40조...주주환원 '금액보다 DNA가 달랐다'",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=480174",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-08-24T20:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e0caf5197d7d4e54",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 광주 군공항 또 찾아…반도체 클러스터 구체화",
+      "representative_url": "https://kjdaily.com/article.php?aid=1787567759685130002",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T10:42:00Z",
+      "last_published_at": "2026-08-24T10:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 광주 군공항 또 찾아…반도체 클러스터 구체화",
+          "url": "https://kjdaily.com/article.php?aid=1787567759685130002",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-08-24T19:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3725e21164d40737",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "DJ센터서 SK하이닉스 채용 설명회",
+      "representative_url": "https://kjdaily.com/article.php?aid=1787567397685122005",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T10:36:00Z",
+      "last_published_at": "2026-08-24T10:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DJ센터서 SK하이닉스 채용 설명회",
+          "url": "https://kjdaily.com/article.php?aid=1787567397685122005",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-08-24T19:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "1e48dea4b1ee99b0",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼전 주가 또 추락… SK하이닉스 와 뭐가 달랐나",
+      "representative_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8644487",
+      "representative_source": "news.kbs.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T10:11:00Z",
+      "last_published_at": "2026-08-24T10:11:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.kbs.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼전 주가 또 추락… SK하이닉스 와 뭐가 달랐나",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8644487",
+          "source": "news.kbs.co.kr",
+          "source_domain": "news.kbs.co.kr",
+          "published_at": "2026-08-24T19:11:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "60d13502dfbbae37",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 광주 군공항 방문…반도체 투자 구체화",
+      "representative_url": "https://jndn.com/article.php?aid=1787564027438361003",
+      "representative_source": "jndn.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T09:36:00Z",
+      "last_published_at": "2026-08-24T09:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "jndn.com"
       ],
       "categories": [
         "투자·생산"
@@ -3797,11 +4022,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[투자자 순매수 TOP5] 외국인, 삼성전자 집중매수…삼성전기· SK하이닉스 ...",
-          "url": "https://biz.sbs.co.kr/article_hub/20000330269?division=NAVER",
-          "source": "biz.sbs.co.kr",
-          "source_domain": "biz.sbs.co.kr",
-          "published_at": "2026-08-24T08:32:00+09:00",
+          "title": "SK하이닉스 , 광주 군공항 방문…반도체 투자 구체화",
+          "url": "https://jndn.com/article.php?aid=1787564027438361003",
+          "source": "jndn.com",
+          "source_domain": "jndn.com",
+          "published_at": "2026-08-24T18:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3809,15 +4034,15 @@
       ]
     },
     {
-      "cluster_id": "01dec3fc65cc1a7b",
+      "cluster_id": "8aa312f9b17696f3",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 성과급 '현금 40% + 60% 자사주' 오늘 운명의 투표…통합노...",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=541986",
-      "representative_source": "joongangenews.com",
+      "representative_title": "SK하이닉스 경영진, 광주 군공항 현장 방문…반도체 부지 점검",
+      "representative_url": "https://newspim.com/news/view/20260824001186",
+      "representative_source": "newspim.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-23T22:58:00Z",
-      "last_published_at": "2026-08-23T22:58:00Z",
+      "first_published_at": "2026-08-24T09:19:00Z",
+      "last_published_at": "2026-08-24T09:19:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3825,10 +4050,10 @@
         "naver"
       ],
       "source_domains": [
-        "joongangenews.com"
+        "newspim.com"
       ],
       "categories": [
-        "실적"
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -3840,11 +4065,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 성과급 '현금 40% + 60% 자사주' 오늘 운명의 투표…통합노...",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=541986",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-08-24T07:58:00+09:00",
+          "title": "SK하이닉스 경영진, 광주 군공항 현장 방문…반도체 부지 점검",
+          "url": "https://newspim.com/news/view/20260824001186",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-08-24T18:19:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3852,15 +4077,58 @@
       ]
     },
     {
-      "cluster_id": "dfecbc0455917867",
+      "cluster_id": "f8ea92dce0b2597f",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "하나證 “삼성전자· SK하이닉스 , 주주환원 기대 여전…반도체 비중확대...",
-      "representative_url": "https://etoday.co.kr/news/view/2617209",
+      "representative_title": "SK하이닉스 , ‘성과급 60% 자사주’ 찬반 투표 돌입…통합노조 반발 속...",
+      "representative_url": "https://ceoscoredaily.com/page/view/2026082413542870751",
+      "representative_source": "ceoscoredaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T09:00:00Z",
+      "last_published_at": "2026-08-24T09:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ceoscoredaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , ‘성과급 60% 자사주’ 찬반 투표 돌입…통합노조 반발 속...",
+          "url": "https://ceoscoredaily.com/page/view/2026082413542870751",
+          "source": "ceoscoredaily.com",
+          "source_domain": "ceoscoredaily.com",
+          "published_at": "2026-08-24T18:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9b365ffb5ce04e3b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "HBM 중심축 ‘맞춤 설계’로…삼성전자· SK하이닉스 , 커스텀 개발 가속",
+      "representative_url": "https://etoday.co.kr/news/view/2617532",
       "representative_source": "etoday.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-23T22:48:00Z",
-      "last_published_at": "2026-08-23T22:48:00Z",
+      "first_published_at": "2026-08-24T08:56:00Z",
+      "last_published_at": "2026-08-24T08:56:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3871,24 +4139,26 @@
         "etoday.co.kr"
       ],
       "categories": [
-        "공급·규제",
         "기술·제품"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "하나證 “삼성전자· SK하이닉스 , 주주환원 기대 여전…반도체 비중확대...",
-          "url": "https://etoday.co.kr/news/view/2617209",
+          "title": "HBM 중심축 ‘맞춤 설계’로…삼성전자· SK하이닉스 , 커스텀 개발 가속",
+          "url": "https://etoday.co.kr/news/view/2617532",
           "source": "etoday.co.kr",
           "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-24T07:48:00+09:00",
+          "published_at": "2026-08-24T17:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3896,15 +4166,15 @@
       ]
     },
     {
-      "cluster_id": "e80426b569f7e5ac",
+      "cluster_id": "326b6d7e31749e03",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 성과급 60% 자사주 지급안, 오늘부터 찬반투표",
-      "representative_url": "https://etoday.co.kr/news/view/2617197",
-      "representative_source": "etoday.co.kr",
+      "representative_title": "8월 셋째 주 국내 ETF 시장, 금· SK하이닉스 ETF 강세",
+      "representative_url": "https://newsmaker.or.kr/news/articleView.html?idxno=181209",
+      "representative_source": "newsmaker.or.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-23T22:18:00Z",
-      "last_published_at": "2026-08-23T22:18:00Z",
+      "first_published_at": "2026-08-24T08:54:00Z",
+      "last_published_at": "2026-08-24T08:54:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3912,100 +4182,14 @@
         "naver"
       ],
       "source_domains": [
-        "etoday.co.kr"
+        "newsmaker.or.kr"
       ],
       "categories": [
-        "주가·투자의견"
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
       ],
       "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 성과급 60% 자사주 지급안, 오늘부터 찬반투표",
-          "url": "https://etoday.co.kr/news/view/2617197",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-24T07:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7c7475f4c8d0784d",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK Hynix Is Buying Back 3 . 3 % of Its Shares and Canceling Every One",
-      "representative_url": "https://fool.com/investing/2026/08/23/sk-hynix-is-buying-back-3-3-of-its-shares-and-canceling-every-one",
-      "representative_source": "fool.com",
-      "representative_language": "English",
-      "first_published_at": "2026-08-23T21:30:00Z",
-      "last_published_at": "2026-08-23T21:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "fool.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK Hynix Is Buying Back 3 . 3 % of Its Shares and Canceling Every One",
-          "url": "https://fool.com/investing/2026/08/23/sk-hynix-is-buying-back-3-3-of-its-shares-and-canceling-every-one",
-          "source": "fool.com",
-          "source_domain": "fool.com",
-          "published_at": "2026-08-23T21:30:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "fe8b779e8be49321",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자ㆍSK하이닉스 , 최대 150조 주주환원⋯ 주가 리레이팅 시험대 [ K반도체 150조의 승부 ]]",
-      "representative_url": "https://etoday.co.kr/news/view/2617061",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-23T20:45:00Z",
-      "last_published_at": "2026-08-23T20:45:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [
-        " 150조"
-      ],
       "importance_score": 0,
       "importance_level": "low",
       "scoring_reasons": [
@@ -4016,193 +4200,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자ㆍSK하이닉스 , 최대 150조 주주환원⋯ 주가 리레이팅 시험대 [ K반도체 150조의 승부 ]]",
-          "url": "https://etoday.co.kr/news/view/2617061",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-23T20:45:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f3a0b3ca169e04ba",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 40조 자사주 소각 나선 까닭… 저평가 해소 승부수되나",
-      "representative_url": "https://g-enews.com/view.php?ud=202608231755124183fbbec65dfb_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-23T19:06:00Z",
-      "last_published_at": "2026-08-23T19:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [
-        " 40조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 40조 자사주 소각 나선 까닭… 저평가 해소 승부수되나",
-          "url": "https://g-enews.com/view.php?ud=202608231755124183fbbec65dfb_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-08-24T04:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "96d43d26e8d217f3",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "서학개미 , 삼성 · SK하이닉스 담은 美 ETF에 한 주간 1185억원 투자",
-      "representative_url": "https://ddaily.co.kr/page/view/2026082315035837137",
-      "representative_source": "ddaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-23T13:30:00Z",
-      "last_published_at": "2026-08-23T13:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt",
-        "naver"
-      ],
-      "source_domains": [
-        "ddaily.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1185억",
-        "investment"
-      ],
-      "importance_score": 5,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "서학개미 , 삼성 · SK하이닉스 담은 美 ETF에 한 주간 1185억원 투자",
-          "url": "https://ddaily.co.kr/page/view/2026082315035837137",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-08-23T13:30:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3dfc16395e8ab2ab",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 자사주 매입 소각 위탁 대박난 SK증권 … 삼성증권도 기대감↑",
-      "representative_url": "https://etoday.co.kr/news/view/2616951",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-23T11:00:00Z",
-      "last_published_at": "2026-08-23T11:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 자사주 매입 소각 위탁 대박난 SK증권 … 삼성증권도 기대감↑",
-          "url": "https://etoday.co.kr/news/view/2616951",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-23T11:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "aa970dd454fd0858",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[TVis] 지예은, SK하이닉스 들어갔나…주식 수익률 -47% 고백 “하지 말...",
-      "representative_url": "https://isplus.com/article/view/isp202608230092",
-      "representative_source": "isplus.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-23T10:38:00Z",
-      "last_published_at": "2026-08-23T10:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "isplus.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[TVis] 지예은, SK하이닉스 들어갔나…주식 수익률 -47% 고백 “하지 말...",
-          "url": "https://isplus.com/article/view/isp202608230092",
-          "source": "isplus.com",
-          "source_domain": "isplus.com",
-          "published_at": "2026-08-23T19:38:00+09:00",
+          "title": "8월 셋째 주 국내 ETF 시장, 금· SK하이닉스 ETF 강세",
+          "url": "https://newsmaker.or.kr/news/articleView.html?idxno=181209",
+          "source": "newsmaker.or.kr",
+          "source_domain": "newsmaker.or.kr",
+          "published_at": "2026-08-24T17:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
