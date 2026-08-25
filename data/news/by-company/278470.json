@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T11:43:10.042346Z",
+  "generated_at": "2026-08-24T23:34:11.430431Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-08-24T11:43:10.042346Z",
+  "last_successful_update": "2026-08-24T23:34:11.430431Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1717,6 +1717,49 @@
       ]
     },
     {
+      "cluster_id": "aa4815b7ed0d3209",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 뷰티 '빅2' 등극까지 '한 달' 남았다",
+      "representative_url": "https://news.bizwatch.co.kr/article/consumer/2026/08/24/0029",
+      "representative_source": "news.bizwatch.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T23:00:00Z",
+      "last_published_at": "2026-08-24T23:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.bizwatch.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 뷰티 '빅2' 등극까지 '한 달' 남았다",
+          "url": "https://news.bizwatch.co.kr/article/consumer/2026/08/24/0029",
+          "source": "news.bizwatch.co.kr",
+          "source_domain": "news.bizwatch.co.kr",
+          "published_at": "2026-08-25T08:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "5bbc6649637c7a11",
       "company_name": "에이피알",
       "stock_code": "278470",
@@ -2130,52 +2173,6 @@
           "source": "finomy.com",
           "source_domain": "finomy.com",
           "published_at": "2026-08-19T16:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "563810ed37e3c148",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , 유럽서 고속성장…상반기 매출 363% 증가",
-      "representative_url": "https://ajunews.com/view/20260819155450998",
-      "representative_source": "ajunews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T06:58:00Z",
-      "last_published_at": "2026-08-19T06:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ajunews.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 , 유럽서 고속성장…상반기 매출 363% 증가",
-          "url": "https://ajunews.com/view/20260819155450998",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-19T15:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T11:43:10.042346Z",
+  "generated_at": "2026-08-24T23:34:11.430431Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-08-24T11:43:10.042346Z",
+  "last_successful_update": "2026-08-24T23:34:11.430431Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -146,6 +146,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ab42eac1076cc7d3",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "구글에 따라잡힌 네이버…블로그·카페 이용자도 월 65만명 줄었다",
+      "representative_url": "https://mt.co.kr/tech/2026/08/25/2026082414111428972",
+      "representative_source": "mt.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T21:30:00Z",
+      "last_published_at": "2026-08-24T21:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mt.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "구글에 따라잡힌 네이버…블로그·카페 이용자도 월 65만명 줄었다",
+          "url": "https://mt.co.kr/tech/2026/08/25/2026082414111428972",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-08-25T06:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -544,49 +587,6 @@
           "source": "chosun.com",
           "source_domain": "chosun.com",
           "published_at": "2026-08-24T14:23:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4bf21e959bb8842b",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "정부기관 사칭 피싱 메일 확산, 네이버 \"비밀번호 요구하면 의심해야\"",
-      "representative_url": "https://mediafine.co.kr/news/articleView.html?idxno=87768",
-      "representative_source": "mediafine.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T05:22:00Z",
-      "last_published_at": "2026-08-24T05:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mediafine.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "정부기관 사칭 피싱 메일 확산, 네이버 \"비밀번호 요구하면 의심해야\"",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=87768",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-08-24T14:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

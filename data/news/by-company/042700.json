@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-24T11:43:10.042346Z",
+  "generated_at": "2026-08-24T23:34:11.430431Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-08-24T11:43:10.042346Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-24T23:34:11.430431Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "c5aa1379c26f9aeb",
@@ -1115,6 +1120,49 @@
       ]
     },
     {
+      "cluster_id": "92d616c4d9c0f99f",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "[오늘의 IR] 한미반도체 ㆍ제이브이엠ㆍ오스코텍 등",
+      "representative_url": "https://etoday.co.kr/news/view/2617640",
+      "representative_source": "etoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-24T22:28:00Z",
+      "last_published_at": "2026-08-24T22:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[오늘의 IR] 한미반도체 ㆍ제이브이엠ㆍ오스코텍 등",
+          "url": "https://etoday.co.kr/news/view/2617640",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-08-25T07:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "d5820ad82cf9d171",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -1524,55 +1572,6 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-08-19T18:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ea4ddb63f653d193",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , AI 장비 선제적 대응...1천300억 투자",
-      "representative_url": "https://joongboo.com/news/articleView.html?idxno=363734206",
-      "representative_source": "joongboo.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-19T05:20:00Z",
-      "last_published_at": "2026-08-19T05:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongboo.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "300억",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , AI 장비 선제적 대응...1천300억 투자",
-          "url": "https://joongboo.com/news/articleView.html?idxno=363734206",
-          "source": "joongboo.com",
-          "source_domain": "joongboo.com",
-          "published_at": "2026-08-19T14:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
