@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T23:34:11.430431Z",
+  "generated_at": "2026-08-25T11:42:43.668530Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-08-24T23:34:11.430431Z",
+  "last_successful_update": "2026-08-25T11:42:43.668530Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -676,15 +676,15 @@
       ]
     },
     {
-      "cluster_id": "c26d18f3d269c1e6",
+      "cluster_id": "2954f3cda957f990",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 청담에 혼수가전 특화매장…신혼집 맞춤 상담 한 번에",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02604326645550928",
-      "representative_source": "edaily.co.kr",
+      "representative_title": "삼성전자 , 해외서 만들던 '히트펌프 보일러' 광주로… 연 10만대 생산",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=316201",
+      "representative_source": "thepublic.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:33:00Z",
-      "last_published_at": "2026-08-24T23:33:00Z",
+      "first_published_at": "2026-08-25T11:40:00Z",
+      "last_published_at": "2026-08-25T11:40:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -692,26 +692,29 @@
         "naver"
       ],
       "source_domains": [
-        "edaily.co.kr"
+        "thepublic.kr"
       ],
       "categories": [
-        "기술·제품"
+        "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 청담에 혼수가전 특화매장…신혼집 맞춤 상담 한 번에",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02604326645550928",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-08-25T08:33:00+09:00",
+          "title": "삼성전자 , 해외서 만들던 '히트펌프 보일러' 광주로… 연 10만대 생산",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=316201",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-08-25T20:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -719,15 +722,63 @@
       ]
     },
     {
-      "cluster_id": "00e9e516735e0f87",
+      "cluster_id": "2e483f6a92e86fda",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , ‘삼성스토어 청담점’ 혼수 특화 매장으로 전면 리뉴얼",
-      "representative_url": "https://mk.co.kr/article/12135368",
-      "representative_source": "mk.co.kr",
+      "representative_title": "삼성전자 ·SK하이닉스, AI 호황 올라타나…메모리 매출 280% 급증 전망",
+      "representative_url": "https://biz.heraldcorp.com/article/10851548",
+      "representative_source": "biz.heraldcorp.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:09:00Z",
-      "last_published_at": "2026-08-24T23:28:00Z",
+      "first_published_at": "2026-08-25T11:31:00Z",
+      "last_published_at": "2026-08-25T11:31:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 ·SK하이닉스, AI 호황 올라타나…메모리 매출 280% 급증 전망",
+          "url": "https://biz.heraldcorp.com/article/10851548",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-08-25T20:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "30b305c0e4aecccf",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 천안 19조 투자 본궤도…인프라복합동 짓고 생산시설 확충",
+      "representative_url": "https://m-i.kr/news/articleView.html?idxno=1405825",
+      "representative_source": "m-i.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T06:10:00Z",
+      "last_published_at": "2026-08-25T11:12:00Z",
       "article_count": 2,
       "domestic_article_count": 2,
       "international_article_count": 0,
@@ -735,39 +786,43 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com",
-        "mk.co.kr"
+        "dynews.co.kr",
+        "m-i.kr"
       ],
       "categories": [
         "기술·제품",
-        "기타"
+        "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 35,
+      "event_keywords": [
+        " 19조",
+        "investment",
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 '삼성스토어 청담점' 혼수 특화 매장으로 새단장",
-          "url": "https://ajunews.com/view/20260825082106793",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-25T08:28:00+09:00",
+          "title": "천안시, 삼성전자 19조원 투자 지원 본격화…인프라복합동 착공",
+          "url": "https://dynews.co.kr/news/articleView.html?idxno=862935",
+          "source": "dynews.co.kr",
+          "source_domain": "dynews.co.kr",
+          "published_at": "2026-08-25T20:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "삼성전자 , ‘삼성스토어 청담점’ 혼수 특화 매장으로 전면 리뉴얼",
-          "url": "https://mk.co.kr/article/12135368",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-25T08:09:00+09:00",
+          "title": "삼성전자 , 천안 19조 투자 본궤도…인프라복합동 짓고 생산시설 확충",
+          "url": "https://m-i.kr/news/articleView.html?idxno=1405825",
+          "source": "m-i.kr",
+          "source_domain": "m-i.kr",
+          "published_at": "2026-08-25T15:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -775,15 +830,15 @@
       ]
     },
     {
-      "cluster_id": "4c972a7b8b0a3620",
+      "cluster_id": "78ea5b36ab9ca32f",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 청담 스토어 혼수가전 전문 매장으로 리뉴얼",
-      "representative_url": "https://g-enews.com/view.php?ud=20260825082425731327fa31d75c_1",
-      "representative_source": "g-enews.com",
+      "representative_title": "엔비디아 '그록3 LPX' 양산… 삼성전자 파운드리·삼성전기 수혜",
+      "representative_url": "https://econovill.com/news/articleView.html?idxno=748871",
+      "representative_source": "econovill.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:28:00Z",
-      "last_published_at": "2026-08-24T23:28:00Z",
+      "first_published_at": "2026-08-25T10:22:00Z",
+      "last_published_at": "2026-08-25T10:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -791,7 +846,275 @@
         "naver"
       ],
       "source_domains": [
-        "g-enews.com"
+        "econovill.com"
+      ],
+      "categories": [
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "엔비디아 '그록3 LPX' 양산… 삼성전자 파운드리·삼성전기 수혜",
+          "url": "https://econovill.com/news/articleView.html?idxno=748871",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-08-25T19:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "90dfad0524692c29",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 동남아 스마트폰 시장 1위…출하량 6% 증가",
+      "representative_url": "https://news.appstory.co.kr/daily19536",
+      "representative_source": "news.appstory.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:54:00Z",
+      "last_published_at": "2026-08-25T09:54:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.appstory.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 동남아 스마트폰 시장 1위…출하량 6% 증가",
+          "url": "https://news.appstory.co.kr/daily19536",
+          "source": "news.appstory.co.kr",
+          "source_domain": "news.appstory.co.kr",
+          "published_at": "2026-08-25T18:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2ca83f47c92c9131",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[DQN] 한화생명 손익 성장세 두각… 삼성전자 주식 호재에 삼성생명 수익...",
+      "representative_url": "https://fntimes.com/html/view.php?ud=202608241533248102ed56b8e1f8_18",
+      "representative_source": "fntimes.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:42:00Z",
+      "last_published_at": "2026-08-25T09:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fntimes.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[DQN] 한화생명 손익 성장세 두각… 삼성전자 주식 호재에 삼성생명 수익...",
+          "url": "https://fntimes.com/html/view.php?ud=202608241533248102ed56b8e1f8_18",
+          "source": "fntimes.com",
+          "source_domain": "fntimes.com",
+          "published_at": "2026-08-25T18:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2f0ca20eb40b56bf",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "미래에셋자산운용, 'TIGER 삼성전자 SK하이닉스미국채혼합50 ETF' 상장",
+      "representative_url": "https://s-journal.co.kr/news/articleView.html?idxno=43240",
+      "representative_source": "s-journal.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:40:00Z",
+      "last_published_at": "2026-08-25T09:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "s-journal.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "미래에셋자산운용, 'TIGER 삼성전자 SK하이닉스미국채혼합50 ETF' 상장",
+          "url": "https://s-journal.co.kr/news/articleView.html?idxno=43240",
+          "source": "s-journal.co.kr",
+          "source_domain": "s-journal.co.kr",
+          "published_at": "2026-08-25T18:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "186a4e2d07fe6a86",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[공매도 브리핑] 8월25일 삼성전자 3,794억6,400만원…한국항공우주 53.2...",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16173150",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:24:00Z",
+      "last_published_at": "2026-08-25T09:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 794억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[공매도 브리핑] 8월25일 삼성전자 3,794억6,400만원…한국항공우주 53.2...",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16173150",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-08-25T18:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7fb793c47e4b0998",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "'110조 주주환원'에도 삼성전자 주가 급락…시장이 실망한 이유",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=316187",
+      "representative_source": "thepublic.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:24:00Z",
+      "last_published_at": "2026-08-25T09:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepublic.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "110조"
+      ],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'110조 주주환원'에도 삼성전자 주가 급락…시장이 실망한 이유",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=316187",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-08-25T18:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2b896d84053e542b",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[오늘의 전자] 삼성전자 ·LG전자",
+      "representative_url": "https://financialreview.co.kr/news/articleView.html?idxno=44384",
+      "representative_source": "financialreview.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T09:20:00Z",
+      "last_published_at": "2026-08-25T09:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "financialreview.co.kr"
       ],
       "categories": [
         "기술·제품"
@@ -806,313 +1129,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 청담 스토어 혼수가전 전문 매장으로 리뉴얼",
-          "url": "https://g-enews.com/view.php?ud=20260825082425731327fa31d75c_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-08-25T08:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "542aaf347ff39aa4",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 원스톱 혼수 특화매장 '삼성스토어 청담점' 새단장",
-      "representative_url": "https://slist.kr/news/articleView.html?idxno=761078",
-      "representative_source": "slist.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:28:00Z",
-      "last_published_at": "2026-08-24T23:28:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "slist.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 원스톱 혼수 특화매장 '삼성스토어 청담점' 새단장",
-          "url": "https://slist.kr/news/articleView.html?idxno=761078",
-          "source": "slist.kr",
-          "source_domain": "slist.kr",
-          "published_at": "2026-08-25T08:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7b980dbb5c80c07a",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 청담에 '혼수가전 원스톱' 거점…전국 특화매장 확대",
-      "representative_url": "https://businessplus.kr/news/articleView.html?idxno=115850",
-      "representative_source": "businessplus.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:26:00Z",
-      "last_published_at": "2026-08-24T23:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businessplus.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 청담에 '혼수가전 원스톱' 거점…전국 특화매장 확대",
-          "url": "https://businessplus.kr/news/articleView.html?idxno=115850",
-          "source": "businessplus.kr",
-          "source_domain": "businessplus.kr",
-          "published_at": "2026-08-25T08:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7eaac9db1d11cdc",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , '삼성스토어 청담점' 전면 리뉴얼…혼수가전 원스톱 상담 강...",
-      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1721494",
-      "representative_source": "ebn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:24:00Z",
-      "last_published_at": "2026-08-24T23:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ebn.co.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , '삼성스토어 청담점' 전면 리뉴얼…혼수가전 원스톱 상담 강...",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1721494",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-08-25T08:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2d36bfe16887b589",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "美 반도체 약세… 삼성전자 ·SK하이닉스 프리마켓 2% 하락",
-      "representative_url": "https://news1.kr/finance/general-stock/6268213",
-      "representative_source": "news1.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:19:00Z",
-      "last_published_at": "2026-08-24T23:19:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "美 반도체 약세… 삼성전자 ·SK하이닉스 프리마켓 2% 하락",
-          "url": "https://news1.kr/finance/general-stock/6268213",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-08-25T08:19:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5ef3ec2638d216df",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 프리마켓 2%대 약세…美 반도체주 하락 여파",
-      "representative_url": "https://sedaily.com/article/20082819",
-      "representative_source": "sedaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:18:00Z",
-      "last_published_at": "2026-08-24T23:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sedaily.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스 프리마켓 2%대 약세…美 반도체주 하락 여파",
-          "url": "https://sedaily.com/article/20082819",
-          "source": "sedaily.com",
-          "source_domain": "sedaily.com",
-          "published_at": "2026-08-25T08:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "944920a292c778f1",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 프리마켓 동반 약세…2%대 하락",
-      "representative_url": "https://newsis.com/view/NISX20260825_0003760895",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:15:00Z",
-      "last_published_at": "2026-08-24T23:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스 프리마켓 동반 약세…2%대 하락",
-          "url": "https://newsis.com/view/NISX20260825_0003760895",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-08-25T08:15:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7957d6747f6c2290",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 청담점, 원스톱 혼수 특화 매장으로 새 단장",
-      "representative_url": "https://yna.co.kr/view/PYH20260825014900013?input=1196m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:15:00Z",
-      "last_published_at": "2026-08-24T23:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 청담점, 원스톱 혼수 특화 매장으로 새 단장",
-          "url": "https://yna.co.kr/view/PYH20260825014900013?input=1196m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-25T08:15:00+09:00",
+          "title": "[오늘의 전자] 삼성전자 ·LG전자",
+          "url": "https://financialreview.co.kr/news/articleView.html?idxno=44384",
+          "source": "financialreview.co.kr",
+          "source_domain": "financialreview.co.kr",
+          "published_at": "2026-08-25T18:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
