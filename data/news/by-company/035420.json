@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T11:42:43.668530Z",
+  "generated_at": "2026-08-25T23:36:44.128849Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-08-25T11:42:43.668530Z",
+  "last_successful_update": "2026-08-25T23:36:44.128849Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -146,6 +146,51 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3394858cec07e301",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "10억 이상 굴리는 '진짜 부자들'…네이버·카카오 빼고 쓸어 담은 종목...",
+      "representative_url": "https://fnnews.com/news/202608251940227789",
+      "representative_source": "fnnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-25T20:20:00Z",
+      "last_published_at": "2026-08-25T20:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fnnews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "10억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "10억 이상 굴리는 '진짜 부자들'…네이버·카카오 빼고 쓸어 담은 종목...",
+          "url": "https://fnnews.com/news/202608251940227789",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-08-26T05:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -533,60 +578,6 @@
           "source": "newsfc.co.kr",
           "source_domain": "newsfc.co.kr",
           "published_at": "2026-08-24T14:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7ea54e437b78f842",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "경찰청·청와대·국세청 사칭…“네이버 계정 노린 피싱메일 주의\"",
-      "representative_url": "https://biz.chosun.com/it-science/ict/2026/08/24/QNLZK7SLZNGA5PDZPPSYDHUWOI",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T05:16:00Z",
-      "last_published_at": "2026-08-24T05:30:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com",
-        "news.kbs.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "‘경찰청·청와대 사칭’ 네이버 계정 노린 피싱 메일 발견…주의 당부",
-          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8644297",
-          "source": "news.kbs.co.kr",
-          "source_domain": "news.kbs.co.kr",
-          "published_at": "2026-08-24T14:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "경찰청·청와대·국세청 사칭…“네이버 계정 노린 피싱메일 주의\"",
-          "url": "https://biz.chosun.com/it-science/ict/2026/08/24/QNLZK7SLZNGA5PDZPPSYDHUWOI",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-08-24T14:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
