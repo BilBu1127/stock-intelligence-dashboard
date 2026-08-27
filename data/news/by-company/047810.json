@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T11:43:57.663306Z",
+  "generated_at": "2026-08-27T04:31:03.000427Z",
   "company_name": "한국항공우주",
   "stock_code": "047810",
   "status": "partial",
-  "last_successful_update": "2026-08-26T11:43:57.663306Z",
+  "last_successful_update": "2026-08-27T04:31:03.000427Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1582,99 +1582,75 @@
       ]
     },
     {
-      "cluster_id": "b469f46b5bd44b2b",
+      "cluster_id": "5f0fff63cccd814c",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[공매도 브리핑] 8월25일 삼성전자 3,794억6,400만원… 한국항공우주 53.2...",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16173150",
-      "representative_source": "topstarnews.net",
+      "representative_title": "KAI, 제24회 항공우주 논문상 공모전 개최",
+      "representative_url": "https://news.tf.co.kr/read/economy/2358477.htm",
+      "representative_source": "news.tf.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-25T09:24:00Z",
-      "last_published_at": "2026-08-25T09:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-08-26T23:44:00Z",
+      "last_published_at": "2026-08-27T04:30:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "topstarnews.net"
+        "idomin.com",
+        "naeil.com",
+        "news.tf.co.kr",
+        "nocutnews.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        " 794억"
-      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[공매도 브리핑] 8월25일 삼성전자 3,794억6,400만원… 한국항공우주 53.2...",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16173150",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-08-25T18:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ecb6c9bad82ea993",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "LX판토스, KAI 첨단무기 운송 작전 완료",
-      "representative_url": "https://etnews.com/20260825000205",
-      "representative_source": "etnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-25T00:48:00Z",
-      "last_published_at": "2026-08-25T03:36:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etnews.com",
-        "mhj21.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
       "needs_review": true,
       "articles": [
         {
-          "title": "LX판토스, KAI 첨단무기 운송 작전 완료",
-          "url": "https://etnews.com/20260825000205",
-          "source": "etnews.com",
-          "source_domain": "etnews.com",
-          "published_at": "2026-08-25T12:36:00+09:00",
+          "title": "KAI, 제24회 항공우주 논문상 공모전",
+          "url": "https://idomin.com/news/articleView.html?idxno=2013347",
+          "source": "idomin.com",
+          "source_domain": "idomin.com",
+          "published_at": "2026-08-27T13:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "LX판토스, '고난도' KAI 첨단무기 운송 작전 성료",
-          "url": "https://mhj21.com/news/articleView.html?idxno=253667",
-          "source": "mhj21.com",
-          "source_domain": "mhj21.com",
-          "published_at": "2026-08-25T09:48:00+09:00",
+          "title": "KAI, 항공우주 논문상 공모",
+          "url": "https://naeil.com/news/read/600252",
+          "source": "naeil.com",
+          "source_domain": "naeil.com",
+          "published_at": "2026-08-27T13:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 2026년 제24회 항공우주 논문상 공모전",
+          "url": "https://nocutnews.co.kr/news/6568938",
+          "source": "nocutnews.co.kr",
+          "source_domain": "nocutnews.co.kr",
+          "published_at": "2026-08-27T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최",
+          "url": "https://news.tf.co.kr/read/economy/2358477.htm",
+          "source": "news.tf.co.kr",
+          "source_domain": "news.tf.co.kr",
+          "published_at": "2026-08-27T08:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1682,25 +1658,33 @@
       ]
     },
     {
-      "cluster_id": "085b41fedf8993d7",
+      "cluster_id": "5f421185655201f8",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "LX판토스, KAI 첨단무기 운송 프로젝트 성료…“방산물류 역량 입증”",
-      "representative_url": "https://biz.heraldcorp.com/article/10850721",
-      "representative_source": "biz.heraldcorp.com",
+      "representative_title": "KAI, 항공우주 논문상 공모전 개최…시상금 3800만 원으로 확대",
+      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=130899",
+      "representative_source": "popcornnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:00:00Z",
-      "last_published_at": "2026-08-25T02:38:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
+      "first_published_at": "2026-08-26T23:36:00Z",
+      "last_published_at": "2026-08-27T04:02:00Z",
+      "article_count": 12,
+      "domestic_article_count": 12,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "biz.heraldcorp.com",
+        "cnbnews.com",
+        "daily.hankooki.com",
+        "edaily.co.kr",
+        "fetv.co.kr",
+        "metroseoul.co.kr",
         "mt.co.kr",
-        "popcornnews.net"
+        "newsdream.kr",
+        "popcornnews.net",
+        "sidae.com",
+        "thepublic.kr"
       ],
       "categories": [
         "기타"
@@ -1715,117 +1699,121 @@
       "needs_review": true,
       "articles": [
         {
-          "title": "LX판토스, KAI 첨단무기 운송 완료…방산물류 역량 입증",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=130686",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-08-25T11:38:00+09:00",
+          "title": "KAI, 항공우주 논문상 공모…총 상금 3800만원",
+          "url": "https://metroseoul.co.kr/article/20260827500200",
+          "source": "metroseoul.co.kr",
+          "source_domain": "metroseoul.co.kr",
+          "published_at": "2026-08-27T13:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "LX판토스, KAI 첨단무기 국내로 운송…\"방산물류 역량 입증\"",
-          "url": "https://mt.co.kr/industry/2026/08/25/2026082509145573641",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-08-25T09:40:00+09:00",
+          "title": "KAI, '제24회 항공우주 논문상 공모전' 접수… 최우수상 상금 1000만원",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=316429",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-08-27T12:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "LX판토스, KAI 첨단무기 운송 프로젝트 성료…“방산물류 역량 입증”",
-          "url": "https://biz.heraldcorp.com/article/10850721",
+          "title": "KAI, 항공우주 논문상 공모전…총 상금 3800만원",
+          "url": "https://biz.heraldcorp.com/article/10854051",
           "source": "biz.heraldcorp.com",
           "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-08-25T08:00:00+09:00",
+          "published_at": "2026-08-27T11:33:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "96f6fabd6ead3006",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "LX판토스, KAI 의뢰 방산물류 프로젝트 완료",
-      "representative_url": "https://ksg.co.kr/news/main_newsView.jsp?pNum=147905",
-      "representative_source": "ksg.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-25T01:42:00Z",
-      "last_published_at": "2026-08-25T01:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ksg.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
+        },
         {
-          "title": "LX판토스, KAI 의뢰 방산물류 프로젝트 완료",
-          "url": "https://ksg.co.kr/news/main_newsView.jsp?pNum=147905",
-          "source": "ksg.co.kr",
-          "source_domain": "ksg.co.kr",
-          "published_at": "2026-08-25T10:42:00+09:00",
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최…총상금 3800만원",
+          "url": "https://cnbnews.com/news/articleView.html?idxno=1013049",
+          "source": "cnbnews.com",
+          "source_domain": "cnbnews.com",
+          "published_at": "2026-08-27T10:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ee4e00783224e2ef",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "“전세기 띄우고 14개국 영공 통과”…LX판토스, KAI 첨단무기 방산물류...",
-      "representative_url": "https://dt.co.kr/article/12079989",
-      "representative_source": "dt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-25T00:41:00Z",
-      "last_published_at": "2026-08-25T00:41:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dt.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
+        },
         {
-          "title": "“전세기 띄우고 14개국 영공 통과”…LX판토스, KAI 첨단무기 방산물류...",
-          "url": "https://dt.co.kr/article/12079989",
-          "source": "dt.co.kr",
-          "source_domain": "dt.co.kr",
-          "published_at": "2026-08-25T09:41:00+09:00",
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최…시상금 3800만원",
+          "url": "https://mt.co.kr/industry/2026/08/27/2026082709493657973",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-08-27T10:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 항공우주 논문상 공모…총상금 3800만원으로 확대",
+          "url": "https://sidae.com/article/2026082709163945173",
+          "source": "sidae.com",
+          "source_domain": "sidae.com",
+          "published_at": "2026-08-27T09:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모…총 상금 3800만원",
+          "url": "https://fetv.co.kr/news/articleView.html?idxno=309132",
+          "source": "fetv.co.kr",
+          "source_domain": "fetv.co.kr",
+          "published_at": "2026-08-27T09:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최…상금 3800만 원에 입사 특전까...",
+          "url": "https://newsdream.kr/news/articleView.html?idxno=116957",
+          "source": "newsdream.kr",
+          "source_domain": "newsdream.kr",
+          "published_at": "2026-08-27T09:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최…총 상금 3800만원",
+          "url": "https://biz.heraldcorp.com/article/10853609",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-08-27T08:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI ' 항공우주 논문상' 공모전 개최…총 시상금 3800만원",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02748646645551584",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-08-27T08:51:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모…총상금 3800만원",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1399704",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-08-27T08:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 항공우주 논문상 공모전 개최…시상금 3800만 원으로 확대",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=130899",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-08-27T08:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1833,15 +1821,15 @@
       ]
     },
     {
-      "cluster_id": "f0c269e7b0918d99",
+      "cluster_id": "d2646df3f7a931b2",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI, 연구개발비 3배로 늘렸다…방산 빅4 R&D 투자 확대",
-      "representative_url": "https://datanews.co.kr/news/article.html?no=146137",
-      "representative_source": "datanews.co.kr",
+      "representative_title": "[단독] 신익현 LIG D&A 대표 “한화가 KAI 인수시 독과점 우려, 정부 컨트...",
+      "representative_url": "https://biz.newdaily.co.kr/site/data/html/2026/08/27/2026082700088.html",
+      "representative_source": "biz.newdaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:46:00Z",
-      "last_published_at": "2026-08-24T23:46:00Z",
+      "first_published_at": "2026-08-27T02:20:00Z",
+      "last_published_at": "2026-08-27T02:20:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1849,13 +1837,13 @@
         "naver"
       ],
       "source_domains": [
-        "datanews.co.kr"
+        "biz.newdaily.co.kr"
       ],
       "categories": [
-        "투자·생산"
+        "인사·M&A"
       ],
       "event_keywords": [
-        "investment"
+        "m_and_a"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -1867,11 +1855,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "KAI, 연구개발비 3배로 늘렸다…방산 빅4 R&D 투자 확대",
-          "url": "https://datanews.co.kr/news/article.html?no=146137",
-          "source": "datanews.co.kr",
-          "source_domain": "datanews.co.kr",
-          "published_at": "2026-08-25T08:46:00+09:00",
+          "title": "[단독] 신익현 LIG D&A 대표 “한화가 KAI 인수시 독과점 우려, 정부 컨트...",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/27/2026082700088.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-08-27T11:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1879,15 +1867,15 @@
       ]
     },
     {
-      "cluster_id": "d8ad3e7b2fd38930",
+      "cluster_id": "2b0df0265431adb1",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "LX판토스, KAI 첨단무기 프랑스서 들여왔다…'방산물류' 역량 입증",
-      "representative_url": "https://ajunews.com/view/20260825082759800",
-      "representative_source": "ajunews.com",
+      "representative_title": "KAI, 2분기 매출 반등…‘KF-21 양산·AI 반도체’ 날개 달고 비상 준비",
+      "representative_url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065577596894904",
+      "representative_source": "megaeconomy.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:32:00Z",
-      "last_published_at": "2026-08-24T23:32:00Z",
+      "first_published_at": "2026-08-27T02:10:00Z",
+      "last_published_at": "2026-08-27T02:10:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1895,26 +1883,30 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com"
+        "megaeconomy.co.kr"
       ],
       "categories": [
-        "기타"
+        "실적"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "earnings",
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "LX판토스, KAI 첨단무기 프랑스서 들여왔다…'방산물류' 역량 입증",
-          "url": "https://ajunews.com/view/20260825082759800",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-25T08:32:00+09:00",
+          "title": "KAI, 2분기 매출 반등…‘KF-21 양산·AI 반도체’ 날개 달고 비상 준비",
+          "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065577596894904",
+          "source": "megaeconomy.co.kr",
+          "source_domain": "megaeconomy.co.kr",
+          "published_at": "2026-08-27T11:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1922,15 +1914,15 @@
       ]
     },
     {
-      "cluster_id": "be516999b20868fe",
+      "cluster_id": "9b4becac1d6be596",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[송방원 칼럼] KAI 지배구조 개편 논의, 소모적 견제 대신 항공 산업 성장...",
-      "representative_url": "https://news2day.co.kr/article/20260825500014",
+      "representative_title": "KAI, 항공우주 인재에 통 큰 지원한다",
+      "representative_url": "https://news2day.co.kr/article/20260827500099",
       "representative_source": "news2day.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T23:20:00Z",
-      "last_published_at": "2026-08-24T23:20:00Z",
+      "first_published_at": "2026-08-27T02:02:00Z",
+      "last_published_at": "2026-08-27T02:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1941,8 +1933,7 @@
         "news2day.co.kr"
       ],
       "categories": [
-        "인사·M&A",
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -1954,11 +1945,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[송방원 칼럼] KAI 지배구조 개편 논의, 소모적 견제 대신 항공 산업 성장...",
-          "url": "https://news2day.co.kr/article/20260825500014",
+          "title": "KAI, 항공우주 인재에 통 큰 지원한다",
+          "url": "https://news2day.co.kr/article/20260827500099",
           "source": "news2day.co.kr",
           "source_domain": "news2day.co.kr",
-          "published_at": "2026-08-25T08:20:00+09:00",
+          "published_at": "2026-08-27T11:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1966,15 +1957,15 @@
       ]
     },
     {
-      "cluster_id": "8ccd07ea8ffa92b5",
+      "cluster_id": "44abfe9453b140c5",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI·미국 모멘텀 품은 한화…그룹주 'K-방산 프리미엄' 달까",
-      "representative_url": "https://metroseoul.co.kr/article/20260825500001",
-      "representative_source": "metroseoul.co.kr",
+      "representative_title": "KAI, 대학생·대학원생 대상 항공우주 논문상 공모",
+      "representative_url": "https://datanews.co.kr/news/article.html?no=146208",
+      "representative_source": "datanews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-24T22:00:00Z",
-      "last_published_at": "2026-08-24T22:00:00Z",
+      "first_published_at": "2026-08-27T02:00:00Z",
+      "last_published_at": "2026-08-27T02:00:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1982,52 +1973,7 @@
         "naver"
       ],
       "source_domains": [
-        "metroseoul.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KAI·미국 모멘텀 품은 한화…그룹주 'K-방산 프리미엄' 달까",
-          "url": "https://metroseoul.co.kr/article/20260825500001",
-          "source": "metroseoul.co.kr",
-          "source_domain": "metroseoul.co.kr",
-          "published_at": "2026-08-25T07:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ac0ba838b2684bd6",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "印尼·말레이, KAI KF-21 동시 도입 추진…동남아서 K-전투기 뜬다",
-      "representative_url": "https://g-enews.com/view.php?ud=202608250617368181e8b8a793f7_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T21:20:00Z",
-      "last_published_at": "2026-08-24T21:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com"
+        "datanews.co.kr"
       ],
       "categories": [
         "기타"
@@ -2042,11 +1988,216 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "印尼·말레이, KAI KF-21 동시 도입 추진…동남아서 K-전투기 뜬다",
-          "url": "https://g-enews.com/view.php?ud=202608250617368181e8b8a793f7_1",
+          "title": "KAI, 대학생·대학원생 대상 항공우주 논문상 공모",
+          "url": "https://datanews.co.kr/news/article.html?no=146208",
+          "source": "datanews.co.kr",
+          "source_domain": "datanews.co.kr",
+          "published_at": "2026-08-27T11:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3f7abb967ebd3f56",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI ' 항공우주 논문상' 접수···학술 연구 지원 확대",
+      "representative_url": "https://enewstoday.co.kr/news/articleView.html?idxno=2463643",
+      "representative_source": "enewstoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-27T01:28:00Z",
+      "last_published_at": "2026-08-27T01:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "enewstoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI ' 항공우주 논문상' 접수···학술 연구 지원 확대",
+          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2463643",
+          "source": "enewstoday.co.kr",
+          "source_domain": "enewstoday.co.kr",
+          "published_at": "2026-08-27T10:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "048a62a3c2c9990e",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, '제24회 항공우주 논문상' 공모전 개최…9월24일까지 접수",
+      "representative_url": "https://ddaily.co.kr/page/view/2026082709532107611",
+      "representative_source": "ddaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-27T01:15:00Z",
+      "last_published_at": "2026-08-27T01:15:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ddaily.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, '제24회 항공우주 논문상' 공모전 개최…9월24일까지 접수",
+          "url": "https://ddaily.co.kr/page/view/2026082709532107611",
+          "source": "ddaily.co.kr",
+          "source_domain": "ddaily.co.kr",
+          "published_at": "2026-08-27T10:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "56157363803eee37",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 제24회 항공우주 논문상 공모전 개최… 우주 항공 인재 발굴 나서",
+      "representative_url": "https://view.asiae.co.kr/article/2026082708413285809",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-26T23:41:00Z",
+      "last_published_at": "2026-08-27T00:49:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ajunews.com",
+        "g-enews.com",
+        "inews24.com",
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "KAI, 항공우주 논문상 공모전 개최… 우주 항공 분야 인재 발굴",
+          "url": "https://inews24.com/view/1998790",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-08-27T09:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, '제24회 항공우주 논문상' 공모전 개최… 우주 항공 인재 발굴 박차",
+          "url": "https://g-enews.com/view.php?ud=202608270914234961ea14faf6f5_1",
           "source": "g-enews.com",
           "source_domain": "g-enews.com",
-          "published_at": "2026-08-25T06:20:00+09:00",
+          "published_at": "2026-08-27T09:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI '제24회 항공우주 논문상' 공모전… 우주 항공 인재 발굴",
+          "url": "https://ajunews.com/view/20260827085054981",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-08-27T09:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모전 개최… 우주 항공 인재 발굴 나서",
+          "url": "https://view.asiae.co.kr/article/2026082708413285809",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-08-27T08:41:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "538272c761629c79",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 제24회 항공우주 논문상 공모…인재 발굴·양성 지원 강화",
+      "representative_url": "https://etoday.co.kr/news/view/2618680",
+      "representative_source": "etoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-27T00:06:00Z",
+      "last_published_at": "2026-08-27T00:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 제24회 항공우주 논문상 공모…인재 발굴·양성 지원 강화",
+          "url": "https://etoday.co.kr/news/view/2618680",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-08-27T09:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
