@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-28T06:55:51.593490Z",
+  "generated_at": "2026-08-28T21:21:39.215535Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-08-28T06:55:51.593490Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-28T21:21:39.215535Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "URLError"
+    }
+  ],
   "news": [
     {
       "cluster_id": "48550a5591f88302",
@@ -4681,57 +4686,90 @@
       ]
     },
     {
-      "cluster_id": "a7c9e697536ec005",
+      "cluster_id": "5c19f84eb5912d7c",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 美 인디애나 HBM 거점 첫삽 … 2029년 메이드 인 united states 양산",
-      "representative_url": "https://etoday.co.kr/news/view/2619100",
-      "representative_source": "etoday.co.kr",
+      "representative_title": "[주간 거래소 기관] 삼성전자· SK하이닉스 팔고 삼성SDI·두산에너빌리...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=481655",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-27T20:00:00Z",
-      "last_published_at": "2026-08-28T06:52:00Z",
-      "article_count": 36,
-      "domestic_article_count": 36,
+      "first_published_at": "2026-08-28T21:18:00Z",
+      "last_published_at": "2026-08-28T21:18:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
-        "gdelt",
         "naver"
       ],
       "source_domains": [
-        "busan.com",
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[주간 거래소 기관] 삼성전자· SK하이닉스 팔고 삼성SDI·두산에너빌리...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=481655",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-08-29T06:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "dc61de14f4435be9",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "\"AI의 새로운 미래 시작\"... SK하이닉스 , 美서 2029년 HBM 양산",
+      "representative_url": "https://consumernews.co.kr/news/articleView.html?idxno=762615",
+      "representative_source": "consumernews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-28T05:22:00Z",
+      "last_published_at": "2026-08-28T21:16:00Z",
+      "article_count": 25,
+      "domestic_article_count": 25,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biztribune.co.kr",
+        "ceoscoredaily.com",
         "consumernews.co.kr",
-        "e-science.co.kr",
-        "efnews.co.kr",
+        "datasom.co.kr",
         "ekoreanews.co.kr",
-        "etoday.co.kr",
-        "fnnews.com",
-        "greened.kr",
-        "huffingtonpost.kr",
-        "inthenews.co.kr",
-        "job-post.co.kr",
+        "imnews.imbc.com",
+        "itdaily.kr",
         "joongang.co.kr",
-        "kmib.co.kr",
-        "koreastocknews.com",
-        "m-economynews.com",
-        "mbnmoney.mbn.co.kr",
-        "mdtoday.co.kr",
-        "mediawatch.kr",
-        "naeil.com",
+        "lkp.news",
+        "mbn.co.kr",
+        "news.dealsitetv.com",
         "news.knn.co.kr",
+        "news.mtn.co.kr",
         "news2day.co.kr",
         "newsbrite.net",
+        "newsroad.co.kr",
         "newstomato.com",
-        "nspna.com",
-        "opinionnews.co.kr",
-        "polinews.co.kr",
-        "popcornnews.net",
-        "queen.co.kr",
-        "redian.org",
-        "seouleconews.com",
-        "the-biz.co.kr",
+        "sateconomy.co.kr",
+        "sentv.co.kr",
+        "sisajournal-e.com",
+        "sisaon.co.kr",
+        "sisaweek.com",
         "thepublic.kr",
-        "todayenergy.kr",
-        "ytn.co.kr"
+        "webeconomy.co.kr",
+        "wowtv.co.kr"
       ],
       "categories": [
         "공급·규제",
@@ -4741,10 +4779,7 @@
         "투자·생산"
       ],
       "event_keywords": [
-        " 40억",
-        " 54조",
-        "ai_memory",
-        "executive",
+        "earnings",
         "hbm",
         "investment",
         "production",
@@ -4761,21 +4796,191 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "곽노정 SK하이닉스 CEO, 韓 54조·美 40억 달러 승부수…AI 메모리 생산...",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=131126",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-08-28T15:52:00+09:00",
+          "title": "SK하이닉스 미국 인디애나 HBM 생산 공장 건설",
+          "url": "https://newsroad.co.kr/news/articleView.html?idxno=63549",
+          "source": "newsroad.co.kr",
+          "source_domain": "newsroad.co.kr",
+          "published_at": "2026-08-29T06:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "SK하이닉스 , 미국 내 HBM 생산거점 '첫발', \"관세압박 대응 첨병 역할\"",
+          "title": "SK하이닉스 , 3년 뒤 美 공장서 HBM4E 양산···\"연간 수십만장 생산\"",
+          "url": "https://sisajournal-e.com/news/articleView.html?idxno=423376",
+          "source": "sisajournal-e.com",
+          "source_domain": "sisajournal-e.com",
+          "published_at": "2026-08-29T06:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[사진] SK하이닉스 , 미국 HBM 생산기지 기공식",
+          "url": "https://joongang.co.kr/article/25457210",
+          "source": "joongang.co.kr",
+          "source_domain": "joongang.co.kr",
+          "published_at": "2026-08-29T00:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한국서 웨이퍼·미국서 패키징… SK하이닉스 , HBM 공급망 넓힌다",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=358117",
+          "source": "biztribune.co.kr",
+          "source_domain": "biztribune.co.kr",
+          "published_at": "2026-08-28T21:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , '메이드 인 USA' HBM 만든다…미국 생산기지 각축",
+          "url": "https://mbn.co.kr/pages/news/newsView.php?news_seq_no=5215595",
+          "source": "mbn.co.kr",
+          "source_domain": "mbn.co.kr",
+          "published_at": "2026-08-28T20:05:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 미국 HBM 생산거점 '인디애나 팹' 기공식",
           "url": "https://ekoreanews.co.kr/news/articleView.html?idxno=87743",
           "source": "ekoreanews.co.kr",
           "source_domain": "ekoreanews.co.kr",
-          "published_at": "2026-08-28T15:50:00+09:00",
+          "published_at": "2026-08-28T18:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , HBM 생산체계 美로 확대…'인디애나 팹'서 HBM4E 양산",
+          "url": "https://itdaily.kr/news/articleView.html?idxno=241282",
+          "source": "itdaily.kr",
+          "source_domain": "itdaily.kr",
+          "published_at": "2026-08-28T18:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 美 HBM 생산라인 첫 삽…“트럼프 압박·호남 반도체 투자 ...",
+          "url": "https://ceoscoredaily.com/page/view/2026082814134260447",
+          "source": "ceoscoredaily.com",
+          "source_domain": "ceoscoredaily.com",
+          "published_at": "2026-08-28T17:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "“공급부족 2030년까지”… SK하이닉스 , 美 HBM 공장 착공",
+          "url": "https://sentv.co.kr/article/view/sentv202608280064",
+          "source": "sentv.co.kr",
+          "source_domain": "sentv.co.kr",
+          "published_at": "2026-08-28T17:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 미국서 HBM 생산…한미 AI 공급망 잇는다",
+          "url": "https://news.mtn.co.kr/news-detail/2026082815592854099",
+          "source": "news.mtn.co.kr",
+          "source_domain": "news.mtn.co.kr",
+          "published_at": "2026-08-28T17:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인디애나 HBM 팹 착공‥美 첫 생산기지",
+          "url": "https://imnews.imbc.com/replay/2026/nw1700/article/6848098_36981.html",
+          "source": "imnews.imbc.com",
+          "source_domain": "imnews.imbc.com",
+          "published_at": "2026-08-28T17:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 '인디애나 HBM 생산거점'을 통해 본 '호남 반도체 클러스터' ...",
+          "url": "https://lkp.news/news/articleView.html?idxno=83452",
+          "source": "lkp.news",
+          "source_domain": "lkp.news",
+          "published_at": "2026-08-28T16:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 미국에 첫 HBM 생산거점 구축",
+          "url": "https://datasom.co.kr/news/articleView.html?idxno=209717",
+          "source": "datasom.co.kr",
+          "source_domain": "datasom.co.kr",
+          "published_at": "2026-08-28T16:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 美 인디애나 HBM 생산거점 착공…2029년 양산",
+          "url": "https://webeconomy.co.kr/news/articleView.html?idxno=2281857",
+          "source": "webeconomy.co.kr",
+          "source_domain": "webeconomy.co.kr",
+          "published_at": "2026-08-28T16:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 美 HBM 생산 거점 마련… 3분기 실적도 '파란불'",
+          "url": "https://sisaweek.com/news/articleView.html?idxno=237574",
+          "source": "sisaweek.com",
+          "source_domain": "sisaweek.com",
+          "published_at": "2026-08-28T16:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 미국서 첫 HBM 생산기지 착공…연 수십만장 규모",
+          "url": "https://sateconomy.co.kr/news/view/1065597465095421",
+          "source": "sateconomy.co.kr",
+          "source_domain": "sateconomy.co.kr",
+          "published_at": "2026-08-28T16:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인디애나 공장 첫 삽…\"미국 최초 HBM 생산 거점\"",
+          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608280458&t=NNv",
+          "source": "wowtv.co.kr",
+          "source_domain": "wowtv.co.kr",
+          "published_at": "2026-08-28T16:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[재계 투데이] SK하이닉스 , 美 인디애나 HBM 공장 착공 外",
+          "url": "https://news.dealsitetv.com/articles/175354",
+          "source": "news.dealsitetv.com",
+          "source_domain": "news.dealsitetv.com",
+          "published_at": "2026-08-28T16:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 美 인디애나 HBM 생산기지 착공…SKT, 전 국민 AI 비서 구축...",
+          "url": "https://sisaon.co.kr/news/articleView.html?idxno=203922",
+          "source": "sisaon.co.kr",
+          "source_domain": "sisaon.co.kr",
+          "published_at": "2026-08-28T16:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4839,299 +5044,19 @@
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 생산거점 기공",
-          "url": "https://todayenergy.kr/news/articleView.html?idxno=302134",
-          "source": "todayenergy.kr",
-          "source_domain": "todayenergy.kr",
-          "published_at": "2026-08-28T14:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "미국 첫 HBM 공장, SK하이닉스 가 짓는다…'미국산'으로 엔비디아 정조준",
-          "url": "https://mbnmoney.mbn.co.kr/news/view?news_no=MM1005910331",
-          "source": "mbnmoney.mbn.co.kr",
-          "source_domain": "mbnmoney.mbn.co.kr",
-          "published_at": "2026-08-28T14:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 미국 인디애나 HBM 패키징 거점 착공…2029년 현지 양산",
-          "url": "https://e-science.co.kr/news/articleView.html?idxno=134297",
-          "source": "e-science.co.kr",
-          "source_domain": "e-science.co.kr",
-          "published_at": "2026-08-28T13:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 미국 내 첫 HBM 생산기지 구축...\"인디애나서 AI 새 미래\"",
-          "url": "https://opinionnews.co.kr/news/articleView.html?idxno=143716",
-          "source": "opinionnews.co.kr",
-          "source_domain": "opinionnews.co.kr",
-          "published_at": "2026-08-28T13:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 “29년 미국서 HBM 생산”",
-          "url": "https://naeil.com/news/read/600344",
-          "source": "naeil.com",
-          "source_domain": "naeil.com",
-          "published_at": "2026-08-28T13:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美서 HBM 생산망 구축 첫발…2029년 '미국산' 양산",
-          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=610059",
-          "source": "mdtoday.co.kr",
-          "source_domain": "mdtoday.co.kr",
-          "published_at": "2026-08-28T12:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나에 첫 HBM 생산거점 구축...'Made in USA' 공급 본...",
-          "url": "https://redian.org/news/articleView.html?idxno=257213",
-          "source": "redian.org",
-          "source_domain": "redian.org",
-          "published_at": "2026-08-28T12:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 미국 내 첫 HBM 생산기지 구축...“2029년 하반기 양산 목표...",
-          "url": "https://joongang.co.kr/article/25457032",
-          "source": "joongang.co.kr",
-          "source_domain": "joongang.co.kr",
-          "published_at": "2026-08-28T12:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나에 첨단 패키징 공장 착공… 차세대 HBM 양산 목...",
-          "url": "https://mediawatch.kr/news/article.html?no=260814",
-          "source": "mediawatch.kr",
-          "source_domain": "mediawatch.kr",
-          "published_at": "2026-08-28T12:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 첫 HBM 생산기지 착공...2029년 ‘메이드 인 USA’ HBM 양산",
-          "url": "https://m-economynews.com/news/article.html?no=70190",
-          "source": "m-economynews.com",
-          "source_domain": "m-economynews.com",
-          "published_at": "2026-08-28T11:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 팹 착공… 한미 'AI 공급망 동맹' 가속화",
-          "url": "https://polinews.co.kr/news/articleView.html?idxno=741517",
-          "source": "polinews.co.kr",
-          "source_domain": "polinews.co.kr",
-          "published_at": "2026-08-28T11:43:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 40억달러 공장 착공… 2029년 3분기 HBM 4E 양산",
-          "url": "https://the-biz.co.kr/news/articleView.html?idxno=726956",
-          "source": "the-biz.co.kr",
-          "source_domain": "the-biz.co.kr",
-          "published_at": "2026-08-28T11:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 미국 첫 생산기지 착공… 미국산 HBM 만든다",
-          "url": "https://kmib.co.kr/article/view.asp?arcid=9000007046&cp=nv",
-          "source": "kmib.co.kr",
-          "source_domain": "kmib.co.kr",
-          "published_at": "2026-08-28T11:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "'메이드인 USA' HBM 생산한다... SK하이닉스 , 美인디애나팹 착공",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=225370",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-08-28T11:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 인디애나에 HBM 생산기지 구축…“한미 AI 협력의 새로운 날...",
-          "url": "https://inthenews.co.kr/news/article.html?no=91076",
-          "source": "inthenews.co.kr",
-          "source_domain": "inthenews.co.kr",
-          "published_at": "2026-08-28T11:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 미국에 HBM 생산거점 첫 삽 떴다 : 곽노정 \"메모리 공급부족...",
-          "url": "https://huffingtonpost.kr/article/259943",
-          "source": "huffingtonpost.kr",
-          "source_domain": "huffingtonpost.kr",
-          "published_at": "2026-08-28T10:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 미국 인디애나에 첫 반도체 공장 기공…AI 메모리 전초기지...",
-          "url": "https://queen.co.kr/news/articleView.html?idxno=462426",
-          "source": "queen.co.kr",
-          "source_domain": "queen.co.kr",
-          "published_at": "2026-08-28T10:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "\"트럼프, 반도체 고율관세 검토... SK하이닉스 \"미국산 HBM 생산\"",
-          "url": "https://ytn.co.kr/_ln/0104_202608281054095292",
-          "source": "ytn.co.kr",
-          "source_domain": "ytn.co.kr",
-          "published_at": "2026-08-28T10:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 생산거점 기공식",
-          "url": "https://koreastocknews.com/news/articleView.html?idxno=120860",
-          "source": "koreastocknews.com",
-          "source_domain": "koreastocknews.com",
-          "published_at": "2026-08-28T10:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 생산거점 기공…\"韓美 AI의 새로운 미래\"",
-          "url": "https://efnews.co.kr/news/articleView.html?idxno=131953",
-          "source": "efnews.co.kr",
-          "source_domain": "efnews.co.kr",
-          "published_at": "2026-08-28T10:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 \"메이드 인 USA HBM \"…2029년 7세대 HBM 4E 양산",
-          "url": "https://seouleconews.com/news/articleView.html?idxno=93371",
-          "source": "seouleconews.com",
-          "source_domain": "seouleconews.com",
-          "published_at": "2026-08-28T10:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 'Made in USA' HBM 만든다…2029년 7세대 양산",
-          "url": "https://greened.kr/news/articleView.html?idxno=348666",
-          "source": "greened.kr",
-          "source_domain": "greened.kr",
-          "published_at": "2026-08-28T10:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 美 첫 HBM 생산거점 착공 … 40억달러 이상 투자",
-          "url": "https://nspna.com/news?mode=view&newsid=826045",
-          "source": "nspna.com",
-          "source_domain": "nspna.com",
-          "published_at": "2026-08-28T05:45:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 공장 착공",
-          "url": "https://busan.com/view/busan/view.php?code=2026082810064520623",
-          "source": "busan.com",
-          "source_domain": "busan.com",
-          "published_at": "2026-08-28T02:45:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        },
-        {
-          "title": "SK하이닉스 , 美 HBM 생산기지 기공식 … 2029년 메이드 인 united states 양산",
-          "url": "https://fnnews.com/news/202608280126440964",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-08-27T22:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        },
-        {
-          "title": "韓에 몰린 HBM 생산지도 바뀐다 … SK하이닉스 美 승부수",
-          "url": "https://fnnews.com/news/202608271218315369",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-08-27T22:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        },
-        {
-          "title": "SK하이닉스 승부수 … HBM 생산지도 , 亞서 美로 확장 [ SK하이닉스 美 인디애나 공장 건설 ]",
-          "url": "https://fnnews.com/news/202608271820248650",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-08-27T22:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        },
-        {
-          "title": "SK하이닉스 , 美 인디애나 HBM 거점 첫삽 … 2029년 메이드 인 united states 양산",
-          "url": "https://etoday.co.kr/news/view/2619100",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-27T20:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
         }
       ]
     },
     {
-      "cluster_id": "e3eac6c1b98b14f7",
+      "cluster_id": "1b0baa0465f82352",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "그래서 물린 SK하이닉스 오를까요...\"시대의 주식은 우상향\" [몇층이세요...",
-      "representative_url": "https://ytn.co.kr/_ln/0134_202608281509138586",
-      "representative_source": "ytn.co.kr",
+      "representative_title": "SK hynix, 인디애나주에 AI 반도체 생산기지",
+      "representative_url": "https://koreadaily.com/article/20260828141522916",
+      "representative_source": "koreadaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-28T06:09:00Z",
-      "last_published_at": "2026-08-28T06:09:00Z",
+      "first_published_at": "2026-08-28T21:16:00Z",
+      "last_published_at": "2026-08-28T21:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5139,149 +5064,58 @@
         "naver"
       ],
       "source_domains": [
-        "ytn.co.kr"
+        "koreadaily.com"
       ],
       "categories": [
         "기술·제품",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "그래서 물린 SK하이닉스 오를까요...\"시대의 주식은 우상향\" [몇층이세요...",
-          "url": "https://ytn.co.kr/_ln/0134_202608281509138586",
-          "source": "ytn.co.kr",
-          "source_domain": "ytn.co.kr",
-          "published_at": "2026-08-28T15:09:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5c67f7064dae9ade",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "Gov . Braun breaks ground on SK hynix fab in Indiana",
-      "representative_url": "https://nwitimes.com/news/community/article_bf42d6e1-222d-5130-94ec-cef268065213.html",
-      "representative_source": "nwitimes.com",
-      "representative_language": "English",
-      "first_published_at": "2026-08-28T05:45:00Z",
-      "last_published_at": "2026-08-28T05:45:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "nwitimes.com"
-      ],
-      "categories": [
+        "인사·M&A",
         "투자·생산"
       ],
       "event_keywords": [
         "production"
       ],
-      "importance_score": 35,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "Gov . Braun breaks ground on SK hynix fab in Indiana",
-          "url": "https://nwitimes.com/news/community/article_bf42d6e1-222d-5130-94ec-cef268065213.html",
-          "source": "nwitimes.com",
-          "source_domain": "nwitimes.com",
-          "published_at": "2026-08-28T05:45:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
+          "title": "SK hynix, 인디애나주에 AI 반도체 생산기지",
+          "url": "https://koreadaily.com/article/20260828141522916",
+          "source": "koreadaily.com",
+          "source_domain": "koreadaily.com",
+          "published_at": "2026-08-29T06:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
         }
       ]
     },
     {
-      "cluster_id": "ab44eaa5f86ec341",
+      "cluster_id": "fe8111927b286e88",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 이천 · 청주서 만든 웨이퍼 美서 후공정 … HBM 한미 분업",
-      "representative_url": "https://newspim.com/news/view/20260828000646",
-      "representative_source": "newspim.com",
+      "representative_title": "돈 잘버는 SK하이닉스 보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리...",
+      "representative_url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608280553&t=NN",
+      "representative_source": "wowtv.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-28T05:30:00Z",
-      "last_published_at": "2026-08-28T05:30:00Z",
+      "first_published_at": "2026-08-28T21:00:00Z",
+      "last_published_at": "2026-08-28T21:00:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
-        "gdelt",
         "naver"
       ],
       "source_domains": [
-        "newspim.com"
+        "wowtv.co.kr"
       ],
       "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 이천 · 청주서 만든 웨이퍼 美서 후공정 … HBM 한미 분업",
-          "url": "https://newspim.com/news/view/20260828000646",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-08-28T05:30:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "58494a03239993d6",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK hynix recognizes new union as pay talks return to table",
-      "representative_url": "https://koreaherald.com/article/10855250",
-      "representative_source": "koreaherald.com",
-      "representative_language": "English",
-      "first_published_at": "2026-08-28T05:30:00Z",
-      "last_published_at": "2026-08-28T05:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "koreaherald.com"
-      ],
-      "categories": [
-        "기타"
+        "실적"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -5293,27 +5127,27 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK hynix recognizes new union as pay talks return to table",
-          "url": "https://koreaherald.com/article/10855250",
-          "source": "koreaherald.com",
-          "source_domain": "koreaherald.com",
-          "published_at": "2026-08-28T05:30:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
+          "title": "돈 잘버는 SK하이닉스 보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리...",
+          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608280553&t=NN",
+          "source": "wowtv.co.kr",
+          "source_domain": "wowtv.co.kr",
+          "published_at": "2026-08-29T06:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
         }
       ]
     },
     {
-      "cluster_id": "f02732db87bd483f",
+      "cluster_id": "39cf8409931fcfdf",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "\" HBM 웨이퍼도 미국서?\"… SK하이닉스 , 전공정 팹 '마지막 퍼즐'",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026082811090705799",
-      "representative_source": "newsway.co.kr",
+      "representative_title": "외국인 6.1조 던졌다…삼성전자· SK하이닉스 팔고 조선·방산株 ‘러브...",
+      "representative_url": "https://news2day.co.kr/article/20260828500095",
+      "representative_source": "news2day.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-28T05:08:00Z",
-      "last_published_at": "2026-08-28T05:08:00Z",
+      "first_published_at": "2026-08-28T19:22:00Z",
+      "last_published_at": "2026-08-28T19:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5321,9 +5155,149 @@
         "naver"
       ],
       "source_domains": [
-        "newsway.co.kr"
+        "news2day.co.kr"
       ],
       "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 1조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "외국인 6.1조 던졌다…삼성전자· SK하이닉스 팔고 조선·방산株 ‘러브...",
+          "url": "https://news2day.co.kr/article/20260828500095",
+          "source": "news2day.co.kr",
+          "source_domain": "news2day.co.kr",
+          "published_at": "2026-08-29T04:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6f6d3272ad5b3713",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[종합] 최대 난제 풀리는 '800조 호남 반도체'…삼성전자· SK하이닉스 투...",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=543853",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-28T15:20:00Z",
+      "last_published_at": "2026-08-28T15:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 800조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[종합] 최대 난제 풀리는 '800조 호남 반도체'…삼성전자· SK하이닉스 투...",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=543853",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-08-29T00:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a553f86b485db88c",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "美 반도체 관세 압박 '본격화'… SK하이닉스 , 현지 공장 첫삽",
+      "representative_url": "https://news.tvchosun.com/site/data/html_dir/2026/08/28/2026082890260.html",
+      "representative_source": "news.tvchosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-28T12:44:00Z",
+      "last_published_at": "2026-08-28T12:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.tvchosun.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "美 반도체 관세 압박 '본격화'… SK하이닉스 , 현지 공장 첫삽",
+          "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/28/2026082890260.html",
+          "source": "news.tvchosun.com",
+          "source_domain": "news.tvchosun.com",
+          "published_at": "2026-08-28T21:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc07b978eed741e1",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 미 HBM 팹 착공…\"메이드 인 USA\"",
+      "representative_url": "https://obsnews.co.kr/news/articleView.html?idxno=1535673",
+      "representative_source": "obsnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-28T11:18:00Z",
+      "last_published_at": "2026-08-28T11:18:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "obsnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
         "기술·제품",
         "투자·생산"
       ],
@@ -5340,11 +5314,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "\" HBM 웨이퍼도 미국서?\"… SK하이닉스 , 전공정 팹 '마지막 퍼즐'",
-          "url": "https://newsway.co.kr/news/view?ud=2026082811090705799",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-08-28T14:08:00+09:00",
+          "title": "SK하이닉스 , 미 HBM 팹 착공…\"메이드 인 USA\"",
+          "url": "https://obsnews.co.kr/news/articleView.html?idxno=1535673",
+          "source": "obsnews.co.kr",
+          "source_domain": "obsnews.co.kr",
+          "published_at": "2026-08-28T20:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5352,15 +5326,15 @@
       ]
     },
     {
-      "cluster_id": "4eb41ac93aaca701",
+      "cluster_id": "0c1aa63194f3f5f7",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , 엔비디아 최대 실적에 웃는다… HBM 품귀 현상 지...",
-      "representative_url": "https://mediawatch.kr/news/article.html?no=260815",
-      "representative_source": "mediawatch.kr",
+      "representative_title": "SK하이닉스 , 美 패키징 이어 전공정 투자도 검토…반도체 관세는 변수(...",
+      "representative_url": "https://inews24.com/view/1999499",
+      "representative_source": "inews24.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-28T04:58:00Z",
-      "last_published_at": "2026-08-28T04:58:00Z",
+      "first_published_at": "2026-08-28T10:04:00Z",
+      "last_published_at": "2026-08-28T10:04:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5368,33 +5342,30 @@
         "naver"
       ],
       "source_domains": [
-        "mediawatch.kr"
+        "inews24.com"
       ],
       "categories": [
         "기술·제품",
-        "실적",
         "투자·생산"
       ],
       "event_keywords": [
-        "earnings",
-        "hbm"
+        "investment"
       ],
-      "importance_score": 35,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 , 엔비디아 최대 실적에 웃는다… HBM 품귀 현상 지...",
-          "url": "https://mediawatch.kr/news/article.html?no=260815",
-          "source": "mediawatch.kr",
-          "source_domain": "mediawatch.kr",
-          "published_at": "2026-08-28T13:58:00+09:00",
+          "title": "SK하이닉스 , 美 패키징 이어 전공정 투자도 검토…반도체 관세는 변수(...",
+          "url": "https://inews24.com/view/1999499",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-08-28T19:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5402,15 +5373,15 @@
       ]
     },
     {
-      "cluster_id": "95926797d0df5337",
+      "cluster_id": "8a4abb20f49a421d",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 미국 인디애나 팹 착공…美 정부, 최대 4.5억 달러 보조금·...",
-      "representative_url": "https://mbn.co.kr/pages/news/newsView.php?news_seq_no=5215491",
-      "representative_source": "mbn.co.kr",
+      "representative_title": "SK하이닉스 , 미국 HBM 후공정 거점 기공식… \"2029년 웨이퍼 韓서·도장...",
+      "representative_url": "https://econovill.com/news/articleView.html?idxno=749256",
+      "representative_source": "econovill.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-28T04:27:00Z",
-      "last_published_at": "2026-08-28T04:27:00Z",
+      "first_published_at": "2026-08-28T08:42:00Z",
+      "last_published_at": "2026-08-28T08:42:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5418,59 +5389,12 @@
         "naver"
       ],
       "source_domains": [
-        "mbn.co.kr"
+        "econovill.com"
       ],
       "categories": [
         "기술·제품"
       ],
       "event_keywords": [
-        " 5억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 미국 인디애나 팹 착공…美 정부, 최대 4.5억 달러 보조금·...",
-          "url": "https://mbn.co.kr/pages/news/newsView.php?news_seq_no=5215491",
-          "source": "mbn.co.kr",
-          "source_domain": "mbn.co.kr",
-          "published_at": "2026-08-28T13:27:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "532fde449408be7c",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "40억달러 들여 미국서 HBM 만든다… SK하이닉스 , 인디애나 팹 착공",
-      "representative_url": "https://kukinews.com/article/view/kuk202608280071",
-      "representative_source": "kukinews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-28T04:22:00Z",
-      "last_published_at": "2026-08-28T04:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kukinews.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "40억",
         "hbm"
       ],
       "importance_score": 20,
@@ -5483,55 +5407,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "40억달러 들여 미국서 HBM 만든다… SK하이닉스 , 인디애나 팹 착공",
-          "url": "https://kukinews.com/article/view/kuk202608280071",
-          "source": "kukinews.com",
-          "source_domain": "kukinews.com",
-          "published_at": "2026-08-28T13:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3a858ce370baadbf",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "\"한미 AI 새로운 미래\"... SK하이닉스 , 인디애나 팹 착공",
-      "representative_url": "https://public25.com/news/articleView.html?idxno=53529",
-      "representative_source": "public25.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-28T03:56:00Z",
-      "last_published_at": "2026-08-28T03:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "public25.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"한미 AI 새로운 미래\"... SK하이닉스 , 인디애나 팹 착공",
-          "url": "https://public25.com/news/articleView.html?idxno=53529",
-          "source": "public25.com",
-          "source_domain": "public25.com",
-          "published_at": "2026-08-28T12:56:00+09:00",
+          "title": "SK하이닉스 , 미국 HBM 후공정 거점 기공식… \"2029년 웨이퍼 韓서·도장...",
+          "url": "https://econovill.com/news/articleView.html?idxno=749256",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-08-28T17:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
