@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-08-29T04:09:31.802091Z",
+  "generated_at": "2026-08-29T15:38:01.224448Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-08-29T04:09:31.802091Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-08-29T15:38:01.224448Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "URLError"
+    }
+  ],
   "news": [
     {
       "cluster_id": "e0b6fdfa94e57c52",
@@ -954,6 +959,49 @@
       ]
     },
     {
+      "cluster_id": "f5059ad7d2373141",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "하나은행, 현대모비스 와 5천억 상생금융…'피지컬 AI'도 지원",
+      "representative_url": "https://thedailypost.kr/news/articleView.html?idxno=115238",
+      "representative_source": "thedailypost.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-08-29T12:50:00Z",
+      "last_published_at": "2026-08-29T12:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thedailypost.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "하나은행, 현대모비스 와 5천억 상생금융…'피지컬 AI'도 지원",
+          "url": "https://thedailypost.kr/news/articleView.html?idxno=115238",
+          "source": "thedailypost.kr",
+          "source_domain": "thedailypost.kr",
+          "published_at": "2026-08-29T21:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "ae9dea9b18a37ecf",
       "company_name": "현대모비스",
       "stock_code": "012330",
@@ -1477,50 +1525,6 @@
           "source": "asiatime.co.kr",
           "source_domain": "asiatime.co.kr",
           "published_at": "2026-08-28T17:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "08146482fc9ed9c2",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "현대모비스 , 하나은행·기보와 5천억 상생보증",
-      "representative_url": "https://hankyung.com/article/2026082800991",
-      "representative_source": "hankyung.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-28T08:42:00Z",
-      "last_published_at": "2026-08-28T08:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hankyung.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대모비스 , 하나은행·기보와 5천억 상생보증",
-          "url": "https://hankyung.com/article/2026082800991",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-08-28T17:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
