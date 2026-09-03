@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-02T01:01:09.141209Z",
+  "generated_at": "2026-09-03T01:06:49.283488Z",
   "company_name": "DL이앤씨",
   "stock_code": "375500",
-  "status": "ok",
-  "last_successful_update": "2026-09-02T01:01:09.141209Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-03T01:06:49.283488Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "URLError"
+    }
+  ],
   "news": [
     {
       "cluster_id": "281b39a7bfdfaa19",
@@ -48,6 +53,49 @@
           "source": "zdnet.co.kr",
           "source_domain": "zdnet.co.kr",
           "published_at": "2026-08-25T09:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4a980974a95e1353",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "DL이앤씨 , '하자소송 감정 무력화' 의혹 전면 부인…\"내부 품질교육 자...",
+      "representative_url": "https://knpnews.com/news/articleView.html?idxno=34394",
+      "representative_source": "knpnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-02T14:50:00Z",
+      "last_published_at": "2026-09-02T14:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "knpnews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DL이앤씨 , '하자소송 감정 무력화' 의혹 전면 부인…\"내부 품질교육 자...",
+          "url": "https://knpnews.com/news/articleView.html?idxno=34394",
+          "source": "knpnews.com",
+          "source_domain": "knpnews.com",
+          "published_at": "2026-09-02T23:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -497,51 +545,6 @@
           "source": "news1.kr",
           "source_domain": "news1.kr",
           "published_at": "2026-08-31T14:19:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cfdad2a2128fe2ba",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "'3.8조 대어' 목동12·성수2지구 유찰…GS건설· DL이앤씨 참여",
-      "representative_url": "https://sidae.com/article/2026083114383597143",
-      "representative_source": "sidae.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-31T07:30:00Z",
-      "last_published_at": "2026-08-31T07:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sidae.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 8조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'3.8조 대어' 목동12·성수2지구 유찰…GS건설· DL이앤씨 참여",
-          "url": "https://sidae.com/article/2026083114383597143",
-          "source": "sidae.com",
-          "source_domain": "sidae.com",
-          "published_at": "2026-08-31T16:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
