@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-04T00:58:24.692689Z",
+  "generated_at": "2026-09-04T14:57:04.690516Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-09-04T00:58:24.692689Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-04T14:57:04.690516Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "c5aa1379c26f9aeb",
@@ -1115,6 +1120,59 @@
       ]
     },
     {
+      "cluster_id": "b8473e3e51f66000",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 23만원 터치 '8% 급등'…HBM4·실적 기대에 매수세 몰렸다",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=226227",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-04T05:20:00Z",
+      "last_published_at": "2026-09-04T05:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings",
+        "hbm",
+        "hbm4"
+      ],
+      "importance_score": 10,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 23만원 터치 '8% 급등'…HBM4·실적 기대에 매수세 몰렸다",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=226227",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-04T14:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "9266df4757ba2fa9",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -1504,54 +1562,6 @@
           "source": "newstomato.com",
           "source_domain": "newstomato.com",
           "published_at": "2026-08-27T15:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "de2efe59e993cd69",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한화세미텍, 한미반도체 매출 추격…수익성 격차는 여전",
-      "representative_url": "https://datanews.co.kr/news/article.html?no=146174",
-      "representative_source": "datanews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-26T23:36:00Z",
-      "last_published_at": "2026-08-26T23:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "datanews.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화세미텍, 한미반도체 매출 추격…수익성 격차는 여전",
-          "url": "https://datanews.co.kr/news/article.html?no=146174",
-          "source": "datanews.co.kr",
-          "source_domain": "datanews.co.kr",
-          "published_at": "2026-08-27T08:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

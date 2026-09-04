@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-04T00:58:24.692689Z",
+  "generated_at": "2026-09-04T14:57:04.690516Z",
   "company_name": "대한조선",
   "stock_code": "439260",
   "status": "partial",
-  "last_successful_update": "2026-09-04T00:58:24.692689Z",
+  "last_successful_update": "2026-09-04T14:57:04.690516Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -110,6 +110,49 @@
           "source": "etnews.com",
           "source_domain": "etnews.com",
           "published_at": "2026-07-27T09:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "164757ac0e627052",
+      "company_name": "대한조선",
+      "stock_code": "439260",
+      "representative_title": "대한조선 기술교육원, 인재양성 경쟁력 '상위 5%'…2년 연속 최상위",
+      "representative_url": "https://snmnews.com/news/articleView.html?idxno=574268",
+      "representative_source": "snmnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-04T03:00:00Z",
+      "last_published_at": "2026-09-04T03:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "snmnews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "대한조선 기술교육원, 인재양성 경쟁력 '상위 5%'…2년 연속 최상위",
+          "url": "https://snmnews.com/news/articleView.html?idxno=574268",
+          "source": "snmnews.com",
+          "source_domain": "snmnews.com",
+          "published_at": "2026-09-04T12:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -503,56 +546,6 @@
           "source": "m-i.kr",
           "source_domain": "m-i.kr",
           "published_at": "2026-08-21T16:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d71e2add21f6318c",
-      "company_name": "대한조선",
-      "stock_code": "439260",
-      "representative_title": "[속보] HD현대마린엔진 주가 하락, 대한조선 과 선박엔진 계약",
-      "representative_url": "https://bntnews.co.kr/article/view/bnt202608210200",
-      "representative_source": "bntnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-21T02:02:00Z",
-      "last_published_at": "2026-08-21T02:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bntnews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "주가·투자의견"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 10,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[속보] HD현대마린엔진 주가 하락, 대한조선 과 선박엔진 계약",
-          "url": "https://bntnews.co.kr/article/view/bnt202608210200",
-          "source": "bntnews.co.kr",
-          "source_domain": "bntnews.co.kr",
-          "published_at": "2026-08-21T11:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

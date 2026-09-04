@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-04T00:58:24.692689Z",
+  "generated_at": "2026-09-04T14:57:04.690516Z",
   "company_name": "티에스이",
   "stock_code": "131290",
   "status": "partial",
-  "last_successful_update": "2026-09-04T00:58:24.692689Z",
+  "last_successful_update": "2026-09-04T14:57:04.690516Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -132,6 +132,53 @@
           "source": "tk.newdaily.co.kr",
           "source_domain": "tk.newdaily.co.kr",
           "published_at": "2026-09-03T12:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0735ae7f04640a4",
+      "company_name": "티에스이",
+      "stock_code": "131290",
+      "representative_title": "티에스이 , 대구 인재 찾아 300억 투자",
+      "representative_url": "https://naeil.com/news/read/601090",
+      "representative_source": "naeil.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-04T00:46:00Z",
+      "last_published_at": "2026-09-04T00:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "naeil.com"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 300억",
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "티에스이 , 대구 인재 찾아 300억 투자",
+          "url": "https://naeil.com/news/read/601090",
+          "source": "naeil.com",
+          "source_domain": "naeil.com",
+          "published_at": "2026-09-04T09:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -580,49 +627,6 @@
           "source": "mtnews.net",
           "source_domain": "mtnews.net",
           "published_at": "2026-09-03T16:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "62a594dbcf14b005",
-      "company_name": "티에스이",
-      "stock_code": "131290",
-      "representative_title": "반도체 검사장비 선도기업 티에스이 , 대구에 R&D 거점…150명 채용",
-      "representative_url": "https://kbmaeil.com/article/20260903500506",
-      "representative_source": "kbmaeil.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-03T06:26:00Z",
-      "last_published_at": "2026-09-03T06:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kbmaeil.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "반도체 검사장비 선도기업 티에스이 , 대구에 R&D 거점…150명 채용",
-          "url": "https://kbmaeil.com/article/20260903500506",
-          "source": "kbmaeil.com",
-          "source_domain": "kbmaeil.com",
-          "published_at": "2026-09-03T15:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-04T00:58:24.692689Z",
+  "generated_at": "2026-09-04T14:57:04.690516Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-09-04T00:58:24.692689Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-04T14:57:04.690516Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a6d927cbedfd462e",
@@ -129,6 +134,57 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-08-06T15:41:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e80341c722cc1e54",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "실적보다 먼저 움직인 원익IPS …11만7000원 찍으며 8.76% 급등",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=226243",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-04T05:52:00Z",
+      "last_published_at": "2026-09-04T05:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 5,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "실적보다 먼저 움직인 원익IPS …11만7000원 찍으며 8.76% 급등",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=226243",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-04T14:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
