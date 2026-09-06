@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-06T00:56:25.579912Z",
+  "generated_at": "2026-09-06T14:09:52.047176Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-09-06T00:56:25.579912Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-06T14:09:52.047176Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a6d927cbedfd462e",
@@ -548,52 +553,6 @@
           "source": "newsprime.co.kr",
           "source_domain": "newsprime.co.kr",
           "published_at": "2026-08-07T08:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "57590d62f9eb737f",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "원익IPS , 2분기 실적 시장예상치 하회",
-      "representative_url": "https://smarttoday.co.kr/ko-kr/articles/110208",
-      "representative_source": "smarttoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-06T07:44:00Z",
-      "last_published_at": "2026-08-06T07:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "smarttoday.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "원익IPS , 2분기 실적 시장예상치 하회",
-          "url": "https://smarttoday.co.kr/ko-kr/articles/110208",
-          "source": "smarttoday.co.kr",
-          "source_domain": "smarttoday.co.kr",
-          "published_at": "2026-08-06T16:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
