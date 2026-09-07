@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-07T01:00:44.215811Z",
+  "generated_at": "2026-09-07T16:26:52.906521Z",
   "company_name": "동진쎄미켐",
   "stock_code": "005290",
-  "status": "ok",
-  "last_successful_update": "2026-09-07T01:00:44.215811Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-07T16:26:52.906521Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "40ccc2123558167f",
@@ -118,6 +123,52 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-06T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ee699529a702f506",
+      "company_name": "동진쎄미켐",
+      "stock_code": "005290",
+      "representative_title": "日 수출규제 국산화株 휘파람…솔브레인·에스앤에스텍· 동진쎄미켐 상...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484577",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-07T05:06:00Z",
+      "last_published_at": "2026-09-07T05:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        "regulation"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "日 수출규제 국산화株 휘파람…솔브레인·에스앤에스텍· 동진쎄미켐 상...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484577",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-09-07T14:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
