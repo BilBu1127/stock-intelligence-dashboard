@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T14:09:52.047176Z",
+  "generated_at": "2026-09-07T01:00:44.215811Z",
   "company_name": "현대로템",
   "stock_code": "064350",
   "status": "partial",
-  "last_successful_update": "2026-09-06T14:09:52.047176Z",
+  "last_successful_update": "2026-09-07T01:00:44.215811Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -1221,6 +1221,52 @@
       ]
     },
     {
+      "cluster_id": "1f3e2a3aed0f16f4",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "2조 '장거리 공대공' 수주전…한화 vs 현대로템 ·LIG 경쟁 예고",
+      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1723175",
+      "representative_source": "ebn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-06T23:30:00Z",
+      "last_published_at": "2026-09-06T23:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ebn.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "2조"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "2조 '장거리 공대공' 수주전…한화 vs 현대로템 ·LIG 경쟁 예고",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1723175",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-09-07T08:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "da8981e6084f2fe0",
       "company_name": "현대로템",
       "stock_code": "064350",
@@ -1611,53 +1657,6 @@
           "source": "ceoscoredaily.com",
           "source_domain": "ceoscoredaily.com",
           "published_at": "2026-09-03T13:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a30e0a6eaa2cd22f",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , EP 협력사 사업 참여 확대...향후 5년 투자 3배 늘린다",
-      "representative_url": "https://hbnpress.com/news/view/1065587366773482",
-      "representative_source": "hbnpress.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-03T04:34:00Z",
-      "last_published_at": "2026-09-03T04:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hbnpress.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대로템 , EP 협력사 사업 참여 확대...향후 5년 투자 3배 늘린다",
-          "url": "https://hbnpress.com/news/view/1065587366773482",
-          "source": "hbnpress.com",
-          "source_domain": "hbnpress.com",
-          "published_at": "2026-09-03T13:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
