@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-08T01:12:04.820442Z",
+  "generated_at": "2026-09-08T15:06:13.208642Z",
   "company_name": "하나마이크론",
   "stock_code": "067310",
   "status": "partial",
-  "last_successful_update": "2026-09-08T01:12:04.820442Z",
+  "last_successful_update": "2026-09-08T15:06:13.208642Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -103,6 +103,65 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-07-20T07:53:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3f36d38a564dd2f4",
+      "company_name": "하나마이크론",
+      "stock_code": "067310",
+      "representative_title": "제너셈, 하나마이크론 에 119억원 규모 반도체 후공정 장비 공급",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02617446645578152",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-08T02:13:00Z",
+      "last_published_at": "2026-09-08T02:46:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr",
+        "newspim.com"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        " 119억",
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "제너셈, 하나마이크론 에 119억원 반도체 장비 공급",
+          "url": "https://newspim.com/news/view/20260908000540",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-09-08T11:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "제너셈, 하나마이크론 에 119억원 규모 반도체 후공정 장비 공급",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02617446645578152",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-09-08T11:13:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -524,52 +583,6 @@
           "source": "consumernews.co.kr",
           "source_domain": "consumernews.co.kr",
           "published_at": "2026-09-01T06:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca3925a0c0037cfb",
-      "company_name": "하나마이크론",
-      "stock_code": "067310",
-      "representative_title": "하나마이크론 , 하반기 주주간담회서 시스템 반도체·턴키 확대 성장 전...",
-      "representative_url": "https://hellot.net/news/article.html?no=114657",
-      "representative_source": "hellot.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-31T07:20:00Z",
-      "last_published_at": "2026-08-31T07:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hellot.net"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "하나마이크론 , 하반기 주주간담회서 시스템 반도체·턴키 확대 성장 전...",
-          "url": "https://hellot.net/news/article.html?no=114657",
-          "source": "hellot.net",
-          "source_domain": "hellot.net",
-          "published_at": "2026-08-31T16:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
