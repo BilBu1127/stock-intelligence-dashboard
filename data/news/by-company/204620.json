@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-07T16:26:52.906521Z",
+  "generated_at": "2026-09-08T01:12:04.820442Z",
   "company_name": "글로벌텍스프리",
   "stock_code": "204620",
   "status": "partial",
-  "last_successful_update": "2026-09-07T16:26:52.906521Z",
+  "last_successful_update": "2026-09-08T01:12:04.820442Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -125,6 +125,53 @@
           "source": "mt.co.kr",
           "source_domain": "mt.co.kr",
           "published_at": "2026-07-15T09:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "45d03b5dc782f22d",
+      "company_name": "글로벌텍스프리",
+      "stock_code": "204620",
+      "representative_title": "[클릭 e종목]\" 글로벌텍스프리 , 사상 최대 국내 실적…이제 6000억 日시장...",
+      "representative_url": "https://view.asiae.co.kr/article/2026090808081122092",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-07T23:08:00Z",
+      "last_published_at": "2026-09-07T23:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 6000억",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[클릭 e종목]\" 글로벌텍스프리 , 사상 최대 국내 실적…이제 6000억 日시장...",
+          "url": "https://view.asiae.co.kr/article/2026090808081122092",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-09-08T08:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
