@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-08T15:06:13.208642Z",
+  "generated_at": "2026-09-09T01:14:27.216505Z",
   "company_name": "한국항공우주",
   "stock_code": "047810",
   "status": "partial",
-  "last_successful_update": "2026-09-08T15:06:13.208642Z",
+  "last_successful_update": "2026-09-09T01:14:27.216505Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -1770,47 +1770,76 @@
       ]
     },
     {
-      "cluster_id": "0bb8e035498b4c58",
+      "cluster_id": "70f8f2559c0d4ef0",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "\" 한국항공우주 , 하반기 KF-21 첫 해외 수출 타결 임박…연내 8대 양산 납...",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=300514",
-      "representative_source": "newsquest.co.kr",
+      "representative_title": "KAI, 폴란드서 차세대 공중전투체계 공개…유럽시장 공략",
+      "representative_url": "https://yna.co.kr/view/AKR20260909060200003?input=1195m",
+      "representative_source": "yna.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-08T08:50:00Z",
-      "last_published_at": "2026-09-08T08:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-09-09T00:22:00Z",
+      "last_published_at": "2026-09-09T01:10:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "newsquest.co.kr"
+        "naeil.com",
+        "news1.kr",
+        "popcornnews.net",
+        "yna.co.kr"
       ],
       "categories": [
-        "공급·규제",
-        "주가·투자의견",
-        "투자·생산"
+        "기타"
       ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
+        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "\" 한국항공우주 , 하반기 KF-21 첫 해외 수출 타결 임박…연내 8대 양산 납...",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=300514",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-09-08T17:50:00+09:00",
+          "title": "KAI, 폴란드서 차세대 공중전투체계 공개…유럽시장 공략",
+          "url": "https://yna.co.kr/view/AKR20260909060200003?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-09-09T10:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 폴란드 MSPO서 차세대공중전투체계 제시",
+          "url": "https://naeil.com/news/read/601610",
+          "source": "naeil.com",
+          "source_domain": "naeil.com",
+          "published_at": "2026-09-09T10:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 폴란드 MSPO서 차세대 공중전투체계 공개…유럽 공략 확대",
+          "url": "https://news1.kr/industry/general-industry/6284576",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-09-09T10:07:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 폴란드 MSPO서 차세대 공중전투체계 공개",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=132297",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-09-09T09:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1818,15 +1847,15 @@
       ]
     },
     {
-      "cluster_id": "53854ee9ae196eb0",
+      "cluster_id": "cf4796b452c0ed9a",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "경남 일자리 종합 박람회 개최…한화·KAI 등 취업 꿀팁 한가득",
-      "representative_url": "https://hankyung.com/article/2026090819151",
-      "representative_source": "hankyung.com",
+      "representative_title": "KAI, 폴란드 'MSPO 2026' 참가...유럽 공략 박차",
+      "representative_url": "https://news.tf.co.kr/read/economy/2363668.htm",
+      "representative_source": "news.tf.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-08T08:22:00Z",
-      "last_published_at": "2026-09-08T08:22:00Z",
+      "first_published_at": "2026-09-09T01:05:00Z",
+      "last_published_at": "2026-09-09T01:05:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1834,11 +1863,229 @@
         "naver"
       ],
       "source_domains": [
-        "hankyung.com"
+        "news.tf.co.kr"
       ],
       "categories": [
-        "인사·M&A",
-        "투자·생산"
+        "공급·규제"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 폴란드 'MSPO 2026' 참가...유럽 공략 박차",
+          "url": "https://news.tf.co.kr/read/economy/2363668.htm",
+          "source": "news.tf.co.kr",
+          "source_domain": "news.tf.co.kr",
+          "published_at": "2026-09-09T10:05:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d49c1a7f739d6d15",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 폴란드서 유무인복합체계 공개…유럽 공략 확대",
+      "representative_url": "https://etoday.co.kr/news/view/2623454",
+      "representative_source": "etoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-09T01:02:00Z",
+      "last_published_at": "2026-09-09T01:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 폴란드서 유무인복합체계 공개…유럽 공략 확대",
+          "url": "https://etoday.co.kr/news/view/2623454",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-09-09T10:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0b264d9dec6a8064",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 폴란드 'MSPO 2026' 참가... KF-21·차세대공중전투체계 공개",
+      "representative_url": "https://newslock.co.kr/news/articleView.html?idxno=135846",
+      "representative_source": "newslock.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-09T00:58:00Z",
+      "last_published_at": "2026-09-09T00:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newslock.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 폴란드 'MSPO 2026' 참가... KF-21·차세대공중전투체계 공개",
+          "url": "https://newslock.co.kr/news/articleView.html?idxno=135846",
+          "source": "newslock.co.kr",
+          "source_domain": "newslock.co.kr",
+          "published_at": "2026-09-09T09:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3b67c0cbc26091e6",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "\"차세대 주력 기종 총출동\"…KAI, 폴란드서 유럽시장 공략",
+      "representative_url": "https://ajunews.com/view/20260909093125482",
+      "representative_source": "ajunews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-09T00:40:00Z",
+      "last_published_at": "2026-09-09T00:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ajunews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"차세대 주력 기종 총출동\"…KAI, 폴란드서 유럽시장 공략",
+          "url": "https://ajunews.com/view/20260909093125482",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-09-09T09:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "946b62ecba0d0d51",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 폴란드 국제방위산업전시회서 차세대 공중전투체계 공개…유럽 공...",
+      "representative_url": "https://view.asiae.co.kr/article/2026090909341977034",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-09T00:34:00Z",
+      "last_published_at": "2026-09-09T00:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 폴란드 국제방위산업전시회서 차세대 공중전투체계 공개…유럽 공...",
+          "url": "https://view.asiae.co.kr/article/2026090909341977034",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-09-09T09:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "83949b1dd3d18627",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "전투기·무인기·위성을 하나로…KAI, 미래 공중전 네트워크 공개",
+      "representative_url": "https://zdnet.co.kr/view?no=20260909092707",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-09T00:28:00Z",
+      "last_published_at": "2026-09-09T00:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 35,
@@ -1851,11 +2098,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "경남 일자리 종합 박람회 개최…한화·KAI 등 취업 꿀팁 한가득",
-          "url": "https://hankyung.com/article/2026090819151",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-09-08T17:22:00+09:00",
+          "title": "전투기·무인기·위성을 하나로…KAI, 미래 공중전 네트워크 공개",
+          "url": "https://zdnet.co.kr/view?no=20260909092707",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-09-09T09:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1863,15 +2110,15 @@
       ]
     },
     {
-      "cluster_id": "f5bb2e683d7bb806",
+      "cluster_id": "271f05703a892f54",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI노조가 '독자개발' 근거로 든 다쏘...라팔 레이더업체 26.59% 보유",
-      "representative_url": "https://insight.co.kr/news/572514",
-      "representative_source": "insight.co.kr",
+      "representative_title": "KAI, MSPO서 미래전투체계 공개…유럽 시장 공략 가속",
+      "representative_url": "https://daily.hankooki.com/news/articleView.html?idxno=1404131",
+      "representative_source": "daily.hankooki.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-08T07:32:00Z",
-      "last_published_at": "2026-09-08T07:32:00Z",
+      "first_published_at": "2026-09-09T00:24:00Z",
+      "last_published_at": "2026-09-09T00:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1879,96 +2126,7 @@
         "naver"
       ],
       "source_domains": [
-        "insight.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        "shareholder_message"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KAI노조가 '독자개발' 근거로 든 다쏘...라팔 레이더업체 26.59% 보유",
-          "url": "https://insight.co.kr/news/572514",
-          "source": "insight.co.kr",
-          "source_domain": "insight.co.kr",
-          "published_at": "2026-09-08T16:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ea52fe60d7b35d05",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[한화·KAI 기업결합-上 대형화 전략] \"' 한국 판 록히드마틴' 돼야 글로벌...",
-      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=211874",
-      "representative_source": "srtimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T07:06:00Z",
-      "last_published_at": "2026-09-08T07:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "srtimes.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[한화·KAI 기업결합-上 대형화 전략] \"' 한국 판 록히드마틴' 돼야 글로벌...",
-          "url": "https://srtimes.kr/news/articleView.html?idxno=211874",
-          "source": "srtimes.kr",
-          "source_domain": "srtimes.kr",
-          "published_at": "2026-09-08T16:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b07009b30e9c89b3",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[KAI민영화 분석 上] '주인 없는 회사' 한계 넘어야…글로벌 방산 표준은...",
-      "representative_url": "https://imaeil.com/page/view/2026090715534819556",
-      "representative_source": "imaeil.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T06:11:00Z",
-      "last_published_at": "2026-09-08T06:11:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "imaeil.com"
+        "daily.hankooki.com"
       ],
       "categories": [
         "기타"
@@ -1983,11 +2141,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[KAI민영화 분석 上] '주인 없는 회사' 한계 넘어야…글로벌 방산 표준은...",
-          "url": "https://imaeil.com/page/view/2026090715534819556",
-          "source": "imaeil.com",
-          "source_domain": "imaeil.com",
-          "published_at": "2026-09-08T15:11:00+09:00",
+          "title": "KAI, MSPO서 미래전투체계 공개…유럽 시장 공략 가속",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1404131",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-09-09T09:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1995,190 +2153,15 @@
       ]
     },
     {
-      "cluster_id": "e13448245e2f0113",
+      "cluster_id": "6c1ff40cf3744875",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[ 한국 판 스페이스X ②] 수익성 감소 KAI...민영화에 쏠린 시선",
-      "representative_url": "https://startuptoday.co.kr/news/articleView.html?idxno=812312",
-      "representative_source": "startuptoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T05:58:00Z",
-      "last_published_at": "2026-09-08T05:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "startuptoday.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[ 한국 판 스페이스X ②] 수익성 감소 KAI...민영화에 쏠린 시선",
-          "url": "https://startuptoday.co.kr/news/articleView.html?idxno=812312",
-          "source": "startuptoday.co.kr",
-          "source_domain": "startuptoday.co.kr",
-          "published_at": "2026-09-08T14:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "419b8bf05ff8fd0e",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[KAI 주인을 찾아라③] 한화의 KAI 인수, 독점 차단보다 제도적 관리가 ...",
-      "representative_url": "https://seoulfn.com/news/articleView.html?idxno=637448",
-      "representative_source": "seoulfn.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T03:00:00Z",
-      "last_published_at": "2026-09-08T03:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "seoulfn.com"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "m_and_a"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[KAI 주인을 찾아라③] 한화의 KAI 인수, 독점 차단보다 제도적 관리가 ...",
-          "url": "https://seoulfn.com/news/articleView.html?idxno=637448",
-          "source": "seoulfn.com",
-          "source_domain": "seoulfn.com",
-          "published_at": "2026-09-08T12:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "98e2bae9a7241195",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[한화의 항공 승부수①] KAI 15.89% 쥐었다…'경영참여' 다음 수는",
-      "representative_url": "https://wolyo.co.kr/news/articleView.html?idxno=317477",
-      "representative_source": "wolyo.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T00:26:00Z",
-      "last_published_at": "2026-09-08T00:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "wolyo.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[한화의 항공 승부수①] KAI 15.89% 쥐었다…'경영참여' 다음 수는",
-          "url": "https://wolyo.co.kr/news/articleView.html?idxno=317477",
-          "source": "wolyo.co.kr",
-          "source_domain": "wolyo.co.kr",
-          "published_at": "2026-09-08T09:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c03b9e4020766899",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[한화-KAI 빅딜①] ‘K-방산’ 중심 선 KAI, 성장할수록 커지는 민영화론",
-      "representative_url": "https://news2day.co.kr/article/20260907500290",
-      "representative_source": "news2day.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-07T23:18:00Z",
-      "last_published_at": "2026-09-07T23:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news2day.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[한화-KAI 빅딜①] ‘K-방산’ 중심 선 KAI, 성장할수록 커지는 민영화론",
-          "url": "https://news2day.co.kr/article/20260907500290",
-          "source": "news2day.co.kr",
-          "source_domain": "news2day.co.kr",
-          "published_at": "2026-09-08T08:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a0c9065a4c52c574",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[K방산 빅뱅②] 전투기만 팔아선 못 이긴다…한화·KAI가 그리는 '원팀 ...",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484433",
+      "representative_title": "[K방산 빅뱅③] 육·해·공 다 갖는 한화…KAI 결합에 커지는 '체급 확대...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484436",
       "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-07T23:00:00Z",
-      "last_published_at": "2026-09-07T23:00:00Z",
+      "first_published_at": "2026-09-08T23:00:00Z",
+      "last_published_at": "2026-09-08T23:00:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2201,11 +2184,55 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[K방산 빅뱅②] 전투기만 팔아선 못 이긴다…한화·KAI가 그리는 '원팀 ...",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484433",
+          "title": "[K방산 빅뱅③] 육·해·공 다 갖는 한화…KAI 결합에 커지는 '체급 확대...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=484436",
           "source": "pinpointnews.co.kr",
           "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-09-08T08:00:00+09:00",
+          "published_at": "2026-09-09T08:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3df4b3b1dfa24db2",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "[한화의 항공 승부수②] '주인 없는 KAI' 25년…전략적 주주 필요한 이유",
+      "representative_url": "https://wolyo.co.kr/news/articleView.html?idxno=317532",
+      "representative_source": "wolyo.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-08T22:42:00Z",
+      "last_published_at": "2026-09-08T22:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "wolyo.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[한화의 항공 승부수②] '주인 없는 KAI' 25년…전략적 주주 필요한 이유",
+          "url": "https://wolyo.co.kr/news/articleView.html?idxno=317532",
+          "source": "wolyo.co.kr",
+          "source_domain": "wolyo.co.kr",
+          "published_at": "2026-09-09T07:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
