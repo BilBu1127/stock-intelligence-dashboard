@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-09T15:06:29.419741Z",
+  "generated_at": "2026-09-10T01:03:41.872260Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-09-09T15:06:29.419741Z",
+  "last_successful_update": "2026-09-10T01:03:41.872260Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -1451,39 +1451,83 @@
       ]
     },
     {
-      "cluster_id": "84fd9eb90fe6caa6",
+      "cluster_id": "2c9a6160dd950d8c",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "홍라희 보유 삼성전자 주식 이재용 회장이 1.9조 매수",
-      "representative_url": "https://mk.co.kr/article/12148701",
-      "representative_source": "mk.co.kr",
+      "representative_title": "삼성전자 , 히트펌프 전담 교육장 운영…설치·서비스 전문성 강화",
+      "representative_url": "https://etnews.com/20260910000066",
+      "representative_source": "etnews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T11:04:00Z",
-      "last_published_at": "2026-09-09T15:03:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
+      "first_published_at": "2026-09-10T00:40:00Z",
+      "last_published_at": "2026-09-10T00:53:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "asiaa.co.kr",
-        "econovill.com",
-        "joongang.co.kr",
-        "m-i.kr",
-        "mk.co.kr",
-        "newspim.com",
-        "sisafocus.co.kr",
-        "worktoday.co.kr"
+        "etnews.com",
+        "widedaily.com"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        " 9조",
-        "executive",
-        "shareholder_message"
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
       ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자 , 히트펌프 전담 교육장 운영…설치·서비스 전문성 강화",
+          "url": "https://etnews.com/20260910000066",
+          "source": "etnews.com",
+          "source_domain": "etnews.com",
+          "published_at": "2026-09-10T09:53:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 'EHS 히트펌프' 전담 교육장 신설…설치·서비스 전문성 대폭...",
+          "url": "https://widedaily.com/news/articleView.html?idxno=300869",
+          "source": "widedaily.com",
+          "source_domain": "widedaily.com",
+          "published_at": "2026-09-10T09:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fe7f13ef869ab084",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 친환경 EHS 히트펌프 전문 교육장 신설",
+      "representative_url": "https://zdnet.co.kr/view?no=20260910084259",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-10T00:48:00Z",
+      "last_published_at": "2026-09-10T00:48:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
       "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
@@ -1494,81 +1538,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "이재용 회장, 홍라희 삼성전자 지분 매수",
-          "url": "https://joongang.co.kr/article/25460555",
-          "source": "joongang.co.kr",
-          "source_domain": "joongang.co.kr",
-          "published_at": "2026-09-10T00:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용 회장, 母 홍라희 보유 삼성전자 주식 718만주 매수...1.9조원 규모",
-          "url": "https://asiaa.co.kr/news/articleView.html?idxno=261867",
-          "source": "asiaa.co.kr",
-          "source_domain": "asiaa.co.kr",
-          "published_at": "2026-09-09T21:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용, 홍라희 보유 삼성전자 지분 1.9조원어치 매수",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1412118",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-09-09T20:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "홍라희 여사, 삼성전자 718만주 이재용 회장에게 매각…1.9조 규모",
-          "url": "https://econovill.com/news/articleView.html?idxno=750359",
-          "source": "econovill.com",
-          "source_domain": "econovill.com",
-          "published_at": "2026-09-09T20:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용 회장, 홍라희 보유 삼성전자 주식 1.9조 매수",
-          "url": "https://worktoday.co.kr/news/articleView.html?idxno=89061",
-          "source": "worktoday.co.kr",
-          "source_domain": "worktoday.co.kr",
-          "published_at": "2026-09-09T20:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용 회장, 母 홍라희 보유 ' 삼성전자 지분 1.9조' 매수",
-          "url": "https://sisafocus.co.kr/news/articleView.html?idxno=364777",
-          "source": "sisafocus.co.kr",
-          "source_domain": "sisafocus.co.kr",
-          "published_at": "2026-09-09T20:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용 삼성전자 회장, 홍라희 여사 보유 718만주 1.9조에 매수 예정",
-          "url": "https://newspim.com/news/view/20260909001276",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-09-09T20:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "홍라희 보유 삼성전자 주식 이재용 회장이 1.9조 매수",
-          "url": "https://mk.co.kr/article/12148701",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-09-09T20:04:00+09:00",
+          "title": "삼성전자 , 친환경 EHS 히트펌프 전문 교육장 신설",
+          "url": "https://zdnet.co.kr/view?no=20260910084259",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-09-10T09:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1576,15 +1550,15 @@
       ]
     },
     {
-      "cluster_id": "2916f488569b3e79",
+      "cluster_id": "41d69e96fafdb184",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 거래대금 10.9조…상위 50종목의 52.6%",
-      "representative_url": "https://kjdaily.com/article.php?aid=1788960779686332227",
-      "representative_source": "kjdaily.com",
+      "representative_title": "삼성전자 , EHS 히트펌프 전문 교육장 신설…전기 냉난방 공략",
+      "representative_url": "https://newskr.kr/news/articleView.html?idxno=106262",
+      "representative_source": "newskr.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T13:34:00Z",
-      "last_published_at": "2026-09-09T13:34:00Z",
+      "first_published_at": "2026-09-10T00:48:00Z",
+      "last_published_at": "2026-09-10T00:48:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1592,55 +1566,10 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com"
+        "newskr.kr"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 9조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스 거래대금 10.9조…상위 50종목의 52.6%",
-          "url": "https://kjdaily.com/article.php?aid=1788960779686332227",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-09-09T22:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "61407d753d699d3b",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "주주단체, 삼성전자 이사회·초기업노조 집행부 전원 국수본 고발",
-      "representative_url": "https://m.skyedaily.com/news_view.html?ID=311318",
-      "representative_source": "m.skyedaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T13:32:00Z",
-      "last_published_at": "2026-09-09T13:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m.skyedaily.com"
-      ],
-      "categories": [
-        "인사·M&A"
+        "기술·제품"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -1652,11 +1581,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "주주단체, 삼성전자 이사회·초기업노조 집행부 전원 국수본 고발",
-          "url": "https://m.skyedaily.com/news_view.html?ID=311318",
-          "source": "m.skyedaily.com",
-          "source_domain": "m.skyedaily.com",
-          "published_at": "2026-09-09T22:32:00+09:00",
+          "title": "삼성전자 , EHS 히트펌프 전문 교육장 신설…전기 냉난방 공략",
+          "url": "https://newskr.kr/news/articleView.html?idxno=106262",
+          "source": "newskr.kr",
+          "source_domain": "newskr.kr",
+          "published_at": "2026-09-10T09:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1664,15 +1593,15 @@
       ]
     },
     {
-      "cluster_id": "98c73bcbdae8e3a9",
+      "cluster_id": "a6e0697f0d8f5823",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 초기업노조, DS 중심 '반도체 노조' 전환 추진… DX 간부 2명 불...",
-      "representative_url": "https://newscj.com/news/articleView.html?idxno=3431432",
-      "representative_source": "newscj.com",
+      "representative_title": "삼성전자 , 수원에 ‘EHS 히트펌프’ 교육장 조성…설치·서비스 역량 강...",
+      "representative_url": "https://biz.heraldcorp.com/article/10868688",
+      "representative_source": "biz.heraldcorp.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T13:32:00Z",
-      "last_published_at": "2026-09-09T13:32:00Z",
+      "first_published_at": "2026-09-10T00:48:00Z",
+      "last_published_at": "2026-09-10T00:48:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1680,7 +1609,50 @@
         "naver"
       ],
       "source_domains": [
-        "newscj.com"
+        "biz.heraldcorp.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 수원에 ‘EHS 히트펌프’ 교육장 조성…설치·서비스 역량 강...",
+          "url": "https://biz.heraldcorp.com/article/10868688",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-09-10T09:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f78cc98c0ba9809b",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 서비스, 17일부터 '현금 없는 센터' 시범 가동…디지털 결제 전...",
+      "representative_url": "https://widedaily.com/news/articleView.html?idxno=300875",
+      "representative_source": "widedaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-10T00:46:00Z",
+      "last_published_at": "2026-09-10T00:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "widedaily.com"
       ],
       "categories": [
         "기타"
@@ -1695,11 +1667,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 초기업노조, DS 중심 '반도체 노조' 전환 추진… DX 간부 2명 불...",
-          "url": "https://newscj.com/news/articleView.html?idxno=3431432",
-          "source": "newscj.com",
-          "source_domain": "newscj.com",
-          "published_at": "2026-09-09T22:32:00+09:00",
+          "title": "삼성전자 서비스, 17일부터 '현금 없는 센터' 시범 가동…디지털 결제 전...",
+          "url": "https://widedaily.com/news/articleView.html?idxno=300875",
+          "source": "widedaily.com",
+          "source_domain": "widedaily.com",
+          "published_at": "2026-09-10T09:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1707,15 +1679,15 @@
       ]
     },
     {
-      "cluster_id": "3f1c797666b71f8e",
+      "cluster_id": "afaf42a79b3b633e",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "이재용 회장, 모친 홍라희 명예관장 삼성전자 지분 0.11%, 1.94조원에 장...",
-      "representative_url": "https://moneystorm.kr/news/articleView.html?idxno=6372",
-      "representative_source": "moneystorm.kr",
+      "representative_title": "삼성전자 ·SK하이닉스 장 초반 혼조…반도체 훈풍에도 '주춤'",
+      "representative_url": "https://jnilbo.com/news/articleView.html?idxno=90000064127",
+      "representative_source": "jnilbo.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T13:21:00Z",
-      "last_published_at": "2026-09-09T13:21:00Z",
+      "first_published_at": "2026-09-10T00:44:00Z",
+      "last_published_at": "2026-09-10T00:44:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1723,15 +1695,12 @@
         "naver"
       ],
       "source_domains": [
-        "moneystorm.kr"
+        "jnilbo.com"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        " 94조",
-        "executive"
-      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -1741,11 +1710,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "이재용 회장, 모친 홍라희 명예관장 삼성전자 지분 0.11%, 1.94조원에 장...",
-          "url": "https://moneystorm.kr/news/articleView.html?idxno=6372",
-          "source": "moneystorm.kr",
-          "source_domain": "moneystorm.kr",
-          "published_at": "2026-09-09T22:21:00+09:00",
+          "title": "삼성전자 ·SK하이닉스 장 초반 혼조…반도체 훈풍에도 '주춤'",
+          "url": "https://jnilbo.com/news/articleView.html?idxno=90000064127",
+          "source": "jnilbo.com",
+          "source_domain": "jnilbo.com",
+          "published_at": "2026-09-10T09:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1753,44 +1722,53 @@
       ]
     },
     {
-      "cluster_id": "faba4648f99c51fe",
+      "cluster_id": "bd67af90a68b3aa1",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "이재용, 모친 홍라희 삼성전자 주식 매수 추진…1.9조원 규모",
-      "representative_url": "https://insightkorea.co.kr/news/articleView.html?idxno=254253",
-      "representative_source": "insightkorea.co.kr",
+      "representative_title": "삼성전자 서비스, '현금 없는 서비스센터' 16곳 시범 운영…'친환경 강화...",
+      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=208036",
+      "representative_source": "lcnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T12:56:00Z",
-      "last_published_at": "2026-09-09T12:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-09-10T00:40:00Z",
+      "last_published_at": "2026-09-10T00:42:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "insightkorea.co.kr"
+        "dt.co.kr",
+        "lcnews.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        " 9조"
-      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "이재용, 모친 홍라희 삼성전자 주식 매수 추진…1.9조원 규모",
-          "url": "https://insightkorea.co.kr/news/articleView.html?idxno=254253",
-          "source": "insightkorea.co.kr",
-          "source_domain": "insightkorea.co.kr",
-          "published_at": "2026-09-09T21:56:00+09:00",
+          "title": "삼성전자 서비스, ‘현금 없는 서비스센터’ 시범 운영…친환경 서비스...",
+          "url": "https://dt.co.kr/article/12083177",
+          "source": "dt.co.kr",
+          "source_domain": "dt.co.kr",
+          "published_at": "2026-09-10T09:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 서비스, '현금 없는 서비스센터' 16곳 시범 운영…'친환경 강화...",
+          "url": "https://lcnews.co.kr/news/articleView.html?idxno=208036",
+          "source": "lcnews.co.kr",
+          "source_domain": "lcnews.co.kr",
+          "published_at": "2026-09-10T09:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1798,70 +1776,29 @@
       ]
     },
     {
-      "cluster_id": "21afc7b34c0a09ce",
+      "cluster_id": "b6e09a5a50b7b2d2",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "홍라희, 삼성전자 주식 1.9조원 이재용에 매도… 지분 1.47%→1.58%로 확대",
-      "representative_url": "https://newscj.com/news/articleView.html?idxno=3431424",
-      "representative_source": "newscj.com",
+      "representative_title": "삼성전자 , EHS 히트펌프 전문인력 양성...국내 냉난방 시장 공략",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=547011",
+      "representative_source": "joongangenews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T12:50:00Z",
-      "last_published_at": "2026-09-09T12:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-09-10T00:34:00Z",
+      "last_published_at": "2026-09-10T00:40:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "newscj.com"
+        "dt.co.kr",
+        "edaily.co.kr",
+        "joongangenews.com"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 9조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "홍라희, 삼성전자 주식 1.9조원 이재용에 매도… 지분 1.47%→1.58%로 확대",
-          "url": "https://newscj.com/news/articleView.html?idxno=3431424",
-          "source": "newscj.com",
-          "source_domain": "newscj.com",
-          "published_at": "2026-09-09T21:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cbbe1cab8a5e8868",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "아트위캔, 삼성전자 ·농심서 ‘문화체험형 장애인 인식개선 공연’ 성료",
-      "representative_url": "https://segye.com/newsView/20260909520321?OutUrl=naver",
-      "representative_source": "segye.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T11:57:00Z",
-      "last_published_at": "2026-09-09T11:57:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "segye.com"
-      ],
-      "categories": [
+        "기술·제품",
+        "기타",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -1871,14 +1808,34 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "아트위캔, 삼성전자 ·농심서 ‘문화체험형 장애인 인식개선 공연’ 성료",
-          "url": "https://segye.com/newsView/20260909520321?OutUrl=naver",
-          "source": "segye.com",
-          "source_domain": "segye.com",
-          "published_at": "2026-09-09T20:57:00+09:00",
+          "title": "삼성전자 , 히트펌프 전문인력 키운다…전기 냉난방 공략 속도",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02988086645578808",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-09-10T09:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , EHS 히트펌프 전문 인력 키운다…전기 냉난방 시장 공략",
+          "url": "https://dt.co.kr/article/12083173",
+          "source": "dt.co.kr",
+          "source_domain": "dt.co.kr",
+          "published_at": "2026-09-10T09:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , EHS 히트펌프 전문인력 양성...국내 냉난방 시장 공략",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=547011",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-10T09:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1886,15 +1843,15 @@
       ]
     },
     {
-      "cluster_id": "72af41525728cde2",
+      "cluster_id": "a732a5ea3e5dca48",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "홍라희, 삼성전자 2조 규모 지분 아들 이재용에게 팔아",
-      "representative_url": "https://munhwa.com/article/11615843",
-      "representative_source": "munhwa.com",
+      "representative_title": "삼성전자 , 'EHS 히트펌프' 전문 설치 교육 확대…국내 전기 냉난방 시장...",
+      "representative_url": "https://thebigdata.co.kr/view.php?ud=2026091009202319100ecbf9426b_23",
+      "representative_source": "thebigdata.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T11:42:00Z",
-      "last_published_at": "2026-09-09T11:42:00Z",
+      "first_published_at": "2026-09-10T00:40:00Z",
+      "last_published_at": "2026-09-10T00:40:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1902,14 +1859,12 @@
         "naver"
       ],
       "source_domains": [
-        "munhwa.com"
+        "thebigdata.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        " 2조"
-      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -1919,11 +1874,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "홍라희, 삼성전자 2조 규모 지분 아들 이재용에게 팔아",
-          "url": "https://munhwa.com/article/11615843",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-09-09T20:42:00+09:00",
+          "title": "삼성전자 , 'EHS 히트펌프' 전문 설치 교육 확대…국내 전기 냉난방 시장...",
+          "url": "https://thebigdata.co.kr/view.php?ud=2026091009202319100ecbf9426b_23",
+          "source": "thebigdata.co.kr",
+          "source_domain": "thebigdata.co.kr",
+          "published_at": "2026-09-10T09:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1931,15 +1886,15 @@
       ]
     },
     {
-      "cluster_id": "463c8630cbae1568",
+      "cluster_id": "ef96a0f3b783b6ac",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "이재용, 母 소유 삼성전자 주식 1.9조어치 매입…상속대출 상환 추정",
-      "representative_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183388",
-      "representative_source": "weekly.hankooki.com",
+      "representative_title": "삼성전자 , EHS 히트펌프 설치·서비스 전문성 강화",
+      "representative_url": "https://kihoilbo.co.kr/news/articleView.html?idxno=3034235",
+      "representative_source": "kihoilbo.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-09T11:40:00Z",
-      "last_published_at": "2026-09-09T11:40:00Z",
+      "first_published_at": "2026-09-10T00:40:00Z",
+      "last_published_at": "2026-09-10T00:40:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1947,14 +1902,12 @@
         "naver"
       ],
       "source_domains": [
-        "weekly.hankooki.com"
+        "kihoilbo.co.kr"
       ],
       "categories": [
-        "기타"
+        "기술·제품"
       ],
-      "event_keywords": [
-        " 9조"
-      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -1964,11 +1917,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "이재용, 母 소유 삼성전자 주식 1.9조어치 매입…상속대출 상환 추정",
-          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183388",
-          "source": "weekly.hankooki.com",
-          "source_domain": "weekly.hankooki.com",
-          "published_at": "2026-09-09T20:40:00+09:00",
+          "title": "삼성전자 , EHS 히트펌프 설치·서비스 전문성 강화",
+          "url": "https://kihoilbo.co.kr/news/articleView.html?idxno=3034235",
+          "source": "kihoilbo.co.kr",
+          "source_domain": "kihoilbo.co.kr",
+          "published_at": "2026-09-10T09:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
