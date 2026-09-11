@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-11T01:04:03.795905Z",
+  "generated_at": "2026-09-11T15:00:17.056630Z",
   "company_name": "로보티즈",
   "stock_code": "108490",
   "status": "partial",
-  "last_successful_update": "2026-09-11T01:04:03.795905Z",
+  "last_successful_update": "2026-09-11T15:00:17.056630Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -330,6 +330,50 @@
           "source": "edaily.co.kr",
           "source_domain": "edaily.co.kr",
           "published_at": "2026-07-27T08:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "94f72b7913b41728",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "로보티즈 32만원대 보합권…'액추에이터 품귀' 기대와 급등 부담 맞선다",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=227185",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-11T05:46:00Z",
+      "last_published_at": "2026-09-11T05:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "로보티즈 32만원대 보합권…'액추에이터 품귀' 기대와 급등 부담 맞선다",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=227185",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-11T14:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -736,49 +780,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-09-09T10:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d1b1a305122f1bc1",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "36만6525주 처분한 김병수, 로보티즈 지분 21.19%",
-      "representative_url": "https://tokenpost.kr/news/market/404308",
-      "representative_source": "tokenpost.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-08T09:26:00Z",
-      "last_published_at": "2026-09-08T09:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "tokenpost.kr"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "36만6525주 처분한 김병수, 로보티즈 지분 21.19%",
-          "url": "https://tokenpost.kr/news/market/404308",
-          "source": "tokenpost.kr",
-          "source_domain": "tokenpost.kr",
-          "published_at": "2026-09-08T18:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

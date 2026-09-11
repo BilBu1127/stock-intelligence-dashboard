@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-11T01:04:03.795905Z",
+  "generated_at": "2026-09-11T15:00:17.056630Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-09-11T01:04:03.795905Z",
+  "last_successful_update": "2026-09-11T15:00:17.056630Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -236,6 +236,97 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "88d443a1622ad47c",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버, 치지직서 LCK·오버워치 월드컵 결승 중계",
+      "representative_url": "https://view.asiae.co.kr/article/2026091121370670840",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-11T12:37:00Z",
+      "last_published_at": "2026-09-11T12:37:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버, 치지직서 LCK·오버워치 월드컵 결승 중계",
+          "url": "https://view.asiae.co.kr/article/2026091121370670840",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-09-11T21:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "afffec9488c94cfe",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "NAVER 20만원선 '위태'…AI 투자비 부담에 주가 1%대 약세",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=227165",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-11T05:20:00Z",
+      "last_published_at": "2026-09-11T05:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 5,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "NAVER 20만원선 '위태'…AI 투자비 부담에 주가 1%대 약세",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=227165",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-11T14:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -583,93 +674,6 @@
           "source": "koreatimes.co.kr",
           "source_domain": "koreatimes.co.kr",
           "published_at": "2026-09-09T15:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b2a25b41cb05231b",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "\"임금동결 못 받겠다\"…네이버제트 첫 파업 \"네이버가 책임져라\"",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03808086645578480",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T05:48:00Z",
-      "last_published_at": "2026-09-09T05:48:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"임금동결 못 받겠다\"…네이버제트 첫 파업 \"네이버가 책임져라\"",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03808086645578480",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-09-09T14:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d5165562418f55ae",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "Unionized members of Naver 's metaverse affiliate stage partial strike",
-      "representative_url": "https://en.yna.co.kr/view/AEN20260909006500320?input=2106m",
-      "representative_source": "en.yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T04:59:00Z",
-      "last_published_at": "2026-09-09T04:59:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "en.yna.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "Unionized members of Naver 's metaverse affiliate stage partial strike",
-          "url": "https://en.yna.co.kr/view/AEN20260909006500320?input=2106m",
-          "source": "en.yna.co.kr",
-          "source_domain": "en.yna.co.kr",
-          "published_at": "2026-09-09T13:59:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
