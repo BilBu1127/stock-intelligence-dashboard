@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-10T14:58:49.697347Z",
+  "generated_at": "2026-09-11T01:04:03.795905Z",
   "company_name": "솔브레인",
   "stock_code": "357780",
   "status": "partial",
-  "last_successful_update": "2026-09-10T14:58:49.697347Z",
+  "last_successful_update": "2026-09-11T01:04:03.795905Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -52,6 +52,54 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-07T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "dafc2ec2bc9adc08",
+      "company_name": "솔브레인",
+      "stock_code": "357780",
+      "representative_title": "메모리 호황에 '소모성 소재' 잘 팔린다… 솔브레인 ·동진 실적 '쑥'",
+      "representative_url": "https://news1.kr/industry/sb-founded/6286467",
+      "representative_source": "news1.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-10T21:10:00Z",
+      "last_published_at": "2026-09-10T21:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news1.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "메모리 호황에 '소모성 소재' 잘 팔린다… 솔브레인 ·동진 실적 '쑥'",
+          "url": "https://news1.kr/industry/sb-founded/6286467",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-09-11T06:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -454,49 +502,6 @@
           "source": "ggilbo.com",
           "source_domain": "ggilbo.com",
           "published_at": "2026-08-24T15:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4cc536202cf9d016",
-      "company_name": "솔브레인",
-      "stock_code": "357780",
-      "representative_title": "지주사 할인 해제되나… 솔브레인 홀딩스, 알짜 계열사 지분 가치 부각",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=479992",
-      "representative_source": "pinpointnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T04:28:00Z",
-      "last_published_at": "2026-08-24T04:28:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "지주사 할인 해제되나… 솔브레인 홀딩스, 알짜 계열사 지분 가치 부각",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=479992",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-08-24T13:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
