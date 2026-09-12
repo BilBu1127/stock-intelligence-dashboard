@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-11T15:00:17.056630Z",
+  "generated_at": "2026-09-12T01:06:02.311730Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-09-11T15:00:17.056630Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-12T01:06:02.311730Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a6d927cbedfd462e",
@@ -268,51 +273,6 @@
           "source": "bloter.net",
           "source_domain": "bloter.net",
           "published_at": "2026-08-12T11:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "844e38340d684a3d",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "메모리 훈풍 탔는데… 원익IPS , 수주잔고 4천억에도 영업익 반토막 왜",
-      "representative_url": "https://news1.kr/industry/sb-founded/6255860",
-      "representative_source": "news1.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-11T21:05:00Z",
-      "last_published_at": "2026-08-11T21:05:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "메모리 훈풍 탔는데… 원익IPS , 수주잔고 4천억에도 영업익 반토막 왜",
-          "url": "https://news1.kr/industry/sb-founded/6255860",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-08-12T06:05:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-11T15:00:17.056630Z",
+  "generated_at": "2026-09-12T01:06:02.311730Z",
   "company_name": "로보티즈",
   "stock_code": "108490",
   "status": "partial",
-  "last_successful_update": "2026-09-11T15:00:17.056630Z",
+  "last_successful_update": "2026-09-12T01:06:02.311730Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -330,6 +330,54 @@
           "source": "edaily.co.kr",
           "source_domain": "edaily.co.kr",
           "published_at": "2026-07-27T08:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "03966cee7ba6563b",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "마이크로덕發 주문 폭주… 로보티즈 , 액추에이터 '공급 병목'[종목현미경...",
+      "representative_url": "https://news1.kr/finance/general-stock/6287881",
+      "representative_source": "news1.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-11T21:00:00Z",
+      "last_published_at": "2026-09-11T21:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news1.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "마이크로덕發 주문 폭주… 로보티즈 , 액추에이터 '공급 병목'[종목현미경...",
+          "url": "https://news1.kr/finance/general-stock/6287881",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-09-12T06:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -736,50 +784,6 @@
           "source": "namdonews.com",
           "source_domain": "namdonews.com",
           "published_at": "2026-09-09T17:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "22dd432b3ba1493e",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로봇주 동반 강세…휴림로봇 레인보우로보틱스 로보티즈 로보스타 일제...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=605164",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T01:52:00Z",
-      "last_published_at": "2026-09-09T01:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로봇주 동반 강세…휴림로봇 레인보우로보틱스 로보티즈 로보스타 일제...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=605164",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-09-09T10:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
