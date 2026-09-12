@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-12T01:06:02.311730Z",
+  "generated_at": "2026-09-12T14:06:39.324519Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-09-12T01:06:02.311730Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-12T14:06:39.324519Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "9d67a9e7eceed334",
@@ -1505,6 +1510,50 @@
       ]
     },
     {
+      "cluster_id": "1152ac763062d34f",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "조선 다음은 전력이다… HD현대중공업 , 4GW 발전엔진 승부수",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=486424",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-12T09:26:00Z",
+      "last_published_at": "2026-09-12T09:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "조선 다음은 전력이다… HD현대중공업 , 4GW 발전엔진 승부수",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=486424",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-09-12T18:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "72509bb3f2cad1ae",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
@@ -1889,102 +1938,6 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-11T17:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c8314789eb5fe3cf",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "HD현대중공업 , 1조원 투자…발전엔진·SMR 사업 키운다",
-      "representative_url": "https://handmk.com/news/articleView.html?idxno=43079",
-      "representative_source": "handmk.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-11T00:20:00Z",
-      "last_published_at": "2026-09-11T08:02:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr",
-        "etoday.co.kr",
-        "handmk.com",
-        "newsworks.co.kr",
-        "theviewers.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1조",
-        "earnings",
-        "investment",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HD현대중공업 , 1조 투자에 주가 뒤늦게 꿈틀…엔진 달고 추세 반전할까",
-          "url": "https://etoday.co.kr/news/view/2624504",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-09-11T17:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 1조 시설투자 승부수…조선株 반등 '신호탄'",
-          "url": "https://newsworks.co.kr/news/articleView.html?idxno=853394",
-          "source": "newsworks.co.kr",
-          "source_domain": "newsworks.co.kr",
-          "published_at": "2026-09-11T10:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "NH투자 \" HD현대중공업 엔진공장 증설 계획, 2030년 영업이익 1조 더해져...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=446964",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-09-11T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[애널픽] HD현대중공업 , 1조 투자에도 주가 하락…\"현저한 저평가\"",
-          "url": "https://theviewers.co.kr/View.aspx?No=4222692",
-          "source": "theviewers.co.kr",
-          "source_domain": "theviewers.co.kr",
-          "published_at": "2026-09-11T09:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 1조원 투자…발전엔진·SMR 사업 키운다",
-          "url": "https://handmk.com/news/articleView.html?idxno=43079",
-          "source": "handmk.com",
-          "source_domain": "handmk.com",
-          "published_at": "2026-09-11T09:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
