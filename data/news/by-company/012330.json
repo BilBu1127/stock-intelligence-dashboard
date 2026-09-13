@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-12T14:06:39.324519Z",
+  "generated_at": "2026-09-13T00:59:41.711447Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-09-12T14:06:39.324519Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-13T00:59:41.711447Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "6a41f55a6304550b",
@@ -1434,6 +1439,49 @@
       ]
     },
     {
+      "cluster_id": "4a4a4ca6ef1088b3",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "현대모비스 , 美 지프 행사 참여…스텔란티스 파트너십 접점 부각",
+      "representative_url": "https://theguru.co.kr/news/article.html?no=107013",
+      "representative_source": "theguru.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-13T00:20:00Z",
+      "last_published_at": "2026-09-13T00:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "theguru.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "현대모비스 , 美 지프 행사 참여…스텔란티스 파트너십 접점 부각",
+          "url": "https://theguru.co.kr/news/article.html?no=107013",
+          "source": "theguru.co.kr",
+          "source_domain": "theguru.co.kr",
+          "published_at": "2026-09-13T09:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "666a2254959afff7",
       "company_name": "현대모비스",
       "stock_code": "012330",
@@ -1820,50 +1868,6 @@
           "source": "cnbnews.com",
           "source_domain": "cnbnews.com",
           "published_at": "2026-09-11T10:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "28fa5322a21e5ade",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "현대모비스 , '배터리·액추에이터' 미래 기술 60종 공개…\"車 넘어 로봇...",
-      "representative_url": "https://gpkorea.com/news/articleView.html?idxno=146585",
-      "representative_source": "gpkorea.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-10T13:16:00Z",
-      "last_published_at": "2026-09-10T13:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gpkorea.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대모비스 , '배터리·액추에이터' 미래 기술 60종 공개…\"車 넘어 로봇...",
-          "url": "https://gpkorea.com/news/articleView.html?idxno=146585",
-          "source": "gpkorea.com",
-          "source_domain": "gpkorea.com",
-          "published_at": "2026-09-10T22:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
