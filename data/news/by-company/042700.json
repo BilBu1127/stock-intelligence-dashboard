@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-13T00:59:41.711447Z",
+  "generated_at": "2026-09-13T14:55:00.473817Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-09-13T00:59:41.711447Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-13T14:55:00.473817Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "9c8ea59394f25174",
@@ -1435,6 +1440,49 @@
       ]
     },
     {
+      "cluster_id": "2d33a8a822a80de2",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "[공시] 원익IPS· 한미반도체 '공매도 금지', 알파칩스·피에스케이홀딩...",
+      "representative_url": "https://newstnt.com/news/articleView.html?idxno=718062",
+      "representative_source": "newstnt.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-13T02:44:00Z",
+      "last_published_at": "2026-09-13T02:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newstnt.com"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[공시] 원익IPS· 한미반도체 '공매도 금지', 알파칩스·피에스케이홀딩...",
+          "url": "https://newstnt.com/news/articleView.html?idxno=718062",
+          "source": "newstnt.com",
+          "source_domain": "newstnt.com",
+          "published_at": "2026-09-13T11:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "b424da696dbd9f28",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -1834,64 +1882,6 @@
           "source": "ddaily.co.kr",
           "source_domain": "ddaily.co.kr",
           "published_at": "2026-09-09T17:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7072ffc1490f3cb7",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "곽동신 한미반도체 회장, 작가 '곽신'으로 작품 5점 회사 기증",
-      "representative_url": "https://zdnet.co.kr/view?no=20260909154151",
-      "representative_source": "zdnet.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T05:47:00Z",
-      "last_published_at": "2026-09-09T06:57:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr",
-        "zdnet.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "기타"
-      ],
-      "event_keywords": [
-        "executive"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "곽동신 한미반도체 회장, 작가 '곽신'으로 작품 5점 회사 기증",
-          "url": "https://zdnet.co.kr/view?no=20260909154151",
-          "source": "zdnet.co.kr",
-          "source_domain": "zdnet.co.kr",
-          "published_at": "2026-09-09T15:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "곽동신 한미반도체 회장, 예명 '곽신' 명의 작품 5점 회사 기증",
-          "url": "https://news1.kr/industry/general-industry/6285057",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-09-09T14:47:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
