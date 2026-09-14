@@ -1,16 +1,61 @@
 {
-  "generated_at": "2026-09-14T01:03:47.061164Z",
+  "generated_at": "2026-09-14T16:57:45.259054Z",
   "company_name": "코미코",
   "stock_code": "183300",
   "status": "partial",
-  "last_successful_update": "2026-09-14T01:03:47.061164Z",
+  "last_successful_update": "2026-09-14T16:57:45.259054Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
+    {
+      "cluster_id": "aff6d025fd14ba4e",
+      "company_name": "코미코",
+      "stock_code": "183300",
+      "representative_title": "모건스탠리 앤 씨오 인터내셔널 피엘씨, 코미코 지분 5.59% 보유…\"단순...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=606594",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T05:58:00Z",
+      "last_published_at": "2026-09-14T05:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "shareholder_message"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "모건스탠리 앤 씨오 인터내셔널 피엘씨, 코미코 지분 5.59% 보유…\"단순...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=606594",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-09-14T14:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "25d875cd4fc99e9f",
       "company_name": "코미코",
@@ -414,51 +459,6 @@
           "source": "g-enews.com",
           "source_domain": "g-enews.com",
           "published_at": "2026-08-21T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "70482424bba9410c",
-      "company_name": "코미코",
-      "stock_code": "183300",
-      "representative_title": "액면분할하고 거래 재개된 코미코 20%대 '급등'",
-      "representative_url": "https://hankyung.com/article/2026082140796",
-      "representative_source": "hankyung.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-21T00:56:00Z",
-      "last_published_at": "2026-08-21T00:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hankyung.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 10,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "액면분할하고 거래 재개된 코미코 20%대 '급등'",
-          "url": "https://hankyung.com/article/2026082140796",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-08-21T09:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

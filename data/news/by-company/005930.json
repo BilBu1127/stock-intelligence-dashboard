@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-14T01:03:47.061164Z",
+  "generated_at": "2026-09-14T16:57:45.259054Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-09-14T01:03:47.061164Z",
+  "last_successful_update": "2026-09-14T16:57:45.259054Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1610,27 +1610,28 @@
       ]
     },
     {
-      "cluster_id": "9d71c9372a216790",
+      "cluster_id": "937f5cccc61eb210",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[특징주] 삼성전자 장 초반 3.5% 급락…SK하이닉스도 5.2%↓",
-      "representative_url": "https://yna.co.kr/view/AKR20260914036400008?input=1195m",
-      "representative_source": "yna.co.kr",
+      "representative_title": "[김수언 칼럼] 애플 추월한 삼성전자 , 계속될 수 있나",
+      "representative_url": "https://hankyung.com/article/2026091439211",
+      "representative_source": "hankyung.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:24:00Z",
-      "last_published_at": "2026-09-14T00:52:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
+      "first_published_at": "2026-09-14T16:30:00Z",
+      "last_published_at": "2026-09-14T16:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "imaeil.com",
-        "yna.co.kr"
+        "hankyung.com"
       ],
       "categories": [
-        "기타"
+        "공급·규제",
+        "기술·제품",
+        "인사·M&A"
       ],
       "event_keywords": [],
       "importance_score": 35,
@@ -1640,24 +1641,14 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 장 초반 3%대 급락…SK하이닉스도 5%↓",
-          "url": "https://imaeil.com/page/view/2026091409504380823",
-          "source": "imaeil.com",
-          "source_domain": "imaeil.com",
-          "published_at": "2026-09-14T09:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[특징주] 삼성전자 장 초반 3.5% 급락…SK하이닉스도 5.2%↓",
-          "url": "https://yna.co.kr/view/AKR20260914036400008?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-09-14T09:24:00+09:00",
+          "title": "[김수언 칼럼] 애플 추월한 삼성전자 , 계속될 수 있나",
+          "url": "https://hankyung.com/article/2026091439211",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-09-15T01:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1665,15 +1656,15 @@
       ]
     },
     {
-      "cluster_id": "c4f542d2e9233332",
+      "cluster_id": "a5325d0650005797",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "\"전기료 25조 선납할래?\"... 삼성전자 ·SK하이닉스, 한국전력 제안 '거절...",
-      "representative_url": "https://insight.co.kr/news/573301",
-      "representative_source": "insight.co.kr",
+      "representative_title": "성과급 싸움이 \"죽이고 싶다\"까지… 삼성전자 노조 '막장 내홍'",
+      "representative_url": "https://thedailypost.kr/news/articleView.html?idxno=115608",
+      "representative_source": "thedailypost.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:52:00Z",
-      "last_published_at": "2026-09-14T00:52:00Z",
+      "first_published_at": "2026-09-14T15:20:00Z",
+      "last_published_at": "2026-09-14T15:20:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1681,7 +1672,326 @@
         "naver"
       ],
       "source_domains": [
-        "insight.co.kr"
+        "thedailypost.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "성과급 싸움이 \"죽이고 싶다\"까지… 삼성전자 노조 '막장 내홍'",
+          "url": "https://thedailypost.kr/news/articleView.html?idxno=115608",
+          "source": "thedailypost.kr",
+          "source_domain": "thedailypost.kr",
+          "published_at": "2026-09-15T00:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e19a5eca7d76336a",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 “스위처스” 캠페인, 갤럭시Z플립8 구매자 30%가 경쟁사서 넘...",
+      "representative_url": "https://wikitree.co.kr/articles/1159473",
+      "representative_source": "wikitree.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T15:12:00Z",
+      "last_published_at": "2026-09-14T15:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "wikitree.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 “스위처스” 캠페인, 갤럭시Z플립8 구매자 30%가 경쟁사서 넘...",
+          "url": "https://wikitree.co.kr/articles/1159473",
+          "source": "wikitree.co.kr",
+          "source_domain": "wikitree.co.kr",
+          "published_at": "2026-09-15T00:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9c1067be4cced45a",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "SK하이닉스· 삼성전자 거래대금 11.3조…상위 50종목의 58.7%",
+      "representative_url": "https://kjdaily.com/article.php?aid=1789393211686869227",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T13:42:00Z",
+      "last_published_at": "2026-09-14T13:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 3조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스· 삼성전자 거래대금 11.3조…상위 50종목의 58.7%",
+          "url": "https://kjdaily.com/article.php?aid=1789393211686869227",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-09-14T22:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4da6830e31d36823",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·SK하이닉스, '25조 전기료 선납' 거절",
+      "representative_url": "https://obsnews.co.kr/news/articleView.html?idxno=1537470",
+      "representative_source": "obsnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T11:26:00Z",
+      "last_published_at": "2026-09-14T11:40:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjmbc.co.kr",
+        "obsnews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 25조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자 ·SK하이닉스 '25조 전기료 선납' 한전 제안 거절",
+          "url": "https://kjmbc.co.kr/NewsArticle/1536931",
+          "source": "kjmbc.co.kr",
+          "source_domain": "kjmbc.co.kr",
+          "published_at": "2026-09-14T20:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 ·SK하이닉스, '25조 전기료 선납' 거절",
+          "url": "https://obsnews.co.kr/news/articleView.html?idxno=1537470",
+          "source": "obsnews.co.kr",
+          "source_domain": "obsnews.co.kr",
+          "published_at": "2026-09-14T20:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "393901819d6ab541",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 부장 남편 성과급 언급한 이현이, 첫째 아들 美 영재 캠프 보...",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16193217",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T11:26:00Z",
+      "last_published_at": "2026-09-14T11:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 부장 남편 성과급 언급한 이현이, 첫째 아들 美 영재 캠프 보...",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16193217",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-09-14T20:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2eceee065dd3981c",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ‘27만원’·SK하이닉스 ‘148만원’...BNK “주가 상단 제한적...",
+      "representative_url": "https://segye.com/newsView/20260914519102?OutUrl=naver",
+      "representative_source": "segye.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T11:24:00Z",
+      "last_published_at": "2026-09-14T11:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "segye.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 ‘27만원’·SK하이닉스 ‘148만원’...BNK “주가 상단 제한적...",
+          "url": "https://segye.com/newsView/20260914519102?OutUrl=naver",
+          "source": "segye.com",
+          "source_domain": "segye.com",
+          "published_at": "2026-09-14T20:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6d61d37b8ffbd714",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·SK하이닉스 모두 '거절'...속 타는 한전 [자막뉴스]",
+      "representative_url": "https://ytn.co.kr/_ln/0134_202609141951528095",
+      "representative_source": "ytn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T10:51:00Z",
+      "last_published_at": "2026-09-14T10:51:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ytn.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 ·SK하이닉스 모두 '거절'...속 타는 한전 [자막뉴스]",
+          "url": "https://ytn.co.kr/_ln/0134_202609141951528095",
+          "source": "ytn.co.kr",
+          "source_domain": "ytn.co.kr",
+          "published_at": "2026-09-14T19:51:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d939e02cbfc3193d",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "한전 ‘전기료 25조 선납’ 무산… 삼성전자 ·SK하이닉스 모두 거절",
+      "representative_url": "https://joseilbo.com/news/news_read.php?class=1&grp=&uid=575656",
+      "representative_source": "joseilbo.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-14T10:42:00Z",
+      "last_published_at": "2026-09-14T10:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joseilbo.com"
       ],
       "categories": [
         "투자·생산"
@@ -1698,11 +2008,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "\"전기료 25조 선납할래?\"... 삼성전자 ·SK하이닉스, 한국전력 제안 '거절...",
-          "url": "https://insight.co.kr/news/573301",
-          "source": "insight.co.kr",
-          "source_domain": "insight.co.kr",
-          "published_at": "2026-09-14T09:52:00+09:00",
+          "title": "한전 ‘전기료 25조 선납’ 무산… 삼성전자 ·SK하이닉스 모두 거절",
+          "url": "https://joseilbo.com/news/news_read.php?class=1&grp=&uid=575656",
+          "source": "joseilbo.com",
+          "source_domain": "joseilbo.com",
+          "published_at": "2026-09-14T19:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1710,15 +2020,15 @@
       ]
     },
     {
-      "cluster_id": "4868319f0168356f",
+      "cluster_id": "e7dff38f28adbf4f",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 냉난방·급탕 한 번에…EHS 히트펌프 솔루션 공개",
-      "representative_url": "https://thebigdata.co.kr/view.php?ud=2026091409333933690ecbf9426b_23",
-      "representative_source": "thebigdata.co.kr",
+      "representative_title": "삼성전자 주식은 무섭게 팔더니…삼전우는 순매수 ‘1위’, 도대체 왜?...",
+      "representative_url": "https://biz.heraldcorp.com/article/10872889",
+      "representative_source": "biz.heraldcorp.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:52:00Z",
-      "last_published_at": "2026-09-14T00:52:00Z",
+      "first_published_at": "2026-09-14T10:41:00Z",
+      "last_published_at": "2026-09-14T10:41:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1726,10 +2036,10 @@
         "naver"
       ],
       "source_domains": [
-        "thebigdata.co.kr"
+        "biz.heraldcorp.com"
       ],
       "categories": [
-        "기타"
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -1741,408 +2051,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 냉난방·급탕 한 번에…EHS 히트펌프 솔루션 공개",
-          "url": "https://thebigdata.co.kr/view.php?ud=2026091409333933690ecbf9426b_23",
-          "source": "thebigdata.co.kr",
-          "source_domain": "thebigdata.co.kr",
-          "published_at": "2026-09-14T09:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b10b35580e480bb5",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 노노 갈등 어디까지?…동행노조 소통방 '살해·폭탄' 표현 논란...",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=547838",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:50:00Z",
-      "last_published_at": "2026-09-14T00:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 노노 갈등 어디까지?…동행노조 소통방 '살해·폭탄' 표현 논란...",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=547838",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-09-14T09:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "989b85a0218b16f7",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 제주 그린수소 포럼서 ‘EHS’ 전시…주거 냉난방 전기화 공...",
-      "representative_url": "https://thepowernews.co.kr/view.php?ud=202609140947488372de3f0aa1be_7",
-      "representative_source": "thepowernews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:50:00Z",
-      "last_published_at": "2026-09-14T00:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "thepowernews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 제주 그린수소 포럼서 ‘EHS’ 전시…주거 냉난방 전기화 공...",
-          "url": "https://thepowernews.co.kr/view.php?ud=202609140947488372de3f0aa1be_7",
-          "source": "thepowernews.co.kr",
-          "source_domain": "thepowernews.co.kr",
-          "published_at": "2026-09-14T09:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "38fafe10f966d3a6",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스가 한전 전기료 '25조 선납' 거절한 까닭?...반도체...",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=547815",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:08:00Z",
-      "last_published_at": "2026-09-14T00:45:00Z",
-      "article_count": 6,
-      "domestic_article_count": 6,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gokorea.kr",
-        "inews24.com",
-        "joongangenews.com",
-        "news.kbs.co.kr",
-        "segye.com",
-        "viva100.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "기타"
-      ],
-      "event_keywords": [
-        " 25조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스, ‘25조 전기료 선납’ 한전 제안 거절",
-          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8662450",
-          "source": "news.kbs.co.kr",
-          "source_domain": "news.kbs.co.kr",
-          "published_at": "2026-09-14T09:45:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 ·SK하이닉스, 한전 '5년치 전기료 25조원 선납' 제안 거절",
-          "url": "https://gokorea.kr/news/articleView.html?idxno=878268",
-          "source": "gokorea.kr",
-          "source_domain": "gokorea.kr",
-          "published_at": "2026-09-14T09:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 ·SK하이닉스, ‘전기료 25조 선납’ 한전 제안 거절",
-          "url": "https://segye.com/newsView/20260914504115?OutUrl=naver",
-          "source": "segye.com",
-          "source_domain": "segye.com",
-          "published_at": "2026-09-14T09:41:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 ·SK하이닉스, 한전 '전기료 25조 선납' 제안 거절",
-          "url": "https://inews24.com/view/2005090",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-09-14T09:27:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 ·SK하이닉스, 한전 ‘5년 전기요금 25조원 선납’ 제안 거절",
-          "url": "https://viva100.com/article/20260914500220",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-09-14T09:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 ·SK하이닉스가 한전 전기료 '25조 선납' 거절한 까닭?...반도체...",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=547815",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-09-14T09:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "51da2b36e67ea674",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "고유가·고금리 여파에.. 삼성전자 ·SK하이닉스 동반 '휘청'[종목NOW]",
-      "representative_url": "https://fnnews.com/news/202609140936199438",
-      "representative_source": "fnnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:45:00Z",
-      "last_published_at": "2026-09-14T00:45:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "fnnews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "고유가·고금리 여파에.. 삼성전자 ·SK하이닉스 동반 '휘청'[종목NOW]",
-          "url": "https://fnnews.com/news/202609140936199438",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-09-14T09:45:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "90db05e9c72b1ea8",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , '2026 그린수소 글로벌 포럼' 참가 EHS 히트펌프 기술 공개",
-      "representative_url": "https://ezyeconomy.com/news/articleView.html?idxno=239709",
-      "representative_source": "ezyeconomy.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:26:00Z",
-      "last_published_at": "2026-09-14T00:42:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dizzotv.com",
-        "ezyeconomy.com",
-        "inthenews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        "2026"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성전자 , ‘2026 그린수소 글로벌 포럼’서 차세대 EHS 히트펌프 솔루...",
-          "url": "https://dizzotv.com/site/data/html_dir/2026/09/14/2026091480027.html",
-          "source": "dizzotv.com",
-          "source_domain": "dizzotv.com",
-          "published_at": "2026-09-14T09:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , ‘2026 그린수소 글로벌 포럼’서 차세대 EHS 히트펌프 선봬",
-          "url": "https://inthenews.co.kr/news/article.html?no=91807",
-          "source": "inthenews.co.kr",
-          "source_domain": "inthenews.co.kr",
-          "published_at": "2026-09-14T09:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , '2026 그린수소 글로벌 포럼' 참가 EHS 히트펌프 기술 공개",
-          "url": "https://ezyeconomy.com/news/articleView.html?idxno=239709",
-          "source": "ezyeconomy.com",
-          "source_domain": "ezyeconomy.com",
-          "published_at": "2026-09-14T09:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "444c93259b9948f4",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , '올인원' 차세대 EHS 히트펌프 '2026 그린수소 글로벌 포럼' ...",
-      "representative_url": "https://womentimes.co.kr/news/articleView.html?idxno=106169",
-      "representative_source": "womentimes.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:36:00Z",
-      "last_published_at": "2026-09-14T00:40:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.heraldcorp.com",
-        "womentimes.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        "2026"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성전자 , 차세대 EHS 히트펌프 들고 ‘2026 그린수소 글로벌 포럼’ 출...",
-          "url": "https://biz.heraldcorp.com/article/10872134",
+          "title": "삼성전자 주식은 무섭게 팔더니…삼전우는 순매수 ‘1위’, 도대체 왜?...",
+          "url": "https://biz.heraldcorp.com/article/10872889",
           "source": "biz.heraldcorp.com",
           "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-09-14T09:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , '올인원' 차세대 EHS 히트펌프 '2026 그린수소 글로벌 포럼' ...",
-          "url": "https://womentimes.co.kr/news/articleView.html?idxno=106169",
-          "source": "womentimes.co.kr",
-          "source_domain": "womentimes.co.kr",
-          "published_at": "2026-09-14T09:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "463e33ad4d3d31bc",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 3%대·SK하이닉스 5%대 급락…반도체주 흔들",
-      "representative_url": "https://jnilbo.com/news/articleView.html?idxno=90000065062",
-      "representative_source": "jnilbo.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T00:37:00Z",
-      "last_published_at": "2026-09-14T00:37:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "jnilbo.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 3%대·SK하이닉스 5%대 급락…반도체주 흔들",
-          "url": "https://jnilbo.com/news/articleView.html?idxno=90000065062",
-          "source": "jnilbo.com",
-          "source_domain": "jnilbo.com",
-          "published_at": "2026-09-14T09:37:00+09:00",
+          "published_at": "2026-09-14T19:41:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
