@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-15T01:27:14.634197Z",
+  "generated_at": "2026-09-15T15:33:32.466662Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-09-15T01:27:14.634197Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-15T15:33:32.466662Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "493b8ec167543c2a",
@@ -1551,46 +1556,63 @@
       ]
     },
     {
-      "cluster_id": "f0f7db9f77f7a466",
+      "cluster_id": "6e12624dbdbc4355",
       "company_name": "삼성중공업",
       "stock_code": "010140",
-      "representative_title": "[특징주] 삼성중공업 , LNG선·FLNG '쌍끌이' 기대…IBK투자증권 \"매수\"",
-      "representative_url": "https://namdonews.com/news/articleView.html?idxno=923414",
-      "representative_source": "namdonews.com",
+      "representative_title": "삼성중공업 서 협력업체 대표 등 2명 옥상 농성",
+      "representative_url": "https://news1.kr/local/busan-gyeongnam/6291019",
+      "representative_source": "news1.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-15T00:24:00Z",
-      "last_published_at": "2026-09-15T00:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-09-15T04:26:00Z",
+      "last_published_at": "2026-09-15T13:06:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "namdonews.com"
+        "news.kbs.co.kr",
+        "news1.kr"
       ],
       "categories": [
-        "투자·생산"
+        "인사·M&A"
       ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 35,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "[특징주] 삼성중공업 , LNG선·FLNG '쌍끌이' 기대…IBK투자증권 \"매수\"",
-          "url": "https://namdonews.com/news/articleView.html?idxno=923414",
-          "source": "namdonews.com",
-          "source_domain": "namdonews.com",
-          "published_at": "2026-09-15T09:24:00+09:00",
+          "title": "거제, 삼성중공업 협력업체 대표 등 2명 옥상 농성",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8664392",
+          "source": "news.kbs.co.kr",
+          "source_domain": "news.kbs.co.kr",
+          "published_at": "2026-09-15T22:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "거제, 삼성중공업 협력업체 대표 2명 옥상 농성",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8664182",
+          "source": "news.kbs.co.kr",
+          "source_domain": "news.kbs.co.kr",
+          "published_at": "2026-09-15T20:07:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성중공업 서 협력업체 대표 등 2명 옥상 농성",
+          "url": "https://news1.kr/local/busan-gyeongnam/6291019",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-09-15T13:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1598,15 +1620,15 @@
       ]
     },
     {
-      "cluster_id": "4936df43009a04c0",
+      "cluster_id": "1df83c1844a3cdb4",
       "company_name": "삼성중공업",
       "stock_code": "010140",
-      "representative_title": "[모닝 리포트] \" 삼성중공업 , LNG선·FLNG로 업황 변동성 완화 기대\"",
-      "representative_url": "https://newspim.com/news/view/20260915000086",
-      "representative_source": "newspim.com",
+      "representative_title": "삼성중공업 협력업체 대표, 목숨 건 옥상 시위... \"기성금 지급 요구\"",
+      "representative_url": "https://sisacast.kr/news/articleView.html?idxno=100123",
+      "representative_source": "sisacast.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T23:55:00Z",
-      "last_published_at": "2026-09-14T23:55:00Z",
+      "first_published_at": "2026-09-15T09:18:00Z",
+      "last_published_at": "2026-09-15T09:18:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1614,11 +1636,321 @@
         "naver"
       ],
       "source_domains": [
-        "newspim.com"
+        "sisacast.kr"
       ],
       "categories": [
-        "기타",
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 협력업체 대표, 목숨 건 옥상 시위... \"기성금 지급 요구\"",
+          "url": "https://sisacast.kr/news/articleView.html?idxno=100123",
+          "source": "sisacast.kr",
+          "source_domain": "sisacast.kr",
+          "published_at": "2026-09-15T18:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6d3b46cffde21694",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 시위 협력사 대표 \"8년 협력업체 운영에 직원 임금체불만\"",
+      "representative_url": "https://idomin.com/news/articleView.html?idxno=2015015",
+      "representative_source": "idomin.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T08:56:00Z",
+      "last_published_at": "2026-09-15T08:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "idomin.com"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 시위 협력사 대표 \"8년 협력업체 운영에 직원 임금체불만\"",
+          "url": "https://idomin.com/news/articleView.html?idxno=2015015",
+          "source": "idomin.com",
+          "source_domain": "idomin.com",
+          "published_at": "2026-09-15T17:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f4e709a2d1f5a0e2",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 협력사 대표 옥상 시위…'극단 선택' 암시하며 대책 요구",
+      "representative_url": "https://1conomynews.co.kr/news/articleView.html?idxno=50415",
+      "representative_source": "1conomynews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T08:32:00Z",
+      "last_published_at": "2026-09-15T08:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "1conomynews.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 협력사 대표 옥상 시위…'극단 선택' 암시하며 대책 요구",
+          "url": "https://1conomynews.co.kr/news/articleView.html?idxno=50415",
+          "source": "1conomynews.co.kr",
+          "source_domain": "1conomynews.co.kr",
+          "published_at": "2026-09-15T17:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5779474b13cc0e7f",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 'LNG선 승부수' 통했다…수주 목표 넘고 북미 공략 속도",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=318824",
+      "representative_source": "thepublic.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T07:50:00Z",
+      "last_published_at": "2026-09-15T07:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepublic.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 25,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 'LNG선 승부수' 통했다…수주 목표 넘고 북미 공략 속도",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=318824",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-09-15T16:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4d023650866bd8a6",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "\"미국이 판 깔고 삼성중공업 이 쓸어담는다…2030년 도크까지 예약 폭주...",
+      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=300972",
+      "representative_source": "newsquest.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T07:16:00Z",
+      "last_published_at": "2026-09-15T07:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsquest.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견",
         "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"미국이 판 깔고 삼성중공업 이 쓸어담는다…2030년 도크까지 예약 폭주...",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=300972",
+          "source": "newsquest.co.kr",
+          "source_domain": "newsquest.co.kr",
+          "published_at": "2026-09-15T16:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f926e87b28596d39",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 주가, 9월 15일 20,700원 6.33% 하락세 지속",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=548298",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T07:02:00Z",
+      "last_published_at": "2026-09-15T07:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 주가, 9월 15일 20,700원 6.33% 하락세 지속",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=548298",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-15T16:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "19d2649a670725b3",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "1.6조 잭팟 터졌다… 삼성중공업 , 작년 실적 뛰어넘어",
+      "representative_url": "https://newsgn.com/news/articleView.html?idxno=573853",
+      "representative_source": "newsgn.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T06:32:00Z",
+      "last_published_at": "2026-09-15T06:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsgn.com"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 6조",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "1.6조 잭팟 터졌다… 삼성중공업 , 작년 실적 뛰어넘어",
+          "url": "https://newsgn.com/news/articleView.html?idxno=573853",
+          "source": "newsgn.com",
+          "source_domain": "newsgn.com",
+          "published_at": "2026-09-15T15:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4953f8df94b03e98",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "중동 막히자 길어진 LNG 뱃길··· 삼성중공업 '대형선' 기회 커진다",
+      "representative_url": "https://womaneconomy.co.kr/news/articleView.html?idxno=258748",
+      "representative_source": "womaneconomy.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T06:10:00Z",
+      "last_published_at": "2026-09-15T06:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "womaneconomy.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 20,
@@ -1631,11 +1963,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[모닝 리포트] \" 삼성중공업 , LNG선·FLNG로 업황 변동성 완화 기대\"",
-          "url": "https://newspim.com/news/view/20260915000086",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-09-15T08:55:00+09:00",
+          "title": "중동 막히자 길어진 LNG 뱃길··· 삼성중공업 '대형선' 기회 커진다",
+          "url": "https://womaneconomy.co.kr/news/articleView.html?idxno=258748",
+          "source": "womaneconomy.co.kr",
+          "source_domain": "womaneconomy.co.kr",
+          "published_at": "2026-09-15T15:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1643,15 +1975,15 @@
       ]
     },
     {
-      "cluster_id": "90ba734d57bf1431",
+      "cluster_id": "51b6cf31e956444e",
       "company_name": "삼성중공업",
       "stock_code": "010140",
-      "representative_title": "삼성중공업 , 상선 수주 목표 초과…해양플랜트 추가 수주 기대",
-      "representative_url": "https://newsprime.co.kr/news/article.html?no=747673",
-      "representative_source": "newsprime.co.kr",
+      "representative_title": "삼성중공업 협력사 대표, 사내 건물 옥상서 시위",
+      "representative_url": "https://idomin.com/news/articleView.html?idxno=2014957",
+      "representative_source": "idomin.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T23:54:00Z",
-      "last_published_at": "2026-09-14T23:54:00Z",
+      "first_published_at": "2026-09-15T03:50:00Z",
+      "last_published_at": "2026-09-15T03:50:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1659,408 +1991,26 @@
         "naver"
       ],
       "source_domains": [
-        "newsprime.co.kr"
+        "idomin.com"
       ],
       "categories": [
-        "공급·규제",
-        "주가·투자의견",
-        "투자·생산"
+        "인사·M&A"
       ],
       "event_keywords": [],
-      "importance_score": 25,
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성중공업 , 상선 수주 목표 초과…해양플랜트 추가 수주 기대",
-          "url": "https://newsprime.co.kr/news/article.html?no=747673",
-          "source": "newsprime.co.kr",
-          "source_domain": "newsprime.co.kr",
-          "published_at": "2026-09-15T08:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "62d279d5e9b499ba",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "IBK투자證, “ 삼성중공업 , LNGㆍFLNG 헤지 효과 주목⋯목표가 3만7000원”",
-      "representative_url": "https://etoday.co.kr/news/view/2625488",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T23:24:00Z",
-      "last_published_at": "2026-09-14T23:52:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr",
-        "fnnews.com"
-      ],
-      "categories": [
-        "기타",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "\" 삼성중공업 , LNG·FLNG 헤지 효과 기대\"...목표가 3만7000원",
-          "url": "https://fnnews.com/news/202609150831452428",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-09-15T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "IBK투자證, “ 삼성중공업 , LNGㆍFLNG 헤지 효과 주목⋯목표가 3만7000원”",
-          "url": "https://etoday.co.kr/news/view/2625488",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-09-15T08:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "dff965513f986d26",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , 실적 주춤해도 FLNG·FDC 기대감은 여전[애널리스트의 시각...",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026091508390089662",
-      "representative_source": "newsway.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T23:50:00Z",
-      "last_published_at": "2026-09-14T23:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성중공업 , 실적 주춤해도 FLNG·FDC 기대감은 여전[애널리스트의 시각...",
-          "url": "https://newsway.co.kr/news/view?ud=2026091508390089662",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-09-15T08:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7fd282edf6491cdb",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "[클릭 e종목] \" 삼성중공업 , FLNG·바다 위 데이터센터 잇단 수주 기대\"",
-      "representative_url": "https://view.asiae.co.kr/article/2026091417361638810",
-      "representative_source": "view.asiae.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T22:20:00Z",
-      "last_published_at": "2026-09-14T22:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 25,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[클릭 e종목] \" 삼성중공업 , FLNG·바다 위 데이터센터 잇단 수주 기대\"",
-          "url": "https://view.asiae.co.kr/article/2026091417361638810",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-09-15T07:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5e63fb5d9927b78b",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , LNG선 4척·원유운반선 2척 등 1.6조 수주 …\"올해 상선 수주 ...",
-      "representative_url": "https://newsis.com/view/NISX20260914_0003788296",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T02:26:00Z",
-      "last_published_at": "2026-09-14T12:50:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "econonews.co.kr",
-        "newsis.com"
-      ],
-      "categories": [
-        "기타",
-        "실적"
-      ],
-      "event_keywords": [
-        " 6조"
-      ],
-      "importance_score": 25,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성중공업 , LNG 운반선 4척·원유 운반선 2척 등 1.6조 수주",
-          "url": "https://econonews.co.kr/news/articleView.html?idxno=444312",
-          "source": "econonews.co.kr",
-          "source_domain": "econonews.co.kr",
-          "published_at": "2026-09-14T21:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , LNG선 4척·원유운반선 2척 등 1.6조 수주 …\"올해 상선 수주 ...",
-          "url": "https://newsis.com/view/NISX20260914_0003788296",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-09-14T11:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0f78e5f02d28422e",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "[비즈투데이] 삼성중공업 , LNG선 등 6척 12억 달러 수주",
-      "representative_url": "https://obsnews.co.kr/news/articleView.html?idxno=1537462",
-      "representative_source": "obsnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T11:24:00Z",
-      "last_published_at": "2026-09-14T11:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "obsnews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [
-        " 12억"
-      ],
-      "importance_score": 25,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[비즈투데이] 삼성중공업 , LNG선 등 6척 12억 달러 수주",
-          "url": "https://obsnews.co.kr/news/articleView.html?idxno=1537462",
-          "source": "obsnews.co.kr",
-          "source_domain": "obsnews.co.kr",
-          "published_at": "2026-09-14T20:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ecc93363bc47df0f",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , 대형 LNG운반선 4척등 1조6천억 수주",
-      "representative_url": "https://kdpress.co.kr/news/articleView.html?idxno=208586",
-      "representative_source": "kdpress.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T06:06:00Z",
-      "last_published_at": "2026-09-14T10:38:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gndomin.com",
-        "gnnews.co.kr",
-        "kdpress.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기타",
-        "실적"
-      ],
-      "event_keywords": [
-        " 1조",
-        " 6조"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +15",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성중공업 , 대형 LNG운반선 등 1.6조원 수주",
-          "url": "https://gnnews.co.kr/news/articleView.html?idxno=645476",
-          "source": "gnnews.co.kr",
-          "source_domain": "gnnews.co.kr",
-          "published_at": "2026-09-14T19:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , 대형 LNG운반선 등 1.6조원 선박 수주",
-          "url": "https://gndomin.com/news/articleView.html?idxno=489408",
-          "source": "gndomin.com",
-          "source_domain": "gndomin.com",
-          "published_at": "2026-09-14T17:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , 대형 LNG운반선 4척등 1조6천억 수주",
-          "url": "https://kdpress.co.kr/news/articleView.html?idxno=208586",
-          "source": "kdpress.co.kr",
-          "source_domain": "kdpress.co.kr",
-          "published_at": "2026-09-14T15:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b5768a4ba22d2be6",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , LNG·원유운반선 6척 수주 1.6조 규모…올해 상선 수주 지난...",
-      "representative_url": "https://ezyeconomy.com/news/articleView.html?idxno=239753",
-      "representative_source": "ezyeconomy.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T08:56:00Z",
-      "last_published_at": "2026-09-14T08:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ezyeconomy.com"
-      ],
-      "categories": [
-        "기타",
-        "실적"
-      ],
-      "event_keywords": [
-        " 6조"
-      ],
-      "importance_score": 25,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성중공업 , LNG·원유운반선 6척 수주 1.6조 규모…올해 상선 수주 지난...",
-          "url": "https://ezyeconomy.com/news/articleView.html?idxno=239753",
-          "source": "ezyeconomy.com",
-          "source_domain": "ezyeconomy.com",
-          "published_at": "2026-09-14T17:56:00+09:00",
+          "title": "삼성중공업 협력사 대표, 사내 건물 옥상서 시위",
+          "url": "https://idomin.com/news/articleView.html?idxno=2014957",
+          "source": "idomin.com",
+          "source_domain": "idomin.com",
+          "published_at": "2026-09-15T12:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

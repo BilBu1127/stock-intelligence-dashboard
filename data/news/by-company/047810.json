@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-15T01:27:14.634197Z",
+  "generated_at": "2026-09-15T15:33:32.466662Z",
   "company_name": "한국항공우주",
   "stock_code": "047810",
   "status": "partial",
-  "last_successful_update": "2026-09-15T01:27:14.634197Z",
+  "last_successful_update": "2026-09-15T15:33:32.466662Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1770,43 +1770,241 @@
       ]
     },
     {
-      "cluster_id": "39270ef069aedb8d",
+      "cluster_id": "1f37bc87010a3c13",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[미르의 글로벌 레이더]KAI FA-50, 폴란드서 ‘심장’까지 손본다…F404 ...",
-      "representative_url": "https://mediapen.com/news/view/1123507",
-      "representative_source": "mediapen.com",
+      "representative_title": "KAI, 유럽 위성기업 ASL과 손잡고 저궤도 통신위성 공동 개발",
+      "representative_url": "https://yna.co.kr/view/AKR20260915159900003?input=1195m",
+      "representative_source": "yna.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T23:50:00Z",
-      "last_published_at": "2026-09-14T23:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-09-15T07:59:00Z",
+      "last_published_at": "2026-09-15T11:24:00Z",
+      "article_count": 19,
+      "domestic_article_count": 19,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "mediapen.com"
+        "1conomynews.co.kr",
+        "biz.chosun.com",
+        "businesspost.co.kr",
+        "cnbnews.com",
+        "ddaily.co.kr",
+        "fetv.co.kr",
+        "g-enews.com",
+        "inews24.com",
+        "mediafine.co.kr",
+        "mt.co.kr",
+        "news1.kr",
+        "newsis.com",
+        "popcornnews.net",
+        "sentv.co.kr",
+        "thelec.kr",
+        "view.asiae.co.kr",
+        "viva100.com",
+        "yna.co.kr",
+        "ziksir.com"
       ],
       "categories": [
         "기타"
       ],
       "event_keywords": [],
-      "importance_score": 20,
+      "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
+        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "[미르의 글로벌 레이더]KAI FA-50, 폴란드서 ‘심장’까지 손본다…F404 ...",
-          "url": "https://mediapen.com/news/view/1123507",
-          "source": "mediapen.com",
-          "source_domain": "mediapen.com",
-          "published_at": "2026-09-15T08:50:00+09:00",
+          "title": "KAI, 유럽 위성기업 ASL과 '맞손'… 한국 형 저궤도 위성통신망 구축 추진",
+          "url": "https://ddaily.co.kr/page/view/2026091517501925939",
+          "source": "ddaily.co.kr",
+          "source_domain": "ddaily.co.kr",
+          "published_at": "2026-09-15T20:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 ASL과 손잡고 한국 형 저궤도 통신위성 개발 나선다",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=89900",
+          "source": "mediafine.co.kr",
+          "source_domain": "mediafine.co.kr",
+          "published_at": "2026-09-15T19:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 한국 형 차세대 통신위성 공동 개발하기로",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=447291",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-09-15T19:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 ASL과 K-LEO 통신위성 공동개발 추진",
+          "url": "https://g-enews.com/view.php?ud=202609151828225109112616b072_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-09-15T18:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 ASL과 저궤도 통신위성 공동 개발",
+          "url": "https://thelec.kr/news/articleView.html?idxno=62333",
+          "source": "thelec.kr",
+          "source_domain": "thelec.kr",
+          "published_at": "2026-09-15T18:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL와 저궤도 통신위성 공동개발 추진",
+          "url": "https://inews24.com/view/2006002",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-09-15T18:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 ASL과 손잡고 ‘K-LEO’ 통신위성 개발",
+          "url": "https://viva100.com/article/20260915501384",
+          "source": "viva100.com",
+          "source_domain": "viva100.com",
+          "published_at": "2026-09-15T18:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 저궤도 통신위성 개발 협력",
+          "url": "https://cnbnews.com/news/articleView.html?idxno=1015919",
+          "source": "cnbnews.com",
+          "source_domain": "cnbnews.com",
+          "published_at": "2026-09-15T18:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 맞손…차세대 상용 통신위성 공동 개발",
+          "url": "https://news1.kr/industry/general-industry/6291503",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-09-15T17:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL 협력…저궤도 통신위성 공동개발 추진",
+          "url": "https://1conomynews.co.kr/news/articleView.html?idxno=50423",
+          "source": "1conomynews.co.kr",
+          "source_domain": "1conomynews.co.kr",
+          "published_at": "2026-09-15T17:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 맞손…K-LEO 통신위성 공동 개발",
+          "url": "https://ziksir.com/news/articleView.html?idxno=146557",
+          "source": "ziksir.com",
+          "source_domain": "ziksir.com",
+          "published_at": "2026-09-15T17:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 ASL과 K-LEO 협력…차세대 통신위성 공동개발 추진",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=133053",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-09-15T17:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 우주 동맹… 한국 형 저궤도 위성통신망 '정조준...",
+          "url": "https://newsis.com/view/NISX20260915_0003790789",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-09-15T17:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 손잡고 저궤도 통신위성 공동 개발",
+          "url": "https://yna.co.kr/view/AKR20260915159900003?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-09-15T17:23:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 맞손… 한국 형 저궤도 통신위성 개발 협력",
+          "url": "https://sentv.co.kr/article/view/sentv202609150226",
+          "source": "sentv.co.kr",
+          "source_domain": "sentv.co.kr",
+          "published_at": "2026-09-15T17:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 기업 ASL과 맞손…통신위성 공동개발 추진",
+          "url": "https://fetv.co.kr/news/articleView.html?idxno=310248",
+          "source": "fetv.co.kr",
+          "source_domain": "fetv.co.kr",
+          "published_at": "2026-09-15T17:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 맞손… 한국 형 저궤도 통신위성 공동개발",
+          "url": "https://biz.chosun.com/industry/company/2026/09/15/FUF7375YWBFCPMFW3LW5PL3ZFA",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-09-15T17:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업과 저궤도 통신위성 공동개발",
+          "url": "https://view.asiae.co.kr/article/2026091517014395482",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-09-15T17:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 유럽 위성기업 ASL과 한국 형 저궤도 위성통신망 구축 협약",
+          "url": "https://mt.co.kr/industry/2026/09/15/2026091516514657864",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-09-15T16:59:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1814,15 +2012,15 @@
       ]
     },
     {
-      "cluster_id": "302f61d8daef8241",
+      "cluster_id": "b0a0b984eb938664",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[KAI 지배구조논쟁 ①]한화 KAI 지분 확대, 민영화 논쟁 재점화…찬성론...",
-      "representative_url": "https://nspna.com/news?mode=view&newsid=828244",
-      "representative_source": "nspna.com",
+      "representative_title": "KAI, 국가위성 넘어 저궤도 통신으로…K-LEO 참여 기반 넓힌다",
+      "representative_url": "https://biztribune.co.kr/news/articleView.html?idxno=359065",
+      "representative_source": "biztribune.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T12:34:00Z",
-      "last_published_at": "2026-09-14T12:34:00Z",
+      "first_published_at": "2026-09-15T10:48:00Z",
+      "last_published_at": "2026-09-15T10:48:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1830,10 +2028,10 @@
         "naver"
       ],
       "source_domains": [
-        "nspna.com"
+        "biztribune.co.kr"
       ],
       "categories": [
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -1845,11 +2043,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[KAI 지배구조논쟁 ①]한화 KAI 지분 확대, 민영화 논쟁 재점화…찬성론...",
-          "url": "https://nspna.com/news?mode=view&newsid=828244",
-          "source": "nspna.com",
-          "source_domain": "nspna.com",
-          "published_at": "2026-09-14T21:34:00+09:00",
+          "title": "KAI, 국가위성 넘어 저궤도 통신으로…K-LEO 참여 기반 넓힌다",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=359065",
+          "source": "biztribune.co.kr",
+          "source_domain": "biztribune.co.kr",
+          "published_at": "2026-09-15T19:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1857,15 +2055,15 @@
       ]
     },
     {
-      "cluster_id": "0db47f1698adf511",
+      "cluster_id": "07bcce3a1e563ba8",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI 노조 “사천 항공 기 생산기지 전락” 한화 지분 확대 규탄",
-      "representative_url": "https://knnews.co.kr/news/articleView.php?idxno=1550844",
-      "representative_source": "knnews.co.kr",
+      "representative_title": "KAI, 한국 형 저궤도 위성망 구축 나선다…유럽 ASL과 맞손",
+      "representative_url": "https://dt.co.kr/article/12084142",
+      "representative_source": "dt.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T12:22:00Z",
-      "last_published_at": "2026-09-14T12:22:00Z",
+      "first_published_at": "2026-09-15T09:54:00Z",
+      "last_published_at": "2026-09-15T09:54:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1873,29 +2071,26 @@
         "naver"
       ],
       "source_domains": [
-        "knnews.co.kr"
+        "dt.co.kr"
       ],
       "categories": [
-        "투자·생산"
+        "기타"
       ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "KAI 노조 “사천 항공 기 생산기지 전락” 한화 지분 확대 규탄",
-          "url": "https://knnews.co.kr/news/articleView.php?idxno=1550844",
-          "source": "knnews.co.kr",
-          "source_domain": "knnews.co.kr",
-          "published_at": "2026-09-14T21:22:00+09:00",
+          "title": "KAI, 한국 형 저궤도 위성망 구축 나선다…유럽 ASL과 맞손",
+          "url": "https://dt.co.kr/article/12084142",
+          "source": "dt.co.kr",
+          "source_domain": "dt.co.kr",
+          "published_at": "2026-09-15T18:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1903,15 +2098,15 @@
       ]
     },
     {
-      "cluster_id": "020a3b7287f84ca8",
+      "cluster_id": "0d6ffbd0a3a8fbde",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "방사청, 한화 KAI 경영권 참여 제동",
-      "representative_url": "https://gnmaeil.com/news/articleView.html?idxno=594793",
-      "representative_source": "gnmaeil.com",
+      "representative_title": "KAI, 저궤도 통신위성 공동개발…유럽 위성기업과 '맞손'",
+      "representative_url": "https://shinailbo.co.kr/news/articleView.html?idxno=5062639",
+      "representative_source": "shinailbo.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T12:12:00Z",
-      "last_published_at": "2026-09-14T12:12:00Z",
+      "first_published_at": "2026-09-15T09:48:00Z",
+      "last_published_at": "2026-09-15T09:48:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1919,7 +2114,222 @@
         "naver"
       ],
       "source_domains": [
-        "gnmaeil.com"
+        "shinailbo.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 저궤도 통신위성 공동개발…유럽 위성기업과 '맞손'",
+          "url": "https://shinailbo.co.kr/news/articleView.html?idxno=5062639",
+          "source": "shinailbo.co.kr",
+          "source_domain": "shinailbo.co.kr",
+          "published_at": "2026-09-15T18:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a319edccabb0c6a7",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 유럽 ASL과 저궤도 통신위성 개발…K-LEO 사업 협력",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=318876",
+      "representative_source": "thepublic.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T09:16:00Z",
+      "last_published_at": "2026-09-15T09:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepublic.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 유럽 ASL과 저궤도 통신위성 개발…K-LEO 사업 협력",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=318876",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-09-15T18:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0ea3fa7d90c0c42b",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 차세대 상용 통신위성 공동개발 나서…ASL과 맞손",
+      "representative_url": "https://news.tf.co.kr/read/economy/2366324.htm",
+      "representative_source": "news.tf.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T09:15:00Z",
+      "last_published_at": "2026-09-15T09:15:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.tf.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 차세대 상용 통신위성 공동개발 나서…ASL과 맞손",
+          "url": "https://news.tf.co.kr/read/economy/2366324.htm",
+          "source": "news.tf.co.kr",
+          "source_domain": "news.tf.co.kr",
+          "published_at": "2026-09-15T18:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f243b59da6feabbd",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 유럽 ASL과 위성통신 협력…K-LEO 사업 참여 추진",
+      "representative_url": "https://daily.hankooki.com/news/articleView.html?idxno=1406482",
+      "representative_source": "daily.hankooki.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T09:00:00Z",
+      "last_published_at": "2026-09-15T09:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "daily.hankooki.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 유럽 ASL과 위성통신 협력…K-LEO 사업 참여 추진",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1406482",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-09-15T18:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b61e535cf06651cf",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 유럽과 손잡고 ' 한국 판 스타링크' 도전",
+      "representative_url": "https://pennmike.com/news/articleView.html?idxno=127856",
+      "representative_source": "pennmike.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T08:30:00Z",
+      "last_published_at": "2026-09-15T08:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pennmike.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 유럽과 손잡고 ' 한국 판 스타링크' 도전",
+          "url": "https://pennmike.com/news/articleView.html?idxno=127856",
+          "source": "pennmike.com",
+          "source_domain": "pennmike.com",
+          "published_at": "2026-09-15T17:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a3303f4a97e34bfd",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 유럽 ASL과 K-LEO 정조준…저궤도 통신위성 사업 본격화",
+      "representative_url": "https://koreaittimes.com/news/articleView.html?idxno=157198",
+      "representative_source": "koreaittimes.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T08:12:00Z",
+      "last_published_at": "2026-09-15T08:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "koreaittimes.com"
       ],
       "categories": [
         "인사·M&A"
@@ -1934,11 +2344,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "방사청, 한화 KAI 경영권 참여 제동",
-          "url": "https://gnmaeil.com/news/articleView.html?idxno=594793",
-          "source": "gnmaeil.com",
-          "source_domain": "gnmaeil.com",
-          "published_at": "2026-09-14T21:12:00+09:00",
+          "title": "KAI, 유럽 ASL과 K-LEO 정조준…저궤도 통신위성 사업 본격화",
+          "url": "https://koreaittimes.com/news/articleView.html?idxno=157198",
+          "source": "koreaittimes.com",
+          "source_domain": "koreaittimes.com",
+          "published_at": "2026-09-15T17:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1946,150 +2356,15 @@
       ]
     },
     {
-      "cluster_id": "ac2f33b1b3fa0b30",
+      "cluster_id": "715002bdcd0afd40",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "현대로템·KAI 등, 'AEROTEC 2026' 창원서 열린다…글로벌 바이어 초청·...",
-      "representative_url": "https://gukjenews.com/news/articleView.html?idxno=3694889",
-      "representative_source": "gukjenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T09:50:00Z",
-      "last_published_at": "2026-09-14T09:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gukjenews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        "2026"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대로템·KAI 등, 'AEROTEC 2026' 창원서 열린다…글로벌 바이어 초청·...",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3694889",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-09-14T18:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9a969a3bfdec4352",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "한화 손 뻗는 KAI, 1조 위성사업 놓고 한화시스템과 ' 우주 전쟁'",
-      "representative_url": "https://ajunews.com/view/20260914133330124",
-      "representative_source": "ajunews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T09:34:00Z",
-      "last_published_at": "2026-09-14T09:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ajunews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 1조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화 손 뻗는 KAI, 1조 위성사업 놓고 한화시스템과 ' 우주 전쟁'",
-          "url": "https://ajunews.com/view/20260914133330124",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-09-14T18:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a373cbd9f5229823",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "창원서 '에어로텍 2026' 개막…로템·KAI·포스코 등 첨단기술 총출동",
-      "representative_url": "https://m-i.kr/news/articleView.html?idxno=1413750",
-      "representative_source": "m-i.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T07:36:00Z",
-      "last_published_at": "2026-09-14T07:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m-i.kr"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "2026"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "창원서 '에어로텍 2026' 개막…로템·KAI·포스코 등 첨단기술 총출동",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1413750",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-09-14T16:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "700b65c56671b926",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "한국항공우주 연구원, 연구·행정 인공지능 전환(AX) 시동",
-      "representative_url": "https://zdnet.co.kr/view?no=20260914154335",
+      "representative_title": "KAI·유럽 ASL, 지상망 빈틈 메울 저궤도 통신위성 공동개발",
+      "representative_url": "https://zdnet.co.kr/view?no=20260915171030",
       "representative_source": "zdnet.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-14T06:56:00Z",
-      "last_published_at": "2026-09-14T06:56:00Z",
+      "first_published_at": "2026-09-15T08:11:00Z",
+      "last_published_at": "2026-09-15T08:11:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2113,99 +2388,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "한국항공우주 연구원, 연구·행정 인공지능 전환(AX) 시동",
-          "url": "https://zdnet.co.kr/view?no=20260914154335",
+          "title": "KAI·유럽 ASL, 지상망 빈틈 메울 저궤도 통신위성 공동개발",
+          "url": "https://zdnet.co.kr/view?no=20260915171030",
           "source": "zdnet.co.kr",
           "source_domain": "zdnet.co.kr",
-          "published_at": "2026-09-14T15:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cb8f5509d30546e5",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "현대로템·신한금융·KAI 총출동…한·우즈벡 국빈만찬 '경제외교'",
-      "representative_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434746",
-      "representative_source": "news.einfomax.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T06:32:00Z",
-      "last_published_at": "2026-09-14T06:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news.einfomax.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대로템·신한금융·KAI 총출동…한·우즈벡 국빈만찬 '경제외교'",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434746",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-09-14T15:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "679470aba89b8e65",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "KAI, FA-50M 내달 말레이시아 첫 인도…추가 18대 수주도 겨냥",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=486086",
-      "representative_source": "pinpointnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-13T23:00:00Z",
-      "last_published_at": "2026-09-13T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KAI, FA-50M 내달 말레이시아 첫 인도…추가 18대 수주도 겨냥",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=486086",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-09-14T08:00:00+09:00",
+          "published_at": "2026-09-15T17:11:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
