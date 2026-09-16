@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-15T15:33:32.466662Z",
+  "generated_at": "2026-09-16T01:24:20.928194Z",
   "company_name": "월덱스",
   "stock_code": "101160",
   "status": "partial",
-  "last_successful_update": "2026-09-15T15:33:32.466662Z",
+  "last_successful_update": "2026-09-16T01:24:20.928194Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -211,6 +211,50 @@
           "source": "ekn.kr",
           "source_domain": "ekn.kr",
           "published_at": "2026-07-23T13:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9de0db9e878b5004",
+      "company_name": "월덱스",
+      "stock_code": "101160",
+      "representative_title": "반도체 식각분쟁... 월덱스 \"상부전극-기판 관계 불분명\" vs 램리서치 \"비...",
+      "representative_url": "https://zdnet.co.kr/view?no=20260916025346",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-15T17:58:00Z",
+      "last_published_at": "2026-09-15T17:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "반도체 식각분쟁... 월덱스 \"상부전극-기판 관계 불분명\" vs 램리서치 \"비...",
+          "url": "https://zdnet.co.kr/view?no=20260916025346",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-09-16T02:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -619,49 +663,6 @@
           "source": "econovill.com",
           "source_domain": "econovill.com",
           "published_at": "2026-08-20T09:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "da5bcb9d8faa0f89",
-      "company_name": "월덱스",
-      "stock_code": "101160",
-      "representative_title": "월덱스 -DGIST 'AI·반도체 동맹'… 미래 성장동력 확보",
-      "representative_url": "https://the-biz.co.kr/news/articleView.html?idxno=726496",
-      "representative_source": "the-biz.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-20T01:08:00Z",
-      "last_published_at": "2026-08-20T01:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "the-biz.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "월덱스 -DGIST 'AI·반도체 동맹'… 미래 성장동력 확보",
-          "url": "https://the-biz.co.kr/news/articleView.html?idxno=726496",
-          "source": "the-biz.co.kr",
-          "source_domain": "the-biz.co.kr",
-          "published_at": "2026-08-20T10:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
