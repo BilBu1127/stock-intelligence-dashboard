@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-16T01:24:20.928194Z",
+  "generated_at": "2026-09-16T15:25:16.132937Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-09-16T01:24:20.928194Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-16T15:25:16.132937Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a6d927cbedfd462e",
@@ -129,6 +134,109 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-08-06T15:41:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "70c539f37f8cd6fe",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "원익IPS 주가, 9월 16일 애프터마켓 118,100원 8.95% 상승",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16195966",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T07:14:00Z",
+      "last_published_at": "2026-09-16T08:00:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com",
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "원익IPS 주가, 9월 16일 애프터마켓 117,400원 8.30% 상승",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=548615",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-16T17:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "원익IPS 주가, 9월 16일 애프터마켓 118,100원 8.95% 상승",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16195966",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-09-16T16:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2c088bd2c1230fbf",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "원익IPS 11만9400원, 10.15% 급등…반도체 장비주에 매수세 집중",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=227848",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T05:56:00Z",
+      "last_published_at": "2026-09-16T05:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "원익IPS 11만9400원, 10.15% 급등…반도체 장비주에 매수세 집중",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=227848",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-16T14:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

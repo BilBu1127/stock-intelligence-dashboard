@@ -1,11 +1,436 @@
 {
-  "generated_at": "2026-09-16T01:24:20.928194Z",
+  "generated_at": "2026-09-16T15:25:16.132937Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-09-16T01:24:20.928194Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-16T15:25:16.132937Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "83757e0b002f4fd4",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "\" SK하이닉스 , 인텔과 미국서 메모리 생산 협상중\"(종합2보)",
+      "representative_url": "https://yna.co.kr/view/AKR20260916122752009?input=1195m",
+      "representative_source": "yna.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T06:16:00Z",
+      "last_published_at": "2026-09-16T15:02:00Z",
+      "article_count": 26,
+      "domestic_article_count": 26,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "autodaily.co.kr",
+        "biz.chosun.com",
+        "digitaltoday.co.kr",
+        "donga.com",
+        "ebn.co.kr",
+        "econonews.co.kr",
+        "fnnews.com",
+        "getnews.co.kr",
+        "hansbiz.co.kr",
+        "joongang.co.kr",
+        "khan.co.kr",
+        "kmib.co.kr",
+        "koreaittimes.com",
+        "news.tvchosun.com",
+        "newsian.co.kr",
+        "newsis.com",
+        "newspim.com",
+        "sedaily.com",
+        "segyebiz.com",
+        "sidae.com",
+        "tokenpost.kr",
+        "wikileaks-kr.org",
+        "wowtv.co.kr",
+        "yna.co.kr",
+        "yonhapnewstv.co.kr",
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 50,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 인텔 미국 공장서 메모리 생산 추진",
+          "url": "https://joongang.co.kr/article/25462498",
+          "source": "joongang.co.kr",
+          "source_domain": "joongang.co.kr",
+          "published_at": "2026-09-17T00:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "로이터 \" SK하이닉스 , 인텔과 美서 메모리 생산 협상 중\"",
+          "url": "https://getnews.co.kr/news/articleView.html?idxno=881017",
+          "source": "getnews.co.kr",
+          "source_domain": "getnews.co.kr",
+          "published_at": "2026-09-16T22:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 ‘미국 첫 메모리 생산’ 협상… “확정된 사안 없...",
+          "url": "https://segyebiz.com/newsView/20260916520217?OutUrl=naver",
+          "source": "segyebiz.com",
+          "source_domain": "segyebiz.com",
+          "published_at": "2026-09-16T21:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔 美공장서 메모리 생산?… “확정된 바 없어”",
+          "url": "https://kmib.co.kr/article/view.asp?arcid=9000012779&cp=nv",
+          "source": "kmib.co.kr",
+          "source_domain": "kmib.co.kr",
+          "published_at": "2026-09-16T21:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "로이터 \" SK하이닉스 , 인텔과 미국서 메모리 생산 협상 중\"",
+          "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/16/2026091690253.html",
+          "source": "news.tvchosun.com",
+          "source_domain": "news.tvchosun.com",
+          "published_at": "2026-09-16T20:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 美 메모리 생산 협상 중\"",
+          "url": "https://yonhapnewstv.co.kr/news/MYH202609162053022d8",
+          "source": "yonhapnewstv.co.kr",
+          "source_domain": "yonhapnewstv.co.kr",
+          "published_at": "2026-09-16T20:53:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 美 메모리 협력설에 \"확정된 바 없다\"",
+          "url": "https://zdnet.co.kr/view?no=20260916195802",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-09-16T20:03:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 \"美 메모리 생산·인텔 협력 확정된 바 없어\"",
+          "url": "https://econonews.co.kr/news/articleView.html?idxno=444452",
+          "source": "econonews.co.kr",
+          "source_domain": "econonews.co.kr",
+          "published_at": "2026-09-16T19:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "“ SK하이닉스 , 인텔과 손잡고 美현지 메모리 생산 검토”",
+          "url": "https://donga.com/news/Economy/article/all/20260916/134681884/1",
+          "source": "donga.com",
+          "source_domain": "donga.com",
+          "published_at": "2026-09-16T19:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 \"인텔과 미국 메모리 생산, 확정된 바 없다\"",
+          "url": "https://digitaltoday.co.kr/news/articleView.html?idxno=701159",
+          "source": "digitaltoday.co.kr",
+          "source_domain": "digitaltoday.co.kr",
+          "published_at": "2026-09-16T19:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 메모리 합작설에 \"확정된 바 없다\"",
+          "url": "https://newsian.co.kr/news/articleView.html?idxno=95505",
+          "source": "newsian.co.kr",
+          "source_domain": "newsian.co.kr",
+          "published_at": "2026-09-16T19:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 미국 메모리 생산설에 \"확정된 사안 없다\"",
+          "url": "https://koreaittimes.com/news/articleView.html?idxno=157255",
+          "source": "koreaittimes.com",
+          "source_domain": "koreaittimes.com",
+          "published_at": "2026-09-16T18:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 美 메모리 생산 협력설에 “확정된 바 없어”",
+          "url": "https://biz.chosun.com/it-science/ict/2026/09/16/RXQTQAE3LFH7VPCEWTOJVXFTDQ",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-09-16T18:57:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 미국서 메모리 생산 협상중\"(종합2보)",
+          "url": "https://yna.co.kr/view/AKR20260916122752009?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-09-16T18:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "“ SK하이닉스 , 인텔과 미국서 메모리 생산 협상 중”",
+          "url": "https://khan.co.kr/article/202609161806001",
+          "source": "khan.co.kr",
+          "source_domain": "khan.co.kr",
+          "published_at": "2026-09-16T18:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 손잡나⋯美 메모리 생산 협상설",
+          "url": "https://autodaily.co.kr/news/articleView.html?idxno=600505",
+          "source": "autodaily.co.kr",
+          "source_domain": "autodaily.co.kr",
+          "published_at": "2026-09-16T17:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 美 현지서 첫 메모리 생산 논의\"",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1724541",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-09-16T17:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 손잡고 美서 메모리 칩 첫 생산 협상 중\"",
+          "url": "https://wikileaks-kr.org/news/articleView.html?idxno=192124",
+          "source": "wikileaks-kr.org",
+          "source_domain": "wikileaks-kr.org",
+          "published_at": "2026-09-16T17:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 -인텔, 미국 현지 메모리 생산 협의 중",
+          "url": "https://sidae.com/article/2026091616192595895",
+          "source": "sidae.com",
+          "source_domain": "sidae.com",
+          "published_at": "2026-09-16T16:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔 손잡고 美 생산 검토",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=865897",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-09-16T16:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "로이터, SK하이닉스 ·인텔 美서 메모리 생산 검토",
+          "url": "https://sedaily.com/article/20091708",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-09-16T16:25:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 미국서 메모리 생산 검토\"",
+          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202609160508&t=NN",
+          "source": "wowtv.co.kr",
+          "source_domain": "wowtv.co.kr",
+          "published_at": "2026-09-16T16:17:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 미국서 메모리 생산 협상중\"",
+          "url": "https://fnnews.com/news/202609161604563705",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-09-16T16:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 인텔과 미국 첫 메모리 생산 협상",
+          "url": "https://tokenpost.kr/news/breaking/408855",
+          "source": "tokenpost.kr",
+          "source_domain": "tokenpost.kr",
+          "published_at": "2026-09-16T16:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔 손잡고 미국 내 첫 메모리 생산 논의 중\"",
+          "url": "https://newsis.com/view/NISX20260916_0003792192",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-09-16T15:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" SK하이닉스 , 인텔과 손잡고 '미국 내 첫 메모리 생산' 논의\"",
+          "url": "https://newspim.com/news/view/20260916000893",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-09-16T15:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b033cb9f817184a3",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 美서 메모리 만든다 … 인텔 오하이오공장 임차 논의",
+      "representative_url": "https://hankyung.com/article/2026091693271",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T08:40:00Z",
+      "last_published_at": "2026-09-16T08:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 50,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 美서 메모리 만든다 … 인텔 오하이오공장 임차 논의",
+          "url": "https://hankyung.com/article/2026091693271",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-09-16T17:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6fa74bf98cf366dd",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "최태원 발언 현실로?…\" SK하이닉스 , 美서 메모리 첫 생산 검토\"",
+      "representative_url": "https://hankyung.com/article/202609169254g",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T08:35:00Z",
+      "last_published_at": "2026-09-16T08:35:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "executive",
+        "production"
+      ],
+      "importance_score": 50,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "최태원 발언 현실로?…\" SK하이닉스 , 美서 메모리 첫 생산 검토\"",
+          "url": "https://hankyung.com/article/202609169254g",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-09-16T17:35:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "67ec93b22e481f71",
       "company_name": "SK하이닉스",
@@ -5151,15 +5576,247 @@
       ]
     },
     {
-      "cluster_id": "87559018d7bfe96b",
+      "cluster_id": "683c3e6fdd7e19ea",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 임단협 수정안 가결…PS 현금 지급 50%로 확대",
-      "representative_url": "https://busan.com/view/busan/view.php?code=2026091610000809888",
-      "representative_source": "busan.com",
+      "representative_title": "SK하이닉스 ·삼성전자 거래대금 7.9조…상위 50종목의 51.4%",
+      "representative_url": "https://kjdaily.com/article.php?aid=1789566002687083227",
+      "representative_source": "kjdaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:01:00Z",
-      "last_published_at": "2026-09-16T01:22:00Z",
+      "first_published_at": "2026-09-16T13:42:00Z",
+      "last_published_at": "2026-09-16T13:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 9조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자 거래대금 7.9조…상위 50종목의 51.4%",
+          "url": "https://kjdaily.com/article.php?aid=1789566002687083227",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-09-16T22:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "c00c95bae5be3eec",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 인텔과 손잡나…美 개장 전 주가 3% 상승",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05904006645580776",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T13:40:00Z",
+      "last_published_at": "2026-09-16T13:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 인텔과 손잡나…美 개장 전 주가 3% 상승",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05904006645580776",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-09-16T22:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "274a3f37f14e0a62",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[종합] 로이터 \" SK하이닉스 , 인텔과 美 메모리 생산 협의\"… SK하이닉스 ...",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=548678",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T13:12:00Z",
+      "last_published_at": "2026-09-16T13:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[종합] 로이터 \" SK하이닉스 , 인텔과 美 메모리 생산 협의\"… SK하이닉스 ...",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=548678",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-16T22:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e5df288c7c3f3b01",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "인텔· SK하이닉스 , 미국 생산 협의설에 동반 상승",
+      "representative_url": "https://digitaltoday.co.kr/news/articleView.html?idxno=701169",
+      "representative_source": "digitaltoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T12:52:00Z",
+      "last_published_at": "2026-09-16T12:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "digitaltoday.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "인텔· SK하이닉스 , 미국 생산 협의설에 동반 상승",
+          "url": "https://digitaltoday.co.kr/news/articleView.html?idxno=701169",
+          "source": "digitaltoday.co.kr",
+          "source_domain": "digitaltoday.co.kr",
+          "published_at": "2026-09-16T21:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "03e9dd834e8e00d2",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 2026년 임단협 57.08% 가결… 성과급 주식 50% 분할 '초유의 ...",
+      "representative_url": "https://ttlnews.com/news/articleView.html?idxno=3144113",
+      "representative_source": "ttlnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T12:50:00Z",
+      "last_published_at": "2026-09-16T12:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ttlnews.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "기타",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 2026년 임단협 57.08% 가결… 성과급 주식 50% 분할 '초유의 ...",
+          "url": "https://ttlnews.com/news/articleView.html?idxno=3144113",
+          "source": "ttlnews.com",
+          "source_domain": "ttlnews.com",
+          "published_at": "2026-09-16T21:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e6d918f07313f4c5",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "로이터 \" SK하이닉스 ·인텔, 미국 메모리 생산 논의…오하이오 공장 활용...",
+      "representative_url": "https://slist.kr/news/articleView.html?idxno=766612",
+      "representative_source": "slist.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T05:50:00Z",
+      "last_published_at": "2026-09-16T12:24:00Z",
       "article_count": 3,
       "domestic_article_count": 3,
       "international_article_count": 0,
@@ -5167,216 +5824,53 @@
         "naver"
       ],
       "source_domains": [
-        "busan.com",
-        "g-enews.com",
-        "kado.net"
-      ],
-      "categories": [
-        "기술·제품",
-        "기타",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "SK하이닉스 임단협 수정합의안 타결…PS 현금 비중 50%로(종합)",
-          "url": "https://g-enews.com/view.php?ud=20260916101711963727fa31d75c_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-09-16T10:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 수정안 가결…현금 지급 비중 50%로 확대",
-          "url": "https://kado.net/news/articleView.html?idxno=2072963",
-          "source": "kado.net",
-          "source_domain": "kado.net",
-          "published_at": "2026-09-16T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 수정안 가결…PS 현금 지급 50%로 확대",
-          "url": "https://busan.com/view/busan/view.php?code=2026091610000809888",
-          "source": "busan.com",
-          "source_domain": "busan.com",
-          "published_at": "2026-09-16T10:01:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "845ab774576ee120",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 임단협 수정안 가결…성과급 현금 50%",
-      "representative_url": "https://whitepaper.co.kr/news/articleView.html?idxno=266857",
-      "representative_source": "whitepaper.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T00:56:00Z",
-      "last_published_at": "2026-09-16T01:18:00Z",
-      "article_count": 12,
-      "domestic_article_count": 12,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ebn.co.kr",
-        "enewstoday.co.kr",
-        "fieldnews.kr",
-        "mediawatch.kr",
-        "news.bbsi.co.kr",
-        "seoultimes.news",
-        "shinailbo.co.kr",
-        "sisajournal.com",
+        "dailysportshankook.co.kr",
         "slist.kr",
-        "whitepaper.co.kr",
-        "wowtv.co.kr",
-        "ziksir.com"
+        "youthdaily.co.kr"
       ],
       "categories": [
+        "공급·규제",
         "기술·제품",
-        "기타",
         "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": true,
       "articles": [
         {
-          "title": "SK하이닉스 임단협 수정안 가결…현금 50%·주식 50%",
-          "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4106851",
-          "source": "news.bbsi.co.kr",
-          "source_domain": "news.bbsi.co.kr",
-          "published_at": "2026-09-16T10:18:00+09:00",
+          "title": "SK하이닉스 , 인텔과 손잡고 미국서 메모리 생산 검토…오하이오 공장 활...",
+          "url": "https://dailysportshankook.co.kr/news/articleView.html?idxno=433626",
+          "source": "dailysportshankook.co.kr",
+          "source_domain": "dailysportshankook.co.kr",
+          "published_at": "2026-09-16T21:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "SK하이닉스 , 임단협 수정안 최종 타결…성과급 주식 50%",
-          "url": "https://shinailbo.co.kr/news/articleView.html?idxno=5062774",
-          "source": "shinailbo.co.kr",
-          "source_domain": "shinailbo.co.kr",
-          "published_at": "2026-09-16T10:16:00+09:00",
+          "title": "SK하이닉스 , 인텔과 미국 메모리 생산 협상…오하이오 공장 활용 검토",
+          "url": "https://youthdaily.co.kr/news/article.html?no=227190",
+          "source": "youthdaily.co.kr",
+          "source_domain": "youthdaily.co.kr",
+          "published_at": "2026-09-16T16:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "SK하이닉스 임단협 수정안 가결…PS 현금 50%·주식 50%",
-          "url": "https://ziksir.com/news/articleView.html?idxno=146599",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-09-16T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 재합의안 가결…성과급 현금·주식 '반반'",
-          "url": "https://sisajournal.com/news/articleView.html?idxno=387357",
-          "source": "sisajournal.com",
-          "source_domain": "sisajournal.com",
-          "published_at": "2026-09-16T10:09:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[이슈] SK하이닉스 임단협 수정안 가결…PS 현금 몫 40%서 50%로",
-          "url": "https://seoultimes.news/news/article.html?no=2000099937",
-          "source": "seoultimes.news",
-          "source_domain": "seoultimes.news",
-          "published_at": "2026-09-16T10:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 임단협 수정 잠정합의안 가결… 성과급 현금 비중 50% 확정",
-          "url": "https://mediawatch.kr/news/article.html?no=261060",
-          "source": "mediawatch.kr",
-          "source_domain": "mediawatch.kr",
-          "published_at": "2026-09-16T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 수정안 가결…성과급 현금·주식 반반",
-          "url": "https://fieldnews.kr/news/articleView.html?idxno=31560",
-          "source": "fieldnews.kr",
-          "source_domain": "fieldnews.kr",
-          "published_at": "2026-09-16T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 수정안 가결···PS 현금·주식 '반반' 지급",
-          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2471022",
-          "source": "enewstoday.co.kr",
-          "source_domain": "enewstoday.co.kr",
-          "published_at": "2026-09-16T10:01:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 재투표 가결…성과급 현금 비중 50%",
-          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202609160284&t=NN",
-          "source": "wowtv.co.kr",
-          "source_domain": "wowtv.co.kr",
-          "published_at": "2026-09-16T09:59:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 임단협 최종 타결…성과급 현금 50% 확정",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1724436",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-09-16T09:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 임단협 수정안 가결…성과급 현금 50%",
-          "url": "https://whitepaper.co.kr/news/articleView.html?idxno=266857",
-          "source": "whitepaper.co.kr",
-          "source_domain": "whitepaper.co.kr",
-          "published_at": "2026-09-16T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 임단협 수정안 가결…성과급 현금 50%·주식 50%",
-          "url": "https://slist.kr/news/articleView.html?idxno=766538",
+          "title": "로이터 \" SK하이닉스 ·인텔, 미국 메모리 생산 논의…오하이오 공장 활용...",
+          "url": "https://slist.kr/news/articleView.html?idxno=766612",
           "source": "slist.kr",
           "source_domain": "slist.kr",
-          "published_at": "2026-09-16T09:56:00+09:00",
+          "published_at": "2026-09-16T14:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5384,15 +5878,15 @@
       ]
     },
     {
-      "cluster_id": "0ba713f6da48d3ac",
+      "cluster_id": "12a1a4a631fc5352",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 노사, 임단협 잠정합의안 타결…현금·주식 50%씩",
-      "representative_url": "https://newscape.co.kr/news/articleView.html?idxno=124588",
-      "representative_source": "newscape.co.kr",
+      "representative_title": "SK하이닉스 , 산학협력 우수발명 5건 선정…차세대 메모리 기술 성과 시...",
+      "representative_url": "https://mediafine.co.kr/news/articleView.html?idxno=90005",
+      "representative_source": "mediafine.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:18:00Z",
-      "last_published_at": "2026-09-16T01:18:00Z",
+      "first_published_at": "2026-09-16T12:24:00Z",
+      "last_published_at": "2026-09-16T12:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5400,7 +5894,97 @@
         "naver"
       ],
       "source_domains": [
-        "newscape.co.kr"
+        "mediafine.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 산학협력 우수발명 5건 선정…차세대 메모리 기술 성과 시...",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=90005",
+          "source": "mediafine.co.kr",
+          "source_domain": "mediafine.co.kr",
+          "published_at": "2026-09-16T21:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e8df1420ad7162e8",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 미국 내 메모리 생산 현실화?...\"한국 정부가 관건\"",
+      "representative_url": "https://ytn.co.kr/_ln/0104_202609162045045873",
+      "representative_source": "ytn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T11:45:00Z",
+      "last_published_at": "2026-09-16T11:45:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ytn.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 미국 내 메모리 생산 현실화?...\"한국 정부가 관건\"",
+          "url": "https://ytn.co.kr/_ln/0104_202609162045045873",
+          "source": "ytn.co.kr",
+          "source_domain": "ytn.co.kr",
+          "published_at": "2026-09-16T20:45:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "57763b46b6191b55",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 임단협 수정안 가결…성과급 현금·주식 50%씩",
+      "representative_url": "https://socialvalue.kr/news/view/1065594245633608",
+      "representative_source": "socialvalue.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-16T11:30:00Z",
+      "last_published_at": "2026-09-16T11:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "socialvalue.kr"
       ],
       "categories": [
         "기타"
@@ -5415,11 +5999,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 노사, 임단협 잠정합의안 타결…현금·주식 50%씩",
-          "url": "https://newscape.co.kr/news/articleView.html?idxno=124588",
-          "source": "newscape.co.kr",
-          "source_domain": "newscape.co.kr",
-          "published_at": "2026-09-16T10:18:00+09:00",
+          "title": "SK하이닉스 , 임단협 수정안 가결…성과급 현금·주식 50%씩",
+          "url": "https://socialvalue.kr/news/view/1065594245633608",
+          "source": "socialvalue.kr",
+          "source_domain": "socialvalue.kr",
+          "published_at": "2026-09-16T20:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5427,15 +6011,15 @@
       ]
     },
     {
-      "cluster_id": "58d3353518f11b24",
+      "cluster_id": "33403b21b1fb820b",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 임단협 타결…수정 합의안 찬성 57% 통과",
-      "representative_url": "https://pointe.co.kr/news/articleView.html?idxno=84816",
-      "representative_source": "pointe.co.kr",
+      "representative_title": "SK하이닉스 , 인텔과 美 반도체 생산 협력설에 선긋기 … \"확정된 사안 없...",
+      "representative_url": "https://worktoday.co.kr/news/articleView.html?idxno=89350",
+      "representative_source": "worktoday.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:16:00Z",
-      "last_published_at": "2026-09-16T01:16:00Z",
+      "first_published_at": "2026-09-16T11:24:00Z",
+      "last_published_at": "2026-09-16T11:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5443,295 +6027,30 @@
         "naver"
       ],
       "source_domains": [
-        "pointe.co.kr"
+        "worktoday.co.kr"
       ],
       "categories": [
-        "기타"
+        "기술·제품",
+        "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 임단협 타결…수정 합의안 찬성 57% 통과",
-          "url": "https://pointe.co.kr/news/articleView.html?idxno=84816",
-          "source": "pointe.co.kr",
-          "source_domain": "pointe.co.kr",
-          "published_at": "2026-09-16T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "bc466ee9ab0eec34",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 25표차 부결 딛고 재투표서 최종 타결…\"성과급, 현금·자사...",
-      "representative_url": "https://newsis.com/view/NISX20260916_0003791459",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:16:00Z",
-      "last_published_at": "2026-09-16T01:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 25표차 부결 딛고 재투표서 최종 타결…\"성과급, 현금·자사...",
-          "url": "https://newsis.com/view/NISX20260916_0003791459",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-09-16T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a8621e7cc3541f2a",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 노사 임단협 최종 타결…찬성률 57.08%",
-      "representative_url": "https://dizzotv.com/site/data/html_dir/2026/09/16/2026091680033.html",
-      "representative_source": "dizzotv.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:14:00Z",
-      "last_published_at": "2026-09-16T01:14:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dizzotv.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 노사 임단협 최종 타결…찬성률 57.08%",
-          "url": "https://dizzotv.com/site/data/html_dir/2026/09/16/2026091680033.html",
-          "source": "dizzotv.com",
-          "source_domain": "dizzotv.com",
-          "published_at": "2026-09-16T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "430ba5b28dc2ae63",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 2026년 임단협 타결…추석 전 절차 마무리(종합)",
-      "representative_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435133",
-      "representative_source": "news.einfomax.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:14:00Z",
-      "last_published_at": "2026-09-16T01:14:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news.einfomax.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 2026년 임단협 타결…추석 전 절차 마무리(종합)",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435133",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-09-16T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8b6dfc6ef72f6c3d",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 노사, 재투표 끝 2026년 임단협 타결",
-      "representative_url": "https://sisafocus.co.kr/news/articleView.html?idxno=365023",
-      "representative_source": "sisafocus.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:12:00Z",
-      "last_published_at": "2026-09-16T01:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sisafocus.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 노사, 재투표 끝 2026년 임단협 타결",
-          "url": "https://sisafocus.co.kr/news/articleView.html?idxno=365023",
-          "source": "sisafocus.co.kr",
-          "source_domain": "sisafocus.co.kr",
-          "published_at": "2026-09-16T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5ab923d51b92e7d7",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 노사, 임단협 수정합의안 가결..성과급 주식 선택권 확대",
-      "representative_url": "https://dailycar.co.kr/content/news.html?autoId=62573&type=view",
-      "representative_source": "dailycar.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:12:00Z",
-      "last_published_at": "2026-09-16T01:12:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dailycar.co.kr",
-        "newslock.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "SK하이닉스 노사, 임단협 수정합의안 가결..성과급 주식 선택권 확대",
-          "url": "https://dailycar.co.kr/content/news.html?autoId=62573&type=view",
-          "source": "dailycar.co.kr",
-          "source_domain": "dailycar.co.kr",
-          "published_at": "2026-09-16T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 임단협 수정합의안 가결... 성과급 주식 선택권 확대",
-          "url": "https://newslock.co.kr/news/articleView.html?idxno=136336",
-          "source": "newslock.co.kr",
-          "source_domain": "newslock.co.kr",
-          "published_at": "2026-09-16T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4e2ef6668d6dfb71",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 임단협 타결..성과급 기본비율 '현금·자사주 반반'",
-      "representative_url": "https://4th.kr/news/articleView.html?idxno=2118135",
-      "representative_source": "4th.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-16T01:10:00Z",
-      "last_published_at": "2026-09-16T01:10:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "4th.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 임단협 타결..성과급 기본비율 '현금·자사주 반반'",
-          "url": "https://4th.kr/news/articleView.html?idxno=2118135",
-          "source": "4th.kr",
-          "source_domain": "4th.kr",
-          "published_at": "2026-09-16T10:10:00+09:00",
+          "title": "SK하이닉스 , 인텔과 美 반도체 생산 협력설에 선긋기 … \"확정된 사안 없...",
+          "url": "https://worktoday.co.kr/news/articleView.html?idxno=89350",
+          "source": "worktoday.co.kr",
+          "source_domain": "worktoday.co.kr",
+          "published_at": "2026-09-16T20:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
