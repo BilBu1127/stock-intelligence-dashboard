@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T15:32:15.821388Z",
+  "generated_at": "2026-09-18T01:16:55.621198Z",
   "company_name": "HPSP",
   "stock_code": "403870",
   "status": "partial",
-  "last_successful_update": "2026-09-17T15:32:15.821388Z",
+  "last_successful_update": "2026-09-18T01:16:55.621198Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -100,6 +100,49 @@
           "source": "zdnet.co.kr",
           "source_domain": "zdnet.co.kr",
           "published_at": "2026-08-13T16:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7a5a20ad956cdc5a",
+      "company_name": "HPSP",
+      "stock_code": "403870",
+      "representative_title": "[Who Is ?] 이기두 HPSP 대표이사",
+      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=446656",
+      "representative_source": "businesspost.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-17T22:00:00Z",
+      "last_published_at": "2026-09-17T22:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "businesspost.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[Who Is ?] 이기두 HPSP 대표이사",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=446656",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-09-18T07:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -505,50 +548,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-08-29T11:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1f3dcc96b98cd0a9",
-      "company_name": "HPSP",
-      "stock_code": "403870",
-      "representative_title": "HPSP , 주가 7%대…최근 변동성 확대 속 4만7000원선 회복",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=600957",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-25T03:56:00Z",
-      "last_published_at": "2026-08-25T03:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HPSP , 주가 7%대…최근 변동성 확대 속 4만7000원선 회복",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=600957",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-08-25T12:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
