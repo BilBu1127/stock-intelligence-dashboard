@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T14:58:49.903437Z",
+  "generated_at": "2026-09-19T01:09:27.658337Z",
   "company_name": "로보티즈",
   "stock_code": "108490",
   "status": "partial",
-  "last_successful_update": "2026-09-18T14:58:49.903437Z",
+  "last_successful_update": "2026-09-19T01:09:27.658337Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -330,6 +330,50 @@
           "source": "edaily.co.kr",
           "source_domain": "edaily.co.kr",
           "published_at": "2026-07-27T08:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "be6130941c0e88ea",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "최근 5거래일 로보티즈 주가 30만원선 움직임",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=549381",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-19T00:40:00Z",
+      "last_published_at": "2026-09-19T00:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "최근 5거래일 로보티즈 주가 30만원선 움직임",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=549381",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-19T09:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -737,53 +781,6 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-10T09:23:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a48bb509eea585c7",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "한국투자증권 \" 로보티즈 , 업종 내 유일하게 초과 수요\"",
-      "representative_url": "https://financialpost.co.kr/news/articleView.html?idxno=274862",
-      "representative_source": "financialpost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-09T23:46:00Z",
-      "last_published_at": "2026-09-09T23:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "financialpost.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한국투자증권 \" 로보티즈 , 업종 내 유일하게 초과 수요\"",
-          "url": "https://financialpost.co.kr/news/articleView.html?idxno=274862",
-          "source": "financialpost.co.kr",
-          "source_domain": "financialpost.co.kr",
-          "published_at": "2026-09-10T08:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
