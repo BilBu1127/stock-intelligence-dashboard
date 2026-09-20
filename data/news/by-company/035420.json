@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-19T14:24:18.809264Z",
+  "generated_at": "2026-09-20T01:07:16.410642Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-09-19T14:24:18.809264Z",
+  "last_successful_update": "2026-09-20T01:07:16.410642Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -283,6 +283,52 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "694fe4e28126ae9d",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "[단독]영상 보다 지갑 열었다…네이버 클립, 쇼핑 전환 매출 5.8배",
+      "representative_url": "https://mt.co.kr/tech/2026/09/20/2026091717141898264",
+      "representative_source": "mt.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-19T21:00:00Z",
+      "last_published_at": "2026-09-19T21:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mt.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[단독]영상 보다 지갑 열었다…네이버 클립, 쇼핑 전환 매출 5.8배",
+          "url": "https://mt.co.kr/tech/2026/09/20/2026091717141898264",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-09-20T06:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -680,50 +726,6 @@
           "source": "breaknews.com",
           "source_domain": "breaknews.com",
           "published_at": "2026-09-18T10:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1748fa52f0d7595d",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "네이버클라우드 \"국방 AI 가속화 협력…군 통제권 갖고 민간기술로 전력...",
-      "representative_url": "https://view.asiae.co.kr/article/2026091810062170009",
-      "representative_source": "view.asiae.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-18T01:06:00Z",
-      "last_published_at": "2026-09-18T01:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버클라우드 \"국방 AI 가속화 협력…군 통제권 갖고 민간기술로 전력...",
-          "url": "https://view.asiae.co.kr/article/2026091810062170009",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-09-18T10:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
