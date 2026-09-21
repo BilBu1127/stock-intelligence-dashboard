@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T01:04:01.163211Z",
+  "generated_at": "2026-09-21T17:02:35.454941Z",
   "company_name": "솔브레인",
   "stock_code": "357780",
   "status": "partial",
-  "last_successful_update": "2026-09-21T01:04:01.163211Z",
+  "last_successful_update": "2026-09-21T17:02:35.454941Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -52,6 +52,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-07T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9688547197461a6d",
+      "company_name": "솔브레인",
+      "stock_code": "357780",
+      "representative_title": "솔브레인 홀딩스 주가, 9월 21일 애프터마켓 40,200원 1.23% 하락",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=549851",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-21T09:04:00Z",
+      "last_published_at": "2026-09-21T09:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "솔브레인 홀딩스 주가, 9월 21일 애프터마켓 40,200원 1.23% 하락",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=549851",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-09-21T18:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -458,50 +502,6 @@
           "source": "biz.chosun.com",
           "source_domain": "biz.chosun.com",
           "published_at": "2026-08-25T08:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "43cfec1d3194e211",
-      "company_name": "솔브레인",
-      "stock_code": "357780",
-      "representative_title": "솔브레인 홀딩스 주가, 급등세... 무슨 회사길래?",
-      "representative_url": "https://ggilbo.com/news/articleView.html?idxno=1177071",
-      "representative_source": "ggilbo.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-24T06:06:00Z",
-      "last_published_at": "2026-08-24T06:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ggilbo.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "솔브레인 홀딩스 주가, 급등세... 무슨 회사길래?",
-          "url": "https://ggilbo.com/news/articleView.html?idxno=1177071",
-          "source": "ggilbo.com",
-          "source_domain": "ggilbo.com",
-          "published_at": "2026-08-24T15:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
