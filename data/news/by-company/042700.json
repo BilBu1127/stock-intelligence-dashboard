@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-22T01:36:12.805255Z",
+  "generated_at": "2026-09-22T15:31:08.666673Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-09-22T01:36:12.805255Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-22T15:31:08.666673Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "ef98fe87d2aeb027",
@@ -15,43 +20,169 @@
       "representative_source": "yna.co.kr",
       "representative_language": "Korean",
       "first_published_at": "2026-09-22T00:22:00Z",
-      "last_published_at": "2026-09-22T01:10:00Z",
-      "article_count": 10,
-      "domestic_article_count": 10,
+      "last_published_at": "2026-09-22T10:10:00Z",
+      "article_count": 22,
+      "domestic_article_count": 22,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "biz.chosun.com",
+        "biz.heraldcorp.com",
+        "bloter.net",
         "dailian.co.kr",
+        "daily.hankooki.com",
+        "ddaily.co.kr",
         "ebn.co.kr",
+        "etnews.com",
         "etoday.co.kr",
+        "fnnews.com",
+        "g-enews.com",
+        "hansbiz.co.kr",
         "inews24.com",
         "news.tf.co.kr",
         "news1.kr",
         "newsis.com",
+        "pinpointnews.co.kr",
+        "srtimes.kr",
         "viva100.com",
-        "yna.co.kr"
+        "widedaily.com",
+        "yna.co.kr",
+        "zdnet.co.kr"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
-        "기타"
+        "기타",
+        "실적"
       ],
       "event_keywords": [
+        "hbm",
         "supply"
       ],
-      "importance_score": 50,
-      "importance_level": "watch",
+      "importance_score": 65,
+      "importance_level": "important",
       "scoring_reasons": [
         "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "서로 다른 신뢰 매체 3곳 이상 +10",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
+        {
+          "title": "한미반도체 , AI 반도체 2.5D 패키징 장비 'FC 본더 75' 출하",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1409127",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-09-22T19:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 반도체용 'FC 본더 75' 글로벌 고객사 첫 출하",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=213152",
+          "source": "srtimes.kr",
+          "source_domain": "srtimes.kr",
+          "published_at": "2026-09-22T17:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , 2.5D 지원 첨단 패키징 장비 'FC 본더 75' 첫 출하",
+          "url": "https://zdnet.co.kr/view?no=20260922153758",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-09-22T16:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 반도체 패키징용 장비 'FC 본더 75' 첫 출하",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=489606",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-09-22T15:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 시스템반도체용 ‘FC 본더 75’ 첫 출하…2.5D 패키징 공...",
+          "url": "https://biz.heraldcorp.com/article/10882235",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-09-22T14:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 2.5D 패키징용 'FC 본더 75' 첫 출하",
+          "url": "https://ddaily.co.kr/page/view/2026092210265587497",
+          "source": "ddaily.co.kr",
+          "source_domain": "ddaily.co.kr",
+          "published_at": "2026-09-22T13:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 반도체 핵심 'FC 본더 75' 글로벌 첫 공급",
+          "url": "https://widedaily.com/news/articleView.html?idxno=301386",
+          "source": "widedaily.com",
+          "source_domain": "widedaily.com",
+          "published_at": "2026-09-22T13:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , HBM 넘어 AI 패키징 시장 공략…'FC 본더 75' 첫 공급",
+          "url": "https://fnnews.com/news/202609221031155525",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-09-22T11:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 반도체 2.5D 패키징 장비 'FC 본더 75' 첫 출하",
+          "url": "https://etnews.com/20260922000221",
+          "source": "etnews.com",
+          "source_domain": "etnews.com",
+          "published_at": "2026-09-22T10:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , AI 패키징 공략…FC 본더 75 첫 출하",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=867479",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-09-22T10:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , HBM 다음은 'AI 패키징'…FC 본더 75 첫 출하",
+          "url": "https://bloter.net/news/articleView.html?idxno=674195",
+          "source": "bloter.net",
+          "source_domain": "bloter.net",
+          "published_at": "2026-09-22T10:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "한미반도체 , AI 반도체용 2.5D 패키징 'FC 본더 75' 첫 출하",
           "url": "https://inews24.com/view/2008160",
@@ -128,6 +259,16 @@
           "source": "ebn.co.kr",
           "source_domain": "ebn.co.kr",
           "published_at": "2026-09-22T09:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , HBM 넘어 AI 패키징으로…‘FC 본더 75’ 첫 출하",
+          "url": "https://g-enews.com/view.php?ud=202609220913392793084322ec9_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-09-22T09:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1633,6 +1774,335 @@
       ]
     },
     {
+      "cluster_id": "88c9c7a54294bdd2",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 , HBM 넘어 AI패키징 시장 공략",
+      "representative_url": "https://fnnews.com/news/202609221819226346",
+      "representative_source": "fnnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T09:20:00Z",
+      "last_published_at": "2026-09-22T09:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fnnews.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 , HBM 넘어 AI패키징 시장 공략",
+          "url": "https://fnnews.com/news/202609221819226346",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-09-22T18:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3a135f5a0142d90a",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "AI 칩 하나로 연결하는 장비, 한미반도체 글로벌 첫 출하",
+      "representative_url": "https://mk.co.kr/article/12159495",
+      "representative_source": "mk.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T07:36:00Z",
+      "last_published_at": "2026-09-22T07:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mk.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "AI 칩 하나로 연결하는 장비, 한미반도체 글로벌 첫 출하",
+          "url": "https://mk.co.kr/article/12159495",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-09-22T16:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "52855458ff46eafe",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 , GPU·메모리 연결하는 AI 반도체 패키징 장비 첫 출하",
+      "representative_url": "https://chosun.com/economy/tech_it/2026/09/22/N5KFRAXJBFGSNM7QRA5VGCOYBI",
+      "representative_source": "chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T06:28:00Z",
+      "last_published_at": "2026-09-22T06:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "chosun.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 , GPU·메모리 연결하는 AI 반도체 패키징 장비 첫 출하",
+          "url": "https://chosun.com/economy/tech_it/2026/09/22/N5KFRAXJBFGSNM7QRA5VGCOYBI",
+          "source": "chosun.com",
+          "source_domain": "chosun.com",
+          "published_at": "2026-09-22T15:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "65f4aad5b12463d9",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 , AI 반도체용 첨단 패키징 장비 글로벌 고객사에 출하",
+      "representative_url": "https://hankookilbo.com/news/article/A2026092211290000415?did=NA",
+      "representative_source": "hankookilbo.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T06:06:00Z",
+      "last_published_at": "2026-09-22T06:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankookilbo.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 , AI 반도체용 첨단 패키징 장비 글로벌 고객사에 출하",
+          "url": "https://hankookilbo.com/news/article/A2026092211290000415?did=NA",
+          "source": "hankookilbo.com",
+          "source_domain": "hankookilbo.com",
+          "published_at": "2026-09-22T15:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4999d4929e50bf23",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "HBM 장비주 한미반도체 , 23만7500원 강보합",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=228819",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T05:40:00Z",
+      "last_published_at": "2026-09-22T05:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HBM 장비주 한미반도체 , 23만7500원 강보합",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=228819",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-22T14:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0d349a5d6150a19c",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 , 'AI반도체 패키징' 장비 해외 출하",
+      "representative_url": "https://biz.sbs.co.kr/article_hub/20000336239?division=NAVER",
+      "representative_source": "biz.sbs.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T05:02:00Z",
+      "last_published_at": "2026-09-22T05:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.sbs.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 , 'AI반도체 패키징' 장비 해외 출하",
+          "url": "https://biz.sbs.co.kr/article_hub/20000336239?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "source_domain": "biz.sbs.co.kr",
+          "published_at": "2026-09-22T14:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7a328065367e0c34",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 , 'FC 본더 75' 첫 출하…AI 패키징 공략 확대",
+      "representative_url": "https://ajunews.com/view/20260922093117153",
+      "representative_source": "ajunews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T00:38:00Z",
+      "last_published_at": "2026-09-22T02:12:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ajunews.com",
+        "newslock.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "한미반도체 , 'FC 본더 75' 출하... AI 반도체 패키징 라인업 확대",
+          "url": "https://newslock.co.kr/news/articleView.html?idxno=136767",
+          "source": "newslock.co.kr",
+          "source_domain": "newslock.co.kr",
+          "published_at": "2026-09-22T11:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 , 'FC 본더 75' 첫 출하…AI 패키징 공략 확대",
+          "url": "https://ajunews.com/view/20260922093117153",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-09-22T09:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "178137bd9484bd11",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -1641,14 +2111,16 @@
       "representative_source": "mt.co.kr",
       "representative_language": "Korean",
       "first_published_at": "2026-09-22T01:30:00Z",
-      "last_published_at": "2026-09-22T01:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "last_published_at": "2026-09-22T01:58:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
+        "biz.newdaily.co.kr",
+        "greened.kr",
         "mt.co.kr"
       ],
       "categories": [
@@ -1663,14 +2135,82 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
+        {
+          "title": "한미반도체 , 'FC 본더 75' 첫 출하…시스템반도체 시장 공략",
+          "url": "https://greened.kr/news/articleView.html?idxno=350632",
+          "source": "greened.kr",
+          "source_domain": "greened.kr",
+          "published_at": "2026-09-22T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한미반도체 'FC 본더 75' 출하 … AI 시스템반도체 시장 공략",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200110.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-09-22T10:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "한미반도체 'FC 본더 75' 첫 출하…시스템반도체 패키징 시장 공략",
           "url": "https://mt.co.kr/industry/2026/09/22/2026092209350671805",
           "source": "mt.co.kr",
           "source_domain": "mt.co.kr",
           "published_at": "2026-09-22T10:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4a37ddd1f63c79e7",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "HBM 넘어 AI 반도체 패키징으로… 한미반도체 , ‘FC 본더 75’ 첫 출하",
+      "representative_url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202609221029128930097",
+      "representative_source": "dnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T01:42:00Z",
+      "last_published_at": "2026-09-22T01:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "dnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HBM 넘어 AI 반도체 패키징으로… 한미반도체 , ‘FC 본더 75’ 첫 출하",
+          "url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202609221029128930097",
+          "source": "dnews.co.kr",
+          "source_domain": "dnews.co.kr",
+          "published_at": "2026-09-22T10:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1728,399 +2268,6 @@
           "source": "g-enews.com",
           "source_domain": "g-enews.com",
           "published_at": "2026-09-22T09:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5bcbd2a5ff2f42af",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "메모리 넘어 시스템으로… 한미반도체 , ‘FC 본더 75’ 첫 출하",
-      "representative_url": "https://asiatime.co.kr/article/20260922500077",
-      "representative_source": "asiatime.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T01:00:00Z",
-      "last_published_at": "2026-09-22T01:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "asiatime.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "메모리 넘어 시스템으로… 한미반도체 , ‘FC 본더 75’ 첫 출하",
-          "url": "https://asiatime.co.kr/article/20260922500077",
-          "source": "asiatime.co.kr",
-          "source_domain": "asiatime.co.kr",
-          "published_at": "2026-09-22T10:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "202dc46870705a6e",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "[AI 대전환 리딩 전략] 한미반도체 , HBM·2.5D 패키징 승부수",
-      "representative_url": "https://bloter.net/news/articleView.html?idxno=674181",
-      "representative_source": "bloter.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:56:00Z",
-      "last_published_at": "2026-09-22T00:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bloter.net"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[AI 대전환 리딩 전략] 한미반도체 , HBM·2.5D 패키징 승부수",
-          "url": "https://bloter.net/news/articleView.html?idxno=674181",
-          "source": "bloter.net",
-          "source_domain": "bloter.net",
-          "published_at": "2026-09-22T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3d62a5cf58da9096",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 HBM 장비 이어 2.5D 패키징 공략, 'FC 본더 75' 첫 출하",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=447774",
-      "representative_source": "businesspost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:52:00Z",
-      "last_published_at": "2026-09-22T00:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 HBM 장비 이어 2.5D 패키징 공략, 'FC 본더 75' 첫 출하",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=447774",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-09-22T09:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d791c4f664dff445",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , AI 2.5D 패키징 장비 첫 출하…HBM 넘어 시스템반도체 공략",
-      "representative_url": "https://dt.co.kr/article/12085328",
-      "representative_source": "dt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:43:00Z",
-      "last_published_at": "2026-09-22T00:43:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dt.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , AI 2.5D 패키징 장비 첫 출하…HBM 넘어 시스템반도체 공략",
-          "url": "https://dt.co.kr/article/12085328",
-          "source": "dt.co.kr",
-          "source_domain": "dt.co.kr",
-          "published_at": "2026-09-22T09:43:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7a328065367e0c34",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 'FC 본더 75' 첫 출하…AI 패키징 공략 확대",
-      "representative_url": "https://ajunews.com/view/20260922093117153",
-      "representative_source": "ajunews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:38:00Z",
-      "last_published_at": "2026-09-22T00:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ajunews.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 'FC 본더 75' 첫 출하…AI 패키징 공략 확대",
-          "url": "https://ajunews.com/view/20260922093117153",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-09-22T09:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "01d9bbdf2d071ec4",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 'FC 본더 75' 첫 출하…HBM 넘어 AI 시스템반도체로",
-      "representative_url": "https://the-stock.kr/news/articleView.html?idxno=33425",
-      "representative_source": "the-stock.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:32:00Z",
-      "last_published_at": "2026-09-22T00:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "the-stock.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 'FC 본더 75' 첫 출하…HBM 넘어 AI 시스템반도체로",
-          "url": "https://the-stock.kr/news/articleView.html?idxno=33425",
-          "source": "the-stock.kr",
-          "source_domain": "the-stock.kr",
-          "published_at": "2026-09-22T09:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "67e8834ecb9573fb",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "\" 한미반도체 300%\" 수익률만 강조…방미심위, 투자방송 '주의'",
-      "representative_url": "https://news1.kr/it-science/cc-newmedia/6297971",
-      "representative_source": "news1.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T09:20:00Z",
-      "last_published_at": "2026-09-21T09:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\" 한미반도체 300%\" 수익률만 강조…방미심위, 투자방송 '주의'",
-          "url": "https://news1.kr/it-science/cc-newmedia/6297971",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-09-21T18:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9b231db28f366f95",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 故 김정기 작품 AI로 재해석… ‘2040년 미래’ 영상 공개",
-      "representative_url": "https://biz.chosun.com/it-science/ict/2026/09/21/7TGRDKIBINGN3DATM5PQWQNIG4",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T01:57:00Z",
-      "last_published_at": "2026-09-21T07:26:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com",
-        "munhwa.com",
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "기타",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "2040"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "한미반도체 , 故 김정기 작품 AI로 재해석…'2040 미래 비전' 공개",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=489102",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-09-21T16:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 고 김정기 작가 작품 AI로 재해석…2040 미래 비전 공개",
-          "url": "https://munhwa.com/article/11618546",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-09-21T11:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 故 김정기 작품 AI로 재해석… ‘2040년 미래’ 영상 공개",
-          "url": "https://biz.chosun.com/it-science/ict/2026/09/21/7TGRDKIBINGN3DATM5PQWQNIG4",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-09-21T10:57:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

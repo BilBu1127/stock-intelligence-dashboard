@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-22T01:36:12.805255Z",
+  "generated_at": "2026-09-22T15:31:08.666673Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-09-22T01:36:12.805255Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-22T15:31:08.666673Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8011b4f97b2805cf",
@@ -6217,15 +6222,15 @@
       ]
     },
     {
-      "cluster_id": "58c9de8241550237",
+      "cluster_id": "bea828e8c857314d",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "안성 조합장들 \" SK하이닉스 오폐수 직방류 상생협약 파기하라\"",
-      "representative_url": "https://incheonilbo.com/news/articleView.html?idxno=1332667",
-      "representative_source": "incheonilbo.com",
+      "representative_title": "SK하이닉스 ·삼성전자 거래대금 11.2조…삼성전기 1.4조 3위",
+      "representative_url": "https://kjdaily.com/article.php?aid=1790086517687571276",
+      "representative_source": "kjdaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-22T01:30:00Z",
-      "last_published_at": "2026-09-22T01:30:00Z",
+      "first_published_at": "2026-09-22T14:16:00Z",
+      "last_published_at": "2026-09-22T14:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6233,7 +6238,140 @@
         "naver"
       ],
       "source_domains": [
-        "incheonilbo.com"
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 2조",
+        " 4조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자 거래대금 11.2조…삼성전기 1.4조 3위",
+          "url": "https://kjdaily.com/article.php?aid=1790086517687571276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-09-22T23:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3e2096a9c9b48dbc",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[오늘 증권]삼성전자· SK하이닉스 엇갈리자…레버리지 ETF도 희비",
+      "representative_url": "https://kjdaily.com/article.php?aid=1790083701687573276",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T13:30:00Z",
+      "last_published_at": "2026-09-22T13:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[오늘 증권]삼성전자· SK하이닉스 엇갈리자…레버리지 ETF도 희비",
+          "url": "https://kjdaily.com/article.php?aid=1790083701687573276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-09-22T22:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "311b63d69bc33c4d",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "'사고 빈발' 청주 SK하이닉스 , 산안법 119건 적발‥전국 35% 집중",
+      "representative_url": "https://news.mbccb.co.kr/home/sub.php?RECEIVE_DATE=20260922&SEQUENCE=4208&menukey=61&mod=view",
+      "representative_source": "news.mbccb.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T13:06:00Z",
+      "last_published_at": "2026-09-22T13:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.mbccb.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'사고 빈발' 청주 SK하이닉스 , 산안법 119건 적발‥전국 35% 집중",
+          "url": "https://news.mbccb.co.kr/home/sub.php?RECEIVE_DATE=20260922&SEQUENCE=4208&menukey=61&mod=view",
+          "source": "news.mbccb.co.kr",
+          "source_domain": "news.mbccb.co.kr",
+          "published_at": "2026-09-22T22:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fdd37b2b11fb5bd0",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "\"인생에서 가장 비싼 술\"… SK하이닉스 신입 4명, 연수 중 음주로 해고",
+      "representative_url": "https://weekly.chosun.com/news/articleView.html?idxno=55449",
+      "representative_source": "weekly.chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T12:46:00Z",
+      "last_published_at": "2026-09-22T12:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "weekly.chosun.com"
       ],
       "categories": [
         "기타"
@@ -6248,11 +6386,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "안성 조합장들 \" SK하이닉스 오폐수 직방류 상생협약 파기하라\"",
-          "url": "https://incheonilbo.com/news/articleView.html?idxno=1332667",
-          "source": "incheonilbo.com",
-          "source_domain": "incheonilbo.com",
-          "published_at": "2026-09-22T10:30:00+09:00",
+          "title": "\"인생에서 가장 비싼 술\"… SK하이닉스 신입 4명, 연수 중 음주로 해고",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=55449",
+          "source": "weekly.chosun.com",
+          "source_domain": "weekly.chosun.com",
+          "published_at": "2026-09-22T21:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6260,15 +6398,174 @@
       ]
     },
     {
-      "cluster_id": "dcd7ac45368c57c4",
+      "cluster_id": "104d13286a47efa8",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\"",
-      "representative_url": "https://yonhapnewstv.co.kr/news/AKR202609221002414U0",
+      "representative_title": "청주충북환경련 \"시민 생명·안전 위협 SK하이닉스 규탄\"",
+      "representative_url": "https://cctimes.kr/news/articleView.html?idxno=929183",
+      "representative_source": "cctimes.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T11:04:00Z",
+      "last_published_at": "2026-09-22T11:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cctimes.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "청주충북환경련 \"시민 생명·안전 위협 SK하이닉스 규탄\"",
+          "url": "https://cctimes.kr/news/articleView.html?idxno=929183",
+          "source": "cctimes.kr",
+          "source_domain": "cctimes.kr",
+          "published_at": "2026-09-22T20:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3594c90c770f8f19",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "\"수억대 연봉 날아갔다\"… SK하이닉스 신입 4명 결국 짐 쌌다",
+      "representative_url": "https://hankyung.com/article/2026092219317",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T10:13:00Z",
+      "last_published_at": "2026-09-22T10:13:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"수억대 연봉 날아갔다\"… SK하이닉스 신입 4명 결국 짐 쌌다",
+          "url": "https://hankyung.com/article/2026092219317",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-09-22T19:13:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e9a1a8c97cdba265",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , HBM 넘어 차세대 AI 메모리로…글로벌 생산·R&D 기반 확대",
+      "representative_url": "https://koreaittimes.com/news/articleView.html?idxno=157431",
+      "representative_source": "koreaittimes.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T02:54:00Z",
+      "last_published_at": "2026-09-22T10:00:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr",
+        "koreaittimes.com",
+        "livebiz.today"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "ai_memory",
+        "hbm",
+        "production"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 美 인디애나 HBM 공장 '인허가' 문제로 발목 잡히나...법정...",
+          "url": "https://livebiz.today/news/articleView.html?idxno=205073",
+          "source": "livebiz.today",
+          "source_domain": "livebiz.today",
+          "published_at": "2026-09-22T19:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[단독] SK하이닉스 , 美 인디애나 HBM 공장 ‘인허가 리스크’ 비상 [AI 투...",
+          "url": "https://etoday.co.kr/news/view/2628432",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-09-22T18:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , HBM 넘어 차세대 AI 메모리로…글로벌 생산·R&D 기반 확대",
+          "url": "https://koreaittimes.com/news/articleView.html?idxno=157431",
+          "source": "koreaittimes.com",
+          "source_domain": "koreaittimes.com",
+          "published_at": "2026-09-22T11:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "67c626cfb05f2f3e",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[DM왔어요] \"술 때문에 SK하이닉스 를\"…신입사원 해고, 무슨 일? 外",
+      "representative_url": "https://yonhapnewstv.co.kr/news/MYH20260922184819yPV",
       "representative_source": "yonhapnewstv.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-22T01:03:00Z",
-      "last_published_at": "2026-09-22T01:03:00Z",
+      "first_published_at": "2026-09-22T09:49:00Z",
+      "last_published_at": "2026-09-22T09:49:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6291,11 +6588,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 신입사원 4명 해고…\"인생에서 가장 비싼 술\"",
-          "url": "https://yonhapnewstv.co.kr/news/AKR202609221002414U0",
+          "title": "[DM왔어요] \"술 때문에 SK하이닉스 를\"…신입사원 해고, 무슨 일? 外",
+          "url": "https://yonhapnewstv.co.kr/news/MYH20260922184819yPV",
           "source": "yonhapnewstv.co.kr",
           "source_domain": "yonhapnewstv.co.kr",
-          "published_at": "2026-09-22T10:03:00+09:00",
+          "published_at": "2026-09-22T18:49:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6303,15 +6600,15 @@
       ]
     },
     {
-      "cluster_id": "984e4e0dde168ad8",
+      "cluster_id": "3933e7574a47acaf",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 장 초반 193만원대…삼성전자도 2%대 강세[핫스탁]",
-      "representative_url": "https://newsis.com/view/NISX20260922_0003799745",
-      "representative_source": "newsis.com",
+      "representative_title": "삼성· SK하이닉스 3분기 영업익 190조 전망…다음 승부는 HBM4",
+      "representative_url": "https://ppss.kr/news/articleView.html?idxno=312197",
+      "representative_source": "ppss.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:56:00Z",
-      "last_published_at": "2026-09-22T00:56:00Z",
+      "first_published_at": "2026-09-22T09:47:00Z",
+      "last_published_at": "2026-09-22T09:47:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6319,302 +6616,33 @@
         "naver"
       ],
       "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 장 초반 193만원대…삼성전자도 2%대 강세[핫스탁]",
-          "url": "https://newsis.com/view/NISX20260922_0003799745",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-09-22T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a8fe05408dc21999",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "美 AI 훈풍에 삼성전자 2.6% SK하이닉스 3.21% 강세[특징주]",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026092209201424770",
-      "representative_source": "newsway.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:36:00Z",
-      "last_published_at": "2026-09-22T00:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "美 AI 훈풍에 삼성전자 2.6% SK하이닉스 3.21% 강세[특징주]",
-          "url": "https://newsway.co.kr/news/view?ud=2026092209201424770",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-09-22T09:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4221c4ab473a9738",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "AI 투자 훈풍에 반도체株 강세… SK하이닉스 ·삼성전자부터 장비주까지 ...",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=489432",
-      "representative_source": "pinpointnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:30:00Z",
-      "last_published_at": "2026-09-22T00:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "AI 투자 훈풍에 반도체株 강세… SK하이닉스 ·삼성전자부터 장비주까지 ...",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=489432",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-09-22T09:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "95a18d53459774b3",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[운용 & Now] KODEX 미국반도체, SK하이닉스 ADR 신규 편입 등",
-      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1725187",
-      "representative_source": "ebn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T23:20:00Z",
-      "last_published_at": "2026-09-21T23:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ebn.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[운용 & Now] KODEX 미국반도체, SK하이닉스 ADR 신규 편입 등",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1725187",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-09-22T08:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0134e19cca5f3b6",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "애플, 구형 아이폰까지 100파운드 인상…삼성전자· SK하이닉스 메모리값...",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=549879",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T23:00:00Z",
-      "last_published_at": "2026-09-21T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com"
+        "ppss.kr"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "애플, 구형 아이폰까지 100파운드 인상…삼성전자· SK하이닉스 메모리값...",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=549879",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-09-22T08:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e9495abc02fe8d7c",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "한미글로벌, SK하이닉스 웨스트라피엣 공장 PM 맡았다",
-      "representative_url": "https://thelec.kr/news/articleView.html?idxno=62629",
-      "representative_source": "thelec.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T22:50:00Z",
-      "last_published_at": "2026-09-21T22:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "thelec.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
+        "실적"
       ],
       "event_keywords": [
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미글로벌, SK하이닉스 웨스트라피엣 공장 PM 맡았다",
-          "url": "https://thelec.kr/news/articleView.html?idxno=62629",
-          "source": "thelec.kr",
-          "source_domain": "thelec.kr",
-          "published_at": "2026-09-22T07:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "973607d111ed90c3",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , D램 생산량 HBM 에 묶인 사이 中 범용 D램 시장 침...",
-      "representative_url": "https://biz.chosun.com/it-science/ict/2026/09/22/GZ4AMX3WEVDVTNH35LSLC3FB4Q",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T21:01:00Z",
-      "last_published_at": "2026-09-21T21:01:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
+        " 190조",
         "hbm",
-        "production"
+        "hbm4"
       ],
-      "importance_score": 35,
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 , D램 생산량 HBM 에 묶인 사이 中 범용 D램 시장 침...",
-          "url": "https://biz.chosun.com/it-science/ict/2026/09/22/GZ4AMX3WEVDVTNH35LSLC3FB4Q",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-09-22T06:01:00+09:00",
+          "title": "삼성· SK하이닉스 3분기 영업익 190조 전망…다음 승부는 HBM4",
+          "url": "https://ppss.kr/news/articleView.html?idxno=312197",
+          "source": "ppss.kr",
+          "source_domain": "ppss.kr",
+          "published_at": "2026-09-22T18:47:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6622,15 +6650,15 @@
       ]
     },
     {
-      "cluster_id": "605ad9ecb9a1a778",
+      "cluster_id": "dc7a3260bf9580b7",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 “차세대 메모리로 새 AI시대 개척”",
-      "representative_url": "https://donga.com/news/Economy/article/all/20260921/134713142/2",
-      "representative_source": "donga.com",
+      "representative_title": "[WIKI 현장] SK하이닉스 \"기술로 사회문제 풀고 포용적 미래 만든다\"…일...",
+      "representative_url": "https://wikileaks-kr.org/news/articleView.html?idxno=192372",
+      "representative_source": "wikileaks-kr.org",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-21T15:31:00Z",
-      "last_published_at": "2026-09-21T15:31:00Z",
+      "first_published_at": "2026-09-22T08:14:00Z",
+      "last_published_at": "2026-09-22T08:14:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6638,10 +6666,11 @@
         "naver"
       ],
       "source_domains": [
-        "donga.com"
+        "wikileaks-kr.org"
       ],
       "categories": [
-        "기술·제품"
+        "기술·제품",
+        "인사·M&A"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -6653,11 +6682,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 “차세대 메모리로 새 AI시대 개척”",
-          "url": "https://donga.com/news/Economy/article/all/20260921/134713142/2",
-          "source": "donga.com",
-          "source_domain": "donga.com",
-          "published_at": "2026-09-22T00:31:00+09:00",
+          "title": "[WIKI 현장] SK하이닉스 \"기술로 사회문제 풀고 포용적 미래 만든다\"…일...",
+          "url": "https://wikileaks-kr.org/news/articleView.html?idxno=192372",
+          "source": "wikileaks-kr.org",
+          "source_domain": "wikileaks-kr.org",
+          "published_at": "2026-09-22T17:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
