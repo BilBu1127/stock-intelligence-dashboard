@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T17:02:35.454941Z",
+  "generated_at": "2026-09-22T01:36:12.805255Z",
   "company_name": "에프에스티",
   "stock_code": "036810",
   "status": "partial",
-  "last_successful_update": "2026-09-21T17:02:35.454941Z",
+  "last_successful_update": "2026-09-22T01:36:12.805255Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -52,6 +52,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-20T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6733ba261451105d",
+      "company_name": "에프에스티",
+      "stock_code": "036810",
+      "representative_title": "[더벨][소부장 2세 시대 개막] 에프에스티 가족회사, 승계 재원 역할 부...",
+      "representative_url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202609180615259320108138",
+      "representative_source": "thebell.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-21T22:02:00Z",
+      "last_published_at": "2026-09-21T22:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thebell.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[더벨][소부장 2세 시대 개막] 에프에스티 가족회사, 승계 재원 역할 부...",
+          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202609180615259320108138",
+          "source": "thebell.co.kr",
+          "source_domain": "thebell.co.kr",
+          "published_at": "2026-09-22T07:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -449,50 +493,6 @@
           "source": "ajunews.com",
           "source_domain": "ajunews.com",
           "published_at": "2026-08-25T12:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e70c5c3dce069bfc",
-      "company_name": "에프에스티",
-      "stock_code": "036810",
-      "representative_title": "에프에스티 주가, 급등세... 무슨 회사길래?",
-      "representative_url": "https://ggilbo.com/news/articleView.html?idxno=1177337",
-      "representative_source": "ggilbo.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-25T02:38:00Z",
-      "last_published_at": "2026-08-25T02:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ggilbo.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에프에스티 주가, 급등세... 무슨 회사길래?",
-          "url": "https://ggilbo.com/news/articleView.html?idxno=1177337",
-          "source": "ggilbo.com",
-          "source_domain": "ggilbo.com",
-          "published_at": "2026-08-25T11:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

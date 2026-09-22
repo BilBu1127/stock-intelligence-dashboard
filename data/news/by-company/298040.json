@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-21T17:02:35.454941Z",
+  "generated_at": "2026-09-22T01:36:12.805255Z",
   "company_name": "효성중공업",
   "stock_code": "298040",
-  "status": "ok",
-  "last_successful_update": "2026-09-21T17:02:35.454941Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-22T01:36:12.805255Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "f7677d040dc13dfc",
@@ -759,6 +764,54 @@
       ]
     },
     {
+      "cluster_id": "f126e7a35aff11a3",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "효성중공업 , 북미 초고압 변압기·AI 전력수요 기대-리딩투자증권",
+      "representative_url": "https://mt.co.kr/stock/2026/09/22/2026092208574079358",
+      "representative_source": "mt.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T00:00:00Z",
+      "last_published_at": "2026-09-22T00:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mt.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "효성중공업 , 북미 초고압 변압기·AI 전력수요 기대-리딩투자증권",
+          "url": "https://mt.co.kr/stock/2026/09/22/2026092208574079358",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-09-22T09:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "b708fab799c5bd04",
       "company_name": "효성중공업",
       "stock_code": "298040",
@@ -1159,50 +1212,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-09-18T16:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "10f1fdd1fde7fe9b",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "조현준의 선제적 승부수… 효성중공업 , 2GW급 HVDC로 글로벌 전력망 공략",
-      "representative_url": "https://eroun.net/news/articleView.html?idxno=90476",
-      "representative_source": "eroun.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-18T06:46:00Z",
-      "last_published_at": "2026-09-18T06:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "eroun.net"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "조현준의 선제적 승부수… 효성중공업 , 2GW급 HVDC로 글로벌 전력망 공략",
-          "url": "https://eroun.net/news/articleView.html?idxno=90476",
-          "source": "eroun.net",
-          "source_domain": "eroun.net",
-          "published_at": "2026-09-18T15:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

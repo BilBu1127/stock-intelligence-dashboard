@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-21T17:02:35.454941Z",
+  "generated_at": "2026-09-22T01:36:12.805255Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-09-21T17:02:35.454941Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-22T01:36:12.805255Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "157a7170af795f3a",
@@ -2088,6 +2093,49 @@
       ]
     },
     {
+      "cluster_id": "705ed4d3a1e5dfc6",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "두산에너빌리티 8만6300원 1.17% 껑충…4거래일 연속 상승커브, SMR 기대...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=608924",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T00:28:00Z",
+      "last_published_at": "2026-09-22T00:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "두산에너빌리티 8만6300원 1.17% 껑충…4거래일 연속 상승커브, SMR 기대...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=608924",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-09-22T09:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "e70b061d7fc4a774",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -2478,49 +2526,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-09-21T00:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "99b6613f898e81fd",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "SMR 2035년 상용화 속도… 두산에너빌리티 ·우리기술·비에이치아이·오르...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=608395",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-20T15:00:00Z",
-      "last_published_at": "2026-09-20T15:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SMR 2035년 상용화 속도… 두산에너빌리티 ·우리기술·비에이치아이·오르...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=608395",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-09-21T00:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
