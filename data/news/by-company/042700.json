@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-23T01:30:14.974663Z",
+  "generated_at": "2026-09-23T15:26:48.425182Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-09-23T01:30:14.974663Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-23T15:26:48.425182Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "ef98fe87d2aeb027",
@@ -1769,6 +1774,50 @@
       ]
     },
     {
+      "cluster_id": "920e7bd6c432e295",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 24만2000원…0.83% 상승하며 고점 부근 거래",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=229067",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-23T05:06:00Z",
+      "last_published_at": "2026-09-23T05:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 24만2000원…0.83% 상승하며 고점 부근 거래",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=229067",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-23T14:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "88c9c7a54294bdd2",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -2206,63 +2255,6 @@
           "source": "dnews.co.kr",
           "source_domain": "dnews.co.kr",
           "published_at": "2026-09-22T10:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4aa468834a3d7cd5",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , HBM 넘어 AI 패키징으로…‘FC 본더 75’ 첫 출하",
-      "representative_url": "https://g-enews.com/view.php?ud=202609220913392793084322ec9_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T00:28:00Z",
-      "last_published_at": "2026-09-22T01:12:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bloter.net",
-        "g-enews.com"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "한미반도체 , HBM 다음은 'AI 패키징'…FC 본더 75 첫 출하",
-          "url": "https://bloter.net/news/articleView.html?idxno=674195",
-          "source": "bloter.net",
-          "source_domain": "bloter.net",
-          "published_at": "2026-09-22T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , HBM 넘어 AI 패키징으로…‘FC 본더 75’ 첫 출하",
-          "url": "https://g-enews.com/view.php?ud=202609220913392793084322ec9_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-09-22T09:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
