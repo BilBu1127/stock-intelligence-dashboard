@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-22T15:31:08.666673Z",
+  "generated_at": "2026-09-23T01:30:14.974663Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-09-22T15:31:08.666673Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-23T01:30:14.974663Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a6d927cbedfd462e",
@@ -129,6 +134,49 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-08-06T15:41:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "930f44535c936b3c",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "[MUST KNOW5]드러켄밀러, 원익IPS 선택...오늘 시장의 눈은 美·中과 AI로",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02348486645583072",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T21:56:00Z",
+      "last_published_at": "2026-09-22T21:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[MUST KNOW5]드러켄밀러, 원익IPS 선택...오늘 시장의 눈은 美·中과 AI로",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02348486645583072",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-09-23T06:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -541,50 +589,6 @@
           "source": "newstnt.com",
           "source_domain": "newstnt.com",
           "published_at": "2026-09-13T11:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "17bcf106bbcf482e",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "[AI 대전환 리딩 전략] 원익IPS , 칩 고도화에 증착장비 낙수효과",
-      "representative_url": "https://bloter.net/news/articleView.html?idxno=673424",
-      "representative_source": "bloter.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-12T23:00:00Z",
-      "last_published_at": "2026-09-12T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bloter.net"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[AI 대전환 리딩 전략] 원익IPS , 칩 고도화에 증착장비 낙수효과",
-          "url": "https://bloter.net/news/articleView.html?idxno=673424",
-          "source": "bloter.net",
-          "source_domain": "bloter.net",
-          "published_at": "2026-09-13T08:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

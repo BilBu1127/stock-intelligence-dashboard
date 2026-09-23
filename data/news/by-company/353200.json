@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T15:31:08.666673Z",
+  "generated_at": "2026-09-23T01:30:14.974663Z",
   "company_name": "대덕전자",
   "stock_code": "353200",
   "status": "partial",
-  "last_successful_update": "2026-09-22T15:31:08.666673Z",
+  "last_successful_update": "2026-09-23T01:30:14.974663Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -52,6 +52,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-18T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6de053431c918447",
+      "company_name": "대덕전자",
+      "stock_code": "353200",
+      "representative_title": "[리스트] MVP 상위 20선... 대덕전자 , 안랩 등 - 23일",
+      "representative_url": "https://itooza.com/common/iview.php?no=2026092307152007947",
+      "representative_source": "itooza.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-22T22:30:00Z",
+      "last_published_at": "2026-09-22T22:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "itooza.com"
+      ],
+      "categories": [
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[리스트] MVP 상위 20선... 대덕전자 , 안랩 등 - 23일",
+          "url": "https://itooza.com/common/iview.php?no=2026092307152007947",
+          "source": "itooza.com",
+          "source_domain": "itooza.com",
+          "published_at": "2026-09-23T07:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -458,50 +502,6 @@
           "source": "pinpointnews.co.kr",
           "source_domain": "pinpointnews.co.kr",
           "published_at": "2026-09-15T10:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "dd23d93020138d8b",
-      "company_name": "대덕전자",
-      "stock_code": "353200",
-      "representative_title": "대덕전자 주가, 9월 14일 97,000원 3.00% 하락",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16192803",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-14T06:46:00Z",
-      "last_published_at": "2026-09-14T06:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "대덕전자 주가, 9월 14일 97,000원 3.00% 하락",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16192803",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-09-14T15:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
