@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-25T01:29:15.207768Z",
+  "generated_at": "2026-09-25T15:48:52.089785Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-09-25T01:29:15.207768Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-25T15:48:52.089785Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "855f44d72dc4de53",
@@ -1550,6 +1555,51 @@
       ]
     },
     {
+      "cluster_id": "12fe2faafa446af7",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "[단독] HD현대중공업 , 미포 야드 첫 초대형가스선…1.4조 물량 배정",
+      "representative_url": "https://dailian.co.kr/news/view/1694471?sc=Naver",
+      "representative_source": "dailian.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-25T04:52:00Z",
+      "last_published_at": "2026-09-25T04:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "dailian.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 4조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[단독] HD현대중공업 , 미포 야드 첫 초대형가스선…1.4조 물량 배정",
+          "url": "https://dailian.co.kr/news/view/1694471?sc=Naver",
+          "source": "dailian.co.kr",
+          "source_domain": "dailian.co.kr",
+          "published_at": "2026-09-25T13:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "40a4f017eda14845",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
@@ -2122,53 +2172,6 @@
           "source": "sateconomy.co.kr",
           "source_domain": "sateconomy.co.kr",
           "published_at": "2026-09-22T13:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e8351769b728cd75",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "'1조 투자' HD현대중공업 ‥울산시도 적극 협력",
-      "representative_url": "https://usmbc.co.kr/NewsArticle/863886",
-      "representative_source": "usmbc.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T13:06:00Z",
-      "last_published_at": "2026-09-22T13:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "usmbc.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "1조",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'1조 투자' HD현대중공업 ‥울산시도 적극 협력",
-          "url": "https://usmbc.co.kr/NewsArticle/863886",
-          "source": "usmbc.co.kr",
-          "source_domain": "usmbc.co.kr",
-          "published_at": "2026-09-22T22:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
