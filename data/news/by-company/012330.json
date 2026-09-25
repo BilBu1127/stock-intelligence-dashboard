@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-24T15:48:57.500475Z",
+  "generated_at": "2026-09-25T01:29:15.207768Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-09-24T15:48:57.500475Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-25T01:29:15.207768Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "f48b66c3f66e67ea",
@@ -1576,6 +1581,49 @@
       ]
     },
     {
+      "cluster_id": "72386320e47aeadd",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "DB· 현대모비스 ·소노, 오픈 매치 데이 첫날 승리로 출발",
+      "representative_url": "https://thesportstimes.co.kr/news/articleView.html?idxno=375921",
+      "representative_source": "thesportstimes.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-24T21:12:00Z",
+      "last_published_at": "2026-09-24T21:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thesportstimes.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DB· 현대모비스 ·소노, 오픈 매치 데이 첫날 승리로 출발",
+          "url": "https://thesportstimes.co.kr/news/articleView.html?idxno=375921",
+          "source": "thesportstimes.co.kr",
+          "source_domain": "thesportstimes.co.kr",
+          "published_at": "2026-09-25T06:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "2a927d6363674e30",
       "company_name": "현대모비스",
       "stock_code": "012330",
@@ -1956,49 +2004,6 @@
           "source": "m.sports.naver.com",
           "source_domain": "m.sports.naver.com",
           "published_at": "2026-09-24T18:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b306ff85350d2914",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "[포토] 현대모비스 박무빈 '지금처럼 하자'",
-      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000301920",
-      "representative_source": "m.sports.naver.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-24T09:38:00Z",
-      "last_published_at": "2026-09-24T09:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m.sports.naver.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[포토] 현대모비스 박무빈 '지금처럼 하자'",
-          "url": "https://m.sports.naver.com/basketball/article/065/0000301920",
-          "source": "m.sports.naver.com",
-          "source_domain": "m.sports.naver.com",
-          "published_at": "2026-09-24T18:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
