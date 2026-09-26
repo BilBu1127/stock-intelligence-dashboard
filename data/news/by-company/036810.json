@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26T01:32:21.560622Z",
+  "generated_at": "2026-09-26T14:58:25.553425Z",
   "company_name": "에프에스티",
   "stock_code": "036810",
   "status": "partial",
-  "last_successful_update": "2026-09-26T01:32:21.560622Z",
+  "last_successful_update": "2026-09-26T14:58:25.553425Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -52,6 +52,54 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-20T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "35beb7a62099b6c3",
+      "company_name": "에프에스티",
+      "stock_code": "036810",
+      "representative_title": "에프에스티 , 반도체 투자 회복 직격탄… \"2027년까지 업사이클\"",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=490397",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-26T05:26:00Z",
+      "last_published_at": "2026-09-26T05:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에프에스티 , 반도체 투자 회복 직격탄… \"2027년까지 업사이클\"",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=490397",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-09-26T14:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
