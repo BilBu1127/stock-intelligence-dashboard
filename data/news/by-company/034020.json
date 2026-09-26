@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-25T15:48:52.089785Z",
+  "generated_at": "2026-09-26T01:32:21.560622Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-09-25T15:48:52.089785Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-26T01:32:21.560622Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "157a7170af795f3a",
@@ -2088,6 +2093,49 @@
       ]
     },
     {
+      "cluster_id": "8303655625e71e0c",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "AI 다음은 SMR·양자·우주…'7대 SEED' 시동, 두산에너빌리티 ·휴림로봇...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=609999",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-25T23:10:00Z",
+      "last_published_at": "2026-09-25T23:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "AI 다음은 SMR·양자·우주…'7대 SEED' 시동, 두산에너빌리티 ·휴림로봇...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=609999",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-09-26T08:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "f175cd9e75bd33d3",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -2485,52 +2533,6 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-23T15:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "694dd4835634ce06",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "'대미 투자 1호' 텍사스 가스발전… 두산에너빌리티 빛 보나",
-      "representative_url": "https://fntimes.com/html/view.php?ud=20260923140422972fa6b69a559_18",
-      "representative_source": "fntimes.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-23T05:20:00Z",
-      "last_published_at": "2026-09-23T05:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "fntimes.com"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'대미 투자 1호' 텍사스 가스발전… 두산에너빌리티 빛 보나",
-          "url": "https://fntimes.com/html/view.php?ud=20260923140422972fa6b69a559_18",
-          "source": "fntimes.com",
-          "source_domain": "fntimes.com",
-          "published_at": "2026-09-23T14:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
