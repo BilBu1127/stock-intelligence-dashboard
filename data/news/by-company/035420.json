@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T01:26:16.847242Z",
+  "generated_at": "2026-09-27T15:39:24.533303Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-09-27T01:26:16.847242Z",
+  "last_successful_update": "2026-09-27T15:39:24.533303Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -283,6 +283,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "318b2291ec92505c",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버클라우드, DB·서버 접속 한곳서 통제한다…개인정보 접근기록 자...",
+      "representative_url": "https://venturesquare.net/1116307",
+      "representative_source": "venturesquare.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-27T13:40:00Z",
+      "last_published_at": "2026-09-27T13:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "venturesquare.net"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버클라우드, DB·서버 접속 한곳서 통제한다…개인정보 접근기록 자...",
+          "url": "https://venturesquare.net/1116307",
+          "source": "venturesquare.net",
+          "source_domain": "venturesquare.net",
+          "published_at": "2026-09-27T22:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -674,49 +717,6 @@
           "source": "view.asiae.co.kr",
           "source_domain": "view.asiae.co.kr",
           "published_at": "2026-09-22T07:15:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8426f9c8adf114c9",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "네이버 \"추석 연휴때 활용하세요\" 다양한 생활서비스 제공",
-      "representative_url": "https://breaknews.com/1238338",
-      "representative_source": "breaknews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T08:32:00Z",
-      "last_published_at": "2026-09-21T08:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "breaknews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버 \"추석 연휴때 활용하세요\" 다양한 생활서비스 제공",
-          "url": "https://breaknews.com/1238338",
-          "source": "breaknews.com",
-          "source_domain": "breaknews.com",
-          "published_at": "2026-09-21T17:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

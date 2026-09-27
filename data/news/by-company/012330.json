@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-27T01:26:16.847242Z",
+  "generated_at": "2026-09-27T15:39:24.533303Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-09-27T01:26:16.847242Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-27T15:39:24.533303Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "f48b66c3f66e67ea",
@@ -1576,6 +1581,51 @@
       ]
     },
     {
+      "cluster_id": "abe972d5b47a7020",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "현대모비스 , 자금조달 어려운 중소·중견 협력사 지원",
+      "representative_url": "https://mk.co.kr/article/12161923",
+      "representative_source": "mk.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-27T07:04:00Z",
+      "last_published_at": "2026-09-27T07:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mk.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "현대모비스 , 자금조달 어려운 중소·중견 협력사 지원",
+          "url": "https://mk.co.kr/article/12161923",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-09-27T16:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "78dfaba3aaba4a6e",
       "company_name": "현대모비스",
       "stock_code": "012330",
@@ -1956,49 +2006,6 @@
           "source": "m.sports.naver.com",
           "source_domain": "m.sports.naver.com",
           "published_at": "2026-09-26T21:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5d9720e2e47efb7d",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "[포토] 현대모비스 양동근 감독 '지금처럼만 하자'",
-      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302058",
-      "representative_source": "m.sports.naver.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-26T11:59:00Z",
-      "last_published_at": "2026-09-26T11:59:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m.sports.naver.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[포토] 현대모비스 양동근 감독 '지금처럼만 하자'",
-          "url": "https://m.sports.naver.com/basketball/article/065/0000302058",
-          "source": "m.sports.naver.com",
-          "source_domain": "m.sports.naver.com",
-          "published_at": "2026-09-26T20:59:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
