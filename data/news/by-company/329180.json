@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-27T15:39:24.533303Z",
+  "generated_at": "2026-09-28T01:39:25.877871Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-09-27T15:39:24.533303Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-28T01:39:25.877871Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "855f44d72dc4de53",
@@ -1550,6 +1555,51 @@
       ]
     },
     {
+      "cluster_id": "d3f73294ec80b3e6",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 , 스마트 안전관리 체계 고도화 추진…170억 원 투입",
+      "representative_url": "https://newspim.com/news/view/20260928000380",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-28T01:32:00Z",
+      "last_published_at": "2026-09-28T01:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 170억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 , 스마트 안전관리 체계 고도화 추진…170억 원 투입",
+          "url": "https://newspim.com/news/view/20260928000380",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-09-28T10:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "12fe2faafa446af7",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
@@ -1941,232 +1991,6 @@
           "source": "ksilbo.co.kr",
           "source_domain": "ksilbo.co.kr",
           "published_at": "2026-09-23T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6ec53526fdbe7063",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "HD현대중공업 , 조선 제조력 AI 전력로 옮긴다…엔진·SMR 1조 투자",
-      "representative_url": "https://sateconomy.co.kr/news/view/1065587052006511",
-      "representative_source": "sateconomy.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-22T04:30:00Z",
-      "last_published_at": "2026-09-22T15:02:00Z",
-      "article_count": 17,
-      "domestic_article_count": 17,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cnbnews.com",
-        "ekn.kr",
-        "fnnews.com",
-        "geconomy.co.kr",
-        "gukjenews.com",
-        "iusm.co.kr",
-        "ksilbo.co.kr",
-        "mdtoday.co.kr",
-        "news1.kr",
-        "newsinside.kr",
-        "newsway.co.kr",
-        "nocutnews.co.kr",
-        "ohmynews.com",
-        "sateconomy.co.kr",
-        "ubc.co.kr",
-        "viva100.com"
-      ],
-      "categories": [
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1조",
-        "722억",
-        "investment",
-        "personnel",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "울산시- HD현대중공업 , 발전엔진·SMR 공장 신설 맞손",
-          "url": "https://ksilbo.co.kr/news/articleView.html?idxno=1068122",
-          "source": "ksilbo.co.kr",
-          "source_domain": "ksilbo.co.kr",
-          "published_at": "2026-09-23T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 발전엔진·SMR 전용공장 신설",
-          "url": "https://ubc.co.kr/news/28128",
-          "source": "ubc.co.kr",
-          "source_domain": "ubc.co.kr",
-          "published_at": "2026-09-22T20:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조 원대 미래산업 투자...내년 상반기 착공",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3703932",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-09-22T20:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조원대 투자…발전엔진·SMR 생산거점 구축",
-          "url": "https://newsway.co.kr/news/view?ud=2026092220250126884",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-09-22T20:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[뉴스인사이드_뉴스톡톡] HD현대중공업 , 울산에 1조 투자 外",
-          "url": "https://newsinside.kr/news/articleView.html?idxno=5006669",
-          "source": "newsinside.kr",
-          "source_domain": "newsinside.kr",
-          "published_at": "2026-09-22T19:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 발전엔진·SMR 공장 건설",
-          "url": "https://fnnews.com/news/202609221834585535",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-09-22T18:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "﻿ HD현대중공업 , 울산에 1조722억 투자… 발전엔진·SMR 전용공장 짓는다",
-          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=616088",
-          "source": "mdtoday.co.kr",
-          "source_domain": "mdtoday.co.kr",
-          "published_at": "2026-09-22T18:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조722억 투자…발전엔진·SMR 공장 신설",
-          "url": "https://iusm.co.kr/news/articleView.html?idxno=1068360",
-          "source": "iusm.co.kr",
-          "source_domain": "iusm.co.kr",
-          "published_at": "2026-09-22T18:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조원대 '발전엔진·SMR' 신설 투자",
-          "url": "https://ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003269698",
-          "source": "ohmynews.com",
-          "source_domain": "ohmynews.com",
-          "published_at": "2026-09-22T18:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조 원대 발전엔진·SMR 공장 신설…MOU 체결",
-          "url": "https://cnbnews.com/news/articleView.html?idxno=1017006",
-          "source": "cnbnews.com",
-          "source_domain": "cnbnews.com",
-          "published_at": "2026-09-22T17:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조 원대 미래 에너지 승부수… 발전엔진·SMR 공장...",
-          "url": "https://geconomy.co.kr/news/article.html?no=323875",
-          "source": "geconomy.co.kr",
-          "source_domain": "geconomy.co.kr",
-          "published_at": "2026-09-22T16:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "울산시- HD현대중공업 , 발전엔진·SMR 공장 신설 투자협약",
-          "url": "https://nocutnews.co.kr/news/6582195",
-          "source": "nocutnews.co.kr",
-          "source_domain": "nocutnews.co.kr",
-          "published_at": "2026-09-22T16:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 발전엔진·SMR 공장 짓는다",
-          "url": "https://viva100.com/article/20260922501152",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-09-22T16:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "울산시· HD현대중공업 , 1조원대 발전엔진·SMR 공장 투자 협약",
-          "url": "https://news1.kr/local/ulsan/6299124",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-09-22T15:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조원대 발전엔진·SMR 공장 짓는다",
-          "url": "https://ekn.kr/web/view.php?key=20260922020128028",
-          "source": "ekn.kr",
-          "source_domain": "ekn.kr",
-          "published_at": "2026-09-22T14:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 울산에 1조 투입…'힘센엔진·SMR' 두 공장 신설",
-          "url": "https://newsinside.kr/news/articleView.html?idxno=5006651",
-          "source": "newsinside.kr",
-          "source_domain": "newsinside.kr",
-          "published_at": "2026-09-22T14:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "HD현대중공업 , 조선 제조력 AI 전력로 옮긴다…엔진·SMR 1조 투자",
-          "url": "https://sateconomy.co.kr/news/view/1065587052006511",
-          "source": "sateconomy.co.kr",
-          "source_domain": "sateconomy.co.kr",
-          "published_at": "2026-09-22T13:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
