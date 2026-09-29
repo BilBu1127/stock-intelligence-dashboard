@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-29T02:34:23.213335Z",
+  "generated_at": "2026-09-29T16:53:16.729015Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-09-29T02:34:23.213335Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-29T16:53:16.729015Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "URLError"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,49 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f2460a202e56ebb7",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "POSCO홀딩스 30만5000원…철강 수익성과 리튬 가동률에 시선",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=229688",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T05:00:00Z",
+      "last_published_at": "2026-09-29T05:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "POSCO홀딩스 30만5000원…철강 수익성과 리튬 가동률에 시선",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=229688",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-09-29T14:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -442,51 +490,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-09-10T14:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b58daa6af8f50830",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "POSCO홀딩스 34만원 찍고 다시 밀렸다…'리튬 첫 흑자'에도 주가 1%↓",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=226468",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-07T06:08:00Z",
-      "last_published_at": "2026-09-07T06:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "POSCO홀딩스 34만원 찍고 다시 밀렸다…'리튬 첫 흑자'에도 주가 1%↓",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=226468",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-09-07T15:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
