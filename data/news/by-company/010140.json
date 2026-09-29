@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-28T18:35:46.533884Z",
+  "generated_at": "2026-09-29T02:34:23.213335Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-09-28T18:35:46.533884Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-29T02:34:23.213335Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "493b8ec167543c2a",
@@ -1551,6 +1556,52 @@
       ]
     },
     {
+      "cluster_id": "00fef86fceabdba7",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 , 성과급 '셈법' 바꿨다…EVA 버리고 영업이익 택한 이유",
+      "representative_url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065572733991749",
+      "representative_source": "megaeconomy.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:10:00Z",
+      "last_published_at": "2026-09-29T01:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "megaeconomy.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 , 성과급 '셈법' 바꿨다…EVA 버리고 영업이익 택한 이유",
+          "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065572733991749",
+          "source": "megaeconomy.co.kr",
+          "source_domain": "megaeconomy.co.kr",
+          "published_at": "2026-09-29T10:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "5d2c2782a9934e1c",
       "company_name": "삼성중공업",
       "stock_code": "010140",
@@ -1938,72 +1989,6 @@
           "source": "biz.heraldcorp.com",
           "source_domain": "biz.heraldcorp.com",
           "published_at": "2026-09-23T21:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5154a1c07997e0c4",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , 조선업계 빅3 중 임금협상 첫 타결…기본급 5.2％↑",
-      "representative_url": "https://yna.co.kr/view/AKR20260923187300003?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-23T10:03:00Z",
-      "last_published_at": "2026-09-23T12:40:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ajunews.com",
-        "biz.heraldcorp.com",
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성중공업 , 조선업계 빅3 중 임금협상 첫 타결",
-          "url": "https://biz.heraldcorp.com/article/10883910",
-          "source": "biz.heraldcorp.com",
-          "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-09-23T21:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , 조선 빅3 중 임금협상 첫 타결…기본급 5.2% 인상",
-          "url": "https://ajunews.com/view/20260923192930458",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-09-23T19:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , 조선업계 빅3 중 임금협상 첫 타결…기본급 5.2％↑",
-          "url": "https://yna.co.kr/view/AKR20260923187300003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-09-23T19:03:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

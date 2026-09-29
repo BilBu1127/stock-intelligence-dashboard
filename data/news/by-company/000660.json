@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-09-28T18:35:46.533884Z",
+  "generated_at": "2026-09-29T02:34:23.213335Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-09-28T18:35:46.533884Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-09-29T02:34:23.213335Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "ab8b80f935cb9482",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , TSMC 행사서 '차세대 메모리' 솔루션 공개",
+      "representative_url": "https://hankyung.com/article/202609289704i",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-28T21:02:00Z",
+      "last_published_at": "2026-09-29T00:54:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com",
+        "segye.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 40,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "SK하이닉스 , TSMC 행사서 '차세대 메모리' 솔루션 공개",
+          "url": "https://hankyung.com/article/202609289704i",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-09-29T09:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , TSMC 행사서 차세대 HBM 공개",
+          "url": "https://segye.com/newsView/20260928517696?OutUrl=naver",
+          "source": "segye.com",
+          "source_domain": "segye.com",
+          "published_at": "2026-09-29T06:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "17eff17b342fe49a",
       "company_name": "SK하이닉스",
@@ -6443,15 +6506,15 @@
       ]
     },
     {
-      "cluster_id": "b5ec930f80c3851b",
+      "cluster_id": "32c35ac18540b737",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "HBM4·솔리다임 IPO 우려에도… \" SK하이닉스 펀더멘털 흔들림 없다\"",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=490832",
-      "representative_source": "pinpointnews.co.kr",
+      "representative_title": "\" SK하이닉스 310만원→264만원\" 환율 하락에 목표가↓…삼성전기, IT 부품...",
+      "representative_url": "https://fnnews.com/news/202609291039195498",
+      "representative_source": "fnnews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-28T17:10:00Z",
-      "last_published_at": "2026-09-28T17:10:00Z",
+      "first_published_at": "2026-09-29T02:22:00Z",
+      "last_published_at": "2026-09-29T02:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6459,13 +6522,282 @@
         "naver"
       ],
       "source_domains": [
-        "pinpointnews.co.kr"
+        "fnnews.com"
       ],
       "categories": [
         "기술·제품",
         "실적",
         "주가·투자의견",
         "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\" SK하이닉스 310만원→264만원\" 환율 하락에 목표가↓…삼성전기, IT 부품...",
+          "url": "https://fnnews.com/news/202609291039195498",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-09-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9e315e8f89e1be00",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "확산되는 솔리다임 美 상장 추진설 … SK하이닉스 , 중복상장 논란 해소...",
+      "representative_url": "https://biz.newdaily.co.kr/site/data/html/2026/09/29/2026092900050.html",
+      "representative_source": "biz.newdaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T02:20:00Z",
+      "last_published_at": "2026-09-29T02:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.newdaily.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "확산되는 솔리다임 美 상장 추진설 … SK하이닉스 , 중복상장 논란 해소...",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/29/2026092900050.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-09-29T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7e23ace7554232fc",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 ADR 5% 급락…중동 불안에 투심 위축",
+      "representative_url": "https://mdtoday.co.kr/news/articleView.html?idxno=616628",
+      "representative_source": "mdtoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:50:00Z",
+      "last_published_at": "2026-09-29T01:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mdtoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ADR 5% 급락…중동 불안에 투심 위축",
+          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=616628",
+          "source": "mdtoday.co.kr",
+          "source_domain": "mdtoday.co.kr",
+          "published_at": "2026-09-29T10:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d0c6b1af4ee8befb",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[특징주] 삼성전자· SK하이닉스 , 전날 5%대 급락 후 강보합",
+      "representative_url": "https://newspim.com/news/view/20260929000408",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:47:00Z",
+      "last_published_at": "2026-09-29T01:47:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 삼성전자· SK하이닉스 , 전날 5%대 급락 후 강보합",
+          "url": "https://newspim.com/news/view/20260929000408",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-09-29T10:47:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "64921fb6d531d00c",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "솔리다임 미국 상장설에 SK하이닉스 주가 '흔들'... '투자금 확보' vs '중...",
+      "representative_url": "https://lawtv.kr/news/articleView.html?idxno=61036",
+      "representative_source": "lawtv.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:38:00Z",
+      "last_published_at": "2026-09-29T01:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "lawtv.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 5,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "솔리다임 미국 상장설에 SK하이닉스 주가 '흔들'... '투자금 확보' vs '중...",
+          "url": "https://lawtv.kr/news/articleView.html?idxno=61036",
+          "source": "lawtv.kr",
+          "source_domain": "lawtv.kr",
+          "published_at": "2026-09-29T10:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e0d85c8fc05dd703",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "DS투자증권 \"삼성전자· SK하이닉스 3분기 실적, 시장 기대치 못미칠 전망...",
+      "representative_url": "https://cwn.kr/news/articleView.html?idxno=57668",
+      "representative_source": "cwn.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:36:00Z",
+      "last_published_at": "2026-09-29T01:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cwn.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings",
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DS투자증권 \"삼성전자· SK하이닉스 3분기 실적, 시장 기대치 못미칠 전망...",
+          "url": "https://cwn.kr/news/articleView.html?idxno=57668",
+          "source": "cwn.kr",
+          "source_domain": "cwn.kr",
+          "published_at": "2026-09-29T10:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6a13ebd0714699ae",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 엔비디아 베라 루빈용 HBM4 실물 첫선…TSMC 파트너상 2년 ...",
+      "representative_url": "https://smarttoday.co.kr/ko-kr/articles/112050",
+      "representative_source": "smarttoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T01:30:00Z",
+      "last_published_at": "2026-09-29T01:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "smarttoday.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
       ],
       "event_keywords": [
         "hbm",
@@ -6481,11 +6813,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "HBM4·솔리다임 IPO 우려에도… \" SK하이닉스 펀더멘털 흔들림 없다\"",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=490832",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-09-29T02:10:00+09:00",
+          "title": "SK하이닉스 , 엔비디아 베라 루빈용 HBM4 실물 첫선…TSMC 파트너상 2년 ...",
+          "url": "https://smarttoday.co.kr/ko-kr/articles/112050",
+          "source": "smarttoday.co.kr",
+          "source_domain": "smarttoday.co.kr",
+          "published_at": "2026-09-29T10:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6493,58 +6825,15 @@
       ]
     },
     {
-      "cluster_id": "642b6dedb4647a3c",
+      "cluster_id": "4794a72b99d73148",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK Hynix Drops 6 % as Bloomberg Puts $100B Value on Potential Solidigm IPO ; Micron and Western Digital Fall 4 %",
-      "representative_url": "https://aol.com/articles/sk-hynix-drops-6-bloomberg-150341000.html",
-      "representative_source": "aol.com",
-      "representative_language": "English",
-      "first_published_at": "2026-09-28T15:30:00Z",
-      "last_published_at": "2026-09-28T15:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "aol.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK Hynix Drops 6 % as Bloomberg Puts $100B Value on Potential Solidigm IPO ; Micron and Western Digital Fall 4 %",
-          "url": "https://aol.com/articles/sk-hynix-drops-6-bloomberg-150341000.html",
-          "source": "aol.com",
-          "source_domain": "aol.com",
-          "published_at": "2026-09-28T15:30:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a8309905c9a0c8aa",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "AI·가상자산주 약세… SK하이닉스 5.60% 하락",
-      "representative_url": "https://tokenpost.kr/news/breaking/415271",
-      "representative_source": "tokenpost.kr",
+      "representative_title": "엔비디아 사상 최대 자사주 매입…삼성전자· SK하이닉스 반등",
+      "representative_url": "https://cstimes.com/news/articleView.html?idxno=722211",
+      "representative_source": "cstimes.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-09-28T14:58:00Z",
-      "last_published_at": "2026-09-28T14:58:00Z",
+      "first_published_at": "2026-09-29T01:28:00Z",
+      "last_published_at": "2026-09-29T01:28:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6552,444 +6841,137 @@
         "naver"
       ],
       "source_domains": [
-        "tokenpost.kr"
+        "cstimes.com"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "AI·가상자산주 약세… SK하이닉스 5.60% 하락",
-          "url": "https://tokenpost.kr/news/breaking/415271",
-          "source": "tokenpost.kr",
-          "source_domain": "tokenpost.kr",
-          "published_at": "2026-09-28T23:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c6cbb98aa1b79485",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 거래대금 11.8조원…상위 50종목의 56%",
-      "representative_url": "https://kjdaily.com/article.php?aid=1790604181687842276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T14:06:00Z",
-      "last_published_at": "2026-09-28T14:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 8조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자· SK하이닉스 거래대금 11.8조원…상위 50종목의 56%",
-          "url": "https://kjdaily.com/article.php?aid=1790604181687842276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-09-28T23:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "944a10ee57b26394",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , TSMC '올해의 파트너상' 2년 연속 수상…'베라 루빈' 탑재 H...",
-      "representative_url": "https://delighti.co.kr/news/articleView.html?idxno=122477",
-      "representative_source": "delighti.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T06:44:00Z",
-      "last_published_at": "2026-09-28T12:16:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com",
-        "delighti.co.kr",
-        "edaily.co.kr",
-        "m-i.kr",
-        "news.einfomax.co.kr",
-        "public25.com",
-        "thelec.kr",
-        "ziksir.com"
-      ],
-      "categories": [
+        "공급·규제",
         "기술·제품",
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "엔비디아 사상 최대 자사주 매입…삼성전자· SK하이닉스 반등",
+          "url": "https://cstimes.com/news/articleView.html?idxno=722211",
+          "source": "cstimes.com",
+          "source_domain": "cstimes.com",
+          "published_at": "2026-09-29T10:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a817c707fe461091",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "[전혜은 시선] 삼성전자· SK하이닉스 , 반도체 슈퍼사이클 넘어 '수익 폭...",
+      "representative_url": "https://weeklytoday.com/news/articleView.html?idxno=796138",
+      "representative_source": "weeklytoday.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T00:46:00Z",
+      "last_published_at": "2026-09-29T00:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "weeklytoday.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[전혜은 시선] 삼성전자· SK하이닉스 , 반도체 슈퍼사이클 넘어 '수익 폭...",
+          "url": "https://weeklytoday.com/news/articleView.html?idxno=796138",
+          "source": "weeklytoday.com",
+          "source_domain": "weeklytoday.com",
+          "published_at": "2026-09-29T09:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d00aa0c6fafc6f1a",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "DS투자證, SK하이닉스 목표가 264만원으로 낮춰…\"내년 영업익 407조 전망...",
+      "representative_url": "https://newsis.com/view/NISX20260929_0003806399",
+      "representative_source": "newsis.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T00:04:00Z",
+      "last_published_at": "2026-09-29T00:30:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsis.com",
+        "widedaily.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
         "투자·생산"
       ],
       "event_keywords": [
-        "hbm",
-        "hbm5"
+        " 407조",
+        "investment"
       ],
-      "importance_score": 20,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , TSMC와 HBM5 검증...2년 연속 올해 파트너 수상",
-          "url": "https://thelec.kr/news/articleView.html?idxno=62873",
-          "source": "thelec.kr",
-          "source_domain": "thelec.kr",
-          "published_at": "2026-09-28T21:16:00+09:00",
+          "title": "DS투자증권, SK하이닉스 목표가 264만원으로 하향…\"내년 407조 영업익 기...",
+          "url": "https://widedaily.com/news/articleView.html?idxno=301530",
+          "source": "widedaily.com",
+          "source_domain": "widedaily.com",
+          "published_at": "2026-09-29T09:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "SK하이닉스 , TSMC와 HBM5 검증…'올해의 파트너상' 2년 연속 수상",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436750",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-09-28T18:40:00+09:00",
+          "title": "DS투자證, SK하이닉스 목표가 264만원으로 낮춰…\"내년 영업익 407조 전망...",
+          "url": "https://newsis.com/view/NISX20260929_0003806399",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-09-29T09:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC '올해의 파트너' 2년 연속 수상",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1418674",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-09-28T17:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC '올해의 파트너상' 2년 연속 수상",
-          "url": "https://ziksir.com/news/articleView.html?idxno=147644",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-09-28T16:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC와 HBM 5 검증…‘올해의 파트너’ 2년 연속 수상",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03663766645584712",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-09-28T16:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC와 HBM 5 검증… ‘올해의 파트너’ 2년 연속 선정",
-          "url": "https://biz.chosun.com/it-science/ict/2026/09/28/IPUEM6PFA5FNNMOVVTUIJQJQFI",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-09-28T16:13:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC '올해의 파트너상' 2년 연속 수상…베라 루빈용 HBM 4 첫...",
-          "url": "https://public25.com/news/articleView.html?idxno=55468",
-          "source": "public25.com",
-          "source_domain": "public25.com",
-          "published_at": "2026-09-28T16:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC '올해의 파트너상' 2년 연속 수상…'베라 루빈' 탑재 H...",
-          "url": "https://delighti.co.kr/news/articleView.html?idxno=122477",
-          "source": "delighti.co.kr",
-          "source_domain": "delighti.co.kr",
-          "published_at": "2026-09-28T15:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d5a7b6cdc0d6872d",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[ 美특징주 ] SK하이닉스 , 솔리다임 美 IPO 추진에 프리마켓서 4 % ↓",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04578886645584712",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T11:30:00Z",
-      "last_published_at": "2026-09-28T11:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt",
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[ 美특징주 ] SK하이닉스 , 솔리다임 美 IPO 추진에 프리마켓서 4 % ↓",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04578886645584712",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-09-28T11:30:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d9e10cd1c680f573",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 5%대 급락…외국인 3조원대 순매도",
-      "representative_url": "https://ppss.kr/news/articleView.html?idxno=312805",
-      "representative_source": "ppss.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T11:15:00Z",
-      "last_published_at": "2026-09-28T11:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ppss.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 3조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자· SK하이닉스 5%대 급락…외국인 3조원대 순매도",
-          "url": "https://ppss.kr/news/articleView.html?idxno=312805",
-          "source": "ppss.kr",
-          "source_domain": "ppss.kr",
-          "published_at": "2026-09-28T20:15:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9a67d904b0f3372e",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , TSMC 기술 행사서 차세대 AI 메모리 공개",
-      "representative_url": "https://etnews.com/20260928000352",
-      "representative_source": "etnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T06:42:00Z",
-      "last_published_at": "2026-09-28T11:00:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt",
-        "naver"
-      ],
-      "source_domains": [
-        "ebn.co.kr",
-        "etnews.com",
-        "fnnews.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "ai_memory"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "SK하이닉스 , TSMC 기술 행사에서 차세대 메모리 포트폴리오 공개",
-          "url": "https://fnnews.com/news/202609281548313431",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-09-28T16:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC 행사서 차세대 AI 메모리 총출동",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1725866",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-09-28T15:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , TSMC 기술 행사서 차세대 AI 메모리 공개",
-          "url": "https://etnews.com/20260928000352",
-          "source": "etnews.com",
-          "source_domain": "etnews.com",
-          "published_at": "2026-09-28T11:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8463a2ae42f9597f",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자 · SK하이닉스 다시 매수 기회 ?",
-      "representative_url": "https://etoday.co.kr/news/view/2629113",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T11:00:00Z",
-      "last_published_at": "2026-09-28T11:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 · SK하이닉스 다시 매수 기회 ?",
-          "url": "https://etoday.co.kr/news/view/2629113",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-09-28T11:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ab4fc96d163ce4bf",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "액트 , SK하이닉스에 주주서한 솔리다임 자금 조달 이유 설명하라",
-      "representative_url": "https://newsway.co.kr/news/view?ud=2026092815234775057",
-      "representative_source": "newsway.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T10:15:00Z",
-      "last_published_at": "2026-09-28T10:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "newsway.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "액트 , SK하이닉스에 주주서한 솔리다임 자금 조달 이유 설명하라",
-          "url": "https://newsway.co.kr/news/view?ud=2026092815234775057",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-09-28T10:15:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "GDELT"
         }
       ]
     }
