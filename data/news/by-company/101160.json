@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-29T16:53:16.729015Z",
+  "generated_at": "2026-09-30T02:06:38.072063Z",
   "company_name": "월덱스",
   "stock_code": "101160",
   "status": "partial",
-  "last_successful_update": "2026-09-29T16:53:16.729015Z",
+  "last_successful_update": "2026-09-30T02:06:38.072063Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -211,6 +211,49 @@
           "source": "ekn.kr",
           "source_domain": "ekn.kr",
           "published_at": "2026-07-23T13:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8eda080649d11498",
+      "company_name": "월덱스",
+      "stock_code": "101160",
+      "representative_title": "[리스트] MVP 상위 주식 20선...달바글로벌, 월덱스 등 - 30일",
+      "representative_url": "https://itooza.com/common/iview.php?no=2026093007152002052",
+      "representative_source": "itooza.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-09-29T22:46:00Z",
+      "last_published_at": "2026-09-29T22:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "itooza.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[리스트] MVP 상위 주식 20선...달바글로벌, 월덱스 등 - 30일",
+          "url": "https://itooza.com/common/iview.php?no=2026093007152002052",
+          "source": "itooza.com",
+          "source_domain": "itooza.com",
+          "published_at": "2026-09-30T07:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
