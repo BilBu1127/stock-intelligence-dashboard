@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-09-30T16:49:14.598050Z",
+  "generated_at": "2026-10-01T02:08:37.025371Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-09-30T16:49:14.598050Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-01T02:08:37.025371Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,50 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "450b8c3bde5a2c3d",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "[모닝 리포트] POSCO홀딩스 , 리튬 이익이 재평가 열쇠",
+      "representative_url": "https://newspim.com/news/view/20261001000067",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-01T00:02:00Z",
+      "last_published_at": "2026-10-01T00:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[모닝 리포트] POSCO홀딩스 , 리튬 이익이 재평가 열쇠",
+          "url": "https://newspim.com/news/view/20261001000067",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-01T09:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -444,49 +493,6 @@
           "source": "incheonilbo.com",
           "source_domain": "incheonilbo.com",
           "published_at": "2026-09-20T17:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a4f70649c084803c",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "POSCO홀딩스 32만5500원 약보합…철강·리튬 회복 기대 속 숨 고르기",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=228025",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-17T05:58:00Z",
-      "last_published_at": "2026-09-17T05:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "POSCO홀딩스 32만5500원 약보합…철강·리튬 회복 기대 속 숨 고르기",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=228025",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-09-17T14:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
