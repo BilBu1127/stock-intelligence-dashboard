@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-02T02:14:38.369915Z",
+  "generated_at": "2026-10-02T16:37:54.222126Z",
   "company_name": "하나마이크론",
   "stock_code": "067310",
   "status": "partial",
-  "last_successful_update": "2026-10-02T02:14:38.369915Z",
+  "last_successful_update": "2026-10-02T16:37:54.222126Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -103,6 +103,55 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-07-20T07:53:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6ea625af981132cc",
+      "company_name": "하나마이크론",
+      "stock_code": "067310",
+      "representative_title": "하나마이크론 5만원대 상승…첨단 패키징 투자 부각",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=230519",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-02T05:22:00Z",
+      "last_published_at": "2026-10-02T05:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "하나마이크론 5만원대 상승…첨단 패키징 투자 부각",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=230519",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-02T14:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -511,54 +560,6 @@
           "source": "ebn.co.kr",
           "source_domain": "ebn.co.kr",
           "published_at": "2026-09-21T16:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e13efbc15619db50",
-      "company_name": "하나마이크론",
-      "stock_code": "067310",
-      "representative_title": "하나마이크론 14.10% 상승…2분기 실적 개선 이후 투자 성과 관심",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=228528",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-21T05:34:00Z",
-      "last_published_at": "2026-09-21T05:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "하나마이크론 14.10% 상승…2분기 실적 개선 이후 투자 성과 관심",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=228528",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-09-21T14:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
