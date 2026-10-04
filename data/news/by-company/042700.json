@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-03T15:08:37.804239Z",
+  "generated_at": "2026-10-04T02:37:21.967040Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-10-03T15:08:37.804239Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-04T02:37:21.967040Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "e48dd52a08713a80",
@@ -1817,6 +1822,52 @@
       ]
     },
     {
+      "cluster_id": "1c3d3e50af56c398",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 등 일부 HBM 관련주 '빨간불'…와이씨·윈팩 5%대 강세",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=612288",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-04T02:26:00Z",
+      "last_published_at": "2026-10-04T02:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 등 일부 HBM 관련주 '빨간불'…와이씨·윈팩 5%대 강세",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=612288",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-04T11:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "e52f514e30f38560",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -2218,53 +2269,6 @@
           "source": "biz.heraldcorp.com",
           "source_domain": "biz.heraldcorp.com",
           "published_at": "2026-10-01T11:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "71fad6b4e1a3622e",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "HBM 관련주 10월 첫 장 흐름은?…SK하이닉스· 한미반도체 동반 강세",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=611449",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-01T00:56:00Z",
-      "last_published_at": "2026-10-01T00:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HBM 관련주 10월 첫 장 흐름은?…SK하이닉스· 한미반도체 동반 강세",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=611449",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-01T09:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
