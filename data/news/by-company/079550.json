@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-05T01:59:44.192098Z",
+  "generated_at": "2026-10-06T02:57:31.684976Z",
   "company_name": "LIG디펜스앤에어로스페이스",
   "stock_code": "079550",
-  "status": "ok",
-  "last_successful_update": "2026-10-05T01:59:44.192098Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-06T02:57:31.684976Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "08e39a3d2f2ad480",
@@ -142,6 +147,50 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-07-21T08:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "83931263ddded9ec",
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "representative_title": "말레이시아 해군, 차세대 대함미사일 도입 LIG D&A 해성·프랑스 MBDA 등...",
+      "representative_url": "https://theguru.co.kr/news/article.html?no=107854",
+      "representative_source": "theguru.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-05T23:46:00Z",
+      "last_published_at": "2026-10-05T23:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "theguru.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "말레이시아 해군, 차세대 대함미사일 도입 LIG D&A 해성·프랑스 MBDA 등...",
+          "url": "https://theguru.co.kr/news/article.html?no=107854",
+          "source": "theguru.co.kr",
+          "source_domain": "theguru.co.kr",
+          "published_at": "2026-10-06T08:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -537,50 +586,6 @@
           "source": "dealsite.co.kr",
           "source_domain": "dealsite.co.kr",
           "published_at": "2026-10-02T10:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "69f98b7e795ed73b",
-      "company_name": "LIG디펜스앤에어로스페이스",
-      "stock_code": "079550",
-      "representative_title": "한화에어로, 'K9' 미국 진출.... LIG D&A, '천궁-II' K-방공 핵심",
-      "representative_url": "https://newsfc.co.kr/news/articleView.html?idxno=81495",
-      "representative_source": "newsfc.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-02T00:46:00Z",
-      "last_published_at": "2026-10-02T00:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsfc.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로, 'K9' 미국 진출.... LIG D&A, '천궁-II' K-방공 핵심",
-          "url": "https://newsfc.co.kr/news/articleView.html?idxno=81495",
-          "source": "newsfc.co.kr",
-          "source_domain": "newsfc.co.kr",
-          "published_at": "2026-10-02T09:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
