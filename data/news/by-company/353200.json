@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T02:57:31.684976Z",
+  "generated_at": "2026-10-06T17:10:54.127204Z",
   "company_name": "대덕전자",
   "stock_code": "353200",
   "status": "partial",
-  "last_successful_update": "2026-10-06T02:57:31.684976Z",
+  "last_successful_update": "2026-10-06T17:10:54.127204Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -199,6 +199,53 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-18T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9656c7f1d479c358",
+      "company_name": "대덕전자",
+      "stock_code": "353200",
+      "representative_title": "대덕전자 15만6950원, 6.19% 상승…AI용 FC-BGA 투자 계획 점검",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=230757",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-06T04:46:00Z",
+      "last_published_at": "2026-10-06T04:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "대덕전자 15만6950원, 6.19% 상승…AI용 FC-BGA 투자 계획 점검",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=230757",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-06T13:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -596,50 +643,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-09-28T14:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f26817e896b7fd80",
-      "company_name": "대덕전자",
-      "stock_code": "353200",
-      "representative_title": "[속보] 반도체 기판주 동반 상승…LG이노텍 11% 급등, 대덕전자 ·삼성전...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=610281",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-28T00:12:00Z",
-      "last_published_at": "2026-09-28T00:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[속보] 반도체 기판주 동반 상승…LG이노텍 11% 급등, 대덕전자 ·삼성전...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=610281",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-09-28T09:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
