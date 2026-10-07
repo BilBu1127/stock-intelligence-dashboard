@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-07T02:22:28.281045Z",
+  "generated_at": "2026-10-07T17:48:59.609472Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-10-07T02:22:28.281045Z",
+  "last_successful_update": "2026-10-07T17:48:59.609472Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -2837,18 +2837,21 @@
       "representative_source": "pointdaily.co.kr",
       "representative_language": "Korean",
       "first_published_at": "2026-10-07T02:22:00Z",
-      "last_published_at": "2026-10-07T02:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "last_published_at": "2026-10-07T15:31:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
+        "donga.com",
+        "naeil.com",
         "pointdaily.co.kr"
       ],
       "categories": [
-        "기타"
+        "기타",
+        "인사·M&A"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2857,8 +2860,28 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
+        {
+          "title": "에이피알 , 멕시코 명품百 첫 입점",
+          "url": "https://donga.com/news/Economy/article/all/20261007/134804966/2",
+          "source": "donga.com",
+          "source_domain": "donga.com",
+          "published_at": "2026-10-08T00:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 멕시코 백화점 첫 입점",
+          "url": "https://naeil.com/news/read/604423",
+          "source": "naeil.com",
+          "source_domain": "naeil.com",
+          "published_at": "2026-10-07T13:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "에이피알 , 멕시코 백화점 공식 입점",
           "url": "https://pointdaily.co.kr/news/articleView.html?idxno=321514",
@@ -2872,70 +2895,15 @@
       ]
     },
     {
-      "cluster_id": "ab5ddd1ed6175da9",
+      "cluster_id": "b79472cf98d022a9",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 , 메디큐브 멕시코 유통망 확대…백화점 채널 추가",
-      "representative_url": "https://kdfnews.com/news/articleView.html?idxno=188950",
-      "representative_source": "kdfnews.com",
+      "representative_title": "에이피알 , 멕시코 백화점에 메디큐브 매장 입점 \"현지 오프라인 판매 채...",
+      "representative_url": "https://getnews.co.kr/news/articleView.html?idxno=882925",
+      "representative_source": "getnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-07T01:48:00Z",
-      "last_published_at": "2026-10-07T02:18:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "apparelnews.co.kr",
-        "kdfnews.com"
-      ],
-      "categories": [
-        "기타",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "에이피알 , 메디큐브 멕시코 유통망 확대…백화점 상시 매장 확보",
-          "url": "https://apparelnews.co.kr/news/news_view?idx=228086",
-          "source": "apparelnews.co.kr",
-          "source_domain": "apparelnews.co.kr",
-          "published_at": "2026-10-07T11:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , 메디큐브 멕시코 유통망 확대…백화점 채널 추가",
-          "url": "https://kdfnews.com/news/articleView.html?idxno=188950",
-          "source": "kdfnews.com",
-          "source_domain": "kdfnews.com",
-          "published_at": "2026-10-07T10:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c389a6bc075276d7",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "[K뷰티 판을 바꾸다(中)] 에이피알 , 홈뷰티 성공 공식 '메디컬'로 옮긴다...",
-      "representative_url": "https://industrynews.co.kr/news/articleView.html?idxno=87079",
-      "representative_source": "industrynews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T02:14:00Z",
-      "last_published_at": "2026-10-07T02:14:00Z",
+      "first_published_at": "2026-10-07T09:22:00Z",
+      "last_published_at": "2026-10-07T09:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2943,206 +2911,7 @@
         "naver"
       ],
       "source_domains": [
-        "industrynews.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[K뷰티 판을 바꾸다(中)] 에이피알 , 홈뷰티 성공 공식 '메디컬'로 옮긴다...",
-          "url": "https://industrynews.co.kr/news/articleView.html?idxno=87079",
-          "source": "industrynews.co.kr",
-          "source_domain": "industrynews.co.kr",
-          "published_at": "2026-10-07T11:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "572f86e8763039d7",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 멕시코 프리미엄 백화점에 상시 매장",
-      "representative_url": "https://yna.co.kr/view/AKR20261007046000030?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-06T23:34:00Z",
-      "last_published_at": "2026-10-07T02:12:00Z",
-      "article_count": 11,
-      "domestic_article_count": 11,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bokuennews.com",
-        "dealsite.co.kr",
-        "ekn.kr",
-        "fnnews.com",
-        "joongangenews.com",
-        "news.tf.co.kr",
-        "newsdream.kr",
-        "newstopkorea.com",
-        "shinailbo.co.kr",
-        "sports.hankooki.com",
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "기타",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "에이피알 , 메디큐브 멕시코 백화점 입점…상시 매장 연다",
-          "url": "https://sports.hankooki.com/news/articleView.html?idxno=6941319",
-          "source": "sports.hankooki.com",
-          "source_domain": "sports.hankooki.com",
-          "published_at": "2026-10-07T11:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점에 상시 매장",
-          "url": "https://yna.co.kr/view/AKR20261007046000030?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-10-07T10:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 상시 매장 오픈",
-          "url": "https://bokuennews.com/news/article.html?no=285176",
-          "source": "bokuennews.com",
-          "source_domain": "bokuennews.com",
-          "published_at": "2026-10-07T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 이번엔 멕시코…프리미엄 백화점 입점",
-          "url": "https://shinailbo.co.kr/news/articleView.html?idxno=5069365",
-          "source": "shinailbo.co.kr",
-          "source_domain": "shinailbo.co.kr",
-          "published_at": "2026-10-07T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입성…K뷰티 최초",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=553024",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-10-07T10:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코서 백화점 첫 입점",
-          "url": "https://fnnews.com/news/202610070900387551",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-10-07T09:49:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 최고급 백화점에 상시 매장 연다",
-          "url": "https://newsdream.kr/news/articleView.html?idxno=119482",
-          "source": "newsdream.kr",
-          "source_domain": "newsdream.kr",
-          "published_at": "2026-10-07T09:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입점",
-          "url": "https://dealsite.co.kr/articles/170219",
-          "source": "dealsite.co.kr",
-          "source_domain": "dealsite.co.kr",
-          "published_at": "2026-10-07T09:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입점…중남미 K-뷰티 공략",
-          "url": "https://news.tf.co.kr/read/economy/2373616.htm",
-          "source": "news.tf.co.kr",
-          "source_domain": "news.tf.co.kr",
-          "published_at": "2026-10-07T08:51:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점에 상시 매장 오픈",
-          "url": "https://newstopkorea.com/news/articleView.html?idxno=48019",
-          "source": "newstopkorea.com",
-          "source_domain": "newstopkorea.com",
-          "published_at": "2026-10-07T08:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입점…중남미 유통망 넓힌...",
-          "url": "https://ekn.kr/web/view.php?key=20261007022553104",
-          "source": "ekn.kr",
-          "source_domain": "ekn.kr",
-          "published_at": "2026-10-07T08:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "aee522aa78a53d33",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "[민주 유통가] 에이피알 ·LG유니참·아모레퍼시픽",
-      "representative_url": "https://iminju.net/news/articleView.html?idxno=170469",
-      "representative_source": "iminju.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T01:50:00Z",
-      "last_published_at": "2026-10-07T01:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "iminju.net"
+        "getnews.co.kr"
       ],
       "categories": [
         "기타"
@@ -3157,11 +2926,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[민주 유통가] 에이피알 ·LG유니참·아모레퍼시픽",
-          "url": "https://iminju.net/news/articleView.html?idxno=170469",
-          "source": "iminju.net",
-          "source_domain": "iminju.net",
-          "published_at": "2026-10-07T10:50:00+09:00",
+          "title": "에이피알 , 멕시코 백화점에 메디큐브 매장 입점 \"현지 오프라인 판매 채...",
+          "url": "https://getnews.co.kr/news/articleView.html?idxno=882925",
+          "source": "getnews.co.kr",
+          "source_domain": "getnews.co.kr",
+          "published_at": "2026-10-07T18:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3177,18 +2946,21 @@
       "representative_source": "sedaily.com",
       "representative_language": "Korean",
       "first_published_at": "2026-10-07T01:49:00Z",
-      "last_published_at": "2026-10-07T01:49:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "last_published_at": "2026-10-07T08:28:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
+        "cnbizm.com",
+        "lawissue.co.kr",
         "sedaily.com"
       ],
       "categories": [
-        "기타"
+        "기타",
+        "인사·M&A"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -3197,8 +2969,28 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
+        {
+          "title": "에이피알 , 멕시코 프리미엄 백화점에 메디큐브 상시 매장 오픈",
+          "url": "https://cnbizm.com/news/articleView.html?idxno=317383",
+          "source": "cnbizm.com",
+          "source_domain": "cnbizm.com",
+          "published_at": "2026-10-07T17:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 멕시코 프리미엄 백화점에 메디큐브 상시 매장 열어",
+          "url": "https://lawissue.co.kr/view.php?ud=202610071441183562204ead0791_12",
+          "source": "lawissue.co.kr",
+          "source_domain": "lawissue.co.kr",
+          "published_at": "2026-10-07T14:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "에이피알 , 멕시코 프리미엄 백화점 입점…메디큐브 상시 매장 연다",
           "url": "https://sedaily.com/article/20098914",
@@ -3212,15 +3004,58 @@
       ]
     },
     {
-      "cluster_id": "5d27d54203bb1af7",
+      "cluster_id": "9532b262be61e7b4",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 멕시코 '팔라시오 데 히에로' 공식 입점",
-      "representative_url": "https://beyondpost.co.kr/view.php?ud=20261007083715551446a9e4dd7f_30",
-      "representative_source": "beyondpost.co.kr",
+      "representative_title": "에이피알 메디큐브, 멕시코 백화점 뚫었다…‘팔라시오’ 첫 K뷰티 입점",
+      "representative_url": "https://etoday.co.kr/news/view/2633547",
+      "representative_source": "etoday.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-06T23:40:00Z",
-      "last_published_at": "2026-10-07T01:36:00Z",
+      "first_published_at": "2026-10-07T08:08:00Z",
+      "last_published_at": "2026-10-07T08:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 메디큐브, 멕시코 백화점 뚫었다…‘팔라시오’ 첫 K뷰티 입점",
+          "url": "https://etoday.co.kr/news/view/2633547",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-10-07T17:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "1ca656392aef8ee4",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 메디큐브 멕시코 백화점 입점…상시 매장 연다",
+      "representative_url": "https://sports.hankooki.com/news/articleView.html?idxno=6941319",
+      "representative_source": "sports.hankooki.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-07T02:12:00Z",
+      "last_published_at": "2026-10-07T08:04:00Z",
       "article_count": 2,
       "domestic_article_count": 2,
       "international_article_count": 0,
@@ -3228,8 +3063,8 @@
         "naver"
       ],
       "source_domains": [
-        "beyondpost.co.kr",
-        "businesspost.co.kr"
+        "mt.co.kr",
+        "sports.hankooki.com"
       ],
       "categories": [
         "기타"
@@ -3244,21 +3079,21 @@
       "needs_review": true,
       "articles": [
         {
-          "title": "에이피알 메디큐브, 멕시코 백화점 '팔라시오 데 히에로' 입점",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=448779",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-10-07T10:36:00+09:00",
+          "title": "에이피알 메디큐브, 멕시코 백화점에 상시 매장 열어",
+          "url": "https://mt.co.kr/living/2026/10/07/2026100716570737336",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-10-07T17:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 메디큐브, 멕시코 '팔라시오 데 히에로' 공식 입점",
-          "url": "https://beyondpost.co.kr/view.php?ud=20261007083715551446a9e4dd7f_30",
-          "source": "beyondpost.co.kr",
-          "source_domain": "beyondpost.co.kr",
-          "published_at": "2026-10-07T08:40:00+09:00",
+          "title": "에이피알 , 메디큐브 멕시코 백화점 입점…상시 매장 연다",
+          "url": "https://sports.hankooki.com/news/articleView.html?idxno=6941319",
+          "source": "sports.hankooki.com",
+          "source_domain": "sports.hankooki.com",
+          "published_at": "2026-10-07T11:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3266,15 +3101,15 @@
       ]
     },
     {
-      "cluster_id": "0e2c776e5923c2f6",
+      "cluster_id": "2e002b565ce6438e",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 , 멕시코 백화점에 메디큐브 입점…글로벌 유통 채널 확대",
-      "representative_url": "https://etnews.com/20261007000117",
-      "representative_source": "etnews.com",
+      "representative_title": "에이피알 , 메디큐브 멕시코 백화점 입점…중남미 한국 화장품 수입액 2...",
+      "representative_url": "https://sisacast.kr/news/articleView.html?idxno=100780",
+      "representative_source": "sisacast.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-07T01:23:00Z",
-      "last_published_at": "2026-10-07T01:23:00Z",
+      "first_published_at": "2026-10-07T07:48:00Z",
+      "last_published_at": "2026-10-07T07:48:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3282,54 +3117,10 @@
         "naver"
       ],
       "source_domains": [
-        "etnews.com"
+        "sisacast.kr"
       ],
       "categories": [
         "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 , 멕시코 백화점에 메디큐브 입점…글로벌 유통 채널 확대",
-          "url": "https://etnews.com/20261007000117",
-          "source": "etnews.com",
-          "source_domain": "etnews.com",
-          "published_at": "2026-10-07T10:23:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "af0bc1ae8c0e9eea",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "美 쇼핑시즌 기대 화장품주 강세… 에이피알 4%↑[핫종목]",
-      "representative_url": "https://news1.kr/finance/general-stock/6312540",
-      "representative_source": "news1.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T01:13:00Z",
-      "last_published_at": "2026-10-07T01:13:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr"
-      ],
-      "categories": [
-        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 20,
@@ -3342,11 +3133,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "美 쇼핑시즌 기대 화장품주 강세… 에이피알 4%↑[핫종목]",
-          "url": "https://news1.kr/finance/general-stock/6312540",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-10-07T10:13:00+09:00",
+          "title": "에이피알 , 메디큐브 멕시코 백화점 입점…중남미 한국 화장품 수입액 2...",
+          "url": "https://sisacast.kr/news/articleView.html?idxno=100780",
+          "source": "sisacast.kr",
+          "source_domain": "sisacast.kr",
+          "published_at": "2026-10-07T16:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3354,15 +3145,15 @@
       ]
     },
     {
-      "cluster_id": "396c782e3be32755",
+      "cluster_id": "343a5ba7b8597983",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 , 메디큐브 멕시코 백화점 입점…“유통망 더 넓힌다”",
-      "representative_url": "https://biz.heraldcorp.com/article/10895140",
-      "representative_source": "biz.heraldcorp.com",
+      "representative_title": "에이피알 , 멕시코 명품 백화점 뚫었다…“K뷰티 브랜드 최초”",
+      "representative_url": "https://donga.com/news/Economy/article/all/20261007/134802618/1",
+      "representative_source": "donga.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-07T00:46:00Z",
-      "last_published_at": "2026-10-07T00:46:00Z",
+      "first_published_at": "2026-10-07T07:29:00Z",
+      "last_published_at": "2026-10-07T07:29:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3370,9 +3161,173 @@
         "naver"
       ],
       "source_domains": [
-        "biz.heraldcorp.com"
+        "donga.com"
       ],
       "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 멕시코 명품 백화점 뚫었다…“K뷰티 브랜드 최초”",
+          "url": "https://donga.com/news/Economy/article/all/20261007/134802618/1",
+          "source": "donga.com",
+          "source_domain": "donga.com",
+          "published_at": "2026-10-07T16:29:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4a6e3f297de6f95d",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 '메디큐브', 멕시코 프리미엄 백화점 입점…남미 유통망 확대",
+      "representative_url": "https://cnbnews.com/news/articleView.html?idxno=1018402",
+      "representative_source": "cnbnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-07T02:32:00Z",
+      "last_published_at": "2026-10-07T07:24:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cnbnews.com",
+        "ddaily.co.kr",
+        "econovill.com",
+        "finomy.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입점···오프라인 확대",
+          "url": "https://finomy.com/news/articleView.html?idxno=263064",
+          "source": "finomy.com",
+          "source_domain": "finomy.com",
+          "published_at": "2026-10-07T16:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 입성",
+          "url": "https://ddaily.co.kr/page/view/2026100713352632164",
+          "source": "ddaily.co.kr",
+          "source_domain": "ddaily.co.kr",
+          "published_at": "2026-10-07T13:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 멕시코 프리미엄 백화점 공식 입점",
+          "url": "https://econovill.com/news/articleView.html?idxno=752950",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-10-07T12:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 '메디큐브', 멕시코 프리미엄 백화점 입점…남미 유통망 확대",
+          "url": "https://cnbnews.com/news/articleView.html?idxno=1018402",
+          "source": "cnbnews.com",
+          "source_domain": "cnbnews.com",
+          "published_at": "2026-10-07T11:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0153a1587440ceb1",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 주가, 10월 7일 애프터마켓 378,500원 4.85% 상승",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16240778",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-07T07:22:00Z",
+      "last_published_at": "2026-10-07T07:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 주가, 10월 7일 애프터마켓 378,500원 4.85% 상승",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16240778",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-10-07T16:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5518d907b4b01f14",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "[MD패션뷰티] 에이피알 메디큐브, 멕시코 최고급 백화점 ‘팔라시오 데...",
+      "representative_url": "https://mydaily.co.kr/page/view/2026100715191900690",
+      "representative_source": "mydaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-07T06:20:00Z",
+      "last_published_at": "2026-10-07T06:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mydaily.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
         "기타"
       ],
       "event_keywords": [],
@@ -3385,11 +3340,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 , 메디큐브 멕시코 백화점 입점…“유통망 더 넓힌다”",
-          "url": "https://biz.heraldcorp.com/article/10895140",
-          "source": "biz.heraldcorp.com",
-          "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-10-07T09:46:00+09:00",
+          "title": "[MD패션뷰티] 에이피알 메디큐브, 멕시코 최고급 백화점 ‘팔라시오 데...",
+          "url": "https://mydaily.co.kr/page/view/2026100715191900690",
+          "source": "mydaily.co.kr",
+          "source_domain": "mydaily.co.kr",
+          "published_at": "2026-10-07T15:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
