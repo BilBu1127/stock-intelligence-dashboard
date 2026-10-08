@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-07T17:48:59.609472Z",
+  "generated_at": "2026-10-08T02:41:47.745821Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-10-07T17:48:59.609472Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-08T02:41:47.745821Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "c10ed01e4aa9776f",
@@ -2588,6 +2593,50 @@
       ]
     },
     {
+      "cluster_id": "2b44dd29a49ccd06",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "두산에너빌리티 , 3%대 하락…삼성증권은 원전·가스터빈 성장성 주목",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=613398",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-08T00:34:00Z",
+      "last_published_at": "2026-10-08T00:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 25,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "두산에너빌리티 , 3%대 하락…삼성증권은 원전·가스터빈 성장성 주목",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=613398",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-08T09:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "d5965da15b08fbbf",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -2990,50 +3039,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-10-07T09:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "380382679ebeece7",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 미국 스페이스XAI에 380MW 가스터빈 첫 출하",
-      "representative_url": "https://handmk.com/news/articleView.html?idxno=43852",
-      "representative_source": "handmk.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T00:12:00Z",
-      "last_published_at": "2026-10-07T00:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "handmk.com"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 , 미국 스페이스XAI에 380MW 가스터빈 첫 출하",
-          "url": "https://handmk.com/news/articleView.html?idxno=43852",
-          "source": "handmk.com",
-          "source_domain": "handmk.com",
-          "published_at": "2026-10-07T09:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
