@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-09T17:26:09.165418Z",
+  "generated_at": "2026-10-10T02:19:34.275738Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-10-09T17:26:09.165418Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-10T02:19:34.275738Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "c10447be6a0d4c3b",
@@ -2392,6 +2397,50 @@
       ]
     },
     {
+      "cluster_id": "f9354a5d1f9f3a18",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "최근 5거래일 한미반도체 주가 28만원서 26만원 등락",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16243039",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-10T02:16:00Z",
+      "last_published_at": "2026-10-10T02:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "최근 5거래일 한미반도체 주가 28만원서 26만원 등락",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16243039",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-10-10T11:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "0c770fde1e8cec19",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -2872,52 +2921,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-07T13:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9aca5429f1e036fc",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 후공정 장비서 AI 패키징 핵심 기업으로…HBM이 바꾼 46년 성...",
-      "representative_url": "https://betanews.net/article/view/beta202610070094",
-      "representative_source": "betanews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T04:34:00Z",
-      "last_published_at": "2026-10-07T04:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "betanews.net"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 후공정 장비서 AI 패키징 핵심 기업으로…HBM이 바꾼 46년 성...",
-          "url": "https://betanews.net/article/view/beta202610070094",
-          "source": "betanews.net",
-          "source_domain": "betanews.net",
-          "published_at": "2026-10-07T13:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
