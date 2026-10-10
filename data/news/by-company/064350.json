@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-10T02:19:34.275738Z",
+  "generated_at": "2026-10-10T16:14:06.066751Z",
   "company_name": "현대로템",
   "stock_code": "064350",
   "status": "partial",
-  "last_successful_update": "2026-10-10T02:19:34.275738Z",
+  "last_successful_update": "2026-10-10T16:14:06.066751Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -2040,6 +2040,50 @@
       ]
     },
     {
+      "cluster_id": "baf3e101417ef17d",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "10월 초 현대로템 주가 5거래일간 지속된 하락세",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=553823",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-10T02:50:00Z",
+      "last_published_at": "2026-10-10T02:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "10월 초 현대로템 주가 5거래일간 지속된 하락세",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=553823",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-10-10T11:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "1732420f40edb15e",
       "company_name": "현대로템",
       "stock_code": "064350",
@@ -2423,130 +2467,6 @@
           "source": "fnnews.com",
           "source_domain": "fnnews.com",
           "published_at": "2026-10-08T18:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a94cb87a6fdb1dcd",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , 이집트 신행정수도에 수소전기트램 공급 추진",
-      "representative_url": "https://sidae.com/article/2026100810463840435",
-      "representative_source": "sidae.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-08T02:03:00Z",
-      "last_published_at": "2026-10-08T09:00:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cstimes.com",
-        "ebn.co.kr",
-        "m-i.kr",
-        "mediafine.co.kr",
-        "news.tvchosun.com",
-        "segye.com",
-        "sentv.co.kr",
-        "sidae.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "현대로템 , 이집트 신행정수도 수소트램 구축 '맞손'…첫 해외 진출 발판",
-          "url": "https://m-i.kr/news/articleView.html?idxno=2004206",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-10-08T18:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도 수소트램 구축 업무협약…첫 해외 수출 발...",
-          "url": "https://segye.com/newsView/20261008513276?OutUrl=naver",
-          "source": "segye.com",
-          "source_domain": "segye.com",
-          "published_at": "2026-10-08T15:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도 수소전기트램 공급 추진",
-          "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/08/2026100890144.html",
-          "source": "news.tvchosun.com",
-          "source_domain": "news.tvchosun.com",
-          "published_at": "2026-10-08T15:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도 수소전기트램 사업 추진…첫 해외 진출 시...",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=92054",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-10-08T14:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트와 수소트램 구축 협력...첫 해외 수출 '발판'",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1727164",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-10-08T13:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도 수소전기트램 구축 협력…첫 해외 진출 발...",
-          "url": "https://cstimes.com/news/articleView.html?idxno=723378",
-          "source": "cstimes.com",
-          "source_domain": "cstimes.com",
-          "published_at": "2026-10-08T13:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도에 수소전기트램 공급 추진…첫 해외 진출...",
-          "url": "https://sentv.co.kr/article/view/sentv202610080081",
-          "source": "sentv.co.kr",
-          "source_domain": "sentv.co.kr",
-          "published_at": "2026-10-08T11:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 이집트 신행정수도에 수소전기트램 공급 추진",
-          "url": "https://sidae.com/article/2026100810463840435",
-          "source": "sidae.com",
-          "source_domain": "sidae.com",
-          "published_at": "2026-10-08T11:03:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-10T02:19:34.275738Z",
+  "generated_at": "2026-10-10T16:14:06.066751Z",
   "company_name": "현대건설",
   "stock_code": "000720",
   "status": "partial",
-  "last_successful_update": "2026-10-10T02:19:34.275738Z",
+  "last_successful_update": "2026-10-10T16:14:06.066751Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1222,6 +1222,52 @@
       ]
     },
     {
+      "cluster_id": "6bdea150ae114cff",
+      "company_name": "현대건설",
+      "stock_code": "000720",
+      "representative_title": "건설사 3분기 실적 기상도 보니 현대건설 ·대우건설 '맑음' GS건설 '흐림...",
+      "representative_url": "https://theguru.co.kr/news/article.html?no=107968",
+      "representative_source": "theguru.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-10T15:02:00Z",
+      "last_published_at": "2026-10-10T15:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "theguru.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "건설사 3분기 실적 기상도 보니 현대건설 ·대우건설 '맑음' GS건설 '흐림...",
+          "url": "https://theguru.co.kr/news/article.html?no=107968",
+          "source": "theguru.co.kr",
+          "source_domain": "theguru.co.kr",
+          "published_at": "2026-10-11T00:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "e093e1323c0c3b4c",
       "company_name": "현대건설",
       "stock_code": "000720",
@@ -1652,95 +1698,6 @@
           "source": "daily.hankooki.com",
           "source_domain": "daily.hankooki.com",
           "published_at": "2026-10-08T18:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d48f3d8bf39b46f4",
-      "company_name": "현대건설",
-      "stock_code": "000720",
-      "representative_title": "현대건설 , 네덜란드서 신규 원전 사업…대형원전 기본설계 착수",
-      "representative_url": "https://news.tvchosun.com/site/data/html_dir/2026/10/08/2026100890147.html",
-      "representative_source": "news.tvchosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-08T06:45:00Z",
-      "last_published_at": "2026-10-08T09:19:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ddaily.co.kr",
-        "fnnews.com",
-        "news.tvchosun.com",
-        "newspost.kr",
-        "weekly.hankooki.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "현대건설 , 네덜란드 새 대형원전 설계 착수",
-          "url": "https://fnnews.com/news/202610081817565513",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-10-08T18:19:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대건설 , 네덜란드 신규 원전 사업 기본설계 착수",
-          "url": "https://newspost.kr/news/articleView.html?idxno=226213",
-          "source": "newspost.kr",
-          "source_domain": "newspost.kr",
-          "published_at": "2026-10-08T17:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대건설 , 네덜란드 대형원전 2기 기본설계 착수",
-          "url": "https://ddaily.co.kr/page/view/2026100817361346812",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-10-08T17:37:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대건설 , 네덜란드 신규 대형원전 사업 기본설계 참여",
-          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7188127",
-          "source": "weekly.hankooki.com",
-          "source_domain": "weekly.hankooki.com",
-          "published_at": "2026-10-08T16:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대건설 , 네덜란드서 신규 원전 사업…대형원전 기본설계 착수",
-          "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/08/2026100890147.html",
-          "source": "news.tvchosun.com",
-          "source_domain": "news.tvchosun.com",
-          "published_at": "2026-10-08T15:45:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
