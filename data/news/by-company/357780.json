@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T02:23:13.984598Z",
+  "generated_at": "2026-10-12T20:17:19.905044Z",
   "company_name": "솔브레인",
   "stock_code": "357780",
   "status": "partial",
-  "last_successful_update": "2026-10-12T02:23:13.984598Z",
+  "last_successful_update": "2026-10-12T20:17:19.905044Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -52,6 +52,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-07T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d3332671b171858d",
+      "company_name": "솔브레인",
+      "stock_code": "357780",
+      "representative_title": "솔브레인 주가, 10월 12일 396,500원 3.65% 하락",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=554237",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-12T08:24:00Z",
+      "last_published_at": "2026-10-12T08:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "솔브레인 주가, 10월 12일 396,500원 3.65% 하락",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=554237",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-10-12T17:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

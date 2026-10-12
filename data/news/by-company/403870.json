@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T02:23:13.984598Z",
+  "generated_at": "2026-10-12T20:17:19.905044Z",
   "company_name": "HPSP",
   "stock_code": "403870",
   "status": "partial",
-  "last_successful_update": "2026-10-12T02:23:13.984598Z",
+  "last_successful_update": "2026-10-12T20:17:19.905044Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -100,6 +100,50 @@
           "source": "zdnet.co.kr",
           "source_domain": "zdnet.co.kr",
           "published_at": "2026-08-13T16:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9a33450109d3aaa9",
+      "company_name": "HPSP",
+      "stock_code": "403870",
+      "representative_title": "HPSP 6만2000원…고압 수소 어닐링 장비 수요 주목",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=231698",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-12T05:38:00Z",
+      "last_published_at": "2026-10-12T05:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HPSP 6만2000원…고압 수소 어닐링 장비 수요 주목",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=231698",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-12T14:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -508,49 +552,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-10-03T11:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7dec1284ee8b7265",
-      "company_name": "HPSP",
-      "stock_code": "403870",
-      "representative_title": "HPSP 6만원대 급락…저점 부근서 공방",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=230457",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-02T04:36:00Z",
-      "last_published_at": "2026-10-02T04:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HPSP 6만원대 급락…저점 부근서 공방",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=230457",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-02T13:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
