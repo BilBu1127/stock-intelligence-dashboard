@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-13T03:32:53.320549Z",
+  "generated_at": "2026-10-13T18:17:11.030566Z",
   "company_name": "효성중공업",
   "stock_code": "298040",
-  "status": "ok",
-  "last_successful_update": "2026-10-13T03:32:53.320549Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-13T18:17:11.030566Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "c083791e48b9bdb2",
@@ -1000,6 +1005,52 @@
       ]
     },
     {
+      "cluster_id": "aaf8c62e3cae91c0",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "효성중공업 210만원대로 후퇴…전력기기 수주 소화력이 관건",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=231957",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-13T04:54:00Z",
+      "last_published_at": "2026-10-13T04:54:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기타",
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 25,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "효성중공업 210만원대로 후퇴…전력기기 수주 소화력이 관건",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=231957",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-13T13:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "1c82d5018892d5f3",
       "company_name": "효성중공업",
       "stock_code": "298040",
@@ -1392,49 +1443,6 @@
           "source": "pinpointnews.co.kr",
           "source_domain": "pinpointnews.co.kr",
           "published_at": "2026-10-11T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ebb0cd218d14e407",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "\"가상으로 안정성 검증\"… 효성중공업 , 2GW급 HVDC 성능검증 설비 구축",
-      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=321668",
-      "representative_source": "thepublic.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-11T00:12:00Z",
-      "last_published_at": "2026-10-11T00:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "thepublic.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"가상으로 안정성 검증\"… 효성중공업 , 2GW급 HVDC 성능검증 설비 구축",
-          "url": "https://thepublic.kr/news/articleView.html?idxno=321668",
-          "source": "thepublic.kr",
-          "source_domain": "thepublic.kr",
-          "published_at": "2026-10-11T09:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
