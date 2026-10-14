@@ -1,16 +1,75 @@
 {
-  "generated_at": "2026-10-13T18:17:11.030566Z",
+  "generated_at": "2026-10-14T01:54:00.777118Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-10-13T18:17:11.030566Z",
+  "last_successful_update": "2026-10-14T01:54:00.777118Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
+    {
+      "cluster_id": "58041c088fd02f82",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 반도체 대전서 HBM 4E 등 AI 반도체 기술 총망라",
+      "representative_url": "https://yna.co.kr/view/AKR20261014042300003?input=1195m",
+      "representative_source": "yna.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T01:00:00Z",
+      "last_published_at": "2026-10-14T01:24:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "jasm.co.kr",
+        "yna.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 40,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자 , 반도체대전 참가…HBM4E 등 AI 반도체 기술 총망라",
+          "url": "https://jasm.co.kr/news/view/321426?sc=Naver",
+          "source": "jasm.co.kr",
+          "source_domain": "jasm.co.kr",
+          "published_at": "2026-10-14T10:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 반도체 대전서 HBM 4E 등 AI 반도체 기술 총망라",
+          "url": "https://yna.co.kr/view/AKR20261014042300003?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-10-14T10:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "badd51e034bdd1f7",
       "company_name": "삼성전자",
@@ -4039,72 +4098,15 @@
       ]
     },
     {
-      "cluster_id": "84e570641f287c51",
+      "cluster_id": "6a4d3d69f52501df",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "홍라희, 이재용에 삼성전자 주식 2조6000억 규모 증여",
-      "representative_url": "https://kmib.co.kr/article/view.asp?arcid=9000022302&cp=nv",
-      "representative_source": "kmib.co.kr",
+      "representative_title": "'2026 반도체대전' 개막… 삼성전자 ·SK하이닉스 등 300개사 집결",
+      "representative_url": "https://ilovepc.co.kr/news/articleView.html?idxno=60969",
+      "representative_source": "ilovepc.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:20:00Z",
-      "last_published_at": "2026-10-13T17:08:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gukjenews.com",
-        "kmib.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 2조",
-        "6000억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "이재용, 삼성전자 주식 2조6000억 증여받아…지분율 1.75%로 상승",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3720668",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-10-14T02:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "홍라희, 이재용에 삼성전자 주식 2조6000억 규모 증여",
-          "url": "https://kmib.co.kr/article/view.asp?arcid=9000022302&cp=nv",
-          "source": "kmib.co.kr",
-          "source_domain": "kmib.co.kr",
-          "published_at": "2026-10-14T00:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f00beb22fd59498e",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "KB금융 ESG 종합평가 1위 … 현대차· 삼성전자 , S등급으로 도약",
-      "representative_url": "https://worktoday.co.kr/news/articleView.html?idxno=90378",
-      "representative_source": "worktoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T16:04:00Z",
-      "last_published_at": "2026-10-13T16:04:00Z",
+      "first_published_at": "2026-10-14T01:54:00Z",
+      "last_published_at": "2026-10-14T01:54:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4112,158 +4114,13 @@
         "naver"
       ],
       "source_domains": [
-        "worktoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KB금융 ESG 종합평가 1위 … 현대차· 삼성전자 , S등급으로 도약",
-          "url": "https://worktoday.co.kr/news/articleView.html?idxno=90378",
-          "source": "worktoday.co.kr",
-          "source_domain": "worktoday.co.kr",
-          "published_at": "2026-10-14T01:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ffe56c72050d195d",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "[속보]홍라희 관장, 아들 이재용 회장에 삼성전자 주식 2.6조 증여",
-      "representative_url": "https://munhwa.com/article/11623248",
-      "representative_source": "munhwa.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T12:58:00Z",
-      "last_published_at": "2026-10-13T15:46:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "daily.hankooki.com",
-        "munhwa.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 6조",
-        "executive"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "이재용 회장, 2.6조 규모 홍라희 관장 삼성전자 주식 수증",
-          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1414454",
-          "source": "daily.hankooki.com",
-          "source_domain": "daily.hankooki.com",
-          "published_at": "2026-10-14T00:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[속보]홍라희 관장, 아들 이재용 회장에 삼성전자 주식 2.6조 증여",
-          "url": "https://munhwa.com/article/11623248",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-10-13T21:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f5934dce2eb8837d",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "이재용, 홍라희로부터 삼성전자 지분 2.6조원 증여받는다 … 지분율 1.5...",
-      "representative_url": "https://worktoday.co.kr/news/articleView.html?idxno=90377",
-      "representative_source": "worktoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:46:00Z",
-      "last_published_at": "2026-10-13T15:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "worktoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 6조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "이재용, 홍라희로부터 삼성전자 지분 2.6조원 증여받는다 … 지분율 1.5...",
-          "url": "https://worktoday.co.kr/news/articleView.html?idxno=90377",
-          "source": "worktoday.co.kr",
-          "source_domain": "worktoday.co.kr",
-          "published_at": "2026-10-14T00:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "732729e32eb3a3df",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "“속도·용량·저장 다 잡는다”… 삼성전자 의 AI 메모리 ‘3대 전략’",
-      "representative_url": "https://kmib.co.kr/article/view.asp?arcid=9000022323&cp=nv",
-      "representative_source": "kmib.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:45:00Z",
-      "last_published_at": "2026-10-13T15:45:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kmib.co.kr"
+        "ilovepc.co.kr"
       ],
       "categories": [
         "기술·제품"
       ],
       "event_keywords": [
-        "ai_memory"
+        "2026"
       ],
       "importance_score": 15,
       "importance_level": "low",
@@ -4274,11 +4131,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "“속도·용량·저장 다 잡는다”… 삼성전자 의 AI 메모리 ‘3대 전략’",
-          "url": "https://kmib.co.kr/article/view.asp?arcid=9000022323&cp=nv",
-          "source": "kmib.co.kr",
-          "source_domain": "kmib.co.kr",
-          "published_at": "2026-10-14T00:45:00+09:00",
+          "title": "'2026 반도체대전' 개막… 삼성전자 ·SK하이닉스 등 300개사 집결",
+          "url": "https://ilovepc.co.kr/news/articleView.html?idxno=60969",
+          "source": "ilovepc.co.kr",
+          "source_domain": "ilovepc.co.kr",
+          "published_at": "2026-10-14T10:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4286,15 +4143,87 @@
       ]
     },
     {
-      "cluster_id": "fc9bbbe86533be5a",
+      "cluster_id": "d4f1c130144e7436",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 반도체 협력사 5만8000명에 감사 행사",
-      "representative_url": "https://donga.com/news/Economy/article/all/20261013/134835772/2",
-      "representative_source": "donga.com",
+      "representative_title": "삼성전자 , SEDEX서 HBM 4E·첨단 패키징 공개 … 용인 360조 투자 청사진",
+      "representative_url": "https://biz.newdaily.co.kr/site/data/html/2026/10/14/2026101400038.html",
+      "representative_source": "biz.newdaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:32:00Z",
-      "last_published_at": "2026-10-13T15:32:00Z",
+      "first_published_at": "2026-10-14T01:00:00Z",
+      "last_published_at": "2026-10-14T01:52:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ajunews.com",
+        "biz.newdaily.co.kr",
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 360조",
+        "hbm",
+        "investment"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , SEDEX서 HBM4E·첨단패키징 공개…용인 360조 비전 제시",
+          "url": "https://etoday.co.kr/news/view/2635607",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-10-14T10:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , SEDEX서 360조원 투자 '용인 국가산단' 비전 제시…\"2029년 첫...",
+          "url": "https://ajunews.com/view/20261014084248170",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-10-14T10:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , SEDEX서 HBM 4E·첨단 패키징 공개 … 용인 360조 투자 청사진",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/14/2026101400038.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-10-14T10:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "83b99a8424facd06",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[Biz&Law] 삼성전자 , 美 갤럭시 '모바일 핫스팟' 기술 특허침해 피소",
+      "representative_url": "https://the-biz.co.kr/news/articleView.html?idxno=729220",
+      "representative_source": "the-biz.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T01:40:00Z",
+      "last_published_at": "2026-10-14T01:40:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4302,7 +4231,7 @@
         "naver"
       ],
       "source_domains": [
-        "donga.com"
+        "the-biz.co.kr"
       ],
       "categories": [
         "기타"
@@ -4317,11 +4246,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 반도체 협력사 5만8000명에 감사 행사",
-          "url": "https://donga.com/news/Economy/article/all/20261013/134835772/2",
-          "source": "donga.com",
-          "source_domain": "donga.com",
-          "published_at": "2026-10-14T00:32:00+09:00",
+          "title": "[Biz&Law] 삼성전자 , 美 갤럭시 '모바일 핫스팟' 기술 특허침해 피소",
+          "url": "https://the-biz.co.kr/news/articleView.html?idxno=729220",
+          "source": "the-biz.co.kr",
+          "source_domain": "the-biz.co.kr",
+          "published_at": "2026-10-14T10:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4329,15 +4258,15 @@
       ]
     },
     {
-      "cluster_id": "66b176b4261598f7",
+      "cluster_id": "c36e055d0524df55",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "홍라희, 삼성전자 주식 1116만주 이재용에 증여",
-      "representative_url": "https://donga.com/news/Economy/article/all/20261013/134835973/2",
-      "representative_source": "donga.com",
+      "representative_title": "삼성전자 , 수면 코칭 등 건강한 생활 습관 형성 '삼성 헬스' 앱 업데이트",
+      "representative_url": "https://womentimes.co.kr/news/articleView.html?idxno=106996",
+      "representative_source": "womentimes.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:31:00Z",
-      "last_published_at": "2026-10-13T15:31:00Z",
+      "first_published_at": "2026-10-14T01:38:00Z",
+      "last_published_at": "2026-10-14T01:38:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4345,7 +4274,7 @@
         "naver"
       ],
       "source_domains": [
-        "donga.com"
+        "womentimes.co.kr"
       ],
       "categories": [
         "기타"
@@ -4360,11 +4289,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "홍라희, 삼성전자 주식 1116만주 이재용에 증여",
-          "url": "https://donga.com/news/Economy/article/all/20261013/134835973/2",
-          "source": "donga.com",
-          "source_domain": "donga.com",
-          "published_at": "2026-10-14T00:31:00+09:00",
+          "title": "삼성전자 , 수면 코칭 등 건강한 생활 습관 형성 '삼성 헬스' 앱 업데이트",
+          "url": "https://womentimes.co.kr/news/articleView.html?idxno=106996",
+          "source": "womentimes.co.kr",
+          "source_domain": "womentimes.co.kr",
+          "published_at": "2026-10-14T10:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4372,15 +4301,15 @@
       ]
     },
     {
-      "cluster_id": "c811f0cd439ecc0e",
+      "cluster_id": "76acbd7b087ca4f7",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[사진] 협력사에 커피차 쏜 삼성전자",
-      "representative_url": "https://joongang.co.kr/article/25469456",
-      "representative_source": "joongang.co.kr",
+      "representative_title": "[특징주] 삼성전자 ·SK하이닉스, \"너무 떨어졌나\".. 동반 '상승'",
+      "representative_url": "https://g-enews.com/view.php?ud=20261014102224892444093b5d4e_1",
+      "representative_source": "g-enews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:01:00Z",
-      "last_published_at": "2026-10-13T15:01:00Z",
+      "first_published_at": "2026-10-14T01:36:00Z",
+      "last_published_at": "2026-10-14T01:36:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4388,7 +4317,7 @@
         "naver"
       ],
       "source_domains": [
-        "joongang.co.kr"
+        "g-enews.com"
       ],
       "categories": [
         "기타"
@@ -4403,11 +4332,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[사진] 협력사에 커피차 쏜 삼성전자",
-          "url": "https://joongang.co.kr/article/25469456",
-          "source": "joongang.co.kr",
-          "source_domain": "joongang.co.kr",
-          "published_at": "2026-10-14T00:01:00+09:00",
+          "title": "[특징주] 삼성전자 ·SK하이닉스, \"너무 떨어졌나\".. 동반 '상승'",
+          "url": "https://g-enews.com/view.php?ud=20261014102224892444093b5d4e_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-10-14T10:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4415,15 +4344,101 @@
       ]
     },
     {
-      "cluster_id": "fe1ce3f86fd0e689",
+      "cluster_id": "3a6e4ac543004983",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 급락 이유…중국 반도체 추격과 외국인 매도 이중...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=615101",
+      "representative_title": "삼성전자 , SEDEX서 AI 반도체 통합 역량 강조⋯ 용인 클러스터 청사진도",
+      "representative_url": "https://viva100.com/article/20261014500518",
+      "representative_source": "viva100.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T01:36:00Z",
+      "last_published_at": "2026-10-14T01:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "viva100.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , SEDEX서 AI 반도체 통합 역량 강조⋯ 용인 클러스터 청사진도",
+          "url": "https://viva100.com/article/20261014500518",
+          "source": "viva100.com",
+          "source_domain": "viva100.com",
+          "published_at": "2026-10-14T10:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "057b032bfe88ce10",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , '삼성 헬스' 수면코칭 문턱 낮췄다…3일 기록이면 시작",
+      "representative_url": "https://newsinside.kr/news/articleView.html?idxno=5023777",
+      "representative_source": "newsinside.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T01:36:00Z",
+      "last_published_at": "2026-10-14T01:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsinside.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , '삼성 헬스' 수면코칭 문턱 낮췄다…3일 기록이면 시작",
+          "url": "https://newsinside.kr/news/articleView.html?idxno=5023777",
+          "source": "newsinside.kr",
+          "source_domain": "newsinside.kr",
+          "published_at": "2026-10-14T10:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a35116cb6072529d",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "반도체 시장 '비상'…중국 창신메모리 충격에 삼성전자 ·SK하이닉스 반등...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=615262",
       "representative_source": "cbci.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T15:00:00Z",
-      "last_published_at": "2026-10-13T15:00:00Z",
+      "first_published_at": "2026-10-14T01:34:00Z",
+      "last_published_at": "2026-10-14T01:34:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4434,8 +4449,50 @@
         "cbci.co.kr"
       ],
       "categories": [
-        "공급·규제",
         "기술·제품",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "반도체 시장 '비상'…중국 창신메모리 충격에 삼성전자 ·SK하이닉스 반등...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=615262",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-14T10:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3a5a072860ed4604",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "AI가 반도체 설계·제조 어떻게 바꿀까… 삼성전자 가 답한다",
+      "representative_url": "https://mt.co.kr/industry/2026/10/14/2026101314220627112",
+      "representative_source": "mt.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T01:30:00Z",
+      "last_published_at": "2026-10-14T01:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mt.co.kr"
+      ],
+      "categories": [
         "투자·생산"
       ],
       "event_keywords": [],
@@ -4448,11 +4505,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 ·SK하이닉스 급락 이유…중국 반도체 추격과 외국인 매도 이중...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=615101",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-14T00:00:00+09:00",
+          "title": "AI가 반도체 설계·제조 어떻게 바꿀까… 삼성전자 가 답한다",
+          "url": "https://mt.co.kr/industry/2026/10/14/2026101314220627112",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-10-14T10:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4460,15 +4517,15 @@
       ]
     },
     {
-      "cluster_id": "ab04e9eca5c97b4a",
+      "cluster_id": "bf02adcf64a361bb",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[횡설수설/김창덕]“중국의 삼성전자 가 되겠다”는 CXMT 쇼크",
-      "representative_url": "https://donga.com/news/Opinion/article/all/20261013/134836857/2",
-      "representative_source": "donga.com",
+      "representative_title": "이재용, 홍라희 주식 증여로 삼성전자 지분 확대...지분율 1.75%",
+      "representative_url": "https://redian.org/news/articleView.html?idxno=257458",
+      "representative_source": "redian.org",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-13T14:18:00Z",
-      "last_published_at": "2026-10-13T14:18:00Z",
+      "first_published_at": "2026-10-14T01:30:00Z",
+      "last_published_at": "2026-10-14T01:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4476,10 +4533,9 @@
         "naver"
       ],
       "source_domains": [
-        "donga.com"
+        "redian.org"
       ],
       "categories": [
-        "기술·제품",
         "기타"
       ],
       "event_keywords": [],
@@ -4492,11 +4548,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[횡설수설/김창덕]“중국의 삼성전자 가 되겠다”는 CXMT 쇼크",
-          "url": "https://donga.com/news/Opinion/article/all/20261013/134836857/2",
-          "source": "donga.com",
-          "source_domain": "donga.com",
-          "published_at": "2026-10-13T23:18:00+09:00",
+          "title": "이재용, 홍라희 주식 증여로 삼성전자 지분 확대...지분율 1.75%",
+          "url": "https://redian.org/news/articleView.html?idxno=257458",
+          "source": "redian.org",
+          "source_domain": "redian.org",
+          "published_at": "2026-10-14T10:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
