@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T01:54:00.777118Z",
+  "generated_at": "2026-10-14T15:49:27.195560Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-10-14T01:54:00.777118Z",
+  "last_successful_update": "2026-10-14T15:49:27.195560Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -20,15 +20,16 @@
       "representative_source": "magazine.hankyung.com",
       "representative_language": "Korean",
       "first_published_at": "2026-10-13T23:52:00Z",
-      "last_published_at": "2026-10-14T01:20:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
+      "last_published_at": "2026-10-14T02:32:00Z",
+      "article_count": 6,
+      "domestic_article_count": 6,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "ekn.kr",
+        "industrynews.co.kr",
         "m-i.kr",
         "magazine.hankyung.com",
         "news.einfomax.co.kr",
@@ -51,6 +52,16 @@
       ],
       "needs_review": true,
       "articles": [
+        {
+          "title": "에이피알 메디큐브, 아마존 행사서 '역대 최대 매출' 기록…美 매출 85%...",
+          "url": "https://industrynews.co.kr/news/articleView.html?idxno=87517",
+          "source": "industrynews.co.kr",
+          "source_domain": "industrynews.co.kr",
+          "published_at": "2026-10-14T11:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "에이피알 메디큐브, 아마존 할인행사서 역대 최대 일매출…美 85%↑",
           "url": "https://newsinside.kr/news/articleView.html?idxno=5023772",
@@ -3184,125 +3195,40 @@
       ]
     },
     {
-      "cluster_id": "1f342671188b024c",
+      "cluster_id": "e070b53fc484f0ea",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 '메디큐브' 아마존 행사에서 일매출 신기록, 미국과 유럽에서...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=449276",
-      "representative_source": "businesspost.co.kr",
+      "representative_title": "에이피알 , 아마존 '빅딜데이즈'서 역대 최대 매출…美 85% 성장",
+      "representative_url": "https://daily.hankooki.com/news/articleView.html?idxno=1414557",
+      "representative_source": "daily.hankooki.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:54:00Z",
-      "last_published_at": "2026-10-14T01:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-10-14T00:18:00Z",
+      "last_published_at": "2026-10-14T09:44:00Z",
+      "article_count": 18,
+      "domestic_article_count": 18,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 '메디큐브' 아마존 행사에서 일매출 신기록, 미국과 유럽에서...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=449276",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-10-14T10:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9a0f987609e4134e",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 ·LG이노텍 급락…실적 시즌 앞두고 긴장",
-      "representative_url": "https://mdtoday.co.kr/news/articleView.html?idxno=618657",
-      "representative_source": "mdtoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:52:00Z",
-      "last_published_at": "2026-10-14T01:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mdtoday.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 ·LG이노텍 급락…실적 시즌 앞두고 긴장",
-          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=618657",
-          "source": "mdtoday.co.kr",
-          "source_domain": "mdtoday.co.kr",
-          "published_at": "2026-10-14T10:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "bedfbf08fce68a94",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 아마존 빅딜데이즈서 미국 매출 85% 증가",
-      "representative_url": "https://beyondpost.co.kr/view.php?ud=20261014083033639646a9e4dd7f_30",
-      "representative_source": "beyondpost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T23:34:00Z",
-      "last_published_at": "2026-10-14T01:48:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
+        "ajunews.com",
         "asiatime.co.kr",
-        "beyondpost.co.kr",
         "bokuennews.com",
-        "cstimes.com",
+        "cnbnews.com",
+        "daily.hankooki.com",
         "dnews.co.kr",
+        "finomy.com",
         "ftoday.co.kr",
+        "joongangenews.com",
+        "kdfnews.com",
+        "ktnews.com",
+        "news2day.co.kr",
         "newsdream.kr",
-        "sports.hankooki.com"
+        "seoultimes.news",
+        "smartbizn.com",
+        "sports.hankooki.com",
+        "weekly.hankooki.com",
+        "wemakenews.co.kr"
       ],
       "categories": [
         "기술·제품",
@@ -3322,6 +3248,106 @@
       ],
       "needs_review": true,
       "articles": [
+        {
+          "title": "에이피알 메디큐브, 아마존 빅딜데이즈서 미국 매출 85%↑",
+          "url": "https://kdfnews.com/news/articleView.html?idxno=189296",
+          "source": "kdfnews.com",
+          "source_domain": "kdfnews.com",
+          "published_at": "2026-10-14T18:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 빅딜데이즈 역대 최대 매출…미국서 85% 성장",
+          "url": "https://news2day.co.kr/article/20261014500299",
+          "source": "news2day.co.kr",
+          "source_domain": "news2day.co.kr",
+          "published_at": "2026-10-14T16:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 아마존 빅딜데이즈서 역대 최대 매출…美 매출 85% 증가",
+          "url": "https://ajunews.com/view/20261014155832022",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-10-14T16:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 '프라임 빅딜데이즈' 마무리…美 매출 85%↑",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7188813",
+          "source": "weekly.hankooki.com",
+          "source_domain": "weekly.hankooki.com",
+          "published_at": "2026-10-14T15:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 행사서 美 매출 85% 증가",
+          "url": "https://smartbizn.com/news/articleView.html?idxno=156388",
+          "source": "smartbizn.com",
+          "source_domain": "smartbizn.com",
+          "published_at": "2026-10-14T13:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 빅딜데이즈서 美 매출 85% 급증…유럽까지 ...",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=554704",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-10-14T13:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 빅딜데이즈서 역대 최대 매출…미국 85% 성장",
+          "url": "https://wemakenews.co.kr/news/view.php?no=26540",
+          "source": "wemakenews.co.kr",
+          "source_domain": "wemakenews.co.kr",
+          "published_at": "2026-10-14T12:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 아마존 빅딜데이즈서 최대 매출…미국 85% 성장",
+          "url": "https://ktnews.com/news/articleView.html?idxno=149334",
+          "source": "ktnews.com",
+          "source_domain": "ktnews.com",
+          "published_at": "2026-10-14T12:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 아마존 프라임 빅딜데이즈서 역대 최대 매출 기록",
+          "url": "https://cnbnews.com/news/articleView.html?idxno=1019172",
+          "source": "cnbnews.com",
+          "source_domain": "cnbnews.com",
+          "published_at": "2026-10-14T11:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 아마존 빅딜데이즈서 미국 매출 85% 증가",
+          "url": "https://finomy.com/news/articleView.html?idxno=263522",
+          "source": "finomy.com",
+          "source_domain": "finomy.com",
+          "published_at": "2026-10-14T10:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "에이피알 , 아마존 프라임 빅딜데이즈서 역대 최대 매출",
           "url": "https://ftoday.co.kr/news/articleView.html?idxno=367227",
@@ -3363,6 +3389,16 @@
           "provider": "NAVER"
         },
         {
+          "title": "에이피알 , 아마존 빅딜데이즈서 역대 최대 매출…미국 85% 증가",
+          "url": "https://seoultimes.news/news/article.html?no=2000100855",
+          "source": "seoultimes.news",
+          "source_domain": "seoultimes.news",
+          "published_at": "2026-10-14T10:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
           "title": "에이피알 메디큐브, 아마존 빅딜데이즈 최대 매출…美 85%↑",
           "url": "https://asiatime.co.kr/article/20261014500092",
           "source": "asiatime.co.kr",
@@ -3383,21 +3419,11 @@
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 메디큐브, 아마존 빅딜데이즈 미국 매출 85%↑",
-          "url": "https://cstimes.com/news/articleView.html?idxno=723856",
-          "source": "cstimes.com",
-          "source_domain": "cstimes.com",
-          "published_at": "2026-10-14T08:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 메디큐브, 아마존 빅딜데이즈서 미국 매출 85% 증가",
-          "url": "https://beyondpost.co.kr/view.php?ud=20261014083033639646a9e4dd7f_30",
-          "source": "beyondpost.co.kr",
-          "source_domain": "beyondpost.co.kr",
-          "published_at": "2026-10-14T08:34:00+09:00",
+          "title": "에이피알 , 아마존 '빅딜데이즈'서 역대 최대 매출…美 85% 성장",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1414557",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-10-14T09:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3405,15 +3431,15 @@
       ]
     },
     {
-      "cluster_id": "dc310f8bbde1db14",
+      "cluster_id": "8791b4e4121e6894",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "[글로벌 트렌드] 아마존서 날개 단 K뷰티… 동국제약· 에이피알 , 연말 성...",
-      "representative_url": "https://newsian.co.kr/news/articleView.html?idxno=97033",
-      "representative_source": "newsian.co.kr",
+      "representative_title": "형지글로벌 급락, 효성티앤씨·대한화섬· 에이피알 강세",
+      "representative_url": "https://okfashion.co.kr/detail.php?number=64237&thread=62r04",
+      "representative_source": "okfashion.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:38:00Z",
-      "last_published_at": "2026-10-14T01:38:00Z",
+      "first_published_at": "2026-10-14T09:24:00Z",
+      "last_published_at": "2026-10-14T09:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3421,7 +3447,7 @@
         "naver"
       ],
       "source_domains": [
-        "newsian.co.kr"
+        "okfashion.co.kr"
       ],
       "categories": [
         "기타"
@@ -3436,11 +3462,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[글로벌 트렌드] 아마존서 날개 단 K뷰티… 동국제약· 에이피알 , 연말 성...",
-          "url": "https://newsian.co.kr/news/articleView.html?idxno=97033",
-          "source": "newsian.co.kr",
-          "source_domain": "newsian.co.kr",
-          "published_at": "2026-10-14T10:38:00+09:00",
+          "title": "형지글로벌 급락, 효성티앤씨·대한화섬· 에이피알 강세",
+          "url": "https://okfashion.co.kr/detail.php?number=64237&thread=62r04",
+          "source": "okfashion.co.kr",
+          "source_domain": "okfashion.co.kr",
+          "published_at": "2026-10-14T18:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3448,15 +3474,15 @@
       ]
     },
     {
-      "cluster_id": "3fceb5446283213a",
+      "cluster_id": "e96269f9f29eb3be",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "[오늘의 뷰티] 아모레퍼시픽·애경산업· 에이피알 ·센슬",
-      "representative_url": "https://financialreview.co.kr/news/articleView.html?idxno=45483",
-      "representative_source": "financialreview.co.kr",
+      "representative_title": "에이피알 ·아모레 실적 '날개'…환율은 복병",
+      "representative_url": "https://biz.sbs.co.kr/article_hub/20000339958?division=NAVER",
+      "representative_source": "biz.sbs.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:24:00Z",
-      "last_published_at": "2026-10-14T01:24:00Z",
+      "first_published_at": "2026-10-14T09:03:00Z",
+      "last_published_at": "2026-10-14T09:03:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3464,137 +3490,7 @@
         "naver"
       ],
       "source_domains": [
-        "financialreview.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[오늘의 뷰티] 아모레퍼시픽·애경산업· 에이피알 ·센슬",
-          "url": "https://financialreview.co.kr/news/articleView.html?idxno=45483",
-          "source": "financialreview.co.kr",
-          "source_domain": "financialreview.co.kr",
-          "published_at": "2026-10-14T10:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "daa648e2f3031133",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "\"美·유럽 순항\"… 에이피알 , '아마존 프라임 빅딜데이즈' 성료",
-      "representative_url": "https://businessplus.kr/news/articleView.html?idxno=118137",
-      "representative_source": "businessplus.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:24:00Z",
-      "last_published_at": "2026-10-14T01:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businessplus.kr"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"美·유럽 순항\"… 에이피알 , '아마존 프라임 빅딜데이즈' 성료",
-          "url": "https://businessplus.kr/news/articleView.html?idxno=118137",
-          "source": "businessplus.kr",
-          "source_domain": "businessplus.kr",
-          "published_at": "2026-10-14T10:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "495fcf9359e7a532",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "'K뷰티 대장주' 에이피알 , 아마존 프라임 빅딜데이즈 '대박'",
-      "representative_url": "https://econovill.com/news/articleView.html?idxno=753511",
-      "representative_source": "econovill.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:18:00Z",
-      "last_published_at": "2026-10-14T01:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "econovill.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'K뷰티 대장주' 에이피알 , 아마존 프라임 빅딜데이즈 '대박'",
-          "url": "https://econovill.com/news/articleView.html?idxno=753511",
-          "source": "econovill.com",
-          "source_domain": "econovill.com",
-          "published_at": "2026-10-14T10:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2144f21f53c02394",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 美·유럽 아마존 '빅딜데이즈'서 일매출 신기록 경...",
-      "representative_url": "https://widedaily.com/news/articleView.html?idxno=301930",
-      "representative_source": "widedaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:08:00Z",
-      "last_published_at": "2026-10-14T01:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "widedaily.com"
+        "biz.sbs.co.kr"
       ],
       "categories": [
         "실적"
@@ -3612,11 +3508,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 메디큐브, 美·유럽 아마존 '빅딜데이즈'서 일매출 신기록 경...",
-          "url": "https://widedaily.com/news/articleView.html?idxno=301930",
-          "source": "widedaily.com",
-          "source_domain": "widedaily.com",
-          "published_at": "2026-10-14T10:08:00+09:00",
+          "title": "에이피알 ·아모레 실적 '날개'…환율은 복병",
+          "url": "https://biz.sbs.co.kr/article_hub/20000339958?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "source_domain": "biz.sbs.co.kr",
+          "published_at": "2026-10-14T18:03:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3624,15 +3520,15 @@
       ]
     },
     {
-      "cluster_id": "accd7c7d5c6d99bf",
+      "cluster_id": "0fe63dc2e9d8a2fa",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 , 아마존 행사서 '역대 최대 매출'…블랙프라이데이 공략 본격...",
-      "representative_url": "https://socialvalue.kr/news/view/1065575036118264",
-      "representative_source": "socialvalue.kr",
+      "representative_title": "[이슈] 에이피알 … 4분기 '1조 고지' 깃발 꽂나",
+      "representative_url": "https://startuptoday.co.kr/news/articleView.html?idxno=815858",
+      "representative_source": "startuptoday.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:06:00Z",
-      "last_published_at": "2026-10-14T01:06:00Z",
+      "first_published_at": "2026-10-14T07:30:00Z",
+      "last_published_at": "2026-10-14T07:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3640,7 +3536,284 @@
         "naver"
       ],
       "source_domains": [
-        "socialvalue.kr"
+        "startuptoday.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        " 1조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[이슈] 에이피알 … 4분기 '1조 고지' 깃발 꽂나",
+          "url": "https://startuptoday.co.kr/news/articleView.html?idxno=815858",
+          "source": "startuptoday.co.kr",
+          "source_domain": "startuptoday.co.kr",
+          "published_at": "2026-10-14T16:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0ac95313d026af23",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 아마존 행사서 최대 매출…'메디큐브' 글로벌 인기",
+      "representative_url": "https://apparelnews.co.kr/news/news_view?idx=228233",
+      "representative_source": "apparelnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T06:48:00Z",
+      "last_published_at": "2026-10-14T06:48:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "apparelnews.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 아마존 행사서 최대 매출…'메디큐브' 글로벌 인기",
+          "url": "https://apparelnews.co.kr/news/news_view?idx=228233",
+          "source": "apparelnews.co.kr",
+          "source_domain": "apparelnews.co.kr",
+          "published_at": "2026-10-14T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca94fce287b19d66",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "하나증권 \"화장품 업황 예상보다 양호\"… 에이피알 ·실리콘투, 환율 부담...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=495304",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T06:32:00Z",
+      "last_published_at": "2026-10-14T06:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "하나증권 \"화장품 업황 예상보다 양호\"… 에이피알 ·실리콘투, 환율 부담...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=495304",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-14T15:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5e607ab589970529",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 29만6500원 강세…해외 화장품 성장 지속성 관심",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232235",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:10:00Z",
+      "last_published_at": "2026-10-14T05:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 29만6500원 강세…해외 화장품 성장 지속성 관심",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232235",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-14T14:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6c04128c01c7f9d1",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "“美 판매액 85% 증가”… 에이피알 , 아마존 세일 역대 최대 매출 경신",
+      "representative_url": "https://sedaily.com/article/20101488",
+      "representative_source": "sedaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:04:00Z",
+      "last_published_at": "2026-10-14T05:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sedaily.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "“美 판매액 85% 증가”… 에이피알 , 아마존 세일 역대 최대 매출 경신",
+          "url": "https://sedaily.com/article/20101488",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-10-14T14:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6a82a5187fc7c3e7",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "美 아마존 매출 85% 뛴 에이피알 …주가는 급락 뒤 변동성 확대",
+      "representative_url": "https://joseilbo.com/news/news_read.php?class=17&grp=&uid=577382",
+      "representative_source": "joseilbo.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:01:00Z",
+      "last_published_at": "2026-10-14T05:01:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joseilbo.com"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 5,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "美 아마존 매출 85% 뛴 에이피알 …주가는 급락 뒤 변동성 확대",
+          "url": "https://joseilbo.com/news/news_read.php?class=17&grp=&uid=577382",
+          "source": "joseilbo.com",
+          "source_domain": "joseilbo.com",
+          "published_at": "2026-10-14T14:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c891ca12254680e",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "메디큐브, 美 아마존 매출 85%↑… 에이피알 4분기 '기대'",
+      "representative_url": "https://fnnews.com/news/202610141338336194",
+      "representative_source": "fnnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T04:56:00Z",
+      "last_published_at": "2026-10-14T04:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fnnews.com"
       ],
       "categories": [
         "실적"
@@ -3658,55 +3831,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 , 아마존 행사서 '역대 최대 매출'…블랙프라이데이 공략 본격...",
-          "url": "https://socialvalue.kr/news/view/1065575036118264",
-          "source": "socialvalue.kr",
-          "source_domain": "socialvalue.kr",
-          "published_at": "2026-10-14T10:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e991a705c819f3b",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 '메디큐브' 아마존서 美·유럽 동시 흥행",
-      "representative_url": "https://shinailbo.co.kr/news/articleView.html?idxno=5071526",
-      "representative_source": "shinailbo.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T01:02:00Z",
-      "last_published_at": "2026-10-14T01:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "shinailbo.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 '메디큐브' 아마존서 美·유럽 동시 흥행",
-          "url": "https://shinailbo.co.kr/news/articleView.html?idxno=5071526",
-          "source": "shinailbo.co.kr",
-          "source_domain": "shinailbo.co.kr",
-          "published_at": "2026-10-14T10:02:00+09:00",
+          "title": "메디큐브, 美 아마존 매출 85%↑… 에이피알 4분기 '기대'",
+          "url": "https://fnnews.com/news/202610141338336194",
+          "source": "fnnews.com",
+          "source_domain": "fnnews.com",
+          "published_at": "2026-10-14T13:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

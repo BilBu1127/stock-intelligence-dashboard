@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T01:54:00.777118Z",
+  "generated_at": "2026-10-14T15:49:27.195560Z",
   "company_name": "케이엔제이",
   "stock_code": "272110",
   "status": "partial",
-  "last_successful_update": "2026-10-14T01:54:00.777118Z",
+  "last_successful_update": "2026-10-14T15:49:27.195560Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -20,15 +20,16 @@
       "representative_source": "newspim.com",
       "representative_language": "Korean",
       "first_published_at": "2026-10-14T00:13:00Z",
-      "last_published_at": "2026-10-14T00:13:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "last_published_at": "2026-10-14T03:08:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "newspim.com"
+        "newspim.com",
+        "the-stock.kr"
       ],
       "categories": [
         "기술·제품",
@@ -45,8 +46,18 @@
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
+        {
+          "title": "케이엔제이 , 기관투자자 대상 현장 IR 성료",
+          "url": "https://the-stock.kr/news/articleView.html?idxno=33557",
+          "source": "the-stock.kr",
+          "source_domain": "the-stock.kr",
+          "published_at": "2026-10-14T12:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "케이엔제이 , 기관투자자 대상 탐방 IR 성료",
           "url": "https://newspim.com/news/view/20261014000172",

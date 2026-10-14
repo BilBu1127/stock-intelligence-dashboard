@@ -1,11 +1,59 @@
 {
-  "generated_at": "2026-10-14T01:54:00.777118Z",
+  "generated_at": "2026-10-14T15:49:27.195560Z",
   "company_name": "삼성에스디에스",
   "stock_code": "018260",
-  "status": "ok",
-  "last_successful_update": "2026-10-14T01:54:00.777118Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-14T15:49:27.195560Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "f7c69af9518206e7",
+      "company_name": "삼성에스디에스",
+      "stock_code": "018260",
+      "representative_title": "삼성에스디에스 20만2500원 상승…클라우드·생성형 AI 성장 주목",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232306",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:42:00Z",
+      "last_published_at": "2026-10-14T05:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성에스디에스 20만2500원 상승…클라우드·생성형 AI 성장 주목",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232306",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-14T14:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "84f741ae6cf5f5ca",
       "company_name": "삼성에스디에스",
@@ -399,50 +447,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-07T14:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca7a7e766f25198f",
-      "company_name": "삼성에스디에스",
-      "stock_code": "018260",
-      "representative_title": "[모닝 리포트] \" 삼성에스디에스 , 생성AI 확산·데이터센터 가동률 상승...",
-      "representative_url": "https://newspim.com/news/view/20261007000071",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-06T23:33:00Z",
-      "last_published_at": "2026-10-06T23:33:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[모닝 리포트] \" 삼성에스디에스 , 생성AI 확산·데이터센터 가동률 상승...",
-          "url": "https://newspim.com/news/view/20261007000071",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-07T08:33:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

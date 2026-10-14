@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-14T01:54:00.777118Z",
+  "generated_at": "2026-10-14T15:49:27.195560Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-10-14T01:54:00.777118Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-14T15:49:27.195560Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "914a63b4a1aa493e",
@@ -178,6 +183,96 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-08-06T15:41:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf229ef14dc4ecd5",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "주성엔지니어링 8.21% 하락… 원익IPS ·심텍도 약세",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=392657",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T13:14:00Z",
+      "last_published_at": "2026-10-14T13:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "주성엔지니어링 8.21% 하락… 원익IPS ·심텍도 약세",
+          "url": "https://vegannews.co.kr/news/article.html?no=392657",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-10-14T22:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "98d87d45ead037b9",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "원익IPS 5.14% 내려 12만3700원…장비 발주 회복 시점 주시",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232272",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:28:00Z",
+      "last_published_at": "2026-10-14T05:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "원익IPS 5.14% 내려 12만3700원…장비 발주 회복 시점 주시",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232272",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-14T14:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -557,97 +652,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-08T14:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b38d8f82c34b2a62",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "[모닝 리포트] 원익IPS , 주가 흔들려도 수주 기반 탄탄",
-      "representative_url": "https://newspim.com/news/view/20261008000089",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T23:24:00Z",
-      "last_published_at": "2026-10-07T23:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[모닝 리포트] 원익IPS , 주가 흔들려도 수주 기반 탄탄",
-          "url": "https://newspim.com/news/view/20261008000089",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-08T08:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "974457f2249d97c7",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "원익IPS 주가, 10월 7일 131,100원 7.22% 하락",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16240729",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T06:56:00Z",
-      "last_published_at": "2026-10-07T06:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "원익IPS 주가, 10월 7일 131,100원 7.22% 하락",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16240729",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-10-07T15:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

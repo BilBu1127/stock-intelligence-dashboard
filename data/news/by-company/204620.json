@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T01:54:00.777118Z",
+  "generated_at": "2026-10-14T15:49:27.195560Z",
   "company_name": "글로벌텍스프리",
   "stock_code": "204620",
   "status": "partial",
-  "last_successful_update": "2026-10-14T01:54:00.777118Z",
+  "last_successful_update": "2026-10-14T15:49:27.195560Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -66,6 +66,51 @@
           "source": "newsprime.co.kr",
           "source_domain": "newsprime.co.kr",
           "published_at": "2026-08-20T08:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ddc38bb6579b0a45",
+      "company_name": "글로벌텍스프리",
+      "stock_code": "204620",
+      "representative_title": "글로벌텍스프리 19.19% 급등…외국인 관광 회복에 쏠린 시선",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232283",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-14T05:36:00Z",
+      "last_published_at": "2026-10-14T05:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "글로벌텍스프리 19.19% 급등…외국인 관광 회복에 쏠린 시선",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232283",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-14T14:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
