@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-15T01:27:48.504375Z",
+  "generated_at": "2026-10-15T15:35:25.604893Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-10-15T01:27:48.504375Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-15T15:35:25.604893Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,53 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fe096d77777bd306",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "POSCO홀딩스 29만6000원…철강·리튬 투자 사이 4.21% 하락",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232530",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-15T05:04:00Z",
+      "last_published_at": "2026-10-15T05:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "POSCO홀딩스 29만6000원…철강·리튬 투자 사이 4.21% 하락",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232530",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-15T14:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -452,51 +504,6 @@
           "source": "newsfc.co.kr",
           "source_domain": "newsfc.co.kr",
           "published_at": "2026-10-07T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "7e5631a5b9779984",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "[모닝 리포트] \" POSCO홀딩스 , 2027년부터 체질 개선 본격화\"",
-      "representative_url": "https://newspim.com/news/view/20261007000083",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T00:00:00Z",
-      "last_published_at": "2026-10-07T00:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[모닝 리포트] \" POSCO홀딩스 , 2027년부터 체질 개선 본격화\"",
-          "url": "https://newspim.com/news/view/20261007000083",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-07T09:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

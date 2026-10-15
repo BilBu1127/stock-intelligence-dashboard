@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-15T01:27:48.504375Z",
+  "generated_at": "2026-10-15T15:35:25.604893Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-10-15T01:27:48.504375Z",
+  "last_successful_update": "2026-10-15T15:35:25.604893Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -75,6 +75,103 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-10-14T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "805dad973b755644",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "테크윙 , 메모리 호황에 3분기 매출 전년비 2배 이상 성장",
+      "representative_url": "https://thelec.kr/news/articleView.html?idxno=63724",
+      "representative_source": "thelec.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-15T06:30:00Z",
+      "last_published_at": "2026-10-15T06:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thelec.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "테크윙 , 메모리 호황에 3분기 매출 전년비 2배 이상 성장",
+          "url": "https://thelec.kr/news/articleView.html?idxno=63724",
+          "source": "thelec.kr",
+          "source_domain": "thelec.kr",
+          "published_at": "2026-10-15T15:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "714478ee915d2b84",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "테크윙 17.37% 급락…HBM 검사장비 수주 전환이 관건",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232578",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-15T05:38:00Z",
+      "last_published_at": "2026-10-15T05:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "테크윙 17.37% 급락…HBM 검사장비 수주 전환이 관건",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232578",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-15T14:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -457,92 +554,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-01T15:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "94683c4c99121db1",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "전인구 ㈜ 테크윙 전 대표, 순창군에 고향사랑기부금 1,000만원 쾌척…3년...",
-      "representative_url": "https://gukjenews.com/news/articleView.html?idxno=3708692",
-      "representative_source": "gukjenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-29T12:52:00Z",
-      "last_published_at": "2026-09-29T12:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gukjenews.com"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "전인구 ㈜ 테크윙 전 대표, 순창군에 고향사랑기부금 1,000만원 쾌척…3년...",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3708692",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-09-29T21:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "10694bbd9fcd337e",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "테크윙 전인구 前 대표 고향사랑기부금 천만원 기탁",
-      "representative_url": "https://sjbnews.com/news/news.php?number=888861",
-      "representative_source": "sjbnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-09-29T10:25:00Z",
-      "last_published_at": "2026-09-29T10:25:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sjbnews.com"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테크윙 전인구 前 대표 고향사랑기부금 천만원 기탁",
-          "url": "https://sjbnews.com/news/news.php?number=888861",
-          "source": "sjbnews.com",
-          "source_domain": "sjbnews.com",
-          "published_at": "2026-09-29T19:25:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

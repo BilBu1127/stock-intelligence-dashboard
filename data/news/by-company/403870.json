@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-15T01:27:48.504375Z",
+  "generated_at": "2026-10-15T15:35:25.604893Z",
   "company_name": "HPSP",
   "stock_code": "403870",
   "status": "partial",
-  "last_successful_update": "2026-10-15T01:27:48.504375Z",
+  "last_successful_update": "2026-10-15T15:35:25.604893Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -100,6 +100,53 @@
           "source": "zdnet.co.kr",
           "source_domain": "zdnet.co.kr",
           "published_at": "2026-08-13T16:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "50defe30843c5667",
+      "company_name": "HPSP",
+      "stock_code": "403870",
+      "representative_title": "HPSP 11.21% 하락…고압 공정장비 투자 사이클 점검",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232550",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-15T05:14:00Z",
+      "last_published_at": "2026-10-15T05:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HPSP 11.21% 하락…고압 공정장비 투자 사이클 점검",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232550",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-15T14:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -507,52 +554,6 @@
           "source": "itooza.com",
           "source_domain": "itooza.com",
           "published_at": "2026-10-06T07:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "403061c82994900a",
-      "company_name": "HPSP",
-      "stock_code": "403870",
-      "representative_title": "\" HPSP , 파운드리 넘어 메모리 반도체까지 확장…목표가↑\"-KB",
-      "representative_url": "https://hankyung.com/article/2026100641866",
-      "representative_source": "hankyung.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-05T22:46:00Z",
-      "last_published_at": "2026-10-05T22:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hankyung.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\" HPSP , 파운드리 넘어 메모리 반도체까지 확장…목표가↑\"-KB",
-          "url": "https://hankyung.com/article/2026100641866",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-10-06T07:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
