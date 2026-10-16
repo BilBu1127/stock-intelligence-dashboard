@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-10-16T01:19:40.505716Z",
+  "generated_at": "2026-10-16T15:22:05.837189Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-10-16T01:19:40.505716Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-16T15:22:05.837189Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "8fb982c5ca50b1bc",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 1.28% 상승…고선가 선박 매출 전환 주목",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232848",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T05:34:00Z",
+      "last_published_at": "2026-10-16T05:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 40,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 1.28% 상승…고선가 선박 매출 전환 주목",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=232848",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-16T14:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "718ff36f1bb4a2b5",
       "company_name": "HD현대중공업",
@@ -2482,23 +2534,26 @@
       ]
     },
     {
-      "cluster_id": "22eb6707010c2622",
+      "cluster_id": "9035c18a33f805d2",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
-      "representative_title": "울산동구노인복지관· HD현대중공업 , 취약계층 어르신에 화분 150개 전달",
-      "representative_url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069770",
-      "representative_source": "ksilbo.co.kr",
+      "representative_title": "HD현대중공업 노조, 오는 21일부터 모든 조합원 부분파업",
+      "representative_url": "https://daily.hankooki.com/news/articleView.html?idxno=1415685",
+      "representative_source": "daily.hankooki.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T15:32:00Z",
-      "last_published_at": "2026-10-15T15:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-10-16T05:28:00Z",
+      "last_published_at": "2026-10-16T12:49:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "ksilbo.co.kr"
+        "ajunews.com",
+        "biz.newdaily.co.kr",
+        "daily.hankooki.com",
+        "news.kbs.co.kr"
       ],
       "categories": [
         "기타"
@@ -2510,14 +2565,44 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "울산동구노인복지관· HD현대중공업 , 취약계층 어르신에 화분 150개 전달",
-          "url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069770",
-          "source": "ksilbo.co.kr",
-          "source_domain": "ksilbo.co.kr",
-          "published_at": "2026-10-16T00:32:00+09:00",
+          "title": "HD현대중공업 노조, 21일부터 사흘간 부분파업",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8687876",
+          "source": "news.kbs.co.kr",
+          "source_domain": "news.kbs.co.kr",
+          "published_at": "2026-10-16T21:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "HD현대중공업 노조, 임단협 난항에 21일부터 사흘간 부분파업",
+          "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/16/2026101600246.html",
+          "source": "biz.newdaily.co.kr",
+          "source_domain": "biz.newdaily.co.kr",
+          "published_at": "2026-10-16T15:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "HD현대중공업 노조, 21일부터 사흘간 전 조합원 부분파업",
+          "url": "https://ajunews.com/view/20261016142542909",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-10-16T14:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "HD현대중공업 노조, 오는 21일부터 모든 조합원 부분파업",
+          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1415685",
+          "source": "daily.hankooki.com",
+          "source_domain": "daily.hankooki.com",
+          "published_at": "2026-10-16T14:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2525,15 +2610,15 @@
       ]
     },
     {
-      "cluster_id": "d849908568accd83",
+      "cluster_id": "de178e389581d415",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
-      "representative_title": "HD현대중공업 노사 '매일 교섭'…연내 타결 주목",
-      "representative_url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069740",
-      "representative_source": "ksilbo.co.kr",
+      "representative_title": "HD현대중공업 노조, 21일부터 7시간 부분파업…조선소 멈춘다",
+      "representative_url": "https://financialpost.co.kr/news/articleView.html?idxno=280983",
+      "representative_source": "financialpost.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T15:02:00Z",
-      "last_published_at": "2026-10-15T15:02:00Z",
+      "first_published_at": "2026-10-16T11:38:00Z",
+      "last_published_at": "2026-10-16T11:38:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2541,183 +2626,10 @@
         "naver"
       ],
       "source_domains": [
-        "ksilbo.co.kr"
+        "financialpost.co.kr"
       ],
       "categories": [
         "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HD현대중공업 노사 '매일 교섭'…연내 타결 주목",
-          "url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069740",
-          "source": "ksilbo.co.kr",
-          "source_domain": "ksilbo.co.kr",
-          "published_at": "2026-10-16T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "dae91b4ddd0fb59b",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "英무역특사 HD현대중공업 울산본사 방문",
-      "representative_url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069725",
-      "representative_source": "ksilbo.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T15:02:00Z",
-      "last_published_at": "2026-10-15T15:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ksilbo.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "英무역특사 HD현대중공업 울산본사 방문",
-          "url": "https://ksilbo.co.kr/news/articleView.html?idxno=1069725",
-          "source": "ksilbo.co.kr",
-          "source_domain": "ksilbo.co.kr",
-          "published_at": "2026-10-16T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f228fdd5c4d6ac82",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "HD현대중공업 , 울산 찾은 영국 무역특사와 조선 협력 모색",
-      "representative_url": "https://ulsanpress.net/news/articleView.html?idxno=584745",
-      "representative_source": "ulsanpress.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T12:42:00Z",
-      "last_published_at": "2026-10-15T12:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ulsanpress.net"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HD현대중공업 , 울산 찾은 영국 무역특사와 조선 협력 모색",
-          "url": "https://ulsanpress.net/news/articleView.html?idxno=584745",
-          "source": "ulsanpress.net",
-          "source_domain": "ulsanpress.net",
-          "published_at": "2026-10-15T21:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0d1c352c73c6a66a",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "앤 공주 이어 무역특사까지… HD현대중공업 울산 본사 방문",
-      "representative_url": "https://iusm.co.kr/news/articleView.html?idxno=1069209",
-      "representative_source": "iusm.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T10:32:00Z",
-      "last_published_at": "2026-10-15T10:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "iusm.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "앤 공주 이어 무역특사까지… HD현대중공업 울산 본사 방문",
-          "url": "https://iusm.co.kr/news/articleView.html?idxno=1069209",
-          "source": "iusm.co.kr",
-          "source_domain": "iusm.co.kr",
-          "published_at": "2026-10-15T19:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "917d9757c2a72f35",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "\"조선업 수주전 심화?… HD현대중공업 , AI 데이터센터 엔진으로 돌파\"",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=302779",
-      "representative_source": "newsquest.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T09:42:00Z",
-      "last_published_at": "2026-10-15T09:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsquest.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 20,
@@ -2730,11 +2642,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "\"조선업 수주전 심화?… HD현대중공업 , AI 데이터센터 엔진으로 돌파\"",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=302779",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-10-15T18:42:00+09:00",
+          "title": "HD현대중공업 노조, 21일부터 7시간 부분파업…조선소 멈춘다",
+          "url": "https://financialpost.co.kr/news/articleView.html?idxno=280983",
+          "source": "financialpost.co.kr",
+          "source_domain": "financialpost.co.kr",
+          "published_at": "2026-10-16T20:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2742,15 +2654,15 @@
       ]
     },
     {
-      "cluster_id": "c52fe0327ed65b99",
+      "cluster_id": "577a2f21c1cf5919",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
-      "representative_title": "英 무역특사, HD현대중공업 서 방산·청정에너지 협력 가능성 타진",
-      "representative_url": "https://m-i.kr/news/articleView.html?idxno=2006568",
-      "representative_source": "m-i.kr",
+      "representative_title": "[이슈] HD현대중공업 노조, 19일부터 닷새간 부분파업…임단협 갈등 지...",
+      "representative_url": "https://seoultimes.news/news/article.html?no=2000100999",
+      "representative_source": "seoultimes.news",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T08:44:00Z",
-      "last_published_at": "2026-10-15T08:44:00Z",
+      "first_published_at": "2026-10-16T08:53:00Z",
+      "last_published_at": "2026-10-16T08:53:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2758,7 +2670,7 @@
         "naver"
       ],
       "source_domains": [
-        "m-i.kr"
+        "seoultimes.news"
       ],
       "categories": [
         "기타"
@@ -2773,11 +2685,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "英 무역특사, HD현대중공업 서 방산·청정에너지 협력 가능성 타진",
-          "url": "https://m-i.kr/news/articleView.html?idxno=2006568",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-10-15T17:44:00+09:00",
+          "title": "[이슈] HD현대중공업 노조, 19일부터 닷새간 부분파업…임단협 갈등 지...",
+          "url": "https://seoultimes.news/news/article.html?no=2000100999",
+          "source": "seoultimes.news",
+          "source_domain": "seoultimes.news",
+          "published_at": "2026-10-16T17:53:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2785,15 +2697,15 @@
       ]
     },
     {
-      "cluster_id": "76190a6a9f5b3af7",
+      "cluster_id": "f55e10e34b6b1d65",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
-      "representative_title": "HD현대중공업 , 중동서 6258억원 규모 VLGC 4척 수주",
-      "representative_url": "https://viva100.com/article/20261015501210",
-      "representative_source": "viva100.com",
+      "representative_title": "HD현대중공업 임단협 교섭 난항…\"21~23일 전 조합원 사흘간 파업\"",
+      "representative_url": "https://4th.kr/news/articleView.html?idxno=2119915",
+      "representative_source": "4th.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T07:54:00Z",
-      "last_published_at": "2026-10-15T07:54:00Z",
+      "first_published_at": "2026-10-16T08:26:00Z",
+      "last_published_at": "2026-10-16T08:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2801,77 +2713,26 @@
         "naver"
       ],
       "source_domains": [
-        "viva100.com"
+        "4th.kr"
       ],
       "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [
-        " 6258억"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HD현대중공업 , 중동서 6258억원 규모 VLGC 4척 수주",
-          "url": "https://viva100.com/article/20261015501210",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-10-15T16:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "689cd7b49f638ce6",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "HD현대중공업 6258억 규모 초대형가스운반선 4척 수주, 올해 상선 수주목...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=449465",
-      "representative_source": "businesspost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T07:42:00Z",
-      "last_published_at": "2026-10-15T07:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
         "기타"
       ],
-      "event_keywords": [
-        " 6258억"
-      ],
-      "importance_score": 20,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "HD현대중공업 6258억 규모 초대형가스운반선 4척 수주, 올해 상선 수주목...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=449465",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-10-15T16:42:00+09:00",
+          "title": "HD현대중공업 임단협 교섭 난항…\"21~23일 전 조합원 사흘간 파업\"",
+          "url": "https://4th.kr/news/articleView.html?idxno=2119915",
+          "source": "4th.kr",
+          "source_domain": "4th.kr",
+          "published_at": "2026-10-16T17:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2879,15 +2740,187 @@
       ]
     },
     {
-      "cluster_id": "e34e745ec82a992d",
+      "cluster_id": "55cc1003dae87278",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
-      "representative_title": "HD현대중공업 주가, 10월 15일 애프터마켓 347,500원 5.83% 하락",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16248071",
+      "representative_title": "HD현대중공업 노조, 21~23일 하루 7시간 부분파업 예고",
+      "representative_url": "https://hansbiz.co.kr/news/articleView.html?idxno=873657",
+      "representative_source": "hansbiz.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T08:20:00Z",
+      "last_published_at": "2026-10-16T08:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hansbiz.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 노조, 21~23일 하루 7시간 부분파업 예고",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=873657",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-10-16T17:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8f97dbe00f75727b",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 임단협 교착…노조, 21일부터 전 조합원 파업",
+      "representative_url": "https://mydaily.co.kr/page/view/2026101615440831984",
+      "representative_source": "mydaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T08:01:00Z",
+      "last_published_at": "2026-10-16T08:01:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mydaily.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 임단협 교착…노조, 21일부터 전 조합원 파업",
+          "url": "https://mydaily.co.kr/page/view/2026101615440831984",
+          "source": "mydaily.co.kr",
+          "source_domain": "mydaily.co.kr",
+          "published_at": "2026-10-16T17:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a0a2cc975deb34fd",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 노사 '노조 투표 52% 반대' 뒤집을 두 번째 잠정합의안은...",
+      "representative_url": "https://huffingtonpost.kr/article/261296",
+      "representative_source": "huffingtonpost.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T07:50:00Z",
+      "last_published_at": "2026-10-16T07:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "huffingtonpost.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 노사 '노조 투표 52% 반대' 뒤집을 두 번째 잠정합의안은...",
+          "url": "https://huffingtonpost.kr/article/261296",
+          "source": "huffingtonpost.kr",
+          "source_domain": "huffingtonpost.kr",
+          "published_at": "2026-10-16T16:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "20c99a556654f845",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 노조, 21일부터 사흘간 7시간 파업…노사 갈등 장기화",
+      "representative_url": "https://ddaily.co.kr/page/view/2026101616310959149",
+      "representative_source": "ddaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T07:34:00Z",
+      "last_published_at": "2026-10-16T07:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ddaily.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 노조, 21일부터 사흘간 7시간 파업…노사 갈등 장기화",
+          "url": "https://ddaily.co.kr/page/view/2026101616310959149",
+          "source": "ddaily.co.kr",
+          "source_domain": "ddaily.co.kr",
+          "published_at": "2026-10-16T16:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b54be95781f626ae",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 주가, 10월 16일 애프터마켓 352,000원 0.14% 하락",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16249040",
       "representative_source": "topstarnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T07:22:00Z",
-      "last_published_at": "2026-10-15T07:22:00Z",
+      "first_published_at": "2026-10-16T07:24:00Z",
+      "last_published_at": "2026-10-16T07:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2911,11 +2944,54 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "HD현대중공업 주가, 10월 15일 애프터마켓 347,500원 5.83% 하락",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16248071",
+          "title": "HD현대중공업 주가, 10월 16일 애프터마켓 352,000원 0.14% 하락",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16249040",
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
-          "published_at": "2026-10-15T16:22:00+09:00",
+          "published_at": "2026-10-16T16:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f55bd09d926f6175",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 노조 모든 조합원 대상 부분파업 예고",
+      "representative_url": "https://kmib.co.kr/article/view.asp?arcid=9000023220&cp=nv",
+      "representative_source": "kmib.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T06:08:00Z",
+      "last_published_at": "2026-10-16T06:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kmib.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 노조 모든 조합원 대상 부분파업 예고",
+          "url": "https://kmib.co.kr/article/view.asp?arcid=9000023220&cp=nv",
+          "source": "kmib.co.kr",
+          "source_domain": "kmib.co.kr",
+          "published_at": "2026-10-16T15:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

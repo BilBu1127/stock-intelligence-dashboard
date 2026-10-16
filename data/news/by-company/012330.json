@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-16T01:19:40.505716Z",
+  "generated_at": "2026-10-16T15:22:05.837189Z",
   "company_name": "현대모비스",
   "stock_code": "012330",
-  "status": "ok",
-  "last_successful_update": "2026-10-16T01:19:40.505716Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-16T15:22:05.837189Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "086327eeb62e61d1",
@@ -2094,124 +2099,42 @@
       ]
     },
     {
-      "cluster_id": "131cb97c57cf49ad",
+      "cluster_id": "2282013556222889",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "마이크론, 퀄컴· 현대모비스 와 차량용 메모리 공급 장기계약",
-      "representative_url": "https://yna.co.kr/view/AKR20260717003700091?input=1195m",
-      "representative_source": "yna.co.kr",
+      "representative_title": "쏘면 터졌다… 고양 소노, 3점포 16방으로 95대82 승리... 현대모비스 원...",
+      "representative_url": "https://stnsports.co.kr/news/articleView.html?idxno=324167",
+      "representative_source": "stnsports.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-07-16T18:44:00Z",
-      "last_published_at": "2026-07-17T08:45:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
+      "first_published_at": "2026-10-16T15:00:00Z",
+      "last_published_at": "2026-10-16T15:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "hankookilbo.com",
-        "inews24.com",
-        "mk.co.kr",
-        "mt.co.kr",
-        "tfmedia.co.kr",
-        "wolyo.co.kr",
-        "yna.co.kr",
-        "ytn.co.kr"
+        "stnsports.co.kr"
       ],
       "categories": [
-        "공급·규제",
-        "기술·제품"
+        "기타"
       ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 50,
-      "importance_level": "watch",
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "마이크론- 현대모비스 … 車 메모리 공급 계약",
-          "url": "https://mk.co.kr/article/12101097",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-07-17T17:45:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 현대모비스 ·퀄컴과 메모리 장기공급 계약",
-          "url": "https://inews24.com/view/1986476",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-07-17T13:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론과 현대모비스 ·퀄컴과 첨단 차량용 메모리 장기공급 계약",
-          "url": "https://hankookilbo.com/news/article/A2026071709370002506?did=NA",
-          "source": "hankookilbo.com",
-          "source_domain": "hankookilbo.com",
-          "published_at": "2026-07-17T10:41:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 퀄컴· 현대모비스 등 7개사와 차량용 메모리 장기계약",
-          "url": "https://wolyo.co.kr/news/articleView.html?idxno=315198",
-          "source": "wolyo.co.kr",
-          "source_domain": "wolyo.co.kr",
-          "published_at": "2026-07-17T08:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 현대모비스 ·퀄컴과 차량용 메모리 공급 장기계약",
-          "url": "https://tfmedia.co.kr/news/article.html?no=205836",
-          "source": "tfmedia.co.kr",
-          "source_domain": "tfmedia.co.kr",
-          "published_at": "2026-07-17T08:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 현대모비스 ·퀄컴과 차량용 메모리 공급 장기 계약...삼성전자...",
-          "url": "https://ytn.co.kr/_ln/0104_202607170721135477",
-          "source": "ytn.co.kr",
-          "source_domain": "ytn.co.kr",
-          "published_at": "2026-07-17T07:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 현대모비스 등과 車반도체 장기공급 계약",
-          "url": "https://mt.co.kr/world/2026/07/17/2026071704111540484",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-07-17T04:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론, 퀄컴· 현대모비스 와 차량용 메모리 공급 장기계약",
-          "url": "https://yna.co.kr/view/AKR20260717003700091?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-07-17T03:44:00+09:00",
+          "title": "쏘면 터졌다… 고양 소노, 3점포 16방으로 95대82 승리... 현대모비스 원...",
+          "url": "https://stnsports.co.kr/news/articleView.html?idxno=324167",
+          "source": "stnsports.co.kr",
+          "source_domain": "stnsports.co.kr",
+          "published_at": "2026-10-17T00:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2219,15 +2142,198 @@
       ]
     },
     {
-      "cluster_id": "23854fac4841840c",
+      "cluster_id": "9cb7c8b91560eb5c",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "현대모비스 , 울산 고래 축제·런페스타 지역 축제 참가",
-      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302963",
+      "representative_title": "3점슛 16개 소노, 현대모비스 꺾고 4연패 탈출",
+      "representative_url": "https://joongang.co.kr/article/25470406",
+      "representative_source": "joongang.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T13:23:00Z",
+      "last_published_at": "2026-10-16T14:50:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongang.co.kr",
+        "maniareport.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "‘3점포 16방' 소노, 현대모비스 95-82 꺾고 4연패 탈출",
+          "url": "https://maniareport.com/view.php?ud=2026101623393397dad9f33a29_19",
+          "source": "maniareport.com",
+          "source_domain": "maniareport.com",
+          "published_at": "2026-10-16T23:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "3점슛 16개 소노, 현대모비스 꺾고 4연패 탈출",
+          "url": "https://joongang.co.kr/article/25470406",
+          "source": "joongang.co.kr",
+          "source_domain": "joongang.co.kr",
+          "published_at": "2026-10-16T22:23:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5fcdf7e1461a078d",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "[프로농구] 오브라이언트·켐바오 활약, 소노 4연패 탈출... 현대모비스 ...",
+      "representative_url": "https://newspim.com/news/view/20261016001421",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T14:26:00Z",
+      "last_published_at": "2026-10-16T14:26:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[프로농구] 오브라이언트·켐바오 활약, 소노 4연패 탈출... 현대모비스 ...",
+          "url": "https://newspim.com/news/view/20261016001421",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-16T23:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5497507fe332e6da",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "'3점포 16방 폭발' 고양 소노, 현대모비스 제압하고 4연패 탈출…우승 후...",
+      "representative_url": "https://dailysportshankook.co.kr/news/articleView.html?idxno=434525",
+      "representative_source": "dailysportshankook.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T14:16:00Z",
+      "last_published_at": "2026-10-16T14:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "dailysportshankook.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'3점포 16방 폭발' 고양 소노, 현대모비스 제압하고 4연패 탈출…우승 후...",
+          "url": "https://dailysportshankook.co.kr/news/articleView.html?idxno=434525",
+          "source": "dailysportshankook.co.kr",
+          "source_domain": "dailysportshankook.co.kr",
+          "published_at": "2026-10-16T23:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4392870eb346a416",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "'3점슛 16개' 고양 소노, '원정 15연패' 울산 현대모비스 잡고 4연패 탈...",
+      "representative_url": "https://sportschosun.com/basketball/2026-10-16/202610160100105460006813",
+      "representative_source": "sportschosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-16T13:47:00Z",
+      "last_published_at": "2026-10-16T13:47:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sportschosun.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'3점슛 16개' 고양 소노, '원정 15연패' 울산 현대모비스 잡고 4연패 탈...",
+          "url": "https://sportschosun.com/basketball/2026-10-16/202610160100105460006813",
+          "source": "sportschosun.com",
+          "source_domain": "sportschosun.com",
+          "published_at": "2026-10-16T22:47:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "75accfa22c389adb",
+      "company_name": "현대모비스",
+      "stock_code": "012330",
+      "representative_title": "[화보] 소노와 현대모비스 경기 화보 (소노 95-82 현대모비스 )",
+      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302991",
       "representative_source": "m.sports.naver.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-16T01:16:00Z",
-      "last_published_at": "2026-10-16T01:16:00Z",
+      "first_published_at": "2026-10-16T13:31:00Z",
+      "last_published_at": "2026-10-16T13:31:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2238,7 +2344,7 @@
         "m.sports.naver.com"
       ],
       "categories": [
-        "인사·M&A"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2250,11 +2356,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대모비스 , 울산 고래 축제·런페스타 지역 축제 참가",
-          "url": "https://m.sports.naver.com/basketball/article/065/0000302963",
+          "title": "[화보] 소노와 현대모비스 경기 화보 (소노 95-82 현대모비스 )",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000302991",
           "source": "m.sports.naver.com",
           "source_domain": "m.sports.naver.com",
-          "published_at": "2026-10-16T10:16:00+09:00",
+          "published_at": "2026-10-16T22:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2262,15 +2368,15 @@
       ]
     },
     {
-      "cluster_id": "d332d13e408d0c96",
+      "cluster_id": "5ab3be6f693525b1",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "中 로봇 생태계로 뛰어든 현대모비스",
-      "representative_url": "https://segye.com/newsView/20261015519585?OutUrl=naver",
-      "representative_source": "segye.com",
+      "representative_title": "[포토] 소노, 홈에서 현대모비스 에 95-82로 승리",
+      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302989",
+      "representative_source": "m.sports.naver.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T21:03:00Z",
-      "last_published_at": "2026-10-15T21:03:00Z",
+      "first_published_at": "2026-10-16T13:26:00Z",
+      "last_published_at": "2026-10-16T13:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2278,51 +2384,7 @@
         "naver"
       ],
       "source_domains": [
-        "segye.com"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "中 로봇 생태계로 뛰어든 현대모비스",
-          "url": "https://segye.com/newsView/20261015519585?OutUrl=naver",
-          "source": "segye.com",
-          "source_domain": "segye.com",
-          "published_at": "2026-10-16T06:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "647a06ceb6e14d64",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "[BK 프리뷰] 연패 끊어야 하는 소노, 연승 원하는 현대모비스",
-      "representative_url": "https://basketkorea.com/news/newsview.php?ncode=1065618535185697",
-      "representative_source": "basketkorea.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T21:00:00Z",
-      "last_published_at": "2026-10-15T21:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "basketkorea.com"
+        "m.sports.naver.com"
       ],
       "categories": [
         "기타"
@@ -2337,11 +2399,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[BK 프리뷰] 연패 끊어야 하는 소노, 연승 원하는 현대모비스",
-          "url": "https://basketkorea.com/news/newsview.php?ncode=1065618535185697",
-          "source": "basketkorea.com",
-          "source_domain": "basketkorea.com",
-          "published_at": "2026-10-16T06:00:00+09:00",
+          "title": "[포토] 소노, 홈에서 현대모비스 에 95-82로 승리",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000302989",
+          "source": "m.sports.naver.com",
+          "source_domain": "m.sports.naver.com",
+          "published_at": "2026-10-16T22:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2349,15 +2411,15 @@
       ]
     },
     {
-      "cluster_id": "4f9901f729ae5527",
+      "cluster_id": "49116487ad6d53b0",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "현대모비스 , 中 로봇 기업과 협업 가능성 논의",
-      "representative_url": "https://chosun.com/economy/auto/2026/10/16/KBQQ5427XVF5HAI5RTDR3AXKZ4",
-      "representative_source": "chosun.com",
+      "representative_title": "[포토] 루즈볼 다툼 후 이정현에게 사과하는 현대모비스 게이지 프림",
+      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302988",
+      "representative_source": "m.sports.naver.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T15:34:00Z",
-      "last_published_at": "2026-10-15T15:34:00Z",
+      "first_published_at": "2026-10-16T13:25:00Z",
+      "last_published_at": "2026-10-16T13:25:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2365,105 +2427,7 @@
         "naver"
       ],
       "source_domains": [
-        "chosun.com"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대모비스 , 中 로봇 기업과 협업 가능성 논의",
-          "url": "https://chosun.com/economy/auto/2026/10/16/KBQQ5427XVF5HAI5RTDR3AXKZ4",
-          "source": "chosun.com",
-          "source_domain": "chosun.com",
-          "published_at": "2026-10-16T00:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "25fcb05af41f9b77",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "현대모비스 , 중국 상하이로 글로벌 오픈이노베이션 확대",
-      "representative_url": "https://byline.network/?p=9004111222623411",
-      "representative_source": "byline.network",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T02:24:00Z",
-      "last_published_at": "2026-10-15T11:22:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "byline.network",
-        "mhj21.com"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "﻿ 현대모비스 , 中 상하이로 글로벌 오픈이노베이션 전략 확대",
-          "url": "https://mhj21.com/news/articleView.html?idxno=254350",
-          "source": "mhj21.com",
-          "source_domain": "mhj21.com",
-          "published_at": "2026-10-15T20:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대모비스 , 중국 상하이로 글로벌 오픈이노베이션 확대",
-          "url": "https://byline.network/?p=9004111222623411",
-          "source": "byline.network",
-          "source_domain": "byline.network",
-          "published_at": "2026-10-15T11:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c39bc5d78e9718b2",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "“글로벌 오픈이노베이션 아시아 확대”.. 현대모비스 , ‘모빌리티 데이...",
-      "representative_url": "https://dailycar.co.kr/content/news.html?autoId=62831&type=view",
-      "representative_source": "dailycar.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T10:08:00Z",
-      "last_published_at": "2026-10-15T10:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dailycar.co.kr"
+        "m.sports.naver.com"
       ],
       "categories": [
         "기타"
@@ -2478,11 +2442,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "“글로벌 오픈이노베이션 아시아 확대”.. 현대모비스 , ‘모빌리티 데이...",
-          "url": "https://dailycar.co.kr/content/news.html?autoId=62831&type=view",
-          "source": "dailycar.co.kr",
-          "source_domain": "dailycar.co.kr",
-          "published_at": "2026-10-15T19:08:00+09:00",
+          "title": "[포토] 루즈볼 다툼 후 이정현에게 사과하는 현대모비스 게이지 프림",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000302988",
+          "source": "m.sports.naver.com",
+          "source_domain": "m.sports.naver.com",
+          "published_at": "2026-10-16T22:25:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2490,15 +2454,15 @@
       ]
     },
     {
-      "cluster_id": "6a87567495fe2aec",
+      "cluster_id": "35c775a2e5254f4d",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "현대모비스 , 오픈이노베이션 무대 中 상하이로 넓혀…로보틱스 파트너...",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=136166",
-      "representative_source": "popcornnews.net",
+      "representative_title": "[포토] 현대모비스 이우석 '마무리는 내가한다'",
+      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302979",
+      "representative_source": "m.sports.naver.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T09:48:00Z",
-      "last_published_at": "2026-10-15T09:48:00Z",
+      "first_published_at": "2026-10-16T13:18:00Z",
+      "last_published_at": "2026-10-16T13:18:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2506,10 +2470,10 @@
         "naver"
       ],
       "source_domains": [
-        "popcornnews.net"
+        "m.sports.naver.com"
       ],
       "categories": [
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2521,11 +2485,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대모비스 , 오픈이노베이션 무대 中 상하이로 넓혀…로보틱스 파트너...",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=136166",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-10-15T18:48:00+09:00",
+          "title": "[포토] 현대모비스 이우석 '마무리는 내가한다'",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000302979",
+          "source": "m.sports.naver.com",
+          "source_domain": "m.sports.naver.com",
+          "published_at": "2026-10-16T22:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2533,15 +2497,15 @@
       ]
     },
     {
-      "cluster_id": "7cbf21efe179f44c",
+      "cluster_id": "6917d825d6165e4f",
       "company_name": "현대모비스",
       "stock_code": "012330",
-      "representative_title": "현대모비스 , 실리콘밸리 이어 中서 로보틱스 협력사 찾는다",
-      "representative_url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202610151818524120817",
-      "representative_source": "dnews.co.kr",
+      "representative_title": "[포토] 현대모비스 박무빈과 대화 나누는 김태완",
+      "representative_url": "https://m.sports.naver.com/basketball/article/065/0000302978",
+      "representative_source": "m.sports.naver.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-15T09:20:00Z",
-      "last_published_at": "2026-10-15T09:20:00Z",
+      "first_published_at": "2026-10-16T13:16:00Z",
+      "last_published_at": "2026-10-16T13:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2549,10 +2513,10 @@
         "naver"
       ],
       "source_domains": [
-        "dnews.co.kr"
+        "m.sports.naver.com"
       ],
       "categories": [
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2564,99 +2528,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대모비스 , 실리콘밸리 이어 中서 로보틱스 협력사 찾는다",
-          "url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202610151818524120817",
-          "source": "dnews.co.kr",
-          "source_domain": "dnews.co.kr",
-          "published_at": "2026-10-15T18:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c485fc716c160a37",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "현대모비스 , 中서 모빌리티·로봇 협력 모색",
-      "representative_url": "https://dt.co.kr/article/12089408",
-      "representative_source": "dt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T09:08:00Z",
-      "last_published_at": "2026-10-15T09:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dt.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대모비스 , 中서 모빌리티·로봇 협력 모색",
-          "url": "https://dt.co.kr/article/12089408",
-          "source": "dt.co.kr",
-          "source_domain": "dt.co.kr",
-          "published_at": "2026-10-15T18:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3da47ada19dbd90f",
-      "company_name": "현대모비스",
-      "stock_code": "012330",
-      "representative_title": "[기업] 현대모비스 , 중국 기업과 로봇 관련 기술 협력 논의",
-      "representative_url": "https://ytn.co.kr/_ln/0102_202610151804579969",
-      "representative_source": "ytn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-15T09:04:00Z",
-      "last_published_at": "2026-10-15T09:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ytn.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[기업] 현대모비스 , 중국 기업과 로봇 관련 기술 협력 논의",
-          "url": "https://ytn.co.kr/_ln/0102_202610151804579969",
-          "source": "ytn.co.kr",
-          "source_domain": "ytn.co.kr",
-          "published_at": "2026-10-15T18:04:00+09:00",
+          "title": "[포토] 현대모비스 박무빈과 대화 나누는 김태완",
+          "url": "https://m.sports.naver.com/basketball/article/065/0000302978",
+          "source": "m.sports.naver.com",
+          "source_domain": "m.sports.naver.com",
+          "published_at": "2026-10-16T22:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
