@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T14:33:34.956843Z",
+  "generated_at": "2026-10-19T01:14:57.759344Z",
   "company_name": "현대자동차",
   "stock_code": "005380",
   "status": "partial",
-  "last_successful_update": "2026-10-18T14:33:34.956843Z",
+  "last_successful_update": "2026-10-19T01:14:57.759344Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,52 @@
           "source": "etnews.com",
           "source_domain": "etnews.com",
           "published_at": "2026-10-17T16:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6291988579542122",
+      "company_name": "현대자동차",
+      "stock_code": "005380",
+      "representative_title": "현대자동차 , '2026 현대 모빌리티 플레이그라운드 시즌 2' 성료",
+      "representative_url": "https://yna.co.kr/view/PYH20261019020500013?input=1196m",
+      "representative_source": "yna.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T00:16:00Z",
+      "last_published_at": "2026-10-19T00:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "yna.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "현대자동차 , '2026 현대 모빌리티 플레이그라운드 시즌 2' 성료",
+          "url": "https://yna.co.kr/view/PYH20261019020500013?input=1196m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-10-19T09:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -481,72 +527,6 @@
           "source": "lawleader.co.kr",
           "source_domain": "lawleader.co.kr",
           "published_at": "2026-10-13T21:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e174840e9b314134",
-      "company_name": "현대자동차",
-      "stock_code": "005380",
-      "representative_title": "현대자동차 , 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 전 개막",
-      "representative_url": "https://yna.co.kr/view/PYH20261013028700013?input=1196m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-13T00:20:00Z",
-      "last_published_at": "2026-10-13T01:16:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cnbnews.com",
-        "sisaon.co.kr",
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "현대자동차 , 英 테이트 미술관 협업 전시 '타렉 아투이: Hold'전 개막",
-          "url": "https://sisaon.co.kr/news/articleView.html?idxno=205075",
-          "source": "sisaon.co.kr",
-          "source_domain": "sisaon.co.kr",
-          "published_at": "2026-10-13T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대자동차 , '현대 커미션 타렉 아투이 Hold' 전시 개최",
-          "url": "https://cnbnews.com/news/articleView.html?idxno=1019014",
-          "source": "cnbnews.com",
-          "source_domain": "cnbnews.com",
-          "published_at": "2026-10-13T10:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대자동차 , 테이트 미술관서 '현대 커미션: 타렉 아투이: Hold' 전 개막",
-          "url": "https://yna.co.kr/view/PYH20261013028700013?input=1196m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-10-13T09:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
