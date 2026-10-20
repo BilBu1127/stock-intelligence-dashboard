@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T17:28:17.000463Z",
+  "generated_at": "2026-10-20T01:49:11.686907Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-10-19T17:28:17.000463Z",
+  "last_successful_update": "2026-10-20T01:49:11.686907Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -332,6 +332,96 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "597ed724398bff04",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "한투證 “네이버, AI 기대감 사라진 지금이 기회…목표가 36만원”",
+      "representative_url": "https://biz.chosun.com/stock/stock_general/2026/10/20/J4VCTZETFBDWDHRWNVVD3JSWVY",
+      "representative_source": "biz.chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T23:52:00Z",
+      "last_published_at": "2026-10-19T23:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.chosun.com"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한투證 “네이버, AI 기대감 사라진 지금이 기회…목표가 36만원”",
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/20/J4VCTZETFBDWDHRWNVVD3JSWVY",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-10-20T08:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "56476db70be6fe63",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "한투증권 “ NAVER , 주가 상승분 대부분 반납…낮은 밸류에이션 매력”",
+      "representative_url": "https://mk.co.kr/article/12180233",
+      "representative_source": "mk.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T23:33:00Z",
+      "last_published_at": "2026-10-19T23:33:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mk.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 10,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한투증권 “ NAVER , 주가 상승분 대부분 반납…낮은 밸류에이션 매력”",
+          "url": "https://mk.co.kr/article/12180233",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-10-20T08:33:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -684,92 +774,6 @@
           "source": "edaily.co.kr",
           "source_domain": "edaily.co.kr",
           "published_at": "2026-10-19T09:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a29e7f4f31f35dbc",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "네이버 파파고, 번역 넘어 ‘한국 여행 길잡이’로…인기 상품·장소 추...",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02440326645614560",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-19T00:21:00Z",
-      "last_published_at": "2026-10-19T00:21:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버 파파고, 번역 넘어 ‘한국 여행 길잡이’로…인기 상품·장소 추...",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02440326645614560",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-10-19T09:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9da94848965edbd9",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "\"3년 내 1위 하겠다더니\"…네이버 웨일, 10년째 8%대 갇혀 정체",
-      "representative_url": "https://mt.co.kr/tech/2026/10/18/2026101514373023800",
-      "representative_source": "mt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-18T06:52:00Z",
-      "last_published_at": "2026-10-18T06:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mt.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"3년 내 1위 하겠다더니\"…네이버 웨일, 10년째 8%대 갇혀 정체",
-          "url": "https://mt.co.kr/tech/2026/10/18/2026101514373023800",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-10-18T15:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

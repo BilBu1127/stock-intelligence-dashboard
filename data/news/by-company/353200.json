@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T17:28:17.000463Z",
+  "generated_at": "2026-10-20T01:49:11.686907Z",
   "company_name": "대덕전자",
   "stock_code": "353200",
   "status": "partial",
-  "last_successful_update": "2026-10-19T17:28:17.000463Z",
+  "last_successful_update": "2026-10-20T01:49:11.686907Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -247,6 +247,115 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-18T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9afcd802188e6c7b",
+      "company_name": "대덕전자",
+      "stock_code": "353200",
+      "representative_title": "“삼성전기 3605억 계약이 신호탄… 대덕전자 ·심텍 실적 뛴다”",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02574806645614888",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T22:56:00Z",
+      "last_published_at": "2026-10-20T00:58:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr",
+        "newstnt.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 3605억",
+        "earnings",
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 대덕전자 ·심텍, BT기판 공급 부족 수혜 전망…삼성전기 3605억...",
+          "url": "https://newstnt.com/news/articleView.html?idxno=723891",
+          "source": "newstnt.com",
+          "source_domain": "newstnt.com",
+          "published_at": "2026-10-20T09:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "“삼성전기 3605억 계약이 신호탄… 대덕전자 ·심텍 실적 뛴다”",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02574806645614888",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-10-20T07:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d8b3f6351c2ca8f9",
+      "company_name": "대덕전자",
+      "stock_code": "353200",
+      "representative_title": "키움證 “삼성전기 계약은 BT기판 쇼티지 신호탄⋯ 대덕전자 ·심텍 수혜...",
+      "representative_url": "https://etoday.co.kr/news/view/2637630",
+      "representative_source": "etoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T23:02:00Z",
+      "last_published_at": "2026-10-19T23:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etoday.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "키움證 “삼성전기 계약은 BT기판 쇼티지 신호탄⋯ 대덕전자 ·심텍 수혜...",
+          "url": "https://etoday.co.kr/news/view/2637630",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-10-20T08:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -617,97 +726,6 @@
           "source": "smarttoday.co.kr",
           "source_domain": "smarttoday.co.kr",
           "published_at": "2026-10-19T09:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0971b30c9c01e533",
-      "company_name": "대덕전자",
-      "stock_code": "353200",
-      "representative_title": "[모닝 리포트] \" 대덕전자 , 3분기 영업익 232% 급증…목표가 19만원\"",
-      "representative_url": "https://newspim.com/news/view/20261019000106",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-18T23:40:00Z",
-      "last_published_at": "2026-10-18T23:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[모닝 리포트] \" 대덕전자 , 3분기 영업익 232% 급증…목표가 19만원\"",
-          "url": "https://newspim.com/news/view/20261019000106",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-19T08:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "51def021fa1566ae",
-      "company_name": "대덕전자",
-      "stock_code": "353200",
-      "representative_title": "대덕전자 3분기 잠정실적 30일 공시…기관 IR은 11월 4일",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=394067",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-18T09:34:00Z",
-      "last_published_at": "2026-10-18T09:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "대덕전자 3분기 잠정실적 30일 공시…기관 IR은 11월 4일",
-          "url": "https://vegannews.co.kr/news/article.html?no=394067",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-18T18:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-19T17:28:17.000463Z",
+  "generated_at": "2026-10-20T01:49:11.686907Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-10-19T17:28:17.000463Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-20T01:49:11.686907Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8fb982c5ca50b1bc",
@@ -2473,6 +2478,52 @@
       ]
     },
     {
+      "cluster_id": "442c8895769bf599",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "HD현대중공업 9월 누계 수주 184억8500만달러",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=394443",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-19T22:40:00Z",
+      "last_published_at": "2026-10-19T22:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 184억"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HD현대중공업 9월 누계 수주 184억8500만달러",
+          "url": "https://vegannews.co.kr/news/article.html?no=394443",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-10-20T07:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "5208cbc85fb30878",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
@@ -2880,54 +2931,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-10-19T16:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c61ae3867abb19c9",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "\"상선 넘어 엔진으로… HD현대중공업 , 8300억 신공장이 끌어올릴 '조 단위...",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=302949",
-      "representative_source": "newsquest.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-19T07:00:00Z",
-      "last_published_at": "2026-10-19T07:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsquest.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 8300억",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"상선 넘어 엔진으로… HD현대중공업 , 8300억 신공장이 끌어올릴 '조 단위...",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=302949",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-10-19T16:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
