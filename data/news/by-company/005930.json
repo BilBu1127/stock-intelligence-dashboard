@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T15:38:52.907080Z",
+  "generated_at": "2026-10-21T01:34:07.092844Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-10-20T15:38:52.907080Z",
+  "last_successful_update": "2026-10-21T01:34:07.092844Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -4147,331 +4147,30 @@
       ]
     },
     {
-      "cluster_id": "60b6e49788cc6fb6",
+      "cluster_id": "f0dd0af28224e095",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "\" 삼성전자 , 내년 영업이익 555조…사실상 이익 증가 확정\"-KB",
-      "representative_url": "https://mt.co.kr/stock/2026/10/20/2026102008275567314",
-      "representative_source": "mt.co.kr",
+      "representative_title": "KB證 \"마이크론 파업 예고… 삼성전자 ·SK하이닉스 반사이익\"",
+      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=136675",
+      "representative_source": "popcornnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-19T23:52:00Z",
-      "last_published_at": "2026-10-20T15:36:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
+      "first_published_at": "2026-10-20T22:52:00Z",
+      "last_published_at": "2026-10-21T01:14:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "chosun.com",
-        "cwn.kr",
-        "joongangenews.com",
-        "kjdaily.com",
-        "mt.co.kr",
-        "munhwa.com",
-        "whitepaper.co.kr",
-        "widedaily.com"
+        "businesspost.co.kr",
+        "etoday.co.kr",
+        "news.einfomax.co.kr",
+        "popcornnews.net"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 555조",
-        "earnings",
-        "production",
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "“ 삼성전자 , 실적 성장성 확보… 내년 영업익 555조원”",
-          "url": "https://chosun.com/economy/stock-finance/2026/10/21/3SUFBIP5MZC45J5GGOZCQC2JEE",
-          "source": "chosun.com",
-          "source_domain": "chosun.com",
-          "published_at": "2026-10-21T00:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 내년 메모리 생산량 80% 공급계약 확보 추정",
-          "url": "https://kjdaily.com/article.php?aid=1792508501689687276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-21T00:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KB證 \" 삼성전자 , 내년 영업익 555조원…이익 증가 확정적\"",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=556734",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-10-20T16:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "“ 삼성전자 내년 영업익 555조 전망…이익 증가 확정적”-KB證",
-          "url": "https://munhwa.com/article/11624885",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-10-20T16:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 내년 메모리 생산물량 80% 계약 확보…영업이익 555조원 전망",
-          "url": "https://cwn.kr/news/articleView.html?idxno=59738",
-          "source": "cwn.kr",
-          "source_domain": "cwn.kr",
-          "published_at": "2026-10-20T14:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KB증권, 삼성전자 내년 영업이익 555조원 전망",
-          "url": "https://whitepaper.co.kr/news/articleView.html?idxno=267928",
-          "source": "whitepaper.co.kr",
-          "source_domain": "whitepaper.co.kr",
-          "published_at": "2026-10-20T11:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "\"내년 영업익 555조 달성\"…KB증권, 삼성전자 실적 성장 '기정사실화'",
-          "url": "https://widedaily.com/news/articleView.html?idxno=302110",
-          "source": "widedaily.com",
-          "source_domain": "widedaily.com",
-          "published_at": "2026-10-20T11:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "\" 삼성전자 , 내년 영업이익 555조…사실상 이익 증가 확정\"-KB",
-          "url": "https://mt.co.kr/stock/2026/10/20/2026102008275567314",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-10-20T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5f2d26eb4a2cc774",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "\"AI 산업, 아직 꽃 안 피웠다\"…전문가가 본 삼성전자 ·SK하이닉스 반등...",
-      "representative_url": "https://newsis.com/view/NISX20261020_0003833281",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T15:27:00Z",
-      "last_published_at": "2026-10-20T15:27:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"AI 산업, 아직 꽃 안 피웠다\"…전문가가 본 삼성전자 ·SK하이닉스 반등...",
-          "url": "https://newsis.com/view/NISX20261020_0003833281",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-10-21T00:27:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a3f0c09cdf658351",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "엠로, 삼성전자 구매시스템 112억 유지보수 계약",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=394768",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T15:22:00Z",
-      "last_published_at": "2026-10-20T15:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        " 112억",
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "엠로, 삼성전자 구매시스템 112억 유지보수 계약",
-          "url": "https://vegannews.co.kr/news/article.html?no=394768",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-21T00:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c217d7f07a2b882c",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "中 CXMT, 삼성전자 ·SK하이닉스에 도전…D램 초미세화 속도",
-      "representative_url": "https://kjdaily.com/article.php?aid=1792508419689705276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T15:02:00Z",
-      "last_published_at": "2026-10-20T15:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "中 CXMT, 삼성전자 ·SK하이닉스에 도전…D램 초미세화 속도",
-          "url": "https://kjdaily.com/article.php?aid=1792508419689705276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-21T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d8c41803e1644098",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "[반도체 동반 급락]\"美 훈풍도 소용없었다\"… 삼성전자 3%·SK하이닉스 4%...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=617509",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T15:00:00Z",
-      "last_published_at": "2026-10-20T15:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[반도체 동반 급락]\"美 훈풍도 소용없었다\"… 삼성전자 3%·SK하이닉스 4%...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=617509",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-21T00:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "fcb39bcdf808ff4a",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "전남광주통합특별시, '2030년 첫 양산'... 삼성전자 평택캠퍼스 현장 찾...",
-      "representative_url": "https://newsworker.co.kr/news/articleView.html?idxno=509677",
-      "representative_source": "newsworker.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T13:58:00Z",
-      "last_published_at": "2026-10-20T13:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsworker.co.kr"
-      ],
-      "categories": [
         "투자·생산"
       ],
       "event_keywords": [
@@ -4484,14 +4183,44 @@
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "전남광주통합특별시, '2030년 첫 양산'... 삼성전자 평택캠퍼스 현장 찾...",
-          "url": "https://newsworker.co.kr/news/articleView.html?idxno=509677",
-          "source": "newsworker.co.kr",
-          "source_domain": "newsworker.co.kr",
-          "published_at": "2026-10-20T22:58:00+09:00",
+          "title": "KB증권 \"마이크론 대만공장 파업 예고, 삼성전자 ·SK하이닉스 반사이익...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=449868",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-10-21T10:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "마이크론 파업 예고… 삼성전자 ·SK하이닉스 반사이익 기대",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440274",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-10-21T08:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KB證 “마이크론 파업 예고⋯ 삼성전자 ·SK하이닉스 반사이익 기대”",
+          "url": "https://etoday.co.kr/news/view/2638101",
+          "source": "etoday.co.kr",
+          "source_domain": "etoday.co.kr",
+          "published_at": "2026-10-21T07:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KB證 \"마이크론 파업 예고… 삼성전자 ·SK하이닉스 반사이익\"",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=136675",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-10-21T07:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4499,15 +4228,15 @@
       ]
     },
     {
-      "cluster_id": "c199161931d8ae9b",
+      "cluster_id": "c8caa6230073ebc7",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 착용감·음질·AI 갖춘 '갤럭시 버즈 온' 개발 스토리 공개",
-      "representative_url": "https://thedailypost.kr/news/articleView.html?idxno=116334",
-      "representative_source": "thedailypost.kr",
+      "representative_title": "급락 하루 만에 반등…SK하이닉스 5%· 삼성전자 4% 급등[핫종목]",
+      "representative_url": "https://news1.kr/finance/general-stock/6326879",
+      "representative_source": "news1.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-20T13:50:00Z",
-      "last_published_at": "2026-10-20T13:50:00Z",
+      "first_published_at": "2026-10-21T01:11:00Z",
+      "last_published_at": "2026-10-21T01:11:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4515,7 +4244,143 @@
         "naver"
       ],
       "source_domains": [
-        "thedailypost.kr"
+        "news1.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "급락 하루 만에 반등…SK하이닉스 5%· 삼성전자 4% 급등[핫종목]",
+          "url": "https://news1.kr/finance/general-stock/6326879",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-10-21T10:11:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "af59dd240ef31b51",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "엔비디아 공급난에 AI 수요 재확인… 삼성전자 4%·SK하이닉스 5%대 반등",
+      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=303085",
+      "representative_source": "newsquest.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T01:04:00Z",
+      "last_published_at": "2026-10-21T01:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsquest.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "엔비디아 공급난에 AI 수요 재확인… 삼성전자 4%·SK하이닉스 5%대 반등",
+          "url": "https://newsquest.co.kr/news/articleView.html?idxno=303085",
+          "source": "newsquest.co.kr",
+          "source_domain": "newsquest.co.kr",
+          "published_at": "2026-10-21T10:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "474e2c0e222c4ab2",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "\"장초반 주가 폭등\"...SK하이닉스 130만· 삼성전자 22만 돌파",
+      "representative_url": "https://gukjenews.com/news/articleView.html?idxno=3727644",
+      "representative_source": "gukjenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T01:02:00Z",
+      "last_published_at": "2026-10-21T01:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "gukjenews.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"장초반 주가 폭등\"...SK하이닉스 130만· 삼성전자 22만 돌파",
+          "url": "https://gukjenews.com/news/articleView.html?idxno=3727644",
+          "source": "gukjenews.com",
+          "source_domain": "gukjenews.com",
+          "published_at": "2026-10-21T10:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "926c42d42b91d362",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "“LG전자 대리였는데… 삼성전자 부스 알바하며 밤새 울었다” 고백한 배...",
+      "representative_url": "https://wikitree.co.kr/articles/1167873",
+      "representative_source": "wikitree.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T01:00:00Z",
+      "last_published_at": "2026-10-21T01:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "wikitree.co.kr"
       ],
       "categories": [
         "기타"
@@ -4530,11 +4395,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 착용감·음질·AI 갖춘 '갤럭시 버즈 온' 개발 스토리 공개",
-          "url": "https://thedailypost.kr/news/articleView.html?idxno=116334",
-          "source": "thedailypost.kr",
-          "source_domain": "thedailypost.kr",
-          "published_at": "2026-10-20T22:50:00+09:00",
+          "title": "“LG전자 대리였는데… 삼성전자 부스 알바하며 밤새 울었다” 고백한 배...",
+          "url": "https://wikitree.co.kr/articles/1167873",
+          "source": "wikitree.co.kr",
+          "source_domain": "wikitree.co.kr",
+          "published_at": "2026-10-21T10:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4542,15 +4407,71 @@
       ]
     },
     {
-      "cluster_id": "ef6c135185c445ae",
+      "cluster_id": "4005c36448e372df",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[포토] 민형배 시장, 삼성전자 평택캠퍼스 찾아 반도체 현황 점검",
-      "representative_url": "https://kpinews.kr/newsView/1065618096604152",
-      "representative_source": "kpinews.kr",
+      "representative_title": "삼성전자 , 전 세계 63개국서 '삼성위크 2026' 개최…AI 제품 구매 혜택 ...",
+      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1728576",
+      "representative_source": "ebn.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-20T13:05:00Z",
-      "last_published_at": "2026-10-20T13:05:00Z",
+      "first_published_at": "2026-10-21T00:50:00Z",
+      "last_published_at": "2026-10-21T00:56:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ebn.co.kr",
+        "g-enews.com"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "2026"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자 , 63개국서 '삼성위크' 개최…AI 제품 구매 혜택 확대",
+          "url": "https://g-enews.com/view.php?ud=2026102109372842113084322ec9_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-10-21T09:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 전 세계 63개국서 '삼성위크 2026' 개최…AI 제품 구매 혜택 ...",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1728576",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-10-21T09:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "439f759bc5afe0a2",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 6% 급등…외국인 매수·마이크론 파업 변수",
+      "representative_url": "https://cstimes.com/news/articleView.html?idxno=724721",
+      "representative_source": "cstimes.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T00:56:00Z",
+      "last_published_at": "2026-10-21T00:56:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4558,26 +4479,28 @@
         "naver"
       ],
       "source_domains": [
-        "kpinews.kr"
+        "cstimes.com"
       ],
       "categories": [
-        "기타"
+        "주가·투자의견",
+        "투자·생산"
       ],
       "event_keywords": [],
-      "importance_score": 15,
+      "importance_score": 0,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "[포토] 민형배 시장, 삼성전자 평택캠퍼스 찾아 반도체 현황 점검",
-          "url": "https://kpinews.kr/newsView/1065618096604152",
-          "source": "kpinews.kr",
-          "source_domain": "kpinews.kr",
-          "published_at": "2026-10-20T22:05:00+09:00",
+          "title": "삼성전자 6% 급등…외국인 매수·마이크론 파업 변수",
+          "url": "https://cstimes.com/news/articleView.html?idxno=724721",
+          "source": "cstimes.com",
+          "source_domain": "cstimes.com",
+          "published_at": "2026-10-21T09:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4585,15 +4508,108 @@
       ]
     },
     {
-      "cluster_id": "a35e1299bf78df28",
+      "cluster_id": "bd2b2405a45e0099",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "민형배 시장, 삼성전자 평택캠퍼스 방문…반도체 인프라 점검",
-      "representative_url": "https://view.asiae.co.kr/article/2026102017574311920",
+      "representative_title": "[특징주] 美 AI 서버 기업 호실적⋯ 삼성전자 5%·SK하이닉스 7%↑",
+      "representative_url": "https://inews24.com/view/2017216",
+      "representative_source": "inews24.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T00:55:00Z",
+      "last_published_at": "2026-10-21T00:55:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "inews24.com"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 美 AI 서버 기업 호실적⋯ 삼성전자 5%·SK하이닉스 7%↑",
+          "url": "https://inews24.com/view/2017216",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-21T09:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2616eb08c97027ed",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[특징주] 슈퍼마이크로 호실적 훈풍에 삼성전자 ·SK하이닉스 동반 강세",
+      "representative_url": "https://newspim.com/news/view/20261021000214",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T00:49:00Z",
+      "last_published_at": "2026-10-21T00:49:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[특징주] 슈퍼마이크로 호실적 훈풍에 삼성전자 ·SK하이닉스 동반 강세",
+          "url": "https://newspim.com/news/view/20261021000214",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-21T09:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cb0438f5268ffe54",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 63개국서 최대 프로모션 ‘삼성위크’…韓 내달 1~30일",
+      "representative_url": "https://view.asiae.co.kr/article/2026102109452167655",
       "representative_source": "view.asiae.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-20T12:27:00Z",
-      "last_published_at": "2026-10-20T12:27:00Z",
+      "first_published_at": "2026-10-21T00:45:00Z",
+      "last_published_at": "2026-10-21T00:45:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4604,7 +4620,7 @@
         "view.asiae.co.kr"
       ],
       "categories": [
-        "공급·규제"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -4616,56 +4632,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "민형배 시장, 삼성전자 평택캠퍼스 방문…반도체 인프라 점검",
-          "url": "https://view.asiae.co.kr/article/2026102017574311920",
+          "title": "삼성전자 , 63개국서 최대 프로모션 ‘삼성위크’…韓 내달 1~30일",
+          "url": "https://view.asiae.co.kr/article/2026102109452167655",
           "source": "view.asiae.co.kr",
           "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-10-20T21:27:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d179e1f090570ef9",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "SK하이닉스· 삼성전자 거래대금 7.7조…상위 50종목의 51%",
-      "representative_url": "https://kjdaily.com/article.php?aid=1792496411689789276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T11:42:00Z",
-      "last_published_at": "2026-10-20T11:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 7조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스· 삼성전자 거래대금 7.7조…상위 50종목의 51%",
-          "url": "https://kjdaily.com/article.php?aid=1792496411689789276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-20T20:42:00+09:00",
+          "published_at": "2026-10-21T09:45:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
