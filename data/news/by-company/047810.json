@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T01:34:07.092844Z",
+  "generated_at": "2026-10-21T15:56:51.560827Z",
   "company_name": "한국항공우주",
   "stock_code": "047810",
   "status": "partial",
-  "last_successful_update": "2026-10-21T01:34:07.092844Z",
+  "last_successful_update": "2026-10-21T15:56:51.560827Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -2013,26 +2013,71 @@
       ]
     },
     {
-      "cluster_id": "790deaa2cd32ce03",
+      "cluster_id": "4308f3a697920e8f",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "​KAI, 우주 궤도서 AI로 위성 자율운영 실증 성공",
-      "representative_url": "https://fnnews.com/news/202610211006456131",
-      "representative_source": "fnnews.com",
+      "representative_title": "KAI, 우주 궤도서 AI로 위성 자율운영 실증…12월 자율운영 실증 임무 돌...",
+      "representative_url": "https://paxetv.com/news/articleView.html?idxno=284838",
+      "representative_source": "paxetv.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:14:00Z",
-      "last_published_at": "2026-10-21T01:28:00Z",
-      "article_count": 4,
-      "domestic_article_count": 4,
+      "first_published_at": "2026-10-21T15:36:00Z",
+      "last_published_at": "2026-10-21T15:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "biz.heraldcorp.com",
-        "cnbizm.com",
+        "paxetv.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 우주 궤도서 AI로 위성 자율운영 실증…12월 자율운영 실증 임무 돌...",
+          "url": "https://paxetv.com/news/articleView.html?idxno=284838",
+          "source": "paxetv.com",
+          "source_domain": "paxetv.com",
+          "published_at": "2026-10-22T00:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2da877c63bcc9088",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 우주 궤도서 AI로 위성 자율운영 실증 수행",
+      "representative_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7190076",
+      "representative_source": "weekly.hankooki.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T07:24:00Z",
+      "last_published_at": "2026-10-21T13:56:00Z",
+      "article_count": 6,
+      "domestic_article_count": 6,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "1conomynews.co.kr",
         "fnnews.com",
-        "view.asiae.co.kr"
+        "gnmaeil.com",
+        "sedaily.com",
+        "webeconomy.co.kr",
+        "weekly.hankooki.com"
       ],
       "categories": [
         "기타"
@@ -2047,41 +2092,61 @@
       "needs_review": true,
       "articles": [
         {
+          "title": "KAI, 우주 서 'AI 위성' 자율운영 기술 실증",
+          "url": "https://gnmaeil.com/news/articleView.html?idxno=597038",
+          "source": "gnmaeil.com",
+          "source_domain": "gnmaeil.com",
+          "published_at": "2026-10-21T22:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 우주 궤도서 AI 위성 자율운영 기술 실증 성공",
+          "url": "https://webeconomy.co.kr/news/articleView.html?idxno=2343123",
+          "source": "webeconomy.co.kr",
+          "source_domain": "webeconomy.co.kr",
+          "published_at": "2026-10-21T19:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
           "title": "KAI, 우주 궤도서 AI 위성 자율운영 실증 성공",
-          "url": "https://cnbizm.com/news/articleView.html?idxno=318688",
-          "source": "cnbizm.com",
-          "source_domain": "cnbizm.com",
-          "published_at": "2026-10-21T10:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KAI, 우주 서 AI 기반 위성 자율운영 기술 실증 성공",
-          "url": "https://view.asiae.co.kr/article/2026102110252829243",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-10-21T10:25:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "​KAI, 우주 궤도서 AI로 위성 자율운영 실증 성공",
-          "url": "https://fnnews.com/news/202610211006456131",
+          "url": "https://fnnews.com/news/202610211824556492",
           "source": "fnnews.com",
           "source_domain": "fnnews.com",
-          "published_at": "2026-10-21T10:14:00+09:00",
+          "published_at": "2026-10-21T18:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "KAI, 우주 궤도서 AI 기반 위성 자율운영 실증 성공",
-          "url": "https://biz.heraldcorp.com/article/10909602",
-          "source": "biz.heraldcorp.com",
-          "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-10-21T10:14:00+09:00",
+          "title": "KAI, 우주 궤도서 AI로 ‘위성 자율운영’ 실증 성공",
+          "url": "https://sedaily.com/article/20104501",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-10-21T18:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 우주 서 AI 위성 자율운영 기술 검증…12월 본격화",
+          "url": "https://1conomynews.co.kr/news/articleView.html?idxno=50900",
+          "source": "1conomynews.co.kr",
+          "source_domain": "1conomynews.co.kr",
+          "published_at": "2026-10-21T17:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "KAI, 우주 궤도서 AI로 위성 자율운영 실증 수행",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7190076",
+          "source": "weekly.hankooki.com",
+          "source_domain": "weekly.hankooki.com",
+          "published_at": "2026-10-21T16:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2089,15 +2154,15 @@
       ]
     },
     {
-      "cluster_id": "e4066b34ed5c393d",
+      "cluster_id": "9014e4d5788d51da",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI, 우주 서 위성 고장 스스로 진단하는 'AI 자율운영' 검증 성공",
-      "representative_url": "https://newsis.com/view/NISX20261021_0003834588",
-      "representative_source": "newsis.com",
+      "representative_title": "KAI, 우주 서 위성 고장 스스로 진단하는 AI 기술 검증… 12월 본임무 착...",
+      "representative_url": "https://biztribune.co.kr/news/articleView.html?idxno=361006",
+      "representative_source": "biztribune.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:27:00Z",
-      "last_published_at": "2026-10-21T01:27:00Z",
+      "first_published_at": "2026-10-21T13:24:00Z",
+      "last_published_at": "2026-10-21T13:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2105,7 +2170,7 @@
         "naver"
       ],
       "source_domains": [
-        "newsis.com"
+        "biztribune.co.kr"
       ],
       "categories": [
         "기타"
@@ -2120,11 +2185,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "KAI, 우주 서 위성 고장 스스로 진단하는 'AI 자율운영' 검증 성공",
-          "url": "https://newsis.com/view/NISX20261021_0003834588",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-10-21T10:27:00+09:00",
+          "title": "KAI, 우주 서 위성 고장 스스로 진단하는 AI 기술 검증… 12월 본임무 착...",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=361006",
+          "source": "biztribune.co.kr",
+          "source_domain": "biztribune.co.kr",
+          "published_at": "2026-10-21T22:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2132,15 +2197,15 @@
       ]
     },
     {
-      "cluster_id": "157ebca0f5d71a6b",
+      "cluster_id": "53d659876d805e03",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI, 위성 고장 원인·대응책 AI로 분석··· 우주 실증 성공",
-      "representative_url": "https://smartbizn.com/news/articleView.html?idxno=157062",
-      "representative_source": "smartbizn.com",
+      "representative_title": "국감서 KAI 민영화 논란 재점화…KF-21 양산비 부담도 부각",
+      "representative_url": "https://greened.kr/news/articleView.html?idxno=352685",
+      "representative_source": "greened.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:26:00Z",
-      "last_published_at": "2026-10-21T01:26:00Z",
+      "first_published_at": "2026-10-21T12:56:00Z",
+      "last_published_at": "2026-10-21T12:56:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2148,139 +2213,10 @@
         "naver"
       ],
       "source_domains": [
-        "smartbizn.com"
+        "greened.kr"
       ],
       "categories": [
         "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KAI, 위성 고장 원인·대응책 AI로 분석··· 우주 실증 성공",
-          "url": "https://smartbizn.com/news/articleView.html?idxno=157062",
-          "source": "smartbizn.com",
-          "source_domain": "smartbizn.com",
-          "published_at": "2026-10-21T10:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "60b5efdb7b3e0d1f",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "우주 서 고장 나면 AI가 원인 찾는다…KAI, 위성 자율운영 실증 성공",
-      "representative_url": "https://etoday.co.kr/news/view/2638267",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:22:00Z",
-      "last_published_at": "2026-10-21T01:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "우주 서 고장 나면 AI가 원인 찾는다…KAI, 위성 자율운영 실증 성공",
-          "url": "https://etoday.co.kr/news/view/2638267",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-10-21T10:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8519f374352c868d",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "위성이 스스로 고장 진단하고 대응책 찾는다… KAI, 우주 실증 성공",
-      "representative_url": "https://biz.chosun.com/industry/company/2026/10/21/DOTG4DOFZFBVXN33YZEPSXIGE4",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:21:00Z",
-      "last_published_at": "2026-10-21T01:21:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "위성이 스스로 고장 진단하고 대응책 찾는다… KAI, 우주 실증 성공",
-          "url": "https://biz.chosun.com/industry/company/2026/10/21/DOTG4DOFZFBVXN33YZEPSXIGE4",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-10-21T10:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1796df1563e83ad3",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "[단독] 일 막료장, 'T-50 생산' 한국항공우주 산업 찾을 예정",
-      "representative_url": "https://obsnews.co.kr/news/articleView.html?idxno=1541201",
-      "representative_source": "obsnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:20:00Z",
-      "last_published_at": "2026-10-21T01:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "obsnews.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
       ],
       "event_keywords": [
         "production"
@@ -2295,11 +2231,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[단독] 일 막료장, 'T-50 생산' 한국항공우주 산업 찾을 예정",
-          "url": "https://obsnews.co.kr/news/articleView.html?idxno=1541201",
-          "source": "obsnews.co.kr",
-          "source_domain": "obsnews.co.kr",
-          "published_at": "2026-10-21T10:20:00+09:00",
+          "title": "국감서 KAI 민영화 논란 재점화…KF-21 양산비 부담도 부각",
+          "url": "https://greened.kr/news/articleView.html?idxno=352685",
+          "source": "greened.kr",
+          "source_domain": "greened.kr",
+          "published_at": "2026-10-21T21:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2307,108 +2243,44 @@
       ]
     },
     {
-      "cluster_id": "282f7e79c22bfd3a",
+      "cluster_id": "449a5962f43221e8",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI, 우주 서 AI 위성 고장 진단 실증 성공…12월 본임무 착수",
-      "representative_url": "https://dailian.co.kr/news/view/1703995?sc=Naver",
-      "representative_source": "dailian.co.kr",
+      "representative_title": "한국항공우주 최근 5거래일 거래대금 약 2250억원",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=395205",
+      "representative_source": "vegannews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:54:00Z",
-      "last_published_at": "2026-10-21T01:17:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
+      "first_published_at": "2026-10-21T12:50:00Z",
+      "last_published_at": "2026-10-21T12:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "dailian.co.kr",
-        "news1.kr",
-        "popcornnews.net"
+        "vegannews.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [],
+      "event_keywords": [
+        " 2250억"
+      ],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "​KAI, 우주 서 AI 위성 자율운영 실증 성공…12월 본임무 착수",
-          "url": "https://news1.kr/industry/general-industry/6326902",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-10-21T10:17:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KAI, 우주 서 AI 위성 자율운영 실증…12월 메인 임무 돌입",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=136730",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-10-21T09:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KAI, 우주 서 AI 위성 고장 진단 실증 성공…12월 본임무 착수",
-          "url": "https://dailian.co.kr/news/view/1703995?sc=Naver",
-          "source": "dailian.co.kr",
-          "source_domain": "dailian.co.kr",
-          "published_at": "2026-10-21T09:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "79fefac33bed9a2f",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "\"AI가 고장 대응책까지\"…KAI, 우주 서 AI로 위성 자율운영 실증",
-      "representative_url": "https://yna.co.kr/view/AKR20261021058900003?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:17:00Z",
-      "last_published_at": "2026-10-21T01:17:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
       "needs_review": false,
       "articles": [
         {
-          "title": "\"AI가 고장 대응책까지\"…KAI, 우주 서 AI로 위성 자율운영 실증",
-          "url": "https://yna.co.kr/view/AKR20261021058900003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-10-21T10:17:00+09:00",
+          "title": "한국항공우주 최근 5거래일 거래대금 약 2250억원",
+          "url": "https://vegannews.co.kr/news/article.html?no=395205",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-10-21T21:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2416,15 +2288,15 @@
       ]
     },
     {
-      "cluster_id": "d224ea532a74a3a5",
+      "cluster_id": "a790a9f817feb244",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "KAI, 위성 AI 자율운영 기술 실증... 고장 진단·대응 검증",
-      "representative_url": "https://newslock.co.kr/news/articleView.html?idxno=138341",
-      "representative_source": "newslock.co.kr",
+      "representative_title": "KAI, 위성도 AI가 고장 진단…‘완전 자율운영’ 시대 연다",
+      "representative_url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065616215008578",
+      "representative_source": "megaeconomy.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:12:00Z",
-      "last_published_at": "2026-10-21T01:12:00Z",
+      "first_published_at": "2026-10-21T12:34:00Z",
+      "last_published_at": "2026-10-21T12:34:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2432,7 +2304,7 @@
         "naver"
       ],
       "source_domains": [
-        "newslock.co.kr"
+        "megaeconomy.co.kr"
       ],
       "categories": [
         "기타"
@@ -2447,11 +2319,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "KAI, 위성 AI 자율운영 기술 실증... 고장 진단·대응 검증",
-          "url": "https://newslock.co.kr/news/articleView.html?idxno=138341",
-          "source": "newslock.co.kr",
-          "source_domain": "newslock.co.kr",
-          "published_at": "2026-10-21T10:12:00+09:00",
+          "title": "KAI, 위성도 AI가 고장 진단…‘완전 자율운영’ 시대 연다",
+          "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065616215008578",
+          "source": "megaeconomy.co.kr",
+          "source_domain": "megaeconomy.co.kr",
+          "published_at": "2026-10-21T21:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2459,15 +2331,15 @@
       ]
     },
     {
-      "cluster_id": "bb3687207f32284b",
+      "cluster_id": "cc8d6976afa7e5d1",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "고장 신호 받자 AI가 보고서까지…KAI, 우주 서 위성 자율운영 실증",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=303072",
-      "representative_source": "newsquest.co.kr",
+      "representative_title": "KAI, AI 기반 위성 자율운영 기술 검증…12월 본격 실증",
+      "representative_url": "https://g-enews.com/view.php?ud=202610211703448965ea14faf6f5_1",
+      "representative_source": "g-enews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:02:00Z",
-      "last_published_at": "2026-10-21T01:02:00Z",
+      "first_published_at": "2026-10-21T10:10:00Z",
+      "last_published_at": "2026-10-21T10:10:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2475,7 +2347,7 @@
         "naver"
       ],
       "source_domains": [
-        "newsquest.co.kr"
+        "g-enews.com"
       ],
       "categories": [
         "기타"
@@ -2490,11 +2362,143 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "고장 신호 받자 AI가 보고서까지…KAI, 우주 서 위성 자율운영 실증",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=303072",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-10-21T10:02:00+09:00",
+          "title": "KAI, AI 기반 위성 자율운영 기술 검증…12월 본격 실증",
+          "url": "https://g-enews.com/view.php?ud=202610211703448965ea14faf6f5_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-10-21T19:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fa3fec22ac3e7e1f",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "경상국립대 ICT·BK21 사업단, KAI 현장 찾아 항공우주 산학협력 모색",
+      "representative_url": "https://gndomin.com/news/articleView.html?idxno=493564",
+      "representative_source": "gndomin.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T09:10:00Z",
+      "last_published_at": "2026-10-21T09:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "gndomin.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "경상국립대 ICT·BK21 사업단, KAI 현장 찾아 항공우주 산학협력 모색",
+          "url": "https://gndomin.com/news/articleView.html?idxno=493564",
+          "source": "gndomin.com",
+          "source_domain": "gndomin.com",
+          "published_at": "2026-10-21T18:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fb13e2137fbc29b7",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI, 우주 서 AI 위성 자율운영 실증 \"위성 솔루션 기업 도약\"",
+      "representative_url": "https://fetv.co.kr/news/articleView.html?idxno=312207",
+      "representative_source": "fetv.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T09:08:00Z",
+      "last_published_at": "2026-10-21T09:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "fetv.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI, 우주 서 AI 위성 자율운영 실증 \"위성 솔루션 기업 도약\"",
+          "url": "https://fetv.co.kr/news/articleView.html?idxno=312207",
+          "source": "fetv.co.kr",
+          "source_domain": "fetv.co.kr",
+          "published_at": "2026-10-21T18:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ad3c7184d4af893a",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KAI 노조, 11월 3일 '3차 상경투쟁' 나선다…\"한화 인수 저지\"",
+      "representative_url": "https://m-i.kr/news/articleView.html?idxno=2008778",
+      "representative_source": "m-i.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T09:02:00Z",
+      "last_published_at": "2026-10-21T09:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "m-i.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "m_and_a"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KAI 노조, 11월 3일 '3차 상경투쟁' 나선다…\"한화 인수 저지\"",
+          "url": "https://m-i.kr/news/articleView.html?idxno=2008778",
+          "source": "m-i.kr",
+          "source_domain": "m-i.kr",
+          "published_at": "2026-10-21T18:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

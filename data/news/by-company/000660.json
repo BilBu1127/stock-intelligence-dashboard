@@ -1,11 +1,79 @@
 {
-  "generated_at": "2026-10-21T01:34:07.092844Z",
+  "generated_at": "2026-10-21T15:56:51.560827Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-10-21T01:34:07.092844Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-21T15:56:51.560827Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
+    {
+      "cluster_id": "f8b060540949144f",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 발열 잡는 'iHBM' 공급망 협의 착수… HBM 선두 수성 승부수",
+      "representative_url": "https://etnews.com/20261021000240",
+      "representative_source": "etnews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T04:56:00Z",
+      "last_published_at": "2026-10-21T07:31:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etnews.com",
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "hbm",
+        "supply"
+      ],
+      "importance_score": 55,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 발열 잡는 'iHBM' 공급망 협의 착수… HBM 선두 수성 승부수",
+          "url": "https://etnews.com/20261021000240",
+          "source": "etnews.com",
+          "source_domain": "etnews.com",
+          "published_at": "2026-10-21T16:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 127만4000원… HBM 4 공급 확대 주목",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=233604",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-21T13:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "08b833b94454714d",
       "company_name": "SK하이닉스",
@@ -5826,370 +5894,66 @@
       ]
     },
     {
-      "cluster_id": "b1fb84bb1c26681d",
+      "cluster_id": "46c0ba2db23ca9e4",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 청주 P&T7 생산시설에 7조931억원 투자",
-      "representative_url": "https://hankyung.com/article/2026072200296",
-      "representative_source": "hankyung.com",
+      "representative_title": "SK하이닉스 , 40조원 자사주 매입 조기 완료…전량 소각 예정",
+      "representative_url": "https://g-enews.com/view.php?ud=202610211900575375112616b072_1",
+      "representative_source": "g-enews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-07-22T08:27:00Z",
-      "last_published_at": "2026-07-22T14:16:00Z",
-      "article_count": 25,
-      "domestic_article_count": 25,
+      "first_published_at": "2026-10-21T10:02:00Z",
+      "last_published_at": "2026-10-21T15:31:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
       "international_article_count": 0,
       "providers": [
-        "gdelt",
         "naver"
       ],
       "source_domains": [
-        "biz.chosun.com",
-        "businesspost.co.kr",
-        "cwn.kr",
-        "dailysportshankook.co.kr",
-        "dealsite.co.kr",
-        "dt.co.kr",
-        "dynews.co.kr",
-        "ebn.co.kr",
-        "econovill.com",
-        "enewstoday.co.kr",
         "g-enews.com",
-        "hankyung.com",
         "inews24.com",
-        "livebiz.today",
-        "m-i.kr",
-        "moneystorm.kr",
-        "news.einfomax.co.kr",
-        "news1.kr",
-        "newstomato.com",
-        "newsway.co.kr",
-        "sentv.co.kr",
-        "thelec.kr",
-        "viva100.com",
-        "yna.co.kr",
-        "ziksir.com"
+        "newspim.com"
       ],
       "categories": [
-        "공급·규제",
-        "기술·제품",
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [
-        " 19조",
-        " 1조",
-        " 7조",
-        "7조",
-        "931억",
-        "ai_memory",
-        "investment",
-        "production"
+        " 40조"
       ],
-      "importance_score": 50,
-      "importance_level": "watch",
+      "importance_score": 15,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "SK하이닉스 , 청주 P&T7 공장 건설 당긴다…7.1조원 투자 증액 재의결",
-          "url": "https://sentv.co.kr/article/view/sentv202607220220",
-          "source": "sentv.co.kr",
-          "source_domain": "sentv.co.kr",
-          "published_at": "2026-07-22T23:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 건설 투자 확대···AI 메모리 증설 속도",
-          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2451470",
-          "source": "enewstoday.co.kr",
-          "source_domain": "enewstoday.co.kr",
-          "published_at": "2026-07-22T22:37:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "'AI 메모리 패키징 공장'… SK하이닉스 , 청주에 7조 투자 앞당긴다",
-          "url": "https://cwn.kr/news/articleView.html?idxno=50999",
-          "source": "cwn.kr",
-          "source_domain": "cwn.kr",
-          "published_at": "2026-07-22T22:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 첨단 패키징 공장 건설 앞당겨…7조 우선 투입",
-          "url": "https://g-enews.com/view.php?ud=202607222203142797ea14faf6f5_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-07-22T22:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 투자 앞당긴다…7조원 시설투자 재결의",
-          "url": "https://thelec.kr/news/articleView.html?idxno=59907",
-          "source": "thelec.kr",
-          "source_domain": "thelec.kr",
-          "published_at": "2026-07-22T22:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "AI 메모리 수요 폭증 대응… SK하이닉스 , 청주 P&T7 투자 집행 당긴다",
-          "url": "https://m-i.kr/news/articleView.html?idxno=1394301",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-07-22T22:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 건설 속도 낸다… 7조원 시설투자 의결",
-          "url": "https://biz.chosun.com/it-science/ict/2026/07/22/RTUW5BO3VJBHBNNJV4PSPPCVGY",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-07-22T20:37:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 건설 일정 '속도'...시설에 7조 투자",
-          "url": "https://dynews.co.kr/news/articleView.html?idxno=858971",
-          "source": "dynews.co.kr",
-          "source_domain": "dynews.co.kr",
-          "published_at": "2026-07-22T20:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 청주 패키징 공장 건설 7조 투자 앞당기로, 수요 대응 위한...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=442909",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-07-22T20:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조 투입…AI 메모리 후공정 투자 속도",
-          "url": "https://econovill.com/news/articleView.html?idxno=745860",
-          "source": "econovill.com",
-          "source_domain": "econovill.com",
-          "published_at": "2026-07-22T20:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조931억…거점 확보 속도",
-          "url": "https://dealsite.co.kr/articles/165767",
-          "source": "dealsite.co.kr",
-          "source_domain": "dealsite.co.kr",
-          "published_at": "2026-07-22T20:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 패키징 팹에 7.1조 투자…건설 앞당겨",
-          "url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1307949",
-          "source": "newstomato.com",
-          "source_domain": "newstomato.com",
-          "published_at": "2026-07-22T20:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 첨단 패키징 공장 건설 앞당겨 AI 메모리 수요 대...",
-          "url": "https://dailysportshankook.co.kr/news/articleView.html?idxno=431538",
-          "source": "dailysportshankook.co.kr",
-          "source_domain": "dailysportshankook.co.kr",
-          "published_at": "2026-07-22T20:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주첨단패키징공장 건설에 7조931억 투입",
-          "url": "https://moneystorm.kr/news/articleView.html?idxno=5215",
-          "source": "moneystorm.kr",
-          "source_domain": "moneystorm.kr",
-          "published_at": "2026-07-22T19:17:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 패키징 팹 건설 앞당긴다...총 투자비 19조로 동일",
-          "url": "https://livebiz.today/news/articleView.html?idxno=203511",
-          "source": "livebiz.today",
-          "source_domain": "livebiz.today",
-          "published_at": "2026-07-22T18:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 패키징 공장 구축 앞당긴다···AI 메모리 수요 대응...",
-          "url": "https://ziksir.com/news/articleView.html?idxno=140880",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-07-22T18:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조원 투자",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1717366",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-07-22T18:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조원 투자⋯ ‘후공정 인프라 확대’",
-          "url": "https://viva100.com/article/20260722501407",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-07-22T18:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조 원 투자…AI 수요 대응",
-          "url": "https://news1.kr/industry/general-industry/6235856",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-07-22T18:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 패키징 팹 앞당겨 7조 투입…총 투자비는 동일",
-          "url": "https://yna.co.kr/view/AKR20260722161400003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-07-22T18:05:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7에 7조원 투자 재결의…총사업비 19조원 유지",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426268",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-07-22T17:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 P&T7 생산시설에 7조931억원 투자",
-          "url": "https://hankyung.com/article/2026072200296",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-07-22T17:37:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 생산기지 확충 속도…AI 메모리 대응에 7조원대 투자",
-          "url": "https://dt.co.kr/article/12074221",
-          "source": "dt.co.kr",
-          "source_domain": "dt.co.kr",
-          "published_at": "2026-07-22T17:27:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SK하이닉스 , 청주 패키징팹 증설 속도전7조 투자 집행",
-          "url": "https://newsway.co.kr/news/view?ud=2026072218364248352",
-          "source": "newsway.co.kr",
-          "source_domain": "newsway.co.kr",
-          "published_at": "2026-07-22T14:00:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        },
-        {
-          "title": "SK하이닉스 , AI 메모리 증설 속도전 … 청주 P & T7 건설 투자 확대",
-          "url": "https://inews24.com/view/1987884",
+          "title": "SK하이닉스 , 40조 자사주 매입 한 달 앞당겨 완료…전량 소각 예정",
+          "url": "https://inews24.com/view/2007695",
           "source": "inews24.com",
           "source_domain": "inews24.com",
-          "published_at": "2026-07-22T10:00:00Z",
+          "published_at": "2026-10-22T00:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5e113008d0c19681",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "KB證 \" SK하이닉스 , 데이터센터향 매출 비중 확대…목표가 유지\"",
-      "representative_url": "https://yna.co.kr/view/AKR20260722094900008?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-07-22T04:19:00Z",
-      "last_published_at": "2026-07-22T04:19:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 50,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
+          "provider": "NAVER"
+        },
         {
-          "title": "KB證 \" SK하이닉스 , 데이터센터향 매출 비중 확대…목표가 유지\"",
-          "url": "https://yna.co.kr/view/AKR20260722094900008?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-07-22T13:19:00+09:00",
+          "title": "SK하이닉스 , 40조원 자사주 매입 조기 완료…전량 소각",
+          "url": "https://newspim.com/news/view/20261021001324",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-21T21:17:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 , 40조원 자사주 매입 조기 완료…전량 소각 예정",
+          "url": "https://g-enews.com/view.php?ud=202610211900575375112616b072_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-10-21T19:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6197,15 +5961,73 @@
       ]
     },
     {
-      "cluster_id": "03bb8c5ffce4786c",
+      "cluster_id": "f607aace6afdc492",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 팹 투자 '속도·효율' 함께 잡는다…전략 인력 확충",
-      "representative_url": "https://seouleconews.com/news/articleView.html?idxno=94476",
-      "representative_source": "seouleconews.com",
+      "representative_title": "로이터 \"삼성전자· SK하이닉스 , 中 공장 낸드 생산 공정 고도화\"",
+      "representative_url": "https://m-i.kr/news/articleView.html?idxno=2008797",
+      "representative_source": "m-i.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:26:00Z",
-      "last_published_at": "2026-10-21T01:26:00Z",
+      "first_published_at": "2026-10-21T11:02:00Z",
+      "last_published_at": "2026-10-21T15:31:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "inews24.com",
+        "m-i.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "nand",
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"삼성전자· SK하이닉스 , 中 공장서 첨단 낸드 생산 추진\"",
+          "url": "https://inews24.com/view/2017620",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-22T00:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "로이터 \"삼성전자· SK하이닉스 , 中 공장 낸드 생산 공정 고도화\"",
+          "url": "https://m-i.kr/news/articleView.html?idxno=2008797",
+          "source": "m-i.kr",
+          "source_domain": "m-i.kr",
+          "published_at": "2026-10-21T20:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7a3c5309f2595da3",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "조혜련, SK하이닉스 에 투자 못한 이유?…\"그때는 개념이 없었다\"",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16254258",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T14:46:00Z",
+      "last_published_at": "2026-10-21T14:46:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6213,10 +6035,10 @@
         "naver"
       ],
       "source_domains": [
-        "seouleconews.com"
+        "topstarnews.net"
       ],
       "categories": [
-        "기술·제품",
+        "주가·투자의견",
         "투자·생산"
       ],
       "event_keywords": [
@@ -6232,11 +6054,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 팹 투자 '속도·효율' 함께 잡는다…전략 인력 확충",
-          "url": "https://seouleconews.com/news/articleView.html?idxno=94476",
-          "source": "seouleconews.com",
-          "source_domain": "seouleconews.com",
-          "published_at": "2026-10-21T10:26:00+09:00",
+          "title": "조혜련, SK하이닉스 에 투자 못한 이유?…\"그때는 개념이 없었다\"",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16254258",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-10-21T23:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6244,404 +6066,50 @@
       ]
     },
     {
-      "cluster_id": "c5941f30ad83fa7c",
+      "cluster_id": "70714db5f7ca90e6",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "KB證 \"마이크론 파업 예고…삼성전자· SK하이닉스 반사이익\"",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=136675",
-      "representative_source": "popcornnews.net",
+      "representative_title": "젠슨 황 \"베라 루빈 본격 양산\"…삼성· SK하이닉스 HBM4 수혜 기대",
+      "representative_url": "https://mt.co.kr/tech/2026/10/21/2026102122345055624",
+      "representative_source": "mt.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-20T22:52:00Z",
-      "last_published_at": "2026-10-21T01:14:00Z",
-      "article_count": 4,
-      "domestic_article_count": 4,
+      "first_published_at": "2026-10-21T13:55:00Z",
+      "last_published_at": "2026-10-21T13:55:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
-        "gdelt",
         "naver"
       ],
       "source_domains": [
-        "businesspost.co.kr",
-        "etoday.co.kr",
-        "news.einfomax.co.kr",
-        "popcornnews.net"
+        "mt.co.kr"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
-        "기타",
-        "투자·생산"
+        "인사·M&A"
       ],
       "event_keywords": [
+        "hbm",
+        "hbm4",
         "production"
       ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "KB증권 \"마이크론 대만공장 파업 예고, 삼성전자· SK하이닉스 반사이익...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=449868",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-10-21T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "마이크론 파업 예고…삼성전자· SK하이닉스 반사이익 기대",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440274",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-10-21T08:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KB證 \"마이크론 파업 예고…삼성전자· SK하이닉스 반사이익\"",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=136675",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-10-21T07:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "KB證 마이크론 파업 예고⋯삼성전자 · SK하이닉스 반사이익 기대",
-          "url": "https://etoday.co.kr/news/view/2638101",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-10-20T23:45:00Z",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "BOTH"
-        }
-      ]
-    },
-    {
-      "cluster_id": "87d40f475649efd5",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "급락 하루 만에 반등… SK하이닉스 5%·삼성전자 4% 급등[핫종목]",
-      "representative_url": "https://news1.kr/finance/general-stock/6326879",
-      "representative_source": "news1.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:11:00Z",
-      "last_published_at": "2026-10-21T01:11:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news1.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "급락 하루 만에 반등… SK하이닉스 5%·삼성전자 4% 급등[핫종목]",
-          "url": "https://news1.kr/finance/general-stock/6326879",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-10-21T10:11:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "88fca179ad44fa2e",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "엔비디아 공급난에 AI 수요 재확인…삼성전자 4%· SK하이닉스 5%대 반등",
-      "representative_url": "https://newsquest.co.kr/news/articleView.html?idxno=303085",
-      "representative_source": "newsquest.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:04:00Z",
-      "last_published_at": "2026-10-21T01:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsquest.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "엔비디아 공급난에 AI 수요 재확인…삼성전자 4%· SK하이닉스 5%대 반등",
-          "url": "https://newsquest.co.kr/news/articleView.html?idxno=303085",
-          "source": "newsquest.co.kr",
-          "source_domain": "newsquest.co.kr",
-          "published_at": "2026-10-21T10:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b24e834b8b4ced8c",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "\"장초반 주가 폭등\"... SK하이닉스 130만·삼성전자 22만 돌파",
-      "representative_url": "https://gukjenews.com/news/articleView.html?idxno=3727644",
-      "representative_source": "gukjenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T01:02:00Z",
-      "last_published_at": "2026-10-21T01:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gukjenews.com"
-      ],
-      "categories": [
-        "기술·제품",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"장초반 주가 폭등\"... SK하이닉스 130만·삼성전자 22만 돌파",
-          "url": "https://gukjenews.com/news/articleView.html?idxno=3727644",
-          "source": "gukjenews.com",
-          "source_domain": "gukjenews.com",
-          "published_at": "2026-10-21T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "10e9a58e4d4065ee",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[특징주] 美 AI 서버 기업 호실적⋯삼성전자 5%· SK하이닉스 7%↑",
-      "representative_url": "https://inews24.com/view/2017216",
-      "representative_source": "inews24.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:55:00Z",
-      "last_published_at": "2026-10-21T00:55:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "inews24.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[특징주] 美 AI 서버 기업 호실적⋯삼성전자 5%· SK하이닉스 7%↑",
-          "url": "https://inews24.com/view/2017216",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-10-21T09:55:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "404cec4f272029c6",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[특징주] 슈퍼마이크로 호실적 훈풍에 삼성전자· SK하이닉스 동반 강세",
-      "representative_url": "https://newspim.com/news/view/20261021000214",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:49:00Z",
-      "last_published_at": "2026-10-21T00:49:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[특징주] 슈퍼마이크로 호실적 훈풍에 삼성전자· SK하이닉스 동반 강세",
-          "url": "https://newspim.com/news/view/20261021000214",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-21T09:49:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "14cde87096a206b4",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[속보] SK하이닉스 130만원 돌파·삼성전자 22만원대 급등…반도체주 동...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=617677",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:42:00Z",
-      "last_published_at": "2026-10-21T00:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[속보] SK하이닉스 130만원 돌파·삼성전자 22만원대 급등…반도체주 동...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=617677",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-21T09:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8c1dc6c035642dcf",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 3Q 영업익 77조 전망… HBM 4 훈풍에 신기록 도전",
-      "representative_url": "https://press9.kr/news/articleView.html?idxno=84611",
-      "representative_source": "press9.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:32:00Z",
-      "last_published_at": "2026-10-21T00:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "press9.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [
-        " 77조",
-        "hbm"
-      ],
-      "importance_score": 20,
+      "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "핵심 키워드 +5",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 , 3Q 영업익 77조 전망… HBM 4 훈풍에 신기록 도전",
-          "url": "https://press9.kr/news/articleView.html?idxno=84611",
-          "source": "press9.kr",
-          "source_domain": "press9.kr",
-          "published_at": "2026-10-21T09:32:00+09:00",
+          "title": "젠슨 황 \"베라 루빈 본격 양산\"…삼성· SK하이닉스 HBM4 수혜 기대",
+          "url": "https://mt.co.kr/tech/2026/10/21/2026102122345055624",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-10-21T22:55:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6649,15 +6117,15 @@
       ]
     },
     {
-      "cluster_id": "6d6e46a4639ae5ae",
+      "cluster_id": "e0fd7a9485e0881c",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[분석] 마이크론 대만 파업 초읽기…삼성전자ㆍ SK하이닉스 반사이익",
-      "representative_url": "https://financialpost.co.kr/news/articleView.html?idxno=281615",
-      "representative_source": "financialpost.co.kr",
+      "representative_title": "SK하이닉스 , 40조원 규모 자사주 매입 완료",
+      "representative_url": "https://yonhapnewstv.co.kr/news/MYH202610212201069DK",
+      "representative_source": "yonhapnewstv.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-21T00:24:00Z",
-      "last_published_at": "2026-10-21T00:24:00Z",
+      "first_published_at": "2026-10-21T13:02:00Z",
+      "last_published_at": "2026-10-21T13:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6665,14 +6133,14 @@
         "naver"
       ],
       "source_domains": [
-        "financialpost.co.kr"
+        "yonhapnewstv.co.kr"
       ],
       "categories": [
-        "공급·규제",
-        "기술·제품",
-        "투자·생산"
+        "기타"
       ],
-      "event_keywords": [],
+      "event_keywords": [
+        " 40조"
+      ],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -6682,11 +6150,237 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[분석] 마이크론 대만 파업 초읽기…삼성전자ㆍ SK하이닉스 반사이익",
-          "url": "https://financialpost.co.kr/news/articleView.html?idxno=281615",
-          "source": "financialpost.co.kr",
-          "source_domain": "financialpost.co.kr",
-          "published_at": "2026-10-21T09:24:00+09:00",
+          "title": "SK하이닉스 , 40조원 규모 자사주 매입 완료",
+          "url": "https://yonhapnewstv.co.kr/news/MYH202610212201069DK",
+          "source": "yonhapnewstv.co.kr",
+          "source_domain": "yonhapnewstv.co.kr",
+          "published_at": "2026-10-21T22:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0396b981e5ffc021",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "\"정말 피가 마릅니다\"… SK하이닉스 폭등에도 개미들은 '한숨' [분석+]",
+      "representative_url": "https://hankyung.com/article/2026102165996",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T13:01:00Z",
+      "last_published_at": "2026-10-21T13:01:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"정말 피가 마릅니다\"… SK하이닉스 폭등에도 개미들은 '한숨' [분석+]",
+          "url": "https://hankyung.com/article/2026102165996",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-10-21T22:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6ff8705b6032b218",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 한달 앞서 40조 자사주 매입 완료",
+      "representative_url": "https://hansbiz.co.kr/news/articleView.html?idxno=874942",
+      "representative_source": "hansbiz.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T12:42:00Z",
+      "last_published_at": "2026-10-21T12:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hansbiz.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 40조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 한달 앞서 40조 자사주 매입 완료",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=874942",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-10-21T21:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6fa132049263d26f",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 40조 매수 끝났다…삼성전자 주주환원은 '배당이냐 소각이냐...",
+      "representative_url": "https://econovill.com/news/articleView.html?idxno=754461",
+      "representative_source": "econovill.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T12:12:00Z",
+      "last_published_at": "2026-10-21T12:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "econovill.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 40조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 40조 매수 끝났다…삼성전자 주주환원은 '배당이냐 소각이냐...",
+          "url": "https://econovill.com/news/articleView.html?idxno=754461",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-10-21T21:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "280a42eced28789b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 ·삼성전자 거래대금 9.3조…상위 50종목의 56%",
+      "representative_url": "https://kjdaily.com/article.php?aid=1792583226689910276",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T11:48:00Z",
+      "last_published_at": "2026-10-21T11:48:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 3조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자 거래대금 9.3조…상위 50종목의 56%",
+          "url": "https://kjdaily.com/article.php?aid=1792583226689910276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-10-21T20:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b0c60d31ff48c2f4",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "“이젠 진짜 큰일났다” SK하이닉스 마저…자사주 매입 종료 임박 [투자...",
+      "representative_url": "https://biz.heraldcorp.com/article/10910113",
+      "representative_source": "biz.heraldcorp.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T11:41:00Z",
+      "last_published_at": "2026-10-21T11:41:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.heraldcorp.com"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "“이젠 진짜 큰일났다” SK하이닉스 마저…자사주 매입 종료 임박 [투자...",
+          "url": "https://biz.heraldcorp.com/article/10910113",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-10-21T20:41:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
