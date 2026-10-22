@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T15:56:51.560827Z",
+  "generated_at": "2026-10-22T01:30:23.853296Z",
   "company_name": "티에스이",
   "stock_code": "131290",
   "status": "partial",
-  "last_successful_update": "2026-10-21T15:56:51.560827Z",
+  "last_successful_update": "2026-10-22T01:30:23.853296Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -132,6 +132,53 @@
           "source": "tk.newdaily.co.kr",
           "source_domain": "tk.newdaily.co.kr",
           "published_at": "2026-09-03T12:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7a62240bbe4fdc40",
+      "company_name": "티에스이",
+      "stock_code": "131290",
+      "representative_title": "티에스이 , AI 반도체 훈풍 '수혜'…낸드·디램 글로벌 수요 폭증에 '풀 ...",
+      "representative_url": "https://newsprime.co.kr/news/article.html?no=751928",
+      "representative_source": "newsprime.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-21T23:28:00Z",
+      "last_published_at": "2026-10-21T23:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsprime.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "dram",
+        "nand"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "티에스이 , AI 반도체 훈풍 '수혜'…낸드·디램 글로벌 수요 폭증에 '풀 ...",
+          "url": "https://newsprime.co.kr/news/article.html?no=751928",
+          "source": "newsprime.co.kr",
+          "source_domain": "newsprime.co.kr",
+          "published_at": "2026-10-22T08:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
