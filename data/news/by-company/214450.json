@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T01:29:52.808879Z",
+  "generated_at": "2026-10-23T15:44:18.441298Z",
   "company_name": "파마리서치",
   "stock_code": "214450",
   "status": "partial",
-  "last_successful_update": "2026-10-23T01:29:52.808879Z",
+  "last_successful_update": "2026-10-23T15:44:18.441298Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -851,15 +851,18 @@
       "representative_source": "medipana.com",
       "representative_language": "Korean",
       "first_published_at": "2026-10-22T23:46:00Z",
-      "last_published_at": "2026-10-23T00:50:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
+      "last_published_at": "2026-10-23T05:34:00Z",
+      "article_count": 8,
+      "domestic_article_count": 8,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "asiatime.co.kr",
+        "biz.chosun.com",
+        "lawissue.co.kr",
+        "mdtoday.co.kr",
         "medipana.com",
         "medisobizanews.com",
         "pharmnews.com",
@@ -871,14 +874,45 @@
         "인사·M&A"
       ],
       "event_keywords": [],
-      "importance_score": 15,
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": true,
       "articles": [
+        {
+          "title": "파마리서치 리쥬란코스메틱, 미국 코스트코 25개 매장서 뷰티 전용 진열...",
+          "url": "https://lawissue.co.kr/view.php?ud=20261023143225942204ead0791_12",
+          "source": "lawissue.co.kr",
+          "source_domain": "lawissue.co.kr",
+          "published_at": "2026-10-23T14:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "파마리서치 리쥬란코스메틱, 美 코스트코 25개 매장 입점",
+          "url": "https://biz.chosun.com/science-chosun/bio/2026/10/23/SCJV6PL4MFBIPKZLU5LKOW6QFE",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-10-23T14:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "파마리서치 '리쥬란코스메틱', 미국 코스트코 25개 매장 입점",
+          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=620536",
+          "source": "mdtoday.co.kr",
+          "source_domain": "mdtoday.co.kr",
+          "published_at": "2026-10-23T13:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
         {
           "title": "파마리서치 리쥬란코스메틱, 美 코스트코 '뷰티 테이블' 참여",
           "url": "https://pharmnews.com/news/articleView.html?idxno=307206",

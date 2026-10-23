@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-23T01:29:52.808879Z",
+  "generated_at": "2026-10-23T15:44:18.441298Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-10-23T01:29:52.808879Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-23T15:44:18.441298Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "5407f1c466171910",
@@ -2438,6 +2443,53 @@
       ]
     },
     {
+      "cluster_id": "127524f70178293a",
+      "company_name": "한미반도체",
+      "stock_code": "042700",
+      "representative_title": "한미반도체 18만8200원…HBM 장비 수주 일정 주시",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=234150",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-23T04:52:00Z",
+      "last_published_at": "2026-10-23T04:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한미반도체 18만8200원…HBM 장비 수주 일정 주시",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=234150",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-23T13:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "96773430fcb79fc2",
       "company_name": "한미반도체",
       "stock_code": "042700",
@@ -2845,49 +2897,6 @@
           "source": "incheonilbo.com",
           "source_domain": "incheonilbo.com",
           "published_at": "2026-10-20T18:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "03f0a332f1d5e33a",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "같은 '소부장' 다른 장바구니…KB는 삼성전기, SOL은 한미반도체",
-      "representative_url": "https://newstopkorea.com/news/articleView.html?idxno=48332",
-      "representative_source": "newstopkorea.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T08:52:00Z",
-      "last_published_at": "2026-10-20T08:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newstopkorea.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "같은 '소부장' 다른 장바구니…KB는 삼성전기, SOL은 한미반도체",
-          "url": "https://newstopkorea.com/news/articleView.html?idxno=48332",
-          "source": "newstopkorea.com",
-          "source_domain": "newstopkorea.com",
-          "published_at": "2026-10-20T17:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
