@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-23T15:44:18.441298Z",
+  "generated_at": "2026-10-24T01:34:29.432338Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-10-23T15:44:18.441298Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-24T01:34:29.432338Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "3422a0a25cb330b5",
@@ -2246,6 +2251,49 @@
       ]
     },
     {
+      "cluster_id": "caa4902d6dd6c972",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "[이슈&] \" 삼성중공업 후려치기에 당했다\"..하청업체들 빚더미 호소",
+      "representative_url": "https://4th.kr/news/articleView.html?idxno=2120347",
+      "representative_source": "4th.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-24T01:34:00Z",
+      "last_published_at": "2026-10-24T01:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "4th.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[이슈&] \" 삼성중공업 후려치기에 당했다\"..하청업체들 빚더미 호소",
+          "url": "https://4th.kr/news/articleView.html?idxno=2120347",
+          "source": "4th.kr",
+          "source_domain": "4th.kr",
+          "published_at": "2026-10-24T10:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "00078f18c7ea2b7e",
       "company_name": "삼성중공업",
       "stock_code": "010140",
@@ -2633,52 +2681,6 @@
           "source": "sports.hankooki.com",
           "source_domain": "sports.hankooki.com",
           "published_at": "2026-10-22T14:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e2f4ce57c8c2c4f2",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 1만7395원…조선 수주잔고의 이익 전환 주시",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=233904",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T05:18:00Z",
-      "last_published_at": "2026-10-22T05:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기타",
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성중공업 1만7395원…조선 수주잔고의 이익 전환 주시",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=233904",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-22T14:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
