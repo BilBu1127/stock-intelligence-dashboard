@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-24T01:34:29.432338Z",
+  "generated_at": "2026-10-24T14:31:15.335651Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-10-24T01:34:29.432338Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-24T14:31:15.335651Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "0ac953011931385a",
@@ -3080,6 +3085,50 @@
       ]
     },
     {
+      "cluster_id": "27b9929de501f8a6",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "최근 5거래일 두산에너빌리티 주가 5만원대 진입",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16256557",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-24T01:58:00Z",
+      "last_published_at": "2026-10-24T01:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "최근 5거래일 두산에너빌리티 주가 5만원대 진입",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16256557",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-10-24T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "ccd65e5ba14a2ce4",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -3464,50 +3513,6 @@
           "source": "paxetv.com",
           "source_domain": "paxetv.com",
           "published_at": "2026-10-22T17:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "873e35439aa6eb5a",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 6만1900원…원전·가스터빈 수주 이행 관심",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=233889",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T05:12:00Z",
-      "last_published_at": "2026-10-22T05:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +15",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 6만1900원…원전·가스터빈 수주 이행 관심",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=233889",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-22T14:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

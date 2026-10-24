@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-24T01:34:29.432338Z",
+  "generated_at": "2026-10-24T14:31:15.335651Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-10-24T01:34:29.432338Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-24T14:31:15.335651Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,50 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a30f4f9daf4c1a6b",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "최근 5거래일 POSCO홀딩스 주가 하락세",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=557893",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-24T02:44:00Z",
+      "last_published_at": "2026-10-24T02:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "최근 5거래일 POSCO홀딩스 주가 하락세",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=557893",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-10-24T11:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -444,49 +493,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-19T13:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4401b951cfef5d97",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "POSCO홀딩스 30만2500원…철강·리튬 사업 회복 점검",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232787",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-16T04:52:00Z",
-      "last_published_at": "2026-10-16T04:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "POSCO홀딩스 30만2500원…철강·리튬 사업 회복 점검",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=232787",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-16T13:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
