@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T01:09:03.432261Z",
+  "generated_at": "2026-10-25T14:56:55.580290Z",
   "company_name": "티엘비",
   "stock_code": "356860",
   "status": "partial",
-  "last_successful_update": "2026-10-25T01:09:03.432261Z",
+  "last_successful_update": "2026-10-25T14:56:55.580290Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -52,6 +52,50 @@
           "source": "etnews.com",
           "source_domain": "etnews.com",
           "published_at": "2026-09-22T16:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fffec3c61df8c8e7",
+      "company_name": "티엘비",
+      "stock_code": "356860",
+      "representative_title": "AI 서버가 키운 티엘비 … SOCAMM 출하 확대에 수익성 개선",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=498243",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-25T08:10:00Z",
+      "last_published_at": "2026-10-25T08:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "AI 서버가 키운 티엘비 … SOCAMM 출하 확대에 수익성 개선",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=498243",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-25T17:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -463,56 +507,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-10-08T09:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9c857faa5904bad9",
-      "company_name": "티엘비",
-      "stock_code": "356860",
-      "representative_title": "티엘비 , 1300억 유증 ‘성장 승부수’ 통하나…실적·주가 다 뛰어",
-      "representative_url": "https://ekn.kr/web/view.php?key=20261007025113359",
-      "representative_source": "ekn.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-07T05:52:00Z",
-      "last_published_at": "2026-10-07T05:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ekn.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1300억",
-        "earnings"
-      ],
-      "importance_score": 5,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "티엘비 , 1300억 유증 ‘성장 승부수’ 통하나…실적·주가 다 뛰어",
-          "url": "https://ekn.kr/web/view.php?key=20261007025113359",
-          "source": "ekn.kr",
-          "source_domain": "ekn.kr",
-          "published_at": "2026-10-07T14:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
