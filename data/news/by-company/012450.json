@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-24T14:31:15.335651Z",
+  "generated_at": "2026-10-25T01:09:03.432261Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-10-24T14:31:15.335651Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-25T01:09:03.432261Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "419fc2fdfea95c18",
@@ -340,6 +345,53 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-07T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8d83cee67e8f7ddb",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "한화에어로스페이스 KF-21 계약액 583억원 증액",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=396691",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-24T21:40:00Z",
+      "last_published_at": "2026-10-24T21:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        " 583억",
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한화에어로스페이스 KF-21 계약액 583억원 증액",
+          "url": "https://vegannews.co.kr/news/article.html?no=396691",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-10-25T06:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -736,60 +788,6 @@
           "source": "gukjenews.com",
           "source_domain": "gukjenews.com",
           "published_at": "2026-10-23T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "547e2dff34add9c2",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "경남자원봉사센터- 한화에어로스페이스 , 해군정비창 노후시설 개선 및 '...",
-      "representative_url": "https://newsgn.com/news/articleView.html?idxno=580948",
-      "representative_source": "newsgn.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T09:02:00Z",
-      "last_published_at": "2026-10-22T12:30:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "enewstoday.co.kr",
-        "newsgn.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "경남자원봉사센터· 한화에어로스페이스 , 해군정비창 노후시설 개선 등 ...",
-          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2483568",
-          "source": "enewstoday.co.kr",
-          "source_domain": "enewstoday.co.kr",
-          "published_at": "2026-10-22T21:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "경남자원봉사센터- 한화에어로스페이스 , 해군정비창 노후시설 개선 및 '...",
-          "url": "https://newsgn.com/news/articleView.html?idxno=580948",
-          "source": "newsgn.com",
-          "source_domain": "newsgn.com",
-          "published_at": "2026-10-22T18:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T14:31:15.335651Z",
+  "generated_at": "2026-10-25T01:09:03.432261Z",
   "company_name": "비나텍",
   "stock_code": "126340",
   "status": "partial",
-  "last_successful_update": "2026-10-24T14:31:15.335651Z",
+  "last_successful_update": "2026-10-25T01:09:03.432261Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -77,6 +77,54 @@
           "source": "biz.chosun.com",
           "source_domain": "biz.chosun.com",
           "published_at": "2026-10-22T09:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "70fa606357a5c982",
+      "company_name": "비나텍",
+      "stock_code": "126340",
+      "representative_title": "비나텍 , 산미나와 인도 데이터센터 부품 1195억원 계약",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=396699",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-24T21:58:00Z",
+      "last_published_at": "2026-10-24T21:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적"
+      ],
+      "event_keywords": [
+        " 1195억",
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "비나텍 , 산미나와 인도 데이터센터 부품 1195억원 계약",
+          "url": "https://vegannews.co.kr/news/article.html?no=396699",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-10-25T06:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -484,56 +532,6 @@
           "source": "ajunews.com",
           "source_domain": "ajunews.com",
           "published_at": "2026-10-22T14:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "16b422b39eb120a5",
-      "company_name": "비나텍",
-      "stock_code": "126340",
-      "representative_title": "[특징주] 비나텍 , 1195억원 데이터센터 슈퍼커패시터 수주에 급등",
-      "representative_url": "https://biztribune.co.kr/news/articleView.html?idxno=361053",
-      "representative_source": "biztribune.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T04:44:00Z",
-      "last_published_at": "2026-10-22T04:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biztribune.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1195억"
-      ],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[특징주] 비나텍 , 1195억원 데이터센터 슈퍼커패시터 수주에 급등",
-          "url": "https://biztribune.co.kr/news/articleView.html?idxno=361053",
-          "source": "biztribune.co.kr",
-          "source_domain": "biztribune.co.kr",
-          "published_at": "2026-10-22T13:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
