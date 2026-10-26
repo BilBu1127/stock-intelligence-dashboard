@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-26T01:08:21.396444Z",
+  "generated_at": "2026-10-26T17:22:15.693743Z",
   "company_name": "로보티즈",
   "stock_code": "108490",
   "status": "partial",
-  "last_successful_update": "2026-10-26T01:08:21.396444Z",
+  "last_successful_update": "2026-10-26T17:22:15.693743Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -531,88 +531,372 @@
       ]
     },
     {
-      "cluster_id": "98fd2d8d19b88f67",
+      "cluster_id": "075380b57a04e651",
       "company_name": "로보티즈",
       "stock_code": "108490",
-      "representative_title": "AJ네트웍스, 로보티즈 AI와 AI 자율주행·서비스 로봇 협력",
-      "representative_url": "https://etnews.com/20260727000113",
-      "representative_source": "etnews.com",
+      "representative_title": "젠슨황이 시연한 로봇 효과... 로보티즈 주가 ‘불기둥’",
+      "representative_url": "https://mk.co.kr/article/12186152",
+      "representative_source": "mk.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-07-26T23:55:00Z",
-      "last_published_at": "2026-07-27T06:38:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
+      "first_published_at": "2026-10-26T09:08:00Z",
+      "last_published_at": "2026-10-26T09:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "edaily.co.kr",
-        "etnews.com",
-        "industrynews.co.kr",
-        "irobotnews.com",
-        "newsis.com"
+        "mk.co.kr"
+      ],
+      "categories": [
+        "인사·M&A",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "젠슨황이 시연한 로봇 효과... 로보티즈 주가 ‘불기둥’",
+          "url": "https://mk.co.kr/article/12186152",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-10-26T18:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "59211b3e31263065",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "로보티즈 , 젠슨 황 홀린 ‘오리로봇’에 액추에이터 공급한다",
+      "representative_url": "https://sedaily.com/article/20106234",
+      "representative_source": "sedaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T07:59:00Z",
+      "last_published_at": "2026-10-26T07:59:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sedaily.com"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "로보티즈 , 젠슨 황 홀린 ‘오리로봇’에 액추에이터 공급한다",
+          "url": "https://sedaily.com/article/20106234",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-10-26T16:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f094f440c77747e7",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "로보티즈 , 젠슨 황이 시연한 '오리 로봇' 부품 공급 확대…내년 100만대...",
+      "representative_url": "https://news.mtn.co.kr/article/2026102611015939466",
+      "representative_source": "news.mtn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T07:02:00Z",
+      "last_published_at": "2026-10-26T07:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.mtn.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "로보티즈 , 젠슨 황이 시연한 '오리 로봇' 부품 공급 확대…내년 100만대...",
+          "url": "https://news.mtn.co.kr/article/2026102611015939466",
+          "source": "news.mtn.co.kr",
+          "source_domain": "news.mtn.co.kr",
+          "published_at": "2026-10-26T16:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9f351df21d1a9a9b",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "로보티즈 25만5500원 급등…로봇 양산 수요가 관건",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=234449",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T04:56:00Z",
+      "last_published_at": "2026-10-26T04:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "로보티즈 25만5500원 급등…로봇 양산 수요가 관건",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=234449",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-26T13:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fb2cc55c0c37b323",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "젠슨황 말 알아듣는 로봇 '마이크로덕' 흥행… 로보티즈 13%↑[핫종목]",
+      "representative_url": "https://news1.kr/finance/market-exr/6331910",
+      "representative_source": "news1.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T04:52:00Z",
+      "last_published_at": "2026-10-26T04:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news1.kr"
       ],
       "categories": [
         "기타"
       ],
       "event_keywords": [],
-      "importance_score": 45,
-      "importance_level": "watch",
+      "importance_score": 20,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "AJ네트웍스, 로보티즈 AI와 MOU… 자율주행·서비스 로봇시장 공략",
-          "url": "https://industrynews.co.kr/news/articleView.html?idxno=83712",
-          "source": "industrynews.co.kr",
-          "source_domain": "industrynews.co.kr",
-          "published_at": "2026-07-27T15:38:00+09:00",
+          "title": "젠슨황 말 알아듣는 로봇 '마이크로덕' 흥행… 로보티즈 13%↑[핫종목]",
+          "url": "https://news1.kr/finance/market-exr/6331910",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-10-26T13:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "5163fe35a775e5e4",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "'마이크로덕'에 액추에이터 공급 나선 로보티즈 …\"초기 수요 75만개\"",
+      "representative_url": "https://newspim.com/news/view/20261026000539",
+      "representative_source": "newspim.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T04:40:00Z",
+      "last_published_at": "2026-10-26T04:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newspim.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "AJ네트웍스- 로보티즈 AI, AI 자율주행∙서비스 로봇 시장 공략 협약",
-          "url": "https://irobotnews.com/news/articleView.html?idxno=47625",
-          "source": "irobotnews.com",
-          "source_domain": "irobotnews.com",
-          "published_at": "2026-07-27T14:22:00+09:00",
+          "title": "'마이크로덕'에 액추에이터 공급 나선 로보티즈 …\"초기 수요 75만개\"",
+          "url": "https://newspim.com/news/view/20261026000539",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-26T13:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "0804d32ebacda81f",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "젠슨 황이 띄운 '오리 로봇'… 로보티즈 , 부품 기술력 알릴 기회 잡았다",
+      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=137298",
+      "representative_source": "popcornnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T03:56:00Z",
+      "last_published_at": "2026-10-26T03:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "popcornnews.net"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "AJ네트웍스, 로보티즈 AI와 AI 자율주행·서비스 로봇 협력",
-          "url": "https://etnews.com/20260727000113",
-          "source": "etnews.com",
-          "source_domain": "etnews.com",
-          "published_at": "2026-07-27T10:04:00+09:00",
+          "title": "젠슨 황이 띄운 '오리 로봇'… 로보티즈 , 부품 기술력 알릴 기회 잡았다",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=137298",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-10-26T12:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "5d051af4c036c769",
+      "company_name": "로보티즈",
+      "stock_code": "108490",
+      "representative_title": "로보티즈 , ‘마이크로덕’ 액추에이터 공급 “내년 100만대 수요 기대”...",
+      "representative_url": "https://biz.chosun.com/industry/company/2026/10/26/GEEY5FWP2VGUBGIIGZL6RZFJQE",
+      "representative_source": "biz.chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T02:13:00Z",
+      "last_published_at": "2026-10-26T02:13:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.chosun.com"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "AJ네트웍스- 로보티즈 AI, AI 자율주행∙서비스 로봇 MOU",
-          "url": "https://newsis.com/view/NISX20260727_0003724137",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-07-27T09:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "AJ네트웍스, 로보티즈 AI와 AI 자율주행·서비스 로봇 시장 확대",
-          "url": "https://edaily.co.kr/news/newspath.asp?newsid=02259926645518784",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-07-27T08:55:00+09:00",
+          "title": "로보티즈 , ‘마이크로덕’ 액추에이터 공급 “내년 100만대 수요 기대”...",
+          "url": "https://biz.chosun.com/industry/company/2026/10/26/GEEY5FWP2VGUBGIIGZL6RZFJQE",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-10-26T11:13:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -703,369 +987,6 @@
           "source": "namdonews.com",
           "source_domain": "namdonews.com",
           "published_at": "2026-10-26T09:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e071f4401adb20b5",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 23만원…로봇 부품·플랫폼 매출화 점검",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=233961",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T08:08:00Z",
-      "last_published_at": "2026-10-22T08:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 23만원…로봇 부품·플랫폼 매출화 점검",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=233961",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-22T17:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "fbba217875059ce0",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "[클릭 e종목]\"'생산' 늘리는 로보티즈 …내년 실적로 연결\"",
-      "representative_url": "https://view.asiae.co.kr/article/2026102116363359680",
-      "representative_source": "view.asiae.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T09:09:00Z",
-      "last_published_at": "2026-10-21T09:09:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "earnings",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[클릭 e종목]\"'생산' 늘리는 로보티즈 …내년 실적로 연결\"",
-          "url": "https://view.asiae.co.kr/article/2026102116363359680",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-10-21T18:09:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "355d9607e0bc67ed",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 주가, 10월 21일 241,500원 1.05% 상승",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16253738",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T06:48:00Z",
-      "last_published_at": "2026-10-21T06:48:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 주가, 10월 21일 241,500원 1.05% 상승",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16253738",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-10-21T15:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "45898555834465a1",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 24만1500원…액추에이터·서비스로봇 성장 점검",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=233683",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T05:34:00Z",
-      "last_published_at": "2026-10-21T05:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 24만1500원…액추에이터·서비스로봇 성장 점검",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=233683",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-21T14:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a1c128d1d52ee252",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 주가 24만원대 올라서…다이나믹셀 출하 확대와 휴머노이드 사...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=617750",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T02:34:00Z",
-      "last_published_at": "2026-10-21T02:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 주가 24만원대 올라서…다이나믹셀 출하 확대와 휴머노이드 사...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=617750",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-21T11:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a75ed7a4597b7b08",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 20일 거래량 20만5595주…4일 평균보다 1.9% 많아",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=394979",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-20T23:10:00Z",
-      "last_published_at": "2026-10-20T23:10:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 20일 거래량 20만5595주…4일 평균보다 1.9% 많아",
-          "url": "https://vegannews.co.kr/news/article.html?no=394979",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-21T08:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d56f9e31d40cbc9b",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "로보티즈 3.70% 올라…액추에이터 수주 실적화 관심",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=233152",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-19T05:16:00Z",
-      "last_published_at": "2026-10-19T05:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "로보티즈 3.70% 올라…액추에이터 수주 실적화 관심",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=233152",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-19T14:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9cf95f08e38dfc0e",
-      "company_name": "로보티즈",
-      "stock_code": "108490",
-      "representative_title": "[로봇주 동향] 로보티즈 ·레인보우로보틱스 등 강세…19일 새주 흐름 주...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=616734",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-18T02:34:00Z",
-      "last_published_at": "2026-10-18T02:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[로봇주 동향] 로보티즈 ·레인보우로보틱스 등 강세…19일 새주 흐름 주...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=616734",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-10-18T11:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

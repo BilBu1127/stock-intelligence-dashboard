@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-26T01:08:21.396444Z",
+  "generated_at": "2026-10-26T17:22:15.693743Z",
   "company_name": "제주반도체",
   "stock_code": "080220",
   "status": "partial",
-  "last_successful_update": "2026-10-26T01:08:21.396444Z",
+  "last_successful_update": "2026-10-26T17:22:15.693743Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-10-22T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "1aeeaddd7c80897d",
+      "company_name": "제주반도체",
+      "stock_code": "080220",
+      "representative_title": "제주반도체 4.73% 하락…저전력 메모리 수요 회복 점검",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=234522",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-26T06:18:00Z",
+      "last_published_at": "2026-10-26T06:18:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "제주반도체 4.73% 하락…저전력 메모리 수요 회복 점검",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=234522",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-10-26T15:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -450,50 +494,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-19T14:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "bb96d9cab82ae103",
-      "company_name": "제주반도체",
-      "stock_code": "080220",
-      "representative_title": "10월 2주차 제주반도체 주가 하락세 후 상승 전환",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=555805",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-17T01:06:00Z",
-      "last_published_at": "2026-10-17T01:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "10월 2주차 제주반도체 주가 하락세 후 상승 전환",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=555805",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-10-17T10:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
