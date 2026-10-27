@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-26T17:22:15.693743Z",
+  "generated_at": "2026-10-27T02:04:30.163666Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-10-26T17:22:15.693743Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-27T02:04:30.163666Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "97d3d21b60b98359",
@@ -5648,15 +5653,15 @@
       ]
     },
     {
-      "cluster_id": "600062f4f9e4da2b",
+      "cluster_id": "e83d283110e29077",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "美서 사라지는 SK하이닉스 2배 ETF…출시 석 달 만에 청산",
-      "representative_url": "https://joongang.co.kr/article/25473050",
-      "representative_source": "joongang.co.kr",
+      "representative_title": "HBM 넘어 AI 메모리 판 바뀐다…삼성전자· SK하이닉스 , 반도체 주도권 경...",
+      "representative_url": "https://s-journal.co.kr/news/articleView.html?idxno=44830",
+      "representative_source": "s-journal.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T16:03:00Z",
-      "last_published_at": "2026-10-26T16:03:00Z",
+      "first_published_at": "2026-10-27T02:02:00Z",
+      "last_published_at": "2026-10-27T02:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5664,75 +5669,30 @@
         "naver"
       ],
       "source_domains": [
-        "joongang.co.kr"
+        "s-journal.co.kr"
       ],
       "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "美서 사라지는 SK하이닉스 2배 ETF…출시 석 달 만에 청산",
-          "url": "https://joongang.co.kr/article/25473050",
-          "source": "joongang.co.kr",
-          "source_domain": "joongang.co.kr",
-          "published_at": "2026-10-27T01:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "da658884da65afd7",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , 역대급 실적에 주주환원 확대 주목",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793027662690225276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-26T15:16:00Z",
-      "last_published_at": "2026-10-26T15:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견"
+        "기술·제품"
       ],
       "event_keywords": [
-        "earnings"
+        "ai_memory",
+        "hbm"
       ],
-      "importance_score": 30,
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 , 역대급 실적에 주주환원 확대 주목",
-          "url": "https://kjdaily.com/article.php?aid=1793027662690225276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-27T00:16:00+09:00",
+          "title": "HBM 넘어 AI 메모리 판 바뀐다…삼성전자· SK하이닉스 , 반도체 주도권 경...",
+          "url": "https://s-journal.co.kr/news/articleView.html?idxno=44830",
+          "source": "s-journal.co.kr",
+          "source_domain": "s-journal.co.kr",
+          "published_at": "2026-10-27T11:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5740,15 +5700,59 @@
       ]
     },
     {
-      "cluster_id": "146ff427ce241cf0",
+      "cluster_id": "e4cbe6323ccd7185",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "美 SK하이닉스 레버리지 ETF, 상장 3개월 만에 청산",
-      "representative_url": "https://sentv.co.kr/article/view/sentv202610260241",
-      "representative_source": "sentv.co.kr",
+      "representative_title": "[ET특징주] SK하이닉스 대규모 추가 주주환원 가능성에… SK·스퀘어 동반...",
+      "representative_url": "https://etnews.com/20261027000153",
+      "representative_source": "etnews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T13:52:00Z",
-      "last_published_at": "2026-10-26T15:12:00Z",
+      "first_published_at": "2026-10-27T01:59:00Z",
+      "last_published_at": "2026-10-27T01:59:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "etnews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[ET특징주] SK하이닉스 대규모 추가 주주환원 가능성에… SK·스퀘어 동반...",
+          "url": "https://etnews.com/20261027000153",
+          "source": "etnews.com",
+          "source_domain": "etnews.com",
+          "published_at": "2026-10-27T10:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0bbe8df360f6d572",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "美 SK하이닉스 레버리지 ETF 2종, 석 달 만에 청산",
+      "representative_url": "https://junggi.co.kr/news/articleView.html?idxno=38246",
+      "representative_source": "junggi.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-27T01:48:00Z",
+      "last_published_at": "2026-10-27T01:54:00Z",
       "article_count": 2,
       "domestic_article_count": 2,
       "international_article_count": 0,
@@ -5756,8 +5760,8 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com",
-        "sentv.co.kr"
+        "junggi.co.kr",
+        "newsfc.co.kr"
       ],
       "categories": [
         "주가·투자의견"
@@ -5773,21 +5777,21 @@
       "needs_review": true,
       "articles": [
         {
-          "title": "SK하이닉스 美 레버리지 ETF 2종, 상장 3개월 만에 청산",
-          "url": "https://kjdaily.com/article.php?aid=1793027412690235276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-27T00:12:00+09:00",
+          "title": "SK하이닉스 레버리지 ETF, 美 상장 석달만에 청산",
+          "url": "https://newsfc.co.kr/news/articleView.html?idxno=82017",
+          "source": "newsfc.co.kr",
+          "source_domain": "newsfc.co.kr",
+          "published_at": "2026-10-27T10:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "美 SK하이닉스 레버리지 ETF, 상장 3개월 만에 청산",
-          "url": "https://sentv.co.kr/article/view/sentv202610260241",
-          "source": "sentv.co.kr",
-          "source_domain": "sentv.co.kr",
-          "published_at": "2026-10-26T22:52:00+09:00",
+          "title": "美 SK하이닉스 레버리지 ETF 2종, 석 달 만에 청산",
+          "url": "https://junggi.co.kr/news/articleView.html?idxno=38246",
+          "source": "junggi.co.kr",
+          "source_domain": "junggi.co.kr",
+          "published_at": "2026-10-27T10:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5795,15 +5799,15 @@
       ]
     },
     {
-      "cluster_id": "19d62c3137b6800d",
+      "cluster_id": "8e557d833972c19c",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[재무추적] SK하이닉스 , 올해 남은 주주환원여력 최소 54조원이상...이번...",
-      "representative_url": "https://moneystorm.kr/news/articleView.html?idxno=7688",
-      "representative_source": "moneystorm.kr",
+      "representative_title": "[앤스로픽, 상장] \"HBM도 직접 조달\"…증권신고서에 삼성· SK하이닉스 협...",
+      "representative_url": "https://newspim.com/news/view/20261027000359",
+      "representative_source": "newspim.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T13:09:00Z",
-      "last_published_at": "2026-10-26T13:09:00Z",
+      "first_published_at": "2026-10-27T01:46:00Z",
+      "last_published_at": "2026-10-27T01:46:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5811,14 +5815,109 @@
         "naver"
       ],
       "source_domains": [
-        "moneystorm.kr"
+        "newspim.com"
       ],
       "categories": [
-        "기타"
+        "공급·규제",
+        "기술·제품"
       ],
       "event_keywords": [
-        " 54조"
+        "hbm"
       ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[앤스로픽, 상장] \"HBM도 직접 조달\"…증권신고서에 삼성· SK하이닉스 협...",
+          "url": "https://newspim.com/news/view/20261027000359",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-10-27T10:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cbb6924c91790fbb",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "‘80조 사상 최대 실적’ SK하이닉스 , 주가 폭락에 카드 만지작",
+      "representative_url": "https://theopiniontimes.news/80%ec%a1%b0-%ec%82%ac%ec%83%81-%ec%b5%9c%eb%8c%80-%ec%8b%a4%ec%a0%81-sk%ed%95%98%ec%9d%b4%eb%8b%89%ec%8a%a4-%ec%a3%bc%ea%b0%80-%ed%8f%ad%eb%9d%bd%ec%97%90-%ec%b9%b4%eb%93%9c",
+      "representative_source": "theopiniontimes.news",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-27T01:44:00Z",
+      "last_published_at": "2026-10-27T01:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "theopiniontimes.news"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "80조",
+        "earnings"
+      ],
+      "importance_score": 5,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "‘80조 사상 최대 실적’ SK하이닉스 , 주가 폭락에 카드 만지작",
+          "url": "https://theopiniontimes.news/80%ec%a1%b0-%ec%82%ac%ec%83%81-%ec%b5%9c%eb%8c%80-%ec%8b%a4%ec%a0%81-sk%ed%95%98%ec%9d%b4%eb%8b%89%ec%8a%a4-%ec%a3%bc%ea%b0%80-%ed%8f%ad%eb%9d%bd%ec%97%90-%ec%b9%b4%eb%93%9c",
+          "source": "theopiniontimes.news",
+          "source_domain": "theopiniontimes.news",
+          "published_at": "2026-10-27T10:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e9f509c728b61839",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 창립 43주년 특별전시 '초심'…내달 1일까지",
+      "representative_url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008816314&plink=ORI",
+      "representative_source": "news.sbs.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-27T01:28:00Z",
+      "last_published_at": "2026-10-27T01:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.sbs.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -5828,11 +5927,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[재무추적] SK하이닉스 , 올해 남은 주주환원여력 최소 54조원이상...이번...",
-          "url": "https://moneystorm.kr/news/articleView.html?idxno=7688",
-          "source": "moneystorm.kr",
-          "source_domain": "moneystorm.kr",
-          "published_at": "2026-10-26T22:09:00+09:00",
+          "title": "SK하이닉스 창립 43주년 특별전시 '초심'…내달 1일까지",
+          "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008816314&plink=ORI",
+          "source": "news.sbs.co.kr",
+          "source_domain": "news.sbs.co.kr",
+          "published_at": "2026-10-27T10:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5840,15 +5939,15 @@
       ]
     },
     {
-      "cluster_id": "0e25df562e94286f",
+      "cluster_id": "c9ea69df1d9d2736",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "SK하이닉스 ·삼성전자 거래대금 5조8천억원대…상위 50종목 절반 넘어",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793015291690402276",
-      "representative_source": "kjdaily.com",
+      "representative_title": "SK하이닉스 주가 신바람…반도체 장비주로 번진 AI 투자 열기",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=498783",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T11:50:00Z",
-      "last_published_at": "2026-10-26T11:50:00Z",
+      "first_published_at": "2026-10-27T01:18:00Z",
+      "last_published_at": "2026-10-27T01:18:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5856,28 +5955,33 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com"
+        "pinpointnews.co.kr"
       ],
       "categories": [
-        "기타"
+        "공급·규제",
+        "기술·제품",
+        "주가·투자의견",
+        "투자·생산"
       ],
       "event_keywords": [
-        " 5조"
+        "investment"
       ],
-      "importance_score": 15,
+      "importance_score": 5,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15",
+        "단순 주가·종목 추천 -25"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "SK하이닉스 ·삼성전자 거래대금 5조8천억원대…상위 50종목 절반 넘어",
-          "url": "https://kjdaily.com/article.php?aid=1793015291690402276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-26T20:50:00+09:00",
+          "title": "SK하이닉스 주가 신바람…반도체 장비주로 번진 AI 투자 열기",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=498783",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-27T10:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5885,15 +5989,15 @@
       ]
     },
     {
-      "cluster_id": "9201f85340014144",
+      "cluster_id": "8283eac6485fbc9c",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "\"장부상 숫자일 뿐\"… SK하이닉스 주주환원은 '키옥시아' 아닌 이유 [B급...",
-      "representative_url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202610260052&t=NN",
-      "representative_source": "wowtv.co.kr",
+      "representative_title": "삼성전자· SK하이닉스 , 앤트로픽 IPO에 동반 강세",
+      "representative_url": "https://cstimes.com/news/articleView.html?idxno=725402",
+      "representative_source": "cstimes.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T11:00:00Z",
-      "last_published_at": "2026-10-26T11:00:00Z",
+      "first_published_at": "2026-10-27T00:16:00Z",
+      "last_published_at": "2026-10-27T00:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5901,9 +6005,10 @@
         "naver"
       ],
       "source_domains": [
-        "wowtv.co.kr"
+        "cstimes.com"
       ],
       "categories": [
+        "기술·제품",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -5916,11 +6021,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "\"장부상 숫자일 뿐\"… SK하이닉스 주주환원은 '키옥시아' 아닌 이유 [B급...",
-          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202610260052&t=NN",
-          "source": "wowtv.co.kr",
-          "source_domain": "wowtv.co.kr",
-          "published_at": "2026-10-26T20:00:00+09:00",
+          "title": "삼성전자· SK하이닉스 , 앤트로픽 IPO에 동반 강세",
+          "url": "https://cstimes.com/news/articleView.html?idxno=725402",
+          "source": "cstimes.com",
+          "source_domain": "cstimes.com",
+          "published_at": "2026-10-27T09:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5928,15 +6033,15 @@
       ]
     },
     {
-      "cluster_id": "5b412a3611d728d5",
+      "cluster_id": "6995ade25326bd8d",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[기획] SK하이닉스 , 3Q 최대실적 전망…D램 점유율은 주춤",
-      "representative_url": "https://kfenews.co.kr/news/articleView.html?idxno=666944",
-      "representative_source": "kfenews.co.kr",
+      "representative_title": "AI 거품론 속 삼성· SK하이닉스 실적 시험대",
+      "representative_url": "https://gokorea.kr/news/articleView.html?idxno=882859",
+      "representative_source": "gokorea.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-26T10:56:00Z",
-      "last_published_at": "2026-10-26T10:56:00Z",
+      "first_published_at": "2026-10-27T00:14:00Z",
+      "last_published_at": "2026-10-27T00:14:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5944,9 +6049,57 @@
         "naver"
       ],
       "source_domains": [
-        "kfenews.co.kr"
+        "gokorea.kr"
       ],
       "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "AI 거품론 속 삼성· SK하이닉스 실적 시험대",
+          "url": "https://gokorea.kr/news/articleView.html?idxno=882859",
+          "source": "gokorea.kr",
+          "source_domain": "gokorea.kr",
+          "published_at": "2026-10-27T09:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "dd7107210428eae5",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 3분기 실적 발표 앞두고 전망치 주목",
+      "representative_url": "https://gokorea.kr/news/articleView.html?idxno=882866",
+      "representative_source": "gokorea.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-27T00:14:00Z",
+      "last_published_at": "2026-10-27T00:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "gokorea.kr"
+      ],
+      "categories": [
+        "공급·규제",
         "기술·제품",
         "실적",
         "투자·생산"
@@ -5964,142 +6117,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[기획] SK하이닉스 , 3Q 최대실적 전망…D램 점유율은 주춤",
-          "url": "https://kfenews.co.kr/news/articleView.html?idxno=666944",
-          "source": "kfenews.co.kr",
-          "source_domain": "kfenews.co.kr",
-          "published_at": "2026-10-26T19:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "85c4422ad0f31458",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "이천시의회 송옥란 의원, SK하이닉스 에 “반도체를 만드는 기술만큼, 물...",
-      "representative_url": "https://cfnews.kr/news/article.html?no=113165",
-      "representative_source": "cfnews.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-26T10:28:00Z",
-      "last_published_at": "2026-10-26T10:28:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cfnews.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "이천시의회 송옥란 의원, SK하이닉스 에 “반도체를 만드는 기술만큼, 물...",
-          "url": "https://cfnews.kr/news/article.html?no=113165",
-          "source": "cfnews.kr",
-          "source_domain": "cfnews.kr",
-          "published_at": "2026-10-26T19:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "042634bfb23c6c6b",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "미국 상장 SK하이닉스 레버리지 ETF 2종 석 달 만에 청산, 11월5일 거래 ...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=450325",
-      "representative_source": "businesspost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-26T09:52:00Z",
-      "last_published_at": "2026-10-26T09:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "미국 상장 SK하이닉스 레버리지 ETF 2종 석 달 만에 청산, 11월5일 거래 ...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=450325",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-10-26T18:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f28461c15531f3f0",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[마켓인]솔리다임 상장 접은 SK하이닉스 …주주환원 속 자금조달 셈법은",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04398486645616856",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-26T09:41:00Z",
-      "last_published_at": "2026-10-26T09:41:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[마켓인]솔리다임 상장 접은 SK하이닉스 …주주환원 속 자금조달 셈법은",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04398486645616856",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-10-26T18:41:00+09:00",
+          "title": "SK하이닉스 3분기 실적 발표 앞두고 전망치 주목",
+          "url": "https://gokorea.kr/news/articleView.html?idxno=882866",
+          "source": "gokorea.kr",
+          "source_domain": "gokorea.kr",
+          "published_at": "2026-10-27T09:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
