@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-27T16:36:39.286270Z",
+  "generated_at": "2026-10-28T02:14:10.710818Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-10-27T16:36:39.286270Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-28T02:14:10.710818Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "4637b6797dbdb0c4",
@@ -2676,6 +2681,50 @@
       ]
     },
     {
+      "cluster_id": "fa649c6fa7d26153",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "두산에너빌리티 주가, 다시 돌아온 '6만빌리티'…장 초반 3%대 상승에 코...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=620122",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-28T00:20:00Z",
+      "last_published_at": "2026-10-28T00:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "두산에너빌리티 주가, 다시 돌아온 '6만빌리티'…장 초반 3%대 상승에 코...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=620122",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-28T09:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "d9268c34ee42f97b",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
@@ -3077,49 +3126,6 @@
           "source": "metroseoul.co.kr",
           "source_domain": "metroseoul.co.kr",
           "published_at": "2026-10-26T17:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d720e092c03e7671",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 영주 '트리븐 가흥' 765가구 분양 예정",
-      "representative_url": "https://finomy.com/news/articleView.html?idxno=264633",
-      "representative_source": "finomy.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-26T06:50:00Z",
-      "last_published_at": "2026-10-26T06:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "finomy.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 , 영주 '트리븐 가흥' 765가구 분양 예정",
-          "url": "https://finomy.com/news/articleView.html?idxno=264633",
-          "source": "finomy.com",
-          "source_domain": "finomy.com",
-          "published_at": "2026-10-26T15:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
