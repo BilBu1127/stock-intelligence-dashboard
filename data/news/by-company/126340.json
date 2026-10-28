@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-28T02:14:10.710818Z",
+  "generated_at": "2026-10-28T17:09:35.051167Z",
   "company_name": "비나텍",
   "stock_code": "126340",
   "status": "partial",
-  "last_successful_update": "2026-10-28T02:14:10.710818Z",
+  "last_successful_update": "2026-10-28T17:09:35.051167Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -77,6 +77,106 @@
           "source": "biz.chosun.com",
           "source_domain": "biz.chosun.com",
           "published_at": "2026-10-22T09:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5a122c5207bc1f19",
+      "company_name": "비나텍",
+      "stock_code": "126340",
+      "representative_title": "[속보] 비나텍 , 베트남 종속회사에 397억원 출자 결정",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=620411",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-28T09:06:00Z",
+      "last_published_at": "2026-10-28T09:10:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.sbs.co.kr",
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 397억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "비나텍 \"베트남 종속회사에 397억원 출자\"",
+          "url": "https://biz.sbs.co.kr/article_hub/20000342805?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "source_domain": "biz.sbs.co.kr",
+          "published_at": "2026-10-28T18:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[속보] 비나텍 , 베트남 종속회사에 397억원 출자 결정",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=620411",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-28T18:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5042816df4fb74af",
+      "company_name": "비나텍",
+      "stock_code": "126340",
+      "representative_title": "비나텍 주가, 10월 28일 애프터마켓 109,400원 0.27% 상승",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16260824",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-28T08:22:00Z",
+      "last_published_at": "2026-10-28T08:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "비나텍 주가, 10월 28일 애프터마켓 109,400원 0.27% 상승",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16260824",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-10-28T17:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -442,94 +542,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-10-24T13:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "620ef9c68ef2b32c",
-      "company_name": "비나텍",
-      "stock_code": "126340",
-      "representative_title": "[베스트&워스트] 비나텍 ·지투지바이오 50%대 급등⋯상폐 우려株 약세",
-      "representative_url": "https://etoday.co.kr/news/view/2639627",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-23T21:02:00Z",
-      "last_published_at": "2026-10-23T21:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[베스트&워스트] 비나텍 ·지투지바이오 50%대 급등⋯상폐 우려株 약세",
-          "url": "https://etoday.co.kr/news/view/2639627",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-10-24T06:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8e3785e5f19bd341",
-      "company_name": "비나텍",
-      "stock_code": "126340",
-      "representative_title": "비나텍 주가, 10월 23일 애프터마켓 118,400원 8.92% 상승",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16256132",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-23T08:12:00Z",
-      "last_published_at": "2026-10-23T08:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "비나텍 주가, 10월 23일 애프터마켓 118,400원 8.92% 상승",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16256132",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-10-23T17:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
