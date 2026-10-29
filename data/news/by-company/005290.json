@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-29T02:25:42.653162Z",
+  "generated_at": "2026-10-29T17:25:03.405803Z",
   "company_name": "동진쎄미켐",
   "stock_code": "005290",
-  "status": "ok",
-  "last_successful_update": "2026-10-29T02:25:42.653162Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-29T17:25:03.405803Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "40ccc2123558167f",
@@ -118,6 +123,53 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-06T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6ce854bf08dfee12",
+      "company_name": "동진쎄미켐",
+      "stock_code": "005290",
+      "representative_title": "동진쎄미켐 \"EUV 감광액 공급 중…첨단 패키징 소재도 개발\"",
+      "representative_url": "https://view.asiae.co.kr/article/2026102917424676706",
+      "representative_source": "view.asiae.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T08:42:00Z",
+      "last_published_at": "2026-10-29T08:42:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "view.asiae.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "동진쎄미켐 \"EUV 감광액 공급 중…첨단 패키징 소재도 개발\"",
+          "url": "https://view.asiae.co.kr/article/2026102917424676706",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-10-29T17:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -552,62 +604,6 @@
           "source": "newsis.com",
           "source_domain": "newsis.com",
           "published_at": "2026-10-21T18:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3343c2bb8fe7545e",
-      "company_name": "동진쎄미켐",
-      "stock_code": "005290",
-      "representative_title": "반도체의 날 ‘금탑산업훈장’에 이준혁 동진쎄미켐 회장",
-      "representative_url": "https://chosun.com/economy/industry-company/2026/10/21/SBDJ7JH4MFBZXONDXMJRKH6EZ4",
-      "representative_source": "chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-21T06:53:00Z",
-      "last_published_at": "2026-10-21T09:02:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "chosun.com",
-        "viva100.com"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        "executive"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "‘반도체의 날’ 금탑산업훈장에 이준혁 동진쎄미켐 회장",
-          "url": "https://viva100.com/article/20261021501425",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-10-21T18:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "반도체의 날 ‘금탑산업훈장’에 이준혁 동진쎄미켐 회장",
-          "url": "https://chosun.com/economy/industry-company/2026/10/21/SBDJ7JH4MFBZXONDXMJRKH6EZ4",
-          "source": "chosun.com",
-          "source_domain": "chosun.com",
-          "published_at": "2026-10-21T15:53:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

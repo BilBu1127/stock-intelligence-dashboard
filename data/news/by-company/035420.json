@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T02:25:42.653162Z",
+  "generated_at": "2026-10-29T17:25:03.405803Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-10-29T02:25:42.653162Z",
+  "last_successful_update": "2026-10-29T17:25:03.405803Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -332,6 +332,49 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "577e0068755fd5d9",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버, 사우디 지도앱 ‘발라디 플러스’ 오픈베타 시작",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06651846645617840",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T10:24:00Z",
+      "last_published_at": "2026-10-29T10:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버, 사우디 지도앱 ‘발라디 플러스’ 오픈베타 시작",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06651846645617840",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-10-29T19:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -762,51 +805,6 @@
           "source": "sedaily.com",
           "source_domain": "sedaily.com",
           "published_at": "2026-10-28T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d345b51c409f5ce1",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "Naver Secures $9 Billion AI Infrastructure Deal With Brookfield, Paving W...",
-      "representative_url": "https://businesskorea.co.kr/news/articleView.html?idxno=279822",
-      "representative_source": "businesskorea.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T01:06:00Z",
-      "last_published_at": "2026-10-28T01:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesskorea.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 9 billion"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "Naver Secures $9 Billion AI Infrastructure Deal With Brookfield, Paving W...",
-          "url": "https://businesskorea.co.kr/news/articleView.html?idxno=279822",
-          "source": "businesskorea.co.kr",
-          "source_domain": "businesskorea.co.kr",
-          "published_at": "2026-10-28T10:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
