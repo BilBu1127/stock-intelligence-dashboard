@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-28T17:09:35.051167Z",
+  "generated_at": "2026-10-29T02:25:42.653162Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-10-28T17:09:35.051167Z",
+  "last_successful_update": "2026-10-29T02:25:42.653162Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -332,6 +332,94 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9f5e40c39c0d63fc",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "Naver Taps Brookfield Capital to Build Out AI Factory and Meet $9 Billion...",
+      "representative_url": "https://insightkorea.co.kr/news/articleView.html?idxno=257543",
+      "representative_source": "insightkorea.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T01:00:00Z",
+      "last_published_at": "2026-10-29T01:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "insightkorea.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 9 billion"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "Naver Taps Brookfield Capital to Build Out AI Factory and Meet $9 Billion...",
+          "url": "https://insightkorea.co.kr/news/articleView.html?idxno=257543",
+          "source": "insightkorea.co.kr",
+          "source_domain": "insightkorea.co.kr",
+          "published_at": "2026-10-29T10:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "be97925dff18fd28",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "李海珍借Brookfield外部资本推进AI Factory， Naver 破解90亿美元基础设施...",
+      "representative_url": "https://insightkorea.co.kr/news/articleView.html?idxno=257541",
+      "representative_source": "insightkorea.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-28T23:00:00Z",
+      "last_published_at": "2026-10-28T23:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "insightkorea.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "李海珍借Brookfield外部资本推进AI Factory， Naver 破解90亿美元基础设施...",
+          "url": "https://insightkorea.co.kr/news/articleView.html?idxno=257541",
+          "source": "insightkorea.co.kr",
+          "source_domain": "insightkorea.co.kr",
+          "published_at": "2026-10-29T08:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -719,127 +807,6 @@
           "source": "businesskorea.co.kr",
           "source_domain": "businesskorea.co.kr",
           "published_at": "2026-10-28T10:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f49ffdb7189ec48c",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "[애널픽] 네이버, AI 팩토리 90억불 계약 확정...엔비디아 투자도 '청신...",
-      "representative_url": "https://theviewers.co.kr/View.aspx?No=4285932",
-      "representative_source": "theviewers.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T00:02:00Z",
-      "last_published_at": "2026-10-28T00:54:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com",
-        "news1.kr",
-        "theviewers.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 90억",
-        "investment",
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'브룩필드 90억弗 투자 확정' 네이버 이틀째 급등…6%↑[핫종목]",
-          "url": "https://news1.kr/finance/market-exr/6334452",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-10-28T09:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "하나증권 \" NAVER , 브룩필드 90억달러 투자.. 불학실성 해소\"",
-          "url": "https://g-enews.com/view.php?ud=20261028092435427944093b5d4e_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-10-28T09:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[애널픽] 네이버, AI 팩토리 90억불 계약 확정...엔비디아 투자도 '청신...",
-          "url": "https://theviewers.co.kr/View.aspx?No=4285932",
-          "source": "theviewers.co.kr",
-          "source_domain": "theviewers.co.kr",
-          "published_at": "2026-10-28T09:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "754452a4c46c881a",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "NH투자證 “네이버, 네오클라우드 불확실성 해소… 주가 반등 기대”",
-      "representative_url": "https://biz.chosun.com/stock/stock_general/2026/10/28/YOM3NSUAMFH7JHU5RS634BVLRE",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-27T23:34:00Z",
-      "last_published_at": "2026-10-27T23:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 5,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "NH투자證 “네이버, 네오클라우드 불확실성 해소… 주가 반등 기대”",
-          "url": "https://biz.chosun.com/stock/stock_general/2026/10/28/YOM3NSUAMFH7JHU5RS634BVLRE",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-10-28T08:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

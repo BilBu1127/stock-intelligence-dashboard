@@ -1,16 +1,634 @@
 {
-  "generated_at": "2026-10-28T17:09:35.051167Z",
+  "generated_at": "2026-10-29T02:25:42.653162Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-10-28T17:09:35.051167Z",
+  "last_successful_update": "2026-10-29T02:25:42.653162Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
+    {
+      "cluster_id": "ee04796a7245e6c5",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[속보] 삼성전자 \"내년 HBM 공급협상 완료…완판속 추가 요청\"",
+      "representative_url": "https://yna.co.kr/view/AKR20261029088900003?input=1195m",
+      "representative_source": "yna.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T01:55:00Z",
+      "last_published_at": "2026-10-29T02:24:00Z",
+      "article_count": 52,
+      "domestic_article_count": 52,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "asiaa.co.kr",
+        "biz.chosun.com",
+        "biz.heraldcorp.com",
+        "biz.sbs.co.kr",
+        "biztribune.co.kr",
+        "businessplus.kr",
+        "businesspost.co.kr",
+        "dailian.co.kr",
+        "dgmbc.com",
+        "econonews.co.kr",
+        "gokorea.kr",
+        "hankyung.com",
+        "iminju.net",
+        "inews24.com",
+        "inthenews.co.kr",
+        "jeonmae.co.kr",
+        "koreareport.co.kr",
+        "mediafine.co.kr",
+        "mt.co.kr",
+        "news.einfomax.co.kr",
+        "news.mtn.co.kr",
+        "news.tf.co.kr",
+        "news1.kr",
+        "newscape.co.kr",
+        "newsfc.co.kr",
+        "newsinside.kr",
+        "newsis.com",
+        "newskr.kr",
+        "newsway.co.kr",
+        "opinionnews.co.kr",
+        "pinpointnews.co.kr",
+        "segye.com",
+        "techholic.co.kr",
+        "tfmedia.co.kr",
+        "the-biz.co.kr",
+        "tleaves.co.kr",
+        "view.asiae.co.kr",
+        "weekly.chosun.com",
+        "weeklytoday.com",
+        "womentimes.co.kr",
+        "yna.co.kr",
+        "yonhapnewstv.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 106조",
+        " 107조",
+        " 110조",
+        " 195조",
+        " 4조",
+        " 7조",
+        " 8조",
+        "2026",
+        "3000억",
+        "4000억",
+        "5000억",
+        "earnings",
+        "hbm",
+        "hbm4",
+        "investment",
+        "production",
+        "supply"
+      ],
+      "importance_score": 55,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 내년 HBM 전량 완판 공급협상 마무리",
+          "url": "https://gokorea.kr/news/articleView.html?idxno=883236",
+          "source": "gokorea.kr",
+          "source_domain": "gokorea.kr",
+          "published_at": "2026-10-29T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"2027년 HBM 이미 완판\"...메모리 공급 부족 2028년까지 이어진...",
+          "url": "https://opinionnews.co.kr/news/articleView.html?idxno=146372",
+          "source": "opinionnews.co.kr",
+          "source_domain": "opinionnews.co.kr",
+          "published_at": "2026-10-29T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[위클리오늘] 삼성전자 , 3분기 영업이익 107조 원 돌파…주당 4601원 현금...",
+          "url": "https://weeklytoday.com/news/articleView.html?idxno=800121",
+          "source": "weeklytoday.com",
+          "source_domain": "weeklytoday.com",
+          "published_at": "2026-10-29T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업이익 107.4조원 확정…4개 분기 연속 역대 최대치 ...",
+          "url": "https://tfmedia.co.kr/news/article.html?no=208473",
+          "source": "tfmedia.co.kr",
+          "source_domain": "tfmedia.co.kr",
+          "published_at": "2026-10-29T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"3분기 HBM4 매출 전분기 대비 3배 이상 증가, 내년 HBM 물량 완...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=450624",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 3분기 영업이익 107조 4천억 원, 4분기 연속 최대 실적···현...",
+          "url": "https://dgmbc.com/NewsArticle/870202",
+          "source": "dgmbc.com",
+          "source_domain": "dgmbc.com",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"증설해도 메모리 수요 못 따라가\"…내년 상반기 HBM4E 양산",
+          "url": "https://iminju.net/news/articleView.html?idxno=171612",
+          "source": "iminju.net",
+          "source_domain": "iminju.net",
+          "published_at": "2026-10-29T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
+          "url": "https://yna.co.kr/view/AKR20261029089900003?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-10-29T11:19:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"3분기 HBM4 매출 3배 폭증…내년 공급 물량 이미 완판\"",
+          "url": "https://view.asiae.co.kr/article/2026102911191454019",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-10-29T11:19:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[뉴스+] 삼성전자 , 3분기 영업이익 107.4조 '사상 최대'…주주환원 최대 ...",
+          "url": "https://businessplus.kr/news/articleView.html?idxno=118928",
+          "source": "businessplus.kr",
+          "source_domain": "businessplus.kr",
+          "published_at": "2026-10-29T11:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"HBM 점유율 D램 수준 도달…HBM4 매출 3배 이상 증가\"",
+          "url": "https://dailian.co.kr/news/view/1707968?sc=Naver",
+          "source": "dailian.co.kr",
+          "source_domain": "dailian.co.kr",
+          "published_at": "2026-10-29T11:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"2027년에도 반도체 강세 지속\"…HBM4 확대·HBM4E 양산",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=499618",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-29T11:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 , 내년 상반기 HBM4E 양산 개시…하반기 생산량 확대",
+          "url": "https://econonews.co.kr/news/articleView.html?idxno=446407",
+          "source": "econonews.co.kr",
+          "source_domain": "econonews.co.kr",
+          "published_at": "2026-10-29T11:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"내년 상반기 HBM4E 양산…하반기 생산량 확대\"",
+          "url": "https://news.tf.co.kr/read/economy/2382322.htm",
+          "source": "news.tf.co.kr",
+          "source_domain": "news.tf.co.kr",
+          "published_at": "2026-10-29T11:17:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
+          "url": "https://inews24.com/view/2020339",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-29T11:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 2026년 3분기 매출 195조3000억원 영업이익 107조4000억원 역대...",
+          "url": "https://womentimes.co.kr/news/articleView.html?idxno=107411",
+          "source": "womentimes.co.kr",
+          "source_domain": "womentimes.co.kr",
+          "published_at": "2026-10-29T11:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 3분기 영업익 107조원…실적 이끈 건 반도체",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=56657",
+          "source": "weekly.chosun.com",
+          "source_domain": "weekly.chosun.com",
+          "published_at": "2026-10-29T11:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"3Q HBM4 매출, 전분기比 3배↑…전체 HBM의 60% 차지\"",
+          "url": "https://newsis.com/view/NISX20261029_0003846277",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-10-29T11:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3Q 영업익 107조원 '역대급 실적'…시설투자에 84.4조",
+          "url": "https://tleaves.co.kr/news/articleView.html?idxno=10076",
+          "source": "tleaves.co.kr",
+          "source_domain": "tleaves.co.kr",
+          "published_at": "2026-10-29T11:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업익 107조 '역대 최대'… 반도체가 실적 견인",
+          "url": "https://the-biz.co.kr/news/articleView.html?idxno=730209",
+          "source": "the-biz.co.kr",
+          "source_domain": "the-biz.co.kr",
+          "published_at": "2026-10-29T11:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"2027년 HBM 공급 물량 완판…추가 증량 요청 이어져\"",
+          "url": "https://dailian.co.kr/news/view/1707965?sc=Naver",
+          "source": "dailian.co.kr",
+          "source_domain": "dailian.co.kr",
+          "published_at": "2026-10-29T11:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 3분기 영업익 107조원...4분기 연속 최대실적 달성",
+          "url": "https://newsfc.co.kr/news/articleView.html?idxno=82072",
+          "source": "newsfc.co.kr",
+          "source_domain": "newsfc.co.kr",
+          "published_at": "2026-10-29T11:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 107조 벌었는데도 파란불…실적발표 후 5%대 급락[특징주]",
+          "url": "https://newsway.co.kr/news/view?ud=2026102910570085842",
+          "source": "newsway.co.kr",
+          "source_domain": "newsway.co.kr",
+          "published_at": "2026-10-29T11:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"HBM4E 내년 상반기 양산…하반기 생산 확대\"",
+          "url": "https://dailian.co.kr/news/view/1707962?sc=Naver",
+          "source": "dailian.co.kr",
+          "source_domain": "dailian.co.kr",
+          "published_at": "2026-10-29T11:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업이익 107조원 돌파-반도체 호황에 역대 최대 실적",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=93978",
+          "source": "mediafine.co.kr",
+          "source_domain": "mediafine.co.kr",
+          "published_at": "2026-10-29T11:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"글로벌 10곳 장기계약… 내년 HBM 솔드아웃\"",
+          "url": "https://koreareport.co.kr/news/articleView.html?idxno=54047",
+          "source": "koreareport.co.kr",
+          "source_domain": "koreareport.co.kr",
+          "published_at": "2026-10-29T11:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"내년 HBM 공급 물량 '완판'…추가 공급 요청 지속\"",
+          "url": "https://newsis.com/view/NISX20261029_0003846259",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-10-29T11:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 영업이익 107조원 찍었다… HBM 4·2나노 투자 확대",
+          "url": "https://newscape.co.kr/news/articleView.html?idxno=125420",
+          "source": "newscape.co.kr",
+          "source_domain": "newscape.co.kr",
+          "published_at": "2026-10-29T11:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "반도체가 106조 벌었다… 삼성전자 , 분기 영업익 107조 돌파",
+          "url": "https://newsinside.kr/news/articleView.html?idxno=5035871",
+          "source": "newsinside.kr",
+          "source_domain": "newsinside.kr",
+          "published_at": "2026-10-29T11:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 3분기 영업익 107조4000억원...반도체서만 106조5000억원",
+          "url": "https://newskr.kr/news/articleView.html?idxno=107550",
+          "source": "newskr.kr",
+          "source_domain": "newskr.kr",
+          "published_at": "2026-10-29T11:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3Q 영업익 107.4조 대기록-메모리 매출만 140.7조",
+          "url": "https://techholic.co.kr/news/articleView.html?idxno=223448",
+          "source": "techholic.co.kr",
+          "source_domain": "techholic.co.kr",
+          "published_at": "2026-10-29T11:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 분기 영업익 107조 '세계 최초'… HBM 4가 이끈 역대급 실적",
+          "url": "https://biztribune.co.kr/news/articleView.html?idxno=361493",
+          "source": "biztribune.co.kr",
+          "source_domain": "biztribune.co.kr",
+          "published_at": "2026-10-29T11:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \" HBM 4 매출, 전분기보다 3배↑…내년 HBM 완판\"",
+          "url": "https://mt.co.kr/industry/2026/10/29/2026102911044261630",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-10-29T11:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 “내년 HBM 공급 물량 이미 솔드아웃…추가 공급요청 지속”",
+          "url": "https://biz.heraldcorp.com/article/10918803",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-10-29T11:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"3분기 HBM 4 매출, 전분기대비 3배 이상 증가\"",
+          "url": "https://biz.sbs.co.kr/article_hub/20000342946?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "source_domain": "biz.sbs.co.kr",
+          "published_at": "2026-10-29T11:03:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[속보] 삼성전자 \"내년 HBM 공급협상 완료…추가 수요 있어\"",
+          "url": "https://yonhapnewstv.co.kr/news/AKR20261029110306JVj",
+          "source": "yonhapnewstv.co.kr",
+          "source_domain": "yonhapnewstv.co.kr",
+          "published_at": "2026-10-29T11:03:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 “3분기 HBM 4 매출 3배 이상 증가… HBM 4E도 호평”",
+          "url": "https://biz.heraldcorp.com/article/10918790",
+          "source": "biz.heraldcorp.com",
+          "source_domain": "biz.heraldcorp.com",
+          "published_at": "2026-10-29T11:03:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 \"내년 상반기 HBM 4E 양산...올해 반도체 시설투자 76.8조...",
+          "url": "https://asiaa.co.kr/news/articleView.html?idxno=268407",
+          "source": "asiaa.co.kr",
+          "source_domain": "asiaa.co.kr",
+          "published_at": "2026-10-29T11:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[속보] 삼성전자 \"내년 HBM 공급물량 사실상 완판..추가 요청 지속\"",
+          "url": "https://news.mtn.co.kr/article/2026102911003541552",
+          "source": "news.mtn.co.kr",
+          "source_domain": "news.mtn.co.kr",
+          "published_at": "2026-10-29T11:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 \"메모리 공급난 2028년에도 지속\"… HBM 4E· HBM 5도 변수",
+          "url": "https://inews24.com/view/2020320",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-29T11:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[2026 3분기 실적] 삼성전자 , 3분기 영업익 107.4조…글로벌 테크사 최초",
+          "url": "https://inthenews.co.kr/news/article.html?no=93703",
+          "source": "inthenews.co.kr",
+          "source_domain": "inthenews.co.kr",
+          "published_at": "2026-10-29T11:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[IR] 삼성전자 \"내년도 HBM 공급 이미 완판… HBM 4 매출 3배 이상 증가\"",
+          "url": "https://news1.kr/industry/general-industry/6336131",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-10-29T11:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[속보] 삼성전자 \"내년 HBM 공급 협상 완료…고객사 추가 공급 요청\"",
+          "url": "https://newsis.com/view/NISX20261029_0003846227",
+          "source": "newsis.com",
+          "source_domain": "newsis.com",
+          "published_at": "2026-10-29T10:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "\" HBM 4 매출 3배 폭증\"… 삼성전자 , 내년 HBM 물량도 '완판'",
+          "url": "https://hankyung.com/article/2026102929537",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-10-29T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 2027년 HBM 공급 물량 이미 완판…추가 요청 지속 접수",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441865",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-10-29T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업이익 107조 돌파…4분기 연속 최대 실적",
+          "url": "https://jeonmae.co.kr/news/articleView.html?idxno=1306448",
+          "source": "jeonmae.co.kr",
+          "source_domain": "jeonmae.co.kr",
+          "published_at": "2026-10-29T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , HBM 매출에서 HBM4 비중 60%까지 상승",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441864",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-10-29T10:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업이익 107조원 사상 최대…주주환원 최대 110조원",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=499630",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-29T10:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[컨콜] 삼성전자 “3분기 HBM 4 매출 3배 증가…내년 공급 물량 사실상 완...",
+          "url": "https://biz.chosun.com/it-science/ict/2026/10/29/YX5AXDZFTNFPZLCLINXAP7YCU4",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-10-29T10:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 HBM 4 매출 전분기보다 3배 이상 증가",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441863",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-10-29T10:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 3분기 영업익 107조... 반도체로만 106조 벌었다",
+          "url": "https://segye.com/newsView/20261029507798?OutUrl=naver",
+          "source": "segye.com",
+          "source_domain": "segye.com",
+          "published_at": "2026-10-29T10:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[속보] 삼성전자 \"내년 HBM 공급협상 완료…완판속 추가 요청\"",
+          "url": "https://yna.co.kr/view/AKR20261029088900003?input=1195m",
+          "source": "yna.co.kr",
+          "source_domain": "yna.co.kr",
+          "published_at": "2026-10-29T10:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "9b1d28f3e51b2cf2",
       "company_name": "삼성전자",
@@ -4179,15 +4797,15 @@
       ]
     },
     {
-      "cluster_id": "1117ab949aa9e5a3",
+      "cluster_id": "7b0c77af281ca406",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 실적 성장 기대…“HBM4가 내년 반도체 시장 견인...",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793201574690543276",
-      "representative_source": "kjdaily.com",
+      "representative_title": "삼성전자 \"28년에도 타이트한 메모리 공급 지속\"(종합)",
+      "representative_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441882",
+      "representative_source": "news.einfomax.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T15:34:00Z",
-      "last_published_at": "2026-10-28T15:34:00Z",
+      "first_published_at": "2026-10-29T02:24:00Z",
+      "last_published_at": "2026-10-29T02:24:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4195,35 +4813,32 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com"
+        "news.einfomax.co.kr"
       ],
       "categories": [
         "공급·규제",
         "기술·제품",
         "실적",
-        "주가·투자의견",
         "투자·생산"
       ],
       "event_keywords": [
-        "earnings",
-        "hbm"
+        "supply"
       ],
-      "importance_score": 35,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 ·SK하이닉스 실적 성장 기대…“HBM4가 내년 반도체 시장 견인...",
-          "url": "https://kjdaily.com/article.php?aid=1793201574690543276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-29T00:34:00+09:00",
+          "title": "삼성전자 \"28년에도 타이트한 메모리 공급 지속\"(종합)",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441882",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-10-29T11:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4231,15 +4846,15 @@
       ]
     },
     {
-      "cluster_id": "34f661e53589784d",
+      "cluster_id": "4064e59495c50425",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "워트, 삼성전자 THC 납기 12월 17일로 조정",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=398005",
-      "representative_source": "vegannews.co.kr",
+      "representative_title": "'반도체의 힘' 삼성전자 , 영업익 99% 책임…스마트폰·가전 적자 '극과 ...",
+      "representative_url": "https://news1.kr/industry/general-industry/6336050",
+      "representative_source": "news1.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T15:06:00Z",
-      "last_published_at": "2026-10-28T15:06:00Z",
+      "first_published_at": "2026-10-29T02:23:00Z",
+      "last_published_at": "2026-10-29T02:23:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4247,10 +4862,12 @@
         "naver"
       ],
       "source_domains": [
-        "vegannews.co.kr"
+        "news1.kr"
       ],
       "categories": [
-        "공급·규제"
+        "기술·제품",
+        "실적",
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -4262,11 +4879,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "워트, 삼성전자 THC 납기 12월 17일로 조정",
-          "url": "https://vegannews.co.kr/news/article.html?no=398005",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-29T00:06:00+09:00",
+          "title": "'반도체의 힘' 삼성전자 , 영업익 99% 책임…스마트폰·가전 적자 '극과 ...",
+          "url": "https://news1.kr/industry/general-industry/6336050",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-10-29T11:23:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4274,15 +4891,15 @@
       ]
     },
     {
-      "cluster_id": "477bc00dd4c0a7c8",
+      "cluster_id": "971098f042fe86b8",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[주요공시] SK하이닉스, 삼성전자 , 에이치브이엠, 기가비스, 레인보우로...",
-      "representative_url": "https://kdpress.co.kr/news/articleView.html?idxno=209583",
-      "representative_source": "kdpress.co.kr",
+      "representative_title": "[컨콜] 삼성전자 “하만, 폭스바겐 텔레매틱스 공급 확대… 프리미엄 오...",
+      "representative_url": "https://biz.chosun.com/it-science/ict/2026/10/29/FPH4JDUP65E4LC6JGWATJIL43M",
+      "representative_source": "biz.chosun.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T15:00:00Z",
-      "last_published_at": "2026-10-28T15:00:00Z",
+      "first_published_at": "2026-10-29T02:23:00Z",
+      "last_published_at": "2026-10-29T02:23:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4290,11 +4907,219 @@
         "naver"
       ],
       "source_domains": [
-        "kdpress.co.kr"
+        "biz.chosun.com"
       ],
       "categories": [
         "공급·규제",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "supply"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[컨콜] 삼성전자 “하만, 폭스바겐 텔레매틱스 공급 확대… 프리미엄 오...",
+          "url": "https://biz.chosun.com/it-science/ict/2026/10/29/FPH4JDUP65E4LC6JGWATJIL43M",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-10-29T11:23:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7421ebbe92bed31d",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 2026년 3분기 메모리 최대실적...분기 영업이익 100조 달성",
+      "representative_url": "https://discoverynews.kr/news/articleView.html?idxno=1105231",
+      "representative_source": "discoverynews.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:16:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "discoverynews.kr",
+        "osen.co.kr"
+      ],
+      "categories": [
         "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        " 100조",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 의 분기 영업이익이 100조 원 돌파...글로벌 테크 기업 중에서...",
+          "url": "https://osen.co.kr/article/G1112900193",
+          "source": "osen.co.kr",
+          "source_domain": "osen.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 2026년 3분기 메모리 최대실적...분기 영업이익 100조 달성",
+          "url": "https://discoverynews.kr/news/articleView.html?idxno=1105231",
+          "source": "discoverynews.kr",
+          "source_domain": "discoverynews.kr",
+          "published_at": "2026-10-29T11:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9ffe79e36eed92f0",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[IR] 삼성전자 \"美 테일러 공장 설비 반입 시작…추가 증설 검토\"",
+      "representative_url": "https://news1.kr/industry/general-industry/6336148",
+      "representative_source": "news1.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:17:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "dailian.co.kr",
+        "news1.kr"
+      ],
+      "categories": [
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "[컨콜] 삼성전자 \"美 테일러 팹1 설비 반입 시작…추가 증설 검토\"",
+          "url": "https://dailian.co.kr/news/view/1707971?sc=Naver",
+          "source": "dailian.co.kr",
+          "source_domain": "dailian.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[IR] 삼성전자 \"美 테일러 공장 설비 반입 시작…추가 증설 검토\"",
+          "url": "https://news1.kr/industry/general-industry/6336148",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-10-29T11:17:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0dce4d88b2d108c7",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 , 글로벌 테크 기업 최초 분기 영업익 100조 돌파…역대 최대",
+      "representative_url": "https://efnews.co.kr/news/articleView.html?idxno=133559",
+      "representative_source": "efnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:22:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "efnews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        " 100조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 글로벌 테크 기업 최초 분기 영업익 100조 돌파…역대 최대",
+          "url": "https://efnews.co.kr/news/articleView.html?idxno=133559",
+          "source": "efnews.co.kr",
+          "source_domain": "efnews.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7dda049cce118fcd",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 \"파생상품 대신 '내추럴 헤지'로 환율 변동성 최소화\"",
+      "representative_url": "https://inews24.com/view/2020349",
+      "representative_source": "inews24.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:22:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "inews24.com"
+      ],
+      "categories": [
         "실적"
       ],
       "event_keywords": [],
@@ -4307,11 +5132,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[주요공시] SK하이닉스, 삼성전자 , 에이치브이엠, 기가비스, 레인보우로...",
-          "url": "https://kdpress.co.kr/news/articleView.html?idxno=209583",
-          "source": "kdpress.co.kr",
-          "source_domain": "kdpress.co.kr",
-          "published_at": "2026-10-29T00:00:00+09:00",
+          "title": "삼성전자 \"파생상품 대신 '내추럴 헤지'로 환율 변동성 최소화\"",
+          "url": "https://inews24.com/view/2020349",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-29T11:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4319,15 +5144,15 @@
       ]
     },
     {
-      "cluster_id": "bfc065846c71873f",
+      "cluster_id": "c13ba88280c8dcf7",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "[주요공시] 삼성전자 , SK하이닉스, 에임드바이오, ISC, 샘씨엔에스, 그린...",
-      "representative_url": "https://kdpress.co.kr/news/articleView.html?idxno=209578",
-      "representative_source": "kdpress.co.kr",
+      "representative_title": "\"주주환원 잔여재원 55~75조…상당 규모 자사주 매입 소각\"- 삼성전자 컨...",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04152486645617840",
+      "representative_source": "edaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T14:46:00Z",
-      "last_published_at": "2026-10-28T14:46:00Z",
+      "first_published_at": "2026-10-29T02:22:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4335,188 +5160,104 @@
         "naver"
       ],
       "source_domains": [
-        "kdpress.co.kr"
+        "edaily.co.kr"
       ],
       "categories": [
         "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[주요공시] 삼성전자 , SK하이닉스, 에임드바이오, ISC, 샘씨엔에스, 그린...",
-          "url": "https://kdpress.co.kr/news/articleView.html?idxno=209578",
-          "source": "kdpress.co.kr",
-          "source_domain": "kdpress.co.kr",
-          "published_at": "2026-10-28T23:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0e734d6eb96143e0",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "미래에셋 'TIGER 200 ETF', 삼성전자 특별배당 반영 10월 주당 725원 분배",
-      "representative_url": "https://intn.co.kr/news/articleView.html?idxno=2054370",
-      "representative_source": "intn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T14:24:00Z",
-      "last_published_at": "2026-10-28T14:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "intn.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "미래에셋 'TIGER 200 ETF', 삼성전자 특별배당 반영 10월 주당 725원 분배",
-          "url": "https://intn.co.kr/news/articleView.html?idxno=2054370",
-          "source": "intn.co.kr",
-          "source_domain": "intn.co.kr",
-          "published_at": "2026-10-28T23:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d505b8afbeac4810",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 中 본토 이어 홍콩서도 냉장고·세탁기사업 철수",
-      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=601573",
-      "representative_source": "autodaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T14:00:00Z",
-      "last_published_at": "2026-10-28T14:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "autodaily.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 中 본토 이어 홍콩서도 냉장고·세탁기사업 철수",
-          "url": "https://autodaily.co.kr/news/articleView.html?idxno=601573",
-          "source": "autodaily.co.kr",
-          "source_domain": "autodaily.co.kr",
-          "published_at": "2026-10-28T23:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b93ed02e7793c8d5",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "SK스퀘어· 삼성전자 우 11% 급등…기관·외국인 수급 대비",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793195478690668276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T13:54:00Z",
-      "last_published_at": "2026-10-28T13:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK스퀘어· 삼성전자 우 11% 급등…기관·외국인 수급 대비",
-          "url": "https://kjdaily.com/article.php?aid=1793195478690668276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-28T22:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8ed032158887e790",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 46조 투자 본격화…아산 경제 ‘훈풍’",
-      "representative_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8697936",
-      "representative_source": "news.kbs.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T12:34:00Z",
-      "last_published_at": "2026-10-28T12:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news.kbs.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
       ],
       "event_keywords": [
-        " 46조",
-        "investment"
+        " 75조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"주주환원 잔여재원 55~75조…상당 규모 자사주 매입 소각\"- 삼성전자 컨...",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04152486645617840",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ce4a94e350655ea3",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[총수家] 이재용 삼성전자 회장 ⑫ㅣ 삼성 미래 먹거리 '로봇'에 승부수...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=620692",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:22:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        "executive"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[총수家] 이재용 삼성전자 회장 ⑫ㅣ 삼성 미래 먹거리 '로봇'에 승부수...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=620692",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-10-29T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e1efdc8f685ce06c",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 하만 \"폭스바겐에 텔레매틱스 공급…'오디오 명가' 입지 강화...",
+      "representative_url": "https://inews24.com/view/2020353",
+      "representative_source": "inews24.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-29T02:22:00Z",
+      "last_published_at": "2026-10-29T02:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "inews24.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "supply"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -4528,127 +5269,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 46조 투자 본격화…아산 경제 ‘훈풍’",
-          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8697936",
-          "source": "news.kbs.co.kr",
-          "source_domain": "news.kbs.co.kr",
-          "published_at": "2026-10-28T21:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d654fc5596981741",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 글로벌 브랜드가치 7년 연속 세계 5위",
-      "representative_url": "https://news.mtn.co.kr/article/2026102816034467540",
-      "representative_source": "news.mtn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T08:34:00Z",
-      "last_published_at": "2026-10-28T12:06:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "gpkorea.com",
-        "news.mtn.co.kr",
-        "webeconomy.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "기타",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1052억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성전자 , 글로벌 브랜드 가치 1052억 달러…7년 연속 세계 5위",
-          "url": "https://webeconomy.co.kr/news/articleView.html?idxno=2351631",
-          "source": "webeconomy.co.kr",
-          "source_domain": "webeconomy.co.kr",
-          "published_at": "2026-10-28T21:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 브랜드가치 1052억달러…7년 연속 세계 5위",
-          "url": "https://gpkorea.com/news/articleView.html?idxno=148043",
-          "source": "gpkorea.com",
-          "source_domain": "gpkorea.com",
-          "published_at": "2026-10-28T17:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 글로벌 브랜드가치 7년 연속 세계 5위",
-          "url": "https://news.mtn.co.kr/article/2026102816034467540",
-          "source": "news.mtn.co.kr",
-          "source_domain": "news.mtn.co.kr",
-          "published_at": "2026-10-28T17:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3735e02d3dd65f1c",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 ·SK하이닉스 거래대금 10조원대…전날 대비 40%↑",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793188991690659276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T12:04:00Z",
-      "last_published_at": "2026-10-28T12:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 10조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 ·SK하이닉스 거래대금 10조원대…전날 대비 40%↑",
-          "url": "https://kjdaily.com/article.php?aid=1793188991690659276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-10-28T21:04:00+09:00",
+          "title": "삼성전자 하만 \"폭스바겐에 텔레매틱스 공급…'오디오 명가' 입지 강화...",
+          "url": "https://inews24.com/view/2020353",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-10-29T11:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
