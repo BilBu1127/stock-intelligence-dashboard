@@ -1,16 +1,64 @@
 {
-  "generated_at": "2026-10-29T17:25:03.405803Z",
+  "generated_at": "2026-10-30T02:35:14.838019Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-10-29T17:25:03.405803Z",
+  "last_successful_update": "2026-10-30T02:35:14.838019Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
+    {
+      "cluster_id": "855a620753ce385f",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "Nvidia to make US$1 billion investment in Naver next week",
+      "representative_url": "https://en.yna.co.kr/view/AEN20261030002900320?input=2106m",
+      "representative_source": "en.yna.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T00:55:00Z",
+      "last_published_at": "2026-10-30T00:55:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "en.yna.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 1 billion",
+        "investment"
+      ],
+      "importance_score": 50,
+      "importance_level": "watch",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "Nvidia to make US$1 billion investment in Naver next week",
+          "url": "https://en.yna.co.kr/view/AEN20261030002900320?input=2106m",
+          "source": "en.yna.co.kr",
+          "source_domain": "en.yna.co.kr",
+          "published_at": "2026-10-30T09:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "00db8d0913fe1de4",
       "company_name": "NAVER",
@@ -339,162 +387,32 @@
       ]
     },
     {
-      "cluster_id": "577e0068755fd5d9",
+      "cluster_id": "50434211067e3351",
       "company_name": "NAVER",
       "stock_code": "035420",
-      "representative_title": "네이버, 사우디 지도앱 ‘발라디 플러스’ 오픈베타 시작",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06651846645617840",
-      "representative_source": "edaily.co.kr",
+      "representative_title": "테크타카, 네이버 N배송 통합반품·패션전문센터 운영 계약",
+      "representative_url": "https://view.asiae.co.kr/article/2026103009321884393",
+      "representative_source": "view.asiae.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-29T10:24:00Z",
-      "last_published_at": "2026-10-29T10:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-10-30T00:32:00Z",
+      "last_published_at": "2026-10-30T02:06:00Z",
+      "article_count": 4,
+      "domestic_article_count": 4,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "edaily.co.kr"
+        "datanet.co.kr",
+        "discoverynews.kr",
+        "mt.co.kr",
+        "view.asiae.co.kr"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "네이버, 사우디 지도앱 ‘발라디 플러스’ 오픈베타 시작",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06651846645617840",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-10-29T19:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9f5e40c39c0d63fc",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "Naver Taps Brookfield Capital to Build Out AI Factory and Meet $9 Billion...",
-      "representative_url": "https://insightkorea.co.kr/news/articleView.html?idxno=257543",
-      "representative_source": "insightkorea.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-29T01:00:00Z",
-      "last_published_at": "2026-10-29T01:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "insightkorea.co.kr"
-      ],
-      "categories": [
-        "기타"
+        "공급·규제"
       ],
       "event_keywords": [
-        " 9 billion"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "Naver Taps Brookfield Capital to Build Out AI Factory and Meet $9 Billion...",
-          "url": "https://insightkorea.co.kr/news/articleView.html?idxno=257543",
-          "source": "insightkorea.co.kr",
-          "source_domain": "insightkorea.co.kr",
-          "published_at": "2026-10-29T10:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "be97925dff18fd28",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "李海珍借Brookfield外部资本推进AI Factory， Naver 破解90亿美元基础设施...",
-      "representative_url": "https://insightkorea.co.kr/news/articleView.html?idxno=257541",
-      "representative_source": "insightkorea.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T23:00:00Z",
-      "last_published_at": "2026-10-28T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "insightkorea.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "李海珍借Brookfield外部资本推进AI Factory， Naver 破解90亿美元基础设施...",
-          "url": "https://insightkorea.co.kr/news/articleView.html?idxno=257541",
-          "source": "insightkorea.co.kr",
-          "source_domain": "insightkorea.co.kr",
-          "published_at": "2026-10-29T08:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "fd9bc914071c6b77",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "Siemens and Naver CEOs Put Industrial AI on Seoul Forum Agenda",
-      "representative_url": "https://econotimes.com/Siemens-and-Naver-CEOs-Put-Industrial-AI-on-Seoul-Forum-Agenda-1764800",
-      "representative_source": "econotimes.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T10:00:00Z",
-      "last_published_at": "2026-10-28T10:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "econotimes.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "executive",
-        "m_and_a"
+        "supply"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -503,14 +421,44 @@
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "Siemens and Naver CEOs Put Industrial AI on Seoul Forum Agenda",
-          "url": "https://econotimes.com/Siemens-and-Naver-CEOs-Put-Industrial-AI-on-Seoul-Forum-Agenda-1764800",
-          "source": "econotimes.com",
-          "source_domain": "econotimes.com",
-          "published_at": "2026-10-28T19:00:00+09:00",
+          "title": "테크타카, 네이버와 N배송 통합반품·패션전문센터 운영 계약 체결",
+          "url": "https://datanet.co.kr/news/articleView.html?idxno=215490",
+          "source": "datanet.co.kr",
+          "source_domain": "datanet.co.kr",
+          "published_at": "2026-10-30T11:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "테크타카 아르고, 네이버 N배송 통합반품·패션전문센터 맡는다",
+          "url": "https://mt.co.kr/future/2026/10/30/2026103009333968823",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-10-30T11:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "테크타카 아르고, 네이버 'N배송' 통합반품 및 패션전문센터 운영 계약...",
+          "url": "https://discoverynews.kr/news/articleView.html?idxno=1105339",
+          "source": "discoverynews.kr",
+          "source_domain": "discoverynews.kr",
+          "published_at": "2026-10-30T10:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "테크타카, 네이버 N배송 통합반품·패션전문센터 운영 계약",
+          "url": "https://view.asiae.co.kr/article/2026103009321884393",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-10-30T09:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -518,15 +466,15 @@
       ]
     },
     {
-      "cluster_id": "5dc3d1ed38fed343",
+      "cluster_id": "ad14de7c77b73d15",
       "company_name": "NAVER",
       "stock_code": "035420",
-      "representative_title": "NAVER 주가, 10월 28일 애프터마켓 178,700원 2.52% 상승",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=559289",
-      "representative_source": "joongangenews.com",
+      "representative_title": "테크타카, 네이버 N배송 센터 계약",
+      "representative_url": "https://hansbiz.co.kr/news/articleView.html?idxno=878108",
+      "representative_source": "hansbiz.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T09:10:00Z",
-      "last_published_at": "2026-10-28T09:10:00Z",
+      "first_published_at": "2026-10-30T02:02:00Z",
+      "last_published_at": "2026-10-30T02:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -534,104 +482,13 @@
         "naver"
       ],
       "source_domains": [
-        "joongangenews.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "NAVER 주가, 10월 28일 애프터마켓 178,700원 2.52% 상승",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=559289",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-10-28T18:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "99da1df5174cae9d",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "수익성 악화 전망에도…네이버, AI 외형 확장 속도",
-      "representative_url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1318353",
-      "representative_source": "newstomato.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-28T07:16:00Z",
-      "last_published_at": "2026-10-28T07:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newstomato.com"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "수익성 악화 전망에도…네이버, AI 외형 확장 속도",
-          "url": "https://newstomato.com/ReadNews.aspx?inflow=N&no=1318353",
-          "source": "newstomato.com",
-          "source_domain": "newstomato.com",
-          "published_at": "2026-10-28T16:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "026ee9b8991f4a5a",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "“네이버 40만원 간다?”…12조 AI 계약에 증권사 '강력 매수'",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02892966645617512",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-27T23:25:00Z",
-      "last_published_at": "2026-10-28T01:56:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr",
-        "jeonmae.co.kr",
-        "newspim.com"
+        "hansbiz.co.kr"
       ],
       "categories": [
         "공급·규제",
-        "주가·투자의견",
-        "투자·생산"
+        "기술·제품"
       ],
       "event_keywords": [
-        " 12조",
         "supply"
       ],
       "importance_score": 30,
@@ -644,31 +501,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[특징주] 네이버, 12조 원 AI 인프라 확보 계약 '상승'",
-          "url": "https://jeonmae.co.kr/news/articleView.html?idxno=1305975",
-          "source": "jeonmae.co.kr",
-          "source_domain": "jeonmae.co.kr",
-          "published_at": "2026-10-28T10:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[특징주] 네이버 5%대 강세…12조원 AI 인프라 계약 호재",
-          "url": "https://newspim.com/news/view/20261028000424",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-28T10:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "“네이버 40만원 간다?”…12조 AI 계약에 증권사 '강력 매수'",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02892966645617512",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-10-28T08:25:00+09:00",
+          "title": "테크타카, 네이버 N배송 센터 계약",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=878108",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-10-30T11:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -676,15 +513,15 @@
       ]
     },
     {
-      "cluster_id": "e55acfd25065a655",
+      "cluster_id": "8861e9dcd9979fee",
       "company_name": "NAVER",
       "stock_code": "035420",
-      "representative_title": "네이버, 엔비디아·브룩필드와 'AI 팩토리' 3자 연합 승부수(종합)",
-      "representative_url": "https://view.asiae.co.kr/article/2026102810070496357",
-      "representative_source": "view.asiae.co.kr",
+      "representative_title": "네이버, 지속가능경영유공 대통령 표창…ESG 경영 성과 인정",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=500013",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T01:56:00Z",
-      "last_published_at": "2026-10-28T01:56:00Z",
+      "first_published_at": "2026-10-30T02:00:00Z",
+      "last_published_at": "2026-10-30T02:00:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -692,10 +529,9 @@
         "naver"
       ],
       "source_domains": [
-        "view.asiae.co.kr"
+        "pinpointnews.co.kr"
       ],
       "categories": [
-        "공급·규제",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -708,11 +544,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "네이버, 엔비디아·브룩필드와 'AI 팩토리' 3자 연합 승부수(종합)",
-          "url": "https://view.asiae.co.kr/article/2026102810070496357",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-10-28T10:56:00+09:00",
+          "title": "네이버, 지속가능경영유공 대통령 표창…ESG 경영 성과 인정",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=500013",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-10-30T11:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -720,15 +556,15 @@
       ]
     },
     {
-      "cluster_id": "c59653cc0a5f3cfd",
+      "cluster_id": "8740b9f21ab02349",
       "company_name": "NAVER",
       "stock_code": "035420",
-      "representative_title": "Meta's Muse Reaches 10 Million Users in Six Weeks. Can Naver and Kakao Do...",
-      "representative_url": "https://it.chosun.com/news/articleView.html?idxno=2023092172938",
-      "representative_source": "it.chosun.com",
+      "representative_title": "네이버, 성수서 '넾페스타'…온·오프라인 멤버십 생태계 강화",
+      "representative_url": "https://view.asiae.co.kr/article/2026103010371744402",
+      "representative_source": "view.asiae.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T01:16:00Z",
-      "last_published_at": "2026-10-28T01:16:00Z",
+      "first_published_at": "2026-10-30T01:37:00Z",
+      "last_published_at": "2026-10-30T01:37:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -736,13 +572,143 @@
         "naver"
       ],
       "source_domains": [
-        "it.chosun.com"
+        "view.asiae.co.kr"
       ],
       "categories": [
         "기타"
       ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버, 성수서 '넾페스타'…온·오프라인 멤버십 생태계 강화",
+          "url": "https://view.asiae.co.kr/article/2026103010371744402",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-10-30T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "fd5cc2fb9315e4d1",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버, 언론사편집판 개선..이슈 기사 늘리고 심층기획 노출 확대",
+      "representative_url": "https://breaknews.com/1247073",
+      "representative_source": "breaknews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T01:24:00Z",
+      "last_published_at": "2026-10-30T01:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "breaknews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버, 언론사편집판 개선..이슈 기사 늘리고 심층기획 노출 확대",
+          "url": "https://breaknews.com/1247073",
+          "source": "breaknews.com",
+          "source_domain": "breaknews.com",
+          "published_at": "2026-10-30T10:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e9a426fbddc5bcba",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버-삼성전자, 리센느 출연 'Galaxy Night' 쇼핑라이브 진행",
+      "representative_url": "https://breaknews.com/1247085",
+      "representative_source": "breaknews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T01:22:00Z",
+      "last_published_at": "2026-10-30T01:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "breaknews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버-삼성전자, 리센느 출연 'Galaxy Night' 쇼핑라이브 진행",
+          "url": "https://breaknews.com/1247085",
+          "source": "breaknews.com",
+          "source_domain": "breaknews.com",
+          "published_at": "2026-10-30T10:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8333dec23b1431cb",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "Nvidia to Become Naver 's Third-Largest Shareholder With $1 Billion Invest...",
+      "representative_url": "https://businesskorea.co.kr/news/articleView.html?idxno=280046",
+      "representative_source": "businesskorea.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T01:10:00Z",
+      "last_published_at": "2026-10-30T01:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "businesskorea.co.kr"
+      ],
+      "categories": [
+        "기타",
+        "투자·생산"
+      ],
       "event_keywords": [
-        " 10 million"
+        " 1 billion"
       ],
       "importance_score": 15,
       "importance_level": "low",
@@ -753,11 +719,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "Meta's Muse Reaches 10 Million Users in Six Weeks. Can Naver and Kakao Do...",
-          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092172938",
-          "source": "it.chosun.com",
-          "source_domain": "it.chosun.com",
-          "published_at": "2026-10-28T10:16:00+09:00",
+          "title": "Nvidia to Become Naver 's Third-Largest Shareholder With $1 Billion Invest...",
+          "url": "https://businesskorea.co.kr/news/articleView.html?idxno=280046",
+          "source": "businesskorea.co.kr",
+          "source_domain": "businesskorea.co.kr",
+          "published_at": "2026-10-30T10:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -765,15 +731,15 @@
       ]
     },
     {
-      "cluster_id": "97e43333eadbf612",
+      "cluster_id": "113c2f18f799a071",
       "company_name": "NAVER",
       "stock_code": "035420",
-      "representative_title": "12조 컴퓨팅 인프라 확보한 네이버, 주가 5% 뛰었다 [줍줍 리포트]",
-      "representative_url": "https://sedaily.com/article/20107051",
-      "representative_source": "sedaily.com",
+      "representative_title": "엔비디아, 네이버에 1조3000억 투자금 내달 초 납입",
+      "representative_url": "https://view.asiae.co.kr/article/2026103009465841492",
+      "representative_source": "view.asiae.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-10-28T01:14:00Z",
-      "last_published_at": "2026-10-28T01:14:00Z",
+      "first_published_at": "2026-10-30T01:02:00Z",
+      "last_published_at": "2026-10-30T01:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -781,30 +747,117 @@
         "naver"
       ],
       "source_domains": [
-        "sedaily.com"
+        "view.asiae.co.kr"
       ],
       "categories": [
-        "공급·규제",
-        "주가·투자의견"
+        "투자·생산"
       ],
       "event_keywords": [
-        "12조"
+        " 1조",
+        "3000억",
+        "investment"
       ],
-      "importance_score": 0,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "12조 컴퓨팅 인프라 확보한 네이버, 주가 5% 뛰었다 [줍줍 리포트]",
-          "url": "https://sedaily.com/article/20107051",
-          "source": "sedaily.com",
-          "source_domain": "sedaily.com",
-          "published_at": "2026-10-28T10:14:00+09:00",
+          "title": "엔비디아, 네이버에 1조3000억 투자금 내달 초 납입",
+          "url": "https://view.asiae.co.kr/article/2026103009465841492",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-10-30T10:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c8cd5a6d4685881",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버 ESG 대통령 표창 AI 안전 체계와 RE100으로 인터넷 기업 최고 평...",
+      "representative_url": "https://econovill.com/news/articleView.html?idxno=755454",
+      "representative_source": "econovill.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T00:56:00Z",
+      "last_published_at": "2026-10-30T00:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "econovill.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버 ESG 대통령 표창 AI 안전 체계와 RE100으로 인터넷 기업 최고 평...",
+          "url": "https://econovill.com/news/articleView.html?idxno=755454",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-10-30T09:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "620afe116e1ad4fd",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버 뉴스 확 바뀐다…주요 기사 늘리고 심층기획도 첫 화면에",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03407926645618168",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T00:31:00Z",
+      "last_published_at": "2026-10-30T00:31:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버 뉴스 확 바뀐다…주요 기사 늘리고 심층기획도 첫 화면에",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03407926645618168",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-10-30T09:31:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-29T17:25:03.405803Z",
+  "generated_at": "2026-10-30T02:35:14.838019Z",
   "company_name": "LIG디펜스앤에어로스페이스",
   "stock_code": "079550",
-  "status": "ok",
-  "last_successful_update": "2026-10-29T17:25:03.405803Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-10-30T02:35:14.838019Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "31ad7561fb01002b",
@@ -625,6 +630,51 @@
       ]
     },
     {
+      "cluster_id": "e3e9726a5f3b9c43",
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "representative_title": "LIG D&A, KF-21 미사일 핵심 5개 분야 우선협상자 선정... 입찰 제한이 변...",
+      "representative_url": "https://insight.co.kr/news/579871",
+      "representative_source": "insight.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-30T01:30:00Z",
+      "last_published_at": "2026-10-30T01:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "insight.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "LIG D&A, KF-21 미사일 핵심 5개 분야 우선협상자 선정... 입찰 제한이 변...",
+          "url": "https://insight.co.kr/news/579871",
+          "source": "insight.co.kr",
+          "source_domain": "insight.co.kr",
+          "published_at": "2026-10-30T10:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "3ed059a8ba5ec408",
       "company_name": "LIG디펜스앤에어로스페이스",
       "stock_code": "079550",
@@ -1012,50 +1062,6 @@
           "source": "newsroad.co.kr",
           "source_domain": "newsroad.co.kr",
           "published_at": "2026-10-29T16:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c039bbac4fd9ebd8",
-      "company_name": "LIG디펜스앤에어로스페이스",
-      "stock_code": "079550",
-      "representative_title": "LIG D&A, 방사청 입찰 제한에 법적 대응…신규 수주 차질 우려",
-      "representative_url": "https://metroseoul.co.kr/article/20261029500549",
-      "representative_source": "metroseoul.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-29T07:22:00Z",
-      "last_published_at": "2026-10-29T07:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "metroseoul.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "LIG D&A, 방사청 입찰 제한에 법적 대응…신규 수주 차질 우려",
-          "url": "https://metroseoul.co.kr/article/20261029500549",
-          "source": "metroseoul.co.kr",
-          "source_domain": "metroseoul.co.kr",
-          "published_at": "2026-10-29T16:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
