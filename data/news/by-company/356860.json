@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T02:12:46.080646Z",
+  "generated_at": "2026-11-01T17:07:07.259472Z",
   "company_name": "티엘비",
   "stock_code": "356860",
   "status": "partial",
-  "last_successful_update": "2026-11-01T02:12:46.080646Z",
+  "last_successful_update": "2026-11-01T17:07:07.259472Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -52,6 +52,49 @@
           "source": "etnews.com",
           "source_domain": "etnews.com",
           "published_at": "2026-09-22T16:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6e724ed073151b94",
+      "company_name": "티엘비",
+      "stock_code": "356860",
+      "representative_title": "티엘비 임시주총 12월 18일 개최…안건 3건",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=398982",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-01T02:50:00Z",
+      "last_published_at": "2026-11-01T02:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "티엘비 임시주총 12월 18일 개최…안건 3건",
+          "url": "https://vegannews.co.kr/news/article.html?no=398982",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-11-01T11:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -458,54 +501,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-10-14T15:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cd19f429e553478f",
-      "company_name": "티엘비",
-      "stock_code": "356860",
-      "representative_title": "티엘비 , 3분기 영업이익 93% 급증 전망…서버용 메모리 수혜",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=494170",
-      "representative_source": "pinpointnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-11T05:34:00Z",
-      "last_published_at": "2026-10-11T05:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "티엘비 , 3분기 영업이익 93% 급증 전망…서버용 메모리 수혜",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=494170",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-10-11T14:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
