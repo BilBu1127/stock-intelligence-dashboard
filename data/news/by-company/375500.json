@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-31T16:05:16.434172Z",
+  "generated_at": "2026-11-01T02:12:46.080646Z",
   "company_name": "DL이앤씨",
   "stock_code": "375500",
-  "status": "ok",
-  "last_successful_update": "2026-10-31T16:05:16.434172Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-01T02:12:46.080646Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "f8cdaeb851d8f8a3",
@@ -960,6 +965,96 @@
       ]
     },
     {
+      "cluster_id": "52052a72f7e87254",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "DL이앤씨 , 3분기 영업이익 1073억원…누적 영업이익 30.9% 증가",
+      "representative_url": "https://webeconomy.co.kr/news/articleView.html?idxno=2356337",
+      "representative_source": "webeconomy.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-01T01:52:00Z",
+      "last_published_at": "2026-11-01T01:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "webeconomy.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 1073억",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DL이앤씨 , 3분기 영업이익 1073억원…누적 영업이익 30.9% 증가",
+          "url": "https://webeconomy.co.kr/news/articleView.html?idxno=2356337",
+          "source": "webeconomy.co.kr",
+          "source_domain": "webeconomy.co.kr",
+          "published_at": "2026-11-01T10:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6fb9fa4a2cda89f7",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "DL이앤씨 , 3분기 누적 영업익 30.9%↑...원가관리 강화에 수익성 개선",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=324542",
+      "representative_source": "thepublic.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-31T23:56:00Z",
+      "last_published_at": "2026-10-31T23:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepublic.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DL이앤씨 , 3분기 누적 영업익 30.9%↑...원가관리 강화에 수익성 개선",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=324542",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-11-01T08:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "b9e32efc10845e23",
       "company_name": "DL이앤씨",
       "stock_code": "375500",
@@ -1620,94 +1715,6 @@
           "source": "ttlnews.com",
           "source_domain": "ttlnews.com",
           "published_at": "2026-10-30T19:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "940c85d3034a406c",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "DL이앤씨 3분기 순손실 267억원…영업익 8.1%↓",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=398485",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-30T09:58:00Z",
-      "last_published_at": "2026-10-30T09:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        " 267억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "DL이앤씨 3분기 순손실 267억원…영업익 8.1%↓",
-          "url": "https://vegannews.co.kr/news/article.html?no=398485",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-30T18:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8d8a755c28306a91",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "DL이앤씨 , 샤힌 공기 연장…3Q 순손실",
-      "representative_url": "https://news.dealsitetv.com/articles/177842",
-      "representative_source": "news.dealsitetv.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-30T09:04:00Z",
-      "last_published_at": "2026-10-30T09:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news.dealsitetv.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "DL이앤씨 , 샤힌 공기 연장…3Q 순손실",
-          "url": "https://news.dealsitetv.com/articles/177842",
-          "source": "news.dealsitetv.com",
-          "source_domain": "news.dealsitetv.com",
-          "published_at": "2026-10-30T18:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

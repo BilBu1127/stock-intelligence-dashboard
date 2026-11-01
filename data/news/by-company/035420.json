@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T16:05:16.434172Z",
+  "generated_at": "2026-11-01T02:12:46.080646Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-10-31T16:05:16.434172Z",
+  "last_successful_update": "2026-11-01T02:12:46.080646Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -380,6 +380,52 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-07T11:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "485a348be73f4263",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "[Money & Entertainment] Nvidia's $1 Billion Naver Bet Puts K-Content's AI...",
+      "representative_url": "https://nc.press/news/articleView.html?idxno=629941",
+      "representative_source": "nc.press",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-31T21:32:00Z",
+      "last_published_at": "2026-10-31T21:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "nc.press"
+      ],
+      "categories": [
+        "기타",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 1 billion"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[Money & Entertainment] Nvidia's $1 Billion Naver Bet Puts K-Content's AI...",
+          "url": "https://nc.press/news/articleView.html?idxno=629941",
+          "source": "nc.press",
+          "source_domain": "nc.press",
+          "published_at": "2026-11-01T06:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -800,53 +846,6 @@
           "source": "smarttimes.co.kr",
           "source_domain": "smarttimes.co.kr",
           "published_at": "2026-10-30T15:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "096963ae5011b552",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "NAVER 17만1900원으로 1.72% 하락…AI 투자와 수익화 속도 주목",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=235600",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-30T05:30:00Z",
-      "last_published_at": "2026-10-30T05:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "NAVER 17만1900원으로 1.72% 하락…AI 투자와 수익화 속도 주목",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=235600",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-30T14:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

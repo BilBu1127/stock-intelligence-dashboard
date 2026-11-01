@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-10-31T16:05:16.434172Z",
+  "generated_at": "2026-11-01T02:12:46.080646Z",
   "company_name": "HD현대중공업",
   "stock_code": "329180",
-  "status": "ok",
-  "last_successful_update": "2026-10-31T16:05:16.434172Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-01T02:12:46.080646Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "a1179f30d2e50bba",
@@ -2520,6 +2525,51 @@
       ]
     },
     {
+      "cluster_id": "6eccb4b182702afa",
+      "company_name": "HD현대중공업",
+      "stock_code": "329180",
+      "representative_title": "노르웨이 수산해양정책장관, HD현대중공업 울산조선소 방문…친환경 LP...",
+      "representative_url": "https://theguru.co.kr/news/article.html?no=109071",
+      "representative_source": "theguru.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-10-31T23:34:00Z",
+      "last_published_at": "2026-10-31T23:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "theguru.co.kr"
+      ],
+      "categories": [
+        "기타",
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "노르웨이 수산해양정책장관, HD현대중공업 울산조선소 방문…친환경 LP...",
+          "url": "https://theguru.co.kr/news/article.html?no=109071",
+          "source": "theguru.co.kr",
+          "source_domain": "theguru.co.kr",
+          "published_at": "2026-11-01T08:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "413947c6432fe9e5",
       "company_name": "HD현대중공업",
       "stock_code": "329180",
@@ -2927,50 +2977,6 @@
           "source": "sedaily.com",
           "source_domain": "sedaily.com",
           "published_at": "2026-10-29T15:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6ac22a10cd5c5f4d",
-      "company_name": "HD현대중공업",
-      "stock_code": "329180",
-      "representative_title": "선박 도장 결함도 AI가 찾아낸다… HD현대중공업 , 국내 조선업계 최초 자...",
-      "representative_url": "https://aitimes.kr/news/articleView.html?idxno=42491",
-      "representative_source": "aitimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-29T09:04:00Z",
-      "last_published_at": "2026-10-29T09:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "aitimes.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "선박 도장 결함도 AI가 찾아낸다… HD현대중공업 , 국내 조선업계 최초 자...",
-          "url": "https://aitimes.kr/news/articleView.html?idxno=42491",
-          "source": "aitimes.kr",
-          "source_domain": "aitimes.kr",
-          "published_at": "2026-10-29T18:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
