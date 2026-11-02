@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T17:07:07.259472Z",
+  "generated_at": "2026-11-02T02:29:17.108800Z",
   "company_name": "현대로템",
   "stock_code": "064350",
   "status": "partial",
-  "last_successful_update": "2026-11-01T17:07:07.259472Z",
+  "last_successful_update": "2026-11-02T02:29:17.108800Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -1949,6 +1949,52 @@
       ]
     },
     {
+      "cluster_id": "22c54c33f2762a83",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "한화에어로· 현대로템 방산, 3분기 영업이익 감소",
+      "representative_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8701070",
+      "representative_source": "news.kbs.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-01T22:57:00Z",
+      "last_published_at": "2026-11-01T22:57:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.kbs.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한화에어로· 현대로템 방산, 3분기 영업이익 감소",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8701070",
+          "source": "news.kbs.co.kr",
+          "source_domain": "news.kbs.co.kr",
+          "published_at": "2026-11-02T07:57:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "ca11c54e6d41234f",
       "company_name": "현대로템",
       "stock_code": "064350",
@@ -2340,49 +2386,6 @@
           "source": "ceoscoredaily.com",
           "source_domain": "ceoscoredaily.com",
           "published_at": "2026-10-30T07:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "002b88c89ce2e707",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "[디깅노트] 현대로템 의 진격 현대위아의 기다림",
-      "representative_url": "https://bloter.net/news/articleView.html?idxno=677036",
-      "representative_source": "bloter.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-29T21:30:00Z",
-      "last_published_at": "2026-10-29T21:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bloter.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[디깅노트] 현대로템 의 진격 현대위아의 기다림",
-          "url": "https://bloter.net/news/articleView.html?idxno=677036",
-          "source": "bloter.net",
-          "source_domain": "bloter.net",
-          "published_at": "2026-10-30T06:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
