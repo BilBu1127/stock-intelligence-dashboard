@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-03T03:55:24.359120Z",
+  "generated_at": "2026-11-03T18:25:34.740608Z",
   "company_name": "LIG디펜스앤에어로스페이스",
   "stock_code": "079550",
-  "status": "ok",
-  "last_successful_update": "2026-11-03T03:55:24.359120Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-03T18:25:34.740608Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "31ad7561fb01002b",
@@ -625,6 +630,49 @@
       ]
     },
     {
+      "cluster_id": "557156423cf18351",
+      "company_name": "LIG디펜스앤에어로스페이스",
+      "stock_code": "079550",
+      "representative_title": "LIG D&A '운명의 5일' … 2년 입찰제한 '갈림길'",
+      "representative_url": "https://safetimes.co.kr/news/articleView.html?idxno=247136",
+      "representative_source": "safetimes.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T05:46:00Z",
+      "last_published_at": "2026-11-03T05:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "safetimes.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "LIG D&A '운명의 5일' … 2년 입찰제한 '갈림길'",
+          "url": "https://safetimes.co.kr/news/articleView.html?idxno=247136",
+          "source": "safetimes.co.kr",
+          "source_domain": "safetimes.co.kr",
+          "published_at": "2026-11-03T14:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "0ff78a90156bbe6e",
       "company_name": "LIG디펜스앤에어로스페이스",
       "stock_code": "079550",
@@ -1049,53 +1097,6 @@
           "source": "asiatime.co.kr",
           "source_domain": "asiatime.co.kr",
           "published_at": "2026-10-31T06:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "831121e54ec43416",
-      "company_name": "LIG디펜스앤에어로스페이스",
-      "stock_code": "079550",
-      "representative_title": "[오동룡의 밀리터리 인사이드] LIG D&A 제재 '도미노'… 1.9조 KF-21 미사...",
-      "representative_url": "https://newspim.com/news/view/20261029001404",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-30T16:00:00Z",
-      "last_published_at": "2026-10-30T16:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        " 9조",
-        "personnel"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[오동룡의 밀리터리 인사이드] LIG D&A 제재 '도미노'… 1.9조 KF-21 미사...",
-          "url": "https://newspim.com/news/view/20261029001404",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-10-31T01:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

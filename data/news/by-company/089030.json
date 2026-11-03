@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T03:55:24.359120Z",
+  "generated_at": "2026-11-03T18:25:34.740608Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-11-03T03:55:24.359120Z",
+  "last_successful_update": "2026-11-03T18:25:34.740608Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -75,6 +75,78 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-10-14T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ef0d5102ace459ee",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "테크윙 , 526억원 규모 신규시설투자 결정…자기자본 대비 26.70%",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=622620",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T04:40:00Z",
+      "last_published_at": "2026-11-03T11:54:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr",
+        "thelec.kr",
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 526억",
+        "investment",
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "테크윙 , 천안 생산시설 신축에 526억원 투입",
+          "url": "https://vegannews.co.kr/news/article.html?no=400006",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-11-03T20:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "테크윙 , 반도체 장비 생산능력 확대…526억 투자",
+          "url": "https://thelec.kr/news/articleView.html?idxno=64808",
+          "source": "thelec.kr",
+          "source_domain": "thelec.kr",
+          "published_at": "2026-11-03T16:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "테크윙 , 526억원 규모 신규시설투자 결정…자기자본 대비 26.70%",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=622620",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-03T13:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -503,54 +575,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-10-14T16:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1c1327fbf42f6e38",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "테크윙 6.65% 내려…HBM 검사장비 수주와 가동률 점검",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=232302",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T05:40:00Z",
-      "last_published_at": "2026-10-14T05:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테크윙 6.65% 내려…HBM 검사장비 수주와 가동률 점검",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=232302",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-10-14T14:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

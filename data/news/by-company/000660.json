@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-03T03:55:24.359120Z",
+  "generated_at": "2026-11-03T18:25:34.740608Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-11-03T03:55:24.359120Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-03T18:25:34.740608Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8ac1a6f4704ba1d0",
@@ -6051,15 +6056,15 @@
       ]
     },
     {
-      "cluster_id": "35d9656255061dce",
+      "cluster_id": "c06c3080c239e103",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "마벨, 루멘텀 1150억달러 인수…삼성전자· SK하이닉스 AI 시장에도 변수",
-      "representative_url": "https://sateconomy.co.kr/news/view/1065584504813732",
-      "representative_source": "sateconomy.co.kr",
+      "representative_title": "[삼성전자· SK하이닉스 급락] 반도체株, 美 기술주 급락 여파에 무너졌...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=622785",
+      "representative_source": "cbci.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-03T03:46:00Z",
-      "last_published_at": "2026-11-03T03:46:00Z",
+      "first_published_at": "2026-11-03T15:06:00Z",
+      "last_published_at": "2026-11-03T15:06:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6067,15 +6072,58 @@
         "naver"
       ],
       "source_domains": [
-        "sateconomy.co.kr"
+        "cbci.co.kr"
       ],
       "categories": [
-        "기술·제품",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[삼성전자· SK하이닉스 급락] 반도체株, 美 기술주 급락 여파에 무너졌...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=622785",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-04T00:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b24e3952d1786050",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "5069억원에 펭귄 솔루션즈 우선주 인수한 SK하이닉스 계열사",
+      "representative_url": "https://tokenpost.kr/news/ai/432011",
+      "representative_source": "tokenpost.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T13:38:00Z",
+      "last_published_at": "2026-11-03T13:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "tokenpost.kr"
+      ],
+      "categories": [
+        "공급·규제",
         "인사·M&A",
         "투자·생산"
       ],
       "event_keywords": [
-        " 1150억",
+        "5069억",
         "m_and_a"
       ],
       "importance_score": 30,
@@ -6088,97 +6136,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "마벨, 루멘텀 1150억달러 인수…삼성전자· SK하이닉스 AI 시장에도 변수",
-          "url": "https://sateconomy.co.kr/news/view/1065584504813732",
-          "source": "sateconomy.co.kr",
-          "source_domain": "sateconomy.co.kr",
-          "published_at": "2026-11-03T12:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c0cf09e6d175b8eb",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 거래대금 8.1% 감소…래블업 3위",
-      "representative_url": "https://kjdaily.com/article.php?aid=1793677464691087276",
-      "representative_source": "kjdaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T03:46:00Z",
-      "last_published_at": "2026-11-03T03:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kjdaily.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자· SK하이닉스 거래대금 8.1% 감소…래블업 3위",
-          "url": "https://kjdaily.com/article.php?aid=1793677464691087276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-11-03T12:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "df5664c23c2de11f",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 연동 SKHX 롱 296만달러 정리 뒤 숏 전환",
-      "representative_url": "https://tokenpost.kr/news/cryptocurrency/431755",
-      "representative_source": "tokenpost.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T03:18:00Z",
-      "last_published_at": "2026-11-03T03:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "tokenpost.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 연동 SKHX 롱 296만달러 정리 뒤 숏 전환",
-          "url": "https://tokenpost.kr/news/cryptocurrency/431755",
+          "title": "5069억원에 펭귄 솔루션즈 우선주 인수한 SK하이닉스 계열사",
+          "url": "https://tokenpost.kr/news/ai/432011",
           "source": "tokenpost.kr",
           "source_domain": "tokenpost.kr",
-          "published_at": "2026-11-03T12:18:00+09:00",
+          "published_at": "2026-11-03T22:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6186,15 +6148,15 @@
       ]
     },
     {
-      "cluster_id": "5a32f8cf1e8e5605",
+      "cluster_id": "097b965499327be3",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[마켓인]채권 끊고 예금 가더니… SK하이닉스 , 예금담보 ABCP로 돌아왔다",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03886806645642112",
-      "representative_source": "edaily.co.kr",
+      "representative_title": "SK하이닉스 , 美 첫 낸드 팹 뉴욕주 ‘마시나노센터’ 유력…AI 메모리 새...",
+      "representative_url": "https://sedaily.com/article/20109867",
+      "representative_source": "sedaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-03T03:06:00Z",
-      "last_published_at": "2026-11-03T03:06:00Z",
+      "first_published_at": "2026-11-03T11:07:00Z",
+      "last_published_at": "2026-11-03T11:07:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6202,102 +6164,17 @@
         "naver"
       ],
       "source_domains": [
-        "edaily.co.kr"
+        "sedaily.com"
       ],
       "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[마켓인]채권 끊고 예금 가더니… SK하이닉스 , 예금담보 ABCP로 돌아왔다",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03886806645642112",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-11-03T12:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9570cc1b36537ab3",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[특징주]삼성전자· SK하이닉스 동반 '급락'···美 AI 투자 우려 '재점화...",
-      "representative_url": "https://finomy.com/news/articleView.html?idxno=265423",
-      "representative_source": "finomy.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T02:30:00Z",
-      "last_published_at": "2026-11-03T02:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "finomy.com"
-      ],
-      "categories": [
+        "공급·규제",
+        "기술·제품",
         "투자·생산"
       ],
       "event_keywords": [
-        "investment"
+        "ai_memory",
+        "nand"
       ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[특징주]삼성전자· SK하이닉스 동반 '급락'···美 AI 투자 우려 '재점화...",
-          "url": "https://finomy.com/news/articleView.html?idxno=265423",
-          "source": "finomy.com",
-          "source_domain": "finomy.com",
-          "published_at": "2026-11-03T11:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a7e8cd3a9e7fe181",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 하루짜리 반등이었나…진짜 바닥은 언제",
-      "representative_url": "https://newsis.com/view/NISX20261103_0003852585",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T02:25:00Z",
-      "last_published_at": "2026-11-03T02:25:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "인사·M&A",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -6307,11 +6184,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 하루짜리 반등이었나…진짜 바닥은 언제",
-          "url": "https://newsis.com/view/NISX20261103_0003852585",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-11-03T11:25:00+09:00",
+          "title": "SK하이닉스 , 美 첫 낸드 팹 뉴욕주 ‘마시나노센터’ 유력…AI 메모리 새...",
+          "url": "https://sedaily.com/article/20109867",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-11-03T20:07:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6319,58 +6196,15 @@
       ]
     },
     {
-      "cluster_id": "ce082757ff0601d8",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK Hynix ramps up SOCAMM2 as material shortages push up PCB prices",
-      "representative_url": "https://digitimes.com/news/a20261102VL215/sk-hynix-pcb-production-materials-nvidia.html",
-      "representative_source": "digitimes.com",
-      "representative_language": "English",
-      "first_published_at": "2026-11-03T02:15:00Z",
-      "last_published_at": "2026-11-03T02:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "digitimes.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK Hynix ramps up SOCAMM2 as material shortages push up PCB prices",
-          "url": "https://digitimes.com/news/a20261102VL215/sk-hynix-pcb-production-materials-nvidia.html",
-          "source": "digitimes.com",
-          "source_domain": "digitimes.com",
-          "published_at": "2026-11-03T02:15:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f0a0e3254920f5b2",
+      "cluster_id": "084c3ac4c6258c2a",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
       "representative_title": "청주시, SK하이닉스 공업용수 공급망 구축 속도",
-      "representative_url": "https://inews24.com/view/2021904",
-      "representative_source": "inews24.com",
+      "representative_url": "https://ccdn.co.kr/news/articleView.html?idxno=1108760",
+      "representative_source": "ccdn.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-03T02:03:00Z",
-      "last_published_at": "2026-11-03T02:03:00Z",
+      "first_published_at": "2026-11-03T09:42:00Z",
+      "last_published_at": "2026-11-03T09:42:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6378,7 +6212,7 @@
         "naver"
       ],
       "source_domains": [
-        "inews24.com"
+        "ccdn.co.kr"
       ],
       "categories": [
         "공급·규제",
@@ -6398,10 +6232,10 @@
       "articles": [
         {
           "title": "청주시, SK하이닉스 공업용수 공급망 구축 속도",
-          "url": "https://inews24.com/view/2021904",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-11-03T11:03:00+09:00",
+          "url": "https://ccdn.co.kr/news/articleView.html?idxno=1108760",
+          "source": "ccdn.co.kr",
+          "source_domain": "ccdn.co.kr",
+          "published_at": "2026-11-03T18:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6409,15 +6243,15 @@
       ]
     },
     {
-      "cluster_id": "990db2757097ab25",
+      "cluster_id": "eb015084f4104c8b",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "'증손회사 지분 규제 완화' 입법 추진… SK하이닉스 투자 부담 덜까",
-      "representative_url": "https://newspost.kr/news/articleView.html?idxno=226969",
-      "representative_source": "newspost.kr",
+      "representative_title": "이천시의회, 반도체 인력양성·기업지원 위해 SK하이닉스 등 방문",
+      "representative_url": "https://ajunews.com/view/20261103180814159",
+      "representative_source": "ajunews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-03T01:56:00Z",
-      "last_published_at": "2026-11-03T01:56:00Z",
+      "first_published_at": "2026-11-03T09:30:00Z",
+      "last_published_at": "2026-11-03T09:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6425,15 +6259,58 @@
         "naver"
       ],
       "source_domains": [
-        "newspost.kr"
+        "ajunews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "이천시의회, 반도체 인력양성·기업지원 위해 SK하이닉스 등 방문",
+          "url": "https://ajunews.com/view/20261103180814159",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-11-03T18:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "03cf84ee4c650bf0",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 오하이오 인텔팹서 D램 생산도 검토…인디애나·뉴욕 잇는...",
+      "representative_url": "https://sedaily.com/article/20109834",
+      "representative_source": "sedaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T09:25:00Z",
+      "last_published_at": "2026-11-03T09:25:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sedaily.com"
       ],
       "categories": [
         "공급·규제",
+        "기술·제품",
         "투자·생산"
       ],
       "event_keywords": [
-        "investment",
-        "regulation"
+        "production"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -6445,11 +6322,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "'증손회사 지분 규제 완화' 입법 추진… SK하이닉스 투자 부담 덜까",
-          "url": "https://newspost.kr/news/articleView.html?idxno=226969",
-          "source": "newspost.kr",
-          "source_domain": "newspost.kr",
-          "published_at": "2026-11-03T10:56:00+09:00",
+          "title": "SK하이닉스 , 오하이오 인텔팹서 D램 생산도 검토…인디애나·뉴욕 잇는...",
+          "url": "https://sedaily.com/article/20109834",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-11-03T18:25:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -6457,15 +6334,15 @@
       ]
     },
     {
-      "cluster_id": "a092561ae272c4e5",
+      "cluster_id": "9ebb2abcb1d51689",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "청주시, SK하이닉스 P&T7·M17 공업용수 공급사업 '순항'",
-      "representative_url": "https://ggilbo.com/news/articleView.html?idxno=1190697",
-      "representative_source": "ggilbo.com",
+      "representative_title": "SK하이닉스 , 美 첨단팹서 HBF 생산 준비…中 낸드 증설도 힘 싣는다",
+      "representative_url": "https://sedaily.com/article/20109833",
+      "representative_source": "sedaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-03T01:50:00Z",
-      "last_published_at": "2026-11-03T01:50:00Z",
+      "first_published_at": "2026-11-03T09:22:00Z",
+      "last_published_at": "2026-11-03T09:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -6473,30 +6350,186 @@
         "naver"
       ],
       "source_domains": [
-        "ggilbo.com"
+        "sedaily.com"
       ],
       "categories": [
-        "공급·규제",
+        "기술·제품",
         "투자·생산"
       ],
       "event_keywords": [
+        "nand",
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 美 첨단팹서 HBF 생산 준비…中 낸드 증설도 힘 싣는다",
+          "url": "https://sedaily.com/article/20109833",
+          "source": "sedaily.com",
+          "source_domain": "sedaily.com",
+          "published_at": "2026-11-03T18:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "71e5458eb865c37c",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼성전자· SK하이닉스 HBM 4 공급 경쟁…생산능력·장기계약서 승부",
+      "representative_url": "https://thetracker.co.kr/View.aspx?No=4295263",
+      "representative_source": "thetracker.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T06:50:00Z",
+      "last_published_at": "2026-11-03T09:05:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "enewstoday.co.kr",
+        "thetracker.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "hbm",
+        "production",
         "supply"
       ],
-      "importance_score": 30,
+      "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "청주시, SK하이닉스 P&T7·M17 공업용수 공급사업 '순항'",
-          "url": "https://ggilbo.com/news/articleView.html?idxno=1190697",
-          "source": "ggilbo.com",
-          "source_domain": "ggilbo.com",
-          "published_at": "2026-11-03T10:50:00+09:00",
+          "title": "청주시, SK하이닉스 P&T7·M17 공장 공업용수 공급사업(4단계) 차질 없이...",
+          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2487979",
+          "source": "enewstoday.co.kr",
+          "source_domain": "enewstoday.co.kr",
+          "published_at": "2026-11-03T18:05:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자· SK하이닉스 HBM 4 공급 경쟁…생산능력·장기계약서 승부",
+          "url": "https://thetracker.co.kr/View.aspx?No=4295263",
+          "source": "thetracker.co.kr",
+          "source_domain": "thetracker.co.kr",
+          "published_at": "2026-11-03T15:50:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4e19f75eae8b8181",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "美 규제 비웃는 HBM 밀수출..삼성· SK하이닉스 칩 중국 화웨이로 유입",
+      "representative_url": "https://businesskorea.co.kr/news/articleView.html?idxno=280367",
+      "representative_source": "businesskorea.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T08:30:00Z",
+      "last_published_at": "2026-11-03T08:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "businesskorea.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm",
+        "regulation"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "美 규제 비웃는 HBM 밀수출..삼성· SK하이닉스 칩 중국 화웨이로 유입",
+          "url": "https://businesskorea.co.kr/news/articleView.html?idxno=280367",
+          "source": "businesskorea.co.kr",
+          "source_domain": "businesskorea.co.kr",
+          "published_at": "2026-11-03T17:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "168d6bb6bc7b8409",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "미국行 SK하이닉스 안현 사장 과제는…빅테크 기업과 '기술'로 소통",
+      "representative_url": "https://asiatoday.co.kr/kn/view.php?key=20261103010001073",
+      "representative_source": "asiatoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T08:24:00Z",
+      "last_published_at": "2026-11-03T08:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "asiatoday.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "미국行 SK하이닉스 안현 사장 과제는…빅테크 기업과 '기술'로 소통",
+          "url": "https://asiatoday.co.kr/kn/view.php?key=20261103010001073",
+          "source": "asiatoday.co.kr",
+          "source_domain": "asiatoday.co.kr",
+          "published_at": "2026-11-03T17:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
