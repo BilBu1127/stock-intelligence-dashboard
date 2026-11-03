@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-02T20:45:22.105263Z",
+  "generated_at": "2026-11-03T03:55:24.359120Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-11-02T20:45:22.105263Z",
+  "last_successful_update": "2026-11-03T03:55:24.359120Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -75,6 +75,52 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-10-14T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "db69283bf9ded47b",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "[HBM 관련주] 한미반도체· 테크윙 등 약세…유니테스트는 상승",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=622574",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-03T02:30:00Z",
+      "last_published_at": "2026-11-03T02:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "기술·제품"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[HBM 관련주] 한미반도체· 테크윙 등 약세…유니테스트는 상승",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=622574",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-03T11:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -505,55 +551,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-14T14:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "53a6426f3ce39461",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "테크윙 , 3분기 최대 매출…엔비디아·마이크론 커스텀 HBM에 큐브 프로버...",
-      "representative_url": "https://etoday.co.kr/news/view/2635638",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T02:24:00Z",
-      "last_published_at": "2026-10-14T02:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings",
-        "hbm"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테크윙 , 3분기 최대 매출…엔비디아·마이크론 커스텀 HBM에 큐브 프로버...",
-          "url": "https://etoday.co.kr/news/view/2635638",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-10-14T11:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
