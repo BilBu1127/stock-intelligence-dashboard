@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T03:28:57.987721Z",
+  "generated_at": "2026-11-05T18:43:55.634862Z",
   "company_name": "케이엔제이",
   "stock_code": "272110",
   "status": "partial",
-  "last_successful_update": "2026-11-05T03:28:57.987721Z",
+  "last_successful_update": "2026-11-05T18:43:55.634862Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -54,6 +54,52 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-10-23T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d2d0bd0a1a9ffd50",
+      "company_name": "케이엔제이",
+      "stock_code": "272110",
+      "representative_title": "케이엔제이 , 외국인 소수계좌 매도 집중으로 투자주의종목 지정",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16269300",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T11:34:00Z",
+      "last_published_at": "2026-11-05T11:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "케이엔제이 , 외국인 소수계좌 매도 집중으로 투자주의종목 지정",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16269300",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-11-05T20:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -497,49 +543,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-10-22T10:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2830403c61653837",
-      "company_name": "케이엔제이",
-      "stock_code": "272110",
-      "representative_title": "케이엔제이 , '충남도 기업인대상' 우수기업인상 수상",
-      "representative_url": "https://newsis.com/view/NISX20261022_0003836337",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-22T01:11:00Z",
-      "last_published_at": "2026-10-22T01:11:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "케이엔제이 , '충남도 기업인대상' 우수기업인상 수상",
-          "url": "https://newsis.com/view/NISX20261022_0003836337",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-10-22T10:11:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
