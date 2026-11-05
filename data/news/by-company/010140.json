@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-04T18:38:06.445453Z",
+  "generated_at": "2026-11-05T03:28:57.987721Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-11-04T18:38:06.445453Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-05T03:28:57.987721Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "83419a446b2573fb",
@@ -2766,6 +2771,51 @@
       ]
     },
     {
+      "cluster_id": "4658a74f9a932d82",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 , '고선가 선박' 이익 견인차…넥스트 스텝 'FLNG'",
+      "representative_url": "https://hansbiz.co.kr/news/articleView.html?idxno=880161",
+      "representative_source": "hansbiz.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T01:38:00Z",
+      "last_published_at": "2026-11-05T01:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hansbiz.co.kr"
+      ],
+      "categories": [
+        "기타",
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +15",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 , '고선가 선박' 이익 견인차…넥스트 스텝 'FLNG'",
+          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=880161",
+          "source": "hansbiz.co.kr",
+          "source_domain": "hansbiz.co.kr",
+          "published_at": "2026-11-05T10:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "3e40420df6ca62bc",
       "company_name": "삼성중공업",
       "stock_code": "010140",
@@ -3156,49 +3206,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-11-02T09:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "622cc651c7847a70",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "조선 상장기업 2026년 11월 브랜드평판...HD현대중공업, 삼성중공업 , 한...",
-      "representative_url": "https://energy-news.co.kr/news/articleView.html?idxno=229423",
-      "representative_source": "energy-news.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-01T23:46:00Z",
-      "last_published_at": "2026-11-01T23:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "energy-news.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "조선 상장기업 2026년 11월 브랜드평판...HD현대중공업, 삼성중공업 , 한...",
-          "url": "https://energy-news.co.kr/news/articleView.html?idxno=229423",
-          "source": "energy-news.co.kr",
-          "source_domain": "energy-news.co.kr",
-          "published_at": "2026-11-02T08:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-04T18:38:06.445453Z",
+  "generated_at": "2026-11-05T03:28:57.987721Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-11-04T18:38:06.445453Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-05T03:28:57.987721Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "974c46c9eb8bdee2",
@@ -439,165 +444,159 @@
       ]
     },
     {
-      "cluster_id": "e6463d1d3b4968a2",
+      "cluster_id": "719635f5526c603e",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 독립이사 4명으로…김현진 사임",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=400600",
-      "representative_source": "vegannews.co.kr",
+      "representative_title": "한화에어로스페이스 , 폴란드에 첫 해외 유도미사일 공장 착공",
+      "representative_url": "https://view.asiae.co.kr/article/2026110509551839851",
+      "representative_source": "view.asiae.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T13:56:00Z",
-      "last_published_at": "2026-11-04T13:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-11-05T00:55:00Z",
+      "last_published_at": "2026-11-05T02:56:00Z",
+      "article_count": 11,
+      "domestic_article_count": 11,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "vegannews.co.kr"
+        "businesspost.co.kr",
+        "econovill.com",
+        "inthenews.co.kr",
+        "mediafine.co.kr",
+        "mt.co.kr",
+        "mtnews.net",
+        "news.tf.co.kr",
+        "newsian.co.kr",
+        "sisacast.kr",
+        "smartbizn.com",
+        "view.asiae.co.kr"
       ],
       "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로스페이스 독립이사 4명으로…김현진 사임",
-          "url": "https://vegannews.co.kr/news/article.html?no=400600",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-11-04T22:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0d15023f1ac1d3b4",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 , 순천 발사체 공장 준공···누리호 6호기 조립·검...",
-      "representative_url": "https://smartbizn.com/news/articleView.html?idxno=158479",
-      "representative_source": "smartbizn.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T08:26:00Z",
-      "last_published_at": "2026-11-04T13:50:00Z",
-      "article_count": 4,
-      "domestic_article_count": 4,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "fnnews.com",
-        "getnews.co.kr",
-        "seoul.co.kr",
-        "smartbizn.com"
-      ],
-      "categories": [
-        "기타",
+        "공급·규제",
+        "기술·제품",
+        "인사·M&A",
         "투자·생산"
       ],
       "event_keywords": [
         "production"
       ],
-      "importance_score": 30,
+      "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": true,
       "articles": [
         {
-          "title": "한화에어로스페이스 순천사업장 준공…누리호 6호기부터 조립",
-          "url": "https://getnews.co.kr/news/articleView.html?idxno=886053",
-          "source": "getnews.co.kr",
-          "source_domain": "getnews.co.kr",
-          "published_at": "2026-11-04T22:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 순천사업장 준공···내년 누리호 6호기부터 단 조...",
-          "url": "https://seoul.co.kr/news/publicnews/2026/11/04/20261104500362?wlog_tag3=naver",
-          "source": "seoul.co.kr",
-          "source_domain": "seoul.co.kr",
-          "published_at": "2026-11-04T22:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 순천사업장서 내년 누리호 6호기부터 발사체 단 조...",
-          "url": "https://fnnews.com/news/202611041712211830",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-11-04T17:31:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 , 순천 발사체 공장 준공···누리호 6호기 조립·검...",
-          "url": "https://smartbizn.com/news/articleView.html?idxno=158479",
-          "source": "smartbizn.com",
-          "source_domain": "smartbizn.com",
-          "published_at": "2026-11-04T17:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "755576aaf538bf74",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 , 순천 우주발사체 제조센터 준공…민간 우주수송 사...",
-      "representative_url": "https://inthenews.co.kr/news/article.html?no=94045",
-      "representative_source": "inthenews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T13:40:00Z",
-      "last_published_at": "2026-11-04T13:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "inthenews.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로스페이스 , 순천 우주발사체 제조센터 준공…민간 우주수송 사...",
-          "url": "https://inthenews.co.kr/news/article.html?no=94045",
+          "title": "한화에어로스페이스 , 폴란드서 천무 유도미사일 생산공장 착공",
+          "url": "https://inthenews.co.kr/news/article.html?no=94082",
           "source": "inthenews.co.kr",
           "source_domain": "inthenews.co.kr",
-          "published_at": "2026-11-04T22:40:00+09:00",
+          "published_at": "2026-11-05T11:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드 유도미사일 생산공장 착공… 첫 해외 생산...",
+          "url": "https://mtnews.net/news/articleView.html?idxno=26446",
+          "source": "mtnews.net",
+          "source_domain": "mtnews.net",
+          "published_at": "2026-11-05T11:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드서 천무 유도미사일 공장 착공",
+          "url": "https://smartbizn.com/news/articleView.html?idxno=158519",
+          "source": "smartbizn.com",
+          "source_domain": "smartbizn.com",
+          "published_at": "2026-11-05T11:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드에 천무 유도미사일 생산공장 착공",
+          "url": "https://sisacast.kr/news/articleView.html?idxno=101632",
+          "source": "sisacast.kr",
+          "source_domain": "sisacast.kr",
+          "published_at": "2026-11-05T11:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드에 첫 해외 유도미사일 공장 착공…2030년 양...",
+          "url": "https://econovill.com/news/articleView.html?idxno=756123",
+          "source": "econovill.com",
+          "source_domain": "econovill.com",
+          "published_at": "2026-11-05T11:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드에 천무 유도미사일 생산공장 착공-유럽 방...",
+          "url": "https://mediafine.co.kr/news/articleView.html?idxno=94615",
+          "source": "mediafine.co.kr",
+          "source_domain": "mediafine.co.kr",
+          "published_at": "2026-11-05T11:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 폴란드에 첫 해외 유도미사일 공장 착공, 2030년 양산...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=451235",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-11-05T10:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드 유도미사일 생산공장 착공",
+          "url": "https://mt.co.kr/industry/2026/11/05/2026110510094927234",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-11-05T10:31:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드 유도미사일 생산공장 착공…'천무' 현지생...",
+          "url": "https://news.tf.co.kr/read/economy/2385112.htm",
+          "source": "news.tf.co.kr",
+          "source_domain": "news.tf.co.kr",
+          "published_at": "2026-11-05T10:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드에 해외 첫 유도미사일 생산공장 착공",
+          "url": "https://newsian.co.kr/news/articleView.html?idxno=100662",
+          "source": "newsian.co.kr",
+          "source_domain": "newsian.co.kr",
+          "published_at": "2026-11-05T10:10:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 , 폴란드에 첫 해외 유도미사일 공장 착공",
+          "url": "https://view.asiae.co.kr/article/2026110509551839851",
+          "source": "view.asiae.co.kr",
+          "source_domain": "view.asiae.co.kr",
+          "published_at": "2026-11-05T09:55:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -605,15 +604,15 @@
       ]
     },
     {
-      "cluster_id": "409a2748edab7b5b",
+      "cluster_id": "5cff307fe1a025fc",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "광양경자청, 율촌제1산단 한화에어로스페이스 순천사업장 준공",
-      "representative_url": "https://netongs.com/news/articleView.html?idxno=336259",
-      "representative_source": "netongs.com",
+      "representative_title": "무기 수출 넘어 현지 생산으로… 한화에어로스페이스 , 폴란드에 천무 미...",
+      "representative_url": "https://news2day.co.kr/article/20261105500105",
+      "representative_source": "news2day.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T12:28:00Z",
-      "last_published_at": "2026-11-04T12:28:00Z",
+      "first_published_at": "2026-11-05T02:32:00Z",
+      "last_published_at": "2026-11-05T02:32:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -621,26 +620,31 @@
         "naver"
       ],
       "source_domains": [
-        "netongs.com"
+        "news2day.co.kr"
       ],
       "categories": [
-        "기타"
+        "공급·규제",
+        "기술·제품",
+        "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "광양경자청, 율촌제1산단 한화에어로스페이스 순천사업장 준공",
-          "url": "https://netongs.com/news/articleView.html?idxno=336259",
-          "source": "netongs.com",
-          "source_domain": "netongs.com",
-          "published_at": "2026-11-04T21:28:00+09:00",
+          "title": "무기 수출 넘어 현지 생산으로… 한화에어로스페이스 , 폴란드에 천무 미...",
+          "url": "https://news2day.co.kr/article/20261105500105",
+          "source": "news2day.co.kr",
+          "source_domain": "news2day.co.kr",
+          "published_at": "2026-11-05T11:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -648,54 +652,46 @@
       ]
     },
     {
-      "cluster_id": "ce6a3e8b09b1dac8",
+      "cluster_id": "5823a205771059c8",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 순천사업장 준공...\"순천서 우주발사체 만들고 고흥...",
-      "representative_url": "https://straightnews.co.kr/news/articleView.html?idxno=314641",
-      "representative_source": "straightnews.co.kr",
+      "representative_title": "폴란드서 '천무' 유도탄 만든다… 한화에어로스페이스 , 현지 공장 첫 삽",
+      "representative_url": "https://financialpost.co.kr/news/articleView.html?idxno=284894",
+      "representative_source": "financialpost.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T09:08:00Z",
-      "last_published_at": "2026-11-04T12:22:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
+      "first_published_at": "2026-11-05T02:18:00Z",
+      "last_published_at": "2026-11-05T02:18:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "bizwnews.com",
-        "straightnews.co.kr"
+        "financialpost.co.kr"
       ],
       "categories": [
-        "기타",
+        "공급·규제",
         "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "한화에어로스페이스 순천사업장 준공… \"순천서 만들고 고흥서 쏘아 올...",
-          "url": "https://bizwnews.com/news/articleView.html?idxno=150964",
-          "source": "bizwnews.com",
-          "source_domain": "bizwnews.com",
-          "published_at": "2026-11-04T21:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 순천사업장 준공...\"순천서 우주발사체 만들고 고흥...",
-          "url": "https://straightnews.co.kr/news/articleView.html?idxno=314641",
-          "source": "straightnews.co.kr",
-          "source_domain": "straightnews.co.kr",
-          "published_at": "2026-11-04T18:08:00+09:00",
+          "title": "폴란드서 '천무' 유도탄 만든다… 한화에어로스페이스 , 현지 공장 첫 삽",
+          "url": "https://financialpost.co.kr/news/articleView.html?idxno=284894",
+          "source": "financialpost.co.kr",
+          "source_domain": "financialpost.co.kr",
+          "published_at": "2026-11-05T11:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -703,15 +699,63 @@
       ]
     },
     {
-      "cluster_id": "42e5b1a01d3b3014",
+      "cluster_id": "cbd701a9dd41898e",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 순천사업장 준공식",
-      "representative_url": "https://news1.kr/photos/8197003",
-      "representative_source": "news1.kr",
+      "representative_title": "한화에어로스페이스 , 폴란드에 첫 해외 미사일 공장…유럽 방산 현지화...",
+      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=138863",
+      "representative_source": "popcornnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T07:03:00Z",
-      "last_published_at": "2026-11-04T10:44:00Z",
+      "first_published_at": "2026-11-05T01:58:00Z",
+      "last_published_at": "2026-11-05T01:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "popcornnews.net"
+      ],
+      "categories": [
+        "공급·규제",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한화에어로스페이스 , 폴란드에 첫 해외 미사일 공장…유럽 방산 현지화...",
+          "url": "https://popcornnews.net/news/articleView.html?idxno=138863",
+          "source": "popcornnews.net",
+          "source_domain": "popcornnews.net",
+          "published_at": "2026-11-05T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e5c8722733fc8323",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "한화에어로스페이스 순천사업장 준공",
+      "representative_url": "https://financialpost.co.kr/news/articleView.html?idxno=284829",
+      "representative_source": "financialpost.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T00:32:00Z",
+      "last_published_at": "2026-11-05T01:20:00Z",
       "article_count": 2,
       "domestic_article_count": 2,
       "international_article_count": 0,
@@ -719,8 +763,8 @@
         "naver"
       ],
       "source_domains": [
-        "news1.kr",
-        "newstnt.com"
+        "amenews.kr",
+        "financialpost.co.kr"
       ],
       "categories": [
         "기타"
@@ -735,21 +779,21 @@
       "needs_review": true,
       "articles": [
         {
-          "title": "[포토] 한화에어로스페이스 순천사업장 준공식",
-          "url": "https://newstnt.com/news/articleView.html?idxno=726790",
-          "source": "newstnt.com",
-          "source_domain": "newstnt.com",
-          "published_at": "2026-11-04T19:44:00+09:00",
+          "title": "한화에어로스페이스 , 발사체 조립 순천사업장 준공",
+          "url": "https://amenews.kr/news/view.php?idx=68568",
+          "source": "amenews.kr",
+          "source_domain": "amenews.kr",
+          "published_at": "2026-11-05T10:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "한화에어로스페이스 순천사업장 준공식",
-          "url": "https://news1.kr/photos/8197003",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-11-04T16:03:00+09:00",
+          "title": "한화에어로스페이스 순천사업장 준공",
+          "url": "https://financialpost.co.kr/news/articleView.html?idxno=284829",
+          "source": "financialpost.co.kr",
+          "source_domain": "financialpost.co.kr",
+          "published_at": "2026-11-05T09:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -757,15 +801,72 @@
       ]
     },
     {
-      "cluster_id": "39def0f153d59c9a",
+      "cluster_id": "ab09e74264f4a9b0",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 , 순천에 발사체 생산 허브 구축",
-      "representative_url": "https://goodmorningcc.com/news/articleView.html?idxno=455203",
-      "representative_source": "goodmorningcc.com",
+      "representative_title": "한화에어로스페이스 순천사업장 준공 우주발사체 생산거점 구축",
+      "representative_url": "https://m-i.kr/news/articleView.html?idxno=2014744",
+      "representative_source": "m-i.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T10:14:00Z",
-      "last_published_at": "2026-11-04T10:14:00Z",
+      "first_published_at": "2026-11-05T01:08:00Z",
+      "last_published_at": "2026-11-05T01:20:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "m-i.kr",
+        "newsian.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "한화에어로스페이스 , 순천사업장 준공…우주산업 핵심 거점 구축",
+          "url": "https://newsian.co.kr/news/articleView.html?idxno=100666",
+          "source": "newsian.co.kr",
+          "source_domain": "newsian.co.kr",
+          "published_at": "2026-11-05T10:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "한화에어로스페이스 순천사업장 준공 우주발사체 생산거점 구축",
+          "url": "https://m-i.kr/news/articleView.html?idxno=2014744",
+          "source": "m-i.kr",
+          "source_domain": "m-i.kr",
+          "published_at": "2026-11-05T10:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "023d9fdacf8ec533",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "한화에어로스페이스 , 폴란드 천무 유도탄 공장 기공…현지 생산시설 건...",
+      "representative_url": "https://sateconomy.co.kr/news/view/1065572570796225",
+      "representative_source": "sateconomy.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T01:16:00Z",
+      "last_published_at": "2026-11-05T01:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -773,7 +874,54 @@
         "naver"
       ],
       "source_domains": [
-        "goodmorningcc.com"
+        "sateconomy.co.kr"
+      ],
+      "categories": [
+        "인사·M&A",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한화에어로스페이스 , 폴란드 천무 유도탄 공장 기공…현지 생산시설 건...",
+          "url": "https://sateconomy.co.kr/news/view/1065572570796225",
+          "source": "sateconomy.co.kr",
+          "source_domain": "sateconomy.co.kr",
+          "published_at": "2026-11-05T10:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "29a4125075e062c6",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "순천시, 한화에어로스페이스 우주발사체 생산기지 준공",
+      "representative_url": "https://thepowernews.co.kr/view.php?ud=202611042023498747caa2b7671d_7",
+      "representative_source": "thepowernews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T01:04:00Z",
+      "last_published_at": "2026-11-05T01:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepowernews.co.kr"
       ],
       "categories": [
         "투자·생산"
@@ -791,11 +939,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "한화에어로스페이스 , 순천에 발사체 생산 허브 구축",
-          "url": "https://goodmorningcc.com/news/articleView.html?idxno=455203",
-          "source": "goodmorningcc.com",
-          "source_domain": "goodmorningcc.com",
-          "published_at": "2026-11-04T19:14:00+09:00",
+          "title": "순천시, 한화에어로스페이스 우주발사체 생산기지 준공",
+          "url": "https://thepowernews.co.kr/view.php?ud=202611042023498747caa2b7671d_7",
+          "source": "thepowernews.co.kr",
+          "source_domain": "thepowernews.co.kr",
+          "published_at": "2026-11-05T10:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -803,28 +951,25 @@
       ]
     },
     {
-      "cluster_id": "6e95ba4ba673199d",
+      "cluster_id": "1a1877301d511f2d",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "한화에어로스페이스 순천사업장 준공…남해안권 우주산업 생태계 강화...",
-      "representative_url": "https://pressian.com/pages/articles/2026110416175873465",
-      "representative_source": "pressian.com",
+      "representative_title": "한화에어로스페이스 순천사업장 준공...남해안 우주항공산업벨트 거점",
+      "representative_url": "https://mt.co.kr/policy/2026/11/05/2026110509361541643",
+      "representative_source": "mt.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T07:29:00Z",
-      "last_published_at": "2026-11-04T09:12:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
+      "first_published_at": "2026-11-05T01:02:00Z",
+      "last_published_at": "2026-11-05T01:02:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "nocutnews.co.kr",
-        "pressian.com",
-        "seoulfn.com"
+        "mt.co.kr"
       ],
       "categories": [
-        "기타",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -834,34 +979,14 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "한화에어로스페이스 순천사업장 준공…남해안 우주산업 거점 확대",
-          "url": "https://nocutnews.co.kr/news/6602279",
-          "source": "nocutnews.co.kr",
-          "source_domain": "nocutnews.co.kr",
-          "published_at": "2026-11-04T18:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 순천사업장 준공···남해안 우주산업 거점 도약",
-          "url": "https://seoulfn.com/news/articleView.html?idxno=641925",
-          "source": "seoulfn.com",
-          "source_domain": "seoulfn.com",
-          "published_at": "2026-11-04T16:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한화에어로스페이스 순천사업장 준공…남해안권 우주산업 생태계 강화...",
-          "url": "https://pressian.com/pages/articles/2026110416175873465",
-          "source": "pressian.com",
-          "source_domain": "pressian.com",
-          "published_at": "2026-11-04T16:29:00+09:00",
+          "title": "한화에어로스페이스 순천사업장 준공...남해안 우주항공산업벨트 거점",
+          "url": "https://mt.co.kr/policy/2026/11/05/2026110509361541643",
+          "source": "mt.co.kr",
+          "source_domain": "mt.co.kr",
+          "published_at": "2026-11-05T10:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -869,15 +994,15 @@
       ]
     },
     {
-      "cluster_id": "55fb5a8a59817d7c",
+      "cluster_id": "527b343b9614a6ff",
       "company_name": "한화에어로스페이스",
       "stock_code": "012450",
-      "representative_title": "광양경자청, 한화에어로스페이스 순천사업장 준공… \"대한민국 우주산...",
-      "representative_url": "https://breaknews.com/1248409",
+      "representative_title": "\" 한화에어로스페이스 순천사업장 준공…남해안 우주산업 생산기반 구축...",
+      "representative_url": "https://breaknews.com/1248533",
       "representative_source": "breaknews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-04T08:48:00Z",
-      "last_published_at": "2026-11-04T08:48:00Z",
+      "first_published_at": "2026-11-05T00:20:00Z",
+      "last_published_at": "2026-11-05T00:20:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -888,66 +1013,26 @@
         "breaknews.com"
       ],
       "categories": [
-        "기타"
+        "투자·생산"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "광양경자청, 한화에어로스페이스 순천사업장 준공… \"대한민국 우주산...",
-          "url": "https://breaknews.com/1248409",
+          "title": "\" 한화에어로스페이스 순천사업장 준공…남해안 우주산업 생산기반 구축...",
+          "url": "https://breaknews.com/1248533",
           "source": "breaknews.com",
           "source_domain": "breaknews.com",
-          "published_at": "2026-11-04T17:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "451a5bd73c001e2c",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "광양경지청, 한화에어로스페이스 순천사업장 준공…누리호 조립 거점 구...",
-      "representative_url": "https://mhns.co.kr/news/articleView.html?idxno=767551",
-      "representative_source": "mhns.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T08:40:00Z",
-      "last_published_at": "2026-11-04T08:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mhns.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "광양경지청, 한화에어로스페이스 순천사업장 준공…누리호 조립 거점 구...",
-          "url": "https://mhns.co.kr/news/articleView.html?idxno=767551",
-          "source": "mhns.co.kr",
-          "source_domain": "mhns.co.kr",
-          "published_at": "2026-11-04T17:40:00+09:00",
+          "published_at": "2026-11-05T09:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

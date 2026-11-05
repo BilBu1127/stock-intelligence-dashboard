@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T18:38:06.445453Z",
+  "generated_at": "2026-11-05T03:28:57.987721Z",
   "company_name": "테크윙",
   "stock_code": "089030",
   "status": "partial",
-  "last_successful_update": "2026-11-04T18:38:06.445453Z",
+  "last_successful_update": "2026-11-05T03:28:57.987721Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -75,6 +75,49 @@
           "source": "yna.co.kr",
           "source_domain": "yna.co.kr",
           "published_at": "2026-10-14T10:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "65090ca36e257055",
+      "company_name": "테크윙",
+      "stock_code": "089030",
+      "representative_title": "테크윙 , 10일 IR서 검사장비 사업·2027년 전망 설명",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=400755",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-04T22:10:00Z",
+      "last_published_at": "2026-11-04T22:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "테크윙 , 10일 IR서 검사장비 사업·2027년 전망 설명",
+          "url": "https://vegannews.co.kr/news/article.html?no=400755",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-11-05T07:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -533,53 +576,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-15T14:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b12288b51430a8be",
-      "company_name": "테크윙",
-      "stock_code": "089030",
-      "representative_title": "테크윙 3분기 영업이익 180억…전년比 153% 증가",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=392649",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T12:54:00Z",
-      "last_published_at": "2026-10-14T12:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        " 180억",
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테크윙 3분기 영업이익 180억…전년比 153% 증가",
-          "url": "https://vegannews.co.kr/news/article.html?no=392649",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-10-14T21:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

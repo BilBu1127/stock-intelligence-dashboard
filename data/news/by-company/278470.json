@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T18:38:06.445453Z",
+  "generated_at": "2026-11-05T03:28:57.987721Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-11-04T18:38:06.445453Z",
+  "last_successful_update": "2026-11-05T03:28:57.987721Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -4726,15 +4726,15 @@
       ]
     },
     {
-      "cluster_id": "2f15b9fc7e069cdd",
+      "cluster_id": "f77b31518de83e24",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "한투증권 \" 에이피알 , 양호한 화장품 업황에 밸류에이션 매력적\"",
-      "representative_url": "https://yna.co.kr/view/AKR20260806023900008?input=1195m",
-      "representative_source": "yna.co.kr",
+      "representative_title": "'분기 매출 1조' 눈앞인데…'해외 비중 94%' 에이피알 의 딜레마",
+      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1730570",
+      "representative_source": "ebn.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-05T23:21:00Z",
-      "last_published_at": "2026-08-05T23:21:00Z",
+      "first_published_at": "2026-11-05T02:02:00Z",
+      "last_published_at": "2026-11-05T02:02:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4742,30 +4742,159 @@
         "naver"
       ],
       "source_domains": [
-        "yna.co.kr"
+        "ebn.co.kr"
       ],
       "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
+        "실적"
+      ],
+      "event_keywords": [
+        " 1조",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'분기 매출 1조' 눈앞인데…'해외 비중 94%' 에이피알 의 딜레마",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1730570",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-11-05T11:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "01b53d754fb8c163",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 '메디큐브', 캐나다 드럭스토어 '샤퍼스' 1300개 매장 입점",
+      "representative_url": "https://apparelnews.co.kr/news/news_view?idx=228764",
+      "representative_source": "apparelnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T00:34:00Z",
+      "last_published_at": "2026-11-05T00:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "apparelnews.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
       ],
       "event_keywords": [],
-      "importance_score": 40,
-      "importance_level": "watch",
+      "importance_score": 15,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "한투증권 \" 에이피알 , 양호한 화장품 업황에 밸류에이션 매력적\"",
-          "url": "https://yna.co.kr/view/AKR20260806023900008?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-06T08:21:00+09:00",
+          "title": "에이피알 '메디큐브', 캐나다 드럭스토어 '샤퍼스' 1300개 매장 입점",
+          "url": "https://apparelnews.co.kr/news/news_view?idx=228764",
+          "source": "apparelnews.co.kr",
+          "source_domain": "apparelnews.co.kr",
+          "published_at": "2026-11-05T09:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "bc1bbffbe3590ba2",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "아마존서 이름 알리고 동네 매대로… 에이피알 메디큐브, 북미 생활권으...",
+      "representative_url": "https://asiatoday.co.kr/kn/view.php?key=20261104010001519",
+      "representative_source": "asiatoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-04T21:00:00Z",
+      "last_published_at": "2026-11-04T21:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "asiatoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "아마존서 이름 알리고 동네 매대로… 에이피알 메디큐브, 북미 생활권으...",
+          "url": "https://asiatoday.co.kr/kn/view.php?key=20261104010001519",
+          "source": "asiatoday.co.kr",
+          "source_domain": "asiatoday.co.kr",
+          "published_at": "2026-11-05T06:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e1b2ec3c912f1577",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 해외서 고성장 지속…아모레·LG생건 수익성 개선 숙제",
+      "representative_url": "https://pointdaily.co.kr/news/articleView.html?idxno=324790",
+      "representative_source": "pointdaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-04T21:00:00Z",
+      "last_published_at": "2026-11-04T21:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pointdaily.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 해외서 고성장 지속…아모레·LG생건 수익성 개선 숙제",
+          "url": "https://pointdaily.co.kr/news/articleView.html?idxno=324790",
+          "source": "pointdaily.co.kr",
+          "source_domain": "pointdaily.co.kr",
+          "published_at": "2026-11-05T06:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5044,181 +5173,6 @@
           "source": "businesspost.co.kr",
           "source_domain": "businesspost.co.kr",
           "published_at": "2026-11-04T16:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "72fc18ab17002c14",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , 메디큐브 캐나다 최대 드럭스토어 입점···1300개 매장 진출",
-      "representative_url": "https://ziksir.com/news/articleView.html?idxno=152064",
-      "representative_source": "ziksir.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T06:58:00Z",
-      "last_published_at": "2026-11-04T06:58:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ziksir.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 , 메디큐브 캐나다 최대 드럭스토어 입점···1300개 매장 진출",
-          "url": "https://ziksir.com/news/articleView.html?idxno=152064",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-11-04T15:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "948b4f7e9f700c84",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 캐나다 오프라인 유통망 진입 \"배경은\"",
-      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=210854",
-      "representative_source": "lcnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T06:52:00Z",
-      "last_published_at": "2026-11-04T06:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "lcnews.co.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 메디큐브, 캐나다 오프라인 유통망 진입 \"배경은\"",
-          "url": "https://lcnews.co.kr/news/articleView.html?idxno=210854",
-          "source": "lcnews.co.kr",
-          "source_domain": "lcnews.co.kr",
-          "published_at": "2026-11-04T15:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "db70544ffc5366b0",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , 영업익 1위 굳혔다…LG생활건강·아모레와 격차 1000억 이상 벌...",
-      "representative_url": "https://consumernews.co.kr/news/articleView.html?idxno=767538",
-      "representative_source": "consumernews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T06:50:00Z",
-      "last_published_at": "2026-11-04T06:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "consumernews.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        " 1000억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 , 영업익 1위 굳혔다…LG생활건강·아모레와 격차 1000억 이상 벌...",
-          "url": "https://consumernews.co.kr/news/articleView.html?idxno=767538",
-          "source": "consumernews.co.kr",
-          "source_domain": "consumernews.co.kr",
-          "published_at": "2026-11-04T15:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4942afce9b6d620a",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 메디큐브, 캐나다 1위 드럭스토어 '샤퍼스' 전 매장 입점",
-      "representative_url": "https://newsmap.co.kr/news/articleView.html?idxno=4798",
-      "representative_source": "newsmap.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-04T06:36:00Z",
-      "last_published_at": "2026-11-04T06:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsmap.co.kr"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 메디큐브, 캐나다 1위 드럭스토어 '샤퍼스' 전 매장 입점",
-          "url": "https://newsmap.co.kr/news/articleView.html?idxno=4798",
-          "source": "newsmap.co.kr",
-          "source_domain": "newsmap.co.kr",
-          "published_at": "2026-11-04T15:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
