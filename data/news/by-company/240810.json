@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-05T18:43:55.634862Z",
+  "generated_at": "2026-11-06T03:25:35.652829Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-11-05T18:43:55.634862Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-06T03:25:35.652829Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "914a63b4a1aa493e",
@@ -49,54 +54,6 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-10-12T08:23:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a6d927cbedfd462e",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "SK증권 \" 원익IPS , 수주잔고 증가로 하반기 실적 개선 기대\"",
-      "representative_url": "https://yna.co.kr/view/AKR20260807022800008?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-06T23:40:00Z",
-      "last_published_at": "2026-08-06T23:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 50,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK증권 \" 원익IPS , 수주잔고 증가로 하반기 실적 개선 기대\"",
-          "url": "https://yna.co.kr/view/AKR20260807022800008?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-07T08:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

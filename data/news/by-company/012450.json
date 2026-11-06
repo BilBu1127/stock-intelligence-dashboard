@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-05T18:43:55.634862Z",
+  "generated_at": "2026-11-06T03:25:35.652829Z",
   "company_name": "한화에어로스페이스",
   "stock_code": "012450",
-  "status": "ok",
-  "last_successful_update": "2026-11-05T18:43:55.634862Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-06T03:25:35.652829Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "974c46c9eb8bdee2",
@@ -432,6 +437,49 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-08-07T15:48:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "24fa206d62576dd4",
+      "company_name": "한화에어로스페이스",
+      "stock_code": "012450",
+      "representative_title": "전남광주통합특별시, 한화에어로스페이스 순천사업장 준공…발사체 생...",
+      "representative_url": "https://newsmaker.or.kr/news/articleView.html?idxno=185290",
+      "representative_source": "newsmaker.or.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-05T23:54:00Z",
+      "last_published_at": "2026-11-05T23:54:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsmaker.or.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "전남광주통합특별시, 한화에어로스페이스 순천사업장 준공…발사체 생...",
+          "url": "https://newsmaker.or.kr/news/articleView.html?idxno=185290",
+          "source": "newsmaker.or.kr",
+          "source_domain": "newsmaker.or.kr",
+          "published_at": "2026-11-06T08:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -941,54 +989,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-11-05T15:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "24a4ca5bf313633b",
-      "company_name": "한화에어로스페이스",
-      "stock_code": "012450",
-      "representative_title": "폴란드서 '천무' 미사일 만든다… 한화에어로스페이스 , 첫 해외공장 착공",
-      "representative_url": "https://ziksir.com/news/articleView.html?idxno=152196",
-      "representative_source": "ziksir.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T05:26:00Z",
-      "last_published_at": "2026-11-05T05:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ziksir.com"
-      ],
-      "categories": [
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "폴란드서 '천무' 미사일 만든다… 한화에어로스페이스 , 첫 해외공장 착공",
-          "url": "https://ziksir.com/news/articleView.html?idxno=152196",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-11-05T14:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-05T18:43:55.634862Z",
+  "generated_at": "2026-11-06T03:25:35.652829Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-11-05T18:43:55.634862Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-06T03:25:35.652829Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "b7133ba590ba981c",
@@ -2767,51 +2772,6 @@
           "source": "daily.hankooki.com",
           "source_domain": "daily.hankooki.com",
           "published_at": "2026-08-07T18:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "237e506aed32155a",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "한국남부발전, 하동복합 1GW 건설사업 EPC 낙찰자로 두산에너빌리티 &SNT...",
-      "representative_url": "https://mk.co.kr/article/12120659",
-      "representative_source": "mk.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-07T00:50:00Z",
-      "last_published_at": "2026-08-07T00:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mk.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 40,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한국남부발전, 하동복합 1GW 건설사업 EPC 낙찰자로 두산에너빌리티 &SNT...",
-          "url": "https://mk.co.kr/article/12120659",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-07T09:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
