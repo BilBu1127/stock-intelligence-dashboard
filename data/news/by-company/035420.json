@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T02:27:52.520938Z",
+  "generated_at": "2026-11-08T17:01:54.428304Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-11-08T02:27:52.520938Z",
+  "last_successful_update": "2026-11-08T17:01:54.428304Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -331,6 +331,53 @@
           "source": "en.yna.co.kr",
           "source_domain": "en.yna.co.kr",
           "published_at": "2026-08-13T11:39:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5263bf59d4e1a454",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버 주가 10.39% 상승…외국인·기관 2천299억원 순매수",
+      "representative_url": "https://kjdaily.com/article.php?aid=1794150439691533276",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-08T15:10:00Z",
+      "last_published_at": "2026-11-08T15:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "299억"
+      ],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버 주가 10.39% 상승…외국인·기관 2천299억원 순매수",
+          "url": "https://kjdaily.com/article.php?aid=1794150439691533276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-09T00:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -756,49 +803,6 @@
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-11-06T08:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6b0a134f881ec35f",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "[오늘의 특징주] 삼성전기·셀트리온· NAVER",
-      "representative_url": "https://bigtanews.co.kr/article/view/big202611050021",
-      "representative_source": "bigtanews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T09:32:00Z",
-      "last_published_at": "2026-11-05T09:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "bigtanews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[오늘의 특징주] 삼성전기·셀트리온· NAVER",
-          "url": "https://bigtanews.co.kr/article/view/big202611050021",
-          "source": "bigtanews.co.kr",
-          "source_domain": "bigtanews.co.kr",
-          "published_at": "2026-11-05T18:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
