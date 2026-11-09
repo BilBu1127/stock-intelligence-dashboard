@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-09T02:39:03.761089Z",
+  "generated_at": "2026-11-09T21:26:04.165729Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-11-09T02:39:03.761089Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-09T21:26:04.165729Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,49 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a13ab177a78c8597",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "POSCO홀딩스 약보합…철강·리튬 사업 가동률에 시선",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=237268",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-09T05:32:00Z",
+      "last_published_at": "2026-11-09T05:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "POSCO홀딩스 약보합…철강·리튬 사업 가동률에 시선",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=237268",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-09T14:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -455,51 +503,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-11-03T09:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "cf37e302fcdea3e9",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "POSCO홀딩스 , 리튬가 하락·철강 가격 상승 속도 더뎌…목표가↓-NH",
-      "representative_url": "https://mt.co.kr/stock/2026/11/03/2026110308400428775",
-      "representative_source": "mt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-02T23:42:00Z",
-      "last_published_at": "2026-11-02T23:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mt.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "POSCO홀딩스 , 리튬가 하락·철강 가격 상승 속도 더뎌…목표가↓-NH",
-          "url": "https://mt.co.kr/stock/2026/11/03/2026110308400428775",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-11-03T08:42:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
