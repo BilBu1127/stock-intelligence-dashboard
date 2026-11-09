@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T17:01:54.428304Z",
+  "generated_at": "2026-11-09T02:39:03.761089Z",
   "company_name": "하나마이크론",
   "stock_code": "067310",
   "status": "partial",
-  "last_successful_update": "2026-11-08T17:01:54.428304Z",
+  "last_successful_update": "2026-11-09T02:39:03.761089Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -54,6 +54,53 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-08-10T16:09:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "bfad7a89ce1f1320",
+      "company_name": "하나마이크론",
+      "stock_code": "067310",
+      "representative_title": "그로쓰리서치 \"반도체 증산 훈풍에 실적 날개… 하나마이크론 ·엠케이전...",
+      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1730852",
+      "representative_source": "ebn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-08T23:40:00Z",
+      "last_published_at": "2026-11-08T23:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ebn.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "그로쓰리서치 \"반도체 증산 훈풍에 실적 날개… 하나마이크론 ·엠케이전...",
+          "url": "https://ebn.co.kr/news/articleView.html?idxno=1730852",
+          "source": "ebn.co.kr",
+          "source_domain": "ebn.co.kr",
+          "published_at": "2026-11-09T08:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -501,50 +548,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-10-15T14:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "76816d3935b8bde2",
-      "company_name": "하나마이크론",
-      "stock_code": "067310",
-      "representative_title": "[단독] ‘MICRON’ 명칭 충돌… 하나마이크론 미국 상표 등록 제동 걸리나",
-      "representative_url": "https://ilyo.co.kr/?ac=article_view&entry_id=513137",
-      "representative_source": "ilyo.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-14T08:02:00Z",
-      "last_published_at": "2026-10-14T08:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ilyo.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[단독] ‘MICRON’ 명칭 충돌… 하나마이크론 미국 상표 등록 제동 걸리나",
-          "url": "https://ilyo.co.kr/?ac=article_view&entry_id=513137",
-          "source": "ilyo.co.kr",
-          "source_domain": "ilyo.co.kr",
-          "published_at": "2026-10-14T17:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

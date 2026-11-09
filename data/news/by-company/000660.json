@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-08T17:01:54.428304Z",
+  "generated_at": "2026-11-09T02:39:03.761089Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-11-08T17:01:54.428304Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-09T02:39:03.761089Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "208656f607bdc6cb",
@@ -4878,15 +4883,15 @@
       ]
     },
     {
-      "cluster_id": "5110375eb5e655ff",
+      "cluster_id": "4f63a1b3bb6909ad",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "외국인, 삼성전자· SK하이닉스 7.6조 순매도…보유율 17년·5년 만에 최저",
-      "representative_url": "https://kjdaily.com/article.php?aid=1794150792691526276",
-      "representative_source": "kjdaily.com",
+      "representative_title": "HBM 수주전, 설계 단계로 앞당겨져… SK하이닉스 ·삼성전자 미주에 개발...",
+      "representative_url": "https://smarttimes.co.kr/news/articleView.html?idxno=50427",
+      "representative_source": "smarttimes.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T15:16:00Z",
-      "last_published_at": "2026-11-08T15:16:00Z",
+      "first_published_at": "2026-11-09T02:30:00Z",
+      "last_published_at": "2026-11-09T02:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4894,15 +4899,60 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com"
+        "smarttimes.co.kr"
       ],
       "categories": [
-        "주가·투자의견"
+        "공급·규제",
+        "기술·제품",
+        "실적"
       ],
       "event_keywords": [
-        " 6조",
-        "shareholder_message"
+        "hbm"
       ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HBM 수주전, 설계 단계로 앞당겨져… SK하이닉스 ·삼성전자 미주에 개발...",
+          "url": "https://smarttimes.co.kr/news/articleView.html?idxno=50427",
+          "source": "smarttimes.co.kr",
+          "source_domain": "smarttimes.co.kr",
+          "published_at": "2026-11-09T11:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5885d84fdd8d2502",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "테슬라·스페이스X '테라팹' 건설 본격화⋯삼성. SK하이닉스 영향",
+      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=601904",
+      "representative_source": "autodaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-09T02:14:00Z",
+      "last_published_at": "2026-11-09T02:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "autodaily.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
       "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
@@ -4912,11 +4962,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "외국인, 삼성전자· SK하이닉스 7.6조 순매도…보유율 17년·5년 만에 최저",
-          "url": "https://kjdaily.com/article.php?aid=1794150792691526276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-11-09T00:16:00+09:00",
+          "title": "테슬라·스페이스X '테라팹' 건설 본격화⋯삼성. SK하이닉스 영향",
+          "url": "https://autodaily.co.kr/news/articleView.html?idxno=601904",
+          "source": "autodaily.co.kr",
+          "source_domain": "autodaily.co.kr",
+          "published_at": "2026-11-09T11:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4924,15 +4974,15 @@
       ]
     },
     {
-      "cluster_id": "9ba3a87bd668e3ca",
+      "cluster_id": "f4d755c37bbd5d7a",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "삼성· SK하이닉스 순현금 늘어…AI 투자·환원 병행",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=402245",
-      "representative_source": "vegannews.co.kr",
+      "representative_title": "[특징주] 삼성전자 2%· SK하이닉스 3% 반등⋯AI 규제 우려 덜었나",
+      "representative_url": "https://inews24.com/view/2023984",
+      "representative_source": "inews24.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T13:24:00Z",
-      "last_published_at": "2026-11-08T13:24:00Z",
+      "first_published_at": "2026-11-09T02:11:00Z",
+      "last_published_at": "2026-11-09T02:11:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4940,14 +4990,14 @@
         "naver"
       ],
       "source_domains": [
-        "vegannews.co.kr"
+        "inews24.com"
       ],
       "categories": [
-        "기술·제품",
+        "공급·규제",
         "투자·생산"
       ],
       "event_keywords": [
-        "investment"
+        "regulation"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -4959,11 +5009,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성· SK하이닉스 순현금 늘어…AI 투자·환원 병행",
-          "url": "https://vegannews.co.kr/news/article.html?no=402245",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-11-08T22:24:00+09:00",
+          "title": "[특징주] 삼성전자 2%· SK하이닉스 3% 반등⋯AI 규제 우려 덜었나",
+          "url": "https://inews24.com/view/2023984",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-11-09T11:11:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4971,15 +5021,15 @@
       ]
     },
     {
-      "cluster_id": "7d6290016cdca717",
+      "cluster_id": "a4a310c6e39958ba",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , 엔비디아 행사서 반도체 AI 기술 발표",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=402223",
-      "representative_source": "vegannews.co.kr",
+      "representative_title": "국토부 AIDC 건설 활성화 포럼, SK하이닉스 용인 현장 방문",
+      "representative_url": "https://kmecnews.co.kr/news/articleView.html?idxno=52670",
+      "representative_source": "kmecnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T12:28:00Z",
-      "last_published_at": "2026-11-08T12:28:00Z",
+      "first_published_at": "2026-11-09T02:06:00Z",
+      "last_published_at": "2026-11-09T02:06:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4987,7 +5037,7 @@
         "naver"
       ],
       "source_domains": [
-        "vegannews.co.kr"
+        "kmecnews.co.kr"
       ],
       "categories": [
         "기타"
@@ -5002,11 +5052,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 , 엔비디아 행사서 반도체 AI 기술 발표",
-          "url": "https://vegannews.co.kr/news/article.html?no=402223",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-11-08T21:28:00+09:00",
+          "title": "국토부 AIDC 건설 활성화 포럼, SK하이닉스 용인 현장 방문",
+          "url": "https://kmecnews.co.kr/news/articleView.html?idxno=52670",
+          "source": "kmecnews.co.kr",
+          "source_domain": "kmecnews.co.kr",
+          "published_at": "2026-11-09T11:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5014,15 +5064,15 @@
       ]
     },
     {
-      "cluster_id": "ff6e19835937eaec",
+      "cluster_id": "9329833d8cc458bb",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[쇼츠뉴스] 삼성전자· SK하이닉스 , 피크아웃 공포 넘을까?",
-      "representative_url": "https://bigtanews.co.kr/article/view/big202611080004",
-      "representative_source": "bigtanews.co.kr",
+      "representative_title": "SK하이닉스 ·삼성전자, 美 사업에 기술통 전면배치… HBM 수주전 재편",
+      "representative_url": "https://seouleconews.com/news/articleView.html?idxno=94867",
+      "representative_source": "seouleconews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T08:14:00Z",
-      "last_published_at": "2026-11-08T08:14:00Z",
+      "first_published_at": "2026-11-09T01:26:00Z",
+      "last_published_at": "2026-11-09T01:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5030,11 +5080,57 @@
         "naver"
       ],
       "source_domains": [
-        "bigtanews.co.kr"
+        "seouleconews.com"
       ],
       "categories": [
         "기술·제품",
-        "주가·투자의견",
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        "hbm"
+      ],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자, 美 사업에 기술통 전면배치… HBM 수주전 재편",
+          "url": "https://seouleconews.com/news/articleView.html?idxno=94867",
+          "source": "seouleconews.com",
+          "source_domain": "seouleconews.com",
+          "published_at": "2026-11-09T10:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e73745eae766cc5e",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "TSMC 'D램 시장 진출' 가능성에 외신 회의적, \"삼성전자 SK하이닉스 와 협...",
+      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=451481",
+      "representative_source": "businesspost.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-09T01:24:00Z",
+      "last_published_at": "2026-11-09T01:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "businesspost.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
         "투자·생산"
       ],
       "event_keywords": [],
@@ -5047,11 +5143,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[쇼츠뉴스] 삼성전자· SK하이닉스 , 피크아웃 공포 넘을까?",
-          "url": "https://bigtanews.co.kr/article/view/big202611080004",
-          "source": "bigtanews.co.kr",
-          "source_domain": "bigtanews.co.kr",
-          "published_at": "2026-11-08T17:14:00+09:00",
+          "title": "TSMC 'D램 시장 진출' 가능성에 외신 회의적, \"삼성전자 SK하이닉스 와 협...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=451481",
+          "source": "businesspost.co.kr",
+          "source_domain": "businesspost.co.kr",
+          "published_at": "2026-11-09T10:24:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5059,15 +5155,15 @@
       ]
     },
     {
-      "cluster_id": "144bd83ef4eb7de1",
+      "cluster_id": "cb03a6e2c2c0651a",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "삼성· SK하이닉스 현금 329조…반도체 양강, 투자·주주환원 경쟁도 커진...",
-      "representative_url": "https://joongang.co.kr/article/25476717",
-      "representative_source": "joongang.co.kr",
+      "representative_title": "삼성전자· SK하이닉스 , 대미 로비 '헛발질'..백악관·민주당 사이 샌드위...",
+      "representative_url": "https://kpenews.com/View.aspx?No=4303117",
+      "representative_source": "kpenews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T07:22:00Z",
-      "last_published_at": "2026-11-08T07:22:00Z",
+      "first_published_at": "2026-11-09T01:08:00Z",
+      "last_published_at": "2026-11-09T01:08:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5075,31 +5171,77 @@
         "naver"
       ],
       "source_domains": [
-        "joongang.co.kr"
+        "kpenews.com"
       ],
       "categories": [
         "기술·제품",
         "투자·생산"
       ],
-      "event_keywords": [
-        " 329조",
-        "investment"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자· SK하이닉스 , 대미 로비 '헛발질'..백악관·민주당 사이 샌드위...",
+          "url": "https://kpenews.com/View.aspx?No=4303117",
+          "source": "kpenews.com",
+          "source_domain": "kpenews.com",
+          "published_at": "2026-11-09T10:08:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7b32abc1abc508ef",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "주성엔지니어링, ' SK하이닉스 Y1 Fab' 연말 본격 발주",
+      "representative_url": "https://newsfc.co.kr/news/articleView.html?idxno=82306",
+      "representative_source": "newsfc.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-09T01:04:00Z",
+      "last_published_at": "2026-11-09T01:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newsfc.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성· SK하이닉스 현금 329조…반도체 양강, 투자·주주환원 경쟁도 커진...",
-          "url": "https://joongang.co.kr/article/25476717",
-          "source": "joongang.co.kr",
-          "source_domain": "joongang.co.kr",
-          "published_at": "2026-11-08T16:22:00+09:00",
+          "title": "주성엔지니어링, ' SK하이닉스 Y1 Fab' 연말 본격 발주",
+          "url": "https://newsfc.co.kr/news/articleView.html?idxno=82306",
+          "source": "newsfc.co.kr",
+          "source_domain": "newsfc.co.kr",
+          "published_at": "2026-11-09T10:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5107,15 +5249,15 @@
       ]
     },
     {
-      "cluster_id": "b1eb3b52e9428828",
+      "cluster_id": "8926cfbd044852d6",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "美 민주당 약진에 삼성전자· SK하이닉스 긴장...반도체 투자 변수 부상",
-      "representative_url": "https://womentimes.co.kr/news/articleView.html?idxno=107695",
-      "representative_source": "womentimes.co.kr",
+      "representative_title": "TSMC 등에 업은 엔비디아..삼성· SK하이닉스 메모리 아성 흔들기",
+      "representative_url": "https://kpenews.com/View.aspx?No=4303098",
+      "representative_source": "kpenews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T05:30:00Z",
-      "last_published_at": "2026-11-08T05:30:00Z",
+      "first_published_at": "2026-11-09T00:34:00Z",
+      "last_published_at": "2026-11-09T00:34:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5123,54 +5265,7 @@
         "naver"
       ],
       "source_domains": [
-        "womentimes.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "美 민주당 약진에 삼성전자· SK하이닉스 긴장...반도체 투자 변수 부상",
-          "url": "https://womentimes.co.kr/news/articleView.html?idxno=107695",
-          "source": "womentimes.co.kr",
-          "source_domain": "womentimes.co.kr",
-          "published_at": "2026-11-08T14:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6d8d3927d46da808",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성· SK하이닉스 안방 넘보나 했더니… TSMC, 3D D램 진출설 선 그어",
-      "representative_url": "https://it.chosun.com/news/articleView.html?idxno=3000000000498",
-      "representative_source": "it.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-08T04:22:00Z",
-      "last_published_at": "2026-11-08T04:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "it.chosun.com"
+        "kpenews.com"
       ],
       "categories": [
         "기술·제품"
@@ -5185,11 +5280,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성· SK하이닉스 안방 넘보나 했더니… TSMC, 3D D램 진출설 선 그어",
-          "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000498",
-          "source": "it.chosun.com",
-          "source_domain": "it.chosun.com",
-          "published_at": "2026-11-08T13:22:00+09:00",
+          "title": "TSMC 등에 업은 엔비디아..삼성· SK하이닉스 메모리 아성 흔들기",
+          "url": "https://kpenews.com/View.aspx?No=4303098",
+          "source": "kpenews.com",
+          "source_domain": "kpenews.com",
+          "published_at": "2026-11-09T09:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5197,15 +5292,15 @@
       ]
     },
     {
-      "cluster_id": "a174323272f02f41",
+      "cluster_id": "a6a1cc3240673b2b",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "'블루 쓰나미'에 외국인 삼성· SK하이닉스 7.6조 팔아치워",
-      "representative_url": "https://newscj.com/news/articleView.html?idxno=3446851",
-      "representative_source": "newscj.com",
+      "representative_title": "SK하이닉스 ·삼성전자, '미주총괄에 기술통 전진 배치'... HBM 맞춤화로 인...",
+      "representative_url": "https://cwn.kr/news/articleView.html?idxno=61278",
+      "representative_source": "cwn.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-08T02:14:00Z",
-      "last_published_at": "2026-11-08T02:14:00Z",
+      "first_published_at": "2026-11-09T00:16:00Z",
+      "last_published_at": "2026-11-09T00:16:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5213,119 +5308,30 @@
         "naver"
       ],
       "source_domains": [
-        "newscj.com"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 6조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'블루 쓰나미'에 외국인 삼성· SK하이닉스 7.6조 팔아치워",
-          "url": "https://newscj.com/news/articleView.html?idxno=3446851",
-          "source": "newscj.com",
-          "source_domain": "newscj.com",
-          "published_at": "2026-11-08T11:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "31e7396b2f2e87d4",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 주가 왜 빠지나…\"2028년 우려까지 과도하게 선반...",
-      "representative_url": "https://newsis.com/view/NISX20261108_0003859211",
-      "representative_source": "newsis.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-08T02:10:00Z",
-      "last_published_at": "2026-11-08T02:10:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsis.com"
+        "cwn.kr"
       ],
       "categories": [
         "기술·제품",
-        "인사·M&A",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자· SK하이닉스 주가 왜 빠지나…\"2028년 우려까지 과도하게 선반...",
-          "url": "https://newsis.com/view/NISX20261108_0003859211",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-11-08T11:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c8abc2b7b321468f",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "외국인, 지난 한 주 삼성전자· SK하이닉스 '7.6조원' 매도",
-      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=216978",
-      "representative_source": "srtimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-08T02:02:00Z",
-      "last_published_at": "2026-11-08T02:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "srtimes.kr"
-      ],
-      "categories": [
-        "기타"
+        "인사·M&A"
       ],
       "event_keywords": [
-        " 6조"
+        "hbm"
       ],
-      "importance_score": 15,
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "외국인, 지난 한 주 삼성전자· SK하이닉스 '7.6조원' 매도",
-          "url": "https://srtimes.kr/news/articleView.html?idxno=216978",
-          "source": "srtimes.kr",
-          "source_domain": "srtimes.kr",
-          "published_at": "2026-11-08T11:02:00+09:00",
+          "title": "SK하이닉스 ·삼성전자, '미주총괄에 기술통 전진 배치'... HBM 맞춤화로 인...",
+          "url": "https://cwn.kr/news/articleView.html?idxno=61278",
+          "source": "cwn.kr",
+          "source_domain": "cwn.kr",
+          "published_at": "2026-11-09T09:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
