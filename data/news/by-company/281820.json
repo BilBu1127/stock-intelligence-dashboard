@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T04:37:00.608018Z",
+  "generated_at": "2026-11-10T18:40:05.818943Z",
   "company_name": "케이씨텍",
   "stock_code": "281820",
   "status": "partial",
-  "last_successful_update": "2026-11-10T04:37:00.608018Z",
+  "last_successful_update": "2026-11-10T18:40:05.818943Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -20,18 +20,25 @@
       "representative_source": "topstarnews.net",
       "representative_language": "Korean",
       "first_published_at": "2026-11-10T04:18:00Z",
-      "last_published_at": "2026-11-10T04:18:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "last_published_at": "2026-11-10T15:42:00Z",
+      "article_count": 5,
+      "domestic_article_count": 5,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "topstarnews.net"
+        "finomy.com",
+        "joseilbo.com",
+        "topstarnews.net",
+        "vegannews.co.kr",
+        "widedaily.com"
       ],
       "categories": [
-        "공급·규제"
+        "공급·규제",
+        "기술·제품",
+        "실적",
+        "투자·생산"
       ],
       "event_keywords": [
         " 211억",
@@ -48,11 +55,101 @@
       "needs_review": false,
       "articles": [
         {
+          "title": "케이씨텍 , 211억 장비 계약…SK하이닉스에 공급",
+          "url": "https://vegannews.co.kr/news/article.html?no=403281",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-11-11T00:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[특징주] 케이씨텍 , SK하이닉스에 211억 규모 장비 공급 소식에 12%대 '급...",
+          "url": "https://widedaily.com/news/articleView.html?idxno=303284",
+          "source": "widedaily.com",
+          "source_domain": "widedaily.com",
+          "published_at": "2026-11-10T15:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[공시] 케이씨텍 , SK하이닉스에 반도체 장비 211억원 공급",
+          "url": "https://finomy.com/news/articleView.html?idxno=266187",
+          "source": "finomy.com",
+          "source_domain": "finomy.com",
+          "published_at": "2026-11-10T15:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "케이씨텍 , SK하이닉스와 211억 반도체 장비 공급계약 [공시pick]",
+          "url": "https://joseilbo.com/news/news_read.php?class=17&grp=&uid=579324",
+          "source": "joseilbo.com",
+          "source_domain": "joseilbo.com",
+          "published_at": "2026-11-10T14:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
           "title": "케이씨텍 , 211억원 규모 SK하이닉스 반도체 제조 장비 공급 계약",
           "url": "https://topstarnews.net/news/articleView.html?idxno=16272838",
           "source": "topstarnews.net",
           "source_domain": "topstarnews.net",
           "published_at": "2026-11-10T13:18:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "783dac66009eb67a",
+      "company_name": "케이씨텍",
+      "stock_code": "281820",
+      "representative_title": "AI·HBM 투자 확대에 반도체 소재株 들썩…엘티씨· 케이씨텍 폭풍매수",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=502760",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T06:06:00Z",
+      "last_published_at": "2026-11-10T06:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "hbm",
+        "investment"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "AI·HBM 투자 확대에 반도체 소재株 들썩…엘티씨· 케이씨텍 폭풍매수",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=502760",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-11-10T15:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T04:37:00.608018Z",
+  "generated_at": "2026-11-10T18:40:05.818943Z",
   "company_name": "이수페타시스",
   "stock_code": "007660",
   "status": "partial",
-  "last_successful_update": "2026-11-10T04:37:00.608018Z",
+  "last_successful_update": "2026-11-10T18:40:05.818943Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -646,6 +646,49 @@
       ]
     },
     {
+      "cluster_id": "0ab38810cdcd8989",
+      "company_name": "이수페타시스",
+      "stock_code": "007660",
+      "representative_title": "이수페타시스 68,900원…거래대금 30,138백만원",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=237636",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T06:16:00Z",
+      "last_published_at": "2026-11-10T06:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "이수페타시스 68,900원…거래대금 30,138백만원",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=237636",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-10T15:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "f12ca23ead15a5bf",
       "company_name": "이수페타시스",
       "stock_code": "007660",
@@ -1039,54 +1082,6 @@
           "source": "news.skbroadband.com",
           "source_domain": "news.skbroadband.com",
           "published_at": "2026-11-03T18:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9fce27ad6a79b93b",
-      "company_name": "이수페타시스",
-      "stock_code": "007660",
-      "representative_title": "이수페타시스 증설 발 맞춰…‘투자 규제’ 손질하는 대구",
-      "representative_url": "https://sedaily.com/article/20109769",
-      "representative_source": "sedaily.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T08:33:00Z",
-      "last_published_at": "2026-11-03T08:33:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sedaily.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment",
-        "regulation"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "이수페타시스 증설 발 맞춰…‘투자 규제’ 손질하는 대구",
-          "url": "https://sedaily.com/article/20109769",
-          "source": "sedaily.com",
-          "source_domain": "sedaily.com",
-          "published_at": "2026-11-03T17:33:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
