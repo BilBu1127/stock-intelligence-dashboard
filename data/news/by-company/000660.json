@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-09T21:26:04.165729Z",
+  "generated_at": "2026-11-10T04:37:00.608018Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-11-09T21:26:04.165729Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-10T04:37:00.608018Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "208656f607bdc6cb",
@@ -4833,15 +4838,15 @@
       ]
     },
     {
-      "cluster_id": "cd147f4ff04f0679",
+      "cluster_id": "42357f2026f0534d",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "“AI 서버용 낸드만 잘 팔린다”… 삼성전자·키옥시아· SK하이닉스 엇갈...",
-      "representative_url": "https://biz.chosun.com/it-science/ict/2026/11/10/CG2AAGKUS5HUNC6BUCFBSV5CII",
-      "representative_source": "biz.chosun.com",
+      "representative_title": "모간스탠리, 삼성전자· SK하이닉스 목표가 하향…“2028년 공급 확대 부...",
+      "representative_url": "https://sateconomy.co.kr/news/view/1065580782064863",
+      "representative_source": "sateconomy.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T21:01:00Z",
-      "last_published_at": "2026-11-09T21:01:00Z",
+      "first_published_at": "2026-11-10T04:30:00Z",
+      "last_published_at": "2026-11-10T04:30:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4849,29 +4854,32 @@
         "naver"
       ],
       "source_domains": [
-        "biz.chosun.com"
+        "sateconomy.co.kr"
       ],
       "categories": [
         "공급·규제",
-        "기술·제품"
+        "기술·제품",
+        "실적",
+        "투자·생산"
       ],
       "event_keywords": [
-        "nand"
+        "supply"
       ],
-      "importance_score": 15,
+      "importance_score": 30,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "“AI 서버용 낸드만 잘 팔린다”… 삼성전자·키옥시아· SK하이닉스 엇갈...",
-          "url": "https://biz.chosun.com/it-science/ict/2026/11/10/CG2AAGKUS5HUNC6BUCFBSV5CII",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-11-10T06:01:00+09:00",
+          "title": "모간스탠리, 삼성전자· SK하이닉스 목표가 하향…“2028년 공급 확대 부...",
+          "url": "https://sateconomy.co.kr/news/view/1065580782064863",
+          "source": "sateconomy.co.kr",
+          "source_domain": "sateconomy.co.kr",
+          "published_at": "2026-11-10T13:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4879,15 +4887,15 @@
       ]
     },
     {
-      "cluster_id": "3f4f6353d93f80c9",
+      "cluster_id": "8489c82d5ae0fa31",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , 美반도체 사업에 기술 전문가 전면 배치",
-      "representative_url": "https://kjdaily.com/article.php?aid=1794238238691626276",
-      "representative_source": "kjdaily.com",
+      "representative_title": "삼성전자· SK하이닉스 에 개미 집중…소액주주 1천585만명 늘었다",
+      "representative_url": "https://newsway.co.kr/news/view?ud=2026111011214911074",
+      "representative_source": "newsway.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T15:32:00Z",
-      "last_published_at": "2026-11-09T15:32:00Z",
+      "first_published_at": "2026-11-10T04:26:00Z",
+      "last_published_at": "2026-11-10T04:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4895,10 +4903,10 @@
         "naver"
       ],
       "source_domains": [
-        "kjdaily.com"
+        "newsway.co.kr"
       ],
       "categories": [
-        "기술·제품"
+        "주가·투자의견"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -4910,11 +4918,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 , 美반도체 사업에 기술 전문가 전면 배치",
-          "url": "https://kjdaily.com/article.php?aid=1794238238691626276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-11-10T00:32:00+09:00",
+          "title": "삼성전자· SK하이닉스 에 개미 집중…소액주주 1천585만명 늘었다",
+          "url": "https://newsway.co.kr/news/view?ud=2026111011214911074",
+          "source": "newsway.co.kr",
+          "source_domain": "newsway.co.kr",
+          "published_at": "2026-11-10T13:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4922,15 +4930,15 @@
       ]
     },
     {
-      "cluster_id": "f5243aff68a7f252",
+      "cluster_id": "a5e69bd5c0005014",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "\"주식 열공하는데 왜 나만 잃을까\"… SK하이닉스 250층 물린 8년 차 개미...",
-      "representative_url": "https://newsis.com/view/NISX20261109_0003860729",
-      "representative_source": "newsis.com",
+      "representative_title": "케이씨텍, 211억원 규모 SK하이닉스 반도체 제조 장비 공급 계약",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16272838",
+      "representative_source": "topstarnews.net",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T15:00:00Z",
-      "last_published_at": "2026-11-09T15:00:00Z",
+      "first_published_at": "2026-11-10T04:18:00Z",
+      "last_published_at": "2026-11-10T04:18:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4938,100 +4946,13 @@
         "naver"
       ],
       "source_domains": [
-        "newsis.com"
+        "topstarnews.net"
       ],
       "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"주식 열공하는데 왜 나만 잃을까\"… SK하이닉스 250층 물린 8년 차 개미...",
-          "url": "https://newsis.com/view/NISX20261109_0003860729",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-11-10T00:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6d45faf6d750e5f1",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 , 엔비디아 AI로 반도체 식각·열변형 시뮬레이션 속도 30배↑",
-      "representative_url": "https://newstopkorea.com/news/articleView.html?idxno=48896",
-      "representative_source": "newstopkorea.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T11:44:00Z",
-      "last_published_at": "2026-11-09T11:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newstopkorea.com"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 , 엔비디아 AI로 반도체 식각·열변형 시뮬레이션 속도 30배↑",
-          "url": "https://newstopkorea.com/news/articleView.html?idxno=48896",
-          "source": "newstopkorea.com",
-          "source_domain": "newstopkorea.com",
-          "published_at": "2026-11-09T20:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6e7c0dc8936507f6",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "젠슨 황 리스크, 삼성· SK하이닉스 까지 번지나… HBM 공급망 촉각",
-      "representative_url": "https://pointdaily.co.kr/news/articleView.html?idxno=325353",
-      "representative_source": "pointdaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T09:14:00Z",
-      "last_published_at": "2026-11-09T09:14:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pointdaily.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
+        "공급·규제"
       ],
       "event_keywords": [
-        "hbm",
+        " 211억",
         "supply"
       ],
       "importance_score": 35,
@@ -5045,11 +4966,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "젠슨 황 리스크, 삼성· SK하이닉스 까지 번지나… HBM 공급망 촉각",
-          "url": "https://pointdaily.co.kr/news/articleView.html?idxno=325353",
-          "source": "pointdaily.co.kr",
-          "source_domain": "pointdaily.co.kr",
-          "published_at": "2026-11-09T18:14:00+09:00",
+          "title": "케이씨텍, 211억원 규모 SK하이닉스 반도체 제조 장비 공급 계약",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16272838",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-11-10T13:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5057,15 +4978,15 @@
       ]
     },
     {
-      "cluster_id": "9cb72dcd795aaa52",
+      "cluster_id": "181c61b5aee92b44",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "[블루웨이브 청구서②] 삼성전자· SK하이닉스 , 미국 AI 데이터센터 규제...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=451535",
-      "representative_source": "businesspost.co.kr",
+      "representative_title": "모건스탠리, 삼성전자 목표가 19%, SK하이닉스 38% 하향조정...2028년 반도...",
+      "representative_url": "https://beyondpost.co.kr/view.php?ud=202611101309234542aaae0046f_30",
+      "representative_source": "beyondpost.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T08:42:00Z",
-      "last_published_at": "2026-11-09T08:42:00Z",
+      "first_published_at": "2026-11-10T04:14:00Z",
+      "last_published_at": "2026-11-10T04:14:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5073,30 +4994,29 @@
         "naver"
       ],
       "source_domains": [
-        "businesspost.co.kr"
+        "beyondpost.co.kr"
       ],
       "categories": [
         "공급·규제",
-        "기술·제품"
+        "기술·제품",
+        "실적",
+        "투자·생산"
       ],
-      "event_keywords": [
-        "regulation"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "[블루웨이브 청구서②] 삼성전자· SK하이닉스 , 미국 AI 데이터센터 규제...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=451535",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-11-09T17:42:00+09:00",
+          "title": "모건스탠리, 삼성전자 목표가 19%, SK하이닉스 38% 하향조정...2028년 반도...",
+          "url": "https://beyondpost.co.kr/view.php?ud=202611101309234542aaae0046f_30",
+          "source": "beyondpost.co.kr",
+          "source_domain": "beyondpost.co.kr",
+          "published_at": "2026-11-10T13:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5104,15 +5024,15 @@
       ]
     },
     {
-      "cluster_id": "6285a6666ab21049",
+      "cluster_id": "a5d0eada5a5718fa",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "'반도체 깐부' 젠슨 황 공작 의혹…삼성· SK하이닉스 협력 영향 우려",
-      "representative_url": "https://kado.net/news/articleView.html?idxno=2083595",
-      "representative_source": "kado.net",
+      "representative_title": "SK하이닉스 ·삼성전자 5~7% 급등에도 22% 거래 감소",
+      "representative_url": "https://kjdaily.com/article.php?aid=1794282603691766276",
+      "representative_source": "kjdaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T07:26:00Z",
-      "last_published_at": "2026-11-09T07:26:00Z",
+      "first_published_at": "2026-11-10T03:52:00Z",
+      "last_published_at": "2026-11-10T03:52:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5120,149 +5040,147 @@
         "naver"
       ],
       "source_domains": [
-        "kado.net"
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자 5~7% 급등에도 22% 거래 감소",
+          "url": "https://kjdaily.com/article.php?aid=1794282603691766276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-10T12:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b9197f917bf6719b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 ·삼성전자, 동반 급등...아시아 반도체 대반격 시작",
+      "representative_url": "https://coinreaders.com/268910",
+      "representative_source": "coinreaders.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T03:32:00Z",
+      "last_published_at": "2026-11-10T03:32:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "coinreaders.com"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·삼성전자, 동반 급등...아시아 반도체 대반격 시작",
+          "url": "https://coinreaders.com/268910",
+          "source": "coinreaders.com",
+          "source_domain": "coinreaders.com",
+          "published_at": "2026-11-10T12:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d9df18fb03df28a1",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 세금만 2조 육박…이천시 곳간의 변화",
+      "representative_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443967",
+      "representative_source": "news.einfomax.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T03:24:00Z",
+      "last_published_at": "2026-11-10T03:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news.einfomax.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [
+        " 2조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 세금만 2조 육박…이천시 곳간의 변화",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443967",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-11-10T12:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8fe312e28e546399",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 사장단 이어 후속 인사 다가온다…조직 재정비 속도",
+      "representative_url": "https://press9.kr/news/articleView.html?idxno=85940",
+      "representative_source": "press9.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T03:00:00Z",
+      "last_published_at": "2026-11-10T03:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "press9.kr"
       ],
       "categories": [
         "기술·제품",
         "인사·M&A"
       ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'반도체 깐부' 젠슨 황 공작 의혹…삼성· SK하이닉스 협력 영향 우려",
-          "url": "https://kado.net/news/articleView.html?idxno=2083595",
-          "source": "kado.net",
-          "source_domain": "kado.net",
-          "published_at": "2026-11-09T16:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4f63a1b3bb6909ad",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "HBM 수주전, 설계 단계로 앞당겨져… SK하이닉스 ·삼성전자 미주에 개발...",
-      "representative_url": "https://smarttimes.co.kr/news/articleView.html?idxno=50427",
-      "representative_source": "smarttimes.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T02:30:00Z",
-      "last_published_at": "2026-11-09T02:30:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "smarttimes.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적"
-      ],
       "event_keywords": [
-        "hbm"
-      ],
-      "importance_score": 20,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HBM 수주전, 설계 단계로 앞당겨져… SK하이닉스 ·삼성전자 미주에 개발...",
-          "url": "https://smarttimes.co.kr/news/articleView.html?idxno=50427",
-          "source": "smarttimes.co.kr",
-          "source_domain": "smarttimes.co.kr",
-          "published_at": "2026-11-09T11:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5885d84fdd8d2502",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "테슬라·스페이스X '테라팹' 건설 본격화⋯삼성. SK하이닉스 영향",
-      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=601904",
-      "representative_source": "autodaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T02:14:00Z",
-      "last_published_at": "2026-11-09T02:14:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "autodaily.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "테슬라·스페이스X '테라팹' 건설 본격화⋯삼성. SK하이닉스 영향",
-          "url": "https://autodaily.co.kr/news/articleView.html?idxno=601904",
-          "source": "autodaily.co.kr",
-          "source_domain": "autodaily.co.kr",
-          "published_at": "2026-11-09T11:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f4d755c37bbd5d7a",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "[특징주] 삼성전자 2%· SK하이닉스 3% 반등⋯AI 규제 우려 덜었나",
-      "representative_url": "https://inews24.com/view/2023984",
-      "representative_source": "inews24.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T02:11:00Z",
-      "last_published_at": "2026-11-09T02:11:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "inews24.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "regulation"
+        "personnel"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -5274,11 +5192,107 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[특징주] 삼성전자 2%· SK하이닉스 3% 반등⋯AI 규제 우려 덜었나",
-          "url": "https://inews24.com/view/2023984",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-11-09T11:11:00+09:00",
+          "title": "SK하이닉스 , 사장단 이어 후속 인사 다가온다…조직 재정비 속도",
+          "url": "https://press9.kr/news/articleView.html?idxno=85940",
+          "source": "press9.kr",
+          "source_domain": "press9.kr",
+          "published_at": "2026-11-10T12:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "44d719cce8c1052b",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼성전자· SK하이닉스 , 실적 전망 올렸는데 목표가는 하향…모건스탠리...",
+      "representative_url": "https://kizmom.com/news/articleView.html?idxno=113867",
+      "representative_source": "kizmom.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T02:37:00Z",
+      "last_published_at": "2026-11-10T02:37:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kizmom.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자· SK하이닉스 , 실적 전망 올렸는데 목표가는 하향…모건스탠리...",
+          "url": "https://kizmom.com/news/articleView.html?idxno=113867",
+          "source": "kizmom.com",
+          "source_domain": "kizmom.com",
+          "published_at": "2026-11-10T11:37:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f2036f9e6afe5f71",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "“ SK하이닉스 , 메모리 가격 하락해도 2029년 영업이익 290조 원”",
+      "representative_url": "https://weekly.donga.com/3/all/11/6453475/1",
+      "representative_source": "weekly.donga.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-10T01:38:00Z",
+      "last_published_at": "2026-11-10T01:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "weekly.donga.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 290조",
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "“ SK하이닉스 , 메모리 가격 하락해도 2029년 영업이익 290조 원”",
+          "url": "https://weekly.donga.com/3/all/11/6453475/1",
+          "source": "weekly.donga.com",
+          "source_domain": "weekly.donga.com",
+          "published_at": "2026-11-10T10:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
