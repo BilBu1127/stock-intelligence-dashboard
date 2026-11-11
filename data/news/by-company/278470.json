@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11T02:46:14.378156Z",
+  "generated_at": "2026-11-11T18:41:28.088202Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-11-11T02:46:14.378156Z",
+  "last_successful_update": "2026-11-11T18:41:28.088202Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -4667,68 +4667,24 @@
       ]
     },
     {
-      "cluster_id": "713658b2261c8fcc",
+      "cluster_id": "c47ced136769a0d7",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "고점 대비 45% 하락 에이피알 …\"K뷰티 트렌드 계속\" [클릭 e종목]",
-      "representative_url": "https://view.asiae.co.kr/article/2026111017464655317",
-      "representative_source": "view.asiae.co.kr",
+      "representative_title": "에이피알 , '불성실공시법인' 지정…공시위반제재금 800만원 부과",
+      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=217341",
+      "representative_source": "srtimes.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-10T22:05:00Z",
-      "last_published_at": "2026-11-10T22:05:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-11-11T08:02:00Z",
+      "last_published_at": "2026-11-11T09:52:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "고점 대비 45% 하락 에이피알 …\"K뷰티 트렌드 계속\" [클릭 e종목]",
-          "url": "https://view.asiae.co.kr/article/2026111017464655317",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-11-11T07:05:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "8315b46147067303",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "아모레 '확장'·LG생건 '재편'· 에이피알 '질주'…K뷰티 3사, 성장 공식...",
-      "representative_url": "https://peoplewatch.co.kr/article/view/ppw202611090017",
-      "representative_source": "peoplewatch.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T22:02:00Z",
-      "last_published_at": "2026-11-09T22:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "peoplewatch.co.kr"
+        "inews24.com",
+        "srtimes.kr"
       ],
       "categories": [
         "실적"
@@ -4740,14 +4696,24 @@
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "아모레 '확장'·LG생건 '재편'· 에이피알 '질주'…K뷰티 3사, 성장 공식...",
-          "url": "https://peoplewatch.co.kr/article/view/ppw202611090017",
-          "source": "peoplewatch.co.kr",
-          "source_domain": "peoplewatch.co.kr",
-          "published_at": "2026-11-10T07:02:00+09:00",
+          "title": "에이피알 , 불성실공시법인 지정⋯제재금 800만원",
+          "url": "https://inews24.com/view/2025217",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-11-11T18:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , '불성실공시법인' 지정…공시위반제재금 800만원 부과",
+          "url": "https://srtimes.kr/news/articleView.html?idxno=217341",
+          "source": "srtimes.kr",
+          "source_domain": "srtimes.kr",
+          "published_at": "2026-11-11T17:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4755,47 +4721,132 @@
       ]
     },
     {
-      "cluster_id": "b76f34da1e5fadac",
+      "cluster_id": "372bd33d972c9295",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "K-뷰티 수출 ‘사상 최대’인데 실적 희비…아모레· 에이피알 웃고 LG생...",
-      "representative_url": "https://mydaily.co.kr/page/view/2026110916464107147",
-      "representative_source": "mydaily.co.kr",
+      "representative_title": "에이피알 메디큐브, 밀라노 ‘라 리나센테’ 팝업 참가",
+      "representative_url": "https://socialvalue.kr/news/view/1065597412919754",
+      "representative_source": "socialvalue.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T07:48:00Z",
-      "last_published_at": "2026-11-09T07:48:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
+      "first_published_at": "2026-11-11T07:22:00Z",
+      "last_published_at": "2026-11-11T09:06:00Z",
+      "article_count": 9,
+      "domestic_article_count": 9,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "mydaily.co.kr"
+        "beyondpost.co.kr",
+        "businesskorea.co.kr",
+        "edaily.co.kr",
+        "gokorea.kr",
+        "ksilbo.co.kr",
+        "sisunnews.co.kr",
+        "socialvalue.kr",
+        "thefirstmedia.net",
+        "thepublic.kr"
       ],
       "categories": [
-        "공급·규제",
-        "실적"
+        "기술·제품",
+        "기타",
+        "인사·M&A"
       ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 35,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
-      "needs_review": false,
+      "needs_review": true,
       "articles": [
         {
-          "title": "K-뷰티 수출 ‘사상 최대’인데 실적 희비…아모레· 에이피알 웃고 LG생...",
-          "url": "https://mydaily.co.kr/page/view/2026110916464107147",
-          "source": "mydaily.co.kr",
-          "source_domain": "mydaily.co.kr",
-          "published_at": "2026-11-09T16:48:00+09:00",
+          "title": "에이피알 메디큐브, 이탈리아 밀라노 ‘라 리나센테’ 팝업으로 유럽 뷰...",
+          "url": "https://beyondpost.co.kr/view.php?ud=2026111116344777909aeda69934_30",
+          "source": "beyondpost.co.kr",
+          "source_domain": "beyondpost.co.kr",
+          "published_at": "2026-11-11T18:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 이탈리아 백화점 '라 리나센테' 팝업 행사 마쳐",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=326192",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-11-11T17:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브 이탈리아 밀라노 라 리나센테 팝업 참가",
+          "url": "https://thefirstmedia.net/news/articleView.html?idxno=213363",
+          "source": "thefirstmedia.net",
+          "source_domain": "thefirstmedia.net",
+          "published_at": "2026-11-11T16:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 이탈리아 밀라노 ‘라 리나센테’서 K뷰티 팝업 성...",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05277526645644736",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-11-11T16:57:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 이탈리아 '라 리나센테' 팝업 참가… 온·오프라인...",
+          "url": "https://gokorea.kr/news/articleView.html?idxno=885172",
+          "source": "gokorea.kr",
+          "source_domain": "gokorea.kr",
+          "published_at": "2026-11-11T16:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 밀라노 '라 리나센테' 팝업 진행",
+          "url": "https://ksilbo.co.kr/news/articleView.html?idxno=1072223",
+          "source": "ksilbo.co.kr",
+          "source_domain": "ksilbo.co.kr",
+          "published_at": "2026-11-11T16:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 이탈리아 백화점 '라 리나센테' K뷰티 팝업 성료",
+          "url": "https://businesskorea.co.kr/news/articleView.html?idxno=281044",
+          "source": "businesskorea.co.kr",
+          "source_domain": "businesskorea.co.kr",
+          "published_at": "2026-11-11T16:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 이탈리아 밀라노 '라 리나센테' K뷰티 팝업 참가......",
+          "url": "https://sisunnews.co.kr/news/articleView.html?idxno=249512",
+          "source": "sisunnews.co.kr",
+          "source_domain": "sisunnews.co.kr",
+          "published_at": "2026-11-11T16:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 메디큐브, 밀라노 ‘라 리나센테’ 팝업 참가",
+          "url": "https://socialvalue.kr/news/view/1065597412919754",
+          "source": "socialvalue.kr",
+          "source_domain": "socialvalue.kr",
+          "published_at": "2026-11-11T16:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4803,15 +4854,15 @@
       ]
     },
     {
-      "cluster_id": "0b5305ea5465842a",
+      "cluster_id": "236d190f4c0f34bf",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "[특징주] 에이피알 , 원화 강세에 따른 수익성 감소 우려…4%대 하락",
-      "representative_url": "https://ajunews.com/view/20261109101551783",
-      "representative_source": "ajunews.com",
+      "representative_title": "에이피알 , 글로벌 사업 확대에 마케팅 인력 확충 나선다…국내외 특별채...",
+      "representative_url": "https://ziksir.com/news/articleView.html?idxno=152978",
+      "representative_source": "ziksir.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-09T01:22:00Z",
-      "last_published_at": "2026-11-09T01:22:00Z",
+      "first_published_at": "2026-11-11T08:44:00Z",
+      "last_published_at": "2026-11-11T08:44:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4819,7 +4870,7 @@
         "naver"
       ],
       "source_domains": [
-        "ajunews.com"
+        "ziksir.com"
       ],
       "categories": [
         "기타"
@@ -4834,11 +4885,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[특징주] 에이피알 , 원화 강세에 따른 수익성 감소 우려…4%대 하락",
-          "url": "https://ajunews.com/view/20261109101551783",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-11-09T10:22:00+09:00",
+          "title": "에이피알 , 글로벌 사업 확대에 마케팅 인력 확충 나선다…국내외 특별채...",
+          "url": "https://ziksir.com/news/articleView.html?idxno=152978",
+          "source": "ziksir.com",
+          "source_domain": "ziksir.com",
+          "published_at": "2026-11-11T17:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4846,15 +4897,15 @@
       ]
     },
     {
-      "cluster_id": "5ff3c849be4aa299",
+      "cluster_id": "2a7489dd88e4a6ed",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "\"K뷰티도 먹구름\"…LG생건· 에이피알 목표가 '10~17%↓[종목이슈]",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01085686645643424",
-      "representative_source": "edaily.co.kr",
+      "representative_title": "에이피알 , 메디큐브 이탈리아 ‘라 리나센테’ 팝업 마무리…유럽 공략...",
+      "representative_url": "https://segyebiz.com/newsView/20261111517160?OutUrl=naver",
+      "representative_source": "segyebiz.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-06T15:02:00Z",
-      "last_published_at": "2026-11-06T15:02:00Z",
+      "first_published_at": "2026-11-11T08:36:00Z",
+      "last_published_at": "2026-11-11T08:36:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4862,234 +4913,7 @@
         "naver"
       ],
       "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\"K뷰티도 먹구름\"…LG생건· 에이피알 목표가 '10~17%↓[종목이슈]",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01085686645643424",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-11-07T00:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6d844dc7ef468c9c",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "주가로 읽는 K-뷰티: 에이피알 등 성장주 급락...외국인 매수세 지속",
-      "representative_url": "https://thebk.co.kr/news/articleView.html?idxno=312713",
-      "representative_source": "thebk.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-06T10:34:00Z",
-      "last_published_at": "2026-11-06T10:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "thebk.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "주가로 읽는 K-뷰티: 에이피알 등 성장주 급락...외국인 매수세 지속",
-          "url": "https://thebk.co.kr/news/articleView.html?idxno=312713",
-          "source": "thebk.co.kr",
-          "source_domain": "thebk.co.kr",
-          "published_at": "2026-11-06T19:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "839ef46528cd0de5",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "막내가 형님들 제쳤다… 에이피알 , 3분기 영업이익 아모레ㆍLG생건 뷰티...",
-      "representative_url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202611051118399950782",
-      "representative_source": "dnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T21:00:00Z",
-      "last_published_at": "2026-11-05T21:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "dnews.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "막내가 형님들 제쳤다… 에이피알 , 3분기 영업이익 아모레ㆍLG생건 뷰티...",
-          "url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202611051118399950782",
-          "source": "dnews.co.kr",
-          "source_domain": "dnews.co.kr",
-          "published_at": "2026-11-06T06:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4e208642b140e073",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "[2026 3Q 실적] K뷰티 실적 희비…아모레·LG생건· 에이피알 '3색 전략'",
-      "representative_url": "https://sports.hankooki.com/news/articleView.html?idxno=6942965",
-      "representative_source": "sports.hankooki.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T07:24:00Z",
-      "last_published_at": "2026-11-05T07:24:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sports.hankooki.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "2026",
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[2026 3Q 실적] K뷰티 실적 희비…아모레·LG생건· 에이피알 '3색 전략'",
-          "url": "https://sports.hankooki.com/news/articleView.html?idxno=6942965",
-          "source": "sports.hankooki.com",
-          "source_domain": "sports.hankooki.com",
-          "published_at": "2026-11-05T16:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f77b31518de83e24",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "'분기 매출 1조' 눈앞인데…'해외 비중 94%' 에이피알 의 딜레마",
-      "representative_url": "https://ebn.co.kr/news/articleView.html?idxno=1730570",
-      "representative_source": "ebn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T02:02:00Z",
-      "last_published_at": "2026-11-05T02:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ebn.co.kr"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        " 1조",
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "'분기 매출 1조' 눈앞인데…'해외 비중 94%' 에이피알 의 딜레마",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1730570",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-11-05T11:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "01b53d754fb8c163",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 '메디큐브', 캐나다 드럭스토어 '샤퍼스' 1300개 매장 입점",
-      "representative_url": "https://apparelnews.co.kr/news/news_view?idx=228764",
-      "representative_source": "apparelnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-05T00:34:00Z",
-      "last_published_at": "2026-11-05T00:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "apparelnews.co.kr"
+        "segyebiz.com"
       ],
       "categories": [
         "인사·M&A"
@@ -5104,11 +4928,295 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 '메디큐브', 캐나다 드럭스토어 '샤퍼스' 1300개 매장 입점",
-          "url": "https://apparelnews.co.kr/news/news_view?idx=228764",
-          "source": "apparelnews.co.kr",
-          "source_domain": "apparelnews.co.kr",
-          "published_at": "2026-11-05T09:34:00+09:00",
+          "title": "에이피알 , 메디큐브 이탈리아 ‘라 리나센테’ 팝업 마무리…유럽 공략...",
+          "url": "https://segyebiz.com/newsView/20261111517160?OutUrl=naver",
+          "source": "segyebiz.com",
+          "source_domain": "segyebiz.com",
+          "published_at": "2026-11-11T17:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6a4110ae60ca7d79",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 해외사업 확대 맞춰 마케팅 인재 채용...미국·유럽 중심 인력...",
+      "representative_url": "https://globalepic.co.kr/view.php?ud=2026111116565020609aeda69934_29",
+      "representative_source": "globalepic.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T08:28:00Z",
+      "last_published_at": "2026-11-11T08:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "globalepic.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 해외사업 확대 맞춰 마케팅 인재 채용...미국·유럽 중심 인력...",
+          "url": "https://globalepic.co.kr/view.php?ud=2026111116565020609aeda69934_29",
+          "source": "globalepic.co.kr",
+          "source_domain": "globalepic.co.kr",
+          "published_at": "2026-11-11T17:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "861e4a2ab666f70a",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 메디큐브 글로벌 성장 대응 마케팅 특별채용...신입·경력 동...",
+      "representative_url": "https://thebigdata.co.kr/view.php?ud=2026111116580337429aeda69934_23",
+      "representative_source": "thebigdata.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T08:28:00Z",
+      "last_published_at": "2026-11-11T08:28:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thebigdata.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 메디큐브 글로벌 성장 대응 마케팅 특별채용...신입·경력 동...",
+          "url": "https://thebigdata.co.kr/view.php?ud=2026111116580337429aeda69934_23",
+          "source": "thebigdata.co.kr",
+          "source_domain": "thebigdata.co.kr",
+          "published_at": "2026-11-11T17:28:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ee04add52f17abe4",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 글로벌 사업 확장 맞춰 마케팅 직군 특별채용",
+      "representative_url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491280",
+      "representative_source": "enewstoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T08:16:00Z",
+      "last_published_at": "2026-11-11T08:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "enewstoday.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 글로벌 사업 확장 맞춰 마케팅 직군 특별채용",
+          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491280",
+          "source": "enewstoday.co.kr",
+          "source_domain": "enewstoday.co.kr",
+          "published_at": "2026-11-11T17:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e365dbafa291e348",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 글로벌 마케팅 직군 대규모 특별채용",
+      "representative_url": "https://abcn.kr/news/articleView.html?idxno=94392",
+      "representative_source": "abcn.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T08:12:00Z",
+      "last_published_at": "2026-11-11T08:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "abcn.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 글로벌 마케팅 직군 대규모 특별채용",
+          "url": "https://abcn.kr/news/articleView.html?idxno=94392",
+          "source": "abcn.kr",
+          "source_domain": "abcn.kr",
+          "published_at": "2026-11-11T17:12:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "be10a7691c1ab71b",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 국내외 마케팅 인재 특별채용",
+      "representative_url": "https://kbsm.net/news/view.php?idx=541393",
+      "representative_source": "kbsm.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T07:52:00Z",
+      "last_published_at": "2026-11-11T08:06:00Z",
+      "article_count": 3,
+      "domestic_article_count": 3,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "babytimes.co.kr",
+        "fashionbiz.co.kr",
+        "kbsm.net"
+      ],
+      "categories": [
+        "기타",
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "에이피알 , 국내외 마케팅 인재 특별 채용 진행",
+          "url": "https://fashionbiz.co.kr/article/231020",
+          "source": "fashionbiz.co.kr",
+          "source_domain": "fashionbiz.co.kr",
+          "published_at": "2026-11-11T17:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 국내외 마케팅 부문 특별 채용 진행",
+          "url": "https://babytimes.co.kr/news/articleView.html?idxno=74640",
+          "source": "babytimes.co.kr",
+          "source_domain": "babytimes.co.kr",
+          "published_at": "2026-11-11T17:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "에이피알 , 국내외 마케팅 인재 특별채용",
+          "url": "https://kbsm.net/news/view.php?idx=541393",
+          "source": "kbsm.net",
+          "source_domain": "kbsm.net",
+          "published_at": "2026-11-11T16:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a12b2144db15562b",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 미국·유럽·일본 등 국내외 마케팅 인재 특별채용",
+      "representative_url": "https://handmk.com/news/articleView.html?idxno=44984",
+      "representative_source": "handmk.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-11T08:06:00Z",
+      "last_published_at": "2026-11-11T08:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "handmk.com"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 25,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 미국·유럽·일본 등 국내외 마케팅 인재 특별채용",
+          "url": "https://handmk.com/news/articleView.html?idxno=44984",
+          "source": "handmk.com",
+          "source_domain": "handmk.com",
+          "published_at": "2026-11-11T17:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
