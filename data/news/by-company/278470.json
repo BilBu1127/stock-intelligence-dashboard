@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-12T03:48:05.817681Z",
+  "generated_at": "2026-11-12T18:54:34.902290Z",
   "company_name": "에이피알",
   "stock_code": "278470",
   "status": "partial",
-  "last_successful_update": "2026-11-12T03:48:05.817681Z",
+  "last_successful_update": "2026-11-12T18:54:34.902290Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -4667,39 +4667,76 @@
       ]
     },
     {
-      "cluster_id": "89abfca88ecd8b3c",
+      "cluster_id": "188e7b398225990d",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "에이피알 , 에이지알 앱 글로벌 다운로드 250만건…90개국 이용",
-      "representative_url": "https://yna.co.kr/view/AKR20261112084000030?input=1195m",
-      "representative_source": "yna.co.kr",
+      "representative_title": "에이피알 , 호실적에도 웃지 못하는 이유",
+      "representative_url": "https://sisaweek.com/news/articleView.html?idxno=238954",
+      "representative_source": "sisaweek.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:28:00Z",
-      "last_published_at": "2026-11-12T02:42:00Z",
-      "article_count": 17,
-      "domestic_article_count": 17,
+      "first_published_at": "2026-11-12T09:00:00Z",
+      "last_published_at": "2026-11-12T09:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "apparelnews.co.kr",
-        "beyondpost.co.kr",
-        "businessplus.kr",
-        "cstimes.com",
-        "daily.hankooki.com",
-        "finomy.com",
-        "fnnews.com",
-        "industrynews.co.kr",
-        "kpanews.co.kr",
-        "lawissue.co.kr",
-        "m-i.kr",
-        "mhj21.com",
-        "news.tf.co.kr",
-        "news1.kr",
-        "sportschosun.com",
-        "thetracker.co.kr",
-        "yna.co.kr"
+        "sisaweek.com"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 호실적에도 웃지 못하는 이유",
+          "url": "https://sisaweek.com/news/articleView.html?idxno=238954",
+          "source": "sisaweek.com",
+          "source_domain": "sisaweek.com",
+          "published_at": "2026-11-12T18:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4b2056da59aed659",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 에이지알 앱, 글로벌 다운로드 250만 건 기록",
+      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=211268",
+      "representative_source": "lcnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T04:00:00Z",
+      "last_published_at": "2026-11-12T08:39:00Z",
+      "article_count": 7,
+      "domestic_article_count": 7,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cnbnews.com",
+        "ktnews.com",
+        "lcnews.co.kr",
+        "news2day.co.kr",
+        "seoultimes.news",
+        "sisacast.kr",
+        "viva100.com"
       ],
       "categories": [
         "기술·제품",
@@ -4707,181 +4744,80 @@
         "인사·M&A"
       ],
       "event_keywords": [],
-      "importance_score": 35,
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5"
       ],
       "needs_review": true,
       "articles": [
         {
-          "title": "에이피알 '에이지알' 앱 다운로드 250만건 돌파…해외 이용자 비중 76%",
-          "url": "https://industrynews.co.kr/news/articleView.html?idxno=89415",
-          "source": "industrynews.co.kr",
-          "source_domain": "industrynews.co.kr",
-          "published_at": "2026-11-12T11:42:00+09:00",
+          "title": "에이피알 ‘에이지알’ 앱, 글로벌 다운로드 250만 돌파…해외 이용자 ...",
+          "url": "https://seoultimes.news/news/article.html?no=2000102136",
+          "source": "seoultimes.news",
+          "source_domain": "seoultimes.news",
+          "published_at": "2026-11-12T17:39:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 , 에이지알 앱 글로벌 다운로드 250만건…90개국 이용",
-          "url": "https://yna.co.kr/view/AKR20261112084000030?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-11-12T11:14:00+09:00",
+          "title": "에이피알 '에이지알' 앱, 글로벌 다운로드 250만 돌파…해외 이용자 76%",
+          "url": "https://news2day.co.kr/article/20261112500237",
+          "source": "news2day.co.kr",
+          "source_domain": "news2day.co.kr",
+          "published_at": "2026-11-12T15:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 \"에이지알 앱 글로벌 다운로드 250만건 돌파\"",
-          "url": "https://finomy.com/news/articleView.html?idxno=266437",
-          "source": "finomy.com",
-          "source_domain": "finomy.com",
-          "published_at": "2026-11-12T11:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "﻿﻿ 에이피알 '에이지알', 글로벌 다운로드 250만 돌파…\"접근성 확대 주...",
-          "url": "https://mhj21.com/news/articleView.html?idxno=254765",
-          "source": "mhj21.com",
-          "source_domain": "mhj21.com",
-          "published_at": "2026-11-12T10:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 '에이지알' 앱 글로벌 다운로드 250만 돌파…해외 이용자 비중...",
-          "url": "https://sportschosun.com/life/2026-11-12/202611120100083620007830",
-          "source": "sportschosun.com",
-          "source_domain": "sportschosun.com",
-          "published_at": "2026-11-12T10:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , '에이지알' 앱 글로벌 다운로드 250만 돌파…\"해외 비중 76%\"",
-          "url": "https://businessplus.kr/news/articleView.html?idxno=119719",
-          "source": "businessplus.kr",
-          "source_domain": "businessplus.kr",
-          "published_at": "2026-11-12T10:04:00+09:00",
+          "title": "에이피알 , '에이지알' 앱 글로벌 다운로드 250만 돌파…디바이스 사용 ...",
+          "url": "https://sisacast.kr/news/articleView.html?idxno=101876",
+          "source": "sisacast.kr",
+          "source_domain": "sisacast.kr",
+          "published_at": "2026-11-12T14:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
           "title": "에이피알 , '에이지알' 앱 글로벌 누적 다운로드 250만 돌파",
-          "url": "https://apparelnews.co.kr/news/news_view?idx=228934",
-          "source": "apparelnews.co.kr",
-          "source_domain": "apparelnews.co.kr",
-          "published_at": "2026-11-12T10:00:00+09:00",
+          "url": "https://cnbnews.com/news/articleView.html?idxno=1023493",
+          "source": "cnbnews.com",
+          "source_domain": "cnbnews.com",
+          "published_at": "2026-11-12T14:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 '에이지알' 앱, 누적 다운로드 250만건 돌파",
-          "url": "https://fnnews.com/news/202611120939231792",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-11-12T09:59:00+09:00",
+          "title": "에이피알 , 에이지알 앱 다운로드 250만 건",
+          "url": "https://ktnews.com/news/articleView.html?idxno=150128",
+          "source": "ktnews.com",
+          "source_domain": "ktnews.com",
+          "published_at": "2026-11-12T14:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 에이지알 앱, 글로벌 다운로드 250만 건 돌파",
-          "url": "https://lawissue.co.kr/view.php?ud=202611120953163970204ead0791_12",
-          "source": "lawissue.co.kr",
-          "source_domain": "lawissue.co.kr",
-          "published_at": "2026-11-12T09:54:00+09:00",
+          "title": "에이피알 ‘에이지알’ 앱, 글로벌 누적 다운로드 250만건 돌파",
+          "url": "https://viva100.com/article/20261112500789",
+          "source": "viva100.com",
+          "source_domain": "viva100.com",
+          "published_at": "2026-11-12T13:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
         },
         {
-          "title": "에이피알 '에이지알' 앱 다운로드 250만 돌파…해외 이용자 76%",
-          "url": "https://kpanews.co.kr/news/articleView.html?idxno=548739",
-          "source": "kpanews.co.kr",
-          "source_domain": "kpanews.co.kr",
-          "published_at": "2026-11-12T09:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , 메디큐브 '에이지알' 앱 글로벌 누적 다운로드 250만 돌파",
-          "url": "https://beyondpost.co.kr/view.php?ud=20261112093842898046a9e4dd7f_30",
-          "source": "beyondpost.co.kr",
-          "source_domain": "beyondpost.co.kr",
-          "published_at": "2026-11-12T09:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , '에이지알' 앱 다운로드 250만건 돌파…해외 비중 76%",
-          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1424379",
-          "source": "daily.hankooki.com",
-          "source_domain": "daily.hankooki.com",
-          "published_at": "2026-11-12T09:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 '에이지알' 앱, 글로벌 누적 다운로드 250만건 돌파",
-          "url": "https://cstimes.com/news/articleView.html?idxno=727636",
-          "source": "cstimes.com",
-          "source_domain": "cstimes.com",
-          "published_at": "2026-11-12T09:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , ‘에이지알’ 앱 글로벌 다운로드 250만 돌파",
-          "url": "https://thetracker.co.kr/View.aspx?No=4308931",
-          "source": "thetracker.co.kr",
-          "source_domain": "thetracker.co.kr",
-          "published_at": "2026-11-12T09:05:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , '에이지알' 앱 글로벌 누적 다운로드 250만 건 돌파…월간 활...",
-          "url": "https://m-i.kr/news/articleView.html?idxno=2017544",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-11-12T09:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 , 메디큐브 앱 '에이지알' 누적 다운로드 250만 건 돌파",
-          "url": "https://news.tf.co.kr/read/economy/2387796.htm",
-          "source": "news.tf.co.kr",
-          "source_domain": "news.tf.co.kr",
-          "published_at": "2026-11-12T09:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "에이피알 '에이지알' 앱, 글로벌 누적 다운로드 250만 건 돌파",
-          "url": "https://news1.kr/industry/general-industry/6351292",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-11-12T08:28:00+09:00",
+          "title": "에이피알 에이지알 앱, 글로벌 다운로드 250만 건 기록",
+          "url": "https://lcnews.co.kr/news/articleView.html?idxno=211268",
+          "source": "lcnews.co.kr",
+          "source_domain": "lcnews.co.kr",
+          "published_at": "2026-11-12T13:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4889,15 +4825,15 @@
       ]
     },
     {
-      "cluster_id": "967229a8f7c56641",
+      "cluster_id": "2b5ce370e0068cfd",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "[뷰티톡톡] 컬리ㆍ 에이피알 ㆍ시그닉ㆍ코스메카코리아ㆍ스킨1004ㆍ그래비...",
-      "representative_url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202611120951440170719",
-      "representative_source": "dnews.co.kr",
+      "representative_title": "에이피알 '에이지알' 앱, 글로벌 다운로드 250만건 돌파…10개월 새 100만...",
+      "representative_url": "https://ajunews.com/view/20261112104229527",
+      "representative_source": "ajunews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T02:20:00Z",
-      "last_published_at": "2026-11-12T02:20:00Z",
+      "first_published_at": "2026-11-12T08:38:00Z",
+      "last_published_at": "2026-11-12T08:38:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4905,7 +4841,7 @@
         "naver"
       ],
       "source_domains": [
-        "dnews.co.kr"
+        "ajunews.com"
       ],
       "categories": [
         "기타"
@@ -4920,11 +4856,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[뷰티톡톡] 컬리ㆍ 에이피알 ㆍ시그닉ㆍ코스메카코리아ㆍ스킨1004ㆍ그래비...",
-          "url": "https://dnews.co.kr/uhtml/view.jsp?idxno=202611120951440170719",
-          "source": "dnews.co.kr",
-          "source_domain": "dnews.co.kr",
-          "published_at": "2026-11-12T11:20:00+09:00",
+          "title": "에이피알 '에이지알' 앱, 글로벌 다운로드 250만건 돌파…10개월 새 100만...",
+          "url": "https://ajunews.com/view/20261112104229527",
+          "source": "ajunews.com",
+          "source_domain": "ajunews.com",
+          "published_at": "2026-11-12T17:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4932,15 +4868,15 @@
       ]
     },
     {
-      "cluster_id": "c2aabd565ea04616",
+      "cluster_id": "2612376a85644160",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "[똑똑한케어] 에이피알 , 스킨1004, 리필드, 센슬, 이미인, 코스메카코리...",
-      "representative_url": "https://ekn.kr/web/view.php?key=20261112027028699",
-      "representative_source": "ekn.kr",
+      "representative_title": "﻿ 에이피알 , 3분기 실적 '공정공시 위반'…제재금 800만원 부과",
+      "representative_url": "https://mdtoday.co.kr/news/articleView.html?idxno=624750",
+      "representative_source": "mdtoday.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T02:00:00Z",
-      "last_published_at": "2026-11-12T02:00:00Z",
+      "first_published_at": "2026-11-12T07:46:00Z",
+      "last_published_at": "2026-11-12T07:46:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -4948,222 +4884,7 @@
         "naver"
       ],
       "source_domains": [
-        "ekn.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[똑똑한케어] 에이피알 , 스킨1004, 리필드, 센슬, 이미인, 코스메카코리...",
-          "url": "https://ekn.kr/web/view.php?key=20261112027028699",
-          "source": "ekn.kr",
-          "source_domain": "ekn.kr",
-          "published_at": "2026-11-12T11:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "de689b6906d66195",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 '에이지알' 앱 누적 다운로드 250만 넘어, \"글로벌 이용자와 미...",
-      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=451798",
-      "representative_source": "businesspost.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:32:00Z",
-      "last_published_at": "2026-11-12T01:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 '에이지알' 앱 누적 다운로드 250만 넘어, \"글로벌 이용자와 미...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=451798",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-11-12T10:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "346f92d620263510",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , '에이지알' 앱 글로벌 다운로드 250만 기록…\"디지털 서비스...",
-      "representative_url": "https://newspost.kr/news/articleView.html?idxno=227308",
-      "representative_source": "newspost.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:12:00Z",
-      "last_published_at": "2026-11-12T01:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspost.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 , '에이지알' 앱 글로벌 다운로드 250만 기록…\"디지털 서비스...",
-          "url": "https://newspost.kr/news/articleView.html?idxno=227308",
-          "source": "newspost.kr",
-          "source_domain": "newspost.kr",
-          "published_at": "2026-11-12T10:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6551ed146e9bd572",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 \"에이지알 앱 글로벌 뷰티 플랫폼 경쟁력 강화\"...누적 다운로...",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=139740",
-      "representative_source": "popcornnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T00:44:00Z",
-      "last_published_at": "2026-11-12T00:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "popcornnews.net"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 \"에이지알 앱 글로벌 뷰티 플랫폼 경쟁력 강화\"...누적 다운로...",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=139740",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-11-12T09:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3393505203b3d6d7",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 \"'800만대 판매' 뷰티 디바이스 인기에 앱도 '훨훨'\"",
-      "representative_url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491499",
-      "representative_source": "enewstoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T00:00:00Z",
-      "last_published_at": "2026-11-12T00:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "enewstoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "에이피알 \"'800만대 판매' 뷰티 디바이스 인기에 앱도 '훨훨'\"",
-          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491499",
-          "source": "enewstoday.co.kr",
-          "source_domain": "enewstoday.co.kr",
-          "published_at": "2026-11-12T09:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2d01b6408c8740cf",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , 3분기 잠정실적 공시 의무 위반…제재금 800만원",
-      "representative_url": "https://ddaily.co.kr/page/view/2026111120445999955",
-      "representative_source": "ddaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:57:00Z",
-      "last_published_at": "2026-11-11T23:57:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ddaily.co.kr"
+        "mdtoday.co.kr"
       ],
       "categories": [
         "실적"
@@ -5181,11 +4902,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 , 3분기 잠정실적 공시 의무 위반…제재금 800만원",
-          "url": "https://ddaily.co.kr/page/view/2026111120445999955",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-11-12T08:57:00+09:00",
+          "title": "﻿ 에이피알 , 3분기 실적 '공정공시 위반'…제재금 800만원 부과",
+          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=624750",
+          "source": "mdtoday.co.kr",
+          "source_domain": "mdtoday.co.kr",
+          "published_at": "2026-11-12T16:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5193,15 +4914,15 @@
       ]
     },
     {
-      "cluster_id": "e1795e4c967b51fc",
+      "cluster_id": "7d595f17548e184e",
       "company_name": "에이피알",
       "stock_code": "278470",
-      "representative_title": "대표 생일 게시글에도 주주환원 요구…뿔난 에이피알 주주들",
-      "representative_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444318",
-      "representative_source": "news.einfomax.co.kr",
+      "representative_title": "[오늘의 뷰티] 에이피알 ·어댑트·시그닉·센슬·코스메카코리아",
+      "representative_url": "https://financialreview.co.kr/news/articleView.html?idxno=46255",
+      "representative_source": "financialreview.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:56:00Z",
-      "last_published_at": "2026-11-11T23:56:00Z",
+      "first_published_at": "2026-11-12T07:42:00Z",
+      "last_published_at": "2026-11-12T07:42:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5209,51 +4930,7 @@
         "naver"
       ],
       "source_domains": [
-        "news.einfomax.co.kr"
-      ],
-      "categories": [
-        "인사·M&A",
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "대표 생일 게시글에도 주주환원 요구…뿔난 에이피알 주주들",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444318",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-11-12T08:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b42b8e19c1f01a1a",
-      "company_name": "에이피알",
-      "stock_code": "278470",
-      "representative_title": "에이피알 , '에이지알' 앱 다운로드 250만 건 돌파…글로벌 플랫폼 확장",
-      "representative_url": "https://newsdream.kr/news/articleView.html?idxno=121962",
-      "representative_source": "newsdream.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:54:00Z",
-      "last_published_at": "2026-11-11T23:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newsdream.kr"
+        "financialreview.co.kr"
       ],
       "categories": [
         "기타"
@@ -5268,11 +4945,228 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "에이피알 , '에이지알' 앱 다운로드 250만 건 돌파…글로벌 플랫폼 확장",
-          "url": "https://newsdream.kr/news/articleView.html?idxno=121962",
-          "source": "newsdream.kr",
-          "source_domain": "newsdream.kr",
-          "published_at": "2026-11-12T08:54:00+09:00",
+          "title": "[오늘의 뷰티] 에이피알 ·어댑트·시그닉·센슬·코스메카코리아",
+          "url": "https://financialreview.co.kr/news/articleView.html?idxno=46255",
+          "source": "financialreview.co.kr",
+          "source_domain": "financialreview.co.kr",
+          "published_at": "2026-11-12T16:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e543ef2916a9c418",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "[K유니콘 리포트]구다이글로벌, 10조 밸류로 IPO 예심… 에이피알 넘을...",
+      "representative_url": "https://newstopkorea.com/news/articleView.html?idxno=48980",
+      "representative_source": "newstopkorea.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T07:00:00Z",
+      "last_published_at": "2026-11-12T07:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "newstopkorea.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 10조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[K유니콘 리포트]구다이글로벌, 10조 밸류로 IPO 예심… 에이피알 넘을...",
+          "url": "https://newstopkorea.com/news/articleView.html?idxno=48980",
+          "source": "newstopkorea.com",
+          "source_domain": "newstopkorea.com",
+          "published_at": "2026-11-12T16:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3b58591dfc8b7594",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "에이피알 , 불성실공시법인 지정… 제재금 800만원 부과",
+      "representative_url": "https://s-journal.co.kr/news/articleView.html?idxno=45263",
+      "representative_source": "s-journal.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T06:44:00Z",
+      "last_published_at": "2026-11-12T06:44:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "s-journal.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에이피알 , 불성실공시법인 지정… 제재금 800만원 부과",
+          "url": "https://s-journal.co.kr/news/articleView.html?idxno=45263",
+          "source": "s-journal.co.kr",
+          "source_domain": "s-journal.co.kr",
+          "published_at": "2026-11-12T15:44:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8cc72cfc77dbeb26",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "\"뷰티기기 잘팔리니 10개월만 '100만' 쑥\" 에이피알 '에이지알' 앱다운 ...",
+      "representative_url": "https://catchnews.kr/news/articleView.html?idxno=130437",
+      "representative_source": "catchnews.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T06:34:00Z",
+      "last_published_at": "2026-11-12T06:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "catchnews.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"뷰티기기 잘팔리니 10개월만 '100만' 쑥\" 에이피알 '에이지알' 앱다운 ...",
+          "url": "https://catchnews.kr/news/articleView.html?idxno=130437",
+          "source": "catchnews.kr",
+          "source_domain": "catchnews.kr",
+          "published_at": "2026-11-12T15:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "8da14032b5633158",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "해외 이용자가 국내의 3배.. 에이피알 뷰티 앱 이용 확대",
+      "representative_url": "https://kpenews.com/View.aspx?No=4309671",
+      "representative_source": "kpenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T05:30:00Z",
+      "last_published_at": "2026-11-12T05:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kpenews.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "해외 이용자가 국내의 3배.. 에이피알 뷰티 앱 이용 확대",
+          "url": "https://kpenews.com/View.aspx?No=4309671",
+          "source": "kpenews.com",
+          "source_domain": "kpenews.com",
+          "published_at": "2026-11-12T14:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "32273972a978e68d",
+      "company_name": "에이피알",
+      "stock_code": "278470",
+      "representative_title": "\"해외비중만 76%\"… 에이피알 앱, 다운로드 250만 돌파",
+      "representative_url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202611120071&t=NN",
+      "representative_source": "wowtv.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T05:30:00Z",
+      "last_published_at": "2026-11-12T05:30:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "wowtv.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"해외비중만 76%\"… 에이피알 앱, 다운로드 250만 돌파",
+          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202611120071&t=NN",
+          "source": "wowtv.co.kr",
+          "source_domain": "wowtv.co.kr",
+          "published_at": "2026-11-12T14:30:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-12T03:48:05.817681Z",
+  "generated_at": "2026-11-12T18:54:34.902290Z",
   "company_name": "현대로템",
   "stock_code": "064350",
   "status": "partial",
-  "last_successful_update": "2026-11-12T03:48:05.817681Z",
+  "last_successful_update": "2026-11-12T18:54:34.902290Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -1391,203 +1391,253 @@
       ]
     },
     {
-      "cluster_id": "fba195bd29074906",
+      "cluster_id": "26f9c24e1179f413",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대로템 ·KAI, ‘장거리 공대공 미사일’ 개발 협력",
-      "representative_url": "https://mk.co.kr/article/12126469",
-      "representative_source": "mk.co.kr",
+      "representative_title": "현대로템 , ESG 종합평가 3년 연속 'A+' 획득",
+      "representative_url": "https://redaily.co.kr/news/articleView.html?idxno=18177",
+      "representative_source": "redaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-13T02:38:00Z",
-      "last_published_at": "2026-08-13T09:13:00Z",
-      "article_count": 15,
-      "domestic_article_count": 15,
+      "first_published_at": "2026-11-12T03:26:00Z",
+      "last_published_at": "2026-11-12T14:00:00Z",
+      "article_count": 8,
+      "domestic_article_count": 8,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
         "dealsite.co.kr",
-        "hankookilbo.com",
-        "ilyoseoul.co.kr",
-        "koreastocknews.com",
-        "mediafine.co.kr",
-        "metroseoul.co.kr",
-        "mk.co.kr",
-        "munhwa.com",
+        "hbnpress.com",
+        "kdpress.co.kr",
+        "lawissue.co.kr",
         "naeil.com",
-        "newsian.co.kr",
-        "ppss.kr",
-        "sidae.com",
-        "sports.hankooki.com",
-        "thelec.kr",
-        "wowtv.co.kr"
+        "news.einfomax.co.kr",
+        "nocutnews.co.kr",
+        "redaily.co.kr"
       ],
       "categories": [
-        "공급·규제",
         "기타",
-        "인사·M&A"
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "현대로템 , ESG 종합평가 3년 연속 'A+' 획득..최상위 등급 유지",
+          "url": "https://kdpress.co.kr/news/articleView.html?idxno=209876",
+          "source": "kdpress.co.kr",
+          "source_domain": "kdpress.co.kr",
+          "published_at": "2026-11-12T23:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , KCGS ESG 평가 3년 연속 최고 등급 'A+'",
+          "url": "https://nocutnews.co.kr/news/6606293",
+          "source": "nocutnews.co.kr",
+          "source_domain": "nocutnews.co.kr",
+          "published_at": "2026-11-12T22:34:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , ESG 종합평가 3년 연속 A+ 등급 획득",
+          "url": "https://lawissue.co.kr/view.php?ud=202611121830147173f4ab64559d_12",
+          "source": "lawissue.co.kr",
+          "source_domain": "lawissue.co.kr",
+          "published_at": "2026-11-12T18:32:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "[중화학 ON] 현대로템 , ESG 평가 3년 연속 A+ 획득 外",
+          "url": "https://dealsite.co.kr/articles/172659",
+          "source": "dealsite.co.kr",
+          "source_domain": "dealsite.co.kr",
+          "published_at": "2026-11-12T15:42:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , ESG 종합평가 3년 연속 최상위 등급 'A+'",
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444447",
+          "source": "news.einfomax.co.kr",
+          "source_domain": "news.einfomax.co.kr",
+          "published_at": "2026-11-12T14:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , 한국ESG기준원 종합평가 3년 연속 ‘A+’ 획득",
+          "url": "https://hbnpress.com/news/view/1065590377046700",
+          "source": "hbnpress.com",
+          "source_domain": "hbnpress.com",
+          "published_at": "2026-11-12T14:22:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , ESG 평가 3년 연속 ‘A+’",
+          "url": "https://naeil.com/news/read/608588",
+          "source": "naeil.com",
+          "source_domain": "naeil.com",
+          "published_at": "2026-11-12T13:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "현대로템 , ESG 종합평가 3년 연속 'A+' 획득",
+          "url": "https://redaily.co.kr/news/articleView.html?idxno=18177",
+          "source": "redaily.co.kr",
+          "source_domain": "redaily.co.kr",
+          "published_at": "2026-11-12T12:26:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6763e1a31e5981ce",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "재생에너지 전환부터 공급망 실사까지··· 현대로템 'ESG 평가' 3년 연속...",
+      "representative_url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491957",
+      "representative_source": "enewstoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T10:12:00Z",
+      "last_published_at": "2026-11-12T10:12:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "enewstoday.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
       ],
       "event_keywords": [
-        "m_and_a"
+        "supply"
       ],
-      "importance_score": 55,
-      "importance_level": "watch",
+      "importance_score": 30,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력… 'KAI 인수전' 한화 ...",
-          "url": "https://hankookilbo.com/news/article/A2026081315410003149?did=NA",
-          "source": "hankookilbo.com",
-          "source_domain": "hankookilbo.com",
-          "published_at": "2026-08-13T18:13:00+09:00",
+          "title": "재생에너지 전환부터 공급망 실사까지··· 현대로템 'ESG 평가' 3년 연속...",
+          "url": "https://enewstoday.co.kr/news/articleView.html?idxno=2491957",
+          "source": "enewstoday.co.kr",
+          "source_domain": "enewstoday.co.kr",
+          "published_at": "2026-11-12T19:12:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "45367a220351c407",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "불길 속 '먼저 출동'… 현대로템 , 무인소방로봇 대구 미래모빌리티엑스...",
+      "representative_url": "https://robotzine.co.kr/entry/279320",
+      "representative_source": "robotzine.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T09:22:00Z",
+      "last_published_at": "2026-11-12T09:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "robotzine.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력 위한 업무협약",
-          "url": "https://sports.hankooki.com/news/articleView.html?idxno=6937987",
-          "source": "sports.hankooki.com",
-          "source_domain": "sports.hankooki.com",
-          "published_at": "2026-08-13T17:08:00+09:00",
+          "title": "불길 속 '먼저 출동'… 현대로템 , 무인소방로봇 대구 미래모빌리티엑스...",
+          "url": "https://robotzine.co.kr/entry/279320",
+          "source": "robotzine.co.kr",
+          "source_domain": "robotzine.co.kr",
+          "published_at": "2026-11-12T18:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "3de403eead95af1e",
+      "company_name": "현대로템",
+      "stock_code": "064350",
+      "representative_title": "현대로템 , 차세대 스텔스 전차에 국산 배터리 쓴다",
+      "representative_url": "https://thelec.kr/news/articleView.html?idxno=65346",
+      "representative_source": "thelec.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T08:10:00Z",
+      "last_published_at": "2026-11-12T08:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thelec.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "현대로템 -KAI, KF-21 장거리 공대공 미사일 협력",
-          "url": "https://thelec.kr/news/articleView.html?idxno=60903",
+          "title": "현대로템 , 차세대 스텔스 전차에 국산 배터리 쓴다",
+          "url": "https://thelec.kr/news/articleView.html?idxno=65346",
           "source": "thelec.kr",
           "source_domain": "thelec.kr",
-          "published_at": "2026-08-13T16:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 손잡고 KF-21 탑재 장거리 공대공 미사일 개발 나서",
-          "url": "https://munhwa.com/article/11609403",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-08-13T16:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[중화학 ON] 현대로템 , KAI와 장거리 공대공 미사일 개발 협력 外",
-          "url": "https://dealsite.co.kr/articles/167182",
-          "source": "dealsite.co.kr",
-          "source_domain": "dealsite.co.kr",
-          "published_at": "2026-08-13T15:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI 손잡았다, KF-21 장거리 공대공 미사일 기술협력",
-          "url": "https://ppss.kr/news/articleView.html?idxno=305317",
-          "source": "ppss.kr",
-          "source_domain": "ppss.kr",
-          "published_at": "2026-08-13T14:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, ‘장거리 공대공 미사일’ 개발 협력",
-          "url": "https://mk.co.kr/article/12126469",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-13T14:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21·장거리 공대공 미사일 연계 협력",
-          "url": "https://metroseoul.co.kr/article/20260813500277",
-          "source": "metroseoul.co.kr",
-          "source_domain": "metroseoul.co.kr",
-          "published_at": "2026-08-13T14:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI, 장거리 공대공 미사일 개발 맞손",
-          "url": "https://wowtv.co.kr/NewsCenter/News/Read?articleId=A202608130448&t=NN",
-          "source": "wowtv.co.kr",
-          "source_domain": "wowtv.co.kr",
-          "published_at": "2026-08-13T13:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 장거리 공대공 미사일 개발 나선다",
-          "url": "https://sidae.com/article/2026081311254074237",
-          "source": "sidae.com",
-          "source_domain": "sidae.com",
-          "published_at": "2026-08-13T13:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI 장거리 공대공 미사일개발",
-          "url": "https://naeil.com/news/read/598730",
-          "source": "naeil.com",
-          "source_domain": "naeil.com",
-          "published_at": "2026-08-13T13:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 장거리 공대공 미사일 협력-항공무장 '패키지 수출...",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=86554",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-08-13T12:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력...한화에 견제구?",
-          "url": "https://newsian.co.kr/news/articleView.html?idxno=93689",
-          "source": "newsian.co.kr",
-          "source_domain": "newsian.co.kr",
-          "published_at": "2026-08-13T12:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 KF-21 장거리 공대공 미사일 협력… 항공무장 '맞손'",
-          "url": "https://ilyoseoul.co.kr/news/articleView.html?idxno=521169",
-          "source": "ilyoseoul.co.kr",
-          "source_domain": "ilyoseoul.co.kr",
-          "published_at": "2026-08-13T11:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력",
-          "url": "https://koreastocknews.com/news/articleView.html?idxno=120553",
-          "source": "koreastocknews.com",
-          "source_domain": "koreastocknews.com",
-          "published_at": "2026-08-13T11:38:00+09:00",
+          "published_at": "2026-11-12T17:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -1595,15 +1645,15 @@
       ]
     },
     {
-      "cluster_id": "5d9ae561886456ed",
+      "cluster_id": "827ce97622f761a7",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "장거리 공대공 미사일 개발 현대로템 ·KAI 머리 맞댄다",
-      "representative_url": "https://mk.co.kr/article/12126816",
-      "representative_source": "mk.co.kr",
+      "representative_title": "현대로템 , ESG 평가 3년 연속 'A+'…탄소관리·협력사 공급망 개선 성과",
+      "representative_url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065599366261070",
+      "representative_source": "megaeconomy.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-13T08:45:00Z",
-      "last_published_at": "2026-08-13T08:45:00Z",
+      "first_published_at": "2026-11-12T07:54:00Z",
+      "last_published_at": "2026-11-12T07:54:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -1611,509 +1661,7 @@
         "naver"
       ],
       "source_domains": [
-        "mk.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 40,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "장거리 공대공 미사일 개발 현대로템 ·KAI 머리 맞댄다",
-          "url": "https://mk.co.kr/article/12126816",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-13T17:45:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "dcb106b3ae5a9217",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력",
-      "representative_url": "https://yna.co.kr/view/PYH20260813029500013?input=1196m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-12T23:28:00Z",
-      "last_published_at": "2026-08-13T05:12:00Z",
-      "article_count": 25,
-      "domestic_article_count": 25,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "autodaily.co.kr",
-        "biz.chosun.com",
-        "biz.heraldcorp.com",
-        "businessplus.kr",
-        "businesspost.co.kr",
-        "ddaily.co.kr",
-        "digitalchosun.dizzo.com",
-        "idomin.com",
-        "ilyoseoul.co.kr",
-        "joongangenews.com",
-        "mediafine.co.kr",
-        "metroseoul.co.kr",
-        "mk.co.kr",
-        "munhwa.com",
-        "naeil.com",
-        "news.tf.co.kr",
-        "news1.kr",
-        "newsian.co.kr",
-        "newsis.com",
-        "pointdaily.co.kr",
-        "sidae.com",
-        "thetracker.co.kr",
-        "view.asiae.co.kr",
-        "yna.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 40,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "현대로템 ·KAI, KF-21·장거리 공대공 미사일 연계 협력",
-          "url": "https://metroseoul.co.kr/article/20260813500277",
-          "source": "metroseoul.co.kr",
-          "source_domain": "metroseoul.co.kr",
-          "published_at": "2026-08-13T14:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 장거리 공대공 미사일 개발 나선다",
-          "url": "https://sidae.com/article/2026081311254074237",
-          "source": "sidae.com",
-          "source_domain": "sidae.com",
-          "published_at": "2026-08-13T13:21:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI 장거리 공대공 미사일개발",
-          "url": "https://naeil.com/news/read/598730",
-          "source": "naeil.com",
-          "source_domain": "naeil.com",
-          "published_at": "2026-08-13T13:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 장거리 공대공 미사일 협력-항공무장 '패키지 수출...",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=86554",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-08-13T12:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력...한화에 견제구?",
-          "url": "https://newsian.co.kr/news/articleView.html?idxno=93689",
-          "source": "newsian.co.kr",
-          "source_domain": "newsian.co.kr",
-          "published_at": "2026-08-13T12:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 KF-21 장거리 공대공 미사일 협력… 항공무장 '맞손'",
-          "url": "https://ilyoseoul.co.kr/news/articleView.html?idxno=521169",
-          "source": "ilyoseoul.co.kr",
-          "source_domain": "ilyoseoul.co.kr",
-          "published_at": "2026-08-13T11:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI '장거리 공대공 미사일 개발' 머리 맞댄다",
-          "url": "https://idomin.com/news/articleView.html?idxno=2012302",
-          "source": "idomin.com",
-          "source_domain": "idomin.com",
-          "published_at": "2026-08-13T11:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI, KF-21 항공무장 '원팀'…장거리 공대공 미사일 협력",
-          "url": "https://pointdaily.co.kr/news/articleView.html?idxno=315395",
-          "source": "pointdaily.co.kr",
-          "source_domain": "pointdaily.co.kr",
-          "published_at": "2026-08-13T11:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 탑재 장거리 공대공 미사일 개발 협력",
-          "url": "https://ddaily.co.kr/page/view/2026081309365673134",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-08-13T11:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI, KF-21 탑재할 국산 ‘장거리 공대공 미사일’ 개발한다",
-          "url": "https://digitalchosun.dizzo.com/site/data/html_dir/2026/08/13/2026081380038.html",
-          "source": "digitalchosun.dizzo.com",
-          "source_domain": "digitalchosun.dizzo.com",
-          "published_at": "2026-08-13T10:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI, 국산 전투기 'KF-21' '장거리 공대공미사일' 패키지 수출...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=444633",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-08-13T10:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공미사일 개발 협력",
-          "url": "https://autodaily.co.kr/news/articleView.html?idxno=546604",
-          "source": "autodaily.co.kr",
-          "source_domain": "autodaily.co.kr",
-          "published_at": "2026-08-13T09:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력 MOU 체결",
-          "url": "https://mk.co.kr/article/12126223",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-13T09:55:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 KF-21 탑재 장거리 공대공 미사일 개발 협력",
-          "url": "https://biz.chosun.com/industry/company/2026/08/13/SBVYCYI7X5FT7BU3B2MGEKP77A",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-08-13T09:49:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21에 장거리 공대공미사일 연계...'패키지 수출' 맞손",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=539732",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-08-13T09:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 손잡고 장거리 공대공 미사일 개발 협력",
-          "url": "https://newsis.com/view/NISX20260813_0003747172",
-          "source": "newsis.com",
-          "source_domain": "newsis.com",
-          "published_at": "2026-08-13T09:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 손잡고 KF-21 탑재 장거리 공대공 미사일 기술 협력",
-          "url": "https://businessplus.kr/news/articleView.html?idxno=115405",
-          "source": "businessplus.kr",
-          "source_domain": "businessplus.kr",
-          "published_at": "2026-08-13T09:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, 장거리 공대공 미사일 개발 '맞손'",
-          "url": "https://thetracker.co.kr/View.aspx?No=4184761",
-          "source": "thetracker.co.kr",
-          "source_domain": "thetracker.co.kr",
-          "published_at": "2026-08-13T09:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, 장거리 공대공 미사일 탑재 'KF-21' 개발 협력",
-          "url": "https://news.tf.co.kr/read/economy/2353628.htm",
-          "source": "news.tf.co.kr",
-          "source_domain": "news.tf.co.kr",
-          "published_at": "2026-08-13T09:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 -KAI, 장거리 공대공 미사일 개발 협력",
-          "url": "https://yna.co.kr/view/AKR20260813028800003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-13T08:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 맞손…“K-방위산업 발전 ...",
-          "url": "https://biz.heraldcorp.com/article/10839614",
-          "source": "biz.heraldcorp.com",
-          "source_domain": "biz.heraldcorp.com",
-          "published_at": "2026-08-13T08:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 탑재용 '장거리 공대공 미사일' 개발 협력",
-          "url": "https://news1.kr/industry/general-industry/6257548",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-08-13T08:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 KF-21 탑재 장거리 공대공미사일 개발 협력",
-          "url": "https://munhwa.com/article/11609214",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-08-13T08:37:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KAI와 장거리 공대공 미사일 개발 협력",
-          "url": "https://yna.co.kr/view/PYH20260813029500013?input=1196m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-13T08:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 ·KAI, KF-21 장거리 공대공 미사일 개발 협력",
-          "url": "https://view.asiae.co.kr/article/2026081308283822488",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-08-13T08:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "725f74d599292127",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "[산업계 동향] 현대로템 ·유진그룹·태광산업",
-      "representative_url": "https://iminju.net/news/articleView.html?idxno=172352",
-      "representative_source": "iminju.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T03:14:00Z",
-      "last_published_at": "2026-11-12T03:14:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "iminju.net"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[산업계 동향] 현대로템 ·유진그룹·태광산업",
-          "url": "https://iminju.net/news/articleView.html?idxno=172352",
-          "source": "iminju.net",
-          "source_domain": "iminju.net",
-          "published_at": "2026-11-12T12:14:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "19f485e61c96989b",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , ESG 종합평가 3년 연속 ‘A+’…지속가능경영 활동 성과 인정...",
-      "representative_url": "https://kyeonggi.com/article/20261112580060",
-      "representative_source": "kyeonggi.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:02:00Z",
-      "last_published_at": "2026-11-12T02:36:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com",
-        "kyeonggi.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "[ESG] 현대로템 , ESG 평가 3년 연속 A+ 등급...지속가능경영 성과 인정",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=563186",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-11-12T11:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 ‘A+’…지속가능경영 활동 성과 인정...",
-          "url": "https://kyeonggi.com/article/20261112580060",
-          "source": "kyeonggi.com",
-          "source_domain": "kyeonggi.com",
-          "published_at": "2026-11-12T10:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "06ecbe943b2ca05f",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , ESG '통합 A+'3년 연속 유지",
-      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=211261",
-      "representative_source": "lcnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T02:36:00Z",
-      "last_published_at": "2026-11-12T02:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "lcnews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대로템 , ESG '통합 A+'3년 연속 유지",
-          "url": "https://lcnews.co.kr/news/articleView.html?idxno=211261",
-          "source": "lcnews.co.kr",
-          "source_domain": "lcnews.co.kr",
-          "published_at": "2026-11-12T11:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a6f0750e0ecb134d",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , ESG 종합평가 3년 연속 'A+'…친환경 경영·공급망 관리 강화",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=139682",
-      "representative_source": "popcornnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:36:00Z",
-      "last_published_at": "2026-11-12T02:34:00Z",
-      "article_count": 9,
-      "domestic_article_count": 9,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "busan.com",
-        "daily.hankooki.com",
-        "ddaily.co.kr",
-        "donga.com",
-        "econovill.com",
-        "etoday.co.kr",
-        "ikld.kr",
-        "popcornnews.net",
-        "ziksir.com"
+        "megaeconomy.co.kr"
       ],
       "categories": [
         "공급·규제",
@@ -2129,94 +1677,14 @@
         "최근 24시간 +5",
         "중요 사건 신호 +15"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 , ESG 평가 3년 연속 A+…태양광 발전·공급망 관리 등 성과",
-          "url": "https://econovill.com/news/articleView.html?idxno=756979",
-          "source": "econovill.com",
-          "source_domain": "econovill.com",
-          "published_at": "2026-11-12T11:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 A+…재생에너지·공급망 관리 강화",
-          "url": "https://ddaily.co.kr/page/view/2026111210532619644",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-11-12T11:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가 3년 연속 A+…태양광·공급망 관리 강화",
-          "url": "https://busan.com/view/busan/view.php?code=2026111210035523422",
-          "source": "busan.com",
-          "source_domain": "busan.com",
-          "published_at": "2026-11-12T10:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 A+…탄소관리·공급망 개선 성과",
-          "url": "https://donga.com/news/Economy/article/all/20261112/135011985/1",
-          "source": "donga.com",
-          "source_domain": "donga.com",
-          "published_at": "2026-11-12T09:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 'A+'…재생에너지·공급망 관리 성과",
-          "url": "https://ziksir.com/news/articleView.html?idxno=152990",
-          "source": "ziksir.com",
-          "source_domain": "ziksir.com",
-          "published_at": "2026-11-12T09:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가 3년 연속 통합 A+…친환경·책임경영 성과",
-          "url": "https://daily.hankooki.com/news/articleView.html?idxno=1424328",
-          "source": "daily.hankooki.com",
-          "source_domain": "daily.hankooki.com",
-          "published_at": "2026-11-12T08:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가서 3년 연속 A+…친환경·상생경영 성과",
-          "url": "https://etoday.co.kr/news/view/2647160",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-11-12T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가 3년 연속 'A+'… 친환경·공급망 관리 성과",
-          "url": "https://ikld.kr/news/articleView.html?idxno=344002",
-          "source": "ikld.kr",
-          "source_domain": "ikld.kr",
-          "published_at": "2026-11-12T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 'A+'…친환경 경영·공급망 관리 강화",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=139682",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-11-12T08:36:00+09:00",
+          "title": "현대로템 , ESG 평가 3년 연속 'A+'…탄소관리·협력사 공급망 개선 성과",
+          "url": "https://megaeconomy.co.kr/news/newsview.php?ncode=1065599366261070",
+          "source": "megaeconomy.co.kr",
+          "source_domain": "megaeconomy.co.kr",
+          "published_at": "2026-11-12T16:54:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2224,15 +1692,15 @@
       ]
     },
     {
-      "cluster_id": "056a1236658fca7e",
+      "cluster_id": "cff1c03420ba4f09",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대로템 'ESG 경영 모범' 계속",
-      "representative_url": "https://idomin.com/news/articleView.html?idxno=2019438",
-      "representative_source": "idomin.com",
+      "representative_title": "현대로템 한화에어로 유럽 방산 공략 확대, 기술 이전과 EU 현지 조달 요...",
+      "representative_url": "https://businesspost.co.kr/BP?command=article_view&num=451847",
+      "representative_source": "businesspost.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T02:32:00Z",
-      "last_published_at": "2026-11-12T02:32:00Z",
+      "first_published_at": "2026-11-12T07:52:00Z",
+      "last_published_at": "2026-11-12T07:52:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2240,10 +1708,11 @@
         "naver"
       ],
       "source_domains": [
-        "idomin.com"
+        "businesspost.co.kr"
       ],
       "categories": [
-        "기타"
+        "공급·규제",
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2255,188 +1724,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 'ESG 경영 모범' 계속",
-          "url": "https://idomin.com/news/articleView.html?idxno=2019438",
-          "source": "idomin.com",
-          "source_domain": "idomin.com",
-          "published_at": "2026-11-12T11:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "34a2f9d189db9f47",
-      "company_name": "현대로템",
-      "stock_code": "064350",
-      "representative_title": "현대로템 , ESG 종합평가 3년 연속 'A+'획득",
-      "representative_url": "https://mt.co.kr/industry/2026/11/12/2026111208293966760",
-      "representative_source": "mt.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T23:36:00Z",
-      "last_published_at": "2026-11-12T02:16:00Z",
-      "article_count": 13,
-      "domestic_article_count": 13,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "businesspost.co.kr",
-        "dailian.co.kr",
-        "fetv.co.kr",
-        "mt.co.kr",
-        "news.tf.co.kr",
-        "news1.kr",
-        "newsdream.kr",
-        "newslock.co.kr",
-        "seoulfn.com",
-        "sidae.com",
-        "srtimes.kr",
-        "thelec.kr",
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "기타",
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "현대로템 , ESG 종합 평가 3년 연속 A+ 획득",
-          "url": "https://thelec.kr/news/articleView.html?idxno=65322",
-          "source": "thelec.kr",
-          "source_domain": "thelec.kr",
-          "published_at": "2026-11-12T11:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 한국ESG기준원 평가서 3년 연속 '통합 A+' 등급 획득",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=451806",
+          "title": "현대로템 한화에어로 유럽 방산 공략 확대, 기술 이전과 EU 현지 조달 요...",
+          "url": "https://businesspost.co.kr/BP?command=article_view&num=451847",
           "source": "businesspost.co.kr",
           "source_domain": "businesspost.co.kr",
-          "published_at": "2026-11-12T10:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가서 3년연속 최상위 등급",
-          "url": "https://sidae.com/article/2026111209440873249",
-          "source": "sidae.com",
-          "source_domain": "sidae.com",
-          "published_at": "2026-11-12T10:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 한국ESG기준원 평가서 3년 연속 'A+'",
-          "url": "https://fetv.co.kr/news/articleView.html?idxno=313550",
-          "source": "fetv.co.kr",
-          "source_domain": "fetv.co.kr",
-          "published_at": "2026-11-12T09:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합 평가 3년 연속 최상위 등급 유지",
-          "url": "https://news.tf.co.kr/read/economy/2387857.htm",
-          "source": "news.tf.co.kr",
-          "source_domain": "news.tf.co.kr",
-          "published_at": "2026-11-12T09:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , KCGS ESG 평가서 3년 연속 A+ 등급 획득",
-          "url": "https://newslock.co.kr/news/articleView.html?idxno=139904",
-          "source": "newslock.co.kr",
-          "source_domain": "newslock.co.kr",
-          "published_at": "2026-11-12T09:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 'A+' 획득…\"지속가능경영 강화\"",
-          "url": "https://newsdream.kr/news/articleView.html?idxno=121969",
-          "source": "newsdream.kr",
-          "source_domain": "newsdream.kr",
-          "published_at": "2026-11-12T09:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가서 3년 연속 ‘A+’ 등급 획득",
-          "url": "https://dailian.co.kr/news/view/1713975?sc=Naver",
-          "source": "dailian.co.kr",
-          "source_domain": "dailian.co.kr",
-          "published_at": "2026-11-12T09:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 한국ESG기준원 평가 3년 연속 통합 'A+'",
-          "url": "https://srtimes.kr/news/articleView.html?idxno=217367",
-          "source": "srtimes.kr",
-          "source_domain": "srtimes.kr",
-          "published_at": "2026-11-12T08:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , 국내 ESG 평가서 3년 연속 'A+' 등급 획득",
-          "url": "https://seoulfn.com/news/articleView.html?idxno=642587",
-          "source": "seoulfn.com",
-          "source_domain": "seoulfn.com",
-          "published_at": "2026-11-12T08:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가서 3년 연속 'A+' 획득",
-          "url": "https://news1.kr/industry/general-industry/6351337",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-11-12T08:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 평가 3년 연속 최고등급 'A+'",
-          "url": "https://view.asiae.co.kr/article/2026111208482486549",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-11-12T08:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "현대로템 , ESG 종합평가 3년 연속 'A+'획득",
-          "url": "https://mt.co.kr/industry/2026/11/12/2026111208293966760",
-          "source": "mt.co.kr",
-          "source_domain": "mt.co.kr",
-          "published_at": "2026-11-12T08:36:00+09:00",
+          "published_at": "2026-11-12T16:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2444,15 +1736,15 @@
       ]
     },
     {
-      "cluster_id": "9726ff0a34685b89",
+      "cluster_id": "a38a04c874ab19ff",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대로템 , ESG 통합 A+ 3년 연속···신규 투자 심사에 탄소비용 반영",
-      "representative_url": "https://smartbizn.com/news/articleView.html?idxno=159191",
-      "representative_source": "smartbizn.com",
+      "representative_title": "현대로템 , ESG 평가 3년 연속 'A+'…재생에너지·공급망 관리 성과",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=503481",
+      "representative_source": "pinpointnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T02:10:00Z",
-      "last_published_at": "2026-11-12T02:10:00Z",
+      "first_published_at": "2026-11-12T07:46:00Z",
+      "last_published_at": "2026-11-12T07:46:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2460,13 +1752,13 @@
         "naver"
       ],
       "source_domains": [
-        "smartbizn.com"
+        "pinpointnews.co.kr"
       ],
       "categories": [
-        "투자·생산"
+        "공급·규제"
       ],
       "event_keywords": [
-        "investment"
+        "supply"
       ],
       "importance_score": 30,
       "importance_level": "low",
@@ -2478,11 +1770,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 , ESG 통합 A+ 3년 연속···신규 투자 심사에 탄소비용 반영",
-          "url": "https://smartbizn.com/news/articleView.html?idxno=159191",
-          "source": "smartbizn.com",
-          "source_domain": "smartbizn.com",
-          "published_at": "2026-11-12T11:10:00+09:00",
+          "title": "현대로템 , ESG 평가 3년 연속 'A+'…재생에너지·공급망 관리 성과",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=503481",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-11-12T16:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2490,15 +1782,15 @@
       ]
     },
     {
-      "cluster_id": "8062103086745382",
+      "cluster_id": "3b4e474de7200334",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대차, AI 수소 충전 로봇으로 WHE 2026 대상⋯ 현대로템 등 3개사 최우...",
-      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=602033",
-      "representative_source": "autodaily.co.kr",
+      "representative_title": "현대로템 ESG A+, 실제 나라밖 수주전서 통할까",
+      "representative_url": "https://newsfreezone.co.kr/news/articleView.html?idxno=719048",
+      "representative_source": "newsfreezone.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:56:00Z",
-      "last_published_at": "2026-11-12T01:56:00Z",
+      "first_published_at": "2026-11-12T07:26:00Z",
+      "last_published_at": "2026-11-12T07:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2506,28 +1798,27 @@
         "naver"
       ],
       "source_domains": [
-        "autodaily.co.kr"
+        "newsfreezone.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        "2026"
-      ],
-      "importance_score": 15,
+      "event_keywords": [],
+      "importance_score": 20,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
         "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "현대차, AI 수소 충전 로봇으로 WHE 2026 대상⋯ 현대로템 등 3개사 최우...",
-          "url": "https://autodaily.co.kr/news/articleView.html?idxno=602033",
-          "source": "autodaily.co.kr",
-          "source_domain": "autodaily.co.kr",
-          "published_at": "2026-11-12T10:56:00+09:00",
+          "title": "현대로템 ESG A+, 실제 나라밖 수주전서 통할까",
+          "url": "https://newsfreezone.co.kr/news/articleView.html?idxno=719048",
+          "source": "newsfreezone.co.kr",
+          "source_domain": "newsfreezone.co.kr",
+          "published_at": "2026-11-12T16:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2535,15 +1826,15 @@
       ]
     },
     {
-      "cluster_id": "c3363f0075535d42",
+      "cluster_id": "8f9acece1c516a69",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대로템 , 협력사 ESG 점검·탄소비용 반영…관리체계 확대",
-      "representative_url": "https://m-i.kr/news/articleView.html?idxno=2017706",
-      "representative_source": "m-i.kr",
+      "representative_title": "현대로템 , 재생에너지·협력사 관리로 ESG 성과···3년 연속 'A+'",
+      "representative_url": "https://finomy.com/news/articleView.html?idxno=266484",
+      "representative_source": "finomy.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:56:00Z",
-      "last_published_at": "2026-11-12T01:56:00Z",
+      "first_published_at": "2026-11-12T06:44:00Z",
+      "last_published_at": "2026-11-12T06:44:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2551,10 +1842,10 @@
         "naver"
       ],
       "source_domains": [
-        "m-i.kr"
+        "finomy.com"
       ],
       "categories": [
-        "투자·생산"
+        "기타"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -2566,11 +1857,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 , 협력사 ESG 점검·탄소비용 반영…관리체계 확대",
-          "url": "https://m-i.kr/news/articleView.html?idxno=2017706",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-11-12T10:56:00+09:00",
+          "title": "현대로템 , 재생에너지·협력사 관리로 ESG 성과···3년 연속 'A+'",
+          "url": "https://finomy.com/news/articleView.html?idxno=266484",
+          "source": "finomy.com",
+          "source_domain": "finomy.com",
+          "published_at": "2026-11-12T15:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2578,15 +1869,15 @@
       ]
     },
     {
-      "cluster_id": "cf2480df438c5672",
+      "cluster_id": "9be10600d090515d",
       "company_name": "현대로템",
       "stock_code": "064350",
-      "representative_title": "현대로템 , ESG 종합평가 3년 연속 ‘A+’획득…재생에너지 자체 생산·내...",
-      "representative_url": "https://munhwa.com/article/11630773",
-      "representative_source": "munhwa.com",
+      "representative_title": "현대로템 , 3년 연속 ESG 종합평가 최고 등급 ‘A+’ 획득",
+      "representative_url": "https://segye.com/newsView/20261112513452?OutUrl=naver",
+      "representative_source": "segye.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-12T01:52:00Z",
-      "last_published_at": "2026-11-12T01:52:00Z",
+      "first_published_at": "2026-11-12T06:39:00Z",
+      "last_published_at": "2026-11-12T06:39:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2594,29 +1885,26 @@
         "naver"
       ],
       "source_domains": [
-        "munhwa.com"
+        "segye.com"
       ],
       "categories": [
-        "투자·생산"
+        "인사·M&A"
       ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 30,
+      "event_keywords": [],
+      "importance_score": 15,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "현대로템 , ESG 종합평가 3년 연속 ‘A+’획득…재생에너지 자체 생산·내...",
-          "url": "https://munhwa.com/article/11630773",
-          "source": "munhwa.com",
-          "source_domain": "munhwa.com",
-          "published_at": "2026-11-12T10:52:00+09:00",
+          "title": "현대로템 , 3년 연속 ESG 종합평가 최고 등급 ‘A+’ 획득",
+          "url": "https://segye.com/newsView/20261112513452?OutUrl=naver",
+          "source": "segye.com",
+          "source_domain": "segye.com",
+          "published_at": "2026-11-12T15:39:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
