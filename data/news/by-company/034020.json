@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-12T18:54:34.902290Z",
+  "generated_at": "2026-11-13T03:24:42.444293Z",
   "company_name": "두산에너빌리티",
   "stock_code": "034020",
-  "status": "ok",
-  "last_successful_update": "2026-11-12T18:54:34.902290Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-13T03:24:42.444293Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "6438219689e7e93d",
@@ -2714,57 +2719,262 @@
       ]
     },
     {
-      "cluster_id": "0fba09893c48217d",
+      "cluster_id": "cc0e16eb98f4fc48",
       "company_name": "두산에너빌리티",
       "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 테라파워 차세대 원전 핵심 기자재 수주…SMR 공급망 확...",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=129723",
-      "representative_source": "popcornnews.net",
+      "representative_title": "두산에너빌리티 주가 강세, 5만원선 재진입 여부 '촉각'",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=626576",
+      "representative_source": "cbci.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-14T01:04:00Z",
-      "last_published_at": "2026-08-14T01:18:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
+      "first_published_at": "2026-11-13T02:38:00Z",
+      "last_published_at": "2026-11-13T02:38:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "newslock.co.kr",
-        "popcornnews.net"
+        "cbci.co.kr"
       ],
       "categories": [
-        "공급·규제"
+        "주가·투자의견"
       ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 40,
-      "importance_level": "watch",
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
         "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "단순 주가·종목 추천 -25"
       ],
-      "needs_review": true,
+      "needs_review": false,
       "articles": [
         {
-          "title": "두산에너빌리티 , 美 테라파워 차세대 원전 핵심 기자재 수주…SMR 공급망...",
-          "url": "https://newslock.co.kr/news/articleView.html?idxno=134383",
-          "source": "newslock.co.kr",
-          "source_domain": "newslock.co.kr",
-          "published_at": "2026-08-14T10:18:00+09:00",
+          "title": "두산에너빌리티 주가 강세, 5만원선 재진입 여부 '촉각'",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=626576",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-13T11:38:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
-        },
+        }
+      ]
+    },
+    {
+      "cluster_id": "449662d6a5332c02",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "남부발전, 두산에너빌리티 와 발전기 모니터링 시스템(B-EYES) 실증",
+      "representative_url": "https://zdnet.co.kr/view?no=20261113105740",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T01:58:00Z",
+      "last_published_at": "2026-11-13T01:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
         {
-          "title": "두산에너빌리티 , 테라파워 차세대 원전 핵심 기자재 수주…SMR 공급망 확...",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=129723",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-08-14T10:04:00+09:00",
+          "title": "남부발전, 두산에너빌리티 와 발전기 모니터링 시스템(B-EYES) 실증",
+          "url": "https://zdnet.co.kr/view?no=20261113105740",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-11-13T10:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "13db611ffef0ae59",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "“예측 정비 체계 고도화”…남부발전, 두산에너빌리티 와 국산 발전기 ...",
+      "representative_url": "https://mk.co.kr/article/12207829",
+      "representative_source": "mk.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T01:52:00Z",
+      "last_published_at": "2026-11-13T01:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mk.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "“예측 정비 체계 고도화”…남부발전, 두산에너빌리티 와 국산 발전기 ...",
+          "url": "https://mk.co.kr/article/12207829",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-11-13T10:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5ca2283f9632e4f1",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "남부발전, 두산에너빌리티 와 발전기 디지털 정비 체계 구축",
+      "representative_url": "https://hankyung.com/article/202611134761h",
+      "representative_source": "hankyung.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T01:49:00Z",
+      "last_published_at": "2026-11-13T01:49:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hankyung.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "남부발전, 두산에너빌리티 와 발전기 디지털 정비 체계 구축",
+          "url": "https://hankyung.com/article/202611134761h",
+          "source": "hankyung.com",
+          "source_domain": "hankyung.com",
+          "published_at": "2026-11-13T10:49:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f3b557de055439a4",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "원전해체 관련주 동반 상승… 두산에너빌리티 ·우리기술·비에이치아이·...",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=626528",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T01:46:00Z",
+      "last_published_at": "2026-11-13T01:46:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "원전해체 관련주 동반 상승… 두산에너빌리티 ·우리기술·비에이치아이·...",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=626528",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-13T10:46:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "03ad73f6822db352",
+      "company_name": "두산에너빌리티",
+      "stock_code": "034020",
+      "representative_title": "SMR·용융염원자로 공동개발 추진… 두산에너빌리티 한전기술, 한전KPS 주...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=503597",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T22:10:00Z",
+      "last_published_at": "2026-11-12T22:10:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SMR·용융염원자로 공동개발 추진… 두산에너빌리티 한전기술, 한전KPS 주...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=503597",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-11-13T07:10:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2950,270 +3160,6 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-11-12T09:30:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0202d7679c2552c9",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 체코 원전 현지 공급망 점검…'두코바니 적기 준공' 총...",
-      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=217363",
-      "representative_source": "srtimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T22:42:00Z",
-      "last_published_at": "2026-11-11T22:42:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "srtimes.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 , 체코 원전 현지 공급망 점검…'두코바니 적기 준공' 총...",
-          "url": "https://srtimes.kr/news/articleView.html?idxno=217363",
-          "source": "srtimes.kr",
-          "source_domain": "srtimes.kr",
-          "published_at": "2026-11-12T07:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "03fcf42d7e2e48cd",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "[ 두산에너빌리티 의 2막②] 기술에 베팅한 두산…가스터빈에서 원전까지",
-      "representative_url": "https://theviewers.co.kr/View.aspx?No=4306659",
-      "representative_source": "theviewers.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T22:02:00Z",
-      "last_published_at": "2026-11-11T22:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "theviewers.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 25,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[ 두산에너빌리티 의 2막②] 기술에 베팅한 두산…가스터빈에서 원전까지",
-          "url": "https://theviewers.co.kr/View.aspx?No=4306659",
-          "source": "theviewers.co.kr",
-          "source_domain": "theviewers.co.kr",
-          "published_at": "2026-11-12T07:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "3679ff0cf480c437",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 주가, 장초반 약세 딛고 반등…'다음장은?'",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=625793",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T15:20:00Z",
-      "last_published_at": "2026-11-11T15:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 주가, 장초반 약세 딛고 반등…'다음장은?'",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=625793",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-11-12T00:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c76e1a809ca4d3f",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "삼성전기·LG이노텍· 두산에너빌리티 , 동반성장지수 최우수 등급 획득",
-      "representative_url": "https://popcornnews.net/news/articleView.html?idxno=139652",
-      "representative_source": "popcornnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T12:44:00Z",
-      "last_published_at": "2026-11-11T12:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "popcornnews.net"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전기·LG이노텍· 두산에너빌리티 , 동반성장지수 최우수 등급 획득",
-          "url": "https://popcornnews.net/news/articleView.html?idxno=139652",
-          "source": "popcornnews.net",
-          "source_domain": "popcornnews.net",
-          "published_at": "2026-11-11T21:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0da13534ec2b81c7",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "두산에너빌리티 , 협력사와 상생경영 결실",
-      "representative_url": "https://fnnews.com/news/202611111830072930",
-      "representative_source": "fnnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T09:31:00Z",
-      "last_published_at": "2026-11-11T09:31:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "fnnews.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "두산에너빌리티 , 협력사와 상생경영 결실",
-          "url": "https://fnnews.com/news/202611111830072930",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-11-11T18:31:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "58efee473191b484",
-      "company_name": "두산에너빌리티",
-      "stock_code": "034020",
-      "representative_title": "[산업 Pick] 두산에너빌리티 ·㈜한화 건설부문·GS건설, 동반성장지수 최...",
-      "representative_url": "https://lcnews.co.kr/news/articleView.html?idxno=211242",
-      "representative_source": "lcnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T09:28:00Z",
-      "last_published_at": "2026-11-11T09:28:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "lcnews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[산업 Pick] 두산에너빌리티 ·㈜한화 건설부문·GS건설, 동반성장지수 최...",
-          "url": "https://lcnews.co.kr/news/articleView.html?idxno=211242",
-          "source": "lcnews.co.kr",
-          "source_domain": "lcnews.co.kr",
-          "published_at": "2026-11-11T18:28:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

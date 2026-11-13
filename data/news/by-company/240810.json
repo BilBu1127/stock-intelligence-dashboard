@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-12T18:54:34.902290Z",
+  "generated_at": "2026-11-13T03:24:42.444293Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-11-12T18:54:34.902290Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-13T03:24:42.444293Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8c02d6d4b1ca415f",
@@ -108,6 +113,53 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-10-12T08:23:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "6d230876eba6d486",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "잘나가는 원익IPS , 미 데이터센터 규제에 '촉각'",
+      "representative_url": "https://sidae.com/article/2026111115271310239",
+      "representative_source": "sidae.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-12T22:34:00Z",
+      "last_published_at": "2026-11-12T22:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "sidae.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적"
+      ],
+      "event_keywords": [
+        "regulation"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "잘나가는 원익IPS , 미 데이터센터 규제에 '촉각'",
+          "url": "https://sidae.com/article/2026111115271310239",
+          "source": "sidae.com",
+          "source_domain": "sidae.com",
+          "published_at": "2026-11-13T07:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -525,52 +577,6 @@
           "source": "theviewers.co.kr",
           "source_domain": "theviewers.co.kr",
           "published_at": "2026-11-10T09:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "abfd5b21f24ced4e",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "[모닝 리포트] \" 원익IPS , 데이터센터 우려에도 증설 기대 유효\"",
-      "representative_url": "https://newspim.com/news/view/20261110000092",
-      "representative_source": "newspim.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-10T00:23:00Z",
-      "last_published_at": "2026-11-10T00:23:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "newspim.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[모닝 리포트] \" 원익IPS , 데이터센터 우려에도 증설 기대 유효\"",
-          "url": "https://newspim.com/news/view/20261110000092",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-11-10T09:23:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
