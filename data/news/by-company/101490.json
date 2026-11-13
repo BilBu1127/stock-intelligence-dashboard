@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-13T03:24:42.444293Z",
+  "generated_at": "2026-11-13T18:30:33.553744Z",
   "company_name": "에스앤에스텍",
   "stock_code": "101490",
   "status": "partial",
-  "last_successful_update": "2026-11-13T03:24:42.444293Z",
+  "last_successful_update": "2026-11-13T18:30:33.553744Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -52,6 +52,51 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-09-01T08:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf9677d5af9d8c1a",
+      "company_name": "에스앤에스텍",
+      "stock_code": "101490",
+      "representative_title": "에스앤에스텍 3분기 영업익 114억원, 전년비 4.3% 감소",
+      "representative_url": "https://vegannews.co.kr/news/article.html?no=404612",
+      "representative_source": "vegannews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T13:08:00Z",
+      "last_published_at": "2026-11-13T13:08:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "vegannews.co.kr"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 114억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "에스앤에스텍 3분기 영업익 114억원, 전년비 4.3% 감소",
+          "url": "https://vegannews.co.kr/news/article.html?no=404612",
+          "source": "vegannews.co.kr",
+          "source_domain": "vegannews.co.kr",
+          "published_at": "2026-11-13T22:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

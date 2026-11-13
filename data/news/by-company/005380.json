@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-13T03:24:42.444293Z",
+  "generated_at": "2026-11-13T18:30:33.553744Z",
   "company_name": "현대자동차",
   "stock_code": "005380",
   "status": "partial",
-  "last_successful_update": "2026-11-13T03:24:42.444293Z",
+  "last_successful_update": "2026-11-13T18:30:33.553744Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -53,6 +53,49 @@
           "source": "etnews.com",
           "source_domain": "etnews.com",
           "published_at": "2026-10-17T16:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "186a86906611ea94",
+      "company_name": "현대자동차",
+      "stock_code": "005380",
+      "representative_title": "[부고] 정무성( 현대자동차 정몽구재단 이사장) 씨 별세",
+      "representative_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7193878",
+      "representative_source": "weekly.hankooki.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-13T08:52:00Z",
+      "last_published_at": "2026-11-13T08:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "weekly.hankooki.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "[부고] 정무성( 현대자동차 정몽구재단 이사장) 씨 별세",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7193878",
+          "source": "weekly.hankooki.com",
+          "source_domain": "weekly.hankooki.com",
+          "published_at": "2026-11-13T17:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -455,49 +498,6 @@
           "source": "biz.newdaily.co.kr",
           "source_domain": "biz.newdaily.co.kr",
           "published_at": "2026-11-12T11:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d074cfe6b54316b8",
-      "company_name": "현대자동차",
-      "stock_code": "005380",
-      "representative_title": "현대자동차 동해해안로 대리점 라면박스 기탁",
-      "representative_url": "https://kado.net/news/articleView.html?idxno=2084257",
-      "representative_source": "kado.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T15:06:00Z",
-      "last_published_at": "2026-11-11T15:06:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kado.net"
-      ],
-      "categories": [
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "현대자동차 동해해안로 대리점 라면박스 기탁",
-          "url": "https://kado.net/news/articleView.html?idxno=2084257",
-          "source": "kado.net",
-          "source_domain": "kado.net",
-          "published_at": "2026-11-12T00:06:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
