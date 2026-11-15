@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T17:05:21.306227Z",
+  "generated_at": "2026-11-15T02:38:27.436010Z",
   "company_name": "한솔아이원스",
   "stock_code": "114810",
   "status": "partial",
-  "last_successful_update": "2026-11-14T17:05:21.306227Z",
+  "last_successful_update": "2026-11-15T02:38:27.436010Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -339,6 +339,51 @@
           "source": "cbci.co.kr",
           "source_domain": "cbci.co.kr",
           "published_at": "2026-10-23T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "75db95349fce3e18",
+      "company_name": "한솔아이원스",
+      "stock_code": "114810",
+      "representative_title": "\"병목 풀고 외주비 줄인다\"… 한솔아이원스 , 2170억 증설 승부수",
+      "representative_url": "https://news1.kr/industry/sb-founded/6347740",
+      "representative_source": "news1.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-14T21:20:00Z",
+      "last_published_at": "2026-11-14T21:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "news1.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [
+        " 2170억"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "\"병목 풀고 외주비 줄인다\"… 한솔아이원스 , 2170억 증설 승부수",
+          "url": "https://news1.kr/industry/sb-founded/6347740",
+          "source": "news1.kr",
+          "source_domain": "news1.kr",
+          "published_at": "2026-11-15T06:20:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -762,53 +807,6 @@
           "source": "viva100.com",
           "source_domain": "viva100.com",
           "published_at": "2026-10-24T11:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e25c5d5814994834",
-      "company_name": "한솔아이원스",
-      "stock_code": "114810",
-      "representative_title": "충북도·청주시· 한솔아이원스 , 공장 신설 투자협약",
-      "representative_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8693998",
-      "representative_source": "news.kbs.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-23T12:55:00Z",
-      "last_published_at": "2026-10-23T12:55:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "news.kbs.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment",
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "충북도·청주시· 한솔아이원스 , 공장 신설 투자협약",
-          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8693998",
-          "source": "news.kbs.co.kr",
-          "source_domain": "news.kbs.co.kr",
-          "published_at": "2026-10-23T21:55:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
