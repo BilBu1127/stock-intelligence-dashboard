@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-17T05:03:53.710676Z",
+  "generated_at": "2026-11-17T19:50:12.808575Z",
   "company_name": "POSCO홀딩스",
   "stock_code": "005490",
-  "status": "ok",
-  "last_successful_update": "2026-11-17T05:03:53.710676Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-17T19:50:12.808575Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "59cf7d238d91ad6d",
@@ -49,6 +54,50 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-09-29T07:55:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "5ded0208ff173db5",
+      "company_name": "POSCO홀딩스",
+      "stock_code": "005490",
+      "representative_title": "POSCO홀딩스 26만원선 약세…철강 이익 개선에도 주가 2.42%↓",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=238978",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-17T05:22:00Z",
+      "last_published_at": "2026-11-17T05:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "POSCO홀딩스 26만원선 약세…철강 이익 개선에도 주가 2.42%↓",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=238978",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-17T14:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -441,50 +490,6 @@
           "source": "newsquest.co.kr",
           "source_domain": "newsquest.co.kr",
           "published_at": "2026-11-03T20:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "912e96cfeb6dc9ff",
-      "company_name": "POSCO홀딩스",
-      "stock_code": "005490",
-      "representative_title": "POSCO홀딩스 주가, 11월 3일 애프터마켓 266,500원 5.83% 하락",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=560824",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-03T07:22:00Z",
-      "last_published_at": "2026-11-03T07:22:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "POSCO홀딩스 주가, 11월 3일 애프터마켓 266,500원 5.83% 하락",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=560824",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-11-03T16:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

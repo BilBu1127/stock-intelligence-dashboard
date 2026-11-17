@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-17T05:03:53.710676Z",
+  "generated_at": "2026-11-17T19:50:12.808575Z",
   "company_name": "한미반도체",
   "stock_code": "042700",
-  "status": "ok",
-  "last_successful_update": "2026-11-17T05:03:53.710676Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-17T19:50:12.808575Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "977f9968479af7c8",
@@ -3146,15 +3151,15 @@
       ]
     },
     {
-      "cluster_id": "c5aa1379c26f9aeb",
+      "cluster_id": "f398140f71e90faa",
       "company_name": "한미반도체",
       "stock_code": "042700",
-      "representative_title": "한미반도체 AI발 수요 대비 6천여평 최대규모 공장 매입",
-      "representative_url": "https://mk.co.kr/article/12130487",
-      "representative_source": "mk.co.kr",
+      "representative_title": "한미반도체 16만원대로 조정…HBM 장비 수익성은 견조",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=238977",
+      "representative_source": "job-post.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-18T09:03:00Z",
-      "last_published_at": "2026-08-18T09:03:00Z",
+      "first_published_at": "2026-11-17T05:22:00Z",
+      "last_published_at": "2026-11-17T05:22:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3162,467 +3167,30 @@
         "naver"
       ],
       "source_domains": [
-        "mk.co.kr"
+        "job-post.co.kr"
       ],
       "categories": [
         "기술·제품",
-        "투자·생산"
+        "실적"
       ],
       "event_keywords": [
-        "production"
+        "hbm"
       ],
-      "importance_score": 50,
-      "importance_level": "watch",
+      "importance_score": 20,
+      "importance_level": "low",
       "scoring_reasons": [
-        "Tier 1 출처 +20",
         "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "한미반도체 AI발 수요 대비 6천여평 최대규모 공장 매입",
-          "url": "https://mk.co.kr/article/12130487",
-          "source": "mk.co.kr",
-          "source_domain": "mk.co.kr",
-          "published_at": "2026-08-18T18:03:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "21170202197d657e",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 인천 제8공장 부지 6230평 '1300억원' 매입",
-      "representative_url": "https://etnews.com/20260818000377",
-      "representative_source": "etnews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-18T02:46:00Z",
-      "last_published_at": "2026-08-18T07:57:00Z",
-      "article_count": 31,
-      "domestic_article_count": 31,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "ajunews.com",
-        "asiatime.co.kr",
-        "autodaily.co.kr",
-        "biz.newdaily.co.kr",
-        "biz.sbs.co.kr",
-        "bloter.net",
-        "businesspost.co.kr",
-        "cbci.co.kr",
-        "ceoscoredaily.com",
-        "ddaily.co.kr",
-        "ebn.co.kr",
-        "etnews.com",
-        "etoday.co.kr",
-        "fnnews.com",
-        "hankookilbo.com",
-        "hansbiz.co.kr",
-        "inews24.com",
-        "kukinews.com",
-        "kyeonggi.com",
-        "livebiz.today",
-        "news.bizwatch.co.kr",
-        "news.einfomax.co.kr",
-        "news.mtn.co.kr",
-        "news.tf.co.kr",
-        "news1.kr",
-        "newspim.com",
-        "pinpointnews.co.kr",
-        "sedaily.com",
-        "seoulfn.com",
-        "tournews21.com",
-        "viva100.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1300억",
-        " 560억",
-        "300억",
-        "hbm",
-        "investment",
-        "production",
-        "supply"
-      ],
-      "importance_score": 60,
-      "importance_level": "important",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 1300억 투자해 8공장 구축…내년 2분기 양산",
-          "url": "https://newspim.com/news/view/20260818000729",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-08-18T16:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , AI장비 '쇼티지'에 1300억 베팅…역대 최대 8공장 구축",
-          "url": "https://news.bizwatch.co.kr/article/industry/2026/08/18/0030",
-          "source": "news.bizwatch.co.kr",
-          "source_domain": "news.bizwatch.co.kr",
-          "published_at": "2026-08-18T16:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 인천 제8공장 부지 6230평 '1300억원' 매입",
-          "url": "https://etnews.com/20260818000377",
-          "source": "etnews.com",
-          "source_domain": "etnews.com",
-          "published_at": "2026-08-18T16:06:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 들여 8공장 구축…AI장비 증산",
-          "url": "https://hansbiz.co.kr/news/articleView.html?idxno=857594",
-          "source": "hansbiz.co.kr",
-          "source_domain": "hansbiz.co.kr",
-          "published_at": "2026-08-18T15:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 창사 최대 2만평 공장 짓는다 … 1300억 투입해 AI 장비 증산",
-          "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/18/2026081800260.html",
-          "source": "biz.newdaily.co.kr",
-          "source_domain": "biz.newdaily.co.kr",
-          "published_at": "2026-08-18T15:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 들여 인천에 차세대 반도체 장비 생산시설 구축",
-          "url": "https://livebiz.today/news/articleView.html?idxno=204213",
-          "source": "livebiz.today",
-          "source_domain": "livebiz.today",
-          "published_at": "2026-08-18T15:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , AI 장비 수요 급증 대응⋯8공장에 1300억 투자",
-          "url": "https://autodaily.co.kr/news/articleView.html?idxno=546693",
-          "source": "autodaily.co.kr",
-          "source_domain": "autodaily.co.kr",
-          "published_at": "2026-08-18T15:44:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 인천 주안 공장 매입…1천300억 투자해 8공장 건립 시동",
-          "url": "https://kyeonggi.com/article/20260818580283",
-          "source": "kyeonggi.com",
-          "source_domain": "kyeonggi.com",
-          "published_at": "2026-08-18T15:41:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 인천 주안에 1300억 투입 8공장 구축한다",
-          "url": "https://tournews21.com/news/articleView.html?idxno=141264",
-          "source": "tournews21.com",
-          "source_domain": "tournews21.com",
-          "published_at": "2026-08-18T15:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 창사 최대 규모 2만㎡ 공장 부지 매입... \"장비 공급 적기에...",
-          "url": "https://hankookilbo.com/news/article/A2026081814220004597?did=NA",
-          "source": "hankookilbo.com",
-          "source_domain": "hankookilbo.com",
-          "published_at": "2026-08-18T15:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 인천에 최대 규모 신공장 확보…총 1300억 투자",
-          "url": "https://ceoscoredaily.com/page/view/2026081815153741254",
-          "source": "ceoscoredaily.com",
-          "source_domain": "ceoscoredaily.com",
-          "published_at": "2026-08-18T15:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 투입해 8공장 구축 본격화",
-          "url": "https://sedaily.com/article/20080402",
-          "source": "sedaily.com",
-          "source_domain": "sedaily.com",
-          "published_at": "2026-08-18T15:05:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억원 투입해 8공장 신설… AI 장비 쇼티지 선제 대응",
-          "url": "https://ddaily.co.kr/page/view/2026081813400167201",
-          "source": "ddaily.co.kr",
-          "source_domain": "ddaily.co.kr",
-          "published_at": "2026-08-18T14:43:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 6230평 역대 최대 8공장 구축…1300억원 투자",
-          "url": "https://kukinews.com/article/view/kuk202608180120",
-          "source": "kukinews.com",
-          "source_domain": "kukinews.com",
-          "published_at": "2026-08-18T14:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 1300억 들여 신규 공장…\"장비 공급 부족 대응\"",
-          "url": "https://biz.sbs.co.kr/article_hub/20000329230?division=NAVER",
-          "source": "biz.sbs.co.kr",
-          "source_domain": "biz.sbs.co.kr",
-          "published_at": "2026-08-18T14:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1천300억 투자 역대 최대규모 8공장 구축",
-          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430571",
-          "source": "news.einfomax.co.kr",
-          "source_domain": "news.einfomax.co.kr",
-          "published_at": "2026-08-18T14:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , HBM 장비 생산 위해 6230평 부지 매입",
-          "url": "https://asiatime.co.kr/article/20260818500316",
-          "source": "asiatime.co.kr",
-          "source_domain": "asiatime.co.kr",
-          "published_at": "2026-08-18T14:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , '560억' 8공장 부지 확보…HBM 공급 부족 대응",
-          "url": "https://bloter.net/news/articleView.html?idxno=671161",
-          "source": "bloter.net",
-          "source_domain": "bloter.net",
-          "published_at": "2026-08-18T13:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "\"추가로 1300억 투입\" 한미반도체 , 인천 주안 8공장 추진",
-          "url": "https://fnnews.com/news/202608181344444844",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-08-18T13:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 들여 6천평 규모 공장 부지 매입…\"HBM 생산능력 확...",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=478247",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-08-18T13:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 투자해 8공장 구축…AI 장비 생산능력 확대",
-          "url": "https://news.mtn.co.kr/news-detail/2026081813232031710",
-          "source": "news.mtn.co.kr",
-          "source_domain": "news.mtn.co.kr",
-          "published_at": "2026-08-18T13:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 560억원 규모 토지·건물 취득…신공장 8공장 확보",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=598970",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-08-18T13:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 투입해 '8공장' 구축…반도체 장비 공급난 정면 돌파",
-          "url": "https://ajunews.com/view/20260818125313071",
-          "source": "ajunews.com",
-          "source_domain": "ajunews.com",
-          "published_at": "2026-08-18T13:02:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 들여 역대 최대 8공장 구축…HBM 장비 생산 확대",
-          "url": "https://inews24.com/view/1995783",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-08-18T12:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 6230평 공장 부지 매입…1300억원 투자",
-          "url": "https://news.tf.co.kr/read/economy/2355013.htm",
-          "source": "news.tf.co.kr",
-          "source_domain": "news.tf.co.kr",
-          "published_at": "2026-08-18T12:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 들여 역대 최대 8공장 구축…AI 반도체 장비 증산",
-          "url": "https://etoday.co.kr/news/view/2615455",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-08-18T12:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 1300억 투자해 역대 최대 규모 8공장 짓는다, AI 반도체 장비...",
-          "url": "https://businesspost.co.kr/BP?command=article_view&num=444955",
-          "source": "businesspost.co.kr",
-          "source_domain": "businesspost.co.kr",
-          "published_at": "2026-08-18T12:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 6230평 공장 부지 매입⋯ “창사 최대 규모“",
-          "url": "https://viva100.com/article/20260818500612",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-08-18T12:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 1300억 투입해 8공장 구축…\"AI 장비 쇼티지 선제 대응\"",
-          "url": "https://news1.kr/industry/general-industry/6261725",
-          "source": "news1.kr",
-          "source_domain": "news1.kr",
-          "published_at": "2026-08-18T11:59:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 6230평 규모 공장 부지 매입···창사 이래 최대 투자",
-          "url": "https://seoulfn.com/news/articleView.html?idxno=635844",
-          "source": "seoulfn.com",
-          "source_domain": "seoulfn.com",
-          "published_at": "2026-08-18T11:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "한미반도체 , 6230평 공장 매입…1300억 투입해 8공장 구축",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1720725",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-08-18T11:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "0f36beabb79f2f63",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 인천에 창사 최대규모 2만㎡ 신공장 부지 매입",
-      "representative_url": "https://yna.co.kr/view/AKR20260818084300003?input=1195m",
-      "representative_source": "yna.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-08-18T05:05:00Z",
-      "last_published_at": "2026-08-18T05:05:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "yna.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 50,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 인천에 창사 최대규모 2만㎡ 신공장 부지 매입",
-          "url": "https://yna.co.kr/view/AKR20260818084300003?input=1195m",
-          "source": "yna.co.kr",
-          "source_domain": "yna.co.kr",
-          "published_at": "2026-08-18T14:05:00+09:00",
+          "title": "한미반도체 16만원대로 조정…HBM 장비 수익성은 견조",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=238977",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-17T14:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -4043,51 +3611,6 @@
           "source": "news1.kr",
           "source_domain": "news1.kr",
           "published_at": "2026-11-13T09:49:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "32efa9984432a017",
-      "company_name": "한미반도체",
-      "stock_code": "042700",
-      "representative_title": "한미반도체 , 싱가포르서 2027년 성장 전략 설명",
-      "representative_url": "https://vegannews.co.kr/news/article.html?no=404240",
-      "representative_source": "vegannews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-12T15:16:00Z",
-      "last_published_at": "2026-11-12T15:16:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한미반도체 , 싱가포르서 2027년 성장 전략 설명",
-          "url": "https://vegannews.co.kr/news/article.html?no=404240",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-11-13T00:16:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

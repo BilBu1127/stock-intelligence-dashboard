@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-17T05:03:53.710676Z",
+  "generated_at": "2026-11-17T19:50:12.808575Z",
   "company_name": "DL이앤씨",
   "stock_code": "375500",
-  "status": "ok",
-  "last_successful_update": "2026-11-17T05:03:53.710676Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-17T19:50:12.808575Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "32f92d56238e1083",
@@ -1297,6 +1302,50 @@
       ]
     },
     {
+      "cluster_id": "7937467a06ffb920",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "현대건설· DL이앤씨 등 17곳 대구 집결...지역업체 49곳 '수주 기회'",
+      "representative_url": "https://ppss.kr/news/articleView.html?idxno=321526",
+      "representative_source": "ppss.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-17T12:00:00Z",
+      "last_published_at": "2026-11-17T12:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ppss.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "현대건설· DL이앤씨 등 17곳 대구 집결...지역업체 49곳 '수주 기회'",
+          "url": "https://ppss.kr/news/articleView.html?idxno=321526",
+          "source": "ppss.kr",
+          "source_domain": "ppss.kr",
+          "published_at": "2026-11-17T21:00:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "187cc4e8802edde7",
       "company_name": "DL이앤씨",
       "stock_code": "375500",
@@ -1683,76 +1732,6 @@
           "source": "news.tf.co.kr",
           "source_domain": "news.tf.co.kr",
           "published_at": "2026-11-14T20:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "300175baf8a154db",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "DL이앤씨 , 수원 영통 리모델링 공사 계약... 4062억원 규모",
-      "representative_url": "https://insight.co.kr/news/581957",
-      "representative_source": "insight.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-13T05:34:00Z",
-      "last_published_at": "2026-11-13T11:48:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "4th.kr",
-        "insight.co.kr",
-        "vegannews.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        " 4062억",
-        "supply"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "DL이앤씨 , 수원 영통 리모델링 공사 4062억원 수주",
-          "url": "https://vegannews.co.kr/news/article.html?no=404580",
-          "source": "vegannews.co.kr",
-          "source_domain": "vegannews.co.kr",
-          "published_at": "2026-11-13T20:48:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "DL이앤씨 , 영통 리모델링 4062억원 계약..전체 도급액 88%↑",
-          "url": "https://4th.kr/news/articleView.html?idxno=2121820",
-          "source": "4th.kr",
-          "source_domain": "4th.kr",
-          "published_at": "2026-11-13T15:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "DL이앤씨 , 수원 영통 리모델링 공사 계약... 4062억원 규모",
-          "url": "https://insight.co.kr/news/581957",
-          "source": "insight.co.kr",
-          "source_domain": "insight.co.kr",
-          "published_at": "2026-11-13T14:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
