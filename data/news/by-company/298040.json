@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-16T21:00:45.740727Z",
+  "generated_at": "2026-11-17T05:03:53.710676Z",
   "company_name": "효성중공업",
   "stock_code": "298040",
-  "status": "ok",
-  "last_successful_update": "2026-11-16T21:00:45.740727Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-17T05:03:53.710676Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "21a1b9d03047cc0c",
@@ -3028,15 +3033,15 @@
       ]
     },
     {
-      "cluster_id": "a7d7cd63a89f7939",
+      "cluster_id": "76ff38fe517ee452",
       "company_name": "효성중공업",
       "stock_code": "298040",
-      "representative_title": "유럽 전력망 투자 '러시'… 효성중공업 ·HD현대일렉트릭·LS일렉트릭 수주...",
-      "representative_url": "https://inews24.com/view/1995200",
-      "representative_source": "inews24.com",
+      "representative_title": "효성중공업 , 영등포 문래동3가 '해링턴 플레이스 문래' 20일 견본주택 개...",
+      "representative_url": "https://newspim.com/news/view/20261117000478",
+      "representative_source": "newspim.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-17T21:01:00Z",
-      "last_published_at": "2026-08-17T21:01:00Z",
+      "first_published_at": "2026-11-17T01:35:00Z",
+      "last_published_at": "2026-11-17T01:35:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -3044,32 +3049,158 @@
         "naver"
       ],
       "source_domains": [
-        "inews24.com"
+        "newspim.com"
       ],
       "categories": [
-        "기술·제품",
-        "실적",
-        "투자·생산"
+        "공급·규제"
       ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 40,
-      "importance_level": "watch",
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "최근 24시간 +5"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "유럽 전력망 투자 '러시'… 효성중공업 ·HD현대일렉트릭·LS일렉트릭 수주...",
-          "url": "https://inews24.com/view/1995200",
-          "source": "inews24.com",
-          "source_domain": "inews24.com",
-          "published_at": "2026-08-18T06:01:00+09:00",
+          "title": "효성중공업 , 영등포 문래동3가 '해링턴 플레이스 문래' 20일 견본주택 개...",
+          "url": "https://newspim.com/news/view/20261117000478",
+          "source": "newspim.com",
+          "source_domain": "newspim.com",
+          "published_at": "2026-11-17T10:35:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "e9afa902001733fe",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "효성중공업 , SK텔레콤과 AI 데이터센터 구축 전략적 파트너십 체결",
+      "representative_url": "https://weeklytrade.co.kr/news/view.html?category=5&item=&no=102262&section=1",
+      "representative_source": "weeklytrade.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-16T22:40:00Z",
+      "last_published_at": "2026-11-16T22:40:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "weeklytrade.co.kr"
+      ],
+      "categories": [
+        "기타",
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "효성중공업 , SK텔레콤과 AI 데이터센터 구축 전략적 파트너십 체결",
+          "url": "https://weeklytrade.co.kr/news/view.html?category=5&item=&no=102262&section=1",
+          "source": "weeklytrade.co.kr",
+          "source_domain": "weeklytrade.co.kr",
+          "published_at": "2026-11-17T07:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "be5f90cd356f7a1a",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "SKT, 효성중공업 과 맞손…기술 실증부터 AI 데이터센터 구축까지 협력",
+      "representative_url": "https://thepublic.kr/news/articleView.html?idxno=327000",
+      "representative_source": "thepublic.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-16T21:04:00Z",
+      "last_published_at": "2026-11-16T21:04:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thepublic.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SKT, 효성중공업 과 맞손…기술 실증부터 AI 데이터센터 구축까지 협력",
+          "url": "https://thepublic.kr/news/articleView.html?idxno=327000",
+          "source": "thepublic.kr",
+          "source_domain": "thepublic.kr",
+          "published_at": "2026-11-17T06:04:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "15d9e0b1464a21cb",
+      "company_name": "효성중공업",
+      "stock_code": "298040",
+      "representative_title": "SKT· 효성중공업 GW급 AI 데이터센터 구축 맞손",
+      "representative_url": "https://biz.sbs.co.kr/article_hub/20000346861?division=NAVER",
+      "representative_source": "biz.sbs.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-16T20:59:00Z",
+      "last_published_at": "2026-11-16T20:59:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.sbs.co.kr"
+      ],
+      "categories": [
+        "공급·규제",
+        "기타",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SKT· 효성중공업 GW급 AI 데이터센터 구축 맞손",
+          "url": "https://biz.sbs.co.kr/article_hub/20000346861?division=NAVER",
+          "source": "biz.sbs.co.kr",
+          "source_domain": "biz.sbs.co.kr",
+          "published_at": "2026-11-17T05:59:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -3640,197 +3771,6 @@
           "source": "fnnews.com",
           "source_domain": "fnnews.com",
           "published_at": "2026-11-16T18:17:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ace4a6890703d4c5",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "SKT, 효성중공업 과 AIDC 전력설비 구축 맞손",
-      "representative_url": "https://srtimes.kr/news/articleView.html?idxno=217753",
-      "representative_source": "srtimes.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T08:56:00Z",
-      "last_published_at": "2026-11-16T08:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "srtimes.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SKT, 효성중공업 과 AIDC 전력설비 구축 맞손",
-          "url": "https://srtimes.kr/news/articleView.html?idxno=217753",
-          "source": "srtimes.kr",
-          "source_domain": "srtimes.kr",
-          "published_at": "2026-11-16T17:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "29dd1efa187dcb1e",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "SKT, 효성중공업 과 AI 데이터센터 파트너십 체결…\"전력설비 적기 공급...",
-      "representative_url": "https://news.mtn.co.kr/article/2026111613264045304",
-      "representative_source": "news.mtn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T05:28:00Z",
-      "last_published_at": "2026-11-16T08:54:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr",
-        "news.mtn.co.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "SKT, 효성중공업 과 AI 데이터센터 파트너십...전력설비 선제 확보",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=238783",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-11-16T17:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "SKT, 효성중공업 과 AI 데이터센터 파트너십 체결…\"전력설비 적기 공급...",
-          "url": "https://news.mtn.co.kr/article/2026111613264045304",
-          "source": "news.mtn.co.kr",
-          "source_domain": "news.mtn.co.kr",
-          "published_at": "2026-11-16T14:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "df9fe6104b1bd605",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "SKT가 짓는 AI 데이터센터… 효성중공업 전력기술 심는다",
-      "representative_url": "https://hankyung.com/article/2026111600721",
-      "representative_source": "hankyung.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T08:50:00Z",
-      "last_published_at": "2026-11-16T08:50:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "hankyung.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "Tier 1 출처 +20",
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SKT가 짓는 AI 데이터센터… 효성중공업 전력기술 심는다",
-          "url": "https://hankyung.com/article/2026111600721",
-          "source": "hankyung.com",
-          "source_domain": "hankyung.com",
-          "published_at": "2026-11-16T17:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "975996fc3fbf8e44",
-      "company_name": "효성중공업",
-      "stock_code": "298040",
-      "representative_title": "효성중공업 SK텔레콤과 초고압 설비 공급·차세대 기술 협력 : AI 데이터...",
-      "representative_url": "https://huffingtonpost.kr/article/262113",
-      "representative_source": "huffingtonpost.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T08:40:00Z",
-      "last_published_at": "2026-11-16T08:40:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "huffingtonpost.kr"
-      ],
-      "categories": [
-        "공급·규제"
-      ],
-      "event_keywords": [
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "효성중공업 SK텔레콤과 초고압 설비 공급·차세대 기술 협력 : AI 데이터...",
-          "url": "https://huffingtonpost.kr/article/262113",
-          "source": "huffingtonpost.kr",
-          "source_domain": "huffingtonpost.kr",
-          "published_at": "2026-11-16T17:40:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
