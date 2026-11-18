@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T19:50:12.808575Z",
+  "generated_at": "2026-11-18T04:17:41.675357Z",
   "company_name": "한국항공우주",
   "stock_code": "047810",
   "status": "partial",
-  "last_successful_update": "2026-11-17T19:50:12.808575Z",
+  "last_successful_update": "2026-11-18T04:17:41.675357Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -2242,15 +2242,15 @@
       ]
     },
     {
-      "cluster_id": "64c7f6c36cfc1b3e",
+      "cluster_id": "22e61433f6bb1fba",
       "company_name": "한국항공우주",
       "stock_code": "047810",
-      "representative_title": "[더벨][KAI의 생존전략 M&A] KF-21 첫 납품부터 위성까지…핵심 공정 가...",
-      "representative_url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202608141039149280106962",
-      "representative_source": "thebell.co.kr",
+      "representative_title": "록히드마틴, 차세대 고속 헬기 공동개발 제안⋯KAI·대한 항공 과 협의",
+      "representative_url": "https://autodaily.co.kr/news/articleView.html?idxno=602192",
+      "representative_source": "autodaily.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-08-18T22:02:00Z",
-      "last_published_at": "2026-08-18T22:02:00Z",
+      "first_published_at": "2026-11-18T02:56:00Z",
+      "last_published_at": "2026-11-18T02:56:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -2258,19 +2258,106 @@
         "naver"
       ],
       "source_domains": [
-        "thebell.co.kr"
+        "autodaily.co.kr"
       ],
       "categories": [
         "기타"
       ],
-      "event_keywords": [
-        "m_and_a",
-        "supply"
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
       ],
-      "importance_score": 50,
-      "importance_level": "watch",
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "록히드마틴, 차세대 고속 헬기 공동개발 제안⋯KAI·대한 항공 과 협의",
+          "url": "https://autodaily.co.kr/news/articleView.html?idxno=602192",
+          "source": "autodaily.co.kr",
+          "source_domain": "autodaily.co.kr",
+          "published_at": "2026-11-18T11:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "ae2ed072de603cdd",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "KF-21·수리온 이어 공격헬기까지…KAI, 국산 헬기 수출시장 넓힐까",
+      "representative_url": "https://mk.co.kr/article/12212152",
+      "representative_source": "mk.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-18T01:14:00Z",
+      "last_published_at": "2026-11-18T01:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "mk.co.kr"
+      ],
+      "categories": [
+        "공급·규제"
+      ],
+      "event_keywords": [],
+      "importance_score": 35,
+      "importance_level": "low",
       "scoring_reasons": [
         "Tier 1 출처 +20",
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "KF-21·수리온 이어 공격헬기까지…KAI, 국산 헬기 수출시장 넓힐까",
+          "url": "https://mk.co.kr/article/12212152",
+          "source": "mk.co.kr",
+          "source_domain": "mk.co.kr",
+          "published_at": "2026-11-18T10:14:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "7e3254b725239171",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "한국투자증권 \" 한국항공우주 , 지연 사업 인도 정상화.. 목표가 하향\"",
+      "representative_url": "https://g-enews.com/view.php?ud=20261118083001574544093b5d4e_1",
+      "representative_source": "g-enews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-17T23:56:00Z",
+      "last_published_at": "2026-11-17T23:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "g-enews.com"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5",
         "중요 사건 신호 +15"
@@ -2278,11 +2365,56 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "[더벨][KAI의 생존전략 M&A] KF-21 첫 납품부터 위성까지…핵심 공정 가...",
-          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202608141039149280106962",
-          "source": "thebell.co.kr",
-          "source_domain": "thebell.co.kr",
-          "published_at": "2026-08-19T07:02:00+09:00",
+          "title": "한국투자증권 \" 한국항공우주 , 지연 사업 인도 정상화.. 목표가 하향\"",
+          "url": "https://g-enews.com/view.php?ud=20261118083001574544093b5d4e_1",
+          "source": "g-enews.com",
+          "source_domain": "g-enews.com",
+          "published_at": "2026-11-18T08:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b099ac33ac627dcd",
+      "company_name": "한국항공우주",
+      "stock_code": "047810",
+      "representative_title": "한국항공우주 , 목표가 5.9% 낮춘 16만원…매수 의견 유지-한투",
+      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01938486645647032",
+      "representative_source": "edaily.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-17T23:21:00Z",
+      "last_published_at": "2026-11-17T23:21:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "edaily.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "한국항공우주 , 목표가 5.9% 낮춘 16만원…매수 의견 유지-한투",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01938486645647032",
+          "source": "edaily.co.kr",
+          "source_domain": "edaily.co.kr",
+          "published_at": "2026-11-18T08:21:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -2548,180 +2680,6 @@
           "source": "newsprime.co.kr",
           "source_domain": "newsprime.co.kr",
           "published_at": "2026-11-17T08:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2871e5d886116e44",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "방산 4사 3분기 성적표, KAI만 날았다",
-      "representative_url": "https://smartbizn.com/news/articleView.html?idxno=159634",
-      "representative_source": "smartbizn.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T23:00:00Z",
-      "last_published_at": "2026-11-16T23:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "smartbizn.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "방산 4사 3분기 성적표, KAI만 날았다",
-          "url": "https://smartbizn.com/news/articleView.html?idxno=159634",
-          "source": "smartbizn.com",
-          "source_domain": "smartbizn.com",
-          "published_at": "2026-11-17T08:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "c4e5196cb8d5b21f",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "한화에어로·KAI 발목 잡은 미국산 엔진 부품…KF-21 1분기 인도 4대에서...",
-      "representative_url": "https://g-enews.com/view.php?ud=202611170622068936fbbec65dfb_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T21:38:00Z",
-      "last_published_at": "2026-11-16T21:38:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "g-enews.com"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "한화에어로·KAI 발목 잡은 미국산 엔진 부품…KF-21 1분기 인도 4대에서...",
-          "url": "https://g-enews.com/view.php?ud=202611170622068936fbbec65dfb_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-11-17T06:38:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e0769a08fd213f0a",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "지역에서 길러 붙잡는다…KAI 트랙 20년 ‘탄탄한 인재 사다리’ 광주는...",
-      "representative_url": "https://khan.co.kr/article/202611170600041",
-      "representative_source": "khan.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T21:00:00Z",
-      "last_published_at": "2026-11-16T21:00:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "khan.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "지역에서 길러 붙잡는다…KAI 트랙 20년 ‘탄탄한 인재 사다리’ 광주는...",
-          "url": "https://khan.co.kr/article/202611170600041",
-          "source": "khan.co.kr",
-          "source_domain": "khan.co.kr",
-          "published_at": "2026-11-17T06:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1f8af5cee8156847",
-      "company_name": "한국항공우주",
-      "stock_code": "047810",
-      "representative_title": "KAI 김종출 사장 “MAH, 美 아파치공격헬기 대비 도입·유지비 절반… 수...",
-      "representative_url": "https://asiatoday.co.kr/kn/view.php?key=20261115010005716",
-      "representative_source": "asiatoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-16T19:02:00Z",
-      "last_published_at": "2026-11-16T19:02:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "asiatoday.co.kr"
-      ],
-      "categories": [
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "KAI 김종출 사장 “MAH, 美 아파치공격헬기 대비 도입·유지비 절반… 수...",
-          "url": "https://asiatoday.co.kr/kn/view.php?key=20261115010005716",
-          "source": "asiatoday.co.kr",
-          "source_domain": "asiatoday.co.kr",
-          "published_at": "2026-11-17T04:02:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
