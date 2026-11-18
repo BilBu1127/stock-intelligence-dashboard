@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T04:17:41.675357Z",
+  "generated_at": "2026-11-18T19:23:53.220380Z",
   "company_name": "HPSP",
   "stock_code": "403870",
   "status": "partial",
-  "last_successful_update": "2026-11-18T04:17:41.675357Z",
+  "last_successful_update": "2026-11-18T19:23:53.220380Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,53 @@
           "source": "mk.co.kr",
           "source_domain": "mk.co.kr",
           "published_at": "2026-08-20T16:15:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "58e400009175e7a2",
+      "company_name": "HPSP",
+      "stock_code": "403870",
+      "representative_title": "HPSP 5% 상승…3분기 영업이익 84% 증가",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=239368",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-18T06:14:00Z",
+      "last_published_at": "2026-11-18T06:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "HPSP 5% 상승…3분기 영업이익 84% 증가",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=239368",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-18T15:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -464,49 +511,6 @@
           "source": "job-post.co.kr",
           "source_domain": "job-post.co.kr",
           "published_at": "2026-11-10T15:24:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "52b81857dd034a25",
-      "company_name": "HPSP",
-      "stock_code": "403870",
-      "representative_title": "HPSP 4.20% 올라…고압수소어닐링 장비 수요 주목",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=237298",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-09T05:48:00Z",
-      "last_published_at": "2026-11-09T05:48:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "HPSP 4.20% 올라…고압수소어닐링 장비 수요 주목",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=237298",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-11-09T14:48:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"

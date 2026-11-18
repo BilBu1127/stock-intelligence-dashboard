@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T04:17:41.675357Z",
+  "generated_at": "2026-11-18T19:23:53.220380Z",
   "company_name": "제주반도체",
   "stock_code": "080220",
   "status": "partial",
-  "last_successful_update": "2026-11-18T04:17:41.675357Z",
+  "last_successful_update": "2026-11-18T19:23:53.220380Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,53 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-10-22T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "9b7d5df2638598c2",
+      "company_name": "제주반도체",
+      "stock_code": "080220",
+      "representative_title": "제주반도체 5만원대 약보합…메모리 실적 급증",
+      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=239307",
+      "representative_source": "job-post.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-18T05:34:00Z",
+      "last_published_at": "2026-11-18T05:34:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "job-post.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "실적"
+      ],
+      "event_keywords": [
+        "earnings"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "제주반도체 5만원대 약보합…메모리 실적 급증",
+          "url": "https://job-post.co.kr/news/articleView.html?idxno=239307",
+          "source": "job-post.co.kr",
+          "source_domain": "job-post.co.kr",
+          "published_at": "2026-11-18T14:34:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -453,50 +500,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-11-12T15:52:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "eaba14a1ec245e57",
-      "company_name": "제주반도체",
-      "stock_code": "080220",
-      "representative_title": "제주반도체 주가, 11월 11일 애프터마켓 61,700원 10.38% 상승",
-      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=563129",
-      "representative_source": "joongangenews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T08:08:00Z",
-      "last_published_at": "2026-11-11T08:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "joongangenews.com"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "제주반도체 주가, 11월 11일 애프터마켓 61,700원 10.38% 상승",
-          "url": "https://joongangenews.com/news/articleView.html?idxno=563129",
-          "source": "joongangenews.com",
-          "source_domain": "joongangenews.com",
-          "published_at": "2026-11-11T17:08:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
