@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T19:23:53.220380Z",
+  "generated_at": "2026-11-19T04:10:23.192538Z",
   "company_name": "대한조선",
   "stock_code": "439260",
   "status": "partial",
-  "last_successful_update": "2026-11-18T19:23:53.220380Z",
+  "last_successful_update": "2026-11-19T04:10:23.192538Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -344,6 +344,49 @@
           "source": "viva100.com",
           "source_domain": "viva100.com",
           "published_at": "2026-08-21T11:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "01c9b0959590260b",
+      "company_name": "대한조선",
+      "stock_code": "439260",
+      "representative_title": "탱커선으로 8분기 연속 20%대 이익률… 대한조선 , 가스선으로 영역 확장",
+      "representative_url": "https://biz.chosun.com/industry/company/2026/11/19/QZDSJAMQV5G7POFCTCPECILX5Y",
+      "representative_source": "biz.chosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-19T01:50:00Z",
+      "last_published_at": "2026-11-19T01:50:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "biz.chosun.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "탱커선으로 8분기 연속 20%대 이익률… 대한조선 , 가스선으로 영역 확장",
+          "url": "https://biz.chosun.com/industry/company/2026/11/19/QZDSJAMQV5G7POFCTCPECILX5Y",
+          "source": "biz.chosun.com",
+          "source_domain": "biz.chosun.com",
+          "published_at": "2026-11-19T10:50:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -758,54 +801,6 @@
           "source": "finomy.com",
           "source_domain": "finomy.com",
           "published_at": "2026-11-16T09:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "872454077cbb63aa",
-      "company_name": "대한조선",
-      "stock_code": "439260",
-      "representative_title": "빅3 웃도는 영업 이익률... 대한조선 '생산 내재화' 전략 먹혔다",
-      "representative_url": "https://kpinews.kr/newsView/1065598814352844",
-      "representative_source": "kpinews.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-13T08:44:00Z",
-      "last_published_at": "2026-11-13T08:44:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "kpinews.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "production"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "빅3 웃도는 영업 이익률... 대한조선 '생산 내재화' 전략 먹혔다",
-          "url": "https://kpinews.kr/newsView/1065598814352844",
-          "source": "kpinews.kr",
-          "source_domain": "kpinews.kr",
-          "published_at": "2026-11-13T17:44:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
