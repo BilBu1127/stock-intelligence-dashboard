@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T19:05:36.607172Z",
+  "generated_at": "2026-11-21T03:57:44.626836Z",
   "company_name": "NAVER",
   "stock_code": "035420",
   "status": "partial",
-  "last_successful_update": "2026-11-20T19:05:36.607172Z",
+  "last_successful_update": "2026-11-21T03:57:44.626836Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "JSONDecodeError"
+      "type": "HTTP429"
     }
   ],
   "news": [
@@ -289,6 +289,93 @@
           "source": "en.yna.co.kr",
           "source_domain": "en.yna.co.kr",
           "published_at": "2026-09-03T09:59:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "56d59c8d56478c5d",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "네이버, 애플 학생 할인부터 로봇 AI 연구까지…쇼핑·여행·금융 서비스...",
+      "representative_url": "https://venturesquare.net/1130521",
+      "representative_source": "venturesquare.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-21T02:43:00Z",
+      "last_published_at": "2026-11-21T02:43:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "venturesquare.net"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "네이버, 애플 학생 할인부터 로봇 AI 연구까지…쇼핑·여행·금융 서비스...",
+          "url": "https://venturesquare.net/1130521",
+          "source": "venturesquare.net",
+          "source_domain": "venturesquare.net",
+          "published_at": "2026-11-21T11:43:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "a6849b4781264d23",
+      "company_name": "NAVER",
+      "stock_code": "035420",
+      "representative_title": "NAVER 주가 최근 5거래일 급락 52주 최저가",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=565593",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-21T01:52:00Z",
+      "last_published_at": "2026-11-21T01:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "NAVER 주가 최근 5거래일 급락 52주 최저가",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=565593",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-11-21T10:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -646,97 +733,6 @@
           "source": "insightkorea.co.kr",
           "source_domain": "insightkorea.co.kr",
           "published_at": "2026-11-19T16:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "a815f8e080ef331e",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "NAVER 주가, 11월 19일 애프터마켓 168,300원 1.17% 하락",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16280780",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-19T07:12:00Z",
-      "last_published_at": "2026-11-19T07:12:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
-      ],
-      "categories": [
-        "주가·투자의견"
-      ],
-      "event_keywords": [],
-      "importance_score": 0,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "단순 주가·종목 추천 -25"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "NAVER 주가, 11월 19일 애프터마켓 168,300원 1.17% 하락",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16280780",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-11-19T16:12:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "d5a4f26e046fdfdf",
-      "company_name": "NAVER",
-      "stock_code": "035420",
-      "representative_title": "NAVER 16만8300원, 1.17% 하락…AI 투자와 수익성 사이 줄다리기",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=239569",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-19T04:56:00Z",
-      "last_published_at": "2026-11-19T04:56:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "NAVER 16만8300원, 1.17% 하락…AI 투자와 수익성 사이 줄다리기",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=239569",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-11-19T13:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
