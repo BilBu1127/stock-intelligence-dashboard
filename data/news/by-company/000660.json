@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-22T03:09:12.366431Z",
+  "generated_at": "2026-11-22T18:29:41.311219Z",
   "company_name": "SK하이닉스",
   "stock_code": "000660",
-  "status": "ok",
-  "last_successful_update": "2026-11-22T03:09:12.366431Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-22T18:29:41.311219Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "5477dd9d3631a44e",
@@ -5368,446 +5373,15 @@
       ]
     },
     {
-      "cluster_id": "d49c451a57ed8c36",
+      "cluster_id": "f9e048027c34d23f",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "Nvidia Reportedly Secures DRAM and HBM Memory Supply From SK Hynix and Micron Until 2028",
-      "representative_url": "https://eteknix.com/nvidia-reportedly-secures-dram-and-hbm-memory-supply-from-sk-hynix-and-micron-until-2028",
-      "representative_source": "eteknix.com",
-      "representative_language": "English",
-      "first_published_at": "2026-08-23T07:15:00Z",
-      "last_published_at": "2026-08-23T07:15:00Z",
-      "article_count": 1,
-      "domestic_article_count": 0,
-      "international_article_count": 1,
-      "providers": [
-        "gdelt"
-      ],
-      "source_domains": [
-        "eteknix.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품"
-      ],
-      "event_keywords": [
-        "2028",
-        "dram",
-        "hbm",
-        "m_and_a",
-        "supply"
-      ],
-      "importance_score": 40,
-      "importance_level": "watch",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "Nvidia Reportedly Secures DRAM and HBM Memory Supply From SK Hynix and Micron Until 2028",
-          "url": "https://eteknix.com/nvidia-reportedly-secures-dram-and-hbm-memory-supply-from-sk-hynix-and-micron-until-2028",
-          "source": "eteknix.com",
-          "source_domain": "eteknix.com",
-          "published_at": "2026-08-23T07:15:00Z",
-          "language": "English",
-          "region": "international",
-          "provider": "GDELT"
-        }
-      ]
-    },
-    {
-      "cluster_id": "b396cc35feaf5712",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "손정의가 탐낸 SK하이닉스 …소뱅, 1조달러 인수 구상",
-      "representative_url": "https://metroseoul.co.kr/article/20261122500001",
-      "representative_source": "metroseoul.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-21T15:04:00Z",
-      "last_published_at": "2026-11-22T02:40:00Z",
-      "article_count": 5,
-      "domestic_article_count": 5,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "aitimes.com",
-        "biz.chosun.com",
-        "jnilbo.com",
-        "metroseoul.co.kr",
-        "nownews.seoul.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "기술·제품",
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 1조",
-        "1350조",
-        "executive",
-        "m_and_a"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "‘ SK하이닉스 1조달러 인수’ 손정의의 빅베팅, 왜 멈췄나",
-          "url": "https://biz.chosun.com/it-science/ict/2026/11/22/WP6AU5NM2RERVGTPSE7PIP57HU",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-11-22T11:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "“‘1350조’ 주면 SK하이닉스 살 수 있나”…日 손정의 회장, 인수 검토...",
-          "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20261122601004&wlog_tag3=naver",
-          "source": "nownews.seoul.co.kr",
-          "source_domain": "nownews.seoul.co.kr",
-          "published_at": "2026-11-22T11:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "손정의, SK하이닉스 1조달러 인수 검토…월가에 자금 조달 타진",
-          "url": "https://aitimes.com/news/articleView.html?idxno=217653",
-          "source": "aitimes.com",
-          "source_domain": "aitimes.com",
-          "published_at": "2026-11-22T06:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "손정의 소프트뱅크 회장, 한때 SK하이닉스 1조 달러 인수 검토",
-          "url": "https://jnilbo.com/news/articleView.html?idxno=90000085198",
-          "source": "jnilbo.com",
-          "source_domain": "jnilbo.com",
-          "published_at": "2026-11-22T00:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "손정의가 탐낸 SK하이닉스 …소뱅, 1조달러 인수 구상",
-          "url": "https://metroseoul.co.kr/article/20261122500001",
-          "source": "metroseoul.co.kr",
-          "source_domain": "metroseoul.co.kr",
-          "published_at": "2026-11-22T00:04:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "84954e2eb0ff5247",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 , 배당 확대…3분기 누적 배당성향 상승",
-      "representative_url": "https://mbnmoney.mbn.co.kr/news/view?news_no=MM1005963850",
-      "representative_source": "mbnmoney.mbn.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T02:36:00Z",
-      "last_published_at": "2026-11-22T02:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "mbnmoney.mbn.co.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자· SK하이닉스 , 배당 확대…3분기 누적 배당성향 상승",
-          "url": "https://mbnmoney.mbn.co.kr/news/view?news_no=MM1005963850",
-          "source": "mbnmoney.mbn.co.kr",
-          "source_domain": "mbnmoney.mbn.co.kr",
-          "published_at": "2026-11-22T11:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ea5eab52620d9c2d",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "SK하이닉스 美 HBM 공장, 법적 리스크 해소되면서 '탄력'",
-      "representative_url": "https://thetracker.co.kr/View.aspx?No=4323631",
-      "representative_source": "thetracker.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T02:26:00Z",
-      "last_published_at": "2026-11-22T02:26:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "thetracker.co.kr"
-      ],
-      "categories": [
-        "기술·제품",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        "hbm",
-        "production"
-      ],
-      "importance_score": 35,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "핵심 키워드 +5",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "SK하이닉스 美 HBM 공장, 법적 리스크 해소되면서 '탄력'",
-          "url": "https://thetracker.co.kr/View.aspx?No=4323631",
-          "source": "thetracker.co.kr",
-          "source_domain": "thetracker.co.kr",
-          "published_at": "2026-11-22T11:26:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "9af0852d0e0731c3",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "대기업 영업익 3배로 늘었지만 기부금 2% 줄어… SK하이닉스 120억원↓",
-      "representative_url": "https://newscj.com/news/articleView.html?idxno=3451002",
-      "representative_source": "newscj.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T01:10:00Z",
-      "last_published_at": "2026-11-22T02:16:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "m-i.kr",
-        "newscj.com"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        " 120억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "대기업 영업익 3배 늘었지만 기부금은 줄어… SK하이닉스 도 삭감",
-          "url": "https://m-i.kr/news/articleView.html?idxno=2021716",
-          "source": "m-i.kr",
-          "source_domain": "m-i.kr",
-          "published_at": "2026-11-22T11:16:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "대기업 영업익 3배로 늘었지만 기부금 2% 줄어… SK하이닉스 120억원↓",
-          "url": "https://newscj.com/news/articleView.html?idxno=3451002",
-          "source": "newscj.com",
-          "source_domain": "newscj.com",
-          "published_at": "2026-11-22T10:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f4c99c4b533c0ba5",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼전닉스 배당성향 급증… SK하이닉스 21배·삼성전자 4.4배 뛰었다",
-      "representative_url": "https://etoday.co.kr/news/view/2651302",
-      "representative_source": "etoday.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T02:08:00Z",
-      "last_published_at": "2026-11-22T02:08:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "etoday.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼전닉스 배당성향 급증… SK하이닉스 21배·삼성전자 4.4배 뛰었다",
-          "url": "https://etoday.co.kr/news/view/2651302",
-          "source": "etoday.co.kr",
-          "source_domain": "etoday.co.kr",
-          "published_at": "2026-11-22T11:08:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "4558f76c1b35f2a8",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "\" SK하이닉스 가 2위 아니였네\" 삼성전자 '압도적 1위'…대기업 기부금 보...",
-      "representative_url": "https://view.asiae.co.kr/article/2026112210462612495",
-      "representative_source": "view.asiae.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T01:46:00Z",
-      "last_published_at": "2026-11-22T01:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "view.asiae.co.kr"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "\" SK하이닉스 가 2위 아니였네\" 삼성전자 '압도적 1위'…대기업 기부금 보...",
-          "url": "https://view.asiae.co.kr/article/2026112210462612495",
-          "source": "view.asiae.co.kr",
-          "source_domain": "view.asiae.co.kr",
-          "published_at": "2026-11-22T10:46:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e3e192dfc76b6b7b",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "대기업 영업익 3배 늘었으나, 기부금은 감소…역대 최대 실적 SK하이닉스 ...",
-      "representative_url": "https://biz.chosun.com/industry/company/2026/11/22/KA7IAHKEUFH33KVCTPMUPZ3FEM",
-      "representative_source": "biz.chosun.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-22T01:34:00Z",
-      "last_published_at": "2026-11-22T01:34:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "biz.chosun.com"
-      ],
-      "categories": [
-        "실적",
-        "인사·M&A"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "대기업 영업익 3배 늘었으나, 기부금은 감소…역대 최대 실적 SK하이닉스 ...",
-          "url": "https://biz.chosun.com/industry/company/2026/11/22/KA7IAHKEUFH33KVCTPMUPZ3FEM",
-          "source": "biz.chosun.com",
-          "source_domain": "biz.chosun.com",
-          "published_at": "2026-11-22T10:34:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "312e8a888372cea5",
-      "company_name": "SK하이닉스",
-      "stock_code": "000660",
-      "representative_title": "삼성전자· SK하이닉스 거래대금 4조3천억원 감소…비중은↑",
-      "representative_url": "https://kjdaily.com/article.php?aid=1795309330693019276",
+      "representative_title": "삼성전자· SK하이닉스 ETF 거래 감소…인버스는 25% 증가",
+      "representative_url": "https://kjdaily.com/article.php?aid=1795362583693062276",
       "representative_source": "kjdaily.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-22T01:04:00Z",
-      "last_published_at": "2026-11-22T01:04:00Z",
+      "first_published_at": "2026-11-22T15:52:00Z",
+      "last_published_at": "2026-11-22T15:52:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5818,10 +5392,155 @@
         "kjdaily.com"
       ],
       "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자· SK하이닉스 ETF 거래 감소…인버스는 25% 증가",
+          "url": "https://kjdaily.com/article.php?aid=1795362583693062276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-23T00:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "16a55ca8191e7f3a",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼성전자· SK하이닉스 , 3분기 배당성향 급등…주주환원에 속도",
+      "representative_url": "https://mdtoday.co.kr/news/articleView.html?idxno=626878",
+      "representative_source": "mdtoday.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T08:58:00Z",
+      "last_published_at": "2026-11-22T15:40:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com",
+        "mdtoday.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "삼성전자· SK하이닉스 배당성향 급등…주주환원 확대",
+          "url": "https://kjdaily.com/article.php?aid=1795361936693044276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-23T00:40:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자· SK하이닉스 , 3분기 배당성향 급등…주주환원에 속도",
+          "url": "https://mdtoday.co.kr/news/articleView.html?idxno=626878",
+          "source": "mdtoday.co.kr",
+          "source_domain": "mdtoday.co.kr",
+          "published_at": "2026-11-22T17:58:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b11315c1cac3bf3d",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "반도체 ETF 거래 감소… SK하이닉스 인버스는 증가",
+      "representative_url": "https://kjdaily.com/article.php?aid=1795360868693060276",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T15:24:00Z",
+      "last_published_at": "2026-11-22T15:24:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기술·제품",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "반도체 ETF 거래 감소… SK하이닉스 인버스는 증가",
+          "url": "https://kjdaily.com/article.php?aid=1795360868693060276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-23T00:24:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "1e213cb79d71d029",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "앤트로픽, 935억달러 IPO 신기록… SK하이닉스 세계 3위",
+      "representative_url": "https://thefairnews.co.kr/news/articleView.html?idxno=95081",
+      "representative_source": "thefairnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T15:00:00Z",
+      "last_published_at": "2026-11-22T15:00:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "thefairnews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
         "기타"
       ],
       "event_keywords": [
-        " 4조"
+        " 935억"
       ],
       "importance_score": 15,
       "importance_level": "low",
@@ -5832,11 +5551,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자· SK하이닉스 거래대금 4조3천억원 감소…비중은↑",
-          "url": "https://kjdaily.com/article.php?aid=1795309330693019276",
-          "source": "kjdaily.com",
-          "source_domain": "kjdaily.com",
-          "published_at": "2026-11-22T10:04:00+09:00",
+          "title": "앤트로픽, 935억달러 IPO 신기록… SK하이닉스 세계 3위",
+          "url": "https://thefairnews.co.kr/news/articleView.html?idxno=95081",
+          "source": "thefairnews.co.kr",
+          "source_domain": "thefairnews.co.kr",
+          "published_at": "2026-11-23T00:00:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5844,15 +5563,15 @@
       ]
     },
     {
-      "cluster_id": "c7fd3d9e7afcedb5",
+      "cluster_id": "b5a00dd2eee8a529",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "반도체 호황에 배당도 폭증… SK하이닉스 21배·삼성전자 4.4배",
-      "representative_url": "https://ekn.kr/web/view.php?key=20261122027292954",
-      "representative_source": "ekn.kr",
+      "representative_title": "SK하이닉스 도 삼성전기도 아니다…개미들이 가장 많이 산 '국내 주식'",
+      "representative_url": "https://wikitree.co.kr/articles/1176765",
+      "representative_source": "wikitree.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-22T01:00:00Z",
-      "last_published_at": "2026-11-22T01:00:00Z",
+      "first_published_at": "2026-11-22T13:26:00Z",
+      "last_published_at": "2026-11-22T13:26:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5860,10 +5579,10 @@
         "naver"
       ],
       "source_domains": [
-        "ekn.kr"
+        "wikitree.co.kr"
       ],
       "categories": [
-        "기타"
+        "투자·생산"
       ],
       "event_keywords": [],
       "importance_score": 15,
@@ -5875,11 +5594,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "반도체 호황에 배당도 폭증… SK하이닉스 21배·삼성전자 4.4배",
-          "url": "https://ekn.kr/web/view.php?key=20261122027292954",
-          "source": "ekn.kr",
-          "source_domain": "ekn.kr",
-          "published_at": "2026-11-22T10:00:00+09:00",
+          "title": "SK하이닉스 도 삼성전기도 아니다…개미들이 가장 많이 산 '국내 주식'",
+          "url": "https://wikitree.co.kr/articles/1176765",
+          "source": "wikitree.co.kr",
+          "source_domain": "wikitree.co.kr",
+          "published_at": "2026-11-22T22:26:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5887,15 +5606,15 @@
       ]
     },
     {
-      "cluster_id": "b7acda02d6fd4f55",
+      "cluster_id": "a24219ded4e851d9",
       "company_name": "SK하이닉스",
       "stock_code": "000660",
-      "representative_title": "대기업 영업익 3배 급증에도 기부금 감소...LG생건· SK하이닉스 100억↓",
-      "representative_url": "https://wolyo.co.kr/news/articleView.html?idxno=320861",
-      "representative_source": "wolyo.co.kr",
+      "representative_title": "대기업 영업익 230% 급증에도 기부금은 2%↓... SK하이닉스 도 줄어",
+      "representative_url": "https://efnews.co.kr/news/articleView.html?idxno=134190",
+      "representative_source": "efnews.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-22T00:44:00Z",
-      "last_published_at": "2026-11-22T00:44:00Z",
+      "first_published_at": "2026-11-22T11:38:00Z",
+      "last_published_at": "2026-11-22T11:38:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5903,14 +5622,146 @@
         "naver"
       ],
       "source_domains": [
-        "wolyo.co.kr"
+        "efnews.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "인사·M&A"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "대기업 영업익 230% 급증에도 기부금은 2%↓... SK하이닉스 도 줄어",
+          "url": "https://efnews.co.kr/news/articleView.html?idxno=134190",
+          "source": "efnews.co.kr",
+          "source_domain": "efnews.co.kr",
+          "published_at": "2026-11-22T20:38:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b133dc4740b35936",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 , 키옥시아 주주권 확보…경영권은 별개",
+      "representative_url": "https://the-today.com/news/articleView.html?idxno=93950",
+      "representative_source": "the-today.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T11:36:00Z",
+      "last_published_at": "2026-11-22T11:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "the-today.com"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "SK하이닉스 , 키옥시아 주주권 확보…경영권은 별개",
+          "url": "https://the-today.com/news/articleView.html?idxno=93950",
+          "source": "the-today.com",
+          "source_domain": "the-today.com",
+          "published_at": "2026-11-22T20:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b5fe79bb1c851f50",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "돈 잔치 벌어졌다…삼성전자· SK하이닉스 주주들 웃을 소식",
+      "representative_url": "https://wikitree.co.kr/articles/1176735",
+      "representative_source": "wikitree.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T11:16:00Z",
+      "last_published_at": "2026-11-22T11:16:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "wikitree.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "돈 잔치 벌어졌다…삼성전자· SK하이닉스 주주들 웃을 소식",
+          "url": "https://wikitree.co.kr/articles/1176735",
+          "source": "wikitree.co.kr",
+          "source_domain": "wikitree.co.kr",
+          "published_at": "2026-11-22T20:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "d22fec66a091f44d",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "삼성전자 기부금 203억↑· SK하이닉스 120억↓…반도체 호황에도 차이",
+      "representative_url": "https://inews24.com/view/2028989",
+      "representative_source": "inews24.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T09:36:00Z",
+      "last_published_at": "2026-11-22T09:36:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "inews24.com"
       ],
       "categories": [
         "실적",
         "인사·M&A"
       ],
       "event_keywords": [
-        " 100억"
+        " 120억",
+        " 203억"
       ],
       "importance_score": 15,
       "importance_level": "low",
@@ -5921,11 +5772,65 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "대기업 영업익 3배 급증에도 기부금 감소...LG생건· SK하이닉스 100억↓",
-          "url": "https://wolyo.co.kr/news/articleView.html?idxno=320861",
-          "source": "wolyo.co.kr",
-          "source_domain": "wolyo.co.kr",
-          "published_at": "2026-11-22T09:44:00+09:00",
+          "title": "삼성전자 기부금 203억↑· SK하이닉스 120억↓…반도체 호황에도 차이",
+          "url": "https://inews24.com/view/2028989",
+          "source": "inews24.com",
+          "source_domain": "inews24.com",
+          "published_at": "2026-11-22T18:36:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "f9ad658d7f41ec7d",
+      "company_name": "SK하이닉스",
+      "stock_code": "000660",
+      "representative_title": "SK하이닉스 ·서원대 청년창업 성과 공유",
+      "representative_url": "https://ccdn.co.kr/news/articleView.html?idxno=1112666",
+      "representative_source": "ccdn.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T09:04:00Z",
+      "last_published_at": "2026-11-22T09:16:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "ccdailynews.com",
+        "ccdn.co.kr"
+      ],
+      "categories": [
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": true,
+      "articles": [
+        {
+          "title": "SK하이닉스 ·서원대, 청년창업파크 성과공유회 개최",
+          "url": "https://ccdailynews.com/news/articleView.html?idxno=2452702",
+          "source": "ccdailynews.com",
+          "source_domain": "ccdailynews.com",
+          "published_at": "2026-11-22T18:16:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "SK하이닉스 ·서원대 청년창업 성과 공유",
+          "url": "https://ccdn.co.kr/news/articleView.html?idxno=1112666",
+          "source": "ccdn.co.kr",
+          "source_domain": "ccdn.co.kr",
+          "published_at": "2026-11-22T18:04:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
