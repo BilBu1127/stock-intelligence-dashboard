@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-23T03:42:58.989407Z",
+  "generated_at": "2026-11-23T22:38:02.482812Z",
   "company_name": "원익IPS",
   "stock_code": "240810",
-  "status": "ok",
-  "last_successful_update": "2026-11-23T03:42:58.989407Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-23T22:38:02.482812Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "8c02d6d4b1ca415f",
@@ -108,6 +113,51 @@
           "source": "hankyung.com",
           "source_domain": "hankyung.com",
           "published_at": "2026-10-12T08:23:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "4f395e71d6f3e671",
+      "company_name": "원익IPS",
+      "stock_code": "240810",
+      "representative_title": "어플라이드머티어리얼즈·램리서치 13% 급등… 원익IPS ·주성엔지니어링...",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=507255",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-23T20:14:00Z",
+      "last_published_at": "2026-11-23T20:14:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기술·제품",
+        "투자·생산"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "어플라이드머티어리얼즈·램리서치 13% 급등… 원익IPS ·주성엔지니어링...",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=507255",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-11-24T05:14:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -530,52 +580,6 @@
           "source": "widedaily.com",
           "source_domain": "widedaily.com",
           "published_at": "2026-11-11T14:10:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "19c0ca0a3ab25773",
-      "company_name": "원익IPS",
-      "stock_code": "240810",
-      "representative_title": "[특징주] 원익IPS , 3분기 영업이익 증가에 11.54% 오른 7만6,300원…전망치...",
-      "representative_url": "https://namdonews.com/news/articleView.html?idxno=928913",
-      "representative_source": "namdonews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-11T03:36:00Z",
-      "last_published_at": "2026-11-11T03:36:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "namdonews.com"
-      ],
-      "categories": [
-        "실적"
-      ],
-      "event_keywords": [
-        "earnings"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[특징주] 원익IPS , 3분기 영업이익 증가에 11.54% 오른 7만6,300원…전망치...",
-          "url": "https://namdonews.com/news/articleView.html?idxno=928913",
-          "source": "namdonews.com",
-          "source_domain": "namdonews.com",
-          "published_at": "2026-11-11T12:36:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
