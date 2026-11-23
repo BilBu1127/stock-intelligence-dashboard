@@ -1,16 +1,65 @@
 {
-  "generated_at": "2026-11-22T18:29:41.311219Z",
+  "generated_at": "2026-11-23T03:42:58.989407Z",
   "company_name": "에스엔시스",
   "stock_code": "0008Z0",
   "status": "partial",
-  "last_successful_update": "2026-11-22T18:29:41.311219Z",
+  "last_successful_update": "2026-11-23T03:42:58.989407Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
+    {
+      "cluster_id": "7a066f5dfe7ef3bb",
+      "company_name": "에스엔시스",
+      "stock_code": "0008Z0",
+      "representative_title": "신한투자증권 \" 에스엔시스 , 내년 실적 도약 기대\"",
+      "representative_url": "https://jasm.co.kr/news/view/326107?sc=Naver",
+      "representative_source": "jasm.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-22T23:56:00Z",
+      "last_published_at": "2026-11-22T23:56:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "jasm.co.kr"
+      ],
+      "categories": [
+        "실적",
+        "주가·투자의견",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "earnings",
+        "investment"
+      ],
+      "importance_score": 30,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "신한투자증권 \" 에스엔시스 , 내년 실적 도약 기대\"",
+          "url": "https://jasm.co.kr/news/view/326107?sc=Naver",
+          "source": "jasm.co.kr",
+          "source_domain": "jasm.co.kr",
+          "published_at": "2026-11-23T08:56:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
     {
       "cluster_id": "b1573b0bcb120605",
       "company_name": "에스엔시스",
@@ -343,49 +392,6 @@
           "source": "vegannews.co.kr",
           "source_domain": "vegannews.co.kr",
           "published_at": "2026-10-25T11:28:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "6975ebf49c18a538",
-      "company_name": "에스엔시스",
-      "stock_code": "0008Z0",
-      "representative_title": "최시헌 전 대구청장, 에스엔시스 독립이사 재선임",
-      "representative_url": "https://taxtimes.co.kr/news/article.html?no=277434",
-      "representative_source": "taxtimes.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-10-23T02:52:00Z",
-      "last_published_at": "2026-10-23T02:52:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "taxtimes.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "최시헌 전 대구청장, 에스엔시스 독립이사 재선임",
-          "url": "https://taxtimes.co.kr/news/article.html?no=277434",
-          "source": "taxtimes.co.kr",
-          "source_domain": "taxtimes.co.kr",
-          "published_at": "2026-10-23T11:52:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
