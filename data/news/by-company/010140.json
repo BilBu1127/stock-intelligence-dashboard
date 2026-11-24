@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-24T06:57:13.521561Z",
+  "generated_at": "2026-11-24T21:09:57.775794Z",
   "company_name": "삼성중공업",
   "stock_code": "010140",
-  "status": "ok",
-  "last_successful_update": "2026-11-24T06:57:13.521561Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-24T21:09:57.775794Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "bdbe29ea2a9ad4ae",
@@ -3084,6 +3089,55 @@
       ]
     },
     {
+      "cluster_id": "45145e4fbd7c7dcf",
+      "company_name": "삼성중공업",
+      "stock_code": "010140",
+      "representative_title": "삼성중공업 거제조선소에 가스공장 3기…왜 바다에 띄울까",
+      "representative_url": "https://segye.com/newsView/20261124516518?OutUrl=naver",
+      "representative_source": "segye.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-24T08:01:00Z",
+      "last_published_at": "2026-11-24T08:01:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "segye.com"
+      ],
+      "categories": [
+        "공급·규제",
+        "실적",
+        "투자·생산"
+      ],
+      "event_keywords": [
+        "production"
+      ],
+      "importance_score": 35,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5",
+        "중요 사건 신호 +15"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성중공업 거제조선소에 가스공장 3기…왜 바다에 띄울까",
+          "url": "https://segye.com/newsView/20261124516518?OutUrl=naver",
+          "source": "segye.com",
+          "source_domain": "segye.com",
+          "published_at": "2026-11-24T17:01:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "1b8ee66684c94df4",
       "company_name": "삼성중공업",
       "stock_code": "010140",
@@ -3476,72 +3530,6 @@
           "source": "enetnews.co.kr",
           "source_domain": "enetnews.co.kr",
           "published_at": "2026-11-24T06:22:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "5618e0a83591ab53",
-      "company_name": "삼성중공업",
-      "stock_code": "010140",
-      "representative_title": "삼성중공업 , 신임 대표이사에 이왕근 부사장 승진 내정",
-      "representative_url": "https://inthenews.co.kr/news/article.html?no=94881",
-      "representative_source": "inthenews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-23T07:56:00Z",
-      "last_published_at": "2026-11-23T18:56:00Z",
-      "article_count": 3,
-      "domestic_article_count": 3,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "fnnews.com",
-        "inthenews.co.kr",
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "인사·M&A",
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": true,
-      "articles": [
-        {
-          "title": "삼성중공업 , 신임 대표이사 사장에 이왕근 부사장 승진 내정",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=240370",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-11-24T03:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 신임 대표이사에 이왕근 부사장 내정",
-          "url": "https://fnnews.com/news/202611231817200735",
-          "source": "fnnews.com",
-          "source_domain": "fnnews.com",
-          "published_at": "2026-11-23T18:18:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성중공업 , 신임 대표이사에 이왕근 부사장 승진 내정",
-          "url": "https://inthenews.co.kr/news/article.html?no=94881",
-          "source": "inthenews.co.kr",
-          "source_domain": "inthenews.co.kr",
-          "published_at": "2026-11-23T16:56:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
