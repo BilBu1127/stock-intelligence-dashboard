@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-26T05:00:28.516504Z",
+  "generated_at": "2026-11-26T20:09:53.971555Z",
   "company_name": "DL이앤씨",
   "stock_code": "375500",
-  "status": "ok",
-  "last_successful_update": "2026-11-26T05:00:28.516504Z",
-  "errors": [],
+  "status": "partial",
+  "last_successful_update": "2026-11-26T20:09:53.971555Z",
+  "errors": [
+    {
+      "provider": "gdelt",
+      "type": "HTTP429"
+    }
+  ],
   "news": [
     {
       "cluster_id": "61a85b0062f1380f",
@@ -1832,6 +1837,93 @@
       ]
     },
     {
+      "cluster_id": "85cc561321798583",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "DL이앤씨 , 하이엔드 정비시장서 잇단 수주...안전사고 예방도 시험대",
+      "representative_url": "https://hbnpress.com/news/view/1065590826649213",
+      "representative_source": "hbnpress.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-26T06:06:00Z",
+      "last_published_at": "2026-11-26T06:06:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "hbnpress.com"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [],
+      "importance_score": 20,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "핵심 키워드 +5",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "DL이앤씨 , 하이엔드 정비시장서 잇단 수주...안전사고 예방도 시험대",
+          "url": "https://hbnpress.com/news/view/1065590826649213",
+          "source": "hbnpress.com",
+          "source_domain": "hbnpress.com",
+          "published_at": "2026-11-26T15:06:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "b580c862556b793d",
+      "company_name": "DL이앤씨",
+      "stock_code": "375500",
+      "representative_title": "대책은 세웠다는데 현장에선 또 사망… DL이앤씨 안전관리 도마",
+      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=508355",
+      "representative_source": "pinpointnews.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-26T05:20:00Z",
+      "last_published_at": "2026-11-26T05:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "pinpointnews.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "대책은 세웠다는데 현장에선 또 사망… DL이앤씨 안전관리 도마",
+          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=508355",
+          "source": "pinpointnews.co.kr",
+          "source_domain": "pinpointnews.co.kr",
+          "published_at": "2026-11-26T14:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
       "cluster_id": "9c2066c224e44ce6",
       "company_name": "DL이앤씨",
       "stock_code": "375500",
@@ -2185,113 +2277,6 @@
           "source": "smartbizn.com",
           "source_domain": "smartbizn.com",
           "published_at": "2026-11-25T16:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "55c5e5ac687f1ed2",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "[공시] 지엔씨에너지, DL이앤씨 와 394억원 공급계약 체결",
-      "representative_url": "https://g-enews.com/view.php?ud=20261125113913796044093b5d4e_1",
-      "representative_source": "g-enews.com",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-25T04:00:00Z",
-      "last_published_at": "2026-11-25T04:42:00Z",
-      "article_count": 2,
-      "domestic_article_count": 2,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "finomy.com",
-        "g-enews.com"
-      ],
-      "categories": [
-        "공급·규제",
-        "실적"
-      ],
-      "event_keywords": [
-        " 394억",
-        "supply"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[공시]지엔씨에너지, DL이앤씨 와 394억원 규모 발전기 공급계약",
-          "url": "https://finomy.com/news/articleView.html?idxno=267857",
-          "source": "finomy.com",
-          "source_domain": "finomy.com",
-          "published_at": "2026-11-25T13:42:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "[공시] 지엔씨에너지, DL이앤씨 와 394억원 공급계약 체결",
-          "url": "https://g-enews.com/view.php?ud=20261125113913796044093b5d4e_1",
-          "source": "g-enews.com",
-          "source_domain": "g-enews.com",
-          "published_at": "2026-11-25T13:00:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f67c347c3b326333",
-      "company_name": "DL이앤씨",
-      "stock_code": "375500",
-      "representative_title": "DL이앤씨 , 민자도로 투자자산 417억원에 매각…2015년 회수 약정 이행",
-      "representative_url": "https://sateconomy.co.kr/news/view/1065578865679484",
-      "representative_source": "sateconomy.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-25T02:46:00Z",
-      "last_published_at": "2026-11-25T02:46:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "sateconomy.co.kr"
-      ],
-      "categories": [
-        "공급·규제",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 417억",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "DL이앤씨 , 민자도로 투자자산 417억원에 매각…2015년 회수 약정 이행",
-          "url": "https://sateconomy.co.kr/news/view/1065578865679484",
-          "source": "sateconomy.co.kr",
-          "source_domain": "sateconomy.co.kr",
-          "published_at": "2026-11-25T11:46:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
