@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T05:01:19.086639Z",
+  "generated_at": "2026-11-27T19:56:34.744227Z",
   "company_name": "삼성전자",
   "stock_code": "005930",
   "status": "partial",
-  "last_successful_update": "2026-11-27T05:01:19.086639Z",
+  "last_successful_update": "2026-11-27T19:56:34.744227Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -5427,41 +5427,135 @@
       ]
     },
     {
-      "cluster_id": "59541ecda686a828",
+      "cluster_id": "21181cdbbdaa44f5",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "“ 삼성전자 역대급 배당” 회장님도 4488억",
-      "representative_url": "https://magazine.hankyung.com/business/article/202611274580b",
-      "representative_source": "magazine.hankyung.com",
+      "representative_title": "삼성전자 , 오늘 30조원 배당금 푼다…100주면 39만원인데 이재용 회장은...",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=567240",
+      "representative_source": "joongangenews.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-27T03:08:00Z",
-      "last_published_at": "2026-11-27T04:58:00Z",
-      "article_count": 8,
-      "domestic_article_count": 8,
+      "first_published_at": "2026-11-27T07:30:00Z",
+      "last_published_at": "2026-11-27T15:35:00Z",
+      "article_count": 2,
+      "domestic_article_count": 2,
       "international_article_count": 0,
       "providers": [
         "naver"
       ],
       "source_domains": [
-        "daejonilbo.com",
-        "ebn.co.kr",
-        "insight.co.kr",
-        "it.chosun.com",
-        "magazine.hankyung.com",
-        "mediafine.co.kr",
-        "newspim.com",
-        "seoul.co.kr"
+        "chosun.com",
+        "joongangenews.com"
       ],
       "categories": [
-        "기타",
+        "기술·제품",
+        "실적",
         "투자·생산"
       ],
       "event_keywords": [
-        " 1조",
         " 30조",
-        " 4488억",
+        " 4500억",
+        " 5조",
         "executive"
       ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 , 30조 역대급 배당… 개미들에 5조, 회장님엔 4500억",
+          "url": "https://chosun.com/economy/tech_it/2026/11/28/WMSXXQPBVNGNZJDXRMOXCDTIHI",
+          "source": "chosun.com",
+          "source_domain": "chosun.com",
+          "published_at": "2026-11-28T00:35:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        },
+        {
+          "title": "삼성전자 , 오늘 30조원 배당금 푼다…100주면 39만원인데 이재용 회장은...",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=567240",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-11-27T16:30:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "aa2247994439ea72",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 배당금 약 30조원 지급…주가도 4.55% 올라",
+      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=631470",
+      "representative_source": "cbci.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T15:20:00Z",
+      "last_published_at": "2026-11-27T15:20:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "cbci.co.kr"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [
+        " 30조"
+      ],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 배당금 약 30조원 지급…주가도 4.55% 올라",
+          "url": "https://cbci.co.kr/news/articleView.html?idxno=631470",
+          "source": "cbci.co.kr",
+          "source_domain": "cbci.co.kr",
+          "published_at": "2026-11-28T00:20:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "241855169dc3b390",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "엑시콘, 반도체 검사장비 국책과제 특허 삼성전자 와 공유",
+      "representative_url": "https://zdnet.co.kr/view?no=20261127221442",
+      "representative_source": "zdnet.co.kr",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T13:15:00Z",
+      "last_published_at": "2026-11-27T13:15:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "zdnet.co.kr"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [],
       "importance_score": 35,
       "importance_level": "low",
       "scoring_reasons": [
@@ -5472,81 +5566,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "이재용 회장, 삼성전자 배당으로 하루 4488억...연간 1조 넘길까",
-          "url": "https://insight.co.kr/news/583862",
-          "source": "insight.co.kr",
-          "source_domain": "insight.co.kr",
-          "published_at": "2026-11-27T13:58:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 사상 최대 30조원 배당금 지급-이재용 회장 4488억원 수령",
-          "url": "https://mediafine.co.kr/news/articleView.html?idxno=96084",
-          "source": "mediafine.co.kr",
-          "source_domain": "mediafine.co.kr",
-          "published_at": "2026-11-27T13:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 '30조 배당 보따리' 풀었다…이재용 회장 4488억 수령",
-          "url": "https://ebn.co.kr/news/articleView.html?idxno=1733229",
-          "source": "ebn.co.kr",
-          "source_domain": "ebn.co.kr",
-          "published_at": "2026-11-27T13:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 역대 최대 30조 원 배당… 이재용도 4488억 원 받는다",
-          "url": "https://daejonilbo.com/news/articleView.html?idxno=2316762",
-          "source": "daejonilbo.com",
-          "source_domain": "daejonilbo.com",
-          "published_at": "2026-11-27T13:40:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 사상 최대 30조 배당…이재용도 4488억 받는다",
-          "url": "https://it.chosun.com/news/articleView.html?idxno=3000000002001",
-          "source": "it.chosun.com",
-          "source_domain": "it.chosun.com",
-          "published_at": "2026-11-27T13:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "“ 삼성전자 역대급 배당” 회장님도 4488억",
-          "url": "https://magazine.hankyung.com/business/article/202611274580b",
-          "source": "magazine.hankyung.com",
-          "source_domain": "magazine.hankyung.com",
-          "published_at": "2026-11-27T13:19:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 오늘 역대 최대 30조 배당금 지급…이재용 4488억원",
-          "url": "https://seoul.co.kr/news/economy/industry/2026/11/27/20261127500134?wlog_tag3=naver",
-          "source": "seoul.co.kr",
-          "source_domain": "seoul.co.kr",
-          "published_at": "2026-11-27T12:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "이재용 회장 '4488억원'… 삼성전자 30조원 푼다",
-          "url": "https://newspim.com/news/view/20261127000678",
-          "source": "newspim.com",
-          "source_domain": "newspim.com",
-          "published_at": "2026-11-27T12:08:00+09:00",
+          "title": "엑시콘, 반도체 검사장비 국책과제 특허 삼성전자 와 공유",
+          "url": "https://zdnet.co.kr/view?no=20261127221442",
+          "source": "zdnet.co.kr",
+          "source_domain": "zdnet.co.kr",
+          "published_at": "2026-11-27T22:15:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5554,96 +5578,15 @@
       ]
     },
     {
-      "cluster_id": "36e0fe62263a8697",
+      "cluster_id": "c12d0c22948d26a6",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 30조원 규모 배당 실시…1000주 보유 시 세후 389만원",
-      "representative_url": "https://jemin.com/news/articleView.html?idxno=848658",
-      "representative_source": "jemin.com",
+      "representative_title": "삼성전자 3분기 배당금 지급, 이재용 회장 4000억원 받아",
+      "representative_url": "https://joongang.co.kr/article/25482657",
+      "representative_source": "joongang.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:32:00Z",
-      "last_published_at": "2026-11-27T04:57:00Z",
-      "article_count": 4,
-      "domestic_article_count": 4,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "beyondpost.co.kr",
-        "ikbc.co.kr",
-        "jemin.com",
-        "viva100.com"
-      ],
-      "categories": [
-        "기타",
-        "주가·투자의견",
-        "투자·생산"
-      ],
-      "event_keywords": [
-        " 30조",
-        "shareholder_message"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , '30조' 역대급 배당...100주 보유하면 39만 원",
-          "url": "https://ikbc.co.kr/article/view/kbc202611270044",
-          "source": "ikbc.co.kr",
-          "source_domain": "ikbc.co.kr",
-          "published_at": "2026-11-27T13:57:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 오늘 30조원 규모 배당금 지급...100주 보유자 약 39만원 현금...",
-          "url": "https://beyondpost.co.kr/view.php?ud=202611271343486222aaae0046f_30",
-          "source": "beyondpost.co.kr",
-          "source_domain": "beyondpost.co.kr",
-          "published_at": "2026-11-27T13:50:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 오늘 30조원 배당⋯100주 보유하면 세후 39만원",
-          "url": "https://viva100.com/article/20261127500389",
-          "source": "viva100.com",
-          "source_domain": "viva100.com",
-          "published_at": "2026-11-27T13:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        },
-        {
-          "title": "삼성전자 , 30조원 규모 배당 실시…1000주 보유 시 세후 389만원",
-          "url": "https://jemin.com/news/articleView.html?idxno=848658",
-          "source": "jemin.com",
-          "source_domain": "jemin.com",
-          "published_at": "2026-11-27T13:32:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "2819033607a2647d",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 우 5.11% 올라…분기배당 지급 예정일에 14만4000원",
-      "representative_url": "https://job-post.co.kr/news/articleView.html?idxno=241477",
-      "representative_source": "job-post.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:54:00Z",
-      "last_published_at": "2026-11-27T04:54:00Z",
+      "first_published_at": "2026-11-27T12:51:00Z",
+      "last_published_at": "2026-11-27T12:51:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5651,102 +5594,13 @@
         "naver"
       ],
       "source_domains": [
-        "job-post.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 우 5.11% 올라…분기배당 지급 예정일에 14만4000원",
-          "url": "https://job-post.co.kr/news/articleView.html?idxno=241477",
-          "source": "job-post.co.kr",
-          "source_domain": "job-post.co.kr",
-          "published_at": "2026-11-27T13:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "f6441734148855a6",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 배당금 지급일…SK하이닉스와 1억원 투자 수익률 비교",
-      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16287822",
-      "representative_source": "topstarnews.net",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:54:00Z",
-      "last_published_at": "2026-11-27T04:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "topstarnews.net"
+        "joongang.co.kr"
       ],
       "categories": [
         "투자·생산"
       ],
       "event_keywords": [
-        " 1억",
-        "investment"
-      ],
-      "importance_score": 30,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5",
-        "중요 사건 신호 +15"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 배당금 지급일…SK하이닉스와 1억원 투자 수익률 비교",
-          "url": "https://topstarnews.net/news/articleView.html?idxno=16287822",
-          "source": "topstarnews.net",
-          "source_domain": "topstarnews.net",
-          "published_at": "2026-11-27T13:54:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "ccb76e343b50742b",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "오늘 삼성전자 배당금 입금…이재용 회장 등 얼마 받을까",
-      "representative_url": "https://jasm.co.kr/news/view/326698?sc=Naver",
-      "representative_source": "jasm.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:54:00Z",
-      "last_published_at": "2026-11-27T04:54:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "jasm.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
+        " 4000억",
         "executive"
       ],
       "importance_score": 15,
@@ -5758,11 +5612,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "오늘 삼성전자 배당금 입금…이재용 회장 등 얼마 받을까",
-          "url": "https://jasm.co.kr/news/view/326698?sc=Naver",
-          "source": "jasm.co.kr",
-          "source_domain": "jasm.co.kr",
-          "published_at": "2026-11-27T13:54:00+09:00",
+          "title": "삼성전자 3분기 배당금 지급, 이재용 회장 4000억원 받아",
+          "url": "https://joongang.co.kr/article/25482657",
+          "source": "joongang.co.kr",
+          "source_domain": "joongang.co.kr",
+          "published_at": "2026-11-27T21:51:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5770,15 +5624,15 @@
       ]
     },
     {
-      "cluster_id": "15152b77dac58488",
+      "cluster_id": "0d4c55c747db3065",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , M&A 전담조직 신설…미래 성장동력 확보 힘 싣는다",
-      "representative_url": "https://jasm.co.kr/news/view/326706?sc=Naver",
-      "representative_source": "jasm.co.kr",
+      "representative_title": "삼성전자 배당금, '오늘 입금'…이재용 4500억원 받았다",
+      "representative_url": "https://news.tvchosun.com/site/data/html_dir/2026/11/27/2026112790270.html",
+      "representative_source": "news.tvchosun.com",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:38:00Z",
-      "last_published_at": "2026-11-27T04:38:00Z",
+      "first_published_at": "2026-11-27T12:21:00Z",
+      "last_published_at": "2026-11-27T12:21:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5786,30 +5640,163 @@
         "naver"
       ],
       "source_domains": [
-        "jasm.co.kr"
+        "news.tvchosun.com"
       ],
       "categories": [
-        "기술·제품",
-        "인사·M&A"
+        "주가·투자의견",
+        "투자·생산"
       ],
       "event_keywords": [
-        "m_and_a"
+        " 4500억"
       ],
-      "importance_score": 30,
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 배당금, '오늘 입금'…이재용 4500억원 받았다",
+          "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/27/2026112790270.html",
+          "source": "news.tvchosun.com",
+          "source_domain": "news.tvchosun.com",
+          "published_at": "2026-11-27T21:21:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "0e83a2c09868ed0a",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 ·SK하이닉스 거래대금 5.8조…비중 47%대",
+      "representative_url": "https://kjdaily.com/article.php?aid=1795780219693755276",
+      "representative_source": "kjdaily.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T11:52:00Z",
+      "last_published_at": "2026-11-27T11:52:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "kjdaily.com"
+      ],
+      "categories": [
+        "기타"
+      ],
+      "event_keywords": [
+        " 8조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 ·SK하이닉스 거래대금 5.8조…비중 47%대",
+          "url": "https://kjdaily.com/article.php?aid=1795780219693755276",
+          "source": "kjdaily.com",
+          "source_domain": "kjdaily.com",
+          "published_at": "2026-11-27T20:52:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "dae39f8f070c04b9",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "삼성전자 30조 원 '역대급 배당'‥초호황에도 마냥 못 웃는 한국",
+      "representative_url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6869186_37004.html",
+      "representative_source": "imnews.imbc.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T10:54:00Z",
+      "last_published_at": "2026-11-27T10:54:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "imnews.imbc.com"
+      ],
+      "categories": [
+        "실적"
+      ],
+      "event_keywords": [
+        " 30조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "삼성전자 30조 원 '역대급 배당'‥초호황에도 마냥 못 웃는 한국",
+          "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6869186_37004.html",
+          "source": "imnews.imbc.com",
+          "source_domain": "imnews.imbc.com",
+          "published_at": "2026-11-27T19:54:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "2e8de5dc8946b197",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "SK하이닉스· 삼성전자 공매도 집중…레인보우로보틱스 급등에도 공매도...",
+      "representative_url": "https://topstarnews.net/news/articleView.html?idxno=16288072",
+      "representative_source": "topstarnews.net",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T10:18:00Z",
+      "last_published_at": "2026-11-27T10:18:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "topstarnews.net"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
       "importance_level": "low",
       "scoring_reasons": [
         "회사명이 제목에 정확히 등장 +10",
         "최근 24시간 +5",
-        "중요 사건 신호 +15"
+        "단순 주가·종목 추천 -25"
       ],
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , M&A 전담조직 신설…미래 성장동력 확보 힘 싣는다",
-          "url": "https://jasm.co.kr/news/view/326706?sc=Naver",
-          "source": "jasm.co.kr",
-          "source_domain": "jasm.co.kr",
-          "published_at": "2026-11-27T13:38:00+09:00",
+          "title": "SK하이닉스· 삼성전자 공매도 집중…레인보우로보틱스 급등에도 공매도...",
+          "url": "https://topstarnews.net/news/articleView.html?idxno=16288072",
+          "source": "topstarnews.net",
+          "source_domain": "topstarnews.net",
+          "published_at": "2026-11-27T19:18:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -5817,15 +5804,15 @@
       ]
     },
     {
-      "cluster_id": "13ccb5a0d42ce598",
+      "cluster_id": "b29495b40193885a",
       "company_name": "삼성전자",
       "stock_code": "005930",
-      "representative_title": "삼성전자 , 사상 최대 30조원 배당금 지급…주당 4601원",
-      "representative_url": "https://econonews.co.kr/news/articleView.html?idxno=447831",
-      "representative_source": "econonews.co.kr",
+      "representative_title": "'12배 더 꽂혔다' 삼성전자 30조 배당 잔치…'K-반도체' 쟁탈전에 일론 ...",
+      "representative_url": "https://mbn.co.kr/pages/news/newsView.php?news_seq_no=5233355",
+      "representative_source": "mbn.co.kr",
       "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:36:00Z",
-      "last_published_at": "2026-11-27T04:36:00Z",
+      "first_published_at": "2026-11-27T10:05:00Z",
+      "last_published_at": "2026-11-27T10:05:00Z",
       "article_count": 1,
       "domestic_article_count": 1,
       "international_article_count": 0,
@@ -5833,7 +5820,52 @@
         "naver"
       ],
       "source_domains": [
-        "econonews.co.kr"
+        "mbn.co.kr"
+      ],
+      "categories": [
+        "인사·M&A"
+      ],
+      "event_keywords": [
+        " 30조"
+      ],
+      "importance_score": 15,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "'12배 더 꽂혔다' 삼성전자 30조 배당 잔치…'K-반도체' 쟁탈전에 일론 ...",
+          "url": "https://mbn.co.kr/pages/news/newsView.php?news_seq_no=5233355",
+          "source": "mbn.co.kr",
+          "source_domain": "mbn.co.kr",
+          "published_at": "2026-11-27T19:05:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "3a1edf50da893772",
+      "company_name": "삼성전자",
+      "stock_code": "005930",
+      "representative_title": "[더나은미래 경제브리핑] 삼성전자 30조 ‘역대 최대’ 배당, 추가 주주...",
+      "representative_url": "https://futurechosun.com/?p=167910",
+      "representative_source": "futurechosun.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-27T09:58:00Z",
+      "last_published_at": "2026-11-27T09:58:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "futurechosun.com"
       ],
       "categories": [
         "기타"
@@ -5850,142 +5882,11 @@
       "needs_review": false,
       "articles": [
         {
-          "title": "삼성전자 , 사상 최대 30조원 배당금 지급…주당 4601원",
-          "url": "https://econonews.co.kr/news/articleView.html?idxno=447831",
-          "source": "econonews.co.kr",
-          "source_domain": "econonews.co.kr",
-          "published_at": "2026-11-27T13:36:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "502b09663d8b7a0e",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 , 사람과 환경을 잇는 지속가능경영",
-      "representative_url": "https://womennews.co.kr/news/articleView.html?idxno=284581",
-      "representative_source": "womennews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:33:00Z",
-      "last_published_at": "2026-11-27T04:33:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "womennews.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 , 사람과 환경을 잇는 지속가능경영",
-          "url": "https://womennews.co.kr/news/articleView.html?idxno=284581",
-          "source": "womennews.co.kr",
-          "source_domain": "womennews.co.kr",
-          "published_at": "2026-11-27T13:33:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "e85fe343b53b6098",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 휴머노이드 공개 임박했나…두산로보틱스·로봇 부품주에 돈 ...",
-      "representative_url": "https://pinpointnews.co.kr/news/articleView.html?idxno=508828",
-      "representative_source": "pinpointnews.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:20:00Z",
-      "last_published_at": "2026-11-27T04:20:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "pinpointnews.co.kr"
-      ],
-      "categories": [
-        "투자·생산"
-      ],
-      "event_keywords": [],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 휴머노이드 공개 임박했나…두산로보틱스·로봇 부품주에 돈 ...",
-          "url": "https://pinpointnews.co.kr/news/articleView.html?idxno=508828",
-          "source": "pinpointnews.co.kr",
-          "source_domain": "pinpointnews.co.kr",
-          "published_at": "2026-11-27T13:20:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "21d6c191cd50902c",
-      "company_name": "삼성전자",
-      "stock_code": "005930",
-      "representative_title": "삼성전자 '역대 최대' 30조 배당…이재용, 얼마 받았을까",
-      "representative_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02233686645649984",
-      "representative_source": "edaily.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-27T04:04:00Z",
-      "last_published_at": "2026-11-27T04:04:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "edaily.co.kr"
-      ],
-      "categories": [
-        "기타"
-      ],
-      "event_keywords": [
-        " 30조"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "삼성전자 '역대 최대' 30조 배당…이재용, 얼마 받았을까",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02233686645649984",
-          "source": "edaily.co.kr",
-          "source_domain": "edaily.co.kr",
-          "published_at": "2026-11-27T13:04:00+09:00",
+          "title": "[더나은미래 경제브리핑] 삼성전자 30조 ‘역대 최대’ 배당, 추가 주주...",
+          "url": "https://futurechosun.com/?p=167910",
+          "source": "futurechosun.com",
+          "source_domain": "futurechosun.com",
+          "published_at": "2026-11-27T18:58:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
