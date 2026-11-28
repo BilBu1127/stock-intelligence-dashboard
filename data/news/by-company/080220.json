@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-27T19:56:34.744227Z",
+  "generated_at": "2026-11-28T04:43:50.890181Z",
   "company_name": "제주반도체",
   "stock_code": "080220",
   "status": "partial",
-  "last_successful_update": "2026-11-27T19:56:34.744227Z",
+  "last_successful_update": "2026-11-28T04:43:50.890181Z",
   "errors": [
     {
       "provider": "gdelt",
-      "type": "HTTP429"
+      "type": "JSONDecodeError"
     }
   ],
   "news": [
@@ -53,6 +53,50 @@
           "source": "thebell.co.kr",
           "source_domain": "thebell.co.kr",
           "published_at": "2026-10-22T07:02:00+09:00",
+          "language": "Korean",
+          "region": "domestic",
+          "provider": "NAVER"
+        }
+      ]
+    },
+    {
+      "cluster_id": "06a86c7794759e06",
+      "company_name": "제주반도체",
+      "stock_code": "080220",
+      "representative_title": "제주반도체 주가 5거래일간 변동성 속 강한 반등",
+      "representative_url": "https://joongangenews.com/news/articleView.html?idxno=567323",
+      "representative_source": "joongangenews.com",
+      "representative_language": "Korean",
+      "first_published_at": "2026-11-28T02:22:00Z",
+      "last_published_at": "2026-11-28T02:22:00Z",
+      "article_count": 1,
+      "domestic_article_count": 1,
+      "international_article_count": 0,
+      "providers": [
+        "naver"
+      ],
+      "source_domains": [
+        "joongangenews.com"
+      ],
+      "categories": [
+        "주가·투자의견"
+      ],
+      "event_keywords": [],
+      "importance_score": 0,
+      "importance_level": "low",
+      "scoring_reasons": [
+        "회사명이 제목에 정확히 등장 +10",
+        "최근 24시간 +5",
+        "단순 주가·종목 추천 -25"
+      ],
+      "needs_review": false,
+      "articles": [
+        {
+          "title": "제주반도체 주가 5거래일간 변동성 속 강한 반등",
+          "url": "https://joongangenews.com/news/articleView.html?idxno=567323",
+          "source": "joongangenews.com",
+          "source_domain": "joongangenews.com",
+          "published_at": "2026-11-28T11:22:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
@@ -445,51 +489,6 @@
           "source": "joongangenews.com",
           "source_domain": "joongangenews.com",
           "published_at": "2026-11-20T16:56:00+09:00",
-          "language": "Korean",
-          "region": "domestic",
-          "provider": "NAVER"
-        }
-      ]
-    },
-    {
-      "cluster_id": "1526c4f8607c827f",
-      "company_name": "제주반도체",
-      "stock_code": "080220",
-      "representative_title": "[속보] 제주반도체 , 베트남 반도체 후공정 법인 설립에 259억5645만원 출...",
-      "representative_url": "https://cbci.co.kr/news/articleView.html?idxno=629154",
-      "representative_source": "cbci.co.kr",
-      "representative_language": "Korean",
-      "first_published_at": "2026-11-20T07:32:00Z",
-      "last_published_at": "2026-11-20T07:32:00Z",
-      "article_count": 1,
-      "domestic_article_count": 1,
-      "international_article_count": 0,
-      "providers": [
-        "naver"
-      ],
-      "source_domains": [
-        "cbci.co.kr"
-      ],
-      "categories": [
-        "기술·제품"
-      ],
-      "event_keywords": [
-        " 259억"
-      ],
-      "importance_score": 15,
-      "importance_level": "low",
-      "scoring_reasons": [
-        "회사명이 제목에 정확히 등장 +10",
-        "최근 24시간 +5"
-      ],
-      "needs_review": false,
-      "articles": [
-        {
-          "title": "[속보] 제주반도체 , 베트남 반도체 후공정 법인 설립에 259억5645만원 출...",
-          "url": "https://cbci.co.kr/news/articleView.html?idxno=629154",
-          "source": "cbci.co.kr",
-          "source_domain": "cbci.co.kr",
-          "published_at": "2026-11-20T16:32:00+09:00",
           "language": "Korean",
           "region": "domestic",
           "provider": "NAVER"
